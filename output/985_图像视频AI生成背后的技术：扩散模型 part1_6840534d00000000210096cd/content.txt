@@ -1,0 +1,10 @@
+图像视频AI生成背后的技术：扩散模型 part1
+
+扩散模型是一项关键的创新，对机器学习的多个领域都有深远的影响，是OpenAI的DALL-E和Sora， b谷歌的Imagen， Stable Diffusion， Midjourney等背后的技术。最初是为图像生成而开发的，随着NVIDIA的Cosmos， Physical Intelligence的Pi Zero，谷歌的Veo等最近发布的版本使用相同的扩散原理，它们似乎越来越重要。
+来源：@depth-first
+配字幕翻译：William Xiao
+	
+#大模型[话题]# #人工智能发展[话题]# #扩散模型[话题]# #diffusion_model[话题]#
+
+
+标签: #大模型 #人工智能发展 #扩散模型 #diffusion_model

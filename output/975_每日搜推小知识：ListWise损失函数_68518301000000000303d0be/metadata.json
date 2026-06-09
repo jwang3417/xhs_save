@@ -1,0 +1,24 @@
+{
+  "id": "68518301000000000303d0be",
+  "type": "normal",
+  "title": "每日搜推小知识：ListWise损失函数",
+  "desc": "ListWise的输入输出分析: 候选item的序列+用户特征=>候选序列中各个item的打分🧐\n\t\n🔎其相对于point-wise，pair-wise来说，考虑了候选序列中各个item的交互，并输出候选序列各个item的打分，最终按照序列item打分进行排序，输出最终序列\n\t\n🙇在ListWise排序方法中损失函数常用Top One Probability概率模型进行建模，其建模的是序列中每个item排在首位的概率\n\t\n🥷 相对于Permutation Probability概率模型，其时间复杂度更低为O(n)。相对于Likelihood Loss，其更适用于搜推场景，因为搜推场景中例如CTR，CVR的真实标签都是非0即1，很难获取到更细粒度的相关度打分表示不同的级别。\n\t\n🎓对于这些损失函数想了解的更多可以参考论文：ListNet, ListMLE\n﻿#大厂算法工程师[话题]#﻿ ﻿#推荐算法[话题]#﻿ ﻿#论文分享[话题]#﻿",
+  "tags": [
+    "大厂算法工程师",
+    "推荐算法",
+    "论文分享"
+  ],
+  "author": "超级无敌喵星人",
+  "authorId": "5d25a30d0000000016016db5",
+  "time": 1750212096000,
+  "ipLocation": "",
+  "likes": "42",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091342/260daa9e2e6d836351aadb29ef3be145/spectrum/1040g34o31iq15hl5gs105n95kc6lirdlmr26omo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/f3671505f3f5ef6262fefc87e685fd92/spectrum/1040g34o31ir9clcs0o105n95kc6lirdlgpgiing!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/4b3ca8c03fde151f25de20e87510bf4f/spectrum/1040g0k031ir9cn820s005n95kc6lirdl2ec0a88!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/73890cd6daa189ed6c4423b2f692a5de/spectrum/1040g0k031ir9cpkbgm005n95kc6lirdll2e7ra8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68518301000000000303d0be?xsec_token=ABI-G0ZedHVTjbRf5BNOEJOzwmuYMZ_zt-ueWQLchn_Ms=&xsec_source=pc_collect"
+}

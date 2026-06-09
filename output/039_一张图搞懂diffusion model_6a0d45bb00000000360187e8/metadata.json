@@ -1,0 +1,23 @@
+{
+  "id": "6a0d45bb00000000360187e8",
+  "type": "normal",
+  "title": "一张图搞懂diffusion model",
+  "desc": "💡一句话总结：\n先学「怎么把清晰图片加噪变糊」，再练「怎么从纯噪声里一步步把图还原出来」。\n就像AI在玩“大家来找茬”，训练时记住噪声规律，生成时就能把“雪花屏”变回清晰画面。\n🎯关键知识点划重点：\n✅ 正向扩散：给图片一步步加噪，直到变成纯噪声\n✅ 反向扩散：模型学习去噪，从噪声还原成图像\n✅ 文生图：用文本引导模型“按指令去噪”，生成对应内容\n✅ 不止能画图！视频、3D模型、音频修复都靠它\n终于不用对着公式啃原理了！这张图建议收藏反复看，再也不怕被问AI绘画底层逻辑了～\n#AI绘画[话题]# #扩散模型[话题]# #深度学习入门[话题]# #stable[话题]# diffusion #AI科普[话题]#",
+  "tags": [
+    "AI绘画",
+    "扩散模型",
+    "深度学习入门",
+    "stable",
+    "AI科普"
+  ],
+  "author": "深度碎碎念",
+  "authorId": "64f34b710000000005003e3d",
+  "time": 1779254715000,
+  "ipLocation": "北京",
+  "likes": "124",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090704/01bf0d004f7956821b624bef9eb0638c/notes_pre_post/1040g3k0320ckvijv5m6g5p7j9doh8fhtjacce9g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a0d45bb00000000360187e8?xsec_token=ABKb6J5epqAybGAcu04rGsmL0PzV9FjxVFM667PcNt_fM=&xsec_source=pc_collect"
+}

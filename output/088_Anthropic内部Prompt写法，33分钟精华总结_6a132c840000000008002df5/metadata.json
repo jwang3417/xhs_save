@@ -1,0 +1,25 @@
+{
+  "id": "6a132c840000000008002df5",
+  "type": "video",
+  "title": "Anthropic内部Prompt写法，33分钟精华总结",
+  "desc": "Anthropic团队内部流出的33分钟技术实战分享\n教你如何跟Claude对话\n❌ 错误示范： \"帮我写份报告，要专业一点，IMPORTANT，CRITICAL，不要写太水...\"\n回车→等待→得到一份看起来还行、细看全是废话的文档\n然后你加更多形容词，再强调一遍\"非常重要\" 结果还是不行🤦‍♀️\n\t\n这不是AI不聪明，是你根本没告诉它\"怎么聪明\"\n33分钟课程总结成了一个可直接套用的四层结构：\n第1️⃣层：让AI读得懂\n不是把话写长，是把结构写清！\n✓ 用XML标签隔离信息（ ）\n✓ 长文档放顶部，问题放底部（免费提升30%质量！）\n✓ 每月清理一次\"补丁指令\"，别让它变噪音森林\n\t\n第2️⃣层：给AI靶心\n✓ 给角色（System里放人设）\n✓ 给示例（1个input/output示例 > 50行形容词）\n✓ 让它先思考再回答（标签防幻觉神器）\n\t\n第3️⃣层：给AI能力（不是给指令！）\n这是我踩过最大的坑⚠️\n\"CRITICAL：务必计算准确\"——喊再大声也没用！\n数学不好是能力问题，不是态度问题。\n\t\n解决方案：给工具（计算器/代码解释器），而不是更好的句子。\n\t\n第4️⃣层：证明它有效\n✓ 搭建5个测试用例（控制/边缘/边界）\n✓ 每次改Prompt跑一遍，别靠\"感觉\"\n✓ 清理旧补丁：半年前的\"安全指令\"可能已经变成毒药\n\t\n💡 一个对比：\n❌ 单一对话：\"帮我写周报，要写得好一点专业一点IMPORTANT...\" → 得到流水账\n✅ 四层结构：角色+上下文+任务+格式+思考步骤 → 结构清晰、数据驱动、直接可用\n#Prompt工程[话题]#  #AI提示词[话题]#  #效率工具[话题]#  #Claude[话题]#  #ChatGPT技巧[话题]#  #打工人效率[话题]# #ClaudeCode[话题]# #",
+  "tags": [
+    "Prompt工程",
+    "AI提示词",
+    "效率工具",
+    "Claude",
+    "ChatGPT技巧",
+    "打工人效率",
+    "ClaudeCode"
+  ],
+  "author": "巴赞的异托邦",
+  "authorId": "63a40e070000000026004546",
+  "time": 1779665413000,
+  "ipLocation": "上海",
+  "likes": "21.5K",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090710/8d38685d1f83481239451aedad43d045/spectrum/1040g34o320iderhp5e105ot41o3pgha6o9069g0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01ea132bdc1354df010370039e5af520af_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a132c840000000008002df5?xsec_token=ABDGCdx6varyOcCr9UaIA_1pwfVDmiqCHjOngY3dym6Iw=&xsec_source=pc_collect"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "678722bc00000000160200ab",
+  "type": "normal",
+  "title": "多模态大模型Valley2，科研er的新宠✨",
+  "desc": "家人们，搞科研或者关注人工智能领域的肯定得知道Valley2 ，这是一款相当出色的多模态大型语言模型。\n\t\nValley2有着独特的设计思路，通过可扩展的视觉-语言架构，让其在众多领域都能发挥优势。尤其是在电商和短视频领域，极大地拓宽了应用边界，取得了领先的成绩。\n\t\n它的创新性体现在多个方面。大视觉词汇的引入，如同为模型配备了一本巨型“视觉词典”，使其对各类视觉信息的理解更加精准 。卷积适配器（ConvAdapter）则让模型处理不同类型输入时更加得心应手，大大提升了灵活性。而Eagle模块通过增添额外的视觉编码器，减少了信息的失真，即便是面对复杂、特殊的输入，也能从容应对。\n\t\n从技术架构来看，Valley2以Qwen2.5作为LLM主干，这是整个模型稳定运行的“骨架”，以SigLIP - 384作为视觉编码器，负责高效处理视觉信息。在特征转换上，它巧妙地将MLP层和卷积相结合，实现了高效的信息处理。在projector部分，采用带有大型隐藏层MLP的设计，并使用轻量级的ConvAdapter替代原来的PixelShuffle方法，有效提升了模型的运行效率。\n\t\n在数据方面，Valley2的数据来源丰富且精准。有用于多模态模型各阶段训练的OneVision风格数据，有针对电商和短视频领域专门定制的数据及评估数据，还有用于攻克复杂问题的链式思维（CoT）数据。\n\t\n其训练过程科学严谨，分为四个阶段：从文本 - 视觉对齐，让模型建立起文本与视觉信息的关联；到高质量知识学习，充实模型的知识储备；再到指令微调，使其更好地满足用户需求；最后是链式思维后训练，提升解决复杂问题的能力。\n\t\n经过多轮严格测试，Valley2在多个公开基准测试中成绩斐然。在MMBench、MMStar、MathVista等测试中均斩获高分，在Ecom - VQA测试中，更是力压同规模的其他模型。\n\t\n在我看来，Valley2为多模态模型的发展注入了新的活力，提供了新的发展思路。相信在不久的将来，它会在更多领域绽放光彩。对这方面感兴趣的小伙伴，赶紧深入研究起来吧！\n#科研前沿[话题]# #大模型[话题]#  #多模态[话题]# #电商[话题]# #每日论文[话题]#",
+  "tags": [
+    "科研前沿",
+    "大模型",
+    "多模态",
+    "电商",
+    "每日论文"
+  ],
+  "author": "翻身AI挖掘机",
+  "authorId": "66c7ebb4000000001d031449",
+  "time": 1736909500000,
+  "ipLocation": "",
+  "likes": "37",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091344/84c8e0e15830acc2e536e13b723bd6c2/1040g2sg31cll7e9l10d05pm7teq7e529u72b5n8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091344/8a9dc6ec66bd9a156ddcaa78acdfd556/1040g2sg31cll7e9q0u505pm7teq7e529qc41rb0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091344/965dfc9ab2b6c37a76f78bb2e7d69751/1040g2sg31cll7e9q0k605pm7teq7e529lg7bulg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091344/8ca3a4652cfc95deadef922e46305b3b/1040g2sg31cll7eb1gse05pm7teq7e52904vk700!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/678722bc00000000160200ab?xsec_token=AB7hEzjtHTxQSvoZ7RzYD81ciQ9dYFVbUE4A1jVFNnfeA=&xsec_source=pc_collect"
+}

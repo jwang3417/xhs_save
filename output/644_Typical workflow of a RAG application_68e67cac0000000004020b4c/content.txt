@@ -1,0 +1,8 @@
+Typical workflow of a RAG application
+
+RAG: Store additional information as vectors, match the incoming query to those vectors, and feed the most similar info to the LLM along with the query.
+	
+#大模型[话题]# #RAG[话题]# #AI[话题]# #vector[话题]# #AI人工智能[话题]#
+
+
+标签: #大模型 #RAG #AI #vector #AI人工智能

@@ -1,0 +1,27 @@
+从 LLM 推理全流程看 KV Cache 的必要性
+
+围绕一个问题：为什么要做 KV Cache？
+	
+梳理完整推理流程：
+- 文本怎么变成数字？（BPE 分词）
+- 数字怎么变成向量？（Embedding + RoPE）
+- 向量之间怎么交互？（Attention 的 Q/K/V 机制）
+- FFN 干什么？（Attention 捕获有用信息，FFN 理解信息）
+- 怎么选出下一个 token？（Logits → Softmax → 采样策略 / Logit Mask）
+- Prefill 和 Decode 有什么区别？（compute-bound vs memory-bound）
+	
+思考以下问题：
+1. KV Cache 的代价是什么？
+2. KV Cache 对 Agent 开发者的实际意义是什么？
+3. Token 估算错误对 Agent 带来的工程后果？
+4. KV Cache 和 Prompt Cache 有什么区别？
+5. Response Prefill 有什么妙用？
+6. Agent 工具应该遵循什么原则？
+7. tempture 和 logit mask 有什么区别？如何选择？
+8. streaming 输出和 KV Cache 有什么关系？
+9. KV Cache 什么时候被清空？可以跨轮复用吗？
+	
+#大模型[话题]# #和我一起学AI[话题]# #Agent[话题]# #AI[话题]# #Agent开发[话题]# #kvcache[话题]#
+
+
+标签: #大模型 #和我一起学AI #Agent #AI #Agent开发 #kvcache

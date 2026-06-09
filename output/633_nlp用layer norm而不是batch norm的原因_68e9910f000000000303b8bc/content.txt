@@ -1,0 +1,7 @@
+nlp用layer norm而不是batch norm的原因
+
+用layer norm是因为每个文本样本的长度不同，蓝色的切片是batch norm，一个batch norm的均值和方差的计算是基于max sequence length * batch size个数值，这个矩阵的大小是固定的，因为这里的 max sequence length是取这个batch里面所有序列的最大长度。所以同一个batch里面sequence length不一致，就会让这个max sequence length * batch size的矩阵里面有很多padding值也就是0。与之相对的，用layer norm的话，一个均值和方差的计算是基于sequence length * embedding length个数值，这个矩阵的大小是会随着每个文本样本长度（sequence length）改变的动态变化，所以就不会受到padding的影响。更多细节可以参考李沐的讲解（https://www.youtube.com/watch?v=nzqlFIcCSWQ&list=PLFXJ6jwg0qW-7UM8iUTj3qKqdhbQULP5I&index=43， 29分30秒）
+#说人话解释机器学习[话题]#
+
+
+标签: #说人话解释机器学习

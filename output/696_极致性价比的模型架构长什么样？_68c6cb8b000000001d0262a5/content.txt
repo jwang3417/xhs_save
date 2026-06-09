@@ -1,0 +1,12 @@
+极致性价比的模型架构长什么样？
+
+在讨论Qwen3-Next前，曲奇觉得Qwen3-Next最大的亮点是文章的开篇两句：“我们认为 Context Length Scaling（上下文长度扩展） 和 Total Parameter Scaling（总参数规模扩展） 是未来大模型发展的两大趋势。”，在这个后Deepseek-R1的杂音遍布的时代重新指引了方向
+	
+其中Total Parameter Scaling的代表就是1周前发的1万亿参数的Qwen3 Max Preview，而Qwen3-Next在技术报告上明显看出在做 Context Length Scaling的突破
+	
+Qwen3-Next不是单独一个模型，而是代表了新的、扎实的训推方案，如果Qwen3-Next的Context Length Scaling的路线明确且稳定，往下思考，Hybrid Attention x DiT或 1T参数 x 100K上下文，又会把你的业务推进到什么层次呢？
+	
+#提供思路和创新点[话题]# #互联网大厂[话题]# #大模型[话题]# #深度学习[话题]# #AI人工智能[话题]# #上下文窗口[话题]# #qwen[话题]# #阿里巴巴[话题]# #模型训练[话题]# #算法[话题]#
+
+
+标签: #提供思路和创新点 #互联网大厂 #大模型 #深度学习 #AI人工智能 #上下文窗口 #qwen #阿里巴巴 #模型训练 #算法

@@ -1,0 +1,33 @@
+{
+  "id": "68647b380000000010026cd9",
+  "type": "normal",
+  "title": "扩散模型推理新突破 DTS算法性能翻倍",
+  "desc": "如何让扩散模型在推理时对齐未见过的目标？介绍Diffusion Tree Sampling/Search (DTS/DTS*) 🎯\n通过MCTS风格的搜索算法，DTS能够随着计算资源的增加持续提升样本质量，仅需五分之一的计算量就能达到最佳基线效果！\n项目相关信息：\n论文链接：已发布\n代码仓库：即将开放\n合作团队包括@KushaSareen、Mohammad Pedramfar和Siamak Ravanbakhsh\n在类别条件生成、文生图和文本生成等多个领域和任务中，DTS/DTS*均超越了所有基线方法，并展现出更好的扩展性——随着计算资源增加，性能差距会持续扩大。\n研究发现当前Sequential Monte Carlo(SMC)等方法存在两个主要问题：(1)使用近似估计值导致有偏引导；(2)未能利用历史样本来提升质量。而基于原理的搜索策略可以同时解决这两个问题。\n技术实现上采用预训练模型来扩展树结构并备份终端奖励值，从而获得噪声状态下无偏的价值估计和更优的信度分配。此外，搜索机制能有效将计算资源分配到更有潜力的区域。\n只需修改一行树选择规则代码即可实现两种功能：从奖励加权的后验分布中精确采样，或直接搜索最高奖励样本。在类别条件生成等采样任务中，DTS实现了更低的FID指标且避免了模式坍塌现象。\n针对Stable Diffusion的文生图场景，DTS*能高效搜索高奖励样本。值得注意的是实验发现SMC容易过度优化产生与提示词完全不符的样本（论文展示了具体案例）。\n为何选择搜索策略？现有推理方法主要通过增加并行粒子数来扩展规模但收益递减明显。我们需要一种能基于历史运行信息持续优化样本的算法——这正是树搜索的优势所在。\n关于计算成本问题：实际测试表明通过批量处理扩散模型调用请求虽然并行难度略高于粒子方法但仍可实施（参考AlphaZero方案）。更重要的是DTS所需的扩散模型调用次数显著减少！\n这项研究证明了大规模预训练模型与搜索算法的强大协同效应。这类方法在大语言模型推理领域已有深入研究令人惊喜的是它们在扩散模型中同样表现卓越！\n论文包含更多实验数据及偏差-方差分析报告项目页面提供完整动画演示和示例展示再次感谢合著者@KushaSareen、Mohammad Pedramfar和Siamak Rabanbakhsh的杰出贡献\n作者推推: Vineet Jain\n参考地址: https://x.com/thevineetjain/status/1940048188708167726",
+  "tags": [],
+  "author": "AI Eye",
+  "authorId": "6206a757000000001000cb88",
+  "time": 1751415608000,
+  "ipLocation": "",
+  "likes": "15",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091335/a7776ea284eb011ef71c380669105a6a/spectrum/1040g34o31jdq68pbj00g5og6ktbk1is8mkrlvf0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/16ac03b7006926e12571064a7ecf4560/spectrum/1040g34o31jdq6dnoiu0g5og6ktbk1is82lrvov0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/bba04e060a9552e0c16637f1bf87305a/spectrum/1040g0k031jdq6nt130005og6ktbk1is8gfscs7o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/5d1b0d3efdd0e1a9966baf2df1b0f42a/spectrum/1040g34o31jdq6so5j20g5og6ktbk1is8bb4fa2g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/d1680010ce134f47afc72b5ef5a49b2a/spectrum/1040g0k031jdq71hv34005og6ktbk1is8jg5jdb8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/108bdeb6d6e2d63291374c3ecd17d2ef/spectrum/1040g0k031jdq7737j2005og6ktbk1is8hk3r0m0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/b952584b52e810f1c642812d2eed999c/spectrum/1040g34o31jdq7c9diu0g5og6ktbk1is8m5mm68o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/fcb98b0ef5a0be9bf897e05f5d6cae8c/spectrum/1040g34o31jdq7lg32o0g5og6ktbk1is87k1e8eo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/3353112b30a07be0eedfe5a165a17c22/spectrum/1040g0k031jdq7qdfio005og6ktbk1is8qcak768!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/32692207971271371bb066d7a8e73f8e/spectrum/1040g34o31jdq7v5t2u0g5og6ktbk1is8o1lvsao!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/cb3631b81b3cd684698f77557f2f6cc4/spectrum/1040g34o31jdq83qvj00g5og6ktbk1is80b8stmo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/a8124cacedd83577ba575413bd43468e/spectrum/1040g34o31jdq88us2o0g5og6ktbk1is85dosct8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/a1c658b0c71b51b201580aa8d8fd4fe7/spectrum/1040g34o31jdq8dj02o7g5og6ktbk1is8laamg48!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/0083789d52ca26b9ae4e0b58464ff128/spectrum/1040g34o31jdq8ie82u0g5og6ktbk1is8fvqvum0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/97fbb210565b2a9af6a94fa823b5f867/spectrum/1040g0k031jdq8nds32005og6ktbk1is8khlsphg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/624e5960b5094aed8052780ab0efd968/spectrum/1040g0k031jdq8s06j0005og6ktbk1is8mjrpj8g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/c425abdb7ea3c57c3d6aaa5738b361f4/spectrum/1040g34o31jdq90q9300g5og6ktbk1is86nra1a8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68647b380000000010026cd9?xsec_token=ABrC8Zt0br2NabguSxvzgHoO5ag73-jzLyzdVU8LEEHjQ=&xsec_source=pc_collect"
+}

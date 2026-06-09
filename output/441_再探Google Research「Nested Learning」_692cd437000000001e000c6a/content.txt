@@ -1,0 +1,25 @@
+再探Google Research「Nested Learning」
+
+再探Google Research「Nested Learning」：不同于Transformer的优雅与暴力美学
+	
+我想未来基于Nested Learning思想持续构建和训练一个更加庞大且扩展完备的具有多个独立梯度流和自适应更新频率的复杂自学习系统，也许并不能快速呈现出8年前transformer技术上的简单优雅且all you need在更广泛任务扩展下的应用前景，同时直觉上感觉其两者在复杂度与优化路径上存在着不同的Research‌模式。
+	
+那么接下来是否可以以AI 4 Research‌的方式来驱动Nested Learning框架的进一步演进呢？
+	
+[向右R]比如借助「AlphaEvolve」等来分别对“Associative Memory”所描述的形式和纳入的组件进一步扩展；
+	
+[向右R]对“SGD/Momentum”或其它Optimizer策略进行更'深度'的优化；
+	
+[向右R]对“HOPE”架构下分别在“CMS&Titans”在记忆方面更有想象力的持续创新组合与设计...
+	
+[向右R]并最终将当前看似离散的、同时又机械耦合在一起的深度学习组件（网络架构、优化算法）平滑统一到“关联记忆”和“嵌套优化”的整体反向（梯度优化）&正向（推理时）“非同频”动态传播视角中，以使得模型能够像人类大脑那样在持续学习方面表现出高度的效率、鲁棒性及神经可塑性（neuroplasticity），同时亦增强模型的可解释性。
+	
+谁又能知道当下这种看起来复杂机械且借鉴人类大脑对记忆机制的启示不是通过研究人员精准且富有洞察指引的灵感提示交互下完成对Nested Learning思想的提出和HOPE架构的设计呢？[偷笑R]
+	
+不知大家对Google Research的这篇论文《Nested Learning: The Illusion of Deep Learning Architectures》有什么不同的视角和理解呢？欢迎评论区继续讨论～
+关于之前论文的思考，大家感兴趣也可以参考之前写的分析文章↑[拔草R]
+	
+#人工智能[话题]# #AGI[话题]# #大模型[话题]# #LLM[话题]# #强化学习[话题]# #人工智能发展[话题]# #google[话题]# #transformer[话题]# #titan[话题]# #梯度[话题]#
+
+
+标签: #人工智能 #AGI #大模型 #LLM #强化学习 #人工智能发展 #google #transformer #titan #梯度

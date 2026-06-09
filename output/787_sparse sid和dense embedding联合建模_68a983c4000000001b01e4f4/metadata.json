@@ -1,0 +1,31 @@
+{
+  "id": "68a983c4000000001b01e4f4",
+  "type": "normal",
+  "title": "sparse sid和dense embedding联合建模",
+  "desc": "生成式推荐（四）sparse sid和dense embedding联合建模\n根据分系列前三篇文章分享，我们知道了sid的生成方法和用法，本篇我们尝试联合训练sid和embedding来同时优化两者的效果\n\t\n#算法工程师面试[话题]# #大模型[话题]# #生成式推荐[话题]# #推荐算法[话题]#",
+  "tags": [
+    "算法工程师面试",
+    "大模型",
+    "生成式推荐",
+    "推荐算法"
+  ],
+  "author": "AI算法面试",
+  "authorId": "6090a62c000000000100766f",
+  "time": 1755939780000,
+  "ipLocation": "",
+  "likes": "56",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091202/def0ecf549a7bf608f152a9bd853d8ee/1040g00831lh7gjif5i605o4gkom08tjfsv63sg8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091202/703cf484368672a50cd7cc7c83931538/1040g00831lh7gjif5i5g5o4gkom08tjf0hm0lp0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091202/fe79fcbdb602e470eeb813bdaeb09f59/1040g00831lh7gjif5i205o4gkom08tjfhukdmuo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091202/887196fe1bdd1f41e91a7bc669e0c915/1040g00831lh7gjif5i3g5o4gkom08tjfcvogroo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091202/6be2c3e214da1d7b462a7e4b78ee36b2/1040g00831lh7gjif5i4g5o4gkom08tjf106k9i8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091202/ec63fbcee6eb6c798bc37a34164d3e2b/1040g00831lh7gjif5i6g5o4gkom08tjf5n0kbdo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091202/a304321faa7eb3c50070469e855e071f/1040g00831lh7gjif5i2g5o4gkom08tjfita2so8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091202/ebe33c553ef8139f1f70d4af64bc85e3/1040g00831lh7gjif5i305o4gkom08tjfrhfbfkg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091202/52d343fd57adcae1b24bfcc38b43d259/1040g00831lh7gjif5i405o4gkom08tjfb1ealn0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091202/c169e20fe2ccded765285ba2f573478c/1040g00831lh7gjif5i505o4gkom08tjfss67eq8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68a983c4000000001b01e4f4?xsec_token=AB2PpuA8wvRymoDy2PGzZmHBm-85p45tuYKYJJeN5UMNA=&xsec_source=pc_collect"
+}

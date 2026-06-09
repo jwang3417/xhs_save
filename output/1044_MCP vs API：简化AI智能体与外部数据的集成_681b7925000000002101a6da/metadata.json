@@ -1,0 +1,25 @@
+{
+  "id": "681b7925000000002101a6da",
+  "type": "video",
+  "title": "MCP vs API：简化AI智能体与外部数据的集成",
+  "desc": "🎉声明视频来自《IBM Technology》，字幕是自己翻译+校对的结果。\n✅在构建智能AI应用时，模型往往需要访问外部数据或调用工具，而传统的实现方式多依赖于API。API，即应用程序接口，定义了系统间数据交互与服务调用的协议。而在2024年晚些时候，Anthropic推出了一种面向大语言模型的新开放标准：Model Context Protocol（MCP）。MCP专为AI设计，强调上下文传递与工具使用的标准化，是AI Agent与外部系统高效交互的一种新方法。\n﻿#AI[话题]#﻿ ﻿#大模型[话题]#﻿ ﻿#人工智能[话题]#﻿ ﻿#AI大模型[话题]#﻿ ﻿#AI人工智能[话题]#﻿ ﻿#MCP[话题]#﻿ ﻿#模型上下文协议[话题]#﻿",
+  "tags": [
+    "AI",
+    "大模型",
+    "人工智能",
+    "AI大模型",
+    "AI人工智能",
+    "MCP",
+    "模型上下文协议"
+  ],
+  "author": "AI大模型前沿研究",
+  "authorId": "5f978c7c00000000010047cb",
+  "time": 1746656160000,
+  "ipLocation": "",
+  "likes": "25",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091348/5c8fe8bc57ae4c24e94717848c2a53c0/1040g00831h6gpu873u005nsnhhu08hubqe8prvo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/79/110/84/01e81b763b7925a74f03700196ab594e03_84.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/681b7925000000002101a6da?xsec_token=ABVGFihyO2XxX5it8TemZ0pia28cLgE_qrhCqx-8LwajM=&xsec_source=pc_collect"
+}

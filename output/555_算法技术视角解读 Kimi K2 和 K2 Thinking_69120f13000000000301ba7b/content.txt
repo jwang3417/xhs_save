@@ -1,0 +1,8 @@
+算法技术视角解读 Kimi K2 和 K2 Thinking
+
+从预训练优化到 Agentic 能力训练的完整流程（含MuonClip优化、Agentic 数据合成等）
+	
+深度解读 Kimi K2 和 K2 Thinking 技术细节：MuonClip 优化方案、大规模 Agentic 数据合成 pipeline、通用强化学习的 Self-Judging 机制，以及 200-300 步工具调用的 Test-Time Scaling。从预训练到后训练，揭秘月之暗面如何打造 SOTA 开源 Thinking 模型。#大模型[话题]# #agentic[话题]# #kimi[话题]# #kimik2thinking[话题]# #agent[话题]# #预训练[话题]# #合成数据[话题]# #LLM[话题]# #人工智能[话题]# #chaofa用代码打点酱油[话题]#
+
+
+标签: #大模型 #agentic #kimi #kimik2thinking #agent #预训练 #合成数据 #LLM #人工智能 #chaofa用代码打点酱油 #了解 kimiK2 原理吗

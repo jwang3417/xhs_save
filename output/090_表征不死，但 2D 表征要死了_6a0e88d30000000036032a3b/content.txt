@@ -1,0 +1,11 @@
+表征不死，但 2D 表征要死了
+
+表征学习一直是 AI 的灵魂。但过去 13 年，它一直长在 2D 上。
+ImageNet、CLIP、Stable Diffusion、Sora——视觉地基全是 2D 张量。这套范式喂养了一代基建，也让大家忘了:2D 只是 representation 的一种载体，不是全部。
+最近一年明显能感觉到,2D 撞墙了。Sora / Veo 的物理崩坏不是数据问题,是表征本身不懂三维。与此同时,3DGS、NeRF、V-JEPA、Marble、HunyuanWorld 2.0、Genie 3 在另一条线快速堆基建。李飞飞、LeCun、Hinton 的学生悄悄都跑去做同一件事。
+一个判断:representation 没死,2D representation 的统治期结束了。下一代 AI 不在更大的 2D 模型里,在能承载世界的 3D 表征里。
+卡 5 列了 5 个关键节点,哪个最让你意外?评论 1/2/3/4/5。我会在置顶评论里补一份完整时间线。
+#人工智能[话题]#  #世界模型[话题]#  #空间智能[话题]#  #3DGaussianSplatting[话题]#  #AI研究[话题]#  #表征学习[话题]#
+
+
+标签: #人工智能 #世界模型 #空间智能 #3DGaussianSplatting #AI研究 #表征学习

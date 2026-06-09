@@ -1,0 +1,18 @@
+{
+  "id": "6955d29b000000001e029812",
+  "type": "normal",
+  "title": "NeurIPS 2025 oral：扩散模型正式入局LLM",
+  "desc": "年初就出了，现在都有100+引用了，发了NeurIPS 2025 oral，是人大和蚂蚁团队合作的 LLaDA。这篇论文最值得关注的点在于它挑战了LLM 必须是自回归（AR）模型这个被大家一直以来遵循的路径\n\t\n预测下一个 token这种范式跑出智能后，基于路径依赖大家都在这个范式下做LLM。但 LLaDA 证明了大规模掩码扩散模型同样可以。\n\t\n作者们直接从零开始，在 2.3 万亿 token 上训练出了一个 8B 规模的扩散模型。在这个领域，能卷到 8B 这种规模并进行完整的 SFT，确实是非常少见了\n\t\n技术上，LLaDA 采用的是前向遮蔽和反向生成的逻辑，预测被遮住的 token时不再受限于从左到右的单向生成，而是具备双向依赖的建模能力。听起来和MLM差不多，但是在扩散模型的框架下是这样的：\n\t\n1️⃣ 当 t=0 时，数据是完全可见的原始状态\n2️⃣ 当 t 在 (0, 1) 之间时，序列中的 token 会根据概率 t 被替换成遮蔽符号[M]\n3️⃣ 当 t=1 时，整个序列会变成一串完全由遮蔽符号组成的无意义代码\n\t\n反向过程则是前向过程的逆转，也是模型真正执行生成任务的阶段。模型被训练去观察带有mask的序列 xt，并尝试同时预测出所有被遮住的原始 token，并配合特定的重遮蔽（Remask）策略，逐步细化结果直到序列完全清晰\n\t\n这个重遮蔽像是一种容错机制，虽然预测了所有的原始token，但是进行下一步之前会重新把低置信度的token再次mask上，进行末位淘汰。这个置信度就是被预测出的token的那个概率\n\t\n实验数据表明在主流榜单上，LLaDA 8B 的表现跟 LLaMA3 8B 这种顶尖的自回归模型旗鼓相当。甚至在一些数学任务上，LLaDA 展现出了更强的泛化能力\n\t\n由于这种双向建模，它还体现出了对逆向诅咒的破解。我们知道自回归模型在处理｢A 的父亲是 B，那 B 的儿子是谁｣这种逻辑翻转时可能会翻车。但 LLaDA 因为是全序列双向观察，在古诗词反向补全这类任务中，表现直接超过了 GPT-4o\n\t\n和扩散模型在图像生成中的高斯噪声初始化不一样的是，这个框架下t1是没有随机性的，模型一旦训练好，后续的随机性只能来源于top-k、top-p之类的。这个和自回归模型是类似的，比如LLaMA在无条件生成第一个字时，它的输入也只有一个固定的[BOS]符号",
+  "tags": [],
+  "author": "一只医学图像帕鲁",
+  "authorId": "64b30753000000001001d029",
+  "time": 1767232155000,
+  "ipLocation": "",
+  "likes": "232",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090953/79d44a081bf9bdf0451b1c0d14f3b75a/spectrum/1040g34o31qpfu2v0gm0g5p5j0t9k3k19rm30qk0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090953/6b70a8e4b7e1d528939ed08434f80c5c/spectrum/1040g0k031qpfu8vtgm005p5j0t9k3k19qkkhnqg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6955d29b000000001e029812?xsec_token=ABKKjBAg6ZHdSVAh6U0LAAlvmReHIfRZlwV34rlNIXyyM=&xsec_source=pc_collect"
+}

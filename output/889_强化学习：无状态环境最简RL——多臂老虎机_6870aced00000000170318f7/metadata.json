@@ -1,0 +1,39 @@
+{
+  "id": "6870aced00000000170318f7",
+  "type": "normal",
+  "title": "强化学习：无状态环境最简RL——多臂老虎机",
+  "desc": "多臂老虎机（multi-armed bandit，MAB）有K个拉杆，又称K摇臂赌博机。每个拉杆对应一个奖励分布，每拉动一次就能以某种概率获取一个随机奖励。在K个拉杆奖励分布未知的情况下，如何使得操作T次拉杆后获得尽可能高的累积奖励？\n\t\n最简强化学习系统，环境只有奖励，无状态（见笔记1基础循环架构），K根摇杆对应智能体的K个动作。MAB目标是最大化累积奖励，等价于最小化累积懊悔（每一步的误差）。这是一种更纯粹的 探索-利用 权衡，贪婪、UCB置信上界Thompson采样是三种最经典、有效的权衡策略。\n\t\n三种策略的对动作价值的定义不一致，例如贪婪策略价值函数就是采样平均（认为平均值最大的动作价值最大），UCB中价值函数是采样平均 + UCB项（认为置信上界最高的动作价值最大），Tompson采样中价值函数是后验采样（认为后验分布采样得到的最大值动作价值最大）。在Sutton的强化学习中，经实验UCB似乎是最好的方法。\n\t\n多臂老虎机模型由于和广告投放、定价等真实场景相符合，目前依然在起作用。\n#强化学习[话题]# #rl[话题]# #多臂老虎机[话题]# #UCB置信上界[话题]# #Tompson采样[话题]# #大模型算法岗[话题]# #2026秋招[话题]# #秋招[话题]# #大厂实习[话题]# #算法[话题]#",
+  "tags": [
+    "强化学习",
+    "rl",
+    "多臂老虎机",
+    "UCB置信上界",
+    "Tompson采样",
+    "大模型算法岗",
+    "2026秋招",
+    "秋招",
+    "大厂实习",
+    "算法"
+  ],
+  "author": "整点🍟",
+  "authorId": "62061e97000000001000e423",
+  "time": 1752228314000,
+  "ipLocation": "",
+  "likes": "94",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091330/71ca4df3d07989114fc75a724304fc3b/1040g00831jpn0kahiu105og63qbk1p13iqu1nj8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/687fa8dcc2ee0c6d3c655e986c6b688b/1040g00831jraoms0j20g5og63qbk1p13n0jkse8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/a6d086e4720464b69fed7bc3e0f673db/1040g00831jpn0kahiu1g5og63qbk1p13m4tshh8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/7980a50975dd2e16544576ca036c7893/1040g00831jpn0kahiu005og63qbk1p13lef9j8g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/be6162bf9f5f9762c4b7704138ae1487/1040g00831jpn0kahiu2g5og63qbk1p13e57lef8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/53ed1e00b73b1252b62c90adac7542e7/1040g00831jpn0kahiu0g5og63qbk1p13t37n0so!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/ee50f6d17267f6b4aad962f1420de9c7/1040g00831jpn0kahiu305og63qbk1p137n9jde0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/bf39eda275adafdd26feb3f40b43edc1/1040g00831jpn0kahiu3g5og63qbk1p13msh1bj8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/a7a586813ab18154b8793d6dfe1f3bf1/1040g00831jpn0kahiu4g5og63qbk1p1306vqk20!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/004adb82798fe62be59a618fc4d7bee4/1040g00831jpn0kahiu405og63qbk1p13ljkv79g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/0d09cf238560b3f76ebbde87c071ed55/1040g00831jpn0kahiu505og63qbk1p13lcpgl2g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/f17cec4ad7b4a90bf76580a2805b77f9/1040g2sg31jppk44330kg5og63qbk1p13pgt194g!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6870aced00000000170318f7?xsec_token=ABEhn3xSGb7_tSEgCCSPeRwbwu0vbx2b_pDJSVUTWazbI=&xsec_source=pc_collect"
+}

@@ -1,0 +1,8 @@
+ARLArena：Agent任务成功率碾压GPT-5.2
+
+本期深度解读 UCLA SCAI 实验室 2026 年 2 月发布的 ARLArena 论文，系统拆解 Agentic Reinforcement Learning（ARL）中多轮交互训练崩溃的根因与修复方案。适合对 LLM 后训练、Agent RL、策略优化方法感兴趣的 AI 从业者和研究者。看完你会理解：为什么现有的 GRPO/SAPO/CISPO 在多轮 Agent 任务上不稳定，以及如何系统性地设计稳定的 ARL 训练流程。
+	
+💬你好，我是唐国梁Tommy，专注于分享AI前沿技术。关注我，每天学习AI新知识～ #aiagent[话题]# #多模态人工智能[话题]# #大模型[话题]##AI技术分享[话题]# #唐国梁Tommy[话题]# #强化学习[话题]# #大模型学习[话题]#
+
+
+标签: #aiagent #多模态人工智能 #大模型 #AI技术分享 #唐国梁Tommy #强化学习 #大模型学习

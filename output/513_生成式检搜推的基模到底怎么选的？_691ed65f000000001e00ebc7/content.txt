@@ -1,0 +1,22 @@
+生成式检搜推的基模到底怎么选的？
+
+最近读了很多生成式检索/搜索/推荐的文章，发现大家自回归的部分都用的是T5/BART这种，也有很多其他基模的实验对比。
+	
+比如onesug里明确使用了bart-base(140m)和bart-large(400m)，还用了mT5-small和mT5-large，也探讨了qwen2.5系列(0.5-3b)。论文提到qwen从0.5b-3b HR@16能够提升8个点左右。还提到了decoder-only模型明显优于encoder-decoder类。
+	
+又比如onesearch用的是BART (encoder-decoder)，文章提到与参数量巨大的decoder-only qwen相比，bart更有利于高吞吐和低延迟，但同时也提到了线上实际部署的是至少比bart大100倍(如果按bart-base 140M来算也有14B了?)
+	
+还有其他的比如onerec用借鉴了T5然后重新初始化，onerec v2则改成了lazy decoder-only，oneloc用了encoder-decoder的模型。前几天刚出的GPR是双decoder的设计。
+	
+似乎有些规律：
+1.虽然同期有很多encoder-decoder或者decoder-only的工作。但比起encoder-decoder，似乎还是往着decoder-only的路径发展。
+2.性能同样符合scaling law，onerec v2提到收敛损失从0.1B的3.57下降到8B的3.19。GPR也提到了0.02B到2B的scaling law的观察。
+3.MoE同样是work的，4B的MoE模型能够优于2B的dense模型。未来可能往着scale up但是moe的路径发展，只要平衡好部署效率与性能。
+4.onesug是基于预训练模型微调的，但也有很多模型都是基于工业数据从随机初始化开始训练的。不知道微调和从头预训练这两者的性能差异有多大？不考虑微调的业务场景又是处于什么动机？按理来说应该要使用预训练权重的世界知识，能够有更好的VL效果才对？
+	
+不知道观察得对不对？
+	
+#算法[话题]# #大模型[话题]# #互联网大厂[话题]# #算法实习[话题]# #搜广推[话题]# #生成式[话题]# #大厂[话题]# #多模态人工智能[话题]#
+
+
+标签: #算法 #大模型 #互联网大厂 #算法实习 #搜广推 #生成式 #大厂 #多模态人工智能

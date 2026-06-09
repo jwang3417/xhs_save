@@ -1,0 +1,31 @@
+{
+  "id": "6a1c1ac4000000003803663e",
+  "type": "normal",
+  "title": "Flow-OPD:Flow Matching的在线策略蒸馏",
+  "desc": "《Flow-OPD: On-Policy Distillation for Flow Matching Models》也是和前面的DiffusionOPD同一周挂在arxiv的工作。Loss啥的和DiffusionOPD差别不是特别大，但是在训练策略上有一些不一样的地方。\n\t\n第一步便是初始化：为了确保稳定初始的学生模型和教师模型差别不是特别大导致初期的轨迹分叉，采取了一些策略对学生模型进行冷启动。\n- 第一种测试是基于SFT的初始化：在教师模型采样的轨迹上进行监督微调；\n- 第二种是Model Merge，即把不同的教师模型进行Merge得到初始的学生模型\n\t\n第二步则是多教师在线蒸馏：基于Flow-GRPO以及不同的Reward函数训练特定的专家模型，之后通过OPD对学生模型进行蒸馏训练；在训练过程中，对于学生生成的每个样本，会根据其提示 c 通过一个任务路由函数 R(⋅) 分配到对应的专家模型。\n\t\n在训练过程中，为了缓解优化精确文本渲染或严格空间布局等能力时导致的视觉美学和生成多样性的退化，文中引入了流形锚定正则化 (Manifold Anchor Regularization, MAR)，其实就是引入一个权重冻结的美学教师模型，在训练过程中，除了前面提到的策略蒸馏的Loss意外，还有一个Reverse KL正则化项，即保证学生模型和美学老师模型之间分布差异没那么大，从而保持一定的视觉美学能力【当然这个正则化项其实就是约束学生模型和美学教师模型输出的velocity差异尽可能小】。\n\t\n#大模型[话题]# #强化学习[话题]# #深度学习[话题]# #GRPO[话题]# #后训练[话题]# #扩散模型[话题]# #AIGC[话题]#",
+  "tags": [
+    "大模型",
+    "强化学习",
+    "深度学习",
+    "GRPO",
+    "后训练",
+    "扩散模型",
+    "AIGC"
+  ],
+  "author": "vas",
+  "authorId": "626d1ddd0000000021021dc3",
+  "time": 1780226757000,
+  "ipLocation": "北京",
+  "likes": "94",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090702/afc70a15e89cc60989bfc9175c9792c4/spectrum/1040g34o320r3tpi16o705ojd3neoc7e3kbk64n0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/0a4f48dcf7ad48b6c75b07d3af228661/spectrum/1040g34o320r3tpi16o7g5ojd3neoc7e32ddu20o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/128c83b504c7edd034966bb2a2b48936/spectrum/1040g34o320r3tpi16o805ojd3neoc7e3pot867o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/404fb8b672acac897e7a0acd091d2e27/spectrum/1040g34o320r3tpi16o8g5ojd3neoc7e3guhrbs8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/7d645af8264602f6d5f84a8c43cbfb26/spectrum/1040g34o320r3tpi16o905ojd3neoc7e3o19arso!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/8ee616a63aea8900ee02f6fc50e69679/spectrum/1040g34o320r3tpi16o9g5ojd3neoc7e3fr52jb0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/4728434c3636deefd414bf298ee2fe63/spectrum/1040g34o320r3tpi16oa05ojd3neoc7e323ll8q0!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a1c1ac4000000003803663e?xsec_token=ABK0pjVfFboGxpHGFLKK2NQJH_TX8aFu8tFP_bADZMTtg=&xsec_source=pc_collect"
+}

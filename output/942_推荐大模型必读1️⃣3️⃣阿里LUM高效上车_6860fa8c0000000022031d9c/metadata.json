@@ -1,0 +1,31 @@
+{
+  "id": "6860fa8c0000000022031d9c",
+  "type": "normal",
+  "title": "推荐大模型必读1️⃣3️⃣阿里LUM高效上车",
+  "desc": "[哇R]团队Outing休息了几天，周末继续学习推荐大模型～\n\t\n🚀生成式推荐正成为时代趋势，之前Sam和大家分享过OneRec,OneSeg,RankGPT等推荐大模型，反响都很热烈🔥\n\t\n[萌萌哒R]这些工作都是用新的生成式架构模型「取代」原有线上预估模型，对infra和机器资源要求较高\n\t\n[黄金薯R]今天来学习一篇利用推荐大模型提取高质量特征，丝滑融入现有模型的工作——阿里LUM\n\t\n[举手R]一句话概括：离线训练根据用户特征和场景条件（app场景、用户query等）预测Next Items的大模型，离线缓存这些预测出来的next tokens，将它们作为特征输入传统预估模型\n\t\n✌️细读前点个免费的关注和收藏，北大小哥Sam每天带你读LLM和推荐广告前沿论文，侃算法岗面经&成长经验\n\t\n1️⃣ “三步走”范式，既要又要\n\t\n传统方法要么效果难提升，要么就是像端到端生成模型（E2E-GR）那样，虽然新潮但训练和部署都太“重”，工业落地困难。LUM模型采用了“预训练-查询-利用”三步走的解耦设计：\n\t\n🎈第一步（知识构建）：\n\t\n先用海量用户行为数据，像训练LLM一样，训练一个生成式的“大用户模型”（LUM）。这里的创新点是把每个“物品”拆分成“条件+物品”的token对（比如“搜索场景下的连衣裙”），为后面的精准“查询”埋下伏笔。\n\t\n🎈第二步（知识查询）： 把训练好的LUM当成一个知识库，用特定的“条件”（比如场景、搜索词）去查询用户的潜在兴趣。\n\t\n🎈第三步（知识利用）： 把上一步查询到的结果作为“神级特征”，喂给公司现有的、成熟的精排模型（DLRM）。这样既利用了大模型的知识能力，又保证了线上服务的低延迟和灵活性，完美解决了兼容性和效率问题！\n\t\n该特征输入的方式有两种：\n[一R]方式一（直接当特征）： 拼接到现有精排模型的输入中。简单粗暴但有效！\n[二R]方式二（计算匹配分）： 用上一步得到的“用户兴趣向量”和每个候选商品（比如A、B、C三条连衣裙）的向量单独计算一个相似度分数。这个分数也作为一个新特征输入\n\t\n2️⃣ 效果超惊艳！真的实现了Scaling Law\n\t\n🎈可扩展性： 实验证明，LUM模型不管是增大参数量还是加长用户行为序列，推荐性能（R@10）都能持续提升，解锁了推荐领域的Scaling Law。\n\t\n🎈线上战绩： 更重要的是，这个模型已经在淘宝搜索广告的线上A/B测试里得到验证，实现了CTR +2.9%，RPM +1.2% 的显著提升，真金白银的增长啊！\n\t\n#算法岗[话题]# #大模型[话题]# #大厂[话题]# #推荐算法[话题]# #深度学习[话题]# #阿里[话题]# #淘宝[话题]#",
+  "tags": [
+    "算法岗",
+    "大模型",
+    "大厂",
+    "推荐算法",
+    "深度学习",
+    "阿里",
+    "淘宝"
+  ],
+  "author": "Sam聊算法",
+  "authorId": "5b40a80311be103d7c8cfa08",
+  "time": 1751186061000,
+  "ipLocation": "",
+  "likes": "101",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091338/965510883c772e074f8f7db011450ee2/1040g00831j9c8f6c2o5g4a6u5uk07ug8o5v85mg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/0ad166d0dd8255ae2abd6e2792c8e016/1040g00831j9c8f6c2o204a6u5uk07ug8pf5sr38!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/38525cdc1b19865ce97148a5f574f0a1/1040g00831j9c8f6c2o1g4a6u5uk07ug8393v43g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/427880d329323dade07c76cc898f4bb3/1040g00831j9c8f6c2o304a6u5uk07ug84i9ug3g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/5b42f1b31751630f66bb2150dc474614/1040g00831j9c8f6c2o504a6u5uk07ug8trqfs8g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/a40038afe62c8bd767e642bad7293db4/1040g00831j9c8f6c2o3g4a6u5uk07ug8f0j6bvg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/8e2a1cb3af8109b998f1791bb2cfaa94/1040g00831j9c8f6c2o4g4a6u5uk07ug86c8es30!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6860fa8c0000000022031d9c?xsec_token=ABd1y3rjDjbbkYKx21J3lgpcb8jexwspJ6Y82zfHrdwQs=&xsec_source=pc_collect"
+}

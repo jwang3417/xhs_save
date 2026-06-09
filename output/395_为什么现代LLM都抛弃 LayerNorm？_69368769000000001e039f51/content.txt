@@ -1,0 +1,6 @@
+为什么现代LLM都抛弃 LayerNorm？
+
+RMSNorm vs LayerNorm：为什么现代LLM都抛弃 LayerNorm？#大模型[话题]# #强化学习[话题]# #算法[话题]# #机器学习[话题]#
+
+
+标签: #大模型 #强化学习 #算法 #机器学习

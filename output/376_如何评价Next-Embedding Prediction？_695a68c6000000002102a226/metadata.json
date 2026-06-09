@@ -1,0 +1,32 @@
+{
+  "id": "695a68c6000000002102a226",
+  "type": "normal",
+  "title": "如何评价Next-Embedding Prediction？",
+  "desc": "🚩 继LLM的Next-Token Prediction与VAR的Next-Resolution Prediction确立主流地位后，2025年12月发布的「Next-Embedding Prediction Makes Strong Vision Learners」将这一推演式生成范式延伸至视觉表征学习。该工作旨在突破VQ-VAE等方法中Discrete Tokenizer带来的Codebook Collapse与量化梯度Gap等瓶颈，探索在Continuous Space中统一Understanding与Generation的极简路径。\n\t\n👉 从Discrete Token到Continuous Embedding的演进：\n1）动机：PixelCNN的像素级预测过于冗余，而BEiT等离散化方法的Token粒度粗糙且引入了不必要的量化误差；\n2）核心思想：无需将视觉信息强制切分为离散符号，直接在连续特征空间中通过Causal Prediction预测「下一刻语义」，既保留了视觉信号的连续本质，又对齐了LLM的Training Pipeline。\n\t\n👉 Next-Embedding Prediction的方法论：\n1） 基于标准的Causal Transformer，将Image Patch Sequence经过线性投影后作为输入；\n2）摒弃Cross-Entropy，转而计算预测值与真实Patch Embedding间的Negative Cosine Similarity，并将Bootstrapping机制嵌入Autoregressive结构；\n3）Target分支必须引入Stop-Gradient截断梯度流（类似SimSiam）。\n\t\n👉 Next-Embedding Prediction有什么反直觉特性？\n1）Mask策略失效：与MAE不同，在此框架下引入Random Mask会破坏Causal Chain建立，导致Performance Drop；\n2）GPT式预测能力：虽然Linear Probe性能弱于DINOv2，但End-to-End Fine-tuning达到SOTA，说明模型习得了类似GPT的强预测能力而非BERT式的特征提取能力；\n\t\n#大模型[话题]#\n#深度学习[话题]#\n#科研[话题]#\n#计算机视觉[话题]#\n#gpt[话题]#\n#transformer[话题]#",
+  "tags": [
+    "大模型",
+    "深度学习",
+    "科研",
+    "计算机视觉",
+    "gpt",
+    "transformer"
+  ],
+  "author": "叫我Alonzo就好了",
+  "authorId": "632dbaa10000000023026ad9",
+  "time": 1767700854000,
+  "ipLocation": "",
+  "likes": "382",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090951/6785d85785373889059c0390b8c63e9e/spectrum/1040g34o31qtvf5en0m905opdnagosqmp8f50qjg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090951/7c04092fd40dcd3effbf1be437579974/spectrum/1040g34o31qtvf5en0m9g5opdnagosqmpuh7kc80!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090951/a1ae351914f8bdc6e95809fa4b9d5c49/spectrum/1040g34o31qtvf5en0ma05opdnagosqmp1p5vg70!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090951/13b8618758b6303f9354d12f2ed67437/spectrum/1040g34o31qtvf5en0mag5opdnagosqmpsvfue5o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090951/84a1a342116ba1a4e3f75dc626431e17/spectrum/1040g34o31qtvf5en0mb05opdnagosqmpcagle00!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090951/bc9d244d45995f5d6f9e96067c668453/spectrum/1040g34o31qtvf5en0mbg5opdnagosqmpj7mq5a8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090951/ac7df42a6633358a9fde81c5c189b2b9/spectrum/1040g34o31qtvf5en0mc05opdnagosqmptj5fes0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090951/c7975fd2151562665d4987ac4c3ee139/spectrum/1040g34o31qtvf5en0mcg5opdnagosqmpnj5eeh0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090951/5056ef57bde565fbffd2246cf3179f85/spectrum/1040g34o31qtvf5en0md05opdnagosqmpu6mmqi8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/695a68c6000000002102a226?xsec_token=ABn0tax6KKJs8H-LyZPZOzDF7SYV4wYVWIvK2kCuucyEU=&xsec_source=pc_collect"
+}

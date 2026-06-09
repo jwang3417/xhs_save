@@ -1,0 +1,19 @@
+自进化 Agent 背后的核心机制，其实没那么玄
+
+最近很多 Agent 项目都在讲「self-evolving agent / 自进化 Agent」：
+Agent 可以记住你的反馈、总结经验、生成技能，下次做同类任务时变得更聪明。
+但这里其实要分清两类东西：
+一类是像 Auto Agent / Auto Research 这种，用评测循环去改进 Agent Harness 本身；
+另一类是 Claude Code、OpenClaw、Hermes Agent 这种，通过 memory、skills、history 让 Agent 在上下文里持续学习。
+这期我拆了几个主流实现：
+Claude Code 的三层记忆系统
+Auto Dream 背后的 memory consolidation
+OpenClaw 为什么会让人觉得「它真的记得我」
+Hermes Agent 如何自动生成 skill
+如果你自己在做 Agent Harness，应该怎么设计 memory / skill / history
+结论是：
+真正让 Agent 变聪明的，不只是更强的模型，而是它能不能持续沉淀经验、更新记忆、复用技能。
+#AIAgent[话题]# #ClaudeCode[话题]# #OpenClaw[话题]# #AI创业[话题]# #Agent开发[话题]# #AI产品[话题]# #自进化Agent[话题]#
+
+
+标签: #AIAgent #ClaudeCode #OpenClaw #AI创业 #Agent开发 #AI产品 #自进化Agent

@@ -1,0 +1,39 @@
+{
+  "id": "69e6d0b90000000022028dd4",
+  "type": "normal",
+  "title": "面试官：Agent Memory了解哪些工作？",
+  "desc": "📌 今天来总结 Agent Memory 相关工作（2026年4月版）。包含实践中常见的知识库方案、原生记忆架构、Agentic RL工具即记忆方案。\n\t\n📒 详细解析内容➡️滑图查看！\n\t\n🎯相关内容已经总结到下方学习笔记中，持续更新！在平台提供大模型一手、原创、深度解析！带给大家更多好玩实践项目。\n\t\n#agenticrl[话题]# #agentrl[话题]# #rlagent[话题]# #agent强化学习[话题]# #强化学习Agent[话题]# #大模型强化学习[话题]# #agentmemory[话题]# #大模型[话题]# #算法工程师[话题]# #古希腊掌管代码的神[话题]#",
+  "tags": [
+    "agenticrl",
+    "agentrl",
+    "rlagent",
+    "agent强化学习",
+    "强化学习Agent",
+    "大模型强化学习",
+    "agentmemory",
+    "大模型",
+    "算法工程师",
+    "古希腊掌管代码的神"
+  ],
+  "author": "古希腊掌管代码的神",
+  "authorId": "6543cd40000000000400953c",
+  "time": 1776734393000,
+  "ipLocation": "",
+  "likes": "423",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090737/6d775bd45e3f65ce0214ff0bf8f716fe/notes_pre_post/1040g3k031v6mtqs72q005pa3pl01159sndaiqfg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/6bd7b6c4789a2a95bb92bcdaa10006ba/notes_pre_post/1040g3k031v6mtqs72q0g5pa3pl01159s8auv9j8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/e9f31456f1e8fd97d8ca1796d5cfd16a/notes_pre_post/1040g3k031v6mtqs72q105pa3pl01159sgim32t0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/5470c4cc994ef9ac4d1bce57648f3e8a/notes_pre_post/1040g3k031v6mtqs72q1g5pa3pl01159scldbrc0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/05026eaaed689080dc6cb28546d6981b/notes_pre_post/1040g3k031v6mtqs72q205pa3pl01159skak993g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/e4265930de29007702ff742def114016/notes_pre_post/1040g3k031v6mtqs72q2g5pa3pl01159sj7ehulg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/c4ee6e0ffb2e04c7c23b4b546a45cce3/notes_pre_post/1040g3k031v6mtqs72q305pa3pl01159sv49g1cg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/99efec56ec546e88cd8c4acc9dc5917c/notes_pre_post/1040g3k031v6mtqs72q3g5pa3pl01159smiasif0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/982dff7d95f498092defd0ab368a4405/notes_pre_post/1040g3k031v6mtqs72q405pa3pl01159sppam9g0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/4698956bae02f21a0377b7cf1f98b123/notes_pre_post/1040g3k031v6mtqs72q4g5pa3pl01159s6qual5o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/116e84f248596449f8f5745a1ea61946/notes_pre_post/1040g3k031v6mtqs72q505pa3pl01159sdr6em1g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/a809ec907495f2714f69b51e0cf03bbb/notes_pre_post/1040g3k031v6mtqs72q5g5pa3pl01159s2t1p6mg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69e6d0b90000000022028dd4?xsec_token=ABJeOefSSbYycdh_KHTmh6hPm1AkxTuntsmyAdMGKnDxQ=&xsec_source=pc_collect"
+}

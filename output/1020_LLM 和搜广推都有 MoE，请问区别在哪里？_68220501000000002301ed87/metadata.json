@@ -1,0 +1,39 @@
+{
+  "id": "68220501000000002301ed87",
+  "type": "normal",
+  "title": "LLM 和搜广推都有 MoE，请问区别在哪里？",
+  "desc": "阿里面试官问：LLM 和搜广推都有 MoE，请问区别在哪里？\n在大型语言模型（LLM）中，混合专家（MoE）技术通过稀疏性实现高效计算，其核心思想是动态选择部分专家模块来处理输入数据。例如，可以通过分类器将样本路由到特定的低秩自适应（LoRA）模型中，从而实现稀疏性目标；或者分阶段进行操作，先完成路由（Route），再对专家模块（Multi-LoRA）进行训练，最后通过多专家模块的聚合操作来体现专家特性。然而，LLM中的MoE更注重稀疏性，而非专家特性，这与搜索、广告和推荐（搜广推）领域中MoE技术的应用目的存在本质区别。具体而言，LLM中的MoE技术通常基于词元级别（token-level），通过门控机制动态决定哪些词元被分配到特定的专家模块中。这种稀疏性设计不仅降低了计算成本，还提高了模型的灵活性和效率。相比之下，在搜广推领域，MoE技术更多地应用于多任务学习场景，即所谓的多门混合专家（MMoE），它基于样本级别（sample-level），每个专家模块是一个独立的网络，专注于特定任务，并通过结果聚合实现多目标预测。\n#互联网大厂[话题]# #互联网大厂[话题]# #面经[话题]# #大模型[话题]# #算法岗[话题]# #人工智能就业[话题]# #算法[话题]# #求助offer选择[话题]# #产品经理面试[话题]# #神经网络[话题]# #深度学习[话题]# #面试求职[话题]# #面试问题[话题]# #面试题[话题]# #话2题test[话题]# #找实习[话题]# #百度[话题]# #多模态人工智能[话题]# #机器学习[话题]#",
+  "tags": [
+    "互联网大厂",
+    "面经",
+    "大模型",
+    "算法岗",
+    "人工智能就业",
+    "算法",
+    "求助offer选择",
+    "产品经理面试",
+    "神经网络",
+    "深度学习",
+    "面试求职",
+    "面试问题",
+    "面试题",
+    "话2题test",
+    "找实习",
+    "百度",
+    "多模态人工智能",
+    "机器学习"
+  ],
+  "author": "AI新手村",
+  "authorId": "5e0237950000000001000914",
+  "time": 1747059969000,
+  "ipLocation": "",
+  "likes": "150",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091346/d2191c83961ad7c13a6844d8558863fe/1040g2sg31hct91gc42cg5ng26uag828kmj7h878!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/6b8839f937edbc47909c6aeb35310997/1040g2sg31hct91gc42c05ng26uag828ksbveqb8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/f6f513df9eb77d9efcaa14934ea1b1ea/1040g2sg31hct91gc42905ng26uag828kfk3vbpg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/55f95ef4da581ad4709a7ff11c80bde8/1040g2sg31hct91gc42bg5ng26uag828kc54n9lg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68220501000000002301ed87?xsec_token=ABtVynXJop7_tIbh7d4HxQ8rlHhJE0lPrc_Q6KC6YHwl8=&xsec_source=pc_collect"
+}

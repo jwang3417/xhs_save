@@ -1,0 +1,39 @@
+{
+  "id": "6a1c0a2200000000380234ab",
+  "type": "normal",
+  "title": "🔥面试被问:Transformer为什么能替代RNN?",
+  "desc": "面试官问\"Transformer为什么能替代RNN\"怎么答？🚀\n\t\n1️⃣ RNN串行→GPU利用率低+长距离梯度消失。Transformer并行+残差→训练快6倍\n2️⃣ RNN信息路径|i-j|步→100步距离信号衰减殆尽。Transformer注意力只需1步→距离无关\n3️⃣ RNN堆4层训不动→梯度指数消失。Transformer堆96层→残差I保证梯度永不为零\n4️⃣ 2017年三条件交汇：GPU算力+海量数据+\"不用RNN也行\"的范式突破\n\t\n理解\"为什么替代\"比记住\"替代了\"更重要——Transformer不是更好,是能放大到RNN去不了的规模📝\n#大模型入门[话题]#  #大语言模型[话题]#   #深度学习[话题]#  #NLP[话题]#  #面试题[话题]#  #大模型面试[话题]#  #ai面试[话题]# #深度学习[话题]##RNN[话题]#  #transformer[话题]#",
+  "tags": [
+    "大模型入门",
+    "大语言模型",
+    "深度学习",
+    "NLP",
+    "面试题",
+    "大模型面试",
+    "ai面试",
+    "深度学习",
+    "RNN",
+    "transformer"
+  ],
+  "author": "盒子里的agent",
+  "authorId": "6a05633e0000000002001c01",
+  "time": 1780290010000,
+  "ipLocation": "浙江",
+  "likes": "18",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090705/ea16ee2b88252efbd504b40c39e6649d/spectrum/1040g0k0320r2ahdple005qg5ccv0g701m86d6p0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090705/21772a72bc75ce2504add40640dbc0fd/spectrum/1040g0k0320r2ahdple0g5qg5ccv0g701tec54vg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090705/5e88ecf42b8eb8ee1a8b83a150caa22b/spectrum/1040g0k0320r2ahdple105qg5ccv0g701okejfgo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090705/3e3a94e86def2ba641ce2e8ea30a946f/spectrum/1040g0k0320r2ahdple1g5qg5ccv0g701msrsis8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090705/91a77e16ffb391f0f10ec22aca0bab7a/spectrum/1040g0k0320r2ahdple205qg5ccv0g701tgaicv0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090705/a4d4a823a418be240627680c7d00558e/spectrum/1040g0k0320r2ahdple2g5qg5ccv0g7017poog5g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090705/3a878f870c5632d958bca9cf5d74bcce/spectrum/1040g0k0320r2ahdple305qg5ccv0g701qbkmi6g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090705/01b8ff1d5be86bc3ac39903bd1a1ab06/spectrum/1040g0k0320r2ahdple3g5qg5ccv0g701761o9gg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090705/346c83f48b10dc33ee88faabcdbeed78/spectrum/1040g0k0320r2ahdple405qg5ccv0g701hhj4118!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090705/94c37597f4f55962a5b84fbb3027b337/spectrum/1040g0k0320r2ahdple4g5qg5ccv0g7018h175g8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090705/4b72cb29ed74f96502357069ca64d8a3/spectrum/1040g0k0320r2ahdple505qg5ccv0g701ftp6uio!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090705/be28c16eb75796be4fe54215fcd835a7/spectrum/1040g0k0320r2ahdple5g5qg5ccv0g7010bbkth0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a1c0a2200000000380234ab?xsec_token=ABK0pjVfFboGxpHGFLKK2NQL4-22QWwFCfY3KGDaStJJA=&xsec_source=pc_collect"
+}

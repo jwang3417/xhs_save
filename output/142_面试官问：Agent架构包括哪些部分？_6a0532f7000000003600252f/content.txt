@@ -1,0 +1,19 @@
+面试官问：Agent架构包括哪些部分？
+
+AI 面试高频题：一个完整的 Agent 架构，到底包括哪些部分？
+❌ 教科书答案（感知-记忆-规划-工具-反思...7 大组件）已经过时。
+✅ 所有生产级 Agent 本质上都是同一个 Loop。
+这期从教科书到生产实战，一次性讲清：
+① 7 大组件答案为什么不够
+② 实锤：生产级 Agent 都是同一个 Loop
+③ Anthropic 简单优先原则 / 工具设计五大原则
+④ 工具数量的悬崖式崩塌（性能天花板）
+⑤ Context Rot：上下文越多越差
+⑥ Claude Code 的分层压缩 / Manus 的 Logit Masking
+⑦ Agent 三个正交维度（Anthropic 三层分类）
+⑧ 面试答题五层递进
+答到第五层就是 senior 级。
+#AI面试[话题]# #Agent[话题]# #智能体[话题]# #Anthropic[话题]# #ClaudeCode[话题]# #大模型[话题]# #LLM[话题]# #系统设计[话题]# #人工智能[话题]# #AI求职[话题]#
+
+
+标签: #AI面试 #Agent #智能体 #Anthropic #ClaudeCode #大模型 #LLM #系统设计 #人工智能 #AI求职

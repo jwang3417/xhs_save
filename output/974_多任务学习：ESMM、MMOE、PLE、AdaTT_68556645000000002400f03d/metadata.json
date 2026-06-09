@@ -1,0 +1,25 @@
+{
+  "id": "68556645000000002400f03d",
+  "type": "normal",
+  "title": "多任务学习：ESMM、MMOE、PLE、AdaTT",
+  "desc": "[一R]ESMM\n提出：阿里巴巴\n传统方法（此论文之前）通常只在点击样本上训练和评估，导致样本选择偏差和数据稀疏问题。ESMM通过引入辅助任务，利用全部样本空间进行训练，有效解决了这些问题。\nESMM采用了多任务学习的框架，同时建模CTR和\nCVR。不直接建模CVR，而是通过建模CTR和CTCVR，隐式地学习CVR（主要体现在Loss函数中）\n\t\n[二R]MMOE\n提出：谷歌\n由多个专家网络和任务对应的门控网络组成。专家网络负责学习输入数据的不同特征表示，门控网络则根据不同的任务，为每个专家网络分配不同的权重，从而动态地组合专家网络的输出。\n\t\n[三R]PLE\n提出：腾讯\nPLE采用了分层提取的结构，将专家网络分为共享专家和任务特定专家。共享专家用于提取输入数据的通用特征，任务特定专家用于提取与特定任务相关的特征。\n多层的网络结构则用于逐步提取和组合不同层次的特征，提高模型的特征表示能力\n\t\n[四R]AdaTT\n提出：Meta\nPLE + Cross-stitch\nAdaTT采用了自适应的任务融合机制，可以根据不同任务之间的相关性，动态地调整任务之间的融合方式，提高了模型对不同任务组合的适应性。AdaTT除了有PLE所有的多层提取和任务特定专家和任务共享专家以外还引入了native linear fusion，强调任务独有的专家，可以看作是PLE增强版\n\t\n#搜广推[话题]# #多任务学习[话题]#",
+  "tags": [
+    "搜广推",
+    "多任务学习"
+  ],
+  "author": "不吃香菜（秋招版）",
+  "authorId": "6622121400000000070051c6",
+  "time": 1750427205000,
+  "ipLocation": "",
+  "likes": "115",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091342/b2bf36b798044c05181cee8b988250b6/1040g00831iv2k8p3hg305ph228a1oke6g31766o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/25818c232fa782cf43d7bf138a3dded2/1040g2sg31iv2vaflhakg5ph228a1oke6nf2a3ao!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/fcee900dad289c379e1d158af398cdb3/1040g2sg31iv2vaflhah05ph228a1oke6p5d59vg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/c14569d7afc68fe642e21389cef17380/1040g2sg31iv2vaflhai05ph228a1oke67deds5g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/63926f27f378f9c38c0548f9e5e304f8/1040g2sg31iv2vaflhaeg5ph228a1oke6mrk0nag!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/a5d32742a0007209b9bffc987a4eab56/1040g2sg31iv2vaflhaj05ph228a1oke6idbi0lo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68556645000000002400f03d?xsec_token=ABOeeFjltvHAA9oBsc3wX6rYShDxQZ8iadMcsAwGqPhN4=&xsec_source=pc_collect"
+}

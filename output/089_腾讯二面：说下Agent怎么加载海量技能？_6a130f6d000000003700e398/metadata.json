@@ -1,0 +1,38 @@
+{
+  "id": "6a130f6d000000003700e398",
+  "type": "normal",
+  "title": "腾讯二面：说下Agent怎么加载海量技能？",
+  "desc": "面试官问大模型Agent怎么处理海量技能加载，不是考你框架调用，是看你懂不懂“认知负担”\n\t\n模型Prompt里多一个字，就多一分注意力分散\n\t\n八十个工具全塞进提示词，Token能超十万。研究显示两百个工具时，模型选准确率从95%掉到41%。更糟的是无关内容会冲淡关键指令，规则一矛盾模型就乱来\n\t\n全量加载不是浪费资源，是在制造混乱\n\t\n正确做法是按需加载，业界叫渐进式披露\n\t\n分三层\n第一层只有技能名字和一句话描述，几十个Token，让模型知道有什么，不知道怎么用\n第二层用户提出具体需求后，才加载完整的操作说明、参数格式\n第三层碰到报错或复杂任务，再去查详细文档或知识库\n\t\n实测比全量加载省85%到95%的Token\n\t\n落地有三个难点\n\t\n第一，第一层信息要写准，模型靠它判断用哪个工具。解决方案是用轻量级模型先做一次工具分类，毫秒级完成\n\t\n第二，每切一层都要加载一次，用户会觉得慢。用提示词缓存，成本降45%到80%，响应快13%到31%\n\t\n第三，技能卸载后模型会忘记之前做到哪一步。单独建个记忆模块，只记当前任务状态，切换时注入上下文\n\t\n面试这么答就对了\n\t\n从认知负担切入，讲清楚为什么必须分层，再说缓存和语义路由兜底\n\t\n最后补一句，技能少的时候，简单粗暴的静态提示词可能比三层架构更实用\n\t\n选什么方案，本质是在复杂度和收益之间找平衡\n\t\n#大模型[话题]# #深度学习[话题]# #产品经理面试[话题]# #软件测试面试[话题]# #面经[话题]# #人工智能就业[话题]# #前端面试题[话题]# #大厂[话题]#",
+  "tags": [
+    "大模型",
+    "深度学习",
+    "产品经理面试",
+    "软件测试面试",
+    "面经",
+    "人工智能就业",
+    "前端面试题",
+    "大厂"
+  ],
+  "author": "算法狗",
+  "authorId": "64db5d340000000001011d99",
+  "time": 1779634029000,
+  "ipLocation": "浙江",
+  "likes": "614",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090710/14ce2aae2454a1aa97bc6c4909d22342/spectrum/1040g0k0320i9o900le605p6rbkq0a7cpat6jlgg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/fd2404bf0929c58073ffc1a535dcb625/spectrum/1040g0k0320i9o900le005p6rbkq0a7cpj1i65fg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/fb76f6ffd829041725df3c963cfc58be/spectrum/1040g0k0320i9o900le0g5p6rbkq0a7cpa62h5v0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/353d8617cd63e7177be6470128f3832e/spectrum/1040g0k0320i9o900le105p6rbkq0a7cpe8tcqm0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/dd65bb05578a3981c2f29e4bbb369df1/spectrum/1040g0k0320i9o900le1g5p6rbkq0a7cproumk00!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/20bf48978240b9609a915058a46d7178/spectrum/1040g0k0320i9o900le205p6rbkq0a7cpttj1g8g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/b6eb09d33718dbf2d145fd82a5485250/spectrum/1040g0k0320i9o900le2g5p6rbkq0a7cpc9nso9o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/12d9494ba5c3fa432040f3e41d033d5d/spectrum/1040g0k0320i9o900le305p6rbkq0a7cp3eoj39o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/27dd2d66795474074fc8ca4b6ab38e50/spectrum/1040g0k0320i9o900le3g5p6rbkq0a7cp2fl8gqg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/858e1ffe3fcf9d7906b0e6b7fa18a5c9/spectrum/1040g0k0320i9o900le405p6rbkq0a7cpq72jn2g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/21fc8c569c342a8cec9f6c4688bfc3f6/spectrum/1040g0k0320i9o900le4g5p6rbkq0a7cp1gc3s8o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/6e7e01819f37d7f880cd901f9dde9681/spectrum/1040g0k0320i9o900le505p6rbkq0a7cpnd586v8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/26b3558ac40dbcbede2e17d1a70908d0/spectrum/1040g0k0320i9o900le5g5p6rbkq0a7cpp74inj8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a130f6d000000003700e398?xsec_token=ABDGCdx6varyOcCr9UaIA_1sK81toG3zNYeBpmMKC-u0w=&xsec_source=pc_collect"
+}

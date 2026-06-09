@@ -1,0 +1,8 @@
+Agent长期记忆如何选？阿里云选型指南
+
+AI Agent 80% 的失败是记忆污染导致的——错误的记忆比没有记忆更危险。本期系统讲解 Agent 长期记忆的三层架构、Record & Retrieve 核心流程，深度对比向量数据库、知识图谱、Markdown 文件三种存储路线，拆解 Mem0、OpenViking、OpenClaw、Zep 四大框架的设计哲学，最后给出阿里云四套长期记忆方案（百炼 API、RDS PostgreSQL、PolarDB Mem0、Polar Agent Memory）的选型建议。
+	
+#AI长期记忆[话题]#  #Agent记忆[话题]#  #阿里云[话题]#  #向量数据库 #Mem0 #知识图谱
+
+
+标签: #AI长期记忆 #Agent记忆 #阿里云

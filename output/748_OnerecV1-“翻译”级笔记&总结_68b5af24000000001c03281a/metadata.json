@@ -1,0 +1,36 @@
+{
+  "id": "68b5af24000000001c03281a",
+  "type": "normal",
+  "title": "OnerecV1-“翻译”级笔记&总结",
+  "desc": "OnerecV2还没来及看，先把自己前面关于V1的笔记发了😂\n需要OnerecV2笔记的宝子们可以留言或私聊，我最近会尽快抽空整理～\n1. OnerecV1论文和技术报告已经出来有一段时间了，在只有论文时，还是有“水文”的嫌疑的；但是技术报告出来后，大家就觉得不止不水，甚至是标杆型的工作了，据我所知业界影响力很大，大家纷纷跟进。我也在老板的指示下积极复现尝试，但是之前总是跳脱性的读文中的一部分，总是不够系统，今天从头到尾系统读了一遍，整理一下笔记，和最近的一些感悟。\n2.最近经过各方面的全面了解以及阅读论文，我逐渐对onerec祛媚，这个工作依然非常强，依然是生成式建模的标杆，但我们也看到其中有很多待解决的问题。\n3.比如最重要的，onerec号称要统一整条搜索/推荐链路，但据我最近了解，onerec自始至终，从已推全几个场景中的单列（只在降级流量推了，基线很低，类似读cache缓存的方式），本地生活场景、到电商货架场景，这三个真正推全的场景下，从来就没有替换掉精排；个别场景下，他们尝试在生成式召回的基础上统一粗排；个别场景发现粗排的效果不好，他们会尝试将onerec直接保送进精排；有些场景下他们发现保送进精排的效果也一般，于是会尝试直接保送进混排；\n4.总之，onerec目前没有替换掉线上精排，更多的是作为召回-粗排；\n5.说完不足，我要开始吹onerec了，我依然觉得技术报告中给出了非常多供我们参考的干货技术，我认为这绝对是篇里程碑意义的工作。\n说的不对的地方欢迎大佬们指出～欢迎大佬们讨论～\n#大模型必问[话题]# #推荐大模型[话题]# #算法面试题[话题]# #生成式建模[话题]# #文献综述[话题]#",
+  "tags": [
+    "大模型必问",
+    "推荐大模型",
+    "算法面试题",
+    "生成式建模",
+    "文献综述"
+  ],
+  "author": "大厂算法进阶指南",
+  "authorId": "5ce025c400000000050247a6",
+  "time": 1756737316000,
+  "ipLocation": "",
+  "likes": "48",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091157/cbc30a7008d7285d3ef2ebe6bbc155ba/spectrum/1040g34o31lt3huurl2805n704n21cht6nbqq358!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/94aec1fcfa9294443cf14c144f2972a1/spectrum/1040g34o31lt3huurl28g5n704n21cht6k6uij10!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/bc61d565b634111807dd2fae400607c6/spectrum/1040g34o31lt3huurl2905n704n21cht6hm87lhg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/bfd755dca9325f43146f766594b27f4b/spectrum/1040g34o31lt3huurl29g5n704n21cht6fc0thk0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/71c99f55a98966062794b2840d3e21f2/spectrum/1040g0k031lt3onpfku005n704n21cht6bqujrkg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/044534a64683fe2340b225a55e93808c/spectrum/1040g34o31lt3huurl2ag5n704n21cht6m4d4pg8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/9245fed7a5f8ef190d39bec7f4f8a2de/spectrum/1040g0k031lt3p3014u005n704n21cht6m18cmj8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/0b5f07f3721fbd7c9f1d1642c05f349f/spectrum/1040g0k031lt3rl874q005n704n21cht6j3q0idg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/ea03d4328555b4ed6f1d61df42467757/spectrum/1040g0k031lt3inl44u005n704n21cht6mgt07l0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/7fe69fac2708bf0f25c17e8d5674682b/spectrum/1040g0k031lt3inl44u0g5n704n21cht6av3g31g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/8f355bdcf1a9d997434c3a11e97eac88/spectrum/1040g0k031lt3inl44u105n704n21cht68alqkf8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/e7ce4884f295a23b10e924db4f623ab4/spectrum/1040g0k031lt3inl44u1g5n704n21cht645031h0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/a2f98f200c0cf3b729ae3bcf79e618c0/spectrum/1040g0k031lt3inl44u205n704n21cht67b5r3bg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/86a062777f7f326f8a2469cfab7fc905/spectrum/1040g0k031lt3inl44u2g5n704n21cht6d5q6i08!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68b5af24000000001c03281a?xsec_token=ABQdHIaIOxqKj7bhxk75vwm4d2F2JdRmvnKMeqtI7xtCw=&xsec_source=pc_collect"
+}

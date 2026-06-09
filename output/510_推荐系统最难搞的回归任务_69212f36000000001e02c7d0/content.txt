@@ -1,0 +1,14 @@
+推荐系统最难搞的回归任务
+
+围绕“用户偏好量化”和“行为概率估计”展开，最典型的是GMV预测和停留时长预测。
+主要建模方法是将回归任务转化为一个或多个分类任务，常见方法有WCE、Distill softmax等，算法详情见图。
+	
+[1][Recommending What Video to Watch Next: A Multitask Ranking System
+[2][CREAD: A Classification-Restoration
+Framework with Error Adaptive Discretization for Watch Time Prediction in Video Recommender Systems
+[3][Squared Earth Mover's Distance-based Loss for Training Deep Neural Networks
+	
+#推荐系统[话题]# #学习笔记[话题]#
+
+
+标签: #推荐系统 #学习笔记

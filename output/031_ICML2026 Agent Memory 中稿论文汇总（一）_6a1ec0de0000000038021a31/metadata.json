@@ -1,0 +1,34 @@
+{
+  "id": "6a1ec0de0000000038021a31",
+  "type": "normal",
+  "title": "ICML2026 Agent Memory 中稿论文汇总（一）",
+  "desc": "🔥ICML 2026 Agent Memory中稿论文汇总（一）\n\t\nLLM agent没长期记忆=每次都失忆🧠 Agent Memory正成为2026 LLM Agent的核心战场——跨session累积、跨任务复用、攻防对抗全在这一层打。精选7篇✨\n\t\n━━━ 🏗️ 核心方法（3篇）━━━\n\t\n1️⃣ SimpleMem: Efficient Lifelong Memory for LLM Agents\n完整保留→冗余爆炸，迭代过滤→token暴涨。SimpleMem给出极简lifelong记忆设计，让long-horizon交互不再二选一⚡\n\t\n2️⃣ MemEvolve: Meta-Evolution of Agent Memory Systems\n把记忆系统本身做成可进化对象🧬 agent自己meta-evolve出最适合任务族的存储+经验蒸馏+工具复用结构\n\t\n3️⃣ When to Memorize and When to Stop\n对MemAgent类RNN-loop文本记忆加门控🚪 判断\"该记\"还是\"该停\"，避免无脑累积带来的噪声放大\n\t\n━━━ ⚙️ 利用与调度（1篇）━━━\n\t\n4️⃣ JitRL（Just-In-Time RL）\ntraining-free让冻结LLM agent持续RL🚀 不动梯度，只靠in-context memory做continual adaptation，绕开灾难性遗忘\n\t\n━━━ 🎮 多模态 / GUI（2篇）━━━\n\t\n5️⃣ MemOCR: Layout-Aware Visual Memory\n反直觉——交互历史渲染成图片来存🖼️ 用标题/加粗/高亮的layout密度差，让token budget优先花在高价值细节\n\t\n6️⃣ Darwinian Memory（进化论式记忆）\n\"适者生存\"驱动的记忆生态🦖 GUI agent里记忆按自然选择自动调粒度淘汰过期信息，全程免训练\n\t\n━━━ 📊 Benchmark（1篇）━━━\n\t\n7️⃣ Benchmarking Agent Memory in Multi-Session Tasks\n把\"记\"与\"用\"绑进多session互相依赖任务📊 强行让模型把记忆真正用于决策而非单点recall\n\t\n#ICML2026[话题]##大模型[话题]##LLM[话题]##人工智能[话题]##机器学习[话题]##Agent[话题]##智能体[话题]##多模态[话题]##深度学习[话题]##agentmemory[话题]#",
+  "tags": [
+    "ICML2026",
+    "大模型",
+    "LLM",
+    "人工智能",
+    "机器学习",
+    "Agent",
+    "智能体",
+    "多模态",
+    "深度学习",
+    "agentmemory"
+  ],
+  "author": "Hunter",
+  "authorId": "60c6cde3000000000101cefe",
+  "time": 1780400350000,
+  "ipLocation": "浙江",
+  "likes": "414",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090703/beb8555d9cfeb8e27359cd76d68cbe50/spectrum/1040g0k0320tgihqen4105o66pnhgbjnuj9060kg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090703/e1b1f8b0b0b207eec6925fcf321f5b55/spectrum/1040g34o320tn6res74105o66pnhgbjnuthvvuq8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090703/64f518dc6218234f2dd923822f2f1c96/spectrum/1040g0k0320tn6sbm74005o66pnhgbjnut5nk72g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090703/3065ba34eda5539e3d08a1fb11542e71/spectrum/1040g34o320tn6t7lmu105o66pnhgbjnuecf167o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090703/e11772b67a207c48da7bd3006f6d6848/spectrum/1040g34o320tn7r206u105o66pnhgbjnu7ljmpno!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090703/89355977ad421baeb1fcb18b3329522e/spectrum/1040g0k0320tn7s52mu005o66pnhgbjnuqqmehfg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090703/a536140bc042f56f0126c4605cfa2bde/spectrum/1040g0k0320tn7tld6s005o66pnhgbjnuq1a6e60!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a1ec0de0000000038021a31?xsec_token=ABm_8QwE5ve-dMKM6ej-TAYP8Ed93y3b8MFapsOOmS1yc=&xsec_source=pc_collect"
+}

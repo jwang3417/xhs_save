@@ -1,0 +1,24 @@
+{
+  "id": "68e6206b000000000300ee82",
+  "type": "normal",
+  "title": "下一代模型架构：Qwen-Next or DeepSeek ？",
+  "desc": "针对下一代模型架构的优化，目前只有Qwen和Deepseek-V3.2 给出了可能的方向思路。今天我们详细整理 DeepSeek-V3.2 的 DeepSeek Sparse Attention（DSA） 和 Qwen3-Next 各自的核心算法，并对比两者在下一代模型架构设计上的核心差异。\n\t\n#曾天真学习笔记[话题]# #曾天真aigc[话题]#",
+  "tags": [
+    "曾天真学习笔记",
+    "曾天真aigc"
+  ],
+  "author": "曾天真学习笔记",
+  "authorId": "5ffa863800000000010037ec",
+  "time": 1759912043000,
+  "ipLocation": "",
+  "likes": "48",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091118/9a69ad5e3ff4594b9af16865cd7d6f89/notes_pre_post/1040g3k831ncdlcr2l8705nvqgos08dvckt0vv48!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091118/6172a322b468f1826c1c5f349ab7df12/notes_pre_post/1040g3k831ncdlcr2l87g5nvqgos08dvco0i0fpg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091118/959340cee2588ba0a9257b5c85bca231/notes_pre_post/1040g3k831ncdlcr2l8805nvqgos08dvcdr209ug!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091118/8a03ec9c67cb691608b17cb2f550e208/notes_pre_post/1040g3k831ncdlcr2l88g5nvqgos08dvcqp97ilo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091118/3ea563cd5356ad1b812edac852e38f94/notes_pre_post/1040g3k831ncdlcr2l8905nvqgos08dvc9nsm7b0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68e6206b000000000300ee82?xsec_token=ABChk7qaq31bDzUuF6xTCYtV59dzEkaxRS0LPcM4Nf03g=&xsec_source=pc_collect"
+}

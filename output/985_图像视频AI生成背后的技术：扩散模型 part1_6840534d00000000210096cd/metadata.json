@@ -1,0 +1,22 @@
+{
+  "id": "6840534d00000000210096cd",
+  "type": "video",
+  "title": "图像视频AI生成背后的技术：扩散模型 part1",
+  "desc": "扩散模型是一项关键的创新，对机器学习的多个领域都有深远的影响，是OpenAI的DALL-E和Sora， b谷歌的Imagen， Stable Diffusion， Midjourney等背后的技术。最初是为图像生成而开发的，随着NVIDIA的Cosmos， Physical Intelligence的Pi Zero，谷歌的Veo等最近发布的版本使用相同的扩散原理，它们似乎越来越重要。\n来源：@depth-first\n配字幕翻译：William Xiao\n\t\n#大模型[话题]# #人工智能发展[话题]# #扩散模型[话题]# #diffusion_model[话题]#",
+  "tags": [
+    "大模型",
+    "人工智能发展",
+    "扩散模型",
+    "diffusion_model"
+  ],
+  "author": "还在研究ing",
+  "authorId": "569e0e2c50c4b4202fe9b42a",
+  "time": 1749046093000,
+  "ipLocation": "",
+  "likes": "101",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091343/1064dce6ab1d120ca57015b585a4ebb7/1040g2sg31iagb8557c80457fji72pd1aeq4eku0!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/1/110/259/01e84052df134ec401037003973b487480_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6840534d00000000210096cd?xsec_token=AB8n9uPMDGomhU3zYeMi35kVG0t4VOMyp0C5EWvePCr5o=&xsec_source=pc_collect"
+}

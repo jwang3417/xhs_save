@@ -1,0 +1,24 @@
+{
+  "id": "686280a0000000000d01befe",
+  "type": "normal",
+  "title": "扩散模型优化新突破 测试时缩放提升生成质量",
+  "desc": "📢 扩散模型的测试时缩放优化\n通过优化噪声轨迹能否提升生成样本质量？实验证明效果显著。\n团队提出了一种名为ϵ-greedy search的简单上下文赌博算法，该方法在噪声空间中实现了与最优蒙特卡洛树搜索（MCTS）相当的性能。\nϵ-greedy算法在不同噪声尺度下展现出独特特性：\n- 在高/低噪声区间进行全局探索\n- 在中段噪声区域执行局部调优——这正是去混合发生的关键阶段\n这种自发行为与去噪难度曲线高度吻合：中段去噪步骤通常具有更高的Lipschitz常数，表明该区域对参数变化更为敏感。\n对比实验中评估了多种方法包括best-of-N、零阶搜索、束搜索和MCTS。数据显示：基于扩散步骤动态调整搜索范围的ϵ-greedy自适应算法，能显著提升生成样本的质量。\n作者推推: Morteza Mardani\n参考地址: https://x.com/MardaniMorteza/status/1939493270612230237",
+  "tags": [],
+  "author": "AI Eye",
+  "authorId": "6206a757000000001000cb88",
+  "time": 1751285920000,
+  "ipLocation": "",
+  "likes": "10",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091336/507f507b3a3a2ec208022e1532e4231b/spectrum/1040g34o31jbscgjc2o7g5og6ktbk1is8i75hc6g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/cb6d09e7df433e3f4e67fb1ad12e7390/spectrum/1040g0k031jbsco0mio005og6ktbk1is8n7uq52g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/0c59fc2e01522c35eecacaf08f3dcd21/spectrum/1040g0k031jbsctppj2005og6ktbk1is87mk0888!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/c47caa4b8d078f3698254637ee75ade6/spectrum/1040g34o31jbsd9582u0g5og6ktbk1is8degfkog!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/e3d41338a418e7020a6f8bc375216eaf/spectrum/1040g34o31jbsdfs9io005og6ktbk1is8edkqhu0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/db8ef04ed541b620afa22e10f93226ad/spectrum/1040g0k031jbsdmqtj2005og6ktbk1is850qmv38!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/b9b4f6eeded4b6f6511d243084473550/spectrum/1040g34o31jbsdt4aj00g5og6ktbk1is82f4qn88!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/7810bfa9ae41bee6fbc8815a28cf4371/spectrum/1040g34o31jbse31sj00g5og6ktbk1is8g08o90o!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/686280a0000000000d01befe?xsec_token=ABpBiI1HbcRmvvbYmyrO15AgLI43jZlNnqiORe6shGBhg=&xsec_source=pc_collect"
+}

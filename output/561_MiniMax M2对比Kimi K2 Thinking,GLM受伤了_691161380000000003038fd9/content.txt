@@ -1,0 +1,20 @@
+MiniMax M2对比Kimi K2 Thinking,GLM受伤了
+
+应大家要求测了一下 MiniMax M2和Kimi K2 Thinking
+	
+结果GLM刚开始就退出了战场。
+	
+而 K2和M2没分出胜负。各有优劣。
+	
+测试不算严谨，只是自己项目的体验。
+	
+但我会订阅Mini Max M2 的Coding Plan
+	
+后面几个月继续深入体验。
+	
+期待GLM下个版本的优化
+	
+#月之暗面[话题]# #kimik2[话题]# #glm[话题]# #MinimaxM2[话题]# #minimax[话题]# #vibecoding[话题]#
+
+
+标签: #月之暗面 #kimik2 #glm #MinimaxM2 #minimax #vibecoding

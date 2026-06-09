@@ -1,0 +1,23 @@
+{
+  "id": "6924f472000000001f00571c",
+  "type": "video",
+  "title": "Diffusion新突破！直接预测清晰图太绝了✨",
+  "desc": "主流 diffusion 还在猜噪声？这篇论文直接回归本质！\n依据流形假设，图像藏在低维流形里，噪声却占满全维度。高维场景下，猜噪声超容易崩，直接预测清晰图才靠谱～\n输入带噪图像，分割成大 patch，经 ViT 处理，不用预训练、无额外损失，甚至加瓶颈层更优！\n256 到 1024 分辨率轻松拿捏，计算量还不变，这波操作太秀了～\n\t\n本视频制作借助 AI，视频讲解不可替代原文阅读。\n#AIGC[话题]# #视频生成[话题]# #扩散模型[话题]# #人工智能[话题]# #AI播客[话题]#",
+  "tags": [
+    "AIGC",
+    "视频生成",
+    "扩散模型",
+    "人工智能",
+    "AI播客"
+  ],
+  "author": "科研蓝猫",
+  "authorId": "632ef627000000002303d57c",
+  "time": 1764029554000,
+  "ipLocation": "",
+  "likes": "173",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091020/6e79f7abe138407d5622d3fa881ee973/spectrum/1040g34o31p9p0nbti4105opeuojovlbsvgjrba0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/1/110/114/01e924f417165229010370019ab8776c1d_114.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6924f472000000001f00571c?xsec_token=ABGORg30ML8lCBcvELcRx6NfXoq0JHA5x0xvPtDKF_5BE=&xsec_source=pc_collect"
+}

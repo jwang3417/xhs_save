@@ -1,0 +1,27 @@
+{
+  "id": "68fdabb4000000000301a4d4",
+  "type": "video",
+  "title": "为自动驾驶装上\"会思考的视觉大脑\"",
+  "desc": "AgentThink：为自动驾驶装上\"会思考的视觉大脑\"\n首个融合链式思维推理与动态工具调用的视觉语言模型框架\n\t\n清华大学、小米等团队联合提出AgentThink，首次将链式思维推理（CoT） 与动态工具调用深度融合，赋予视觉语言模型“自主验证、自我纠错”的类人决策能力。在权威基准DriveLMM-o1上，其推理分提升53.91%，答案准确率提升33.54%，全面超越GPT-4o、DriveLMM等顶尖模型，为自动驾驶装上“会思考的视觉大脑#大模型[话题]# #人工智能发展[话题]# #人工智能[话题]# #自动驾驶[话题]# #清华大学[话题]##小米[话题]##智能体[话题]##学习[话题]# #论文[话题]#",
+  "tags": [
+    "大模型",
+    "人工智能发展",
+    "人工智能",
+    "自动驾驶",
+    "清华大学",
+    "小米",
+    "智能体",
+    "学习",
+    "论文"
+  ],
+  "author": "AIGC 深一度",
+  "authorId": "5f2b3ded0000000001001e3c",
+  "time": 1761455028000,
+  "ipLocation": "",
+  "likes": "122",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091101/2137a7be89ce373848c084e984db536b/110/0/01e8fdabb37f390b0010000000019a1ee6c029_0.jpg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e8fdabb37f390b010370039a1ee73678_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68fdabb4000000000301a4d4?xsec_token=ABiGO7ljOYOqOxxtGhPpvelHBnpYaq58xj2YqfVUQRXyg=&xsec_source=pc_collect"
+}

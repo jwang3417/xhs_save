@@ -1,0 +1,27 @@
+{
+  "id": "69dbad9100000000220260f8",
+  "type": "video",
+  "title": "Fine-Tune 踩坑全录：灾难性遗忘怎么治",
+  "desc": "你花了一周时间标注数据、精心调参，Fine-Tune 完发现模型的通用能力直接崩了——这不是你的错，这叫「灾难性遗忘」。\n本期从原理讲到实战：\n📉 为什么 Fine-Tune 会让模型「忘记」原来的能力\n🗺️ Loss Landscape 直观解释遗忘的本质\n⚠️ LoRA 能减缓遗忘，但不能解决遗忘——这是很多人踩的坑\n🔧 四种真正有效的解法：Replay Buffer / EWC / 任务向量 / 分层冻结\n🌲 三步决策树：根据你的实际情况选对方案\n如果你在做大模型微调，这期一定要看完。\n\t\n#大模型 #Fine[话题]#-Tuning #AI工程[话题]# #灾难性遗忘[话题]# #LoRA[话题]# #LLM[话题]# #模型训练[话题]# #深度学习[话题]# #AI干货[话题]# #机器学习[话题]#",
+  "tags": [
+    "Fine",
+    "AI工程",
+    "灾难性遗忘",
+    "LoRA",
+    "LLM",
+    "模型训练",
+    "深度学习",
+    "AI干货",
+    "机器学习"
+  ],
+  "author": "高老师的分享局",
+  "authorId": "617e3da9000000000201ba05",
+  "time": 1776004497000,
+  "ipLocation": "",
+  "likes": "63",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091308/90737ff009596a67c94304c0afffa5dc/1040g2sg31us70pnria705obu7mkgjeg521418l0!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/1/110/259/01e9dbac7206e885010370039d82201e27_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69dbad9100000000220260f8?xsec_token=ABxj6LpBS-1cWV7t3OKnMEifhOxFcP10yH07g0JvZz-As=&xsec_source=pc_collect"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "691872bd000000000402adb0",
+  "type": "normal",
+  "title": "总结搜广推最重要的模型之双塔模型（八）",
+  "desc": "p2-p9\n0.核心结论\n1.模块拆解\n2.关键公式\n3.训练与落地要点\n4.优缺点速览\n5.常见问答\n6.场景举例\n7.常见坑位与排查\n#互联网大厂[话题]# #东南大学[话题]# #秋招[话题]# #大厂[话题]# #26秋招[话题]# #算法岗[话题]# #搜广推[话题]# #算法[话题]# #秋招面试[话题]# #互联网大厂实习[话题]#",
+  "tags": [
+    "互联网大厂",
+    "东南大学",
+    "秋招",
+    "大厂",
+    "26秋招",
+    "算法岗",
+    "搜广推",
+    "算法",
+    "秋招面试",
+    "互联网大厂实习"
+  ],
+  "author": "没有地图的航海",
+  "authorId": "5bff84a20000000008017da4",
+  "time": 1763209917000,
+  "ipLocation": "",
+  "likes": "65",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091026/85593fdd18e20e12743f6e5ccd9159d6/1040g2sg31oti41is1g704bulqj2a4vd4p6e9ao8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091026/95df0df15c52b06da9bf5d572fe16f60/1040g2sg31oti41is1g7g4bulqj2a4vd4j0msfb0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091026/f487a68e435a4210a6a9e3759a1081f5/1040g2sg31oti41is1ga04bulqj2a4vd4rhbg2q0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091026/6e26f5ac92c9f8a7d73eaa3ff79c9d48/1040g2sg31oti41is1g9g4bulqj2a4vd48mo789g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091026/ef6234e492f25381fd8f037c653143a1/1040g2sg31oti41is1g804bulqj2a4vd4h83q528!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091026/cfe6bd1056b3d2679b41581f09b4a0e8/1040g2sg31oti41is1g904bulqj2a4vd4v161koo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091026/230c1fd7e441b427579b5eb22734138b/1040g2sg31oti41is1gag4bulqj2a4vd4aoo3jqo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091026/d7de90dc965f3005cf6282b34ab121eb/1040g2sg31oti41is1g8g4bulqj2a4vd4vub2ulo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091026/67ce492d6154ccebcf6a3f7851d945ca/1040g2sg31oti41is1gb04bulqj2a4vd4rekdlmg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/691872bd000000000402adb0?xsec_token=ABr3WN9kvYmcfbYIwxkfDZysiEMCXgspzCGkizmFRN9z4=&xsec_source=pc_collect"
+}

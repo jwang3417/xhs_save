@@ -1,0 +1,28 @@
+{
+  "id": "6a02cd370000000038037a77",
+  "type": "video",
+  "title": "Bun 创始人现场让 Claude 替自己写代码",
+  "desc": "5 月初 Anthropic Code with Claude 大会，Boris Cherny（Claude Code 负责人）和 Bun 创始人 Jarred Sumner 32 分钟现场编程：RoboBun 自动复现 issue 自动开 PR、CodeRabbit 跟 RoboBun 互相 review、CLAUDE.md 是 compound engineering 的基础设施、4.7 让 hill climbing 真正能用、每晚一队 agent 让一条 prompt 自跑 30 分钟。原声保留，中文字幕已加。\n最反共识的不是「自动 PR」，是「PR 变成 suggestions」——同事 PR 不 merge 你会愧疚，Claude 的 PR 你不会，反而把整个仓库的 merge 标准抬高了。\n瓶颈一直在搬家：写代码不再是瓶颈、CI 验证也快不是了、4.7 出来后 hill climbing 真能用了。Jarred 的下一个判断是 planning——什么该做、什么不该做、谁来按 merge 那一下。\n\t\n#Claude[话题]# #Anthropic[话题]# #ClaudeCode[话题]# #Bun[话题]# #Jarred[话题]# #BorisCherny[话题]# #LiveCoding[话题]# #AI编程[话题]# #开发者工作流[话题]# #克劳得Everything[话题]#",
+  "tags": [
+    "Claude",
+    "Anthropic",
+    "ClaudeCode",
+    "Bun",
+    "Jarred",
+    "BorisCherny",
+    "LiveCoding",
+    "AI编程",
+    "开发者工作流",
+    "克劳得Everything"
+  ],
+  "author": "克劳得Everything",
+  "authorId": "682223220000000008017e9b",
+  "time": 1778568503000,
+  "ipLocation": "河南",
+  "likes": "1,100",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090734/d2b24f3fad7d9e125d7e2ae07a333970/1040g0083202d80hkiq005q124ch22vkrvv3ejeo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/79/110/114/01ea02cd361612b14f0370019e1b088474_114.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a02cd370000000038037a77?xsec_token=ABuoXWAIWWp4G_onKc_w7tu3QCsbJXOkcZzVzKxVxlaPU=&xsec_source=pc_collect"
+}

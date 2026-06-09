@@ -1,0 +1,29 @@
+{
+  "id": "686fc597000000000b02e3be",
+  "type": "normal",
+  "title": "英伟达：定制小模型是 Agentic AI 的未来",
+  "desc": "🔗 链接：https://arxiv.org/abs/2506.02153\n🏛️ 发布单位：NVIDIA Research & Georgia Tech\n\t\n📍 背景介绍\nAgentic AI 系统中，模型往往处理大量重复性、结构化子任务，典型流程中全程调用大型语言模型（LLM），但这带来了高成本、响应延迟和能耗上升的问题。\n\t\n🎯 研究动机\n团队指出：这些狭窄子任务并不一定需要通用能力，小型语言模型（SLM）即可胜任。因此提议构建“SLM 优先，LLM 补充”的混合体系，将资源集中在真正复杂场景。\n\t\n﻿#英伟达[话题]#﻿ ﻿#AgenticAI[话题]#﻿ ﻿#AI论文泛读[话题]#﻿ ﻿#AI[话题]#﻿ ﻿#LLM[话题]#﻿ ﻿#小模型[话题]#﻿\n🔬 小模型是什么？怎么得来？\nSLM 通常指参数量从百万到十几亿不等（如1 B–20 B），远低于 LLM 的数百亿或上千亿参数\n获取方式包括：知识蒸馏（从大模型“教”小模型）、剪枝（去掉冗余参数）、量化（低精度存储参数），以及聚合高质量数据精训等技术手段\n例如 SmolLM2（1.7B）通过混合数学、代码、对话数据训练，性能优于同类小模型\n\t\n✨ 创新亮点\n高效节流：研究表明，SLM 在常见 agent 子任务上的 FLOPs 较 LLM 低10–70倍，推理极快\n部署灵活：能在边缘设备或本地运行，极大节省云费用与能源消耗\n转化路径：论文中提出详细算法，从 LLM 到 SLM 的替换步骤与切换机制清晰明了\n✅ 总结评价\n这篇论文通过界定模型参数尺度、梳理小模型获取方法、对比性能与成本，提出了“以 SLM 为中心、LLM 为补充”的 Agentic AI 最优路径。对追求资源效率与可持续部署的开发者而言，具备现实指导意义。",
+  "tags": [
+    "英伟达",
+    "AgenticAI",
+    "AI论文泛读",
+    "AI",
+    "LLM",
+    "小模型"
+  ],
+  "author": "刘小胖",
+  "authorId": "5ea803300000000001002ee6",
+  "time": 1752155543000,
+  "ipLocation": "",
+  "likes": "342",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091320/37d73305aa6b31970059d206479523db/spectrum/1040g0k031joqu4hu48005nl80co08bn69qfu5c8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091320/dc26c614018bf1fecfa75946df7d42df/spectrum/1040g0k031jor14093q005nl80co08bn6ssenj30!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091320/364183d55b97cfeabf0aaeeb79ad0e88/spectrum/1040g0k031joqu4hu48205nl80co08bn6bc956bg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091320/5cebbc2a757a3a1686b71dabf7107598/spectrum/1040g0k031joqu4hu480g5nl80co08bn66f3sung!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091320/b620edd606827f0a756005762c5d32a3/spectrum/1040g0k031joqu4hu48105nl80co08bn6nelt7vg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091320/af2752303d3cea420524343d89af711c/spectrum/1040g0k031joqu4hu481g5nl80co08bn6bu5tkfg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/686fc597000000000b02e3be?xsec_token=AB0evDntXEziMVOVUi9VUTvKhmzvnR6SACjMDgEtrdrAU=&xsec_source=pc_collect"
+}

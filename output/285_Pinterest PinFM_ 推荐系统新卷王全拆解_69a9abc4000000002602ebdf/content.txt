@@ -1,0 +1,10 @@
+Pinterest PinFM: 推荐系统新卷王全拆解
+
+Pinterest 近期发布的 PinFM (PinFM: Foundation Model for User Activity Sequences at a Billion-scale Visual Discovery Platform) 打破了长序列推荐的瓶颈。它用 16,000 的超长用户行为序列，配合 200 亿参数的超大 Embedding Table，在端到端预训练上跑通了。
+	
+核心亮点：DCAT 架构实现 600% 吞吐提升、Int4 量化压缩 70% 内存、跨任务对比学习损失函数。 一句话：它让推荐系统真正拥有了“过目不忘”的长久记忆。
+	
+#推荐算法[话题]#  #人工智能[话题]#  #推荐系统[话题]# #Transformer[话题]#  #大数据[话题]#  #大模型[话题]#  #深度学习[话题]#  #技术干货[话题]# #基础模型[话题]#
+
+
+标签: #推荐算法 #人工智能 #推荐系统 #Transformer #大数据 #大模型 #深度学习 #技术干货 #基础模型

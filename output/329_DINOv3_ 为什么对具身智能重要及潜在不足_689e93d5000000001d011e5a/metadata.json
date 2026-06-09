@@ -1,0 +1,29 @@
+{
+  "id": "689e93d5000000001d011e5a",
+  "type": "normal",
+  "title": "DINOv3: 为什么对具身智能重要及潜在不足",
+  "desc": "之前的帖子谈过很多次具身智能多峰ambiguity导致的具身模型比如VLA训练问题，其实具身训练里还有个大家不常谈及的大坑：shortcut learning （捷径学习）。\n\t\n捷径学习是指我们定义一个优化目标让模型基于数据学习一项能力，但由于模型的拟合能力很强+优化目标只管把loss降下去，模型会找最容易让它用来降低loss的数据特征，这个特征可能不是我们希望它用的。\n\t\n比如，让机械臂抓桌子上的瓶子，为了增强多样性我们遥操收集了在同一张桌子上抓不同瓶子的数据。由于桌子一直是这张桌子，瓶子在不停换，模型直接学成抓这张桌子上的东西不管是啥，因为这样能更快把loss降下去。从此，在这张桌子上不管你放啥机械臂都抓，换个桌子放什么瓶子都不抓。\n\t\nDINOv3这样杰出的预训练模型在具身涨点原因在我理解有两方面。一方面是大家通常理解的，具身模型比如VLA训练数据有限，预训练模型能提供在更多数据上得到的更具泛化性的表征。\n\t\n另一方面，预训练模型通过提供预训练权重其实提供了一个不同的训练起始位置。也就是假设模型发现有两条路A和B能把loss降下去，我们希望模型学会的是走A。没有预训练时，走B比A能更近到达目标点，按照捷径学习理论模型会选择走B。预训练模型提供了一个新的起始位置，在这个新的位置走A比B更近，于是模型改走我们期望走的A，也就是合适的预训练模型能有效缓解捷径学习问题。\n\t\nDINO系列提供了很好的对于模型不同位置、类别物体很有辨识度的表征，比如之前的例子原本识别不同瓶子比较难，但DINOv3为不同的瓶子生成了相似的表征，那学习识别瓶子就简单了。\n\t\n但问题在于DINO只是从纯视觉表征辨识度的角度设计训练的模型，具身任务需要怎样的优化起始位置以尽可能避免训练中不希望学到的捷径，是DINO系列没有考虑的，需要具身圈的大家自力更生探索。在考虑了这个问题后，理论上得到的预训练模型在具身任务上的有效性能有极大提高！\n\t\n#具身智能[话题]# #机器人[话题]# #人工智能[话题]# #DINOv3[话题]# #DINO[话题]# #深度学习[话题]#  #LLM[话题]#",
+  "tags": [
+    "具身智能",
+    "机器人",
+    "人工智能",
+    "DINOv3",
+    "DINO",
+    "深度学习",
+    "LLM"
+  ],
+  "author": "AGI Robot",
+  "authorId": "60f15a76000000000101e309",
+  "time": 1755222997000,
+  "ipLocation": "",
+  "likes": "165",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090938/95432d960850c64fdf75fc4072927934/spectrum/1040g0k031l6ho3s04q005o7hb9r0boo9kh82418!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/0270bbd093433c9dd8e68201dbe7ce58/spectrum/1040g0k031l6ho3s04q0g5o7hb9r0boo95m0v6ao!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/6c55c33fb685ddbc333d8544bc5b5995/spectrum/1040g0k031l6ho3s04q105o7hb9r0boo9q53183o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/ee9df44be37fc65b6359e764f515e2f4/spectrum/1040g0k031l6ho3s04q1g5o7hb9r0boo9s0ralko!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/f958bb1098f468a38a09028c01ef9ce5/spectrum/1040g0k031l6ho3s04q205o7hb9r0boo9fkd5o00!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/689e93d5000000001d011e5a?xsec_token=ABjJLzourmOZkaQWbYVf31pXq4J-x182paxw0AO7_BNWc=&xsec_source=pc_collect"
+}

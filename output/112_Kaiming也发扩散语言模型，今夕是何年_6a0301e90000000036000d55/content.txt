@@ -1,0 +1,15 @@
+Kaiming也发扩散语言模型，今夕是何年..
+
+一时间恍惚回到了22-23年的text diffusion时代。模型是没有scaling的，task是unconditional generation和seq2seq的，chatgpt是不存在的，真是一个美好的时代（。
+	
+正经说这篇文章，整个writing和presenting还是一如既往符合kaiming的风格，简单漂亮优雅。
+方法上，我个人觉得和之前的continuous diffusion for text generation没有特别本质的区别，不过假如performance和scaling等经得起验证还是会很有意思的。比较了和之前模型的不同，可以看图3，主要区别：1.改用flow matching 2. 固定encoder embedding 3. 对于denoise还是decode有一个mode切换（分别对应mse和ce loss）。第三点这个比较有意思，前2点持保留态度。
+	
+其他部分基本都是和之前的工作差不多：比如self conditioning，CFG guidance，还有condition generation则是采用和DiffuSeq一样的做法（哇没想到有一天能被kaiming cite [哇R]）。
+	
+再次感受到技术的发展是螺旋式上升的，最近风向又转回continuous diffusion了，希望这个领域持续进步。🫡
+	
+#大模型[话题]# #diffusion[话题]# #nlp[话题]# #论文分享[话题]# #读博日记[话题]# #扩散语言模型[话题]#
+
+
+标签: #大模型 #diffusion #nlp #论文分享 #读博日记 #扩散语言模型

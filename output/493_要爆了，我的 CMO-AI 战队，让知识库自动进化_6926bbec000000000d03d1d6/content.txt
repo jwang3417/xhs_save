@@ -1,0 +1,41 @@
+要爆了，我的 CMO-AI 战队，让知识库自动进化
+
+最近 Obsidian 圈子流行“AI 接管知识库
+我也折腾了一套自己的「CMO组合」：
+Claude Code + MiniMax M2 + Obsidian
+	
+CMO 组合说明：
+	
+Claude Code 它不只是编程工具，也可以是个AI知识库管家 ， 读取Obsidian里所有笔记，直接AI对话
+	
+MiniMax M2 我的主力干活模型，开了个9.9元的Coding Plan，一杯冰美式价格，试错成本极低，用于替换昂贵的CC （穷人的眼泪），用M2稳定，还不用担心被ban，都给我冲～
+	
+Obsidian 我的第二大脑，所有笔记都在这  现在有AI加持，直接起飞
+	
+大家用AI有个误区是：要么不用，要么就只盯着昂贵的 Claude  或 GPT用，
+其实我发现聪明的做法是：分级外包
+	
+主力模型（Claude/GPT）： 负责脑力活 → 复杂架构、深度推理
+平替模型（MiniMax M2）： 负责体力活 → 批量处理、数据分析
+简单说：贵的动脑，便宜的干活。
+	
+现在我在 Obsidian 里的高频任务，基本都交给 MiniMax M2，生成速度快，遵循命名且没有卡顿。
+	
+obsidian 里的使用场景：
+周总结：把一周笔记丢给它，自动提炼信息
+	
+生成导图：一句话生成 Obsidian白板图
+	
+清洗Markdown格式：批量统一格式、修复链接、添加标签
+	
+翻译外文文章：英文论文秒翻+自动做笔记卡片
+	
+润色英文笔记：语法检查、表达优化
+	
+除了 Obsidian，MiniMax M2 在其它工具也能用，支持Claude Code、Cursor、Cline、Figma、Notion、Browser 等等。
+	
+AI 时代，真正的壁垒不是你买了多贵的模型，而是你组合工具的想象力。 选一个最顺手的工具（我是Obsidian），配一个像 M2 这样量大管饱、逻辑在线的国产模型，这才是普通人长期主义的 AI 解法
+#obdisian[话题]# #minimax[话题]# #claude[话题]# #ai[话题]# #obsidian教程[话题]# #Obsidian模版[话题]# #Obsidian插件[话题]# #obsidian笔记[话题]# #ai工具[话题]# #数码科技[话题]#
+
+
+标签: #obdisian #minimax #claude #ai #obsidian教程 #Obsidian模版 #Obsidian插件 #obsidian笔记 #ai工具 #数码科技

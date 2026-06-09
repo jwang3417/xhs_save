@@ -1,0 +1,28 @@
+{
+  "id": "6890334b00000000230279a0",
+  "type": "normal",
+  "title": "大模型面试5: GRPO在MoE结构上为什么难以收",
+  "desc": "[向右R] 1、新旧策略可能会激活不同的专家，产生结构性偏差，带来噪声。\n当从旧策略更新到新策略时，很有可能出现Router发生变化，导致新旧策略激活了不同的专家。例如：\n在旧策略下，Router 激活了【专家 A】和【专家 B】\n在新策略下，Router 激活了【专家 C】和【专家 D】\n虽然模型参数只更新了一步，但实际参与计算的专家组合完全不同。所以这两个概率根本不是在同一个“结构”下产生的。理想中的重要性比率应该反映同一个模型结构下，参数变化导致的输出概率变化。但现在它还包含了完全不同的专家组合导致输出的变化。这不是策略变化的真实反映，这种波动具有高方差、不可预测、与优化方向无关的噪声。\n\t\n[向右R] 2、Clip也无法完全控制这种结构性偏差。\n​   旧策略和新策略实际上像是两个不同的模型，重要性比率的方差急剧上升，甚至趋于无穷。\n不同的路由可能会导致新策略值骤变，导致clip没有\n任何更新。梯度估计严重失真，训练不稳定甚至崩溃。\n\t\n[向右R] 3、解决方法\n（1）Routing Replay\n（2）GSPO\n\t\n#大模型[话题]# #大语言模型[话题]# #大模型面试[话题]# #大模型面经[话题]# #大模型rlhf[话题]# #GRPO算法[话题]# #Qwen3[话题]# #GSPO[话题]#",
+  "tags": [
+    "大模型",
+    "大语言模型",
+    "大模型面试",
+    "大模型面经",
+    "大模型rlhf",
+    "GRPO算法",
+    "Qwen3",
+    "GSPO"
+  ],
+  "author": "xhchen",
+  "authorId": "5e66838a00000000010006fe",
+  "time": 1754280779000,
+  "ipLocation": "",
+  "likes": "147",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091321/279f617bc64115cdd1f576e90656111a/1040g2sg31kog87k4j2e05nj6ge5081nuakhqb20!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/162212c091eeb251ecaf5da0c2363b99/1040g2sg31kog87k4j2eg5nj6ge5081nu89kphj0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/57276e8f908e2fe5f14dbff8cc6c8fce/1040g2sg31kog87k4j2f05nj6ge5081nuea50bkg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6890334b00000000230279a0?xsec_token=AB3-jn0Lwi_dNTyshi8OmvVBypCj0NRaq81YZT--9lhp0=&xsec_source=pc_collect"
+}

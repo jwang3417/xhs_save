@@ -1,0 +1,34 @@
+{
+  "id": "6a0537680000000036003c93",
+  "type": "video",
+  "title": "面试官问：Agent评测怎么造？",
+  "desc": "这期回应一条评论，有同学问，怎么构建领域 Agent Benchmark。\n问得正好——今年 2 月，OpenAI 自己停用了 SWE-bench Verified（代码 agent 圈最火的\"高考\"榜）。Berkeley 一篇 paper 用十行 Python 把它打到满分，8 个榜 6 个 100%——旧评测彻底破产。\n完整路径：\n① ABC 评估框架\n② 六步构建流程（数据 → 任务 → 评分 → 防泄漏）\n③ 部分评分与过拟合陷阱\n④ 三类必坑与应对方法\n答不出来 = 没真把 Agent 送上过线。\n⏱ 章节\n#00:00[时刻]# 旧榜单问题与挑战\n#00:31[时刻]# ABC 评估框架\n#01:43[时刻]# 六步构建流程\n#02:38[时刻]# 部分评分与过拟合\n#04:12[时刻]# 三类必坑与应对\n#05:49[时刻]# 总结与核心结论\n#AI面试[话题]# #Agent[话题]# #Benchmark[话题]# #评测[话题]# #SWE[话题]#-bench #大模型[话题]# #LLM[话题]# #系统设计[话题]# #人工智能[话题]# #AI求职[话题]#",
+  "tags": [
+    "AI面试",
+    "Agent",
+    "Benchmark",
+    "评测",
+    "SWE",
+    "大模型",
+    "LLM",
+    "系统设计",
+    "人工智能",
+    "AI求职",
+    "05:49",
+    "04:12",
+    "02:38",
+    "01:43",
+    "00:31",
+    "00:00"
+  ],
+  "author": "AI深度幻觉",
+  "authorId": "67f58f0b000000000e010734",
+  "time": 1778726760000,
+  "ipLocation": "美国",
+  "likes": "534",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090708/b034bf959eec67bd002cfd66b55a167e/1040g2sg3204p4mljl4005pvlhs5ji1pkfotd6n8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01ea053698172d64010370039e2460add9_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a0537680000000036003c93?xsec_token=ABV9CTEV_FqNS7QppXkQYWjw3hnYxZHE4BYOlQZKCoFms=&xsec_source=pc_collect"
+}

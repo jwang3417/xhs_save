@@ -1,0 +1,29 @@
+{
+  "id": "69c320260000000022026e2d",
+  "type": "normal",
+  "title": "GTC 🌍World Model 晚餐，Jim Fan也来啦",
+  "desc": "🔥上周GTC期间跟Qualcomm Ventures组织的World Model跨界交流晚餐太精彩了🌍\n超难得请到17位横跨LLM//VLM,video gen,机器人，集齐了OpenAI,DeepMind,Meta, World Labs,LUMA,NVIDIA, Dyna,PI,Rhoda顶尖研究员和创业者。三个多小时聊到餐厅打烊，太多🔥takeaway：\n\t\n🎞️Predict next pixel的争议：人脑是next-frame predictor，但预测的不是pixel-level未来。pixel-level WM可以用于精确操控吗？我们还没找到真正既可预测、又对决策有用的表征\n\t\n🤔需要理解生成一体的omni model吗？二者需要的表征和目标并不相同，机器人还有实时性、控制空间和本体的问题。一个思路：主模型只输出token，通过tool-calling调用生成模型，用agentic workflow实现统一模型效果\n\t\n🤖不要只关注predict pixel：机器人还有未解的重要问题，比如action 表征，如何理解物理、affordance、物体行为和干预后果等等。text还可以有很大作用\n\t\n📏benchmark还缺失：好的评估是scale的基础。视频模型还没像LLM那样清晰的scaling law，因为物理世界的结构并没有explicit写在数据里。\n\t\n🫡WM vs LLM: 二者技术不同，但是LLM在scaling,post-training,tool use,memory，模型过threshold后应用层的发展，都很值得参考。\n\t\n🛠️硬件重要性仍被低估：Jim讲的Strandbeest例子很有意思：有些智能可以直接嵌入硬件设计里。宇树的表现背后是强大的制造基础。\n👉机器人公司需要从头train视频模型吗？各训练阶段data mixture怎么设计？egocentric越多越好吗？3D数据重要吗？…\n\t\n🤔不同背景的碰撞太有意思了。做过越大model的人越相信bitter lesson，但现实世界复杂得多。在一家要做机器人智能公司里，思考一个复杂系统如何在巨大不确定性中演变，AGI到来之前，这样的人生体验是幸福的。\n#世界模型[话题]# #人工智能[话题]# #机器人[话题]# #硅谷创业[话题]# #具身智能[话题]##投资[话题]#",
+  "tags": [
+    "世界模型",
+    "人工智能",
+    "机器人",
+    "硅谷创业",
+    "具身智能",
+    "投资"
+  ],
+  "author": "莫妮卡同学",
+  "authorId": "59ee4e7411be10062b354340",
+  "time": 1774395430000,
+  "ipLocation": "",
+  "likes": "474",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091313/c915868d0607e4d408ea7eca38d83751/note_pre_post_uhdr/1040g3r031u4677p2ia1g49urbu778gq026cjc2g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/07ca223a937232a108f853e8befb7b4c/note_pre_post_uhdr/1040g3r031u4677p2ia0049urbu778gq01tucrv0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/2fece0b30411971fba2794d31f47cb94/note_pre_post_uhdr/1040g3r031u4677p2ia1049urbu778gq0jcv91c8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/a5fd8434c68cd4ad530bd79573c536e6/notes_pre_post/1040g3k831u4678s9ia0g49urbu778gq00lc4hm8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/7d07cf9887815a331cc13aa05a4965f6/note_pre_post_uhdr/1040g3r031u4677p2ia0g49urbu778gq0gbjm35o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/5972be7db1f6630061f536db58d3526d/notes_pre_post/1040g3k831u4678s9ia0049urbu778gq0u3957b8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69c320260000000022026e2d?xsec_token=ABUpXSS-gyZtBoq2Jxv3IhdAlaQNAkNUr0dvu3y0qtbTE=&xsec_source=pc_collect"
+}

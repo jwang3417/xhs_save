@@ -1,0 +1,15 @@
+Transformer 核心的机制，终于有人讲清楚了
+
+正文 终于把 Self-Attention 做成动画了[害羞R]。
+之前看论文总觉得"注意力机制"这几个字高大上但又说不清楚到底在干嘛。
+这个动画分四步：
+生成 Q、K、V
+计算注意力分数
+Softmax 归一化
+加权求和
+看完应该能理解为什么 Transformer 能捕捉长距离依赖了。
+有问题的评论区问，看到会回。
+#大模型[话题]# #transformer模型[话题]#  #selfattention[话题]# #算法[话题]# #机器学习[话题]#
+
+
+标签: #大模型 #transformer模型 #selfattention #算法 #机器学习

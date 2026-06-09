@@ -1,0 +1,25 @@
+{
+  "id": "68eb9e950000000003022b7a",
+  "type": "normal",
+  "title": "",
+  "desc": "“能把模型讲到结构层的人，才配进AGI实验室。”\n最近几轮 OpenAI 的 Machine Learning Engineer / Research Engineer 面试，围绕「模型基座」的题目比例明显上升。 不是问框架 API，而是问底层逻辑、tradeoff、推理优化。\n\t\n下面是🔥五道真·高频题：\n⚙️ Q1：解释 Transformer 的核心机制（重点不是定义，是tradeoff）\n💬 面试官通常不会问 “什么是 Transformer”， 而是——\n“Transformer 为什么比 RNN 更容易并行？” “Attention 是如何打破序列依赖的？”\n✅ 答题思路：\nSelf-Attention 可同时处理所有token，去掉时间步依赖；\n并行计算来自矩阵乘法结构；\n代价是 O(n²) 复杂度 → 引出 Sparse / Linear Attention；\n加分项：提 “FlashAttention” 优化与缓存复用机制。\n\t\n🧩 Q2：KV Cache 是怎么工作的？为什么能加速推理？\n这是几乎每个面LLM相关岗位必考的题。\n✅ 核心思路：\n在推理阶段，每次生成token时，不需重复计算已出现token的K、V；\n保存至缓存后，新的Q只需和旧的K、V拼接；\n时间复杂度从 O(n²) 降到 O(n)；\n\t\n🧮 Q3：Scaling Law 是什么？为什么它重要？\n✅ 要能讲出 “经验 + 理论” 两条线：\n经验规律：性能 ~ 参数量^α × 数据量^β；\n应用价值：帮助判断是扩模型、扩数据、还是扩算力；\n\t\n🚀 Q4：推理阶段性能优化有哪些方向？\n✅ 三个关键词：\nQuantization（量化） — INT8 / FP8 / 4-bit ；\nPruning（剪枝） — 去冗余权重，tradeoff在稀疏度与精度；\nKV cache batching / graph fusion / CUDA kernel优化。\n\t\n🤔 Q5：Position Embedding的设计哲学是什么？\n✅ 标准答案不止是“告诉模型顺序”，而是要展示你理解：\nAbsolute → 相对位置的演化（Sinusoidal → RoPE）；\nRoPE优点：能自然外推更长上下文；\n加分：能讲 “旋转嵌入”如何将相对位置信息编码进向量空间；\n#openai[话题]# #LLM[话题]# #大模型[话题]# #深度学习[话题]# #湾区[话题]# #湾区程序员[话题]# #面试经验[话题]#",
+  "tags": [
+    "openai",
+    "LLM",
+    "大模型",
+    "深度学习",
+    "湾区",
+    "湾区程序员",
+    "面试经验"
+  ],
+  "author": "Justin",
+  "authorId": "5ad0810ce8ac2b6698ecdb0c",
+  "time": 1760272021000,
+  "ipLocation": "",
+  "likes": "278",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091113/1870686cfab1bff4172f4c1f3594c55e/spectrum/1040g34o31nhp8u8rku0g4a4gma0gpmoc1s93q10!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68eb9e950000000003022b7a?xsec_token=ABuzfSF1YJxsI0S-oFIEb4qmhhIdDpPhYTzDq9pBSCF2M=&xsec_source=pc_collect"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "69268c6f000000001e01273d",
+  "type": "video",
+  "title": "AI大佬最近一期访谈：人工智能的下一个时代",
+  "desc": "这段对话主要讨论了人工智能发展的未来走向及实现通用智能（AGI）过程中的核心技术难题。艾利亚·萨特斯克维尔（Ilya Sutskever）提出，随着大规模计算资源和数据接近饱和，AI领域正从依赖模型规模的**“扩展时代”回归到需要全新科学突破的“研究时代”。讨论重点关注了现有AI模型在基准测试中的高分表现与其实际应用中缺乏可靠泛化能力之间的巨大脱节，这可能源于训练时过度关注评估指标。演讲者将当前模型比作过度专业化的学习者，并强调人类在样本效率和稳健的持续学习方面的独特优势，认为这是模型需要解决的根本性挑战。展望未来，萨特斯克维尔预测超级智能将在5到20年内出现，并提出必须将AI对齐**，特别是对感知生命的关怀，作为确保这些强大系统安全部署的优先目标。#",
+  "tags": [],
+  "author": "小Q",
+  "authorId": "5b1b30804eacab3230f0f546",
+  "time": 1764133999000,
+  "ipLocation": "",
+  "likes": "4",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091020/45f1ca05bcca1a8fdcbdc9ebb6c8daee/110/0/01e9268c6d164e240010000000019abe9499ee_0.jpg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/1/110/114/01e9268c6d164e24010370019abe97fb85_114.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69268c6f000000001e01273d?xsec_token=ABwbJbzoOH1dRN4u_pAWyoLgqA2jsT_WCN0Ju5vQXvM1E=&xsec_source=pc_collect"
+}

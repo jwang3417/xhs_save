@@ -1,0 +1,14 @@
+300行代码从零实现GRPO算法
+
+手把手教你实现 Agent RL，训练 Agentic RAG (DeepSeek R1 同款技术）
+📚 本期内容：
+✅ GRPO算法核心原理详解（vs PPO算法对比）
+✅ 5个关键问题理解强化学习本质
+✅ Search R1训练流程完整拆解
+✅ 300行代码手写Agent RL项目
+✅ Trajectory生成与Policy更新实战
+✅ Reward计算与Advantage优化技巧
+✅ 重要性采样与KL散度实现细节 #大模型[话题]# #强化学习[话题]# #GRPO[话题]# #featurize[话题]# #LLM[话题]# #deepseek[话题]# #agentic[话题]# #agent[话题]# #chaofa[话题]#
+
+
+标签: #大模型 #强化学习 #GRPO #featurize #LLM #deepseek #agentic #agent #chaofa

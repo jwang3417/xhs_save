@@ -1,0 +1,28 @@
+{
+  "id": "69d4edca0000000021038bcd",
+  "type": "normal",
+  "title": "Multi-Agent 经典架构有哪些？",
+  "desc": "在 Multi-Agent 系统中，多个 Agent 需要通过一定的结构组织起来，才能高效协作完成任务。如果没有清晰的架构设计，多个 Agent 之间很容易出现职责重叠、通信混乱或者任务冲突的问题。因此，在构建 Multi-Agent 系统时，首先需要确定整体架构模式。\n从工程实践来看，当前 Multi-Agent 系统主要有两种典型架构模式：Hierarchical Agent（层级式架构） 和 Swarm Agent（群体式架构）。这两种架构在任务组织方式、Agent 协作模式以及系统复杂度方面存在明显差异，适用于不同类型的任务场景。\n#agent[话题]# #ai[话题]# #程序员[话题]# #大模型[话题]# #人工智能[话题]# #大厂[话题]#",
+  "tags": [
+    "agent",
+    "ai",
+    "程序员",
+    "大模型",
+    "人工智能",
+    "大厂"
+  ],
+  "author": "fanting",
+  "authorId": "64bca2cd0000000014037ffb",
+  "time": 1775641382000,
+  "ipLocation": "",
+  "likes": "202",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090737/15f4604b7f3988c45010668d47267053/spectrum/1040g0k031ulk77ac1m105p5skb6l6vvrrgnujqo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/4026835a03c71641f6c5b0e482a9b712/spectrum/1040g0k031ulk77ac1m1g5p5skb6l6vvrvpq2sgg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/a73c98a41ce48ae84e4d2c4cb0db5767/spectrum/1040g0k031ulk77ac1m205p5skb6l6vvrufqu638!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/d011d4b27b05e4df279bd18b55443b68/spectrum/1040g0k031ulk77ac1m0g5p5skb6l6vvrdpr8pk0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/0cf395a07a3c7acef3321641c6a2f682/spectrum/1040g0k031ulk77ac1m005p5skb6l6vvr0ocsgjg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69d4edca0000000021038bcd?xsec_token=ABwzKKbPCTWlyLydqCj4eVsvhJZZP8R0GJiias5FRxSyg=&xsec_source=pc_collect"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "68733d00000000001203339e",
+  "type": "normal",
+  "title": "亚马逊Rec-R1：LLM在环SFT的生成式推荐",
+  "desc": "文章贡献\n[一R]通过GRPO训练LLM，其中奖励值直接来自于推荐系统的推荐指标，等于是借助RL后的LLM来让传统的推荐系统涨点的办法。\n[二R]我们提出了REC-R1，这是一个通用的强化学习框架，通过奖励驱动的优化将生成LLM和推荐系统连接起来。我们的方法是模型无关的推荐系统，并支持不同的任务。\n[三R]我们对两个具有代表性的推荐任务进行了广泛的实验，即产品搜索和顺序推荐，证明REC-R1在不同的推荐架构中显着提高了性能。值得注意的是，在产品搜索中，与各自的基线相比，REC-R1将基于BM 25的检索器的NDCG@100分数提高了21.45分，并将密集判别模型的NDCG@100分数提高了18.76分。\n[四R]REC-R1保留了初始化LLM的通用功能，同时实现了强大的特定任务性能，在推荐有效性和预防跟踪泛化方面都优于监督微调。\n\t\n研究方法\n本文提出 Rec-R1，一种基于RL的通用框架，旨在通过闭环反馈机制直接优化LLMs的生成策略，使其与推荐系统的最终目标对齐。Rec-R1的核心思想是将推荐系统视为黑盒环境，将LLM的生成文本（如改写后的查询）输入推荐模型后，根据其输出的性能指标（如NDCG、Recall）计算奖励信号，驱动策略梯度更新。\n\t\n核心要点：\n[一R]闭环反馈驱动优化：首次将推荐系统反馈直接作为RL奖励，实现生成与推荐目标的端到端对齐。\n[二R]高效策略优化算法：GRPO通过分组优势估计与动态KL约束，解决长文本生成的训练稳定性问题。\n[三R]零数据蒸馏与低成本部署：无需合成数据或修改推荐系统架构，适配工业级应用场景。\n[四R]通用能力保留：通过KL约束与多任务评估验证，证明Rec-R1在提升推荐性能的同时，保持LLM的开放域能力。\n\t\n﻿#算法[话题]#﻿   ﻿#算法岗[话题]#﻿   ﻿#推荐算法[话题]#﻿   ﻿#大厂[话题]#﻿   ﻿#生成式[话题]#﻿   ﻿#亚马逊[话题]#﻿   ﻿#神经网络[话题]#﻿ ﻿#LLM[话题]#﻿",
+  "tags": [
+    "算法",
+    "算法岗",
+    "推荐算法",
+    "大厂",
+    "生成式",
+    "亚马逊",
+    "神经网络",
+    "LLM"
+  ],
+  "author": "Cici学算法",
+  "authorId": "5c04740600000000050185b2",
+  "time": 1752454862000,
+  "ipLocation": "",
+  "likes": "66",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091330/75e56e4b06edb50523a2a937c33fd8b0/spectrum/1040g34o31js77sujk8104bupdsq0d1di4kc3qp8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/41c708c261264ca0aed98f835180d230/spectrum/1040g0k031js78bojj6004bupdsq0d1dit2tqq08!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/bae303ca8810934be9e832e0a90f4c7d/spectrum/1040g0k031js7443qig004bupdsq0d1dich1ou9o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/a1c6cd069597e1025771ba34cc42fdb5/spectrum/1040g0k031js7443qig0g4bupdsq0d1di5hd59so!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/92713a220491e53014b03e17d3ffd7e2/spectrum/1040g0k031js7443qig104bupdsq0d1diltuk3p0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/77dd7a0db5d2cb87aba8d29005d934d7/spectrum/1040g0k031js7443qig1g4bupdsq0d1dipfq2dio!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/0e818745d3f066707c1fd4d290c4835f/spectrum/1040g0k031js7443qig204bupdsq0d1dihls20sg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/e161e94ef3fff5bed6aa357eca97d773/spectrum/1040g0k031js7443qig2g4bupdsq0d1digbkdilo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68733d00000000001203339e?xsec_token=ABKjMtzbhYwtfTRuHDV4NjVnXR_e5RpN-wlaLWV6J-aJs=&xsec_source=pc_collect"
+}

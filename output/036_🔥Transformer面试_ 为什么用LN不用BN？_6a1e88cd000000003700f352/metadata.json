@@ -1,0 +1,32 @@
+{
+  "id": "6a1e88cd000000003700f352",
+  "type": "normal",
+  "title": "🔥Transformer面试: 为什么用LN不用BN？",
+  "desc": "面试官问\"Transformer为什么用LayerNorm不用BatchNorm\"，你只会背\"NLP用LN\"就危险了 🔥\n\t\n1️⃣ BN竖着看: 跨样本统计同一特征，依赖整个batch\n2️⃣ LN横着看: 单样本内部归一化，跟别人无关\n3️⃣ 公式就差一个下标: BN对样本求和，LN对特征求和，命运全反了\n4️⃣ BN在NLP三大死穴: padding污染统计量、样本差异大统计量乱跳、推理全局统计量估不准\n5️⃣ 代码手算验证LN，一眼看懂归一化方向\n6️⃣ 加分项: 顺便讲讲LLaMA在用的RMSNorm\n\t\n公式+代码+图全都有，跟着过一遍面试稳了 ✨\n\t\n#transformer[话题]#   #深度学习[话题]#   #机器学习[话题]#  #算法面试[话题]#  #AI[话题]#  #大模型面试[话题]#  #神经网络[话题]# #ai面试[话题]# #llm[话题]# #NLP[话题]#",
+  "tags": [
+    "transformer",
+    "深度学习",
+    "机器学习",
+    "算法面试",
+    "AI",
+    "大模型面试",
+    "神经网络",
+    "ai面试",
+    "llm",
+    "NLP"
+  ],
+  "author": "🍒AI小樱桃",
+  "authorId": "65d9d391000000000d026986",
+  "time": 1780447140000,
+  "ipLocation": "浙江",
+  "likes": "64",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090703/f3fba1b75b1c57f27f2ccba5dd1c15b1/spectrum/1040g34o320tg9so8n2505pepqe8jcqc6k8ik3k8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090703/5df8fde06d550fb4a46df82982c857c0/spectrum/1040g34o320tg9so8n25g5pepqe8jcqc6hb8g8cg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090703/ff494d651ae918ba5feaa19cc8edfb00/spectrum/1040g34o320tg9so8n2605pepqe8jcqc6jeqe3m8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090703/de3daf31e396689463477734c0ad8b1c/spectrum/1040g34o320tg9so8n26g5pepqe8jcqc6f0ud87o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090703/5c29de75dad3eaa7ca3617175fb863d0/spectrum/1040g34o320tg9so8n2705pepqe8jcqc6jv682gg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a1e88cd000000003700f352?xsec_token=ABm_8QwE5ve-dMKM6ej-TAYP8bKbElBWKhj_FAHMLdS-0=&xsec_source=pc_collect"
+}

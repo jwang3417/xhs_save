@@ -1,0 +1,29 @@
+{
+  "id": "6803b1d100000000070372f8",
+  "type": "normal",
+  "title": "",
+  "desc": "推荐个性化网络：PPNet、EPNet、PEPNet三者对比\n\t\n三者关系可概括为： EPNet和PPNet是PEPNet的核心组件，分别从Embedding层和参数层注入个性化先验，而PEPNet通过联合优化实现多场景多任务的全局最优。实际应用中，若仅需解决单一问题（如仅多任务或多场景），可独立使用PPNet或EPNet；若需综合优化，PEPNet是更优选择。\n\t\n#人工智能[话题]# #推荐系统[话题]# #算法[话题]# #推荐算法[话题]# #快手[话题]# #互联网大厂[话题]#",
+  "tags": [
+    "人工智能",
+    "推荐系统",
+    "算法",
+    "推荐算法",
+    "快手",
+    "互联网大厂"
+  ],
+  "author": "大厂AI算法漫记",
+  "authorId": "6194fcda000000001000e14b",
+  "time": 1745072593000,
+  "ipLocation": "河北",
+  "likes": "162",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091351/37eac21255be69c0a3633898bb6f6bd2/1040g00831gf9md30ju005ockvjd41oabcsgtc0g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091351/1ec8f643a4c2dfe48eab90a26f1b977a/1040g00831gf9md30ju0g5ockvjd41oabis2n730!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091351/e63510ed4250f6bd0bf05f1588010ab6/1040g00831gf9md30ju105ockvjd41oab4dnrtg0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091351/ed15a38a4daa4e08335e44825f0cfdfb/1040g00831gf9md30ju1g5ockvjd41oabqu72f78!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091351/f28a8327c39ddac5421db5a011fb834a/1040g00831gf9md30ju205ockvjd41oabv15o370!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091351/94653c9511fd3d57e4a1b79d64c11380/1040g00831gf9md30ju2g5ockvjd41oabglb0ja0!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6803b1d100000000070372f8?xsec_token=ABexF1Mjnv8-Z5cMtTO4YLKCRiKwrGlntmdxaevfISE3o=&xsec_source=pc_collect"
+}

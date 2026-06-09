@@ -1,0 +1,6 @@
+Apple Pay 与 Google Pay 的架构深度剖析
+
+Apple Pay 与 Google Pay：从架构到隐私的深度剖析 ﻿#架构设计[话题]#﻿ ﻿#支付系统[话题]#﻿
+
+
+标签: #架构设计 #支付系统

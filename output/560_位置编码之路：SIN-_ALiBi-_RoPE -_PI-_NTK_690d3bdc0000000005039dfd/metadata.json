@@ -1,0 +1,41 @@
+{
+  "id": "690d3bdc0000000005039dfd",
+  "type": "normal",
+  "title": "位置编码之路：SIN->ALiBi->RoPE ->PI->NTK",
+  "desc": "位置编码之路：SIN->ALiBi->RoPE ->PI->NTK->YARN#大模型[话题]# #ai[话题]# #位置编码[话题]##算法岗[话题]# #算法面试[话题]# #面试[话题]#",
+  "tags": [
+    "大模型",
+    "ai",
+    "位置编码",
+    "算法岗",
+    "算法面试",
+    "面试"
+  ],
+  "author": "AiGC面试宝典",
+  "authorId": "61c2ab5d000000001000bb93",
+  "time": 1762474972000,
+  "ipLocation": "",
+  "likes": "70",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091052/290e808d8de11b515cc0a16709c3fed7/1040g00831oijpkffmm1g5oe2ldek1esj53cqmeg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/888247d00d533a8c34e5189781fb0109/1040g00831oijo3rpmm1g5oe2ldek1esjkp7qqt0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/974349c12ffba4ae0fdacfad3d14af98/1040g00831oijo3rpmm2g5oe2ldek1esjm7k3vh0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/cd1fd934fcb5d69344d8ca15a285a03a/1040g00831oijo3rpmm205oe2ldek1esjoufsmg0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/9608d9794a1aa9021bfe3bb1c9d851be/1040g00831oijo3rpmm005oe2ldek1esjsg6udlg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/2633e467cd0591a52252496e4004921f/1040g00831oijo3rpmm305oe2ldek1esjt25i50g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/bf70feeabe4354c82d7053a716e284e4/1040g00831oijo3rpmm0g5oe2ldek1esjgmnmso8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/bc995e25b68e36bf2029a96811ddc67a/1040g00831oijo3rpmm105oe2ldek1esj9n4abj8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/6018df39ef595b77577f7254f1e28858/1040g00831oijo3rpmm3g5oe2ldek1esjsbd5tpo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/11574c52ef2317e81696b7c7dcea2907/1040g00831oijpkffmm005oe2ldek1esj96sorn8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/d9c4c50df509c676f6ac5b7891d9276a/1040g00831oijo3rpmm605oe2ldek1esj21resq8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/b25461dfe88e12e1b67a8738c8d0c318/1040g00831oijo3rpmm505oe2ldek1esj36pqjlo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/9e13b3cabe9d4ee3fb9db7f368498996/1040g00831oijo3rpmm405oe2ldek1esjifoj9t0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/cbb4efdd5ba40f0d3a556d2a5742b251/1040g00831oijo3rpmm6g5oe2ldek1esjk2bbhmg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/a4e7436527cadb9f757163193a7a8b18/1040g00831oijo3rpmm4g5oe2ldek1esjb0jopf0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/1aa37b06cfc0c33dcef4d2116f7c0465/1040g00831oijo3rpmm5g5oe2ldek1esj2od0oe0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/5303f8efb79830ab3e7c25f70a00d964/1040g00831oijpkffmm105oe2ldek1esj2ru7o9o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091052/03d079899c19272dd33b3d58797401bf/1040g00831oijpkffmm0g5oe2ldek1esjf47injo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/690d3bdc0000000005039dfd?xsec_token=ABX8lHpKjb11ehkfqdSW9UqESFBz3YXB5LEZHzMOXe6oI=&xsec_source=pc_collect"
+}

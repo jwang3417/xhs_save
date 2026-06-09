@@ -1,0 +1,31 @@
+{
+  "id": "68bfd277000000001d00aa59",
+  "type": "normal",
+  "title": "首发｜如何离线评估语义ID效果？👉",
+  "desc": "[捂脸R]被私信催更最多的问题终于来了🔥 以下是博主在训练 SID 和训练之后做的离线评估，独家分享，供参考～(右划图片学习更轻松😌)\n\t\n以 RQ-VAE / RQ-means为例，训练阶段每个 epoch 都能看：\n\t\n1. 重构损失 📉\n- 观察 input embedding 和每一层累积 quantilized embedding 的重构损失，越小越好。\n\t\n2. 码本利用率 📊\n- 计算 Token Distribution Entropy，越大越好，但存在上限且浅层收敛慢。\n\t\nSID 训练完成后可以看这些：\n3. 可视化分布\n- 使用 T-SNE 或 UMAP 可视化多模态 embedding 与 quantilized embedding。\n- 肉眼观察相似 item 的分布变化情况。\n- 压缩过程中不可避免有信息丢失，但若仍能聚在一起则可以接受 ✅。\n\t\n4. 码本冲突率\n- 计算码本冲突率，并查看相同 SID 的 item 进行归因。\n- 有些冲突是必然的，特别是在没有对 item 质量进行控制的情况下。\n\t\n5. 相似物品验证 🔍\n- SID 前 N 层相同的理当视为相似物品。\n- 可以使用线上相似物品索引（如 ItemCF）计算 Recall@K进行验证。\n- ⚠️ 注意：这个值一般不会太高，可以想想为啥？\n\t\n📖 参考\n- 方法（1、2）可参考 OneRec Technical Report-v1的 4.4 Tokenizer部分。\n💬 更多细节可以在评论区提问，欢迎大佬纠错～ 🙌\n\t\n#生成式推荐[话题]#  #算法[话题]# #高校[话题]# #日常分享[话题]# #计算机[话题]# #高薪[话题]# #科研[话题]##互联网大厂[话题]# #腾讯广告算法大赛[话题]# #每天都有值得记录的瞬间[话题]#",
+  "tags": [
+    "生成式推荐",
+    "算法",
+    "高校",
+    "日常分享",
+    "计算机",
+    "高薪",
+    "科研",
+    "互联网大厂",
+    "腾讯广告算法大赛",
+    "每天都有值得记录的瞬间"
+  ],
+  "author": "猫咪行者",
+  "authorId": "5f56d10c0000000001004be4",
+  "time": 1757401719000,
+  "ipLocation": "",
+  "likes": "188",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091153/c3798053af70083e10b79801fca8101e/1040g00831m6vvqok521g5nqmq4608iv4p02h6c0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/828744230bf3d9c463bc30c6d6b01109/1040g00831m6vvqok520g5nqmq4608iv4tc8rl1o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/4e002fb1032684fc358642b4f49587d5/1040g00831m6vvqok52105nqmq4608iv4peo6ouo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/951f5ac9082e34fb1d83eafeb58e7156/1040g00831m6vvqok52005nqmq4608iv4345uqu8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68bfd277000000001d00aa59?xsec_token=ABA9fhRh885tCldiETYermTsqGLstN6cWNDgL4wt98PRs=&xsec_source=pc_collect"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "6880baf8000000001c031571",
+  "type": "normal",
+  "title": "为什么双塔最后需要过L2 Norm？",
+  "desc": "这里参考一些知乎文章以及具体的实践分享一下我的看法。\n\t\n一般来说，在召回阶段，我们会让双塔最后item侧和user侧分别过L2 Norm，但这其实并不是一定的，事实上，user 侧不过，保留模长信息，item侧单独过也是work的 ，可以实际根据线上效果进行验证[吧唧R]\n\t\n那么我们进一步分析都过的情况。向量化召回之后会接ann检索，而工业界常用的检索算法为hnsw，hnsw官方github有过note说明它在点乘距离的数据集上表现较差，这是为啥？因为内积其实是不保序的，不满足三角不等式。举例说明， Q=（1，0），A=（0.9，0.1），B=（10，0），直觉上以及欧式距离度量角度 qa更近更相似，但是实际点击来看qb点积更大更相似，排序结果完全相反了，这种关系是混乱的，无法构成一个稳定的图结构，所以 hnsw 这种依赖“邻居的邻居也很可能是邻居”这一假设的算法就失效了[捂脸R]\n\t\n而两者都归一化后由于模长都为1了，最大化内积就等价于最小化欧氏距离，这样内积和欧式距离的排序结果就完全一致了，实现了保序[暗中观察R]\n\t\n然而仅仅把这俩都过L2其实还是不够，一般要对logit除以一个temperature，这样搭配起来才能有好效果[doge]\n\t\ntemp的目的有两方面：\n1. 引入归一化后，点乘值域为[-1, 1]，而在 softmax 中，logit 值域可以是[-inf, inf]。这里引入温度项做 rescaling ，把它拉回到softmax的敏感值域\n2. 控制推荐策略的soft程度。temperature越低，推荐策略越尖锐，探索性下降；temperature越高，推荐策略越平缓，探索性上升，这种变化可以通过抽case看画风来分析\n\t\n最后，temp超参的设置也很关键，需要小心设置。过大则缺乏对hard neg的分辨能力，过小则会丢失底层语义信息。\n#推荐算法[话题]#",
+  "tags": [
+    "推荐算法"
+  ],
+  "author": "dispersion",
+  "authorId": "5dae74ec0000000001001de4",
+  "time": 1753266936000,
+  "ipLocation": "",
+  "likes": "125",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091326/7e16485bebc31c1e3155c29a667c2499/1040g00831k9bk6foiuq05ndeejm087f4chp0hto!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6880baf8000000001c031571?xsec_token=ABb-_7Cpz7YMnX7vsxTs300Io39Hlc3rfN4WiVj0Ckow0=&xsec_source=pc_collect"
+}

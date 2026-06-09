@@ -1,0 +1,24 @@
+统一的精排模型应该长什么样？
+
+当前“序列压缩，再与其他特征交叉”的两阶段方案存在以下三个问题：
+1.交互发生在序列压缩之后，导致序列压缩无法利用丰富的上下文信息
+2.Query Token表达能力弱：序列编码时通常仅用Target Item作为 Query，忽略了其他特征的作用
+3.Scaling 效率低：增加模型深度或参数主要是在优化独立的组件，无法通过联合优化带来更显著的性能增长
+	
+为了解决上面问题，HyFormer 引入了Global Tokens的概念，并在层级堆叠中交替执行Query Decoding和Query Boosting两个步骤，HyFormer Block 由两部分交替组成：
+1.Query Decoding (基于 Cross-Att):利用Global Tokens（由非序列特征生成）作为 Query。对长行为序列的 K/V进行 Cross-Att
+2.Query Boosting (基于 Token-Mixer):将 Decode 出来的序列信息与非序列特征进行mix（参考 RankMixer）
+	
+HyFormer关键技术
+1.Global Tokens: 不仅仅是一个 Target Item Embedding，而是将所有非序列特征（用户、上下文、交叉特征）映射为一组语义 Query
+2.高效长序列编码： 为了平衡效率，KV 侧通常比较轻量，重头戏在 Query 侧的交互
+3.多序列独立建模: 实验发现简单的序列合并会导致性能下降，因此 HyFormer对每个序列维持独立的 Global Tokens 进行交互，保留了序列间的差异性
+	
+总结：
+1.架构统一是趋势：就像 NLP 领域从分离的组件走向统一的 Transformer 一样，推荐系统也在从“特征工程+独立模块”走向“统一骨干网络”。HyFormer/RankMixer是这一趋势在工业界落地的典型代表。
+2.Query 的重新定义：传统 Cross Att中往往只由 Target Item决定。HyFormer可以理解为：“我想从历史行为里找什么，不仅取决于我想看什么视频（Target），还取决于我是谁（User）以及我现在处于什么环境（Context）” 通过层级交互不断修正这个 Q，实现了更精准的兴趣提取
+线上：A/B test时长约+0.3%
+#字节跳动[话题]# #推荐算法[话题]#
+
+
+标签: #字节跳动 #推荐算法

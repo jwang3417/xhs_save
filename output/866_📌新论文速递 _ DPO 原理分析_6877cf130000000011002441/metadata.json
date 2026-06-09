@@ -1,0 +1,17 @@
+{
+  "id": "6877cf130000000011002441",
+  "type": "normal",
+  "title": "📌新论文速递 | DPO 原理分析",
+  "desc": "🚀 问题定义：\nDPO是RLHF的简化版神器，能直接从人类偏好数据优化模型，而不用先训练奖励函数。它的变体（比如IPO、ORPO）那么多，却缺乏统一原理框架。这篇论文直击痛点：用经典理论（Savage的proper loss函数 + Doignon-Falmagne和Machina的随机选择理论）来“解剖”DPO，证明DPO只是冰山一角，帮助我们构建更general的偏好优化方法。\n🛠️ 方法：\n论文的核心是把DPO泛化成“KLST* + Savage”（简称KLST*+S）框架：\n步骤分解：DPO有3步（链接奖励&策略、选择概率、最终损失）。论文用Savage的proper loss（正确损失函数）泛化步骤1和3，用KLST*随机选择理论（支持彩票lotteries和 abstention）泛化步骤2。\n关键创新：支持 abstention（用户不选时）、非凸目标、长度校正/margins等“免费”扩展。提出3种框架：\npmpo（Proper-Monotone PO）：最general，用任意递增𝜓函数 + proper loss，覆盖所有properness和KLST*。\npppo（Proper-Proper PO）：用两个proper loss + 规范链接，适合学习损失的部分。\n𝜙-po：用convex函数𝜙作为“旋钮”，简单检查convexity就能生成proper loss，避开复杂验证。\n这些方法保持DPO的简洁（如跳过奖励拟合），但扩展到非对称损失和Debreu模型。论文还证明了“黄金标准”奖励形式（r(x,y) = f(π(y|x))）只有KL散度下有效，其他需workaround。\n📊 结果：\nDPO只是特例：论文证明DPO用log-loss + sigmoid链接，是KLST*+S的特定点；许多变体（如ORPO、IPO、RRHF、AlphaPO）都挤在“小角落”里，只探索了很少部分。\n免费扩展：margins（家场优势）和长度校正（如SimPO、ODIN）自然嵌入框架，无需ad-hoc调整。\n陷阱与workaround：偏离KL散度会打破properness（导致计算负担），但论文给出简单fix（如用1-vs-rest损失）。如果不允许abstention，必须用对称损失。非凸损失也支持，但需严格单调。",
+  "tags": [],
+  "author": "小红",
+  "authorId": "5fbe1dda0000000001007764",
+  "time": 1752682259000,
+  "ipLocation": "",
+  "likes": "89",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091328/9f1141ef51dff14354ded470de7160a0/1040g00831k0m8mjfj6005ntu3nd08tr41icmk88!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6877cf130000000011002441?xsec_token=ABlsuphyXvxmw5crlxxdIE5G56ID6Qiugt6yUR9RQ5PxU=&xsec_source=pc_collect"
+}

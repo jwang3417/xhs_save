@@ -1,0 +1,34 @@
+{
+  "id": "685cc3ac000000002203e19d",
+  "type": "normal",
+  "title": "图解ViT",
+  "desc": "好多年前写的文章了，也是被搬运售卖的重灾区，所以把原文放在这里（除了论文中的图片外，其余图片皆为手动绘制）。\n\t\n本文基于代码（vit原版tf代码）和论文，对vit的各个细节进行解读。大部分朋友在学习vit时，解除的应该都是网上改写后的pytorch代码，它和原版代码有一些不同，但本质原理是相同的（例如patch to token embedding那部分，原版通过卷积核实现，后人的pytorch版本大多通过linear层映射，但本质都是线性映射）。除此之外，本文还对图片的位置编码进行了初步讨论。\n\t\n【🌟全文参见主页置顶，完全免费，没有套路】\n\t\n#vit[话题]# #多模态[话题]# #大模型[话题]# #llm[话题]# #大模型面试[话题]# #大模型笔记[话题]# #大模型秋招[话题]# #大模型应用[话题]# #mllm[话题]# #qwen[话题]#",
+  "tags": [
+    "vit",
+    "多模态",
+    "大模型",
+    "llm",
+    "大模型面试",
+    "大模型笔记",
+    "大模型秋招",
+    "大模型应用",
+    "mllm",
+    "qwen"
+  ],
+  "author": "猛猿",
+  "authorId": "685a94f3000000001d0091b9",
+  "time": 1750909868000,
+  "ipLocation": "",
+  "likes": "145",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091336/03af20a27d25defe0f7d8d8376073c91/1040g00831j68qajc2oeg5q2qijpn94dpmvfu81o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/b3ceac7362420cc46845717f2fdc60e2/1040g00831j68qajc2oe05q2qijpn94dpcrr3pr0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/73f1a17dbccd01c795aed15a6fe7010e/1040g00831j68qajc2ofg5q2qijpn94dphr0tsmg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/5b95f973426dd296a646df9b33d6a615/1040g00831j68qajc2of05q2qijpn94dpmu4cgj8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/f90b8313e0de5313efd03b4acf9f32d6/1040g00831j68qajc2ogg5q2qijpn94dpglc1b1g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/b4ac01d702929669c6020f1fb98a1c03/1040g00831j68qajc2og05q2qijpn94dp6j98bf0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/30ea1fa9833da8f9fe5d480e31dcfcc4/1040g00831j68qajc2oh05q2qijpn94dpqc8pfno!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/685cc3ac000000002203e19d?xsec_token=ABzl8JSoe5kpzjiII7Q7HVLNDHxCusuchfKhW6GNL1JJI=&xsec_source=pc_collect"
+}

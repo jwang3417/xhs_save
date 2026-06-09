@@ -1,0 +1,28 @@
+{
+  "id": "68fe1b38000000000300ce80",
+  "type": "video",
+  "title": "都知道0.1+0.2≠0.3，为啥 0.1+0.1 = 0.2？",
+  "desc": "“你知道 0.1+0.2 不等于 0.3 吧？那我再问一个：为什么 0.1+0.1 又等于 0.2？”\n面试现场，当面试官抛出这个问题时，小林心里咯噔一下 —— 他背过 “0.1 二进制无法精确存储” 的结论，却从没琢磨过 “两个不精确的 0.1 相加，为啥能得到精确的 0.2”。支支吾吾半天没说清，这场面试最终以 “再联系” 收尾。#面试[话题]# #大厂面试[话题]# #程序员[话题]# #算法[话题]# #java[话题]# #编程[话题]# #后端开发[话题]# #这是为什么呢[话题]# #百思不得其解[话题]# #不懂就要问[话题]#",
+  "tags": [
+    "面试",
+    "大厂面试",
+    "程序员",
+    "算法",
+    "java",
+    "编程",
+    "后端开发",
+    "这是为什么呢",
+    "百思不得其解",
+    "不懂就要问"
+  ],
+  "author": "Fox爱分享",
+  "authorId": "6787bc460000000004039084",
+  "time": 1761606022000,
+  "ipLocation": "",
+  "likes": "41",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091100/5d2f948343a5444ecfffbe081e119790/spectrum/1040g34o31o3qvrirkq105ps7nh317444sbg18rg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/1/110/259/01e8fe1b38dd4630010370039a209a9b2e_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68fe1b38000000000300ce80?xsec_token=AB6R0M8Qf4IddOwecKHCu1GisLmydpTslqASfcmSCIVsc=&xsec_source=pc_collect"
+}

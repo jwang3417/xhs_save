@@ -1,0 +1,25 @@
+{
+  "id": "690b3a020000000007038fe6",
+  "type": "normal",
+  "title": "大家再多loss训练的时候会监控各loss梯度吗",
+  "desc": "是直接通过loss值分配权重呢？还是通过监控梯度分配权重？\n#多任务训练[话题]# #深度学习[话题]# #深度学习调参[话题]# #深度学习调参技巧[话题]# #AIGC训练技巧[话题]# #模型训练[话题]# #模型训练技巧[话题]#",
+  "tags": [
+    "多任务训练",
+    "深度学习",
+    "深度学习调参",
+    "深度学习调参技巧",
+    "AIGC训练技巧",
+    "模型训练",
+    "模型训练技巧"
+  ],
+  "author": "AI全栈选手",
+  "authorId": "62447d460000000021027f49",
+  "time": 1762343426000,
+  "ipLocation": "",
+  "likes": "439",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091317/cceb09b37c0e92809ed0e1d44d47b6db/1040g00831ogc5vqh4q7g5oi4fl38cvq98lupi3o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/690b3a020000000007038fe6?xsec_token=ABOg6b__H1FQ243lmGXg_Ecd0nbI2KGNU8PCPy_kYvitU=&xsec_source=pc_collect"
+}

@@ -1,0 +1,10 @@
+Thinking Machines交互模型demo 有意思👍🏻
+
+Seongsik Kim发的Thinking Machines交互模型(InteractionModels) 做 paper reading的demo，实时多任务协作有点impressive 👍🏻
+	
+读取桌面内容的基础上，能边说边输出可视化流程图，同时还穿插着解决其他问题。重点是，做到这些的基础上，还是几乎实时的交互。
+	
+#多模态人工智能[话题]# #人工智能[话题]# #thinkingmachines[话题]# #tml[话题]# #大模型[话题]#
+
+
+标签: #多模态人工智能 #人工智能 #thinkingmachines #tml #大模型

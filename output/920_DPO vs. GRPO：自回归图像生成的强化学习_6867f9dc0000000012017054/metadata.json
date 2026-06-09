@@ -1,0 +1,32 @@
+{
+  "id": "6867f9dc0000000012017054",
+  "type": "normal",
+  "title": "DPO vs. GRPO：自回归图像生成的强化学习",
+  "desc": "本文内容主要源自于Chengzhuo Tong、Ziyu Guo等研究者于2025年发表在arXiv上的论文《Delving into RL for Image Generation with CoT: A Study on DPO vs. GRPO》。该研究首次对两种主流的强化学习（RL）算法——直接偏好优化（DPO）和组相对策略优化（GRPO）——在自回归图像生成领域的应用进行了全面、系统的比较分析。\n[星R]如想给简历增加更有质量的项目经历，增加面试官认可度，以及提升算法岗面试能力，从而在横向对比中脱颖而出。有上述需要，欢迎后台T。#互联网大厂[话题]# #计算机[话题]#  #求职辅导[话题]#",
+  "tags": [
+    "互联网大厂",
+    "计算机",
+    "求职辅导"
+  ],
+  "author": "大厂算法offer",
+  "authorId": "6670f722000000001e0052f3",
+  "time": 1751644636000,
+  "ipLocation": "",
+  "likes": "12",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091334/4e23c36da482278908311e2e26557894/notes_pre_post/1040g3k831jh7ev8d2gb05pjgush7gknjnb71m98!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091334/37a7cd9c76baa5e4d88f2a87c4b610c4/notes_pre_post/1040g3k831jh7ev8d2gag5pjgush7gknj5ku3fhg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091334/1eae9f90bc8a0014daf345c8e068f9a4/notes_pre_post/1040g3k831jh7ev8d2g8g5pjgush7gknjvib3poo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091334/baf46f571d5e1140ea6da92faddec2b8/notes_pre_post/1040g3k831jh7ev8d2gc05pjgush7gknjbsson5o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091334/64e022854b0b681cec509dbec8e8b116/notes_pre_post/1040g3k831jh7ev8d2g7g5pjgush7gknj2n76bbg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091334/360255515286cc741069407a7a44474a/notes_pre_post/1040g3k831jh7ev8d2gbg5pjgush7gknjcel4qq0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091334/23d41637472b6abd1ec5fcca1078bdaf/notes_pre_post/1040g3k831jh7ev8d2gcg5pjgush7gknjlhb3dr0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091334/f6d019c957e46751ee143bfc77ad6eb2/notes_pre_post/1040g3k831jh7ev8d2g905pjgush7gknjdpdcioo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091334/70f6f595acf0865c1a85977ec17b03e4/notes_pre_post/1040g3k831jh7ev8d2g805pjgush7gknj09kjeh8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091334/bae5cbf42498812667faf163f2bfa519/notes_pre_post/1040g3k831jh7ev8d2g9g5pjgush7gknjvp9n5jg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091334/ed1c82bb9c9c8346a469b0d4d5bd6553/notes_pre_post/1040g3k831jh7ev8d2ga05pjgush7gknje8rmn9o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091334/98471a0f0d3451a071a26c925cac2179/notes_pre_post/1040g3k831jh7f8as2g005pjgush7gknji0bml18!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6867f9dc0000000012017054?xsec_token=ABDwCmabPUZIHgL5xG_muDaqQf8THDq-gulWw6FNcbqEw=&xsec_source=pc_collect"
+}

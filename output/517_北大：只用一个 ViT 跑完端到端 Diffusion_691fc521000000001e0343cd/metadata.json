@@ -1,0 +1,32 @@
+{
+  "id": "691fc521000000001e0343cd",
+  "type": "normal",
+  "title": "北大：只用一个 ViT 跑完端到端 Diffusion",
+  "desc": "传统 Latent Diffusion 需要 Encoder + Decoder + Diffusion 模型 三件套，多阶段训练、低效率、参数大、难统一。 这篇来自北大团队的研究提出 DSD，首次把三者彻底合一，用 一个单体 ViT 同时完成编码、解码和扩散，解决了长期困扰业界的 端到端训练崩溃问题。 结果：205M 参数、50 epoch，即可在 ImageNet 256×256 获得 FID 4.25 的强指标，堪比 700M+ 参数的传统 LDM。\n核心亮点\n1. 发现端到端失败的根因：latent collapse（核心贡献）\n论文通过 rank 分析证明扩散损失会导致：\n隐变量方差被压缩\n预测头输出高秩噪声导致 rank differentiation 机制失效 → 最终 latent 空间坍缩成低维点。\n2. 提出统一理论：Diffusion = Self-Distillation\n作者首次证明：扩散训练形式与 BYOL / DINO 系列自蒸馏框架在结构上本质相同，因此可用 SD 的收敛机制来稳定训练。\n3. 两个关键改动解决崩溃\n（1）Decoupling：对 clean latent 加 stop-gradient，切断方差压缩项的梯度。 （2）Loss Transformation：数学证明速度预测与“预测 clean latent”完全等价，因此可让预测器变成低通滤波器，恢复 SD 的 rank differentiation 稳定性。\n4. 单模型统一：Encoder + Decoder + Diffusion\n论文将所有功能接入 同一个 ViT：\n一个 backbone\n三个 head 打造真正意义的 单模型 LDM。\n5. 进一步引入完整自蒸馏策略\nEMA target encoder\n大量图像增强\n中层特征对齐 → 提升稳定性与表示质量。\n6. 实验效果强劲\nDSD-B在 FID、sFID、IS 上显著优于同规模方法\n在无 classifier-free guidance 下仍能达到 4.25 FID\n训练仅需 50 epoch\n\t\narXiv：2511.14716\n\t\n#AI工具[话题]#  #生成式AI[话题]#  #DiffusionModel[话题]#  #自监督学习[话题]#  #VisionTransformer[话题]#  #开源研究[话题]#  #模型压缩[话题]#  #端到端训练[话题]#  #图像生成[话题]#  #AIGC[话题]#",
+  "tags": [
+    "AI工具",
+    "生成式AI",
+    "DiffusionModel",
+    "自监督学习",
+    "VisionTransformer",
+    "开源研究",
+    "模型压缩",
+    "端到端训练",
+    "图像生成",
+    "AIGC"
+  ],
+  "author": "每日ComputerScience",
+  "authorId": "677419a40000000015005599",
+  "time": 1763775007000,
+  "ipLocation": "",
+  "likes": "425",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091023/30bfad37c875185bfc8a64b7b0c5bac4/spectrum/1040g34o31p4n0bggi4705prk36i58lcpag5lnr0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091023/fcec71f88c2eb2438d5c131818a022a0/spectrum/1040g34o31p4n0bggi4605prk36i58lcpfemjsgg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091023/bf431d26dd84c25c3625496a589498c5/spectrum/1040g34o31p4n0bggi46g5prk36i58lcp7mvrhv8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091023/012c2f533fe9ccc0f78dc24432225d1d/spectrum/1040g34o31p4n0bggi45g5prk36i58lcpd8vboc8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091023/b66c9c0502c2b4893dda16be155ae2d7/spectrum/1040g34o31p4n0bggi4505prk36i58lcp4vqi1bo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/691fc521000000001e0343cd?xsec_token=AB19B5ndW7T2C3WTO3DukxcOAWMUZUIu64eCo5hyeyXmA=&xsec_source=pc_collect"
+}

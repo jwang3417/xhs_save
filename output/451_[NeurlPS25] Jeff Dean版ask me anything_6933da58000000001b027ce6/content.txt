@@ -1,0 +1,9 @@
+[NeurlPS25] Jeff Dean版ask me anything
+
+上午刚听完Jeff Dean在NeurIPS的Google booth现场热乎的QA环节，趁还记得住，赶紧来分享一下[doge]
+	
+上次跟Jeff Dean合照还是在学校，这次已经同为Googlers working On Gemini了哈哈（大雾
+#jeffdean[话题]# #neurips[话题]# #neurips25[话题]# #Gemini[话题]# #Gemini3[话题]# #强化学习[话题]# #sandiego[话题]#
+
+
+标签: #jeffdean #neurips #neurips25 #Gemini #Gemini3 #强化学习 #sandiego

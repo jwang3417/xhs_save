@@ -1,0 +1,17 @@
+{
+  "id": "68fb2bb2000000000700bd17",
+  "type": "video",
+  "title": "我构建了一个用于交易股票的神经网络",
+  "desc": "（非投资建议）以下是我的回测结果（全部为扣费后的净值，三年滚动式样本外走前，采用清洗与禁运调参，T+1 执行）：\n\t\n2020：12.16% CAGR，13.17% 最大回撤，1.09 夏普比率，4205 笔交易 2021：16.33% CAGR，9.17% 最大回撤，1.39 夏普比率，3329 笔交易 2022：13.02% CAGR，8.99% 最大回撤，1.35 夏普比率，3449 笔交易 2023：14.22% CAGR，8.79% 最大回撤，1.42 夏普比率，3161 笔交易 2024：11.45% CAGR，9.64% 最大回撤，1.27 夏普比率，3798 笔交易\n\t\n这是我第一次以神经网络为核心来创建策略。我会继续学习 :)\n\t\n仅供研究预览。过往业绩不代表未来表现。",
+  "tags": [],
+  "author": "Joshua Kyan Aalampour",
+  "authorId": "67882d98000000000803e5b6",
+  "time": 1761291186000,
+  "ipLocation": "",
+  "likes": "8,640",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091101/45033982d60a14d51e8de04bb6e3f3da/1040g2sg31o108h39ku705ps85mc27pdmp5rpep8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/1/110/114/01e8fb2b8d22f6a5010370019a1523570b_114.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68fb2bb2000000000700bd17?xsec_token=ABgo87ShD6PzSVAP6A24uxEPDpwl-HDGMaLmDdofIu83M=&xsec_source=pc_collect"
+}

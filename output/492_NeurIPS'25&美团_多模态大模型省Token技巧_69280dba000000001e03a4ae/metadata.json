@@ -1,0 +1,25 @@
+{
+  "id": "69280dba000000001e03a4ae",
+  "type": "video",
+  "title": "NeurIPS'25&美团|多模态大模型省Token技巧",
+  "desc": "认知驱动设计\n[种草R]模拟人类“扫视-凝视”双阶段注意力机制\n\t\n双模块高效架构\n[清单R]Glance Fusion：文本感知的多层特征融合\n[清单R]Gaze Compression：查询引导的动态token压缩\n\t\n实战优势\n[放大镜R]计算成本持平/更低，性能反超现有方法\n[放大镜R]高分辨率/视频任务泛化性突\n#多模态人工智能[话题]# #深度学习与神经网络[话题]# #大模型[话题]# #计算机视觉[话题]# #算法[话题]# #机器学习[话题]# #科研[话题]#",
+  "tags": [
+    "多模态人工智能",
+    "深度学习与神经网络",
+    "大模型",
+    "计算机视觉",
+    "算法",
+    "机器学习",
+    "科研"
+  ],
+  "author": "美团技术团队",
+  "authorId": "610a1dec000000000100a2ec",
+  "time": 1764232634000,
+  "ipLocation": "",
+  "likes": "1,849",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091018/15a0327e50bffab9628b16ce97d1dd97/spectrum/1040g34o31pcphna6ia105o8a3nm098nc6chnb70!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/1/110/259/01e9280dbadd79f9010370039ac478e4d5_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69280dba000000001e03a4ae?xsec_token=ABLmHgnWygET7fgWiaAaGiDG6JYfVdXRi6dQRgX19oSqk=&xsec_source=pc_collect"
+}

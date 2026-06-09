@@ -1,0 +1,23 @@
+{
+  "id": "69f845870000000035023a7c",
+  "type": "video",
+  "title": "一小时看懂LLM架构",
+  "desc": "#好视频扶持计划[话题]#\nAnthropic 给能从零开始构建 LLM 架构的工程师开出的年薪超过 75 万美元。\n\t\n而斯坦福只用一小时的课，就把整个原理讲完了，还免费公开。\n\t\n核心观点总结:\n\t\n1.   原始 Transformer 在架构上基本是正确的，主要改动: Norm 位置、去掉 bias、GLU 激活\n2.  架构选择是表达力、训练效率和稳定性的复杂权衡\n3.  超参数选择有宽容区间，遵循约定俗成的默认值即可\n4.  稳定性已成为比表达力更重要的设计考量（训练成本越高越关键）\n5.  推理效率(KV Cache)驱动了 GQA 和混合注意力的广泛采用\n6.  如果你有稳定性问题，就往里面撒 Layer Norm ,  虽然荒谬但已被验证有效\n#大模型[话题]# #red创作大赛[话题]# #AI人工智能[话题]# #ai编程[话题]#",
+  "tags": [
+    "好视频扶持计划",
+    "大模型",
+    "red创作大赛",
+    "AI人工智能",
+    "ai编程"
+  ],
+  "author": "优弧",
+  "authorId": "5bacd68d0026500001aec425",
+  "time": 1777878407000,
+  "ipLocation": "",
+  "likes": "8,188",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090736/04362bd7f173fae02d2ef7fc04ea5f53/1040g2sg31vo020r6hmf04b6h57b8rh159vg6j50!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01e9f844474d65f9010370039df1ebabc9_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69f845870000000035023a7c?xsec_token=ABugpjkCH9hwt2AAgEQuaBtq3Uy6SJ0ViUsiGZZl3a8oU=&xsec_source=pc_collect"
+}

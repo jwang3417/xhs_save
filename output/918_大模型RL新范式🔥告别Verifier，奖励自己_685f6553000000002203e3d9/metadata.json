@@ -1,0 +1,25 @@
+{
+  "id": "685f6553000000002203e3d9",
+  "type": "normal",
+  "title": "大模型RL新范式🔥告别Verifier，奖励自己",
+  "desc": "🔥一句话概括：GRPO这类大模型RLVR算法需要一个verifier对模型的action给出奖励，难以用到开放性问题上，RLPR直接最大化参考答案的概率，通用性大大增强\n\t\n📚论文：RLPR: EXTRAPOLATING RLVR TO GENERAL DOMAINS WITHOUT VERIFIERS\n\t\n✌️细读前点个免费的关注和收藏，北大小哥Sam每天带你读LLM和推荐广告前沿论文，侃算法岗面经&成长经验\n\t\n🤯 核心痛点\n\t\n传统的RLVR需要一个外部的“验证器”来判断模型的答案对不对，然后给出奖励。这在数学题（答案唯一）和代码题（跑测试用例）中很有效。\n\t\n但对于“总结一下文章大意”或者“分析一下人物性格”这类开放性问题，你几乎不可能写一个完美的验证器。这极大地限制了RLVR的应用范围。\n\t\n✨ 本文的闪光点：用模型自身的概率做Reward\n\t\n作者提出了一个直觉上非常make sense的观点：一个模型在生成了正确的推理过程后，它对于正确答案的生成概率（或者说“信心”）也应该会更高。\n\t\n所以，我们为什么不直接用这个“信心”——也就是模型对于标准参考答案的token概率——来作为奖励信号呢？\n\t\n这就是RLPR（RL with Reference Probability Reward）的核心思想。它完全抛弃了外部验证器，让整个RL训练流程变得异常简洁和通用。\n\t\n🛠️ 技术细节\n\t\n🎈概率奖励\n\t\n具体做法是，在模型生成推理过程后，计算它继续生成“标准答案”时，每个token的平均概率。这个平均概率，就是本次生成的Reward。\n\t\n🎈奖励去偏\n\t\n一个很重要的细节：模型可能本身就很擅长直接生成标准答案，这与我们想要奖励的“推理过程”无关。\n\t\n为了只奖励推理过程带来的增益，作者做了一个去偏操作：计算一个没有推理过程、直接生成答案的“基础分” r'。最终的奖励是 r - r'。这样就确保了我们奖励的是z（推理过程）带来的概率提升。\n\t\n🎈标准差过滤\n\t\n因此，训练中会动态地过滤掉这些低标准差的prompt，让模型专注于在“难度适中”的问题上进行学习。\n\t\n📈 实验效果炸裂\n🎈全面超越：无论是在Gemma、Llama还是Qwen上，RLPR都显著超越了未使用RL的基线模型和传统的基于规则验证器的RLVR方法。\n🎈吊打同类：与同期出现的另一个无验证器方法VeriFree相比，RLPR在TheoremQA和Minerva等多个基准上平均高出7.5个点以上，优势巨大。\n\t\n[萌萌哒R]RLPR为我们展示了一种“大道至简”的智慧，成功地将强化学习的威力从特定领域解放出来，绝对是近期RL+LLM方向最值得一读的佳作之一！\n#算法岗[话题]# #大厂[话题]# #大模型[话题]# #深度学习[话题]#",
+  "tags": [
+    "算法岗",
+    "大厂",
+    "大模型",
+    "深度学习"
+  ],
+  "author": "Sam聊算法",
+  "authorId": "5b40a80311be103d7c8cfa08",
+  "time": 1751082323000,
+  "ipLocation": "",
+  "likes": "114",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091334/746796ac17d32182d2215db6f3f4f092/1040g00831j8p01maj0504a6u5uk07ug8usmlkg0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091334/0116017c4f8e4c9ae98de7b7a81cc96d/1040g00831j8p01maj0304a6u5uk07ug81slad28!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091334/3d20d338e10edfb05a0217cd357f718c/1040g00831j8p01maj05g4a6u5uk07ug8qvd6q6o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091334/a332855167f5238c511a7b4aed1c7bbb/1040g00831j8p01maj03g4a6u5uk07ug88s1lrb8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/685f6553000000002203e3d9?xsec_token=ABNUHPETJC4SGPtIs2s_k2n0KbK-p6PB_VYRZ40ulQ6GM=&xsec_source=pc_collect"
+}

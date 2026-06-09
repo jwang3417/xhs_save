@@ -1,0 +1,37 @@
+{
+  "id": "687214f0000000000b01c007",
+  "type": "normal",
+  "title": "KimiK2开源：杨植麟再次证明，大力真能出奇迹",
+  "desc": "周五晚上Kimi K2突然开源，直接把1T总参数、拿到SOTA的、还很好用的的主力模型开源，真的很顶。但是paper还没写完，估计是算法同学们都回去补觉了。现在只能看到一个简短的blog和huggingface上的模型config。期待之后的技术细节。\n\t\n技术方面的takeaway参考截图～\n\t\n最大的感受：\n1、Kimi还是有vision的，迅速调整方向发大力在agentic和code上，并且做出来很好的模型，期待之后把RL，Vision，搜索都加上的效果。\n2、力大砖飞，简单有效： 最后，还是得感叹一句：Scaling依然是王道，大力真的能出奇迹。\n我现在最大的疑问其实是Qwen3 Max呢？还发不发了？参数量有1T吗？\n\t\n#小红书热点观察团[话题]# #算法工程师[话题]# #Kimi智能助手[话题]# #月之暗面[话题]# #kimik2[话题]# #QwenMax[话题]#  #DeepSeekV3[话题]# #AI大模型[话题]# @科技薯  #claude4[话题]# #程序员[话题]#",
+  "tags": [
+    "小红书热点观察团",
+    "算法工程师",
+    "Kimi智能助手",
+    "月之暗面",
+    "kimik2",
+    "QwenMax",
+    "DeepSeekV3",
+    "AI大模型",
+    "claude4",
+    "程序员"
+  ],
+  "author": "AI Dance",
+  "authorId": "5ba8fdf87b68100001c20107",
+  "time": 1752313896000,
+  "ipLocation": "",
+  "likes": "208",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091328/d0029a7ea9018dff10a3393cc926d7c0/1040g00831js16rhn3q104b53bnuvg0875lh7ns0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091328/57b9a37cae1e64df0736502a08587021/1040g00831js16rhn3q1g4b53bnuvg087ifrt5u8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091328/c05d7080d7baa97da90c74b841742618/1040g2sg31jr364s2igeg4b53bnuvg087n408060!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091328/4dfc4a513f94ce1b2b5ab05cc2d2a1ef/1040g2sg31jr364s2igf04b53bnuvg08727bof6o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091328/40fdacdd850723c085f240ba52baa82e/1040g2sg31jr364s2igfg4b53bnuvg087r8vq3b0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091328/20460e06373d11aef3e0f9931c1236dd/1040g2sg31jr364s2igg04b53bnuvg087aiutivo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091328/7d3361b14060e0ad41be4cbf4af41678/1040g2sg31jr364s2iggg4b53bnuvg087jqh2ui0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091328/99d0309a689fccdd51101184c8ca8fde/1040g2sg31jr364s2igh04b53bnuvg087kd3udlo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091328/83a890357723c2518981fc6f375085f7/1040g2sg31jr364s2ighg4b53bnuvg08725fkccg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091328/4ccbbbe1a0ecf2d6d9f954ff93fc216d/1040g2sg31jr364s2igjg4b53bnuvg087fhc9m80!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/687214f0000000000b01c007?xsec_token=ABsFV70RgU0kkXxSqhOJ_WvVyYoynfJIwya0jKhrmuwXc=&xsec_source=pc_collect"
+}

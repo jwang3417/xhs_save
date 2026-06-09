@@ -1,0 +1,23 @@
+{
+  "id": "6909d54e0000000007008cee",
+  "type": "video",
+  "title": "快手技术沙龙第2期—生成式推荐系统新范式",
+  "desc": "《OneRec: 重构推荐系统的智能边界与效率标准》——王诗瑶\n1、理解生成式技术如何系统性地重构推荐系统；\n2、了解OneRecV2的模型结构优化与Scaling Law实践结论；\n3、认识生成与理解统一、具备推理能力的OneRec-Think框架及其应用前景。\n#快手技术[话题]# #技术沙龙[话题]# #大模型[话题]# #算法[话题]# #快手[话题]#",
+  "tags": [
+    "快手技术",
+    "技术沙龙",
+    "大模型",
+    "算法",
+    "快手"
+  ],
+  "author": "快手技术",
+  "authorId": "68410ee0000000001e0029bd",
+  "time": 1762252110000,
+  "ipLocation": "",
+  "likes": "300",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091316/f27e582adfdb4c49f61d18fe5834daa1/spectrum/1040g0k031of9avln4s005q211rg7gadtf4ln2po!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/79/110/259/01e909d54edd72e4010370039a4e6e2f4c_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6909d54e0000000007008cee?xsec_token=ABz5ssQ54lb9FRGnHT2Ui7sYv0SZc52NnOTxA6-j8Ozn0=&xsec_source=pc_collect"
+}

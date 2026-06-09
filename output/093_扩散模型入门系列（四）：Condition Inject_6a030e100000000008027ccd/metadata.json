@@ -1,0 +1,33 @@
+{
+  "id": "6a030e100000000008027ccd",
+  "type": "normal",
+  "title": "扩散模型入门系列（四）：Condition Inject",
+  "desc": "扩散模型通过condition injection将文本编码注入网络，控制生成内容。CFG通过比较有条件和无条件denoising的差异，放大文本导向信号，显著提升生成质量，且几乎零成本。\n\t\n#扩散模型入门[话题]# #ConditionInjection[话题]# #CFG[话题]# #ClassifierFreeGuidance[话题]# #计算机视觉[话题]# #AI入门[话题]##RED新生代创作大赛[话题]#",
+  "tags": [
+    "扩散模型入门",
+    "ConditionInjection",
+    "CFG",
+    "ClassifierFreeGuidance",
+    "计算机视觉",
+    "AI入门",
+    "RED新生代创作大赛"
+  ],
+  "author": "bluuuuue",
+  "authorId": "66e709c5000000001d0204cc",
+  "time": 1778585104000,
+  "ipLocation": "上海",
+  "likes": "6",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090711/1c56c9e70ae9c65724f381613a31dd63/1040g0083202llsc42i005pn7172nc16c66mbhno!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/ed3fd537768816ffbb3e448c2f947f3c/1040g0083202llsc42i0g5pn7172nc16cm845rsg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/05ae81315f8d23e9dcc76d225db8acb9/1040g0083202llsc42i105pn7172nc16cd4dmc8g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/cffe1ced2ce76cb830fa8e3c91c28615/1040g0083202llsc42i1g5pn7172nc16c1gisqio!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/b8b63b6f35613caf2a1d9cb3d0b8909b/1040g0083202llsc42i205pn7172nc16cr49auo8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/34c5036ae54b3a938beb2b9a81d2e330/1040g0083202llsc42i2g5pn7172nc16crvek0j8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/425c73b7693638be39a50ca5c455b116/1040g0083202llsc42i305pn7172nc16cu4tfing!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/179fc3ece438042eb8ca8bc28b140e1f/1040g0083202llsc42i3g5pn7172nc16ce8fkvug!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/3b0073b1f3308b8a990527691bc2cfe0/1040g0083202llsc42i405pn7172nc16cb3qc62o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a030e100000000008027ccd?xsec_token=AB6v-Ms6NdWLc302pI1IT5hhyIMXa49R2SnzEjvUiGSTc=&xsec_source=pc_collect"
+}

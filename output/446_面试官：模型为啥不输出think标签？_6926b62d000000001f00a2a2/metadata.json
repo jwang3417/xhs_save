@@ -1,0 +1,36 @@
+{
+  "id": "6926b62d000000001f00a2a2",
+  "type": "normal",
+  "title": "面试官：模型为啥不输出think标签？",
+  "desc": "大模型面试里，有个问题特容易让人卡壳 —— 为啥有些模型在 RL 训练时，就是不肯输出特定的思考标签？\n\t\n很多同学觉得是模型没学好，其实面试官想问的远不止这个。这题藏着好几个坑：概率分布的冷启动问题、Tokenizer 的处理逻辑，还有 RL 奖励设计的平衡艺术。不少人忽略了基础环节，比如没先通过 SFT 让模型 “见过” 这种格式，直接上 RL，结果模型连探索的机会都没有。\n\t\n从面试官角度看，这题考的是对大模型训练全流程的理解，不只是调参，还有对 Token 机制、优化逻辑的底层认知。\n\t\n想弄透这类问题，可以看看整理好的 190G《大模型实战攻略全系列整合包》，里面 LLM 大模型场景题文件夹里有详细拆解，从原理到解决方案都讲得很清楚。#grpo[话题]# #ppo[话题]# #大模型面试题[话题]# #互联网大厂[话题]# #大模型八股[话题]# #大模型八股文[话题]# #大模型面试题[话题]# #大模型学习路线[话题]# #大模型实战[话题]# #大模型[话题]#",
+  "tags": [
+    "grpo",
+    "ppo",
+    "大模型面试题",
+    "互联网大厂",
+    "大模型八股",
+    "大模型八股文",
+    "大模型学习路线",
+    "大模型实战",
+    "大模型"
+  ],
+  "author": "阿凡达AI探险家",
+  "authorId": "67fdc120000000000e02d728",
+  "time": 1764144686000,
+  "ipLocation": "",
+  "likes": "291",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091315/fddc67bc164163162d8c0a8cf31710bd/notes_pre_post/1040g3k031pb60u69jc105pvto4g3llp8bjr0ebg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/2b63a0de8d80ee80331b0dddff943c10/notes_pre_post/1040g3k831pbfvembisc05pvto4g3llp8e827em8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/587b5c3fe6105535bc48abd1a91957b6/notes_pre_post/1040g3k831pbfvembiscg5pvto4g3llp8vk3bf6o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/ca6c2e90e3f61b82aa471cca46500562/notes_pre_post/1040g3k831pbfvembisd05pvto4g3llp8n8lt1jo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/df60f320cdbe4026dd365a3f2e74c7c2/notes_pre_post/1040g3k031pb60u69jc1g5pvto4g3llp8n6sdrpg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/9db801e76262f991192fc9e2626c6b4d/notes_pre_post/1040g3k831pbfvembisdg5pvto4g3llp8obu02cg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/bcdef86c760e70f959e9f97e5e122d02/notes_pre_post/1040g3k031pb60u69jc005pvto4g3llp8est9dso!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/9a4deca6bf3369b1226d4d729b194496/notes_pre_post/1040g3k031pb60u69jc3g5pvto4g3llp8cefhc4g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/6db6e9cd54478f684c17763e0a848809/notes_pre_post/1040g3k031pb60u69jc205pvto4g3llp8d9iiva8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/5a2c592948b87834eb3ae81a283b2b1c/notes_pre_post/1040g3k031pb60u69jc505pvto4g3llp8bnsc9lg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6926b62d000000001f00a2a2?xsec_token=ABwbJbzoOH1dRN4u_pAWyoLsM8ju1DwIRR_busohkJjwg=&xsec_source=pc_collect"
+}

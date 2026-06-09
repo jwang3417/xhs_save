@@ -1,0 +1,28 @@
+{
+  "id": "69fb319c000000001a036e0b",
+  "type": "video",
+  "title": "Transformer里，升维、降维有什么意义？",
+  "desc": "⏱ 时间戳如下，方便大家高效观看：\n00:00 - 开场：FFN为什么要升维再降维？\n00:12 - 升维：菠萝凤梨区分例子（二维坐标分类）\n01:21 - 升维：异或问题（二维无解、三维一刀切）\n02:35 - 升维本质：变的是表达方式，不是数据本身\n03:03 - 降维：学生成绩例子（平均分代替两科）\n04:30 - 降维本质：保留主方向，丢次要方向\n04:55 - FFN层详解：512→2048→512，ReLU激活函数\n06:03 - 总结：升维让数据可分，降维去冗余\n💡 核心知识点：\n- 升维 = 把低维纠缠的数据拉开差距（菠萝凤梨、异或问题）\n- 降维 = 保留主要特征，去掉冗余信息（学生成绩PCA）\n- FFN = 先W1升到4倍维度 → ReLU非线性激活 → W2压回\n#transformer[话题]#  #FFN[话题]#  #大模型[话题]#  #机器学习[话题]#  #深度学习[话题]# #AI产品[话题]# #升维[话题]# #降维[话题]#  #RED新生代创作大赛[话题]# #科学向导[话题]#",
+  "tags": [
+    "transformer",
+    "FFN",
+    "大模型",
+    "机器学习",
+    "深度学习",
+    "AI产品",
+    "升维",
+    "降维",
+    "RED新生代创作大赛",
+    "科学向导"
+  ],
+  "author": "能工智人Raelc",
+  "authorId": "63c193710000000026007c6c",
+  "time": 1778069916000,
+  "ipLocation": "",
+  "likes": "655",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090733/63d7cb4b6b3a74f06737cfc4c7613543/spectrum/1040g0k031vqvu3bll4005ou1idopgv3c4lmusno!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01e9fb301c188c20010370039dfd3b6e25_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69fb319c000000001a036e0b?xsec_token=ABf_CSB9hyqHQoeKB5KfD4qg0O-xoZ4QxsRtIUbfzNdDs=&xsec_source=pc_collect"
+}

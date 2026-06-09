@@ -1,0 +1,19 @@
+{
+  "id": "68ee800e000000000401629b",
+  "type": "normal",
+  "title": "谈下RAE为什么牛逼(表征自编码器)",
+  "desc": "rae在我看来是一篇极其优秀的文章，现在的审稿非常随机，看到评论区有很多同学有各种疑惑，我很担心这样优秀的一篇文章审稿结果会不会。首先声明我不是作者甚至任何利益相关者。\n\t\n1. rae是为统一模型铺路的\n\t\n2. vae压缩越大 生成越好学\n做生成的同学都知道vae压缩越多，diffusion生成效果越好，这里说的是学的速度，所以latent dim一般都很小。\n\t\n3. 理解vit dim大一些 理解效果好\nsiglip这种理解encoder，使用离散，压缩降维 都会掉点，所以保持原生的siglip最好。\n\t\n3. 统一模型中不可调和的矛盾\n而统一模型中理解非常重要，vae语义能力很弱，只用vae是绝对不行的，掉点严重。只用siglip也不可以，siglip没重建能力(当然可以用siglip练一个ae，其实就是rae)。所以现在的成熟统一模型bagel/mogao/janus都是siglip+vae，非常丑陋，理解生成要分开走，生成的图片要vae decode然后再进siglip。\n\t\n4. 表征自编码器为什么不能压缩vit特征\n最近有很多类似工作，我觉得不如rae的点就在这里，ae压缩是为了生成好学，但是现在适合压缩vit特征吗，答案是否定的，因为压缩之后生成的图片要再次理解，有两个办法，一个是训练一个小linear恢复原来的vit特征，这个必然丢信息导致理解不行，另一个是走ae decode再vit encode，和siglip+vae一样，丑陋了\n\t\n5. rae证明了vit表征不压缩也可以学生成\n通过实验结果，一个简单的wide ddt head实现碾压的sota结果。实际上vanilla dit的效果也不能说差",
+  "tags": [],
+  "author": "黄仕",
+  "authorId": "64c9e547000000000b004c89",
+  "time": 1760460814000,
+  "ipLocation": "",
+  "likes": "530",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091110/ec2646e3a286422096eb4eee629122bd/1040g2sg31nkil40hlmdg5p69sl3ioj49rlsismg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091110/d75ba9383984bc1360d8b78191bb8245/1040g2sg31nkil40hlmcg5p69sl3ioj49gusajp0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091110/83cb983fd8b1ed721b2c1adb6d45c34c/1040g2sg31nkil40hlmd05p69sl3ioj493vsdh2g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68ee800e000000000401629b?xsec_token=ABJUz4Ad9tcjg5R1egQ35tYy4PzQ-FvtigjbOTxkELK3w=&xsec_source=pc_collect"
+}

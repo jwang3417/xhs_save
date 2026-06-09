@@ -1,0 +1,25 @@
+{
+  "id": "6902128a0000000003022e44",
+  "type": "normal",
+  "title": "为什么二分类任务不能直接用MSE？",
+  "desc": "刚刚在秋招的末尾面试了美团Keeta推荐部门，被问到了这个问题。\n这已经是主播第二次被问到这个问题了，是一道非常基础的问题，答案就在于：梯度！！！\n#互联网大厂[话题]# #面经[话题]# #算法[话题]# #八股[话题]# #大模型[话题]#",
+  "tags": [
+    "互联网大厂",
+    "面经",
+    "算法",
+    "八股",
+    "大模型"
+  ],
+  "author": "羊驼学长",
+  "authorId": "66c8829a000000001d023bc5",
+  "time": 1761743498000,
+  "ipLocation": "",
+  "likes": "482",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091100/6a32dfe804e6d0b98b7b29c25eaf2ccc/spectrum/1040g34o31o7mt0dd52105pm8gad7ceu5lcu6tf0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091100/2e19b16dc115a1d1061c7a54b5694b7b/spectrum/1040g0k031o7ms6d04s005pm8gad7ceu5ospsen8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091100/560acdfdf60c96190e4fd33f7981bce4/spectrum/1040g0k031o7ms6d04s0g5pm8gad7ceu5od29nvo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6902128a0000000003022e44?xsec_token=ABE716JlpTZo8U54VcHahMq7_EcegkJohx1OChyhgtJf0=&xsec_source=pc_collect"
+}

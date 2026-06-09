@@ -1,0 +1,41 @@
+{
+  "id": "6989c7c6000000001b01544c",
+  "type": "normal",
+  "title": "字节Seed 的组织结构发布（感觉在抢人了！",
+  "desc": "看来算法200万offer 已经是25年的价格了。期待更多00后涌现。看看他们都是干啥的\n一、核心中枢：大语言模型团队（LLM Core）\n这是整个 Seed 的“发动机”，负责通用大模型能力本身。\n1）模型应用（朱文佳）\n职责定位：把大模型变成可落地产品能力\n核心工作：\n把底层大模型接入字节业务（抖音、搜索、办公、创作工具等）\n做 Agent、Copilot、智能助手\n优化实际使用体验（稳定性、响应速度、幻觉控制等）\n产品+技术结合最紧密的一组。本质： 👉 负责“怎么用模型赚钱 / 赋能业务”。\n2）预训练（沈科）\n职责定位：训练“基础大模型”的源头\n核心工作：\n从零训练/大规模训练 Base Model\n设计数据管线（网页、代码、多语种等）\n算法架构（Transformer 变体、Scaling Law）\n算力调度\n本质： 👉 决定模型“天花板”。这是最“硬核科研+工程”的部门。\n3）后训练（严林）\n职责定位：让模型“更聪明、更听话”\n核心工作：\nSFT（指令微调）\nRLHF / RLAIF\n安全对齐\n人类反馈体系\n本质： 👉 决定模型“好不好用”。\n4）Horizon（王明轩）\n职责定位：前沿探索+中长期技术储备\n偏研究向：新范式探索（Reasoning、Agent、自学习）新模型结构、长期项目\n对标 OpenAI DeepMind 的 research lab。\n5）Infra 团队（项亮）\n职责定位：AI 基础设施\n核心工作：训练平台、分布式系统、调度系统、存储系统、推理加速\n本质： 👉 没它，上面全跑不动。字节的强项之一。\n6）视觉模型（周畅）\n职责定位：图像/视频理解与生成\n核心工作：图像生成、视频生成、视觉理解、多模态对齐\n本质： 👉 对标 Sora / DALL·E / Gemini Vision。服务抖音生态非常关键。\n7）多模态交互与世界模型团队（周畅）\n职责定位：构建“模拟世界”的能力\n核心工作：World Model、物理理解、时序推理、环境建模\n本质： 👉 AI 是否能“理解现实”。这是 AGI 路线里的核心方向。\n8）语音模型（王雨轩）\n职责定位：语音 AI 全链路\n核心工作：语音识别 ASR、语音合成 TTS、对话语音、情感语音。本质： 👉 入口级能力（智能助手、陪伴类产品）。#oc[话题]# #互联网大厂[话题]# #程序员的出路[话题]#  #企业组织形式[话题]# #大模型[话题]# #流程型组织[话题]# #面经[话题]# #大厂[话题]# #程序员[话题]# #AI[话题]#",
+  "tags": [
+    "oc",
+    "互联网大厂",
+    "程序员的出路",
+    "企业组织形式",
+    "大模型",
+    "流程型组织",
+    "面经",
+    "大厂",
+    "程序员",
+    "AI"
+  ],
+  "author": "罗素的悖论（爱学习版）",
+  "authorId": "5644a6e2c2bdeb55818b3028",
+  "time": 1770637255000,
+  "ipLocation": "",
+  "likes": "2,463",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090938/6193f5d614871e9b330668278abbceab/spectrum/1040g34o31sc7ljo558e042caneje4c185fdc3ng!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/8c88ed3fdd8dc9fe933b49f479783c19/spectrum/1040g34o31sc7ljo558eg42caneje4c180nt7hso!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/50afb4fad2cd9ee78639fdf8c1438257/spectrum/1040g34o31sc7ljo558f042caneje4c18eqkt8lg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/25221821456d1835a66084286b2717b2/spectrum/1040g34o31sc7ljo558fg42caneje4c18c1h8eng!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/5b3fbd1dcab1c2a0fa47b43d1784671e/spectrum/1040g34o31sc7ljo558g042caneje4c184ls12vo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/b880a01df38c813b964898d21513940e/spectrum/1040g34o31sc7ljo558gg42caneje4c18oe74oq0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/926c2066d2fd2f6399a8a5e0fa03b455/spectrum/1040g34o31sc7ljo558h042caneje4c18c69o5io!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/a7bc054eee2baa59d1bf970d3ccb664c/spectrum/1040g34o31sc7ljo558hg42caneje4c188jlo4vo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/6f7f5be06f2b48f379477d941a8ef80a/spectrum/1040g34o31sc7ljo558i042caneje4c187vp260o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/6663800894db0e86b3df468bbe0ce6d4/spectrum/1040g34o31sc7ljo558ig42caneje4c183jnj42o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/d775f2cdaeb52384c110468afed2cbdc/spectrum/1040g34o31sc7ljo558j042caneje4c18gdmbbf0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/fdddefd8e93556915bcd86d358b7c6ed/spectrum/1040g34o31sc7ljo558jg42caneje4c18jggsq50!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/dec8a6a10ed675278f2e687d2ad8d5a2/spectrum/1040g34o31sc7ljo558k042caneje4c185eu3bgo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090938/d93670216aefe1c7f66b5b886b3793d3/spectrum/1040g34o31sc7ljo558kg42caneje4c18o0fospo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6989c7c6000000001b01544c?xsec_token=ABFoMwZU-WCoPwWEtviQRBZ6TG7K4bDOpoQd819ZN7dwg=&xsec_source=pc_collect"
+}

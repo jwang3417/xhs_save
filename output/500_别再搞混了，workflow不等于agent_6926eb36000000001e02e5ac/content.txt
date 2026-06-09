@@ -1,0 +1,7 @@
+别再搞混了，workflow不等于agent
+
+2分钟理解workflow和agent
+#agent[话题]# #workflow[话题]# #大模型[话题]# #工作流[话题]#
+
+
+标签: #agent #workflow #大模型 #工作流

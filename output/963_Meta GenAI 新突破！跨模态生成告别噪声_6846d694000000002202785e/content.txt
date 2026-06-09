@@ -1,0 +1,20 @@
+Meta GenAI 新突破！跨模态生成告别噪声
+
+Title: Flowing from Words to Pixels: A Noise-Free Framework for Cross-Modality Evolution
+	
+本文提出了CrossFLow，使用最简洁的模型，最原始的Flow Matching 算法，无需噪声或者 cross attention，既可以在任意模态间进行双向映射
+- 模型非常简单，只需要一个 variantial encoder 和一个最基础的 Flow matching 模型
+- 直接把文字往图片映射，便与当前的算法不分伯仲；严格测试环境下相比于主流的 noise + cross attention 的算法有更好的性能和更强的 scalability
+- 相同的框架，无需基于任务的特定设计，便可以解决各种任务，比如深度估计（将图片转成深度图），image captioning（将图片转成文字），超分（将低分辨率图转高分辨率），均达到或超越当前最佳性能
+- 支持各种 source distribution 的加减/差值运算，为生成内容提供前所未有的可控性，同时为 image editing，smooth video generation 等任务提供新思路。
+- Source distribution 可定制，让图像生成更灵活，同时显著降低训练成本 （208 A100 天 VS 数千天），提高生成速度 （6.62x 采样速度提升）
+这项研究的核心在于，显著拓展了 Diffusion（flow matching）的应用灵活性，不再依赖噪声分布，可以使用 flow matching 直接实现任意两个/多个模态间的双向转换，为连续空间的预测提供了非常简洁但是强大的工具。
+👉 项目主页：https://cross-flow.github.io/
+🏆 ​​成果已被CVPR 2025接收为Highlight论文！​​
+👥 ​​想和作者面对面交流？​​
+📍 ​​13号上午​​，CVPR展会现场，欢迎来展台聊聊！
+	
+#多模态人工智能[话题]# #深度学习[话题]# #diffusion模型[话题]# #科研[话题]# #CVPR[话题]# #CVPR25[话题]# #论文[话题]#
+
+
+标签: #多模态人工智能 #深度学习 #diffusion模型 #科研 #CVPR #CVPR25 #论文

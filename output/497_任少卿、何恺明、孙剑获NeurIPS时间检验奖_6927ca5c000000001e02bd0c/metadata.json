@@ -1,0 +1,29 @@
+{
+  "id": "6927ca5c000000001e02bd0c",
+  "type": "normal",
+  "title": "任少卿、何恺明、孙剑获NeurIPS时间检验奖",
+  "desc": "🏆NeurIPS 2025在墨西哥城分会期间正式公布了今年的重要奖项。\n\t\n作为人工智能领域的顶级会议，本届年会首次采用了双城模式，分别在圣地亚哥和墨西哥城举办。\n\t\n今年组委会共评选出了4篇最佳论文和3篇亚军论文，获奖研究涵盖了扩散模型理论、自监督强化学习、注意力机制等多个前沿方向。\n\t\n备受瞩目的“时间检验奖”颁给了十年前发表的经典之作《Faster R-CNN》，由任少卿、何恺明、Ross Girshick和孙剑合著的论文，通过引入区域建议网络取代了传统方法，实现了接近实时的目标检测速度，迄今引用次数已超过56700次，对计算机视觉领域产生了深远影响。\n\t\n评奖委员会在肯定该工作的同时，也对已故的孙剑博士表示了深切哀悼，认为他是人工智能特别是计算机视觉方向的先驱，其工作重塑了研究范式。\n\t\n💡在四篇荣获最佳论文奖的研究中，华人学者的表现十分亮眼。\n\t\n来自华盛顿大学等机构的研究团队关注到大语言模型生成内容同质化的问题，他们推出了包含2.6万条开放式查询的数据集Infinity-Chat，并借此发现了开放式生成中存在的“人工蜂群思维效应”，即模型内部重复和模型间同质化的现象。\n\t\n另一篇由阿里千问团队联合多所高校完成的研究，深入探讨了门控机制在大型语言模型中的作用。\n\t\n该研究发现在缩放点积注意力之后引入头部特异性Sigmoid门控，能够持续提升模型性能和训练稳定性，高效的门控技术已经被应用于Qwen3-Next模型系列中。\n\t\n🧠普林斯顿大学等机构的研究人员将自监督强化学习网络的深度提升至1024层，发现在无监督目标条件设定下，这种深度扩展带来了显著的性能飞跃和智能体学习行为的质变。\n\t\n关于扩散模型为何能避免记忆训练数据并实现泛化的难题，巴黎PSL大学等机构通过研究训练动态发现了关键时间尺度，揭示了隐式动态正则化机制在其中发挥的作用。\n\t\n此外，三篇亚军论文分别探讨了强化学习对大模型推理能力的影响、传导式在线学习的最佳错误界限以及神经缩放律中的表征叠加机制。\n\t\n后续本号将发布对获奖论文的解读，欢迎关注！\n#人工智能[话题]# #openai[话题]# #显卡[话题]# #大模型[话题]# #deepseek[话题]# #谷歌[话题]#",
+  "tags": [
+    "人工智能",
+    "openai",
+    "显卡",
+    "大模型",
+    "deepseek",
+    "谷歌"
+  ],
+  "author": "新智元",
+  "authorId": "66b9ce3a000000001d03021e",
+  "time": 1764215388000,
+  "ipLocation": "",
+  "likes": "269",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091019/941d4e04a5984e140f9f9a2ab500fafe/spectrum/1040g0k031pchgf79ic0g5plppot7e0gull6b3n0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091019/652962d380164baa401eed61a7bbb62b/spectrum/1040g0k031pchlfs9ia005plppot7e0gumf2ggvg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091019/11a1daff4a939beea04bb24a5a87921a/spectrum/1040g0k031pcli8hd24005plppot7e0gu8pbr018!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091019/57036206d8ce985bad645c7916420fef/spectrum/1040g0k031pchkvehi8005plppot7e0gu9d48t98!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091019/c4211ad0ff963c84b18578b230d53b69/spectrum/1040g34o31pchiupji6105plppot7e0gu0ijhung!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091019/bf2f65fbcbf6850d64bf0395fc728617/spectrum/1040g0k031pchd5vpi6005plppot7e0gubdrl3d0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6927ca5c000000001e02bd0c?xsec_token=ABvinl5HP4HEVfJVnmKbuWr3fIRcnMH1oE66vaUjPoYHI=&xsec_source=pc_collect"
+}

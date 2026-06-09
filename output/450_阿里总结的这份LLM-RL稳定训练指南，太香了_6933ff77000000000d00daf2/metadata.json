@@ -1,0 +1,32 @@
+{
+  "id": "6933ff77000000000d00daf2",
+  "type": "normal",
+  "title": "阿里总结的这份LLM-RL稳定训练指南，太香了",
+  "desc": "朋友们，搞大模型强化学习（RL）是不是像在开盲盒？训练过程各种不稳定，动不动就崩溃，简直是“炼丹玄学”！\n\t\n特别是混合专家（MoE）模型，更是难上加-难。\n\t\n现在，阿里巴巴的Qwen团队，带着他们在一篇最新论文里，把RL训练的“玄学”问题，变成了一门“科学”！他们不仅从理论上解释了为什么RL训练会不稳定，还给出了一套超实用的“稳定配方”。\n\t\n💡 一个公式，揭示RL不稳定的两大“元凶”\nQwen团队发现，我们常用的RL算法，其实是在用一个“词元级”的目标，去近似一个“序列级”的奖励。这个近似只有在一阶上成立，而它成立的条件，就是要同时控制住两大“元凶”：\n[一R]训练-推理偏差：训练和推理用的计算引擎不一样（比如精度、算子不同），导致模型“说一套做一套”。\n\t\n[二R]策略陈旧性：为了效率，我们总拿“旧的我”采样的数据，去训练“新的我”，导致模型“用昨天的地图，走今天的路”。\n\t\n这个发现太重要了！它一下子就解释了RL训练里各种“黑魔法”tricks（比如重要性采样、裁剪）为啥管用——因为它们本质上都是在努力减小这两个偏差！\n\t\n🚀 MoE模型的“救星”：路由复现 (Routing Replay)\n对于MoE模型，专家路由的动态性让这两个偏差问题雪上加霜。Qwen团队的实验证明，“路由复现”是稳定MoE-RL训练的关键。简单说，就是在训练时，强制模型使用和采样时一模一样的专家路径，不让它“临场变卦”。\n\t\n通过在30B MoE模型上进行数十万GPU小时的“暴力”实验，他们总结出了一套黄金配方：\n•在线策略训练：用最朴素的、带IS校正的策略梯度算法，最稳！\n•离线策略训练：必须上“裁剪”+“路由复现”组合拳！离策略程度低用R2，程度高用R3。\n\t\n🌟 最鼓舞人心的发现！ 实验证明，只要RL训练过程足够稳定，无论你的“冷启动”模型是学霸还是普通学生，经过足够长时间的RL“补课”后，最终都能达到相似的高水平！\n\t\n这简直是开源社区和普通开发者的福音！意味着我们不用再过分焦虑于SFT阶段的“军备竞赛”，只要掌握了稳定的RL技术，就有机会“弯道超车”！\n\t\n#ai[话题]#  #阿里巴巴[话题]#  #Qwen[话题]#  #大模型[话题]#  #强化学习[话题]#  #rl[话题]#  #前沿科技[话题]#  #论文解读[话题]#  #机器学习[话题]#  #论文[话题]#",
+  "tags": [
+    "ai",
+    "阿里巴巴",
+    "Qwen",
+    "大模型",
+    "强化学习",
+    "rl",
+    "前沿科技",
+    "论文解读",
+    "机器学习",
+    "论文"
+  ],
+  "author": "晓辉算法笔记",
+  "authorId": "5f65be2400000000010011fc",
+  "time": 1765015415000,
+  "ipLocation": "",
+  "likes": "351",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091315/4f417735041e71d621fae2bbe80fce72/spectrum/1040g34o31pof34cal4705nr5noi084fsjjtfc20!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/9a30fe1771f2315ccea7f208c0171288/spectrum/1040g34o31pof34cal4505nr5noi084fsbatatso!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/174d84c6ea5696229f5244d5eca2baef/spectrum/1040g34o31pof34cal45g5nr5noi084fsb06p8u8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/cd002474597f2e307b0d3661c557d099/spectrum/1040g34o31pof34cal4605nr5noi084fs19n812g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/cb2508bfc28ac1792d67f7d5f29c09b0/spectrum/1040g34o31pof34cal46g5nr5noi084fsq52uv28!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6933ff77000000000d00daf2?xsec_token=ABt5nkunGtyvYl9psl4t1QZ2YRp2uQMumMdqgrgpO8nZQ=&xsec_source=pc_collect"
+}

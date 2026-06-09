@@ -1,0 +1,32 @@
+{
+  "id": "694b3ab4000000001e0226d9",
+  "type": "normal",
+  "title": "面试官：GRPO被clip的token梯度为0？",
+  "desc": "📌 本期解析面试题：GRPO算法中，被clip的token梯度如何计算？\n\t\n📌 我们可能会产生一个误区，就是被 Clip (截断) 的 token 的优势是被“缓和”了，但是这个想法是错误的❌，被 Clip 的 token 优势估计已经是一个常数，因此梯度直接置0了。\n\t\n🌟此外，Clip的使用要配合“悲观下界”一起理解（两者是一体的），Clip+“悲观下界”两者共同的效果对于正负优势是不对称的。\n\t\n📒 详细解析内容 ➡️ 滑图查看！\n\t\n🎯 相关内容已经总结到下方学习笔记中，持续更新！在平台提供大模型一手、原创、深度解析！\n\t\n#强化学习clip[话题]# #大模型强化学习[话题]# #grpo[话题]# #grpo改进[话题]# #大模型RLHF[话题]# #算法工程师[话题]# #GRPO算法[话题]# #大模型笔记[话题]# #字节跳动[话题]# #大模型面经[话题]#",
+  "tags": [
+    "强化学习clip",
+    "大模型强化学习",
+    "grpo",
+    "grpo改进",
+    "大模型RLHF",
+    "算法工程师",
+    "GRPO算法",
+    "大模型笔记",
+    "字节跳动",
+    "大模型面经",
+    "负优势情况下，PPO-Clip丢弃"
+  ],
+  "author": "古希腊掌管代码的神",
+  "authorId": "6543cd40000000000400953c",
+  "time": 1766537908000,
+  "ipLocation": "",
+  "likes": "370",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090707/96f0e0ef38147be17776f7799f97870d/notes_pre_post/1040g3k831qf5430r7o705pa3pl01159sc1rk6og!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090707/866e65a8ed6258694241d0db94059a96/notes_pre_post/1040g3k831qf5430r7o7g5pa3pl01159sto9tolg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090707/30c89444889e20954980ab47a15c6ad1/notes_pre_post/1040g3k831qf5430r7o805pa3pl01159sshnp4ko!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090707/a0e1db474bbd9894fbcdc05fc1fe30f2/notes_pre_post/1040g3k831qf5430r7o8g5pa3pl01159sea6ahr8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/694b3ab4000000001e0226d9?xsec_token=ABjxeOAK-sCP2J4nV8zeURF-h9lpZGzBNi2cAFOwRYAgo=&xsec_source=pc_collect"
+}

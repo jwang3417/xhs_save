@@ -1,0 +1,23 @@
+{
+  "id": "68679d54000000000b02c8b2",
+  "type": "normal",
+  "title": "Transformer中注意力掩码与LayerNorm的作用",
+  "desc": "On the Role of Attention Mask and LayerNorm in Transformers\n【NeurIPS‘ 24】\n本文探讨了注意力掩码和 LayerNorm 在 Transformer 模型中的作用，特别是它们对缓解“Rank Collapse”现象的影响。研究发现，稀疏或局部注意力掩码可以减缓 Rank Collapse，而 LayerNorm 能够防止 Token 表征完全坍缩，并允许系统存在多种平衡态。LayerNorm 与特定值矩阵组合可以赋予自注意力动力学更丰富的表达能力。实验结果支持了理论分析的发现，LayerNorm 在防止 Rank Collapse 方面发挥着积极作用。\n\t\n﻿#大模型[话题]#﻿ ﻿#Transformer[话题]#﻿ ﻿#注意力[话题]#﻿ ﻿#LayerNorm[话题]#﻿",
+  "tags": [
+    "大模型",
+    "Transformer",
+    "注意力",
+    "LayerNorm"
+  ],
+  "author": "大模型论文打卡",
+  "authorId": "6028d98600000000010042d3",
+  "time": 1751620948000,
+  "ipLocation": "",
+  "likes": "27",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091334/e94a7adab8c8c95e49d15f2b7e581006/spectrum/1040g0k031jgs2tho2a005o18r6308gmjped1eqo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091334/47c49504d45e3bcf8977ec5df64080d0/spectrum/1040g0k031jgs2uot2gl05o18r6308gmjdsblgr8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68679d54000000000b02c8b2?xsec_token=ABDwCmabPUZIHgL5xG_muDaiJtEu2fd2Ivq3wUnV4UBmU=&xsec_source=pc_collect"
+}

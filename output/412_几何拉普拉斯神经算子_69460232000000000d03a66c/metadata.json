@@ -1,0 +1,22 @@
+{
+  "id": "69460232000000000d03a66c",
+  "type": "video",
+  "title": "几何拉普拉斯神经算子",
+  "desc": "几何拉普拉斯神经算子（GLNO）新型深度学习框架，旨在解决传统模型在处理非周期信号和复杂几何表面时的局限性。研究者通过引入可学习的指数基函数，增强了对非周期和衰减动态过程的建模能力，使其能够处理瞬态物理现象。该模型将拉普拉斯谱表示嵌入到拉普拉斯-贝尔特拉米算子的特征基中，从而将算子学习扩展至任意黎曼流形和不规则网格。此外，论文设计了一种网格不变的网络架构（GLNONet），确保在不同分辨率和几何拓扑下具有良好的泛化性。多项实验结果表明，GLNO在求解偏微分方程和处理真实世界三维几何数据（如人体分割、RNA表面建模）方面，其精度、参数效率及鲁棒性均优于现有先进模型。#AI人工智能[话题]# #拉普拉斯[话题]# #神经算子[话题]# #深度学习[话题]#\n声明：视频由NotebookLM自动生成，资料来源：GEOMETRIC LAPLACE NEURAL OPERATOR（https://arxiv.org/pdf/2512.16409）",
+  "tags": [
+    "AI人工智能",
+    "拉普拉斯",
+    "神经算子",
+    "深度学习"
+  ],
+  "author": "概率海",
+  "authorId": "6375f28a000000001f015b87",
+  "time": 1766195762000,
+  "ipLocation": "",
+  "likes": "58",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091000/9cd108527844b30d9f4f5c36b0d57411/spectrum/1040g0k031qa1qerf6u005orlua57qms75bpsj18!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/1/110/259/01e946005f63ada5010370039b39797922_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69460232000000000d03a66c?xsec_token=ABWjO0hKLH-NVpxJyfa88ohuszDt_etpgqcrUlo2B3aSI=&xsec_source=pc_collect"
+}

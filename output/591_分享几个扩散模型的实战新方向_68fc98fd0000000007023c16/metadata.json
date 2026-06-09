@@ -1,0 +1,28 @@
+{
+  "id": "68fc98fd0000000007023c16",
+  "type": "normal",
+  "title": "分享几个扩散模型的实战新方向",
+  "desc": "[星R][星R]多模态条件的分层控制\n最近我在做扩散模型的时候发现,把不同类型的控制信号分开处理效果会好很多[点赞R]。比如你想生成一张图,可以把文本的语义、参考图的结构、还有风格这三个东西分别用独立的encoder提取,然后在去噪的不同阶段注入不同权重的信号。\n具体操作就是参考ControlNet那套思路,但要改成多分支adapter。我用CLIP提语义,depth estimator提结构,再搞个style encoder处理风格。关键是要加个动态fusion模块,根据当前噪声水平自动调各个模态的权重。这个可以解决生成内容控制不够精准的问题。\n\t\n[星R][星R]Flow matching加速采样\n扩散模型采样慢一直是个很大的问题,虽然现在蒸馏方法有一堆,但我觉得flow matching是个不错的选择。可以把rectified flow和consistency model融合在一起使用，,核心就是训练时学一个能一步生成的映射,但保留多步采样的灵活性。\n技术上搞个双分支网络,一个分支学直接mapping,另一个还是走传统iterative去噪。训练用curriculum learning,前期主要优化多步采样,后期慢慢加大one-step的loss权重。测试时根据质量需求灵活选步数。这个主要针对推理效率和质量的平衡问题。\n\t\n[星R][星R]视频生成的时序一致性\n视频扩散这块帧间一致性真的是个大坑。现在要么在temporal维度简单加3D卷积,要么用optical flow做对齐,但都不够稳。\n我现在试的方案是加个temporal coherence模块,每步去噪都算相邻帧的feature similarity,用这个similarity map来guide当前帧生成。具体用cross-frame attention,让每帧去噪时能参考前后几帧的中间特征。再加个motion-aware的loss,用预训练的video prediction模型约束轨迹合理性。\n\t\n[星R][星R]语义化的latent编辑\n扩散模型编辑能力确实不如GAN,但我觉得可以通过改进latent space结构来解决。现在大多在pixel space或简单VAE latent上操作,但如果把latent space设计得更有语义结构,编辑就容易多了。\n我在试hierarchical VAE,把latent code拆成多层,每层对应不同粒度的语义。底层控制纹理,中间层控制形状,顶层控制布局和风格。然后diffusion时可以选择性地只对某几层去噪,其他层不动。可以借鉴disentanglement learning,用对比学习让不同层feature尽量正交。这个主要针对精准局部编辑又要保持全局一致的场景。\n#深度学习[话题]# #sci[话题]# #大模型[话题]# #算法[话题]# #提供思路和创新点[话题]# #扩散模型[话题]##发文[话题]##科研[话题]##论文[话题]##实验[话题]#",
+  "tags": [
+    "深度学习",
+    "sci",
+    "大模型",
+    "算法",
+    "提供思路和创新点",
+    "扩散模型",
+    "发文",
+    "科研",
+    "论文",
+    "实验"
+  ],
+  "author": "西西学长会辅导",
+  "authorId": "64794e0e000000001c0292b4",
+  "time": 1761384701000,
+  "ipLocation": "",
+  "likes": "21",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091102/2f328be7e22e4d2c7af769bb843d6852/1040g2sg31o2bpu9il2jg5p3p9o7754lk8bjq9n0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68fc98fd0000000007023c16?xsec_token=ABRJDGywkpfEKDUCsGHGcpCg-9-NkBguZN72qhP0HjrkY=&xsec_source=pc_collect"
+}

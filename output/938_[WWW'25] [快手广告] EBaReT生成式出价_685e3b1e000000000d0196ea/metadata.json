@@ -1,0 +1,27 @@
+{
+  "id": "685e3b1e000000000d0196ea",
+  "type": "normal",
+  "title": "[WWW'25] [快手广告] EBaReT生成式出价",
+  "desc": "快手商业化算法团队的一篇工作\n\t\n论文标题: EBaReT: Expert-guided Bag Reward Transformer for Auto Bidding\n\t\n🔍 问题背景\n离线强化学习在自动出价场景面临双重挑战：\n1. 数据质量缺陷：历史出价日志包含大量次优决策（实际转化R显著低于离线最优R*）\n2. 奖励不确定性：广告转化率极低（<0.01），获胜拍卖也难以获得有效奖励反馈\n\t\n💡 研究动机\n为突破数据噪声与稀疏奖励的限制，我们提出EBaReT框架：\n● 通过专家轨迹生成与PU学习提升决策质量\n● 创新Bag机制重构奖励分布以应对环境不确定性\n\t\n🚀 方法创新\n1.专家轨迹注入\n● 基于对偶线性规划生成理论最优出价轨迹\n● 设计PU判别器区分专家/次优行为，避免噪声污染\n2. Bag奖励重分配\n● 将连续时间步聚合为Bag\n● 基于判别器置信度动态分配奖励，并重构RTG实现平滑优化\n3. 专家级决策保障\n● 离散化判别器输出为K级专家度\n● 推理时强制使用最高专家级token\n\t\n📊 实验验证\n在包含 5000万+拍卖记录 的Alibaba Auction基准测试中，EBaReT碾压所有基线——显著超越生成式方法DT和DiffBid。此外，在工业级数据验证显示：严格预算控制下，框架也使得转化效率提升>11%。\n\t\n✅ 核心优势\n● 首用PU学习解决出价数据噪声问题\n● Bag机制为稀疏奖励提供新优化范式\n专家推理严格保障决策最优性\n\t\n团队直招，欢迎感兴趣的同学可以私信，简历直通TL，一起研究生成式出价算法。\n\t\n﻿#AutoBidding[话题]#﻿   ﻿#OfflineRL[话题]#﻿   ﻿#计算广告[话题]#﻿   ﻿#决策Transformer[话题]#﻿   ﻿#WWW2025[话题]#",
+  "tags": [
+    "AutoBidding",
+    "OfflineRL",
+    "计算广告",
+    "决策Transformer",
+    "WWW2025"
+  ],
+  "author": "双井小霸王",
+  "authorId": "5e44e509000000000100bcdf",
+  "time": 1751005982000,
+  "ipLocation": "",
+  "likes": "40",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091337/cc04020d54ce9f492d3e09f8eeaf5e66/1040g00831j7mulbh36705ni4sk4g9f6vkqucg5o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091337/49d34592e517adec54bb75ef0eb0d289/1040g00831j7mulbh367g5ni4sk4g9f6vbpkbkt8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091337/1a07bb75cce3784d160448eab105c8bc/1040g00831j7mulbh36805ni4sk4g9f6vml1bro0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091337/d06b10c36ae8ce2288187b78b5fa56f9/1040g00831j7mulbh368g5ni4sk4g9f6vmbpsgfg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091337/d3c9a99af94b3b053202fc853074d181/1040g00831j7mulbh36905ni4sk4g9f6vm2ulf88!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/685e3b1e000000000d0196ea?xsec_token=ABP4NMnMe0w-R_4LFt0ilpiTsbJ7cgdqEk3RXfoJMqdYU=&xsec_source=pc_collect"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "69dde2190000000023025763",
+  "type": "normal",
+  "title": "如何判断SFT到什么程度就可以开始做RL了？",
+  "desc": "SFT 负责建立基础能力（格式、指令遵循），RL 在此基础上优化输出质量。两者不能互相替代。过早做 RL 会导致训练崩溃，过晚做又会浪费算力。\n\t\n什么时候可以停止 SFT\n1.格式和能力已对齐了\n- 能按要求输出指定格式（JSON、代码块等），不会答非所问\n- 比如指令理解准确率 > 85%\n如果这些还没达到，RL 只会放大问题。\n2.性能达到上限\n- 验证集Loss稳定，不再有波动\n- Pass Rate、准确率等关键指标多轮不再提升\n- 继续加数据出现过拟合（训练集 Loss 降，验证集 Loss 不降甚至反升）\n同时SFT 的上限由数据集质量决定，继续堆数据边际收益会越来越低。\n3.pass@k 明显高于 pass@1\n两者差距大，说明模型知道正确答案的形态，但输出不稳定。RL 可以把\"偶尔正确\"变成\"稳定正确\"。也不是pass@1 低就不能做 RL，可以观察pass@k / pass@1 的比值判断RL可以做的程度有多少\n#大模型[话题]# #模型训练[话题]# #ai[话题]##人工智能[话题]# #llm[话题]# #互联网大厂[话题]# #算法[话题]# #面试题[话题]# #转码[话题]# #干货[话题]#",
+  "tags": [
+    "大模型",
+    "模型训练",
+    "ai",
+    "人工智能",
+    "llm",
+    "互联网大厂",
+    "算法",
+    "面试题",
+    "转码",
+    "干货"
+  ],
+  "author": "Panda师兄的AI笔记",
+  "authorId": "5d0debf0000000001202c733",
+  "time": 1776149017000,
+  "ipLocation": "",
+  "likes": "442",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090801/d4edd7ee92f0522d4e33343e1149e4bb/1040g00831uu57b8v1m005n8dtfo4lhpjo3a4dno!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090801/9696f64428d552d24b0127e8be9b9fb3/1040g2sg31uucnajt2spg5n8dtfo4lhpj037bfk8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090801/372c7ca3edb8596cd43b77102c37eb08/1040g2sg31uucnajt2sog5n8dtfo4lhpjishu7p0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090801/ebb39ca2ef7307d2e4ebfdc61ef543a2/1040g2sg31uucnajt2sn05n8dtfo4lhpj04op2qo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090801/25f93528786cc69e2e3e7cb831ba5ddf/1040g2sg31uucnajt2sng5n8dtfo4lhpj5hgabro!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090801/56184485c6aa73d540e788a36f0001f5/1040g2sg31uuc30kpj4005n8dtfo4lhpj9ar16uo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69dde2190000000023025763?xsec_token=ABSKuybs8gSUqNWk4r68g6mW_rfuCLK-PXVpOb9ldqg6I=&xsec_source=pc_collect"
+}

@@ -1,0 +1,8 @@
+用 vLLM（以及 SGLang）加速大语言模型推理
+
+🎉声明视频来自《Nadav Timor》，字幕是自己翻译+校对的结果。
+✅在大规模部署大语言模型（LLM）时，推理效率依然是一个关键挑战。本次演讲中，Ion Stoica（Berkeley & Anyscale & Databricks）将介绍我们在过去两年于 Berkeley 开展的 LLM 推理相关研究，重点围绕 vLLM 和 SGLang——目前最受欢迎的开源推理引擎。特别是，Ion Stoica会讲解它们提出的一些核心技术，如 PagedAttention 和 RadixAttention，这些技术如今已被大多数 LLM 推理引擎广泛采用。最后，Ion Stoica将分享 vLLM 的全新架构设计。
+﻿#大模型[话题]#﻿ ﻿#AI智能体[话题]#﻿ ﻿#vllm[话题]#﻿ ﻿#VLLM[话题]#﻿ ﻿#SGLang[话题]#﻿ ﻿#sglang[话题]#﻿ ﻿#LLMs[话题]#﻿ ﻿#Berkeley[话题]#﻿
+
+
+标签: #大模型 #AI智能体 #vllm #VLLM #SGLang #sglang #LLMs #Berkeley

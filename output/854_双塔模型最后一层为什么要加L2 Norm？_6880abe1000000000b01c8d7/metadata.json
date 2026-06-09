@@ -1,0 +1,30 @@
+{
+  "id": "6880abe1000000000b01c8d7",
+  "type": "normal",
+  "title": "双塔模型最后一层为什么要加L2 Norm？",
+  "desc": "在推荐、搜索等场景的双塔模型实践中，我们通常会在塔的最后一层输出Embedding后，加上一个L2 Normalization层。这并非一个随意的操作，背后有其深刻的算法与工程考量。本文将从工程角度来解释其三大核心原因,下一篇将介绍双塔模型L2 Norm + Temperature能拿到更好的效果。\n\t\n1. 简化相似度计算，提升推理效率\n理论上，我们希望计算两个向量 x 和 y 的余弦相似度：\ncosine(x,y) = (x·y) / (|x|·|y|)\n这个计算包含了点积和模长，相对复杂。\n对向量进行L2 Norm后，其定义为 x_norm = x / |x|，向量的模长 |x_norm| 变为1。此时，余弦相似度就等价于向量点积：\ncosine(x,y) = x_norm · y_norm\n这样，在海量向量进行在线推理时，可以用更高效的点积运算替代原始的余弦相似度计算，有效降低了计算开销。\n\t\n2. 适配主流向量检索引擎\n双塔模型产出的Embedding通常用于召回阶段，需要借助Faiss、Milvus等高性能向量检索引擎，从海量候选池中快速检索Top K。\n许多主流引擎在设计上对向量内积（Inner Product）的支持和优化最好，甚至不直接支持余弦相似度作为距离度量。将向量L2 Norm后，可以直接使用内积来计算相似度，从而无缝对接到这些成熟的工程化组件中，实现高效检索。\n\t\n3. 兼容欧氏距离，增强系统灵活性\n在某些情况下，我们使用的向量检索引擎可能仅支持欧氏距离（Euclidean Distance）。\n幸运的是，在向量经过L2 Norm后，欧氏距离与余弦相似度之间存在一个固定的数学转换关系：\nDist_Euclidean(x_norm, y_norm)² = 2 - 2 * cosine(x_norm, y_norm)\n这个公式表明，最大化余弦相似度等价于最小化欧氏距离。因此，即使底层引擎只支持欧氏距离，我们依然可以通过L2 Norm来完成基于余弦相似度的检索任务，这极大地增强了技术选型的灵活性和系统的兼容性。\n\t\n#推荐算法[话题]# #双塔模型[话题]# #向量检索[话题]# #机器学习[话题]# #技术干货[话题]# #L2Norm[话题]# #Faiss[话题]# #Milvus[话题]# #深度学习[话题]# #算法工程师[话题]#",
+  "tags": [
+    "推荐算法",
+    "双塔模型",
+    "向量检索",
+    "机器学习",
+    "技术干货",
+    "L2Norm",
+    "Faiss",
+    "Milvus",
+    "深度学习",
+    "算法工程师"
+  ],
+  "author": "Kevin聊算法",
+  "authorId": "64a94bd3000000000b0143a9",
+  "time": 1753263073000,
+  "ipLocation": "",
+  "likes": "207",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091327/0b98b281311a3ff7730a1f40fa2773bd/1040g00831k9b270i48005p599f9iqgt96dd2on8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091327/af9252c78322060d4887d68bdf0e1b50/1040g00831k9b270i480g5p599f9iqgt9n5rt208!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091327/9272a2b92da5e6a1ab41e73443443e8b/1040g00831k9b270i48105p599f9iqgt98too518!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6880abe1000000000b01c8d7?xsec_token=ABb-_7Cpz7YMnX7vsxTs300D1fkrI2eBckRUrnUaENYf8=&xsec_source=pc_collect"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "6879c4e5000000001203c43f",
+  "type": "normal",
+  "title": "【何恺明再出手】大道至简的Diffusion正则化",
+  "desc": "将扩散模型的原生回归损失视作对比学习的“对齐项”\n仅引入一个无参数的“排斥项”——Dispersive Loss\n在不构造正样本对的情况下，有效正则化内部表征，防止特征坍缩\n\t\n简单且有效，有种ResNet的美感\n#aigc[话题]# #何恺明[话题]#",
+  "tags": [
+    "aigc",
+    "何恺明"
+  ],
+  "author": "Attention",
+  "authorId": "5e33f6cb0000000001002e52",
+  "time": 1752810725000,
+  "ipLocation": "",
+  "likes": "611",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091328/a051cfcfd011ed34a895513acf2f1a7a/1040g00831k2jgu4sio005nhjur5g8bii9l1hbio!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091328/97fd8d4843abcbfdf011cb579a646c9f/1040g00831k2jgu4sio0g5nhjur5g8biieg8ipc0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091328/34b76badddaaab4ace251fb732f57c83/1040g00831k2jgu4sio105nhjur5g8biih5bcc18!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091328/31e7bd6ac83041c9123fcd7a7c024f1a/1040g00831k2jgu4sio1g5nhjur5g8biiflh2qhg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091328/d3b5a1b1075e9cc1043f6608502e1808/1040g00831k2jgu4sio205nhjur5g8biitsfs6h0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091328/c13f4af201ed64401779db3c94720189/1040g00831k2jgu4sio2g5nhjur5g8biink4in4o!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6879c4e5000000001203c43f?xsec_token=ABga3e_3k1CAMBRzO69R5u2CGl3Gc1TvjyVVxxGxHSTj4=&xsec_source=pc_collect"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "686cb1c30000000011001041",
+  "type": "normal",
+  "title": "Qwen3 Embedding 与 BGE 有什么区别？",
+  "desc": "1.训练数据不同。以前词嵌入模型采用公开数据，现在的训练数据会使用大模型加工合成，更精细可控，站在了巨人的肩膀上。\n2.模型结构不同。在生成式大模型采用Decoder架构后，词嵌入模型也借鉴了Decoder，使用 [EOS] 标签对应的向量来表示句子向量。\n3.训练方法改进。Encoder 架构的训练方式是 Mask 猜词与相似度计算。而 Qwen3 词嵌入模型采用多阶段训练与合并结果，让模型效果更上一层楼。﻿\n\t\n#算法[话题]#﻿ #大模型[话题]#﻿ #人工智能[话题]#﻿ #互联网大厂[话题]#﻿ #美团[话题]#﻿ #qwen[话题]#",
+  "tags": [
+    "算法",
+    "大模型",
+    "人工智能",
+    "互联网大厂",
+    "美团",
+    "qwen"
+  ],
+  "author": "AI有温度",
+  "authorId": "6416aa61000000001201071b",
+  "time": 1752056285000,
+  "ipLocation": "",
+  "likes": "590",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091331/c366d83740b35ec7c7e3add77c8ca13a/spectrum/1040g34o31jlqrvmbii805p0ml9gki1or5bv2t7o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091331/c31c727ea86bdaa529e6f590324df7ea/spectrum/1040g34o31jlqrvmbii8g5p0ml9gki1oroksorig!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091331/33d997e15a6f6865b839408af1ecaeba/spectrum/1040g0k031jnkeqflii005p0ml9gki1orp50chi8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091331/45c636cd7eb7ca5709f78715b9ad46ed/spectrum/1040g34o31jlqrvmbii9g5p0ml9gki1orharbgvg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091331/252615c8223d2e61a51e5c343f589b00/spectrum/1040g34o31jlqrvmbiia05p0ml9gki1orunrkie0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091331/9f6d944c1ba00675f12d784a4d8491a8/spectrum/1040g34o31jlqrvmbiiag5p0ml9gki1oritr7q88!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091331/7d74f75a9ec614cf017ab8ed77dd016a/spectrum/1040g0k031jnkf19g2g005p0ml9gki1or1arvnno!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091331/b5cde2e13ff469c9fa09faeddd8c59d2/spectrum/1040g34o31mlao4gaks105p0ml9gki1or5smrlvg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/686cb1c30000000011001041?xsec_token=ABE77Dz_O2N5Vbyvmd3_TED6Zp35JmRqcpv2mb73EQd6o=&xsec_source=pc_collect"
+}

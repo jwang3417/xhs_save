@@ -1,0 +1,25 @@
+{
+  "id": "6a0bc7f90000000010001c00",
+  "type": "video",
+  "title": "自进化 Agent 背后的核心机制，其实没那么玄",
+  "desc": "最近很多 Agent 项目都在讲「self-evolving agent / 自进化 Agent」：\nAgent 可以记住你的反馈、总结经验、生成技能，下次做同类任务时变得更聪明。\n但这里其实要分清两类东西：\n一类是像 Auto Agent / Auto Research 这种，用评测循环去改进 Agent Harness 本身；\n另一类是 Claude Code、OpenClaw、Hermes Agent 这种，通过 memory、skills、history 让 Agent 在上下文里持续学习。\n这期我拆了几个主流实现：\nClaude Code 的三层记忆系统\nAuto Dream 背后的 memory consolidation\nOpenClaw 为什么会让人觉得「它真的记得我」\nHermes Agent 如何自动生成 skill\n如果你自己在做 Agent Harness，应该怎么设计 memory / skill / history\n结论是：\n真正让 Agent 变聪明的，不只是更强的模型，而是它能不能持续沉淀经验、更新记忆、复用技能。\n#AIAgent[话题]# #ClaudeCode[话题]# #OpenClaw[话题]# #AI创业[话题]# #Agent开发[话题]# #AI产品[话题]# #自进化Agent[话题]#",
+  "tags": [
+    "AIAgent",
+    "ClaudeCode",
+    "OpenClaw",
+    "AI创业",
+    "Agent开发",
+    "AI产品",
+    "自进化Agent"
+  ],
+  "author": "AI Jason",
+  "authorId": "56fc3a2384edcd49b113efd8",
+  "time": 1779268500000,
+  "ipLocation": "浙江",
+  "likes": "580",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090704/f46d878114153cf77513a7abbd0f2b32/oss-sg/notes/1040g3l0320b6as557c0g47i0k6t27ruo37vtcu8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream_glo/10001/110/259/0aea0bc7f91a6bf0010370039e3e065cef_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a0bc7f90000000010001c00?xsec_token=ABFRCnWip_EQvtr2lr4kq-CpFDYFmpVwvKNFdXVT2l1xc=&xsec_source=pc_collect"
+}

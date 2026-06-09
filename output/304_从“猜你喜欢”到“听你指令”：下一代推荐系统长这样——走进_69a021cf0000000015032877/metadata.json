@@ -1,0 +1,26 @@
+{
+  "id": "69a021cf0000000015032877",
+  "type": "normal",
+  "title": "",
+  "desc": "从“猜你喜欢”到“听你指令”：下一代推荐系统长这样——走进 Meta 最新研究 RecoWorld\n\t\nPaper: https://arxiv.org/abs/2509.10397\n\t\n大家每天都在和推荐系统打交道。无论是刷短视频、逛电商、听音乐还是看新闻，背后都有一套“聪明”的算法在猜测你可能喜欢什么。但你是不是偶尔觉得推荐内容千篇一律？这其实暴露了传统推荐系统的一个核心问题：它们大多数是基于过去数据来预测，被动的“猜你喜欢”，而缺乏和你真正的互动。\n最近，Meta 推荐系统团队提出了一个全新的思路——RecoWorld。它不仅是一个推荐算法，而是一个“虚拟世界”，让推荐系统和模拟用户能在里面进行交互、反馈和优化，做到“你说我改”。\n\t\n#算法[话题]# #互联网大厂[话题]# #推荐系统[话题]# #小红书科技AMA[话题]#",
+  "tags": [
+    "算法",
+    "互联网大厂",
+    "推荐系统",
+    "小红书科技AMA"
+  ],
+  "author": "大厂AI算法漫记",
+  "authorId": "6194fcda000000001000e14b",
+  "time": 1772102095000,
+  "ipLocation": "",
+  "likes": "99",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090934/64f2db7f96e052abb4d86406da4f9c83/notes_pre_post/1040g3k831t22adnnls805ockvjd41oaboi3t568!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090934/ea5a709828e1e0a66878f8e739a91690/notes_pre_post/1040g3k831t22adnnls8g5ockvjd41oabt86coho!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090934/733bfabe03ecb6d64a8097ee67720503/notes_pre_post/1040g3k831t22adnnls905ockvjd41oabsmbjuig!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090934/414a0001d2747579f24a8e6f1f5df645/notes_pre_post/1040g3k831t22adnnls9g5ockvjd41oab1s3t190!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090934/26b52c738816594d38d57e83bbdc55a8/notes_pre_post/1040g3k831t22adnnlsa05ockvjd41oabu2fcf10!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69a021cf0000000015032877?xsec_token=ABYLUB_T3TgO3gLPg4np-68uojvRqLtEF7gcM7L6E7rt4=&xsec_source=pc_collect"
+}

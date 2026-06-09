@@ -1,0 +1,21 @@
+Anthropic工程师最新视频！14分钟讲透Agent
+
+🚨 Anthropic 工程师 14 分钟讲透 Agent 构建秘籍
+AnthropicAI 官方《Building Effective Agents》作者 Barry Zhang，最近在 AI Engineer Summit 分享了一段 14 分钟核心方法论，把高效构建 Agent 的关键讲得透彻实用。
+三大核心原则：
+✅不是所有任务都适合做 Agent 只在高价值、高复杂度、模糊场景下使用，否则成本和风险更高。
+✅保持极致简单 最小闭环只需要：环境 + 工具 + 系统提示。后期再逐步加优化。
+✅站在 Agent 视角思考 它只能看到你给的上下文，每次提示前都要模拟它的“视野”。
+「是否需要建 Agent」快速 checklist
+•任务复杂度低 → 用 Workflow 即可
+•结果价值不高 → 优先 Workflow
+•所有步骤都可执行 → 缩小范围或加人工
+•错误成本高 → 增加审核机制
+最适合场景：编码 Agent（从需求文档到完整 PR），复杂度高、价值高、错误可控。
+后期可加：并行工具调用、轨迹缓存、进度可视化。
+核心心法：Workflow 适合可预测任务，Agent 适合动态场景。成功关键在于精准定位、保持简单、对 Agent 有限视角的理解。
+视频值得一看，原博客也建议一起读。
+#AIAgent[话题]# #Claude[话题]# #Anthropic[话题]# #AI开发[话题]# #小红书科技AMA[话题]# #人工智能发展[话题]# #agent[话题]#
+
+
+标签: #AIAgent #Claude #Anthropic #AI开发 #小红书科技AMA #人工智能发展 #agent

@@ -1,0 +1,34 @@
+{
+  "id": "6878e9090000000022033d19",
+  "type": "normal",
+  "title": "大模型面试 | 大模型高质量合成数据",
+  "desc": "【高质量合成数据】！Synthetic Data RL合成数据强化学习💯\n《Synthetic Data RL: Task Definition Is All You Need》\n项目地址：https://github.com/gydpku/Data_Synthesis_RL\npaper：https://arxiv.org/pdf/2505.17063\n🔥一、背景\n尽管如GPT-4和Gemini等基础模型已在通用语言理解方面设立了新的行业标杆 ，但它们在需要深度领域知识的专业领域中，其表现常常不尽如人意。当面临数学、医学、法律及金融等专门任务时，这些模型时常表现不佳。\n🔥二、简介\n基础模型严重依赖大规模、高质量人工标注数据来学习适应新任务、领域。为解决这一难题，来自北京大学、MIT等机构的研究者们提出了一种名为「合成数据强化学习」的通用框架。该框架仅需用户提供一个简单的任务定义，即可全自动地生成高质量合成数据。\n🔥三、高效自适应学习\n1.系统通过知识引导的合成环节结合检索到的外部知识和任务特定模式，生成既有事实依据又与目标任务对齐的合成数据。\n2.在难度自适应环节，系统会根据模型的反馈来调整这些生成样本的复杂度，目的是创建一个难度均衡、避免过于简单或困难的数据集。\n3.在高潜力样本选择与强化学习环节，框架会精心挑选出高学习潜力的样本，并利用强化学习在这些样本上进行微调。\n🔥四、筛选高潜力样本并强化微调\n1.评分系统：为了精准地识别出这些高潜力样本，框架设计了一套基于模型实际表现的评分系统。具体来说，它会利用基础模型，对每个样本进行多次解答尝试。\n2.筛选样本：系统会计算模型在多次尝试中成功解答的次数比例。这个评分系统有一个巧妙的设计：对于那些模型在所有尝试中都失败的「极难」样本，系统会故意给它们一个最高分。\n3.强化学习：这个精挑细选出的高潜力训练集将被用于对基础模型进行一轮的强化学习训练。\n🔥五、同等数据预算下的效率优势\n1.完胜监督微调（SFT）：当训练预算被限制在相同数量时，「合成数据强化学习」方法的效果远超传统的监督微调方法 。\n2.媲美甚至超越人类数据RL：更令人印象深刻的是，该方法不仅效果好，而且效率极高。在使用同等数量的训练数据时，它的表现能够持平甚至略微超过使用「真实」人类标注数据进行训练的强化学习方法。\n#算法[话题]# #大厂[话题]# #面经[话题]# #大模型面试[话题]# #大厂算法[话题]# #秋招[话题]# #互联网大厂[话题]# #字节跳动[话题]# #算法实习[话题]# #大模型学习[话题]#",
+  "tags": [
+    "算法",
+    "大厂",
+    "面经",
+    "大模型面试",
+    "大厂算法",
+    "秋招",
+    "互联网大厂",
+    "字节跳动",
+    "算法实习",
+    "大模型学习"
+  ],
+  "author": "草莓师姐",
+  "authorId": "64966a4f0000000010034a32",
+  "time": 1752754441000,
+  "ipLocation": "",
+  "likes": "234",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091327/28055b89e2078efbb9db7825111a6ccb/1040g00831k1okl4030405p4md97k6ihi5ufd9eo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091327/62e0e4f83996436727565aa934dffb15/1040g00831k1okl4030305p4md97k6ihi8753700!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091327/011ee3a71d8194a12b4f8cfe0ca3f219/1040g00831k1okl40300g5p4md97k6ihi2oglnco!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091327/d43baf42731348672fbcbb17d8fef856/1040g00831k1okl40302g5p4md97k6ihier29s4g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091327/dcefcf908eba812b5c6da3b2df0db62b/1040g00831k1okl4030105p4md97k6ihiv2uu890!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091327/d76f2b9e1b1ce1ed9e9853f450b0401c/1040g00831k1okl40304g5p4md97k6ihi3j5ineg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091327/abfaf451e0e7e21415619dd9ee44fcea/1040g00831k1okl40301g5p4md97k6ihihs58rio!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6878e9090000000022033d19?xsec_token=ABOw9tYQ3MbxIe8v17Sd35oS2L4XBT8sbwuMoWEvO928M=&xsec_source=pc_collect"
+}

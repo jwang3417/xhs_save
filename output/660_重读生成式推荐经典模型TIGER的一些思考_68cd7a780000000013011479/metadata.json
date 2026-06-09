@@ -1,0 +1,29 @@
+{
+  "id": "68cd7a780000000013011479",
+  "type": "normal",
+  "title": "重读生成式推荐经典模型TIGER的一些思考",
+  "desc": "好久没和uu们做技术分享了，主包这段时间在公司做生成式推荐相关的模型，所以打算重新看一些生成式的论文，看看能不能借鉴一些思路。\n\t\n谷歌这篇《Recommender Systems with Generative Retrieval》属于是生成式推荐的开山之作，作者提出了一种序列推荐器的生成检索模型的新范式，主要由RQ–VAE和自回归生成框架两部分组成。主包之前也分享过论文解读，详情可以看主页生成式推荐系列。\n\t\n这里主要探讨关于生成式推荐最基本的两个问题，感觉面试可能会问：\n[一R]RQ–VAE生成的语义ID对比原来的id embedding好在哪？\n[向右R]最早以one hot形式的id嵌入表需要巨大的内存和存储空间，而后续常见的哈希映射造成的随机冲突又会加剧冷启动问题。\n[向右R] RQ–VAE使用有限的词汇集的序列来表示数十亿个item，而不是需要为每个项目生成随机生成的原子ID，可以极大缓解内存的挑战。\n[向右R]此外，用SID来表示item可以实现相似item之间在训练时共享信息。SID的碰撞具有语义上的意义，这有助于缓解冷启动问题。\n\t\n[二R]自回归生成式检索模型对比基于ANN的模型好在哪？\n[向右R]传统item embedding在训练时存在不平衡性，其中热门item将被过度采样，而长尾item将被低采样，进而造成embedding学习不充分。\n[向右R]而SID基于item的内容特征，在做自回归生成时能够推荐新的item和不常见的item。此外，通过参数调节能够增强生成内容的多样性，这也是一个推荐系统非常重要的功能之一。\n\t\n还有一些关于RQ–VAE训练相关的问题，比如码本大小和长度，codebook collapse，还有SID冲突等问题，待主包多训练几次后再做分享。\n\t\n上述内容如有不正确的地方，欢迎各位大佬在评论区分享指正。码字不易，期待三连😊\n#互联网大厂[话题]# #推荐算法[话题]# #生成式推荐[话题]# #大模型[话题]# #深度学习[话题]# #文献阅读[话题]# #字节跳动[话题]# #腾讯[话题]# #小红书[话题]#",
+  "tags": [
+    "互联网大厂",
+    "推荐算法",
+    "生成式推荐",
+    "大模型",
+    "深度学习",
+    "文献阅读",
+    "字节跳动",
+    "腾讯",
+    "小红书"
+  ],
+  "author": "千里起解",
+  "authorId": "64fd39830000000006032baa",
+  "time": 1758296696000,
+  "ipLocation": "",
+  "likes": "131",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091127/f4d6f833e468fbd10c807cf81ff31531/notes_pre_post/1040g3k031mkbe7do6m6g5p7t761hmatagfke2ro!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091127/e6371871f7bef52be5f90c906745eae0/notes_pre_post/1040g3k831mkbe7hc6gdg5p7t761hmata4ap7at0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091127/a7be0f828cf256f1ce9f802bf099f585/notes_pre_post/1040g3k031mkbe7fo6g605p7t761hmatafjdrvu8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68cd7a780000000013011479?xsec_token=ABJjjUhUZq-i11SAejRBwlCMDzlRdVacv18qykVMyeJgs=&xsec_source=pc_collect"
+}

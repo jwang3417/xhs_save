@@ -1,0 +1,24 @@
+{
+  "id": "69aea925000000000d008349",
+  "type": "normal",
+  "title": "答不上这题别说你懂AI架构",
+  "desc": "【问题】\n为什么主流大模型都用RMSNorm而不用LayerNorm？\n\t\n【选项】\nA. RMSNorm省去均值计算，减少30%以上计算量，大规模训练时省时省力\nB. 实验发现LayerNorm的均值中心化对训练几乎没帮助，去掉也不影响效果\nC. RMSNorm的梯度流比LayerNorm更平滑，训练更稳定不容易Loss爆炸\n\t\n→ 滑动看答案\n\t\n---\n每天一道提高AI面试题，深入设计原理，掌握工程实践。\n\t\n💬 提高追问：LLaMA用它，DeepSeek用它，Mistral也用它。RMSNorm凭什么取代了经典的LayerNorm？不是因为快那一点点——而是有人发现LayerNorm一直在做一件「多余的事」。\n能答上来的，实战经验够硬！评论区见真章！\n\t\n#AI面试[话题]# #大模型[话题]#",
+  "tags": [
+    "AI面试",
+    "大模型"
+  ],
+  "author": "Ne0在硅谷",
+  "authorId": "62fb2293000000000f005ca9",
+  "time": 1773054245000,
+  "ipLocation": "",
+  "likes": "167",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090932/7821dc076c11210903f95ecc909ef377/spectrum/1040g0k031tg8ccicl6005onr4a9jon59qv3eg7o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090932/522e128cee4a701a7eb4c346815d61bc/spectrum/1040g0k031tg8ccicl60g5onr4a9jon5946s5k9o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090932/9fda0e7fec2bae9ffb3378cffa10059c/spectrum/1040g0k031tg8ccicl6105onr4a9jon59lqvvklo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090932/3c70786ee4094d5503736b8a2b999c6a/spectrum/1040g0k031tg8ccicl61g5onr4a9jon59k3280s8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090932/c84c0148956e5c6d587612b2834cc586/spectrum/1040g0k031tg8ccicl6205onr4a9jon592i1rsbg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69aea925000000000d008349?xsec_token=ABdH4VRNR7bV9j_KcK7DPPgoLK--d-7WHhFWYH9naifMs=&xsec_source=pc_collect"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "689f38b1000000001d03ad2a",
+  "type": "normal",
+  "title": "在大厂如何基于LLM做搜推？奖励模型篇",
+  "desc": "博主在腾讯做LLM应用，上篇讲到LLM在搜推召回的落地\n🌟🌟🌟这次聊腾讯、deepseek、Synth Labs等关于奖励模型的工作\n搜推中生成任务，很难定义标准答案，比如AI搜索的query改写、答案生成，相关搜索的query生产\n人工评估生成结果的效果成本、耗时很高😭\n大厂常基于业务评估标准，用LLM做奖励模型，生成多维度批评和分数\n奖励模型对评估合成数据的准确率、拒绝采样，强化学习对齐业务标准等非常重要！\n\t\n🌟什么是生成式奖励模型（generative reward model, GRM）？\n💡例子\n评估两个LLM对“如何做美味的意大利面？”的回答\n🤔传统奖励模型的输出： 0.87\n🤔生成式奖励模型的输出：见p3\n🎉GRM利用LLM的天然更强大的文本生成能力，结果可解释性更强，泛化性更好\n\t\n🌟🌟🌟大厂的做法\n1️⃣经典论文：Auto-J\n上海交大，上海AI lab《GENERATIVE JUDGE FOR EVALUATING ALIGNMENT》\n2️⃣利用DPO、自训练提升GRM性能\nSynth Labs & 斯坦福《Generative Reward Models》\n详细见p4-p5\n3️⃣Deepseek探索GRM test time scaling law\n《Inference-Time Scaling for Generalist Reward Modeling》\n详细见p6-p7\n4️⃣腾讯混元引入外部工具构建多维度奖励系统\n《Hunyuan-A13B Technical Report》\n详细见p8-p9\n5️⃣总结\n详细见p10\n#互联网大厂[话题]# #deepseek[话题]# #ai[话题]# #强化学习[话题]# #奖励模型[话题]# #生成式奖励模型[话题]#",
+  "tags": [
+    "互联网大厂",
+    "deepseek",
+    "ai",
+    "强化学习",
+    "奖励模型",
+    "生成式奖励模型"
+  ],
+  "author": "小red同学",
+  "authorId": "5cfcfd3e0000000011009029",
+  "time": 1755265201000,
+  "ipLocation": "",
+  "likes": "151",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091318/56f790c6b6c7d092bbf4518238c1bb54/notes_pre_post/1040g3k831l70sq2ul8805n7svkv494195kcfi98!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091318/e83309c541fb79df720ee2aec14c3690/1040g00831l75iandlm4g5n7svkv49419n5nefpg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091318/ba39218b53e034f775b52d7864722c4a/1040g00831l75iandlm505n7svkv49419jqbv5h0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091318/3c70715343c6363d645e38c4ba954733/1040g00831l75iandlm205n7svkv49419ued0cig!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091318/8314bea97bf8b26d9ff3283d1e4df148/1040g00831l75iandlm3g5n7svkv49419d3bmcsg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091318/eb90a1702c032d3110f5b7629fbd2956/1040g00831l75iandlm405n7svkv49419oofig18!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091318/927a4f0ab4a1bf37f643246ecc26dec7/1040g00831l75iandlm2g5n7svkv494197p9r88g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091318/02c107ee1308cada3455e07a96496c23/1040g00831l75iandlm305n7svkv49419ugmp3h8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091318/5ed0e5fa7d7da6177b38eeec4ecd9dc5/1040g00831l75iandlm1g5n7svkv49419caiso2o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091318/bc5a5f4b1250970398f7cd31f89547d1/1040g00831l75iandlm105n7svkv494196d91j78!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/689f38b1000000001d03ad2a?xsec_token=AB5aRk60LNW1oYdTj1qFfEU3-YHAPFZ2IKS4IGKLMP3fk=&xsec_source=pc_collect"
+}

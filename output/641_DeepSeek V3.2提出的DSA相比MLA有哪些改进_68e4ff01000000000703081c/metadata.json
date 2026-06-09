@@ -1,0 +1,32 @@
+{
+  "id": "68e4ff01000000000703081c",
+  "type": "normal",
+  "title": "DeepSeek V3.2提出的DSA相比MLA有哪些改进",
+  "desc": "节前DeepSeek上了新模型DeepSeek-V3.2-Exp，延续了节前上新的传统，可以说是卷卷更健康了。\n这个新版本最核心的变化，就是引入了DSA（DeepSeek Sparse Attention）稀疏注意力架构。\n\t\n可以预见，一道全新的面试题即将诞生：“同学，DeepSeek V3.2用的DSA在MLA的基础上做了哪些改进？”\n\t\n想要回答好这个问题及其追问，不仅要理解DSA是什么，还得清楚它要解决的MLA又是什么。接下来，本文将先回顾MLA的核心思想，再深入解读DeepSeek-V3.2-Exp的原文，这样我们才能知其然，更知其所以然。\n#算法工程师[话题]# #大模型[话题]# #llm[话题]##秋招的第一份offer[话题]# #2026校招季[话题]# #深度学习[话题]#",
+  "tags": [
+    "算法工程师",
+    "大模型",
+    "llm",
+    "秋招的第一份offer",
+    "2026校招季",
+    "深度学习"
+  ],
+  "author": "居丽叶",
+  "authorId": "56b1aae7b8c8b423d372da85",
+  "time": 1759837953000,
+  "ipLocation": "",
+  "likes": "55",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091118/e4b51b9b0d4a5d539ac98d4466c62f01/notes_pre_post/1040g3k831nba8u12l2cg45ff0elefmk5o8lflf0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091118/0e74b69db622072b42233bd909b42153/notes_pre_post/1040g3k831nba8u6kl0d045ff0elefmk5ignbqtg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091118/eb46405f6987e9aa93cb9bbf7e0a8979/notes_pre_post/1040g3k831nba8u6kl09g45ff0elefmk5tbhmh28!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091118/9be09ebeab1141be8000b1bbe2bd86eb/notes_pre_post/1040g3k831nba8u6kl07045ff0elefmk5136rcl0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091118/bf7c3bb4bdd512ea731d9ea5ea9862f4/notes_pre_post/1040g3k831nba8u6kl0b045ff0elefmk5profm98!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091118/543e7611582c385f75b9c929110f01ab/notes_pre_post/1040g3k831nba8u6kl08045ff0elefmk5h4qmobg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091118/27f4d527496bf9b38971e09228a14143/notes_pre_post/1040g3k831nba8u6kl07g45ff0elefmk5ptuo6mo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091118/1c1036c2edd66c38246c0018ff14f12d/notes_pre_post/1040g3k831nba8u6kl0ag45ff0elefmk5qmseqr8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091118/99b5087d20510e65869f8484e7adb302/notes_pre_post/1040g3k831nba8u12l28g45ff0elefmk59g7e6q0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68e4ff01000000000703081c?xsec_token=ABUDq0SCLh2u50xADjWxeP3_txsLbDYTT-eD5mypLVgOY=&xsec_source=pc_collect"
+}

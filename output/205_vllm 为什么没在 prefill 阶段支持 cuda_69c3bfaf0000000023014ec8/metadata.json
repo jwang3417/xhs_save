@@ -1,0 +1,34 @@
+{
+  "id": "69c3bfaf0000000023014ec8",
+  "type": "normal",
+  "title": "vllm 为什么没在 prefill 阶段支持 cuda",
+  "desc": "#RED新生代创作大赛[话题]# #文字复兴单元[话题]#",
+  "tags": [
+    "RED新生代创作大赛",
+    "文字复兴单元"
+  ],
+  "author": "笙囧同学",
+  "authorId": "61ce4f7b0000000010006fbb",
+  "time": 1774436271000,
+  "ipLocation": "",
+  "likes": "254",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091309/1108e428a1ea44c11a44b7ae7554f565/spectrum/1040g0k031u4rcd7i1s005oee9ttk0rtr5rg88ng!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091309/65e845b163852a0b9d040abc25ad36fa/spectrum/1040g0k031u4rcd7i1s0g5oee9ttk0rtrot0d8a0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091309/2704299a53411d20acd36210e7a7b66b/spectrum/1040g0k031u4rcd7i1s105oee9ttk0rtrhm29d9g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091309/e27b829b2c49671a919a27b2837d0d20/spectrum/1040g0k031u4rcd7i1s1g5oee9ttk0rtru9t4hoo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091309/3a434dc03bef8c693cd5944f43ee3f60/spectrum/1040g0k031u4rcd7i1s205oee9ttk0rtrcacp37g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091309/fa7165c67b40149820551c007a8e0cc8/spectrum/1040g0k031u4rcd7i1s2g5oee9ttk0rtrtil1ut0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091309/efa999de23923a885d4a7a065f4ccb7b/spectrum/1040g0k031u4rcd7i1s305oee9ttk0rtr1l3adhg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091309/61f20f1533405a2f4e6a714799d7a8d5/spectrum/1040g0k031u4rcd7i1s3g5oee9ttk0rtrk70qdjg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091309/97d895f289ebd0da19e2ca5b6c3b0817/spectrum/1040g0k031u4rcd7i1s405oee9ttk0rtr8lutk5g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091309/419968bd635d2f7ff27ec81c5231497d/spectrum/1040g0k031u4rcd7i1s4g5oee9ttk0rtrnrdd6g8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091309/cc2eb997cc443d742f7a4f33eaaa7400/spectrum/1040g0k031u4rcd7i1s505oee9ttk0rtrbsh4bmg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091309/20310665e6e863d5c3ec79167efb2d20/spectrum/1040g0k031u4rcd7i1s5g5oee9ttk0rtrmedcs9o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091309/9f2815e35e11e2b7fa2a9afab587b376/spectrum/1040g0k031u4rcd7i1s605oee9ttk0rtr1urh0f0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091309/2d11c11377e8c83cc56c4dc92e6fa2f6/spectrum/1040g0k031u4rcd7i1s6g5oee9ttk0rtrdr11kco!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091309/9906aac046460e0a54d4bcc8d802061c/spectrum/1040g34o31u4rcd99hs105oee9ttk0rtrles7au8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69c3bfaf0000000023014ec8?xsec_token=ABUpXSS-gyZtBoq2Jxv3IhdNrILsxJE_AyM3RsdbX5yPY=&xsec_source=pc_collect"
+}

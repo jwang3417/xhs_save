@@ -1,0 +1,28 @@
+{
+  "id": "68ddb28b0000000005002fc9",
+  "type": "video",
+  "title": "加州伯克利DSRL用上强化学习调控扩散策略",
+  "desc": "DSRL是加州伯克利提出的一种新方法，用强化学习在扩散策略（diffusion policy）的潜在噪声（latent noise）空间中进行调控，以改善行为克隆（behavioral cloning, BC）策略在真实机器人大任务中的表现，而无需修改基础模型权重。#机器人[话题]##机械臂[话题]##AI[话题]##人工智能[话题]##人形机器人[话题]##具身智能[话题]##PNP机器人[话题]# #深度学习[话题]# #强化学习[话题]# #计算机科学[话题]#",
+  "tags": [
+    "机器人",
+    "机械臂",
+    "AI",
+    "人工智能",
+    "人形机器人",
+    "具身智能",
+    "PNP机器人",
+    "深度学习",
+    "强化学习",
+    "计算机科学"
+  ],
+  "author": "集智联机器人-PnP机器人",
+  "authorId": "660bbbba000000000b00c18e",
+  "time": 1759359627000,
+  "ipLocation": "",
+  "likes": "7",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091144/764b11d114fcc063f9e97b452b0fe585/1040g2sg31n467us8l86g5pgbnet2pgcecr4ko3o!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e8ddb246e8b4160103700399a2019097_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68ddb28b0000000005002fc9?xsec_token=ABfTKvSYMrh3YbK2qoAkjHS_dDE5LI57nRhdJomZaXyfE=&xsec_source=pc_collect"
+}

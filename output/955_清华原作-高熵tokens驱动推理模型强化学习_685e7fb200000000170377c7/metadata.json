@@ -1,0 +1,22 @@
+{
+  "id": "685e7fb200000000170377c7",
+  "type": "video",
+  "title": "清华原作-高熵tokens驱动推理模型强化学习",
+  "desc": "清华、阿里出品的Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning，(少量的高熵tokens驱动大语言模型推理中的高效强化学习)\n\t\n论文主要贡献：链式思考中仅极少高熵“分叉”token决定推理走向。RLVR训练几乎只调这些高熵token的策略熵，低熵部分基本沿用基座模型。实验覆盖AIME’24/25等基准。作者提出只对20%高熵token更新梯度即可在Qwen3-8B维持全量性能，且在Qwen3-14B/32B显著更优；仅更新80%低熵token则性能大跌。\n结论：强化学习真正收益源自高熵少数token，应基于熵模式精细化RLVR\n#大模型[话题]# #强化学习[话题]# #推理模型[话题]# #Qwen[话题]#",
+  "tags": [
+    "大模型",
+    "强化学习",
+    "推理模型",
+    "Qwen"
+  ],
+  "author": "一蛙",
+  "authorId": "607c6b9f0000000001000330",
+  "time": 1751023538000,
+  "ipLocation": "",
+  "likes": "247",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091339/58a201bc0c770bb812295de0180599ff/1040g2sg31j7v3isfj4l05o3sdefg80pgl7dbabo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/79/110/259/01e85e7f9017b09d0103700397b1260fd5_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/685e7fb200000000170377c7?xsec_token=ABP4NMnMe0w-R_4LFt0ilpiRbU_mlJlpbbA-c-a9JjCz4=&xsec_source=pc_collect"
+}

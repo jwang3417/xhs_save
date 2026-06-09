@@ -1,0 +1,21 @@
+{
+  "id": "6a1821e60000000038035366",
+  "type": "video",
+  "title": "Agent长期记忆如何选？阿里云选型指南",
+  "desc": "AI Agent 80% 的失败是记忆污染导致的——错误的记忆比没有记忆更危险。本期系统讲解 Agent 长期记忆的三层架构、Record & Retrieve 核心流程，深度对比向量数据库、知识图谱、Markdown 文件三种存储路线，拆解 Mem0、OpenViking、OpenClaw、Zep 四大框架的设计哲学，最后给出阿里云四套长期记忆方案（百炼 API、RDS PostgreSQL、PolarDB Mem0、Polar Agent Memory）的选型建议。\n\t\n#AI长期记忆[话题]#  #Agent记忆[话题]#  #阿里云[话题]#  #向量数据库 #Mem0 #知识图谱",
+  "tags": [
+    "AI长期记忆",
+    "Agent记忆",
+    "阿里云"
+  ],
+  "author": "大厂吾师兄（AI篇）",
+  "authorId": "633bed72000000001802c0a2",
+  "time": 1779966438000,
+  "ipLocation": "浙江",
+  "likes": "77",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090707/8ae718e8baec3b36d2b3c9d8fa2bbe6c/spectrum/1040g34o320n8c5it6q105oprtlp65g52ugvdg80!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01ea18212014771d010370039e6e4696d2_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a1821e60000000038035366?xsec_token=ABZcxXIHjc7uemkBuh9-sjA_VvNXK9RdzYdM3Cm9t2yXM=&xsec_source=pc_collect"
+}

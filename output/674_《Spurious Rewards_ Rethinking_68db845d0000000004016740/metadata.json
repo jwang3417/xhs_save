@@ -1,0 +1,20 @@
+{
+  "id": "68db845d0000000004016740",
+  "type": "video",
+  "title": "",
+  "desc": "《Spurious Rewards: Rethinking Training Signals in RLVR》：\n\t\n核心发现：带可验证奖励的强化学习（RLVR）技术，即便用 “虚假奖励”（随机奖励、错误答案奖励、仅看格式的奖励等），也能显著提升 Qwen2.5-Math 系列模型的数学推理能力，如 Qwen2.5-Math-7B 在 MATH-500 数据集上，随机奖励提分 21.4%、错误答案奖励提分 24.1%，接近 “正确答案奖励” 29.1% 的效果。\n模型特异性：该现象仅存在于 Qwen 模型，Llama3、OLMo2 等其他模型用虚假奖励后，成绩无提升甚至下降。\n关键原因：Qwen2.5-Math 模型天生会用 Python 代码辅助推理（“代码推理”），RLVR 训练后该行为从 65% 增至 90% 以上，且代码推理答案正确率（60.9%）远高于非代码推理（28%），虚假奖励实际放大了这一先天能力。\n研究提醒：当前多数 RLVR 研究仅基于 Qwen 模型，结论存在局限性，未来需在多模型上验证；且 Qwen 模型对提示词极敏感，无关提示也可能影响初始表现。\n#AI[话题]# #knowfun[话题]#",
+  "tags": [
+    "AI",
+    "knowfun"
+  ],
+  "author": "jamson",
+  "authorId": "56a240d4aed7581762bf82c6",
+  "time": 1759216734000,
+  "ipLocation": "",
+  "likes": "6",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091145/159fd07df91af4248ab19a7732a562b0/1040g2sg31n21usjilm70459n9h0d90m6op7u3s0!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e8db845d34f2850103700399997dac3c_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68db845d0000000004016740?xsec_token=ABr4Admj-RsRRuo_HlykteEg3CFL_ko678ve6OfQHunw8=&xsec_source=pc_collect"
+}

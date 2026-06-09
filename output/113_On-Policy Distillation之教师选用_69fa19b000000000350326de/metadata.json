@@ -1,0 +1,39 @@
+{
+  "id": "69fa19b000000000350326de",
+  "type": "normal",
+  "title": "On-Policy Distillation之教师选用",
+  "desc": "这篇文章不是综述，是一线实践的一些看法，中间做了一些外部论文和实践的参考，反复踩坑后总结的一份记录。\n大概大半年前我们开始上 OPD，跟着 TML 那篇博客做。第一版选教师的逻辑很朴素——选最大的就完了，反正越大越强。结果第一轮蒸馏跑了两周，loss 不收敛，学生指标几乎没动。后来发现教师跟学生的 token 分布差太远，信号根本传不进去。\n又试了几个规格，每次都靠\"感觉\"挑，又错了几次。最后才老老实实坐下来，先用 50 条业务样本测每个候选教师跟学生的 top-10 overlap，挑落在 0.3-0.5 区间里规模最小的那个，蒸馏才稳定下来。\n这篇文章想把这个流程写清楚，免得后来的人继续按倍率拍脑袋。\n#算法工程师[话题]# #OnPolicy蒸馏[话题]# #一线实战[话题]# #大模型[话题]# #LLM[话题]# #蒸馏[话题]#",
+  "tags": [
+    "算法工程师",
+    "OnPolicy蒸馏",
+    "一线实战",
+    "大模型",
+    "LLM",
+    "蒸馏"
+  ],
+  "author": "人类调解AI记录",
+  "authorId": "62ef2ac2000000001e01cfa4",
+  "time": 1777998257000,
+  "ipLocation": "",
+  "likes": "177",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090714/f4459ad35e77693770548e7d48ffe024/spectrum/1040g34o31vptneuphm105onf5b17jjt4kgqmsgg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/42086913873d37f37555d38851fb3764/spectrum/1040g0k031vptngod2s005onf5b17jjt4q3gr5jo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/897c6d5e40b372fb16ab1549332cfbbd/spectrum/1040g0k031vptniebk8005onf5b17jjt40jd48lg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/2796677cf6b04e367be39d8464257fe9/spectrum/1040g34o31vptnjopjm105onf5b17jjt4tu92ko8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/6ffc0a88a4838f2f571357c4c513a8f7/spectrum/1040g0k031vptnlrgis005onf5b17jjt4eagclj0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/489aacf8e915622e3332e5d26802139f/spectrum/1040g34o31vptnmpv48105onf5b17jjt4lo7k8qo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/fbe3b75cce3c765a5971dc5dae029e50/spectrum/1040g34o31vptnojghm105onf5b17jjt402ba73o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/c3e4f5f6686a7dea42b5035c9699f8f3/spectrum/1040g0k031vptnpl13m005onf5b17jjt4n2so8uo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/06f0e09dc6b59ae0ee7b4e1de88a4b9e/spectrum/1040g0k031vptnr34jm005onf5b17jjt46fmndlg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/0307190188fc8e8fb6fe472ba250151b/spectrum/1040g34o31vptnsgiis105onf5b17jjt4mjcth78!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/765729967d768068b7c83ecd991c7ee9/spectrum/1040g0k031vptntj7jm005onf5b17jjt43cf64cg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/5c3c57fd6707b7c9272a4931e6d00cbc/spectrum/1040g0k031vptnugc3m005onf5b17jjt46o5peqg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/6980ccc802378a34c9df2bd51fe76602/spectrum/1040g34o31vptnvle3m105onf5b17jjt4c5sr2tg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/b11eb6e0a17130811b23a6277114c5ff/spectrum/1040g34o31vpto0ne4c105onf5b17jjt4nq4lco8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/e0587ec4bdf5a3ad235e81a1acfd64c9/spectrum/1040g0k031vpto1rkis005onf5b17jjt475oj1vo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/04f2b9cded6dcf7313c2fd4be174a3ba/spectrum/1040g0k031vpto5i9k8005onf5b17jjt4f6sd3qo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69fa19b000000000350326de?xsec_token=ABXSyNbvAYW7lUWDRPahcTKfgHW6P7BMchqpemqOdMmXs=&xsec_source=pc_collect"
+}

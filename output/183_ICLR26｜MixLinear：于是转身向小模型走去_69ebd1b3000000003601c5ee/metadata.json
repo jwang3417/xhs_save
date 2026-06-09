@@ -1,0 +1,37 @@
+{
+  "id": "69ebd1b3000000003601c5ee",
+  "type": "normal",
+  "title": "ICLR26｜MixLinear：于是转身向小模型走去",
+  "desc": "🔥大模型卷到飞起，它却用0.1K参数杀疯了｜ICLR 2026 MixLinear\n\t\n大模型时代，人人都在拼参数量💥\n但有没有想过：时间序列预测，真的需要百万参数才能完美实现吗？算力资源有限不能部署大模型的场景，又该怎么处理？\n\t\nICLR 2026 这篇 MixLinear直接给出了反常识答案：\n👉 只用 176 个参数（0.1K！），就能在长时序预测上吊打一堆Transformer！\n（你没看错，不是176万，是176个🤯）\n\t\n✨它凭什么这么牛？核心就3招：\n\t\n🧩 时域分支：把序列切成小段 → 段内学局部形态，段间学慢趋势 → 线性复杂度捕捉局部波动\n🌐 频域分支：FFT转频域 → 用秩=2的低秩滤波压缩全局周期 → 极少参数抓住长期规律\n🤝 加性融合：局部 + 全局 + 均值 = 预测结果，不搞花里胡哨的门控/注意力\n\t\n💡 最牛的是：\n它不是把模型“压缩”小，而是重新思考了时序数据的结构——\n局部变化交给时域，全局周期交给频域，专业的事交给专业的“域”来分析✅\n\t\n📊 实验结果有多牛？\n参数量：MixLinear 0.176K vs SparseTSF 0.9K vs FITS 41K vs PatchTST 百万级\n精度：Exchange上最高降低 16.2% MSE，长 horizon 720 依然稳\n速度：推理比SparseTSF快 3.2倍，比FITS快 1.72倍\n消融实验：去掉任一路径效果都下降 → 双路径真互补！\n\t\n🚀 适合谁用？\n边缘设备、传感器、IoT、低功耗实时预测\n不想堆显卡、不想调参调到头秃的懒人炼丹师\n对“参数越少越优雅”有执念的技术洁癖患者\n\t\n📌 一句话总结：\n不是所有预测都需要大模型，MixLinear证明了 结构设计 > 参数堆砌。\n0.1K参数也能把长时序拿捏得死死的，这才是真正的轻量卷王👑\n\t\n#时间序列预测[话题]#  #ICLR2026[话题]#  #轻量模型[话题]#  #AI[话题]#  #边缘计算[话题]#  #深度学习[话题]# #大模型[话题]# #学术[话题]# #iclr[话题]# #机器学习[话题]#",
+  "tags": [
+    "时间序列预测",
+    "ICLR2026",
+    "轻量模型",
+    "AI",
+    "边缘计算",
+    "深度学习",
+    "大模型",
+    "学术",
+    "iclr",
+    "机器学习"
+  ],
+  "author": "时序Inf",
+  "authorId": "657064160000000020034621",
+  "time": 1777071650000,
+  "ipLocation": "",
+  "likes": "288",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091307/8ae0eab56165bd1d3c23f5f300b84c21/spectrum/1040g34o31vbvgtivjm105pbgcgb86hh1956iopg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091307/f229c49a81159b375e0de28a69ae6310/spectrum/1040g34o31vbv8fi72sag5pbgcgb86hh176r09k8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091307/274e947d2a49b5512ae3f9b5d9e833e1/spectrum/1040g34o31vbv8fi72sb05pbgcgb86hh10rl9dpo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091307/f6e307ddeaf4e6adfef47f60218c80a9/spectrum/1040g34o31vbv8fi72sbg5pbgcgb86hh1bgl9t10!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091307/8bfb7b024cb761b3235ae752a66d5534/spectrum/1040g34o31vbv8fi72sc05pbgcgb86hh10ov4vj8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091307/7bce0a9cfd6512dafa1bbd35b56452dc/spectrum/1040g34o31vbv8fi72scg5pbgcgb86hh1shhcq90!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091307/eb7694c8b145533ee72211423b2c94de/spectrum/1040g34o31vbv8fi72sd05pbgcgb86hh1eid53v0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091307/80c992d3051581a13f0d330c9f5d69b8/spectrum/1040g34o31vbv8fi72sdg5pbgcgb86hh1f25fq1g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091307/26ed4043eba4d485c429057930e07e5d/spectrum/1040g34o31vbv8fi72se05pbgcgb86hh1b6ov5n0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091307/79f61823ccb47ac43fd3c004e618793b/spectrum/1040g34o31vbv8fi72seg5pbgcgb86hh1cni2318!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69ebd1b3000000003601c5ee?xsec_token=ABBYZ1-4yjULJSiCy_-Z_gmABfpoVi_1BIpA5pREBftaU=&xsec_source=pc_collect"
+}

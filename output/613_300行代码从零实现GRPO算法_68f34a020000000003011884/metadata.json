@@ -1,0 +1,27 @@
+{
+  "id": "68f34a020000000003011884",
+  "type": "video",
+  "title": "300行代码从零实现GRPO算法",
+  "desc": "手把手教你实现 Agent RL，训练 Agentic RAG (DeepSeek R1 同款技术）\n📚 本期内容：\n✅ GRPO算法核心原理详解（vs PPO算法对比）\n✅ 5个关键问题理解强化学习本质\n✅ Search R1训练流程完整拆解\n✅ 300行代码手写Agent RL项目\n✅ Trajectory生成与Policy更新实战\n✅ Reward计算与Advantage优化技巧\n✅ 重要性采样与KL散度实现细节 #大模型[话题]# #强化学习[话题]# #GRPO[话题]# #featurize[话题]# #LLM[话题]# #deepseek[话题]# #agentic[话题]# #agent[话题]# #chaofa[话题]#",
+  "tags": [
+    "大模型",
+    "强化学习",
+    "GRPO",
+    "featurize",
+    "LLM",
+    "deepseek",
+    "agentic",
+    "agent",
+    "chaofa"
+  ],
+  "author": "袁朝发",
+  "authorId": "622186a5000000002102bea8",
+  "time": 1760774658000,
+  "ipLocation": "",
+  "likes": "710",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091107/ce45e18906eaa6a6ae1da7a45303ff03/spectrum/1040g34o31np82prb52105oh1gqiodfl85pm8d4g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e8f348c47f783f0103700399f672d0b6_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68f34a020000000003011884?xsec_token=AB2fLgj1MYLroKS6ENSyLU6__OGIhuY4J0sBvhfB4jKfw=&xsec_source=pc_collect"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6911d0f0000000000700e789",
+  "type": "normal",
+  "title": "LLM在小红书推荐系统的落地应用",
+  "desc": "在推荐系统实践中，我们发现传统BERT模型在物品冷启动及内容深度表征上面临显著瓶颈：文本嵌入质量受限于模型规模与语义理解深度，难以有效捕捉用户行为意图与内容长尾特征，导致I2I召回效果受限，尤其影响新笔记的曝光与分发效率。\n为此，我们主导完成了“基于LLM的笔记表征模型NoteLLM”的研发与全链路落地。通过引入大语言模型作为文本编码主干，结合生成式对比学习与多任务协同训练，构建了适用于推荐场景的高质量内容嵌入体系：\n✅ 提出生成式对比学习机制：将笔记内容压缩至特殊Token隐空间，融合用户行为共现信号进行对比训练，实现语义表征与推荐目标的对齐\n✅ 构建多任务提示框架：统一支持笔记压缩、标签生成与分类预测，提升模型通用性与嵌入质量，兼顾内容理解与生成能力\n✅ 实现端到端训练与高效部署：基于Llama 2架构，设计双阶段训练流程（GCL + CSFT），在保持7B模型规模下实现线上高并发推理\n项目成果在召回场景中表现显著：\n离线评估中，NoteLLM在Recall@100指标上达到84.02%，优于SentenceBERT基线13.3个百分点\n在线A/B测试中，点击率提升16.20%，新笔记评论数增长3.58%，有效缓解冷启动问题\n消融实验验证生成式对比学习为效果提升关键，协同训练进一步增强模型鲁棒性\n本文将系统解析从业务场景定义、模型架构设计、训练策略优化到全量上线的完整闭环，重点阐释：\n基于用户行为构建协同过滤信号的样本构造方法\n多任务提示模板设计与训练效率平衡策略\n大模型嵌入在I2I召回系统中的工程集成路径\n该项目已成功推全至小红书主站推荐场景，显著提升内容分发效率与用户体验，为LLM在推荐系统中的工业级应用提供了完整技术范式与实践路径。\n#推荐系统[话题]# #大语言模型[话题]# #生成式对比学习[话题]# #产品技术一体化[话题]# #计算机视觉[话题]# #大模型[话题]# #计算机毕业设计[话题]# #算法[话题]# #后端开发[话题]# #深度学习[话题]#",
+  "tags": [
+    "推荐系统",
+    "大语言模型",
+    "生成式对比学习",
+    "产品技术一体化",
+    "计算机视觉",
+    "大模型",
+    "计算机毕业设计",
+    "算法",
+    "后端开发",
+    "深度学习"
+  ],
+  "author": "AI产品经理Erric-匡集",
+  "authorId": "68073b1d000000000700396e",
+  "time": 1762775280000,
+  "ipLocation": "",
+  "likes": "53",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091050/b3308c545d32f09fcf80f52c1bb95ce1/notes_pre_post/1040g3k031on2viim50505q077cehoebe0p48fm8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091050/d1153111e1fbcc01694f79cd70de1c15/notes_pre_post/1040g3k031on2viim506g5q077cehoebeo1r5328!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091050/8525d10bb52832235ffe4ca57d68b5bf/notes_pre_post/1040g3k031on2viim503g5q077cehoebeaf3mss8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091050/da9e0f72459e9bd0187b5990759b722e/notes_pre_post/1040g3k031on2viim50605q077cehoebeb8pkjk8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091050/f5539e98b3f488e0d8d5cc17eb9a6dec/notes_pre_post/1040g3k031on2viim504g5q077cehoebe8lc8nf0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6911d0f0000000000700e789?xsec_token=ABprBSfxCll-80ivRF91Wopq_4L5g0a8lCBTnDunTl74c=&xsec_source=pc_collect"
+}

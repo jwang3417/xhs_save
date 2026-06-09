@@ -1,0 +1,34 @@
+{
+  "id": "68e8d8e000000000030199ca",
+  "type": "normal",
+  "title": "博一|diffusion1|DDPM原理及代码逻辑",
+  "desc": "[清单R]这两天搞懂了基本的diffusion模型（见上图），数学理论部分不难，主要运用概率论的知识，只是公式比较多[满月R]\n\t\n[请友好R]在服务器上跑了一下开源代码，原理读懂之后，理解代码就变得容易了一下。\n\t\n这个框架主要分为三个部分：\n[一R] 怎么学：\nmodel：也就是最重要的部分，diffusion的核心所在。\n随机生成alpha和beta，t，根据forward生成噪声图片\n调用unet预测噪声（其实学的是在噪声图片中怎么找到真实的图片结构）。\nreserve部分采样得到清晰图片。\n\t\n[二R]用什么学：\nUnet，时间embedding，通过编码和解码，提取到噪声图片中的噪声信息并输出，也是卷积的核心部分\n\t\n[三R]怎么训：\ntrain，设置了损失函数（噪声的MSE），学习率等参数信息，生成噪声（ground truth）调用Unet学习，反向传播训练更新Unet中参数。学习结束后，sampling通过训好的unet得到干净图像。\n\t\n[向右R]需要厘清的问题：\nT是怎么被处理的\nalpha和beta到底意味着什么\n每个环节的输入输出\n张量在这个模型中是怎么流动的\n为什么sampling的时候要再加入noise\n为什么学习了高斯噪声就可以学习任意噪声\n\t\n[红色心形R][红色心形R]再一次感慨大神的牛B，初学者入门还请多多指教，如果小伙伴们有什么资料或者建议，请多多多多告诉我！谢谢！\n\t\n[向右R]一些思考\n1⃣ 反向扩散在理论推导中的作用\n在 DDPM 的理论里，反向扩散不是训练的直接内容，而是 概率建模的一部分：\n正向扩散把图像逐步加噪，最终得到一个标准高斯分布。\n理论上，正向过程定义了条件概率 q(xt∣xt−1)。\n反向扩散对应的是 pθ(xt−1∣xt)，即如何从噪声一步步恢复原图。\n训练目标就是让模型预测噪声，使得这个近似分布 pθ 尽可能接近真实后验分布。\n所以，反向扩散在理论上保证了：\n我们可以从噪声生成图像，并且生成的分布逼近训练数据分布。\n\t\n2⃣ 反向扩散在实践（生成/复原）中的作用\n训练好模型后，sampling() 过程就是把理论落到实际：\n从纯噪声开始\n利用训练好的 ϵ^θ 去掉噪声\n逐步得到清晰图像 x0\n\t\n[可R]也就是说：\n它检验了训练效果：如果反向采样能复原或生成高质量图像，说明模型学到了正确的噪声预测。\n它实现了生成任务：反向扩散公式是把训练学到的噪声知识应用到生成图像的核心公式。\n\t\n#博士[话题]# #博士生日常[话题]# #深度学习[话题]# #机器学习[话题]# #算法[话题]# #深度学习与神经网络[话题]# #计算机视觉[话题]# #diffusion[话题]# #中山大学[话题]# #研究生日常[话题]#",
+  "tags": [
+    "博士",
+    "博士生日常",
+    "深度学习",
+    "机器学习",
+    "算法",
+    "深度学习与神经网络",
+    "计算机视觉",
+    "diffusion",
+    "中山大学",
+    "研究生日常"
+  ],
+  "author": "了不起的肉肉",
+  "authorId": "689e9d33000000001a027d01",
+  "time": 1760090336000,
+  "ipLocation": "",
+  "likes": "630",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091105/225a28343d8b24749c47a68dff176008/1040g00831nf2mvnr586g5q4ujkpmkv81h82tqd8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091105/80542e226d93c41c1e4df7bc7aa4de1e/1040g00831nf2mvnr585g5q4ujkpmkv81jk8jf98!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091105/45f24db5fc82ba55e3ce968931de6eea/1040g00831nf2mvnr58505q4ujkpmkv81eb7d528!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091105/544760a179ce31ab96e0992eb1984413/1040g00831nf2mvnr58405q4ujkpmkv8165pfljg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091105/922bd4cf596117302fc9610d8da763f6/1040g00831nf2mvnr583g5q4ujkpmkv81lgrlebg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091105/2ccb1356081ff73637b2c669937af681/1040g00831nf2mvnr58305q4ujkpmkv812niicd8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091105/3e0e0216aa1b4d7b8419c673d435068f/1040g00831nf2mvnr582g5q4ujkpmkv81d85mh08!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68e8d8e000000000030199ca?xsec_token=AB7z1aeBBsXs4iI5_tvo2Vv6JcWJczBmXDHYvQDYmZByY=&xsec_source=pc_collect"
+}

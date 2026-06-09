@@ -1,0 +1,26 @@
+{
+  "id": "685e752d0000000022031c83",
+  "type": "normal",
+  "title": "越来越感觉“强化学习+agent”是未来的方向",
+  "desc": "[葡萄R]从通用任务到垂直领域，强化学习+agent正在渗透多个行业，成为解决复杂决策问题的核心技术，在学术界和工业界也都是公认的关键突破方向。\n\t\n[葡萄R]因此，在各大顶会顶刊都不乏其身影！像是Nature子刊上效率提升10倍的模型MB-DPO；NeurIPS上性能提升40.7%的SCoBots；AAAI上全新的局部解释方法COViz……\n\t\n[葡萄R]想发论文的伙伴，可以多从这些方面着手：多模态RL+agent、高维状态空间建模、稀疏奖励处理、多Agent协作；结合垂直领域的agent……\n\t\n[葡萄R]为方便大家研究的进行，我也给大家整理了15篇必读论文和源码。既有领域的奠基之作，也有最新的前沿，一起来看！#计算机视觉[话题]# #科研学习[话题]# #深度学习[话题]# #机器学习[话题]#",
+  "tags": [
+    "计算机视觉",
+    "科研学习",
+    "深度学习",
+    "机器学习"
+  ],
+  "author": "AI科研技术派",
+  "authorId": "6423f72d0000000011020b28",
+  "time": 1751020845000,
+  "ipLocation": "",
+  "likes": "14",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091339/e7f50c6beab373d6ed4d3961d78bd01e/notes_pre_post/1040g3k031j7u15b9io6g5p13usmkc2p831clgc0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/e533e71b7a9935a7ede6096e90d7da87/notes_pre_post/1040g3k831j7u15cd32jg5p13usmkc2p8lubgvno!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/86564957debf0378ea946ac4670804a6/notes_pre_post/1040g3k831j7u15cd32i05p13usmkc2p81dec4uo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/c03074eaefaa7d80a556d75128f6cb63/notes_pre_post/1040g3k831j7u15cd32ig5p13usmkc2p8ima37vo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/8116480541cf0bd6d3f49d20078c0ce3/notes_pre_post/1040g3k031j7u15b9io5g5p13usmkc2p83apgd3g!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/685e752d0000000022031c83?xsec_token=ABP4NMnMe0w-R_4LFt0ilpifJ7pb-6BiHRVLg61kgDl4c=&xsec_source=pc_collect"
+}

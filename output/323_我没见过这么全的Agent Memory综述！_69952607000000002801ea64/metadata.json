@@ -1,0 +1,38 @@
+{
+  "id": "69952607000000002801ea64",
+  "type": "normal",
+  "title": "我没见过这么全的Agent Memory综述！",
+  "desc": "刷arxiv刚看到一篇超全面的Agent记忆综述，真的是把智能体记忆这个核心能力讲透了！\n\t\n核心亮点：三维统一分类框架\n\t\n这篇综述最牛的地方是提出了\"形式-功能-动态\"三维框架，终于把智能体记忆和LLM记忆、RAG这些概念的边界说清楚了！\n\t\n🔹 三种记忆形式：\n- 令牌级记忆：离散可访问（扁平/平面/层级结构），代表作MemGPT、MemTree\n- 参数化记忆：直接编码进模型参数，推理效率高\n- 潜态记忆：隐式存储于KV缓存等内部表征\n\t\n🔹 三类记忆功能：\n- 事实性记忆：存储用户偏好、环境知识\n- 经验性记忆：积累案例、策略、技能\n- 工作记忆：管理任务上下文，突破窗口限制\n\t\n🔹 动态运作过程：\n系统梳理了记忆的形成（语义摘要、知识蒸馏等5类）、演化（整合、更新、遗忘）、检索（4步骤）全流程。\n\t\n前沿方向展望：\n自动化记忆管理、强化学习融合、多模态记忆、多智能体共享、可信度保障等，给出了清晰的研究蓝图。\n\t\n还汇总了MemBench等基准测试和MemGPT、Mem0等开源框架，做Agent的同学必看！\n\t\n#Agent[话题]# #互联网大厂[话题]# #大模型[话题]# #Agent智能体[话题]# #大模型应用[话题]# #RAG[话题]# #AI大模型[话题]# #算法[话题]# #留学生校招[话题]# #面经[话题]#",
+  "tags": [
+    "Agent",
+    "互联网大厂",
+    "大模型",
+    "Agent智能体",
+    "大模型应用",
+    "RAG",
+    "AI大模型",
+    "算法",
+    "留学生校招",
+    "面经"
+  ],
+  "author": "改bug的小禾",
+  "authorId": "697851ce00000000210081b8",
+  "time": 1771382279000,
+  "ipLocation": "",
+  "likes": "21",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090936/1dccdd90b46c4ef346ba3ef2ab67b2f5/1040g00831snb40c0lm6g5qboa77890do9vvdl48!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/fa78027f7a499f9aacfd052013d5364c/1040g00831snb40c0lm5g5qboa77890dogj2q8ng!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/3c5513ab3c8b022a7fe6921bf4a62e7a/1040g00831snb40c0lm205qboa77890do21rmns8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/f6cffca5a460709f35e92e31328c508d/1040g00831snb40c0lm405qboa77890dos86ak70!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/075cb7e7240dd8958913b5aed379aaf7/1040g00831snb40c0lm2g5qboa77890do3ds8o2o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/625dbe02fe98e7ee236bbf73f5e45fe8/1040g00831snb40c0lm305qboa77890dospdedbg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/0ea312cb1c40329df8facad295371ceb/1040g00831snb40c0lm3g5qboa77890do2j6039g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/2e4de2a1d454aabfba6b42d21d211101/1040g00831snb40c0lm505qboa77890dokc2mto8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/9c65ad62e2dd8b28b7b358d3176448bb/1040g00831snb40c0lm0g5qboa77890do0hi3cog!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/23ab281aa60781b70de6216614a0d0c3/1040g00831snb40c0lm605qboa77890doikhj70o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/70f482fce50c84ce2ceabf5c98b28236/1040g00831snb40c0lm4g5qboa77890do4kk8re8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69952607000000002801ea64?xsec_token=ABkrNFKqtxjM8Ksx6lyetPfC16pbygHnl2Dfrx63SAK_I=&xsec_source=pc_collect"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "69a5a78a000000001a027f82",
+  "type": "video",
+  "title": "ARLArena：Agent任务成功率碾压GPT-5.2",
+  "desc": "本期深度解读 UCLA SCAI 实验室 2026 年 2 月发布的 ARLArena 论文，系统拆解 Agentic Reinforcement Learning（ARL）中多轮交互训练崩溃的根因与修复方案。适合对 LLM 后训练、Agent RL、策略优化方法感兴趣的 AI 从业者和研究者。看完你会理解：为什么现有的 GRPO/SAPO/CISPO 在多轮 Agent 任务上不稳定，以及如何系统性地设计稳定的 ARL 训练流程。\n\t\n💬你好，我是唐国梁Tommy，专注于分享AI前沿技术。关注我，每天学习AI新知识～ #aiagent[话题]# #多模态人工智能[话题]# #大模型[话题]##AI技术分享[话题]# #唐国梁Tommy[话题]# #强化学习[话题]# #大模型学习[话题]#",
+  "tags": [
+    "aiagent",
+    "多模态人工智能",
+    "大模型",
+    "AI技术分享",
+    "唐国梁Tommy",
+    "强化学习",
+    "大模型学习"
+  ],
+  "author": "唐国梁Tommy",
+  "authorId": "6430180d0000000011022993",
+  "time": 1772464010000,
+  "ipLocation": "",
+  "likes": "40",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090933/2f7ce561b47cc7d5ef4bd841c5b8109e/spectrum/1040g34o31t7epm775e105p1g306kcacj42ce7m8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/114/01e9a5a78b45d2af4f0370019caf1f2215_114.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69a5a78a000000001a027f82?xsec_token=ABNvr-0QKStCUU8lADst3jPAjJqpUOm_bUSbAT5kqFB08=&xsec_source=pc_collect"
+}

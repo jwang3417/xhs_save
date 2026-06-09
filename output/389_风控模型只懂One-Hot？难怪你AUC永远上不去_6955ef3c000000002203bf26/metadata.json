@@ -1,0 +1,37 @@
+{
+  "id": "6955ef3c000000002203bf26",
+  "type": "normal",
+  "title": "风控模型只懂One-Hot？难怪你AUC永远上不去",
+  "desc": "风控模型里的特征编码，这可是面试里的硬核考点。很多同学只会说 One-Hot，这在风控里往往是次优解。风控的核心是稳和准，还得有解释性。\n\t\n先说 One-Hot。这是简单但膨胀的傻白甜。原理是把类别变成 0 和 1 的向量。风控不喜欢用，因为维度爆炸。风控数据里有很多高基数特征，比如身份证前 6 位，用 One-Hot 特征空间会膨胀到几千维，模型过拟合且训练慢。而且树模型处理稀疏数据效率低。它只适合性别这种低基数特征。\n\t\n再说 Target Encoding。这是激进的作弊者。直接用类别的平均违约率代替类别本身。信息量大，但容易数据泄露和过拟合。特别是小样本类别，违约率容易飙升。必须配合平滑和交叉验证来救。\n\t\n最后是 WOE 编码，这是风控的亲儿子。原理是计算坏人占比和好人占比的比值对数。它衡量的是这个特征对变坏的贡献度。评分卡模型必用它，因为业务解释性极强，能把非线性特征映射成线性风险值，还顺便做了标准化。配合 IV 值筛选特征，稳得一匹。\n\t\n实战怎么选？看模型类型。做传统评分卡，必须用 WOE。做机器学习模型，低基数用 One-Hot，高基数首选带平滑的 Target Encoding，或者 Embedding。\n\t\n如果 WOE 计算遇到分母为 0 怎么办？用拉普拉斯平滑，分子分母加个小常数，或者做分箱合并。记住，特征工程决定了模型的上限，别在编码上掉链子。\n\t\n#数据分析实战[话题]#  #知识库[话题]#  #风控模型[话题]#  #特征工程[话题]#  #WOE编码[话题]#  #TargetEncoding[话题]#  #OneHot[话题]#  #评分卡[话题]#  #机器学习[话题]#  #面试真题[话题]#",
+  "tags": [
+    "数据分析实战",
+    "知识库",
+    "风控模型",
+    "特征工程",
+    "WOE编码",
+    "TargetEncoding",
+    "OneHot",
+    "评分卡",
+    "机器学习",
+    "面试真题"
+  ],
+  "author": "Vera看数据",
+  "authorId": "640439f4000000002a0085a1",
+  "time": 1767277320000,
+  "ipLocation": "",
+  "likes": "27",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090956/23069cd185e34ade2c2c08e228b1166d/spectrum/1040g0k031qpjk4dcgm005p0477qah1d1iperh68!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090956/ed2a0b6ac9e072a6b66397219ff3519d/spectrum/1040g34o31qpjk1fsmu905p0477qah1d1debshgo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090956/d1df4b5e9bb7e299e9ade4e8ecb0c1d1/spectrum/1040g34o31qpjk1fsmu9g5p0477qah1d1quqgfv0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090956/3d6d166bb1f6731dbfb46912055cb605/spectrum/1040g34o31qpjk1fsmua05p0477qah1d1c85o1u8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090956/6a0186e2544154d2385565ee045964cf/spectrum/1040g34o31qpjk1fsmuag5p0477qah1d1slmu650!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090956/82ec33088e69e47ca755e9cb0cb7f7de/spectrum/1040g34o31qpjk1fsmub05p0477qah1d19490n8g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090956/19fda9912cd891ba4ae6288fcdb9a779/spectrum/1040g34o31qpjk1fsmubg5p0477qah1d1ffcr8b0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090956/a6d4ba36aa175e292f9fd0f2be4a2fe8/spectrum/1040g34o31qpjk1fsmuc05p0477qah1d1u98pr7g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090956/81f56dd836028f217e350d3cfe057cbe/spectrum/1040g34o31qpjk1fsmucg5p0477qah1d1gdsj60o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090956/0eb5cfb570064daced2f37eab2974f8d/spectrum/1040g34o31qpjk1fsmud05p0477qah1d1i3e9co8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6955ef3c000000002203bf26?xsec_token=ABKKjBAg6ZHdSVAh6U0LAAluyacueN432Bt34BEqAE62o=&xsec_source=pc_collect"
+}

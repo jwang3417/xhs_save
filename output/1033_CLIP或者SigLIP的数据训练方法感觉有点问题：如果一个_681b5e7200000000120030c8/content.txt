@@ -1,0 +1,5 @@
+CLIP或者SigLIP的数据训练方法感觉有点问题：如果一个batch中有2个<🐈image, "a cat">A和B，这时候按照CLIP或者SigLIP的loss，textA 与imageB 或者textB与imageA的embedding会被拉远，这显然是不对的，尤其是当batch size比较大的时候，这种相同元素的text-image对出现的概率会增大。从CLIP的dataset、dataloader或者loss中没有看到对这个问题的特殊处理。
+#CLIP[话题]# #SigLIP[话题]# #多模态[话题]# #算法优化[话题]#
+
+
+标签: #CLIP #SigLIP #多模态 #算法优化

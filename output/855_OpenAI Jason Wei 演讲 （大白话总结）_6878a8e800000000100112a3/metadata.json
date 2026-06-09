@@ -1,0 +1,17 @@
+{
+  "id": "6878a8e800000000100112a3",
+  "type": "video",
+  "title": "OpenAI Jason Wei 演讲 （大白话总结）",
+  "desc": "AI变聪明了？其实它是在“自学成才”！\n你可以把现在的AI想象成一个学生——\n不仅自己做题，还会自己出题、自己判卷、不断改错、越学越好。\n像Google的Gemini算法，就靠这种“反复练+自己打分”，居然连很多数学难题都被它解出来了！\n⸻\n✅ AI最擅长的，其实是“能看出对错”的事：\n比如数学题、写代码、翻译——这些有标准答案，AI练得越多越准。\n但像写小说、画画、评价食物好不好吃——这些没有统一标准，AI就“发挥失常”。\n这就是所谓的 “可验证性法则”：\n👉 能打分的事，AI最擅长。不能打分的，AI容易胡来。\n⸻\n📊 AI聪不聪明，其实就看你喂它什么“饭”\nAI吃的是“数据饭”——\n英文题做得最好，是因为网上英文资料最多；\n中文也不错，是因为中文内容也很多；\n但冷门语言、特殊领域，资料太少，AI就学不会。\n⸻\n💻 哪些人最先被影响？\n•\t程序员：AI能帮你写代码、查Bug，效率翻倍\n•\t医生/金融/客服：AI能帮忙查资料、写报告、整理信息\n•\t内容创作者：AI能生成草稿，但创意和审美还是要人来定\n📉 那些数据少、标准模糊的行业，AI暂时还替代不了。\n⸻\n📣 一句话总结：\nAI不是天才，它只是会自己练题、自己改错。\n它是个不睡觉、不抱怨、越练越准的学习机器。\n谁先学会用它，谁工作效率高，机会就越多！",
+  "tags": [],
+  "author": "PitchFun_online",
+  "authorId": "68734b30000000000d02c777",
+  "time": 1752738024000,
+  "ipLocation": "",
+  "likes": "97",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091327/b04a69821e291acc6b0684ca4bce33ea/1040g00831k1ge6i9ia0g5q3j9co3dhrngr5bpm8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/1/110/259/01e878a8e88102f801037003981759b65b_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6878a8e800000000100112a3?xsec_token=ABOw9tYQ3MbxIe8v17Sd35obn1cq05z3YljoPv8zoI58g=&xsec_source=pc_collect"
+}

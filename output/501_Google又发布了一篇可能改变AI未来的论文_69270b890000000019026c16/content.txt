@@ -1,0 +1,11 @@
+Google又发布了一篇可能改变AI未来的论文
+
+Google又发布了一篇可能改变AI未来的论文，这次它教AI拥有了记忆。论文标题：Nested Learning: The Illusion of Deep Learning Architectures（嵌套学习：深度学习架构的幻象）
+作者：Ali Behrouz、Meisam Razaviyayn、Peiling Zhong、Vahab Mirrokni
+作者机构：Google Research USA（美国谷歌研究院）
+论文来源：NeurIPS 2025
+论文链接：https://openreview.net/pdf?id=nbMeRvNb7A
+项目链接：https://github.com/erikl2/nested-learning#大模型[话题]# #人工智能[话题]# #科研[话题]# #学术[话题]# #论文[话题]# #毕业[话题]# #强化学习[话题]# #扩散模型[话题]#
+
+
+标签: #大模型 #人工智能 #科研 #学术 #论文 #毕业 #强化学习 #扩散模型

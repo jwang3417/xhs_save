@@ -1,0 +1,23 @@
+{
+  "id": "69d4d5170000000022024263",
+  "type": "normal",
+  "title": "生化危机女主角手搓Ai获得 benchmark 满分",
+  "desc": "刚刚，生化危机女主角“爱丽丝” Milla Jovovich ，开源了一个 AI 记忆系统，在行业标准 benchmark 上拿了有史以来第一个满分。\n\t\n灵感的起因是她用 AI 对话几个月后，积累了大量的决策和思考结果全丢了。因为在在现阶段你与Ai的对话超过一定篇幅之后，Ai会将你与他的对话浓缩为一个个概括并存储。等你再次和它提到某事时，Ai只能记得个大概，但是具体的内容都会丢失。\n\t\n所以“爱丽丝”觉得现有的记忆系统让 AI 决定什么值得记，不是她想要的。于是她和本·西格曼用 Claude Code 花几个月做了 MemPalace，借鉴古希腊记忆宫殿术，把记忆组织成可导航的空间结构 。结果这个MIT开源，纯本地运行的行业 benchmark 首个满分，就这样由一个好莱坞演员做出。似乎超过了现阶段所有 AI 公司 memory 产品的东西 。真是充满想象力的时代\n#Ai[话题]# #skill[话题]# #手账[话题]# #记忆[话题]#",
+  "tags": [
+    "Ai",
+    "skill",
+    "手账",
+    "记忆"
+  ],
+  "author": "SohelpmeGod",
+  "authorId": "5fdccde30000000001009378",
+  "time": 1775555863000,
+  "ipLocation": "",
+  "likes": "7,098",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090732/b404e26482ca25a86e445d3722bd576d/spectrum/1040g0k031ulh019a1u0g5nuspnhg94ro8l8qnv8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/8b954f5961a8e2b2da3e8a2ef99331ef/spectrum/1040g0k031ulh019a1u005nuspnhg94ro7bp0ih0!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69d4d5170000000022024263?xsec_token=ABwzKKbPCTWlyLydqCj4eVsktBCjc61PZYhNaXNegwlP4=&xsec_source=pc_collect"
+}

@@ -1,0 +1,31 @@
+纯decoder大模型火了好久，T5又杀回来了
+
+[偷笑R]还记得Sam之前那篇关于“为什么现在大模型都是Decoder-only”的笔记吗？当时我们讨论了GPT、Llama这波浪潮下，Causal Decoder架构在Scaling Law和训练效率上的统治地位。
+	
+🌟但技术圈最有趣的地方就在于——由于Google DeepMind刚发布的 T5Gemma 2，我必须得来做个“修正”和补充了。
+	
+✅这篇论文用实打实的实验数据告诉我们：Encoder-Decoder（Enc-Dec）架构不仅没死，反而在长文本（Long Context）和多模态（Multimodal）场景下，有着Decoder-only难以比拟的天然优势。
+	
+🧐 为什么Enc-Dec这次能“翻盘”？
+之前的观点是Enc-Dec训练难、收敛慢。但T5Gemma 2通过把成熟的Gemma 3（Decoder-only）“魔改”回去，既蹭到了预训练的红利，又找回了Enc-Dec的灵魂：
+	
+🎈“看”得更全（双向注意力）： Decoder-only 像是戴着眼罩只能往后看（Causal Mask），而 T5Gemma 2 的 Encoder 是双向注意力（Bidirectional Attention）。 在处理长Prompt或者复杂的视觉图像时，Encoder能一次性“看到”全局上下文，而不是像Decoder那样逐token生成时才去关注。论文数据非常诚实：在128K长文本任务上，T5Gemma 2 吊打了同门的Gemma 3。
+	
+🎈“改”得更巧（Merged Attention）： DeepMind这次解决了一个痛点：Enc-Dec参数多、推理慢。 他们提出了 Merged Attention，直接把解码器的Self-Attention和Cross-Attention合并了！
+	
+🔥效果： 结构更像Decoder-only了，参数量减少了，推理效率上来了，但保留了Cross-Attention的核心能力。这招工程优化非常漂亮。
+	
+📊 实验里看到的“真相”
+这就是为什么我说Enc-Dec有独特价值：
+	
+🚀小模型的大智慧： T5Gemma 2 放出了270M和1B的版本。在这些小参数量级下，Enc-Dec架构对于信息的压缩和理解能力显著强于Decoder-only。
+🚀检索/Embedding神器： 论文提到基于此训练的 EmbeddingGemma 拿到了SOTA。如果各位同学是在做 RAG，Enc-Dec 依然是做Embedding模型的首选王者。
+	
+💡 写在最后
+之前的笔记没错，Decoder-only 依然是生成任务的霸主。 但 T5Gemma 2 提醒我们：如果我们需要的不仅仅是“生成”，而是深度的“理解”、长文档的分析、或者是多模态信号的融合，Enc-Dec 依然是那个能打的老将。
+	
+技术没有银弹，只有Trade-off。随着端侧小模型和RAG的普及，Enc-Dec 可能会迎来一波新的“文艺复兴”。
+#大模型[话题]# #算法岗[话题]# #大厂[话题]# #互联网[话题]# #程序员[话题]# #谷歌[话题]#
+
+
+标签: #大模型 #算法岗 #大厂 #互联网 #程序员 #谷歌

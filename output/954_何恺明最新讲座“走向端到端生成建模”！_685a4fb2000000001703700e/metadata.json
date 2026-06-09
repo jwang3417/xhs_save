@@ -1,0 +1,33 @@
+{
+  "id": "685a4fb2000000001703700e",
+  "type": "normal",
+  "title": "何恺明最新讲座“走向端到端生成建模”！",
+  "desc": "前段时间刚刚进行了CVPR2025的超级大会，我们的恺明神同时献上了一场关于“走向端到端生成建模”的workshop 演讲讲座~\n📃干货满满，直接来个讲座内容省流版：\n首先对识别模型（recognition model）的演进进行了回顾，在 AlexNet 之前，逐层训练更为流行，但在AlexNet 之后，识别模型普遍实现了端到端训练，大大简化了模型设计和训练的复杂性。\n认为今天的生成模型在概念上更像是逐层训练，都需要多步推理过程。那么历史能否在生成模型领域重演呢？\n从更高层面来看，识别与生成其实是同一枚硬币的两面。识别可以被看作是一个“抽象”的过程；而生成则恰恰相反，它是一个“具体化”的过程。数据一直在“抽象”与“具体”中流动。\n识别和生成和生成有着本质的不同。识别任务通常有一个确定的数据到标签的映射，但生成任务不是：我们希望从一个简单的“噪声”分布映射到复杂多变的数据分布。这个映射是高度非线性的，而且存在无限的可能性。\n如何有效地“构造”这个映射，是生成模型面临的核心挑战。\n明神分享了一些流匹配方向的几篇代表性论文，总结了一些关键点\n何恺明介绍了他们近期提出的新方法 ——「Mean Flows for One-step Generative Modeling」。它的核心思想是追求一步到位的生成。以及分享了本篇论文的技术细节\n本次讲座的内容量很大，ppt都有46页这么长，笔记都没位置写了，总之恺明这次的ppt非常值得去阅读学习，一定得去看看！\n﻿#CVPR2025[话题]#﻿ ﻿#何恺明[话题]#﻿ ﻿#论文解读[话题]#﻿ ﻿#人工智能[话题]#﻿ ﻿#深度学习[话题]#﻿ ﻿#端到端[话题]#﻿ ﻿#生成建模[话题]#﻿ ﻿#识别模型[话题]#﻿ ﻿#生成模型[话题]#﻿ ﻿#流匹配[话题]#﻿",
+  "tags": [
+    "CVPR2025",
+    "何恺明",
+    "论文解读",
+    "人工智能",
+    "深度学习",
+    "端到端",
+    "生成建模",
+    "识别模型",
+    "生成模型",
+    "流匹配"
+  ],
+  "author": "Finn科研小萨摩",
+  "authorId": "67b70705000000001703c0a1",
+  "time": 1750749106000,
+  "ipLocation": "",
+  "likes": "100",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091339/cf8cde85813a8b83e3d6cdc11ac3eba1/spectrum/1040g34o31j3se0kv0u605ptn0s2lvg5188sra4g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/3a3d5061bb16252d61b773163916e29d/spectrum/1040g34o31j3se0kv0u6g5ptn0s2lvg51oggs0lg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/b5a9e57f6895f1a65a2941ea11ee4022/spectrum/1040g34o31j3se0kv0u705ptn0s2lvg51b7om4pg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/a39cbce0559d88a09a234d50702a2b70/spectrum/1040g34o31j3se0kv0u7g5ptn0s2lvg51kli6fc0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/4c79411086368355abe7c614a1ba956d/spectrum/1040g34o31j3se0kv0u805ptn0s2lvg51pkngk60!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/12617e4eee2fc22b7b908d92a8b20ce2/spectrum/1040g34o31j3se0kv0u8g5ptn0s2lvg515uk5jd8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/685a4fb2000000001703700e?xsec_token=ABo8QPxoBtYJ7nx8Pz29DsDsv617H0nR2rH5IU19JkYus=&xsec_source=pc_collect"
+}

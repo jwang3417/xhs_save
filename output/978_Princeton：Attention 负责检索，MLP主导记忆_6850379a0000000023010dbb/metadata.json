@@ -1,0 +1,24 @@
+{
+  "id": "6850379a0000000023010dbb",
+  "type": "normal",
+  "title": "Princeton：Attention 负责检索，MLP主导记忆",
+  "desc": "Princeton 通过对比标准 Transformer 与其变体，深入研究了Transformer中注意力机制和MLP模块各自的核心功能，发现MLP主要负责记忆任务，而自适应的注意力对于信息检索和语言建模至关重要。\n\t\n核心思路：\n通过选择性地“冻结”或简化Transformer模型中的不同可训练组件，并引入一种注意力机制完全固定且随机的MixiT模型，来分离和识别这些组件在不同任务中的具体作用。\n\t\n模型变体设计：\n1.标准：所有参数均可训练的Llama架构Transformer。\n2.Frozen-QK: Attention模块中QK 权重矩阵在初始化后被冻结，不允许训练，V 矩阵和MLP层仍然可训练。\n3.Frozen-MLP: MLP模块中的所有权重矩阵在初始化后被冻结，Attention机制完全可训练。\n4.MixiT: 其Attention子层被一个固定的、随机初始化的混合矩阵替代，这种Attention是输入无关且不可学习的，学习主要发生在词嵌入、MLP模块、Attention中的V投影以及残差连接中。\n\t\n关键洞察：\n1.MLP主导记忆：当MLP层被冻结时，模型在记忆任务上的性能大幅下降，这表明MLP层是Transformer架构中知识记忆和存储的主要承担者。\n2.自适应注意力对检索和语言建模至关重要：MixiT模型在需要复杂信息检索和语言建模任务上表现不佳，其困惑度显著高于标准模型和Frozen-QK模型，说明输入依赖的、可学习的注意力机制对于这些任务是必不可少的。\n3.“归纳头”的作用与形成：模型在检索和语言建模任务上的表现与其形成“归纳头”等特化回路的能力密切相关，MixiT由于其固定的注意力模式，无法形成这种动态回路。令人惊讶的是，即使QK的投影矩阵被冻结，只要注意力权重本身可以根据输入动态计算，模型依然能够形成归纳头并在这类任务上取得良好性能，甚至接近标准Transformer。\n4.固定随机注意力的适用场景：对于许多算法类任务和部分分类任务，MixiT模型的表现与标准Transformer相当，甚至有时更优。这表明对于这些任务，复杂的、依赖输入的动态注意力模式并非必需，简单的固定混合操作即可满足需求。\n#人工智能[话题]# #LLM[话题]# #大模型[话题]# #transformer[话题]# #MLP[话题]# #大模型论文[话题]#",
+  "tags": [
+    "人工智能",
+    "LLM",
+    "大模型",
+    "transformer",
+    "MLP",
+    "大模型论文"
+  ],
+  "author": "Python 智能研习社",
+  "authorId": "64a691ad000000001c02b907",
+  "time": 1750087578000,
+  "ipLocation": "",
+  "likes": "178",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091342/681963d53d9060d18a388e0329021b20/1040g2sg31iq111d3gu005p56i6mn5e873qlul9g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6850379a0000000023010dbb?xsec_token=ABoTdr5ptiKoyvp0_MmioGCXN6fElaMR5tny_c_C4yqJc=&xsec_source=pc_collect"
+}

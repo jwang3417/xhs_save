@@ -1,0 +1,33 @@
+{
+  "id": "68c6cb8b000000001d0262a5",
+  "type": "normal",
+  "title": "极致性价比的模型架构长什么样？",
+  "desc": "在讨论Qwen3-Next前，曲奇觉得Qwen3-Next最大的亮点是文章的开篇两句：“我们认为 Context Length Scaling（上下文长度扩展） 和 Total Parameter Scaling（总参数规模扩展） 是未来大模型发展的两大趋势。”，在这个后Deepseek-R1的杂音遍布的时代重新指引了方向\n\t\n其中Total Parameter Scaling的代表就是1周前发的1万亿参数的Qwen3 Max Preview，而Qwen3-Next在技术报告上明显看出在做 Context Length Scaling的突破\n\t\nQwen3-Next不是单独一个模型，而是代表了新的、扎实的训推方案，如果Qwen3-Next的Context Length Scaling的路线明确且稳定，往下思考，Hybrid Attention x DiT或 1T参数 x 100K上下文，又会把你的业务推进到什么层次呢？\n\t\n#提供思路和创新点[话题]# #互联网大厂[话题]# #大模型[话题]# #深度学习[话题]# #AI人工智能[话题]# #上下文窗口[话题]# #qwen[话题]# #阿里巴巴[话题]# #模型训练[话题]# #算法[话题]#",
+  "tags": [
+    "提供思路和创新点",
+    "互联网大厂",
+    "大模型",
+    "深度学习",
+    "AI人工智能",
+    "上下文窗口",
+    "qwen",
+    "阿里巴巴",
+    "模型训练",
+    "算法"
+  ],
+  "author": "电波曲奇",
+  "authorId": "66272f5000000000030335c8",
+  "time": 1757858699000,
+  "ipLocation": "",
+  "likes": "35",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091151/62b58ec9d81e59fdbe680b6e59231bbf/spectrum/1040g0k031mdqehs950005ph75t80ude8ouk3u60!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091151/d75f5f938e71a5267313196a7885e5ee/spectrum/1040g0k031mdqehs9500g5ph75t80ude8cbue00g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091151/e79ffef226a2193fbf94670d10dbf2e0/spectrum/1040g0k031mdqehs950105ph75t80ude844q2spo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091151/b335d30df650f5978a5095314da93ea4/spectrum/1040g0k031mdqehs9501g5ph75t80ude8db43h18!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091151/44b709c9916ce4e671930eb6ff85f238/spectrum/1040g0k031mdqehs950205ph75t80ude8ck1ejdo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091151/f84b8ab4be2f0e6115feb309de0d22d3/spectrum/1040g0k031mdqehs9502g5ph75t80ude898b6ik8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68c6cb8b000000001d0262a5?xsec_token=ABko9SPJzDof6mXAymN51bRot43pfMBCYoXu6CdY8R1Lc=&xsec_source=pc_collect"
+}

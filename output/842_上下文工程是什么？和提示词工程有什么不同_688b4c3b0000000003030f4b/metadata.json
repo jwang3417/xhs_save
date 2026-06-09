@@ -1,0 +1,25 @@
+{
+  "id": "688b4c3b0000000003030f4b",
+  "type": "video",
+  "title": "上下文工程是什么？和提示词工程有什么不同",
+  "desc": "OpenAI创始人说的context engineering 和传统的prompt engineering有什么不同\n为了减少AI执行任务时出现幻觉的function call 和RAG就是提供上下文#大模型[话题]# #算法[话题]# #上下文工程[话题]# #提示词工程[话题]# #prompt[话题]# #context_engineering[话题]# #人工智能未来[话题]#",
+  "tags": [
+    "大模型",
+    "算法",
+    "上下文工程",
+    "提示词工程",
+    "prompt",
+    "context_engineering",
+    "人工智能未来"
+  ],
+  "author": "星澈的AI舱",
+  "authorId": "671f9a73000000001d014981",
+  "time": 1753959484000,
+  "ipLocation": "",
+  "likes": "111",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091325/d2bd9ec486db1ae6abe8d97eaaec86eb/1040g2sg31kjn16h0ioe05povj9pnaic1f4m6k68!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/79/110/259/01e88b4a29b2bdb7010370039860227964_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/688b4c3b0000000003030f4b?xsec_token=ABlIgiD_N3RQR-GMglSsohe7OX7W9OAUBEdZnzWRyeFuc=&xsec_source=pc_collect"
+}

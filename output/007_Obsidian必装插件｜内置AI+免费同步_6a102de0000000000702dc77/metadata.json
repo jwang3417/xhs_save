@@ -1,0 +1,35 @@
+{
+  "id": "6a102de0000000000702dc77",
+  "type": "normal",
+  "title": "Obsidian必装插件｜内置AI+免费同步",
+  "desc": "这次同步插件更新：解决了之前无法同步插件设置的问题，额外增加了ai对话的功能。\n\t\n只需配置一次，无论换到哪台手机、平板还是新电脑，主题、快捷键布局一键跟随，真正的沉浸式无缝切换！\n\t\n内置的体积小，速度快的AI助手，炒鸡好用，不额外增加Obsidian负担，在 Obsidian 里就能直接让 AI 帮你干活：\n✅ 一键总结摘要\n✅ 润色修改文本\n✅ 自动整理排版\n✅ 发散灵感新建笔记\n\t\n教程如上图，切记！同步前一定要做好备份！\n\t\n[看R]注意！\n选择同步配置目录的同时，记得检查一下排除规则，要把 .obsidian文件夹删掉。\n如果你装了很多插件的话，开启同步配置文件夹也会导致同步速度变慢一些。\n\t\n.obsidian 配置文件夹里包含了大量高频变动文件，如果频繁同步，极易产生文件冲突，为了保证丝滑体验，建议大家这么用：\n[向右R]避免双端同时开工：\n请勿在两台设备上同时打开 Obsidian 进行配置修改操作。\n[向右R]留出同步时间：\n在 A 电脑写完笔记关闭后，稍等几秒让插件同步完成，再在 B 手机上打开。\n[向右R]按需开启：\n如果你的一套主题/插件已经固定，平时极少修改，也可以在同步完毕后暂时关闭配置同步，只同步纯文本笔记，这样最稳妥！\n\t\n#Obsidian插件[话题]# #obsidian教程[话题]# #obsidian[话题]# #Obsidian[话题]# #obsidian同步[话题]# #obsidian入门[话题]# #obsidian插件[话题]# #obsidian多端同步[话题]# #obsidian插件推荐[话题]#",
+  "tags": [
+    "Obsidian插件",
+    "obsidian教程",
+    "obsidian",
+    "Obsidian",
+    "obsidian同步",
+    "obsidian入门",
+    "obsidian插件",
+    "obsidian多端同步",
+    "obsidian插件推荐"
+  ],
+  "author": "坚果云",
+  "authorId": "5d98663c0000000001001f90",
+  "time": 1779445216000,
+  "ipLocation": "上海",
+  "likes": "36",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090700/2f05eb3c80d96eba5350b2b83750f77f/notes_pre_post/1040g3k0320ffr0j2626g5ncocou087sgro1vo5o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090700/f1e5047a2adf87ff175511f012deff44/notes_pre_post/1040g3k0320ffr0kr5s3g5ncocou087sg6tneds0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090700/7a57496736368a38ead0b6f5e17aca4f/notes_pre_post/1040g3k0320ffr0kr5s1g5ncocou087sg5d0h7c0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090700/9049c624dc51b9e08fe493179a786489/notes_pre_post/1040g3k0320ffr0kr5s405ncocou087sgqtsk0lg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090700/d0dd39b6cf3af471bf2bf187d56af19f/notes_pre_post/1040g3k0320ffr0kr5s505ncocou087sg2r6co1g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090700/bf9588fdf7f4da74ced9c6341af3be7b/notes_pre_post/1040g3k0320ffr0kr5s5g5ncocou087sg8aenvno!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090700/e66d167b610f69a1c328416105a1e6c9/notes_pre_post/1040g3k0320ffr0kr5s6g5ncocou087sgufa8dj0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090700/24951dfe531c7f998862533bea0edbe7/notes_pre_post/1040g3k0320ffr0kr5s605ncocou087sgoqnj8co!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090700/6b5ef1cefbd4fb8c5216c5ead9139f02/notes_pre_post/1040g3k0320ffr0j262605ncocou087sgf99ktf0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a102de0000000000702dc77?xsec_token=ABRRRhQcR-qHwJISh9Xic3HX42lI8P5vYqOXImVMrQhqs=&xsec_source=pc_collect"
+}

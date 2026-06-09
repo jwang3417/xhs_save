@@ -1,0 +1,12 @@
+理解GRPO起作用的原因
+
+宣传一下最近写的一个report，主要从rejection fine-tuning -> reinforce -> grpo做了仔细的 ablation，主要结论：
+1. rejection sampling fine-tuning 是一个极大被低估的baseline，在我们qwen和llama的实验中，它都只比grpo最终低1～2 个点，并且收敛速度还要更快
+	
+2. 在online training 中，如果在那些全部回复都错误的prompt上进行训练会导致模型性能明显下降，甚至训练崩溃
+	
+3. GRPO 比reinforce更好的主要原因就是 implicit 删掉了这些全错的样本，相反，reward normalization起的作用很小
+	
+4. reinforce+data filter > grpo
+	
+Paper: A Minimalist Approach to LLM Reasoning: from Rejection Sampling to Reinforce, arxiv 2504.11343

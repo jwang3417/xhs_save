@@ -1,0 +1,39 @@
+{
+  "id": "68d8e3cf000000001203fa39",
+  "type": "normal",
+  "title": "NIPS2025Oral阿里Qwen推出Gated Attention",
+  "desc": "Gated Attention for LLM：一个简单的sigmoid门控就能让大模型不再“卡壳”！训练更稳、推理更快\n代码：https://github.com/qiuzh20/gated_attention\n论文对标准Transformer的注意力机制进行了系统的门控增强研究。通过对超过30种门控变体在15B MoE和1.7B稠密模型上的大规模实验，研究者发现一个简单却极其有效的改进：在缩放点积注意力（SDPA）的输出后，为每个注意力头施加一个头特定的sigmoid门控。这一微小改动不仅一致地提升了模型在多项基准测试（如MMLU、GSM8k）上的性能，降低了困惑度，还显著增强了训练的稳定性，几乎消除了训练过程中的损失尖峰，使得模型能够耐受更大的学习率和批量大小，从而展现出更好的扩展性。\n该研究深入分析了门控机制起作用的根本原因，并将其有效性归结于两个关键因素：首先，门控在注意力机制中价值投影和输出投影这两个连续的线性层之间引入了关键的非线性，突破了原有结构的低秩瓶颈，增强了模型的表达能力。其次，更为重要的是，这种门控会产生高度稀疏且依赖于输入查询的门控分数，从而对SDPA的输出进行动态调制。这种稀疏性能够有效过滤掉与当前查询无关的上下文信息，这不但解释了性能的提升，还直接导致了“注意力沉没”现象的消除——即模型不再过度关注初始令牌。最终，这种消除注意力沉没的特性赋予了模型卓越的长上下文外推能力，使其在未经微调的情况下也能更好地处理远长于训练时长的序列。\n实验结果表明，这种门控机制的提升是全面且稳定的。在15B的MoE模型上，SDPA输出门控显著降低了模型困惑度，并在MMLU、GSM8k等多个核心基准上取得了约2个点的性能提升，其效果甚至优于单纯增加模型参数量的方法。更令人惊喜的是，在1.7B的稠密模型上，门控展现出强大的稳定器作用，让模型在翻倍的学习率（从4e-3提升至8e-3）和超深48层架构下依然能稳定训练并收敛，而同等条件下的基线模型早已发散。最终，这些经过门控增强的模型在各项评测中全面胜出，并且被证实是首个在超大规模训练（3.5T tokens）后仍无“注意力沉没”的模型，其在长上下文评测RULER上的表现也优于基线超过10个点，充分验证了其卓越的泛化能力。\n#llm[话题]# #nips[话题]# #nips25[话题]# #阿里千问[话题]# #科研日常[话题]# #文献[话题]# #科研学习[话题]# #科技作者强化学习营[话题]#",
+  "tags": [
+    "llm",
+    "nips",
+    "nips25",
+    "阿里千问",
+    "科研日常",
+    "文献",
+    "科研学习",
+    "科技作者强化学习营"
+  ],
+  "author": "AI智沿前线",
+  "authorId": "684a8164000000001d014fc3",
+  "time": 1759044559000,
+  "ipLocation": "",
+  "likes": "325",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091148/80d5cba64a9537289c9d8d13c194af98/spectrum/1040g34o31mvfe64pkq005q2ag5i7aju3rmuto6g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091148/f5356e5af3a699dd3f8ab084530f11d1/spectrum/1040g34o31mvfe64pkq105q2ag5i7aju3shptp98!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091148/33ae5e0427ff27039401927f691f7b48/spectrum/1040g34o31mvfe64pkq0g5q2ag5i7aju3pfhs5to!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091148/0f882178112042e262c651935c776996/spectrum/1040g34o31mvfe64pkq1g5q2ag5i7aju3g6pva5g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091148/0f53f62d64e206f9926b0d86fd16d418/spectrum/1040g34o31mvfe64pkq205q2ag5i7aju3ui8p84o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091148/47af72a310ecd71a157154dfdc38bcd8/spectrum/1040g34o31mvfe64pkq2g5q2ag5i7aju39p9ai18!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091148/5b7be40434e038805fd3982c64e11190/spectrum/1040g34o31mvfe64pkq305q2ag5i7aju3m10pfio!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091148/844e5a5bd3592aa1e5c4be0be8799926/spectrum/1040g34o31mvfe64pkq3g5q2ag5i7aju36t0cdso!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091148/fc8ec7b012f9aff98fc1af9f808fe2da/spectrum/1040g34o31mvfe64pkq405q2ag5i7aju32i8d55g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091148/a57688fd0211e8671c2a965cacbb5302/spectrum/1040g34o31mvfe64pkq4g5q2ag5i7aju3mv5nkv8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091148/bafbf05d3adaaf2d65268c700c834d77/spectrum/1040g34o31mvfe64pkq505q2ag5i7aju3295s9v8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091148/4f67af10dfafb133a58cd23bd556032c/spectrum/1040g34o31mvfe64pkq5g5q2ag5i7aju3pp174j8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091148/018bf8204df36475a3acec6539769e85/spectrum/1040g34o31mvfe64pkq605q2ag5i7aju3jh3qo50!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091148/cd5c6c00f3c25fd2f38e1343589fcdb8/spectrum/1040g34o31mvfe64pkq6g5q2ag5i7aju3rgek04o!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68d8e3cf000000001203fa39?xsec_token=ABAcDNybZpqen6UtiVtEp9OOy6sUe07UJP79uj5QO0kHA=&xsec_source=pc_collect"
+}

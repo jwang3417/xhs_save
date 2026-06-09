@@ -1,0 +1,24 @@
+{
+  "id": "69b508560000000023006416",
+  "type": "video",
+  "title": "Encoder和Decoder有啥区别？",
+  "desc": "很多同学面试一提到Encoder/Decoder就只会背诵名词，难怪面一家挂一家！其实底层逻辑就是“能不能偷看答案”的区别。今天我不念稿，3分钟带你从注意力掩码到预训练目标，把这两个架构掰开揉碎讲清楚。听完这一段，让你在面试官面前瞬间拉开代差！  #程序员面试[话题]#  #大模型[话题]#  #人工智能[话题]#  #算法工程师[话题]#  #底层逻辑[话题]#  #求职干货[话题]#",
+  "tags": [
+    "程序员面试",
+    "大模型",
+    "人工智能",
+    "算法工程师",
+    "底层逻辑",
+    "求职干货"
+  ],
+  "author": "小哲讲大模型",
+  "authorId": "64a80628000000000b017fc8",
+  "time": 1773486064000,
+  "ipLocation": "",
+  "likes": "195",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090737/b6731146eb2e15f3c5bc3e4a7339f2e1/spectrum/1040g0k031tmfgb5h7u005p580ok2qvu8ccmnkc8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01e9b50852c6183e010370039ceb2937d3_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69b508560000000023006416?xsec_token=ABSjILjbn1p9T9hEHLtpyWwkQV839lD_Gqikipi2jafR4=&xsec_source=pc_collect"
+}

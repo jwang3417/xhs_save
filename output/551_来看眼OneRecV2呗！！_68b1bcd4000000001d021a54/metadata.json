@@ -1,0 +1,27 @@
+{
+  "id": "68b1bcd4000000001d021a54",
+  "type": "normal",
+  "title": "来看眼OneRecV2呗！！",
+  "desc": "第二阶段的探索搞完了 舒一口气～\n给大家精炼一下\n[害羞R]我们把Encoder去掉了，但又不止是把Encoder去掉\n我们取名叫Lazy Decoder Only是因为这是一个把绝大部分算力堆在Decoder SID Token上的模型。它把Encoder削薄到了只有projection，甚至采用kv share把cross attention的算力占比也压了下来。这样的极致“lazy”是为了让解码的时候有充足的计算，而模型尺寸从0.1b到8b也让我们看到了Loss的持续下降。但说实话，苛刻的小伙伴们并不觉得现在的曲线很完美，所以我们还会继续探索。\n[害羞R]不得不说的RL配置，效果很显著！\nV1我们用了reward model出的pscore来引导模型，但我们隐隐觉得用户的真实反馈应该威力更大。但真实反馈真的很难组合，跷跷板严重。好在我们找到了一个非常适配场景的rule，也就是文章中的reward shaping — 把视频观看时长这个极其容易受duration影响的指标通过用户个性化的分桶进行shaping，非常管用，兼顾时长和vv。不过，我还是会继续研究RL，我希望它能带着OneRec真的学会思考，并且超着长期reward进行思考！\n一起学习鸭[派对R][派对R][派对R]#推荐大模型[话题]# #LLM[话题]# #大模型[话题]# #算法实习[话题]# #快手OneRec[话题]# #scaling[话题]# #强化学习[话题]#",
+  "tags": [
+    "推荐大模型",
+    "LLM",
+    "大模型",
+    "算法实习",
+    "快手OneRec",
+    "scaling",
+    "强化学习"
+  ],
+  "author": "大摇sy",
+  "authorId": "5856bb765e87e73eedc2ac36",
+  "time": 1756478676000,
+  "ipLocation": "",
+  "likes": "410",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091316/63919a32dcf53c4475a623907cd1fcc3/1040g2sg31lp75v6p5me048vg2jtndb1mhi8ph1g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091316/1d3b870771654ea47ae2cde673b81339/notes_pre_post/1040g3k031lp75v6sli2048vg2jtndb1m4iials0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091316/0bc0b6c2b0572e8303c05b32a7990af0/notes_pre_post/1040g3k031lp75v6sli2g48vg2jtndb1mm1sggpg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68b1bcd4000000001d021a54?xsec_token=ABvp1SLzdBipFlcCnVH_MWbaAE-Vvk2Yxq51iZ7FOfJeU=&xsec_source=pc_collect"
+}

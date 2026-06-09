@@ -1,0 +1,17 @@
+Anthropic首席研究员完整的Agent构建指南
+
+Anthropic 首席研究员 Erik Schluntz（《Building Effective Agents》论文合著者）亲自分享了Agent时代的完整构建指南。@Funny ai
+视频核心内容整理如下：
+1. 什么是 Vibe Coding？ 不再是简单用 Cursor / Copilot 写代码，而是完全“忘记代码存在”，把 AI 当作产品经理一样去驱动，让它独立完成完整功能。
+2. 为什么现在必须学会？ AI 能完成的任务长度每 7 个月翻倍，很快就能一次性生成“一天甚至一周”的工作量。继续紧盯每一行代码，会成为指数级增长的瓶颈。
+3. 如何在生产环境（Prod）中安全 Vibe Coding？
+像信任编译器一样信任 AI，但永远记住“产品”而非“代码”。
+核心原则：把复杂工作集中在代码库的「叶节点」（leaf nodes）——这些功能不被其他模块依赖，技术债影响可控。
+关键动作：先花 15-20 分钟像带新员工一样，给 Claude 完整上下文、需求、规范、代码模式，再让它“开干”。
+验证方式：用验收测试、端到端压力测试、输入输出检查，而非逐行 review 代码。
+4. 真实案例 Anthropic 内部把一个 22,000 行强化学习代码库的重大改动，几乎全交给 Claude 完成，最终只花了传统手写的一小部分时间，却达到了同等信心水平。
+视频结尾强调：未来 1-2 年，不会 Vibe Coding 的人会处于巨大劣势。建议立刻收藏并实践，把自己变成 Claude 的「产品经理」。
+#Anthropic[话题]# #ErikSchluntz[话题]# #AgenticEra[话题]# #VibeCoding[话题]# #AI代理[话题]# #BuildingEffectiveAgents[话题]# #ClaudeCode[话题]# #AIGC[话题]# #AI开发者[话题]# #未来工作流[话题]#
+
+
+标签: #Anthropic #ErikSchluntz #AgenticEra #VibeCoding #AI代理 #BuildingEffectiveAgents #ClaudeCode #AIGC #AI开发者 #未来工作流

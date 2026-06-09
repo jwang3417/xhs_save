@@ -1,0 +1,28 @@
+{
+  "id": "686934020000000011000a47",
+  "type": "normal",
+  "title": "大模型推理过程中的prefill和decode",
+  "desc": "Prefill 阶段可以理解为是批量预处理。优势主要有两点：一是避免了重复计算，二是能够充分利用 GPU 的并行能力，提高显卡利用率，从而显著缩短首 token 的响应时间。\n进入 Decode 阶段后，模型以自回归的方式逐步生成 token，使用kv cache能避免重复执行之前token的自注意力运算。\n\t\n✅为什么要区分这两个阶段？\n因为在推理优化中，Prefill 和 Decode 所面临的资源瓶颈完全不同——Prefill 更依赖算力，Decode 则更受带宽限制。因此，业内有不少方法会针对这两个阶段分别做拆分和并行优化，比如 DistServe 会将这两步分配到不同的 GPU 上，或者通过复用 KV cache 来大幅降低显存压力。\n\t\n理解了这两个阶段，再去看大模型的性能优化方案，就能明白为什么大家都在关注 KV cache 优化和分布式训练。\n#大模型[话题]# #算法工程师[话题]# #llm[话题]# #深度学习[话题]# #深度学习与神经网络[话题]# #机器学习[话题]#",
+  "tags": [
+    "大模型",
+    "算法工程师",
+    "llm",
+    "深度学习",
+    "深度学习与神经网络",
+    "机器学习"
+  ],
+  "author": "居丽叶",
+  "authorId": "56b1aae7b8c8b423d372da85",
+  "time": 1751725058000,
+  "ipLocation": "",
+  "likes": "251",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091333/b80a2acd0f6f66dd607f4826ebaaa05c/notes_pre_post/1040g3k831jid2eifigd045ff0elefmk52kr34t8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091333/7cf9523ff9bde3d4066971a73694fcf7/notes_pre_post/1040g3k831jid2eifig9g45ff0elefmk5lf5uvl0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091333/f1664975e7bb11c28366ce13ce083ed5/notes_pre_post/1040g3k831jid2eifig8g45ff0elefmk54vbem88!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091333/d5c99d9572a3272ccfbee4529100bee7/1040g00831luep7f1l06g45ff0elefmk5v911rq8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091333/8e97fb304732f8f9bfacc0aa82c90760/notes_pre_post/1040g3k831jid2eifiga045ff0elefmk5cvsfv2g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/686934020000000011000a47?xsec_token=ABG1f-nLPv65tw7tIX_bhGScSPRignW2DDUddmBbv-Rbk=&xsec_source=pc_collect"
+}

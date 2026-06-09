@@ -1,0 +1,18 @@
+JEPA 争的不是 latent
+
+我今天也有一点思考。
+	
+感觉 JEPA 不是在“发明 latent”，而是在找一种更合理的表示空间：先把世界压成模型能操作的 representation，再在这个空间里预测、规划、做下游任务。
+	
+但这就有意思了：embedding 本身不也是 latent 吗？Stable Diffusion 不也是在 latent 空间做生成吗？
+	
+所以我现在更倾向于这样理解：LeCun 争的不是“谁有资格叫 latent”，而是“哪种 latent 才适合做世界模型”。
+	
+SD 的 latent 是为了高效生成图像，embedding 是为了表达和检索语义，而 JEPA 想要的是能预测世界变化、过滤掉无关细节、最后服务于规划的表示空间。
+	
+这只是我目前的理解，欢迎技术区反驳我。尤其是：你觉得 embedding 和 latent 应该严格区分吗？
+	
+#JEPA[话题]#  #世界模型[话题]#  #人工智能[话题]#  #StableDiffusion[话题]#  #Embedding[话题]#  #AI学习[话题]#
+
+
+标签: #JEPA #世界模型 #人工智能 #StableDiffusion #Embedding #AI学习

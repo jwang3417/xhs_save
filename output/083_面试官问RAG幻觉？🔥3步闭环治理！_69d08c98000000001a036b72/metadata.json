@@ -1,0 +1,31 @@
+{
+  "id": "69d08c98000000001a036b72",
+  "type": "normal",
+  "title": "面试官问RAG幻觉？🔥3步闭环治理！",
+  "desc": "面试官问“RAG幻觉怎么解决”时，很多人第一反应就是“优化检索”——然后就没了。😶\n\t\n这道题在面试里坑过太多人。从面试官视角看，他真正想听的不是你背几个术语，而是你有没有意识到：幻觉可能来自检索，也可能来自生成，甚至来自文档顺序这种细节。他还会追问你——线上持续出现的幻觉Case，你拿什么定位根因？GraphRAG和轻量方案怎么选？\n\t\n很多人把RAG当成“向量数据库+大模型”就完事了，结果上线后瞎编率居高不下，还以为是模型不行。面试官一眼就能看出谁只是看了几篇科普，谁真的在业务里踩过坑、跑过闭环优化。\n\t\n其实治理幻觉有整套链路：多路召回、重排序、自我验证、集成投票……不同场景选不同武器。完整的拆解框架、评估指标、逐字稿回答，已经整理到190G《大模型实战攻略全系列整合包》里了。文件夹位置：LLM大模型场景题。别让这道题变成你的扣分项。\n#大模型面试题[话题]# #互联网大厂[话题]# #大模型八股[话题]# #大模型八股文[话题]# #大模型学习路线[话题]# #大模型实战[话题]# #大模型[话题]# #大模型原理[话题]#  #大模型微调[话题]# #大模型训练[话题]# #transformer #拒绝采样 #Lora微调 #GRPO算法 #ppo算法 #大模型训练数据 #大模型推理",
+  "tags": [
+    "大模型面试题",
+    "互联网大厂",
+    "大模型八股",
+    "大模型八股文",
+    "大模型学习路线",
+    "大模型实战",
+    "大模型",
+    "大模型原理",
+    "大模型微调",
+    "大模型训练"
+  ],
+  "author": "AI炼金术",
+  "authorId": "68c71433000000001a00d621",
+  "time": 1775275160000,
+  "ipLocation": "",
+  "likes": "106",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090709/0df92dd8df4efcf4643724113228929e/1040g00831uhbcn1p2a5g5q672gpmhlh1qotpnf0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/8df8ce7e90565c7f0cb2b0997442e7a1/1040g00831uhbcn1p2a405q672gpmhlh1mpv6eeo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/6086c8d08c5d4f7538872034be3c1c2f/1040g00831uhbcn1p2a6g5q672gpmhlh139kn2t8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/7832bea318be28b02468ae4af066aae0/1040g00831uhbcn1p2a4g5q672gpmhlh1bsih9u0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69d08c98000000001a036b72?xsec_token=ABPLJ_xjmlD6r2dopXgMi5qQi6FOzbrp3iAVM1_Tgnwhc=&xsec_source=pc_collect"
+}

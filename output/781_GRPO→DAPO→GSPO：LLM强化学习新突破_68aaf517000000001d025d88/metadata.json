@@ -1,0 +1,34 @@
+{
+  "id": "68aaf517000000001d025d88",
+  "type": "normal",
+  "title": "GRPO→DAPO→GSPO：LLM强化学习新突破",
+  "desc": "🔍 深度解析：从PPO到GRPO的强化学习算法演进之路\n\t\n最近在研究强化学习算法时，发现了PPO系列方法的一些有趣演进。特别是GRPO框架下的DAPO和GSPO算法，它们针对不同任务场景做出了重要改进。今天就来详细拆解这些算法的核心思想！\n\t\n🎯 核心价值\n本文不仅会讲解PPO/GRPO的基础原理，还会深入分析：\n- GRPO存在的3大关键问题\n- DAPO如何改进长思维链训练\n- GSPO针对MOE模型的优化方案\n\t\n📌 PPO算法回顾\nPPO在LLM中的应用主要是调节模型输出，使其更符合人类偏好。关键组件包括：\n1️⃣ 奖励模型(RM)\n2️⃣ 价值模型(Value)\n3️⃣ Actor模型(主模型)\n4️⃣ 参考模型\n\t\nPPO训练目标函数公式见上图，其中优势函数计算有TD、MC、GAE三种主要方式。\n\t\n🚩 GRPO的创新与局限\nGRPO简化了PPO，主要变化：\n✅ 用规则函数替代奖励模型\n✅ 取消了价值模型\n✅ 优势函数改为输出序列奖励值的标准化\n\t\n但存在三大问题：\n1. 序列级奖励与token级动作粒度不匹配\n2. 重要性采样方差偏移累积\n3. MOE模型上训练不稳定\n\t\n✨ DAPO的四大改进\n1️⃣ 移除KL散度约束\n2️⃣ 非对称裁剪(Clip-Higher)\n3️⃣ 动态采样策略\n4️⃣ token级别的梯度计算\n\t\n实验证明，DAPO在长思维链任务中表现更稳定，收敛更快(见对比曲线图)。\n\t\n💡 GSPO的核心思想\n针对MOE模型的特殊性，GSPO将动作粒度提升到序列级别：\n- 使用序列重要性采样的几何平均\n- 减少单个token方差影响\n- 更适合专家路由机制\n\t\n📊 实践建议\n1. 简单任务：GRPO足够高效\n2. 长文本任务：优先考虑DAPO\n3. MOE架构：必须使用GSPO\n4. 超参设置：组规模N需足够大\n\t\n#强化学习[话题]#  #PPO算法[话题]#  #AI训练技巧[话题]#  #大模型优化[话题]#  #算法演进[话题]#",
+  "tags": [
+    "强化学习",
+    "PPO算法",
+    "AI训练技巧",
+    "大模型优化",
+    "算法演进"
+  ],
+  "author": "资深吃瓜专家William",
+  "authorId": "6638e900000000000b032fee",
+  "time": 1756034327000,
+  "ipLocation": "",
+  "likes": "115",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091201/61ef92ee1fe4f80a77cf553f719b59ef/spectrum/1040g34o31likiak0ku105phot402ubved9f43bo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/95e6ace10743cec2b10c77d79cd1bd94/spectrum/1040g34o31likj61h4sa05phot402ubve4kiotpo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/af85e8d3e0737a506c676d0322556188/spectrum/1040g34o31likj61h4s8g5phot402ubverp070ro!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/24e6e3841c6370a41b0f45b822a756a6/spectrum/1040g34o31likj61h4s605phot402ubve9qtckgg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/ac0d848a26237791d16ffb7b966b14e2/spectrum/1040g34o31likj61h4s5g5phot402ubvejflbe9o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/17fa328bd641abc69dd750be5d6b2db9/spectrum/1040g34o31likj61h4s6g5phot402ubve8394vmo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/9f94e65f10d8a0296302357840ac313c/spectrum/1040g34o31likj61h4s705phot402ubved9uo5ng!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/fb0c2393f53228a803e145161e2a4004/spectrum/1040g34o31likj61h4s7g5phot402ubvedjpd9fg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/bc85139877edd8f17e0b2c8133c86fc7/spectrum/1040g34o31likj61h4s805phot402ubvef609eo0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/d945a50dcb653de96fa960fc29960fbd/spectrum/1040g34o31likj61h4s905phot402ubve6h9leog!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/d4d99d193c03f79b6d14f6eed8e3440f/spectrum/1040g34o31likj61h4s9g5phot402ubvegntc2mg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/2efe3157c4924d64fa1b65004477c116/spectrum/1040g34o31likj61h4sag5phot402ubve1hl3nog!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68aaf517000000001d025d88?xsec_token=ABecevBRTpG_A-cQ0BVTe75gDDXXoCYaiOd4f__T71Pnk=&xsec_source=pc_collect"
+}

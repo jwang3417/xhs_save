@@ -1,0 +1,18 @@
+{
+  "id": "67ff36bc000000000d014e1d",
+  "type": "normal",
+  "title": "理解GRPO起作用的原因",
+  "desc": "宣传一下最近写的一个report，主要从rejection fine-tuning -> reinforce -> grpo做了仔细的 ablation，主要结论：\n1. rejection sampling fine-tuning 是一个极大被低估的baseline，在我们qwen和llama的实验中，它都只比grpo最终低1～2 个点，并且收敛速度还要更快\n\t\n2. 在online training 中，如果在那些全部回复都错误的prompt上进行训练会导致模型性能明显下降，甚至训练崩溃\n\t\n3. GRPO 比reinforce更好的主要原因就是 implicit 删掉了这些全错的样本，相反，reward normalization起的作用很小\n\t\n4. reinforce+data filter > grpo\n\t\nPaper: A Minimalist Approach to LLM Reasoning: from Rejection Sampling to Reinforce, arxiv 2504.11343",
+  "tags": [],
+  "author": "momo",
+  "authorId": "62af6e6a000000001b025863",
+  "time": 1744778940000,
+  "ipLocation": "",
+  "likes": "497",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091349/4de6f7f06293354bc186b0647345b49a/1040g2sg31gatljho2q705olfdpl6sm33cc5p10g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091349/91ea2e1a46162cc670ec7ffbb1b72123/1040g2sg31gatljho2q7g5olfdpl6sm33o57rpig!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/67ff36bc000000000d014e1d?xsec_token=ABxOFhCDA9h3biqhPl84xOjPGIzl-GYHY9sf_ZzaYAOtk=&xsec_source=pc_collect"
+}

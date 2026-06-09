@@ -1,0 +1,8 @@
+下一代模型架构：Qwen-Next or DeepSeek ？
+
+针对下一代模型架构的优化，目前只有Qwen和Deepseek-V3.2 给出了可能的方向思路。今天我们详细整理 DeepSeek-V3.2 的 DeepSeek Sparse Attention（DSA） 和 Qwen3-Next 各自的核心算法，并对比两者在下一代模型架构设计上的核心差异。
+	
+#曾天真学习笔记[话题]# #曾天真aigc[话题]#
+
+
+标签: #曾天真学习笔记 #曾天真aigc

@@ -1,0 +1,33 @@
+我是Dylan，Ask Me Anything
+
+✨ Hello 大家好，我是杜羽伦 aka Dylan
+在月之暗面 Kimi 负责 Pretraining / Scaling。
+Kimi 内部认证的 乐子人 / 酒蒙子 / 显眼包。
+	
+这几天都在San Diego参加NeurIPS，参会期间想通过AMA认识一下对 Kimi / AGI 感兴趣的同学。
+	
+为了拒绝AMA同质化，我定一个「线上获客，线下履约」的玩法：
+	
+1. 你在评论区问我一个问题。如果这个问题击中了我（够Deep或够有趣），我不仅会回复你，还会承诺去你的 Poster Session 现场，反过来向你提一个问题。（放心，绝不当恶毒的 Reviewer #2[话题]#，只提真诚的我能力范围内的学术问题🤝）。
+	
+2. 如果有其他大神在评论区回答了你的问题，且 Insight 惊人，我会请你们两位喝咖啡，帮助大家 Connect。
+	
+3. 如果您没来现场也没关系，咱就在线上认识。山水有相逢，有缘见面了我再补上这杯咖啡 ☕️。
+	
+⚠️ 本人INTP social 精力十分有限，每天随机掉落回复。本次 AMA 最终解释权归我（的心情）所有！
+	
+最近 Synthetic Data 满天飞，咱们得赶在合成数据爆发的前夜，多留点高质量的 Human Data。让咱们短暂守护一下碳基生命的最后荣光 ✨。
+	
+Ask me anything!
+	
+🔥 硬广时间：
+想要加入我们，作为公司最大的 Cost Center 狠狠花老板的钱搞 AGI 的同好，简历请砸向我：d@moonshot.ai 🤗
+	
+⚠️ Opinions and 暴论 are entirely my own.
+	
+@科技薯  @Kimi智能助手
+	
+#NeurIPS[话题]# #AMA[话题]# #AskMeAnything[话题]# #Kimi[话题]# #月之暗面[话题]# #Moonshot[话题]# #sandiego[话题]#
+
+
+标签: #2 #NeurIPS #AMA #AskMeAnything #Kimi #月之暗面 #Moonshot #sandiego

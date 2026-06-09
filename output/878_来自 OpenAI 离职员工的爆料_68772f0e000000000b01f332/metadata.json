@@ -1,0 +1,35 @@
+{
+  "id": "68772f0e000000000b01f332",
+  "type": "normal",
+  "title": "来自 OpenAI 离职员工的爆料",
+  "desc": "原文见引用，主要内容摘要：\n\t\n当我加入公司时，员工刚刚超过一千人。一年后，公司规模已经超过三千人，而我竟然成了工龄最长的前30%。\n\t\nOpenAI有个很特别的地方：所有的工作交流都是通过Slack完成的，完全不用邮件。我在那里期间，加起来可能只收到了不到十封邮件。\n\t\n刚入职时，我问团队：“咱们下个季度的产品路线图在哪？”结果得到的回答是：“压根儿不存在这种东西。”当然，现在情况不同了。\n\t\n我最初参与的是公司内部的一个项目，跟ChatGPT Connectors类似。当时公司里大概有三四个不同的Codex原型同时在内部试验，最后才选定了一个来发布。\n\t\n有不少Twitter用户专门搭了自动化机器人，实时监控OpenAI有没有发布新功能或更新。\n\t\nOpenAI其实不太发员工礼品，哪怕是给新人也不多见。公司更流行的是不定期搞“抢购”，员工能在特定时间下单购买限量纪念品。第一次搞活动时，由于抢的人太多，直接把Shopify服务器搞崩了。甚至公司内部还流传过一篇帖子，教大家如何通过发送特定的json请求绕开排队系统。\n\t\n公司非常关注Twitter上的动向。如果你发了一条关于OpenAI的推文并且火了，很可能会引起公司内部的注意。\n\t\n公司的领导层非常活跃、可见性也极高。这在OpenAI这种公司也许不奇怪，但确实每一位高管都非常关注一线动向，经常能看到gdb、sama、kw、mark、dane这些高管在Slack里直接参与讨论。\n\t\nOpenAI的技术栈非常统一，整个公司代码都放在一个巨型的单仓库（monorepo）里，主要是Python语言，但最近也越来越多地加入了Rust服务，偶尔也有几个用Golang实现的服务，比如网络代理等。\n\t\nOpenAI所有的服务和产品运行在微软Azure平台上。\n\t\nCodex发布前的那段冲刺，可能是我最近十年最拼命的一次经历了。每天晚上基本工作到十一二点，早上五点半要给刚出生的孩子喂奶，七点又得马上去公司上班，周末几乎没有休息过。\n\t\n#大模型[话题]# #prompt[话题]# #claude[话题]# #OpenAI[话题]# #人工智能[话题]#",
+  "tags": [
+    "大模型",
+    "prompt",
+    "claude",
+    "OpenAI",
+    "人工智能"
+  ],
+  "author": "两斤AI",
+  "authorId": "65165cf900000000230252d8",
+  "time": 1752641294000,
+  "ipLocation": "",
+  "likes": "570",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091329/ccf1c645bfd6e22e91d7e89cebaa0501/notes_pre_post/1040g3k031k02nk8pj66g5p8mbjsoskmoi2g27ng!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/b324c2879beff22025291c921e66fe89/notes_pre_post/1040g3k031k02nk8pj6605p8mbjsoskmo6s1cbgg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/51e0fabb0d422aa784d114125c7dd485/notes_pre_post/1040g3k031k02nk8pj61g5p8mbjsoskmoflshrm0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/1515144813fe5928177ee296654b1f9c/notes_pre_post/1040g3k031k02nk8pj6405p8mbjsoskmosru5cdo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/7bced6c40a8342c861f3078a061f37d5/notes_pre_post/1040g3k031k02nk8pj64g5p8mbjsoskmog3qvge8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/8302301c80e9b78b2731c7f6659148f5/notes_pre_post/1040g3k031k02nk8pj60g5p8mbjsoskmophekqho!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/98f9d1e29aaf587a5cf6480a1eb9b7ec/notes_pre_post/1040g3k031k02nk8pj6205p8mbjsoskmonl2e8m0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/c6cee119d7ea614e5313e12e454d7b7d/notes_pre_post/1040g3k031k02nk8pj6305p8mbjsoskmoamun3j8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/55e14c6725d702f1dcdc219a63c29cef/notes_pre_post/1040g3k031k02nk8pj6005p8mbjsoskmohkn9btg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/033fe0e6977cf057a7aae5ebb52aa4ed/notes_pre_post/1040g3k031k02nk8pj62g5p8mbjsoskmochclfv8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/b7e8e094323804b1150f90e4ea87a7f2/notes_pre_post/1040g3k031k02nk8pj65g5p8mbjsoskmo44o6q5g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/b1fee765dd99bee512c182d8d7bb3ad1/notes_pre_post/1040g3k031k02nk8pj63g5p8mbjsoskmosemfupg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/d2bcbf33d005fac0c4abe26c1375830d/notes_pre_post/1040g3k031k02nk8pj6505p8mbjsoskmod153heo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68772f0e000000000b01f332?xsec_token=ABlsuphyXvxmw5crlxxdIE5NxN5XFNfqUzLPXSETfqw2s=&xsec_source=pc_collect"
+}

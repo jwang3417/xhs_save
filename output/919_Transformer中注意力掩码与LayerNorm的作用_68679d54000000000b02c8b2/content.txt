@@ -1,0 +1,10 @@
+Transformer中注意力掩码与LayerNorm的作用
+
+On the Role of Attention Mask and LayerNorm in Transformers
+【NeurIPS‘ 24】
+本文探讨了注意力掩码和 LayerNorm 在 Transformer 模型中的作用，特别是它们对缓解“Rank Collapse”现象的影响。研究发现，稀疏或局部注意力掩码可以减缓 Rank Collapse，而 LayerNorm 能够防止 Token 表征完全坍缩，并允许系统存在多种平衡态。LayerNorm 与特定值矩阵组合可以赋予自注意力动力学更丰富的表达能力。实验结果支持了理论分析的发现，LayerNorm 在防止 Rank Collapse 方面发挥着积极作用。
+	
+﻿#大模型[话题]#﻿ ﻿#Transformer[话题]#﻿ ﻿#注意力[话题]#﻿ ﻿#LayerNorm[话题]#﻿
+
+
+标签: #大模型 #Transformer #注意力 #LayerNorm

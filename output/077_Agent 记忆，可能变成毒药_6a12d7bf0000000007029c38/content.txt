@@ -1,0 +1,9 @@
+Agent 记忆，可能变成毒药
+
+慢读《Useful Memories Become Faulty When Continuously Updated by LLMs》①
+很多 Agent 系统会在任务结束后自动总结经验，再写入长期记忆库。听起来像是在学习。但 UIUC 和清华等机构近期的一篇论文发现：这种持续更新的文本记忆，可能先提升表现，后来损害表现。更反直觉的是，在 ARC-AGI Stream 实验里，GPT-5.4 不用记忆时，能 100% 做对 19 道题。经过持续记忆整合后，第 10 轮准确率掉到 52.6%。本期只讲一个工程判断：任务结束后的自动总结，不能直接当成安全默认值。
+链接：https://arxiv.org/abs/2605.12978
+#memory[话题]#  #agent记忆[话题]#  #agent[话题]#  #大模型开发[话题]#  #AI应用开发[话题]#  #人工智能[话题]#
+
+
+标签: #memory #agent记忆 #agent #大模型开发 #AI应用开发 #人工智能

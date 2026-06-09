@@ -1,0 +1,23 @@
+{
+  "id": "69e4b622000000002100686d",
+  "type": "video",
+  "title": "【中配】时间序列中的共形预测 CGSI2025",
+  "desc": "老版本的分段翻译有点 bug 又修了一版\n这篇的主要内容是“共形预测”，怎么给模型的预测结果加上有统计保证的不确定性区间。前半部解释什么是 coverage interval、为什么需要 uncertainty quantification。后半部分扩展到更复杂的情形，包括多变量预测和时间序列预测等。\n#生物信息学[话题]# #数据分析[话题]# #数据科学[话题]# #科研学习[话题]# #算法[话题]#",
+  "tags": [
+    "生物信息学",
+    "数据分析",
+    "数据科学",
+    "科研学习",
+    "算法"
+  ],
+  "author": "油炸带鱼",
+  "authorId": "62f74d29000000001f006c65",
+  "time": 1776596514000,
+  "ipLocation": "",
+  "likes": "40",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090804/15649bfc0d4a77ab8c6923dfb1da6e4f/spectrum/1040g0k031v51c0ck2s005onn9kknor358radkeo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01e9e4b56d09f15f010370039da56bf642_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69e4b622000000002100686d?xsec_token=AB9JFCb2qs2gGRBxbj472zDHUmqA-APlymBqGf4zxyHmM=&xsec_source=pc_collect"
+}

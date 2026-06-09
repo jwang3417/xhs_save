@@ -1,0 +1,33 @@
+{
+  "id": "6a1532e20000000008027a17",
+  "type": "normal",
+  "title": "Transformer面试:多头注意力为什么比单头好",
+  "desc": "Transformer面试被问\"多头注意力为什么比单头好\"怎么答？🤔\n\t\n1️⃣ 单头只有一组Q/K/V权重，语法/指代/语义/位置全挤在一个空间里——信息瓶颈\n2️⃣ 多头=8组独立权重并行，每个头自动学会不同模式：有的看语法、有的看指代\n3️⃣ 三个核心优势：多语义独立建模 + 集成学习更稳定 + 信息容量8倍扩展\n4️⃣ 实验证据：同参数量下多头稳定碾压单头，优势来自多视角而非多参数\n\t\n面试三层递进回答：定义对比→三个原因→实验证据📝\n#transformer[话题]# #大模型入门[话题]# #LLM[话题]# #多头注意力[话题]# #深度学习[话题]# #attention[话题]# #大语言模型[话题]# #大模型面试[话题]# #ai面试[话题]#",
+  "tags": [
+    "transformer",
+    "大模型入门",
+    "LLM",
+    "多头注意力",
+    "深度学习",
+    "attention",
+    "大语言模型",
+    "大模型面试",
+    "ai面试"
+  ],
+  "author": "盒子里的agent",
+  "authorId": "6a05633e0000000002001c01",
+  "time": 1779774178000,
+  "ipLocation": "浙江",
+  "likes": "38",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090708/d4e58511c72b879385c0a174a5fbdc54/spectrum/1040g0k0320kcf3r95e005qg5ccv0g701j4ntfd8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/c24290bace93fb2d1355bea07097a9d1/spectrum/1040g0k0320kcf3r95e0g5qg5ccv0g701splutjg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/5f2667446635f9913d2e24ea5a2d2599/spectrum/1040g0k0320kcf3r95e105qg5ccv0g70186pn508!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/6080199602f8c0eb0d7b27c806dd3ea1/spectrum/1040g0k0320kcf3r95e1g5qg5ccv0g7019unr4cg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/95ce7ec16190967842f36d6ee5b2b26a/spectrum/1040g0k0320kcf3r95e205qg5ccv0g701412i70g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/eff28a6f800a9873a92d9d5473e43445/spectrum/1040g0k0320kcf3r95e2g5qg5ccv0g701a3bs64g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/172e962f9886b3939f3722914b361ad3/spectrum/1040g0k0320kcf3r95e305qg5ccv0g7016pi3qn0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a1532e20000000008027a17?xsec_token=ABj5qS8UaWYRbS1dpUPxQBeCgcVsNsyEmQlp4kU0elJ3A=&xsec_source=pc_collect"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "68b02cf6000000001c011da2",
+  "type": "normal",
+  "title": "推荐大模型这么强吗🔥OneRec这一版涨20%",
+  "desc": "[萌萌哒R]关注生成式推荐的同学肯定对快手的端到端推荐模型OneRec不陌生\n\t\n📚今天我们要拆解的，正是最近发布的，\"One\"系列在本地生活场景的垂直深耕之作：《OneLoc: Geo-Aware Generative Recommender Systems for Local Life Service》。\n\t\n这篇论文可以看作是OneRec在本地生活领域的威力加强版。它不仅技术做得扎实，论文里线上A/B测试的效果更是惊人，21%的GMV涨幅让第一次读到的大家都吃了一惊😱\n\t\n🤔 挑战在哪？\n\t\n❓OneRec开创了端到端生成式推荐的范式，但它主要解决的是通用的短视频推荐问题。当场景切换到本地生活，一个核心的难题就浮出水面：\n\t\n如何让模型真正理解并利用好地理信息？\n\t\n传统的做法只是把地理当作一个普通特征，而OneLoc则要让生成模型的每一个环节都充满“地理智慧”。\n\t\n💡 三大技术创新，招招致命\n\t\n🌍 创新点1：地理感知的Tokenizer\n\t\n而是通过res-kmeans技术，将视频的内容信息和地理位置上下文信息共同压缩，生成一个统一的“地理感知语义ID”（Geo-aware Semantic ID）。这意味着，每个item被tokenize之后，它的ID本身就蕴含了地理基因\n\t\n📍 创新点2：地理感知的自注意力机制 (Geo-aware Self-Attention)\n\t\n在Encoder部分，为了更好地理解用户的行为序列，OneLoc设计了独特的自注意力机制，Attention得分由两部分构成：\n\t\n1️⃣内容相似度：用户历史观看视频之间的内容关联性。\n2️⃣位置相似度：这些视频对应店铺的地理位置关联性。 更绝的是，它还把用户的实时地理位置作为一个“门控”，来动态调整注意力输出的权重。简单说，模型不仅知道你过去喜欢什么，还能结合你现在的位置，判断哪些历史行为对你当下的决策更重要。\n\t\n🗺️ 创新点3：邻居感知的Prompt (Neighbor-aware Prompt)\n\t\nOneLoc没有简单地把用户位置作为Prompt，而是设计了一个“邻居感知”模块。它会利用Cross-Attention机制，去捕捉用户实时位置周边的环境信息（比如附近的品牌、热门店铺等），生成一个包含丰富邻域信息的Prompt。这个Prompt告诉解码器：“不仅要看用户在这里，还要看看他周围都有什么”，从而生成与当前环境高度相关的推荐。\n\t\n📈 线上效果炸裂\n\t\nOneLoc在快手本地生活场景部署后，相比生产环境高度优化的复杂多阶段系统，取得了惊人的业务提升：\n🎈GMV（总交易额）提升 +21%\n🎈订单量提升 +17%\n🎈新增付费用户提升 +23%\n\t\n#大模型[话题]# #大厂[话题]# #快手[话题]# #算法岗[话题]# #生成式AI[话题]# #秋招[话题]#",
+  "tags": [
+    "大模型",
+    "大厂",
+    "快手",
+    "算法岗",
+    "生成式AI",
+    "秋招"
+  ],
+  "author": "Sam聊算法",
+  "authorId": "5b40a80311be103d7c8cfa08",
+  "time": 1756376310000,
+  "ipLocation": "",
+  "likes": "79",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091200/4cc3fd46148cbd7845eb6e27730b4e82/1040g00831lnnndril8604a6u5uk07ug8q107j50!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091200/601c2553b44e440fb88074b3f15d34bf/1040g00831lnnndril84g4a6u5uk07ug8a783v8o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091200/f07cc6ae947aac65f297a23f0398c218/1040g00831lnnndril8504a6u5uk07ug88dsfdmo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091200/d334b4e4f8bed15d7c0c4a3bb65b10f1/1040g00831lnnndril8004a6u5uk07ug8rddo1mo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68b02cf6000000001c011da2?xsec_token=ABrwbvX3A3mkTDGf1zvvBJpBIOQ0VdreRALvgE4Pzviug=&xsec_source=pc_collect"
+}

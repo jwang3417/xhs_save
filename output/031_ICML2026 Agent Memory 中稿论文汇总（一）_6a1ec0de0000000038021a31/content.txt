@@ -1,0 +1,39 @@
+ICML2026 Agent Memory 中稿论文汇总（一）
+
+🔥ICML 2026 Agent Memory中稿论文汇总（一）
+	
+LLM agent没长期记忆=每次都失忆🧠 Agent Memory正成为2026 LLM Agent的核心战场——跨session累积、跨任务复用、攻防对抗全在这一层打。精选7篇✨
+	
+━━━ 🏗️ 核心方法（3篇）━━━
+	
+1️⃣ SimpleMem: Efficient Lifelong Memory for LLM Agents
+完整保留→冗余爆炸，迭代过滤→token暴涨。SimpleMem给出极简lifelong记忆设计，让long-horizon交互不再二选一⚡
+	
+2️⃣ MemEvolve: Meta-Evolution of Agent Memory Systems
+把记忆系统本身做成可进化对象🧬 agent自己meta-evolve出最适合任务族的存储+经验蒸馏+工具复用结构
+	
+3️⃣ When to Memorize and When to Stop
+对MemAgent类RNN-loop文本记忆加门控🚪 判断"该记"还是"该停"，避免无脑累积带来的噪声放大
+	
+━━━ ⚙️ 利用与调度（1篇）━━━
+	
+4️⃣ JitRL（Just-In-Time RL）
+training-free让冻结LLM agent持续RL🚀 不动梯度，只靠in-context memory做continual adaptation，绕开灾难性遗忘
+	
+━━━ 🎮 多模态 / GUI（2篇）━━━
+	
+5️⃣ MemOCR: Layout-Aware Visual Memory
+反直觉——交互历史渲染成图片来存🖼️ 用标题/加粗/高亮的layout密度差，让token budget优先花在高价值细节
+	
+6️⃣ Darwinian Memory（进化论式记忆）
+"适者生存"驱动的记忆生态🦖 GUI agent里记忆按自然选择自动调粒度淘汰过期信息，全程免训练
+	
+━━━ 📊 Benchmark（1篇）━━━
+	
+7️⃣ Benchmarking Agent Memory in Multi-Session Tasks
+把"记"与"用"绑进多session互相依赖任务📊 强行让模型把记忆真正用于决策而非单点recall
+	
+#ICML2026[话题]##大模型[话题]##LLM[话题]##人工智能[话题]##机器学习[话题]##Agent[话题]##智能体[话题]##多模态[话题]##深度学习[话题]##agentmemory[话题]#
+
+
+标签: #ICML2026 #大模型 #LLM #人工智能 #机器学习 #Agent #智能体 #多模态 #深度学习 #agentmemory

@@ -1,0 +1,21 @@
+{
+  "id": "69a3ecb2000000000e00e33c",
+  "type": "video",
+  "title": "Claude Code 的记忆管理机制",
+  "desc": "Claude Code 的内存管理机制，旨在帮助用户跨会话持久化项目上下文。系统主要通过自动内存和 CLAUDE.md 文件两种方式运行，前者由 AI 自动记录学习心得，后者则由人工维护规则。\n#人工智能[话题]# #记忆[话题]# #claudecode[话题]#",
+  "tags": [
+    "人工智能",
+    "记忆",
+    "claudecode"
+  ],
+  "author": "老王Bingo",
+  "authorId": "68d76856000000002102a0b6",
+  "time": 1772350642000,
+  "ipLocation": "",
+  "likes": "32",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090934/ec3c5bfa9e9fb098f66a84d86b732ecd/spectrum/1040g34o31t5or5d756105q6nd1b8d85m4kaa42o!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e9a3ec3e2c2de1010370039ca8554b82_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69a3ecb2000000000e00e33c?xsec_token=ABv8GIsDYxAs_ftFBY8J6lfVjl9g3XnEY5ymDdG8xgGTA=&xsec_source=pc_collect"
+}

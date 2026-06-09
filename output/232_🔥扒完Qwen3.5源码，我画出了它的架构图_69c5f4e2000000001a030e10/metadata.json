@@ -1,0 +1,28 @@
+{
+  "id": "69c5f4e2000000001a030e10",
+  "type": "normal",
+  "title": "🔥扒完Qwen3.5源码，我画出了它的架构图",
+  "desc": "Qwen团队发布了最新的Qwen3.5模型，作为硬核架构迷，我直接肝进源码里，把它的【核心视觉编码器】和全新引入的【门控 Delta 网络】完完整整地复刻成了一张张架构图！\n\t\n这次 Qwen3.5 是走向极具革命性的原生多模态混合架构的关键。\n\t\n总结了源码架构中的 3 个创新点：\n\t\n1. 引入门控 Delta 网络 (Gated Delta Net)，图解了其最核心的模块。引入了基于“误差修正规则 (Delta Rule)”的线性 RNN 架构！它能把无限长的上下文历史，压缩进一个固定大小的常数级矩阵里，缓解了长文本和多张高清图带来的显存焦虑。\n\t\n2. 传统的 ViT 都是用 2D 切图，但 Qwen3.5 在 PatchEmbed 类中直接使用了 3D 卷积 (Conv3d)，时间+空间特征一把抓，从一开始就把连续的视频帧打包成了统一的 Token。\n\t\n3. 图中我画出的 Qwen3_5VisionPatchMerger 模块，它把相邻的 2×2 视觉 Token 强行物理拼接，再通过 MLP 降维。直接把扔进 LLM 的视觉 Token 数量暴砍到 1/4。\n\t\n🙌 架构图纯手工扒码绘制，耗时良久。如果你也在跟进大模型的前沿进展，建议点赞+收藏，留着慢慢啃！如有错误，欢迎批评指正[握手R]\n\t\n💬 https://github.com/Mungeryang/Hand-Drawn-LLM  我将全部的手绘图解系列架构图都开源到了这个GitHub仓库中，全部图片高清无水印，欢迎交流学习，期待star⭐⭐⭐～\n\t\n#大模型[话题]# #人工智能[话题]# #通义千问[话题]# #qwen[话题]# #qwen35[话题]# #秋招[话题]# #研究生[话题]#",
+  "tags": [
+    "大模型",
+    "人工智能",
+    "通义千问",
+    "qwen",
+    "qwen35",
+    "秋招",
+    "研究生"
+  ],
+  "author": "munger",
+  "authorId": "5f31ef5f000000000100632a",
+  "time": 1774580962000,
+  "ipLocation": "",
+  "likes": "167",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091313/2133a54dc577efa9f3e46707f3d84a13/spectrum/1040g0k031u6vlonej46g5nphttfg8opak7umsk8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/39c54c4000bb4bbbbcb0efd9118995aa/spectrum/1040g0k031u6vlonej48g5nphttfg8opai7smscg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/90ebaf3c3ee7dbe1ab1141aaf4f1e2e6/spectrum/1040g0k031u6vlonej4905nphttfg8opao4975sg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/30176dfb2ac65ef9e9ea293a68310173/spectrum/1040g0k031u6vlonej49g5nphttfg8opa4bakmm8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69c5f4e2000000001a030e10?xsec_token=ABJeZ3w-fzh5fz3hvevI5PywCdcniMcKMf2feR7dXGqFc=&xsec_source=pc_collect"
+}

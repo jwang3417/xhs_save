@@ -1,0 +1,28 @@
+{
+  "id": "697c2402000000000903a350",
+  "type": "normal",
+  "title": "为什么vae+diffusion效果更好？",
+  "desc": "vae单独用效果不好主要是两个原因。一个是生成的图像模糊,因为vae用的重建损失一般是mse,这种损失会让模型倾向于预测平均值,使细节丢失。另一个是latent space虽然结构化做得不错,但表达能力有限,高斯假设限制了它能捕捉的复杂分布。\n\t\nvae加diffusion组合起来效果好，因为vae负责把高分辨率图像压缩到一个低维的latent space,diffusion在这个压缩后的空间里做生成。这样做有几个好处。\n\t\n计算效率大幅提升，直接在像素空间做diffusion,一张512x512的图像就是262144个维度,计算量太大了。vae把它压缩到64x64x4这种尺度,维度降了几十倍,训练和推理速度都快很多。stable diffusion就是用的这个思路,vae做48倍压缩,diffusion在压缩后的latent space里工作。\n\t\nvae帮diffusion过滤掉了很多高频噪声和无关细节。图像的像素级信息很多是冗余的,vae的encoder学会了提取语义层面的表示,把真正重要的信息编码到latent里。diffusion在这个干净的空间里做生成,不用处理那些像素级的噪声,能更专注于学习语义层面的分布。\n\t\ndiffusion弥补了vae生成质量不高的问题。vae的decoder虽然能重建图像,但因为训练时用的mse损失,生成的图像往往模糊。diffusion model通过逐步去噪的方式生成数据,能产生非常清晰、高保真的细节。两者结合,vae提供高效的压缩,diffusion提供高质量的生成。\n\t\n还有个重要的点是训练稳定性，纯diffusion训练需要很多步迭代,每步都要处理高维数据,很容易不稳定。有了vae压缩后,diffusion在低维空间里训练,收敛更快更稳定。而且vae的latent space比较平滑,diffusion在上面做插值、编辑这些操作也更可控。\n\t\nvae encode一次就行,可以复用。训练不同的diffusion model,甚至做条件生成、图像编辑,都可以在同一个latent space里进行。这降低了系统的复杂度,也方便了各种下游任务。\n\t\n他俩组合也有一定的不足，vae的压缩是有损的,一些细节在encode阶段就丢了,diffusion再怎么生成也补不回来。而且vae和diffusion是分开训练的,两者之间的配合需要仔细调整。\n#深度学习[话题]# #vae[话题]##diffusion[话题]##算法改进[话题]##扩散模型[话题]##大模型[话题]##多模态[话题]##调参[话题]##创新点[话题]##发文[话题]#",
+  "tags": [
+    "深度学习",
+    "vae",
+    "diffusion",
+    "算法改进",
+    "扩散模型",
+    "大模型",
+    "多模态",
+    "调参",
+    "创新点",
+    "发文"
+  ],
+  "author": "北大小陈同学",
+  "authorId": "6526265d000000000200d6a8",
+  "time": 1769743362000,
+  "ipLocation": "",
+  "likes": "318",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090730/863b1401f11d12c49df18c79a322a4a7/1040g2sg31rutig9620dg5p964peghll8u624iuo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/697c2402000000000903a350?xsec_token=ABrrpsmPu9RT_zQUZIuF5RGMa8fbMHh8MXDc6RuGof6nw=&xsec_source=pc_collect"
+}

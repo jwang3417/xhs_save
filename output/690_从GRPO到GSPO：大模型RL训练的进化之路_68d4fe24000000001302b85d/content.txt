@@ -1,0 +1,23 @@
+从GRPO到GSPO：大模型RL训练的进化之路
+
+本文（From GRPO to DAPO and GSPO: What, Why, and How）系统性地回顾并改进了用于LLM强化学习训练的 GRPO（DeepSeek） 算法以及其相关优化DAPO(字节seed）和GSPO（阿里Qwen）。
+	
+1. GRPO
+GRPO 是 PPO 的变种，无需价值函数（value model），直接基于多个响应（responses）的相对排序计算优势（advantage）。其采用 clipping 机制 控制策略更新幅度，但存在两个问题：
+（1）好 token 被过早裁剪（尤其当旧策略概率很低时）；
+（2）长响应中梯度被稀释（每个 token 权重随长度下降）。
+	
+2. DAPO：GRPO 的精细化改进
+DAPO 在 GRPO 框架内引入四项优化：
+（1）Clip-Higher ：防止“旧策略偶然采样出优质 token 却因裁剪无法提升其概率”的问题。
+（2）Dynamic Sampling（动态采样） ：防止因优势全为 0 导致梯度失效，提升样本效率
+（3）Token-Level Gradient Loss（Token 级梯度损失） ：使长/短响应中的每个 token 贡献平等，避免长响应梯度被稀释
+（4）Overlong Reward Shaping（超长响应惩罚） ：对超过阈值长度的响应施加软性惩罚，防止模型通过冗长输出“刷分”
+	
+3. GSPO：面向 MoE 架构的根本性改进
+GSPO 的核心思想：从 token-level 转向 sequence-level 优化，所有 token 共享一个统一的重要性比率，整序列统一缩放，大幅降低方差。
+	
+#大模型[话题]# #LLM[话题]# #强化学习[话题]# #GRPO[话题]# #DAPO[话题]# #GSPO[话题]# #deepseek[话题]# #阿里巴巴[话题]# #字节跳动[话题]# #qwen[话题]#
+
+
+标签: #大模型 #LLM #强化学习 #GRPO #DAPO #GSPO #deepseek #阿里巴巴 #字节跳动 #qwen

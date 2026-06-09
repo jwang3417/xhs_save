@@ -1,0 +1,14 @@
+系统设计 - 视频分享平台
+
+﻿#系统设计[话题]#﻿
+00:00 design video sharing platform
+00:28 function requirements
+00:46 non-function requirements
+02:35 high-level diagram
+04:52 storage
+06:46 upload service
+13:42 view service
+15:45 wrap up
+
+
+标签: #系统设计

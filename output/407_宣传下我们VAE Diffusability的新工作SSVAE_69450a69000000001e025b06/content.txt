@@ -1,0 +1,18 @@
+宣传下我们VAE Diffusability的新工作SSVAE
+
+Delving into Latent Spectral Biasing of Video VAEs for Superior Diffusability
+	
+这篇文章主要的motivation是解决视频VAE的Diffusability的问题，即重构指标（如MSE、LPIPS）更优的VAE，并不一定能带来更好的生成效果，有时甚至会导致扩散模型的训练收敛更慢。我们根据之前工作的总结以及自己的实验锁定了Video VAE隐空间中两个至关重要的谱特性：
+时空频域谱（Spatio-Temporal Frequency Spectrum）： 需要向低频偏置（Low-Frequency Bias）。
+通道特征谱（Channel Eigenspectrum）： 需要由少数主模态主导（Few-Mode Bias）。
+	
+最终通过局部相关性正则化（Local Correlation Regularization, LCR）和隐空间掩码重构（Latent Masked Reconstruction, LMR）对Latent进行了“整形”，相比于之前的SOTA Wan2.2VAE在100k步的diffusion训练上能达到3倍的加速比[种草R]
+	
+欢迎大家试用&&star！
+arxiv: https://www.arxiv.org/abs/2512.05394
+github: https://github.com/zai-org/SSVAE
+	
+#视频生成[话题]# #VAE[话题]# #vae[话题]# #diffusion[话题]# #科研论文[话题]# #开源[话题]##视频生成[话题]# #Video_generation[话题]#
+
+
+标签: #视频生成 #VAE #vae #diffusion #科研论文 #开源 #Video_generation

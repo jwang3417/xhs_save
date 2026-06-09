@@ -1,0 +1,31 @@
+{
+  "id": "690b420000000000040149d4",
+  "type": "normal",
+  "title": "idea不是想出来的，是“找”出来的",
+  "desc": "一提到想 idea 就头疼，总觉得是个玄学问题。其实，一个很有用的思路转变，是把它看作一个系统性的“搭建”过程，而不是纯靠灵感迸发。\n这里分享一个我自己在用、也看过很多成功论文在用的框架，希望能给你一些启发：\n一个高质量的Idea ≈ 一个强大的SOTA Baseline + 一个巧妙的跨领域Module\n这个框架，能帮助我们将“找idea”这个大难题，拆解成两个可以明确执行的步骤。\n1. 选好你的Baseline (基础模型)\n选好 Baseline 是成功的一半，因为它决定了你工作的起点和下限。这里有几个关键的考量点：\n✅ 性能要强： 优选近1-2年内、社区公认的SOTA模型。这样能确保你的工作是建立在一个高起点上，更容易获得审稿人认可。\n✅ 代码要开源： 优先选择有官方实现或高质量复现的代码库。这会为你节省大量复现和调试的时间。\n✅ 社区要活跃： Github上关注度高、讨论多的项目，通常意味着文档更全，遇到问题也更容易找到解决方案。\n一些例子可供参考：\n目标检测: YOLOv8, RT-DETR\n图像生成: Stable Diffusion, ControlNet\n语义分割: SegFormer, Mask2Former\n2. 寻找巧妙的Module (创新模块)\n这是论文创新性的主要体现，目的是为了补足Baseline在特定场景下的短板。下面是几个屡试不爽的灵感来源地：\n🧠 从NLP借鉴成熟的注意力机制： CV很多任务都可以借鉴NLP的思路。（有些超字数啦其他的放到图片里了！）\n3. 用“一句话逻辑”检验你的Idea\n当 Baseline 和 Module 都有了，可以试试用下面这个逻辑来检验你的 idea 是否站得住脚：\n“我们发现在 [具体任务] 中，[某个SOTA模型] 存在 [某个痛点]。受 [另一领域] 的 [某种技术] 启发，我们设计了 [你的Module] 来 [解决这个痛点]，最终在 [某数据集] 上取得了 [什么样的提升]。”\n如果这句话能清晰、流畅地表达出来，那你的idea框架基本就稳了。\n希望这个框架能帮你把“想idea”这个难题，拆解成一个个可以执行的步骤。科研路上，清晰的路径远比苦思冥想更重要。👍\n#科研[话题]#  #研究生[话题]#  #硕士[话题]#  #计算机视觉[话题]#  #人工智能[话题]#  #深度学习[话题]#  #论文idea[话题]#  #科研干货[话题]#  #论文写作[话题]#  #保研[话题]#",
+  "tags": [
+    "科研",
+    "研究生",
+    "硕士",
+    "计算机视觉",
+    "人工智能",
+    "深度学习",
+    "论文idea",
+    "科研干货",
+    "论文写作",
+    "保研"
+  ],
+  "author": "coding小杨",
+  "authorId": "65602534000000001103e555",
+  "time": 1762345472000,
+  "ipLocation": "",
+  "likes": "426",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091048/25b2a6d4aafb633be3c81ef918cfed4c/spectrum/1040g34o31oglt6mk4u405pb04kq4fpal0bv54j8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091048/7cd9562c3c0f939c67461b4ee0ef1bec/spectrum/1040g34o31oglt6mk4u4g5pb04kq4fpale3ioqbo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091048/f48067ed406ed57dae1b7c8b212b3f13/spectrum/1040g34o31oglt6mk4u505pb04kq4fpalsnh399g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091048/4ab95e39323eea13f5f3c5d16cc825b4/spectrum/1040g34o31oglt6mk4u5g5pb04kq4fpal511c8v0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/690b420000000000040149d4?xsec_token=ABOg6b__H1FQ243lmGXg_EcQDJIw4DulKdJ2X71rffaIw=&xsec_source=pc_collect"
+}

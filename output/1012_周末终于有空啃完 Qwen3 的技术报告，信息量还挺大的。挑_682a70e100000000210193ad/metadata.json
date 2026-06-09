@@ -1,0 +1,23 @@
+{
+  "id": "682a70e100000000210193ad",
+  "type": "normal",
+  "title": "",
+  "desc": "周末终于有空啃完 Qwen3 的技术报告，信息量还挺大的。挑一些我个人觉得有意思的点分享一下：\n\t\n预训练数据量惊人：总共用了约 36 万亿 token！来源也很多样，Qwen2.5-VL 模型从海量 PDF 提取文本，还有专门的 Qwen2.5-Math 和 Qwen2.5-Coder 模型合成数学和代码数据。\n\t\n三阶段预训练策略很清晰：\nS1 通用阶段：超 30 万亿 token 打底通用知识 (覆盖119种语言，序列长度4k)。\nS2 推理阶段：约 5T 高质量 token 强化推理 (STEM, code，序列长度4k)，这阶段还加速了学习率衰减，据说是为了保护S1成果，提高收敛，防过拟合。\nS3 长上下文阶段：几千亿 token 把上下文从 4k 扩展到 32k (75%是16k-32k数据，25%是4k-16k)。技术上用了 RoPE (base freq 10k->1M) + ABF + YARN + DCA。\n\t\nSFT 阶段搞了个 \"Thinking Mode Fusion\"，挺有意思的：\n“思考”数据用 Stage 2 模型自己拒识采样，“非思考”数据精挑细选。\n融合后，模型能处理不完整思考，这为「思考预算控制」打下基础，而且这个能力据说是自然涌现的！当思考 token 超限，就手动插入特定指令+ </think>，模型基于已有思考给答案。\n默认开启思考模式（训练数据里加了不带 /think flag 的推理样本）。保留空思考块 <think></think> 不仅保证格式一致，开发者也能手动避免模型思考。\n\t\n蒸馏表现优异！ 报告明确说蒸馏比直接 RL 效果和成本都好。Qwen3 小模型蒸馏分两步：\n\t\n离线蒸馏：教师模型（带/think和不带/think模式）的输出直接微调学生模型，打下推理和模式切换基础。\n在线蒸馏：学生模型生成序列，然后其 logits 与教师模型（Qwen3-32B 或 Qwen3-235B-A22B）对齐，最小化 KL 散度。\n\t\nMoE 架构调整：Qwen3-MoE 去掉了共享专家 (unlike Qwen2.5-MoE)，引入了 global-batch load balancing loss 来提升专家专业度。\n\t\n摘自@汉松\n\t\n﻿#Qwen3[话题]#﻿ ﻿#think[话题]#﻿ ﻿#MoE[话题]#﻿ ﻿#Qwen3技术报告[话题]#﻿",
+  "tags": [
+    "Qwen3",
+    "think",
+    "MoE",
+    "Qwen3技术报告"
+  ],
+  "author": "AI产品少女贝",
+  "authorId": "57ff07f55e87e72e7114f1da",
+  "time": 1747611873000,
+  "ipLocation": "",
+  "likes": "98",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091345/1a36a2ecb110af4146b05ace68803a0f/spectrum/1040g0k031hl4dj91j40048p2rn3vbseqlapbpkg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091345/e86fbe7bc6a307fbd7544d164c1e7ca5/spectrum/1040g0k031hl4dksrk20048p2rn3vbseq4vpbjn8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/682a70e100000000210193ad?xsec_token=ABwsM60TYvTvJge-qYr0vL95AyT6794woW010qBWyNNns=&xsec_source=pc_collect"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "69fe033f0000000022027815",
+  "type": "video",
+  "title": "PD分离之算力密集型vs访存密集型",
+  "desc": "用Claude画了个推理阶段，Prefill和Decode的动画，便于理解访存密集和算力密集，欢迎指正 #vllm[话题]# #deepseek[话题]# #pd分离[话题]#",
+  "tags": [
+    "vllm",
+    "deepseek",
+    "pd分离"
+  ],
+  "author": "AutoJunjie",
+  "authorId": "5cfa98b30000000018039dc7",
+  "time": 1778254655000,
+  "ipLocation": "",
+  "likes": "355",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090735/f93f62fe01bb225f90d25fcb880b53d5/1040g00831vto3bt3iq005n7qj2pm77e7ah6edf0!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01e9fe0305188e5c010370039e083cce0e_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69fe033f0000000022027815?xsec_token=ABNKrHqznXBDtR2zGneNsVt3icr3tIH8PvnK-ILJfztbQ=&xsec_source=pc_collect"
+}

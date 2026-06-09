@@ -1,0 +1,14 @@
+今天继续写个大模型分布式训练的极简复现
+
+Tiny-FSDP，一个对PyTorch FSDP的简易复现，仅保留核心功能，方便学习和理解
+	
+之前写了Tiny-Deepspeed，用最少的代码复现一个DeepSpeed。而FSDP和DeepSpeed ZeRO3的区别主要在于分片策略不同（见图2）。FSDP是直接把每个参数等分成M份，均匀得分给M个GPU；而ZeRO3则是在保证参数完整性的前提下把N个参数平均分给M张GPU。
+	
+Github repo:
+liangyuwang/Tiny-FSDP
+liangyuwang/Tiny-DeepSpeed
+	
+#大模型[话题]# #大模型训练[话题]# #llm[话题]# #人工智能[话题]# #科研[话题]#
+
+
+标签: #大模型 #大模型训练 #llm #人工智能 #科研

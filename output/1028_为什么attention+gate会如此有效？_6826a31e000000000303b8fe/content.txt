@@ -1,0 +1,12 @@
+为什么attention+gate会如此有效？
+
+Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free
+我们通过详细的对比实验分析了被广泛利用的 gating 机制的有效性，并初步分析了其有效性的来源：为 attention 增加了非线性，引入了与 context 相关的 sparsity。我们惊喜的发现添加简单的 gating 后网络不再出现 massive activation 和 attention sink，这使得模型训练变得异常稳定，也利好后续的低精度训练和量化压缩。
+特别开心的是论文进入了爱老师 daily 严选的 list（一个看了两三年爱老师每日 paper 推送的有种追星成功的喜悦[哇R]）
+	
+主要方法的代码和几个训练比较充分的 ckpt 也已经开源，欢迎大家去玩玩～
+在hype和故事会满天飞的时代，希望通过严格的对比，细致的分析，充足的实验，做一些 solid 、有用的工作。
+#大模型[话题]# #深度学习与神经网络[话题]# #qwen[话题]# #AI[话题]# #LLM[话题]# #科研[话题]# #论文[话题]# #阿里云[话题]# #千问[话题]#
+
+
+标签: #大模型 #深度学习与神经网络 #qwen #AI #LLM #科研 #论文 #阿里云 #千问

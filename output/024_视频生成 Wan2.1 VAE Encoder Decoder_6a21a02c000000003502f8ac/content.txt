@@ -1,0 +1,16 @@
+视频生成 Wan2.1 VAE Encoder Decoder
+
+最近对生成很感兴趣，LLM上在看CS336总体感觉是算法很简单（哪怕是RL仔细推导也很容易）。另一块就是VAE/Diffusion/GAN/DiT，最前沿是video generation，由于spatial order和temporal causality的困难，我感觉现在还处在imitation这样的阶段（GPT3），架构更是繁琐复杂上天，因为压根找不到网课讲视频生成，所以博主自己把Wan2.1下下来并读论文[1]尝试入门，个人观感是论文写的很宏观又有点琐碎，直接结合code来学architecture就行，我和codex聊了3h差不多搞明白了，先梳理VAE Encoder和Decoder架构，明天再写一写DiT/Prompt Encoder/Training/Inference，主播之前对这领域一窍不通[哭惹R]也欢迎大家带带我。
+	
+因为博主已经快把卷积是什么都给忘了，所以学习顺序是 CNN是什么 > convolution (conv) 怎么算，输入和输出维度的对应关系 > causal 3d conv 是什么。我觉得学习VAE Encoder 和 Decoder 的一个好的出发点是，
+1. 你自己想一想你有什么需求（channel mixing, temporal/weight/height 整合，特征提取，up/down sampling...)？
+2. 所以你要怎么设计卷积（causal 3d, 2d, temproal/spatial up/down sampling)？
+3. 有了这些卷积你应该分别怎么用 （对应到residual里，shortcut，降/升维分别用什么）
+	
+有了这样一个想法，然后把整个encoder、decoder框架给仔细梳理一遍（包括norm、每层、activation等，完整细致的），并且对和自己直觉不同的再提问（比如upsampling里为什么spatial和temporal处理不同，但是downsampling其实可以认为是差不多的？cache chunk只是听起来比较fancy）结合架构图我感觉1-2h就可以从0把VAE细节给搞清楚。
+	
+[1]. Wan: Open and Advanced Large-Scale Video Generative Models
+#视频生成[话题]# #Wan[话题]# ##深度学习[话题]# #生成模型[话题]# #多模态人工智能[话题]#
+
+
+标签: #视频生成 #Wan #深度学习 #生成模型 #多模态人工智能

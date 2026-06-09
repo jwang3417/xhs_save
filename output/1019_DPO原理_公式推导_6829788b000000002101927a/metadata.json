@@ -1,0 +1,30 @@
+{
+  "id": "6829788b000000002101927a",
+  "type": "normal",
+  "title": "DPO原理/公式推导",
+  "desc": "从Bradley-Terry model到reward model Loss，再到DPO损失推导\n﻿#深度强化学习[话题]#﻿  ﻿#AI[话题]#﻿  ﻿#算法[话题]#﻿  ﻿#BT模型[话题]#﻿  ﻿#DPO[话题]#﻿  ﻿#LLM[话题]#﻿  ﻿#奖励模型[话题]#﻿  ﻿#RM[话题]#﻿  ﻿#大模型面经[话题]#﻿",
+  "tags": [
+    "深度强化学习",
+    "AI",
+    "算法",
+    "BT模型",
+    "DPO",
+    "LLM",
+    "奖励模型",
+    "RM",
+    "大模型面经"
+  ],
+  "author": "蓝泽",
+  "authorId": "5ff33bb7000000000100a53f",
+  "time": 1747548299000,
+  "ipLocation": "",
+  "likes": "219",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091346/88d3d85b518818f00c6c92a3e55317ec/spectrum/1040g34o31hqmtvcl340g5nvj7erg999v5u1rbl0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/e5cedd2570569256c51511eb46dcbd39/spectrum/1040g34o31hqmu15e380g5nvj7erg999veid3h1o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/5b7f46b690e605719610800b00f27ad8/spectrum/1040g0k031hqmu2hs4q005nvj7erg999v8v735ig!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/29ebcd0a6cfce4e3946882de6e20c5d6/spectrum/1040g0k031hqmu43mj8005nvj7erg999vk3pd868!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6829788b000000002101927a?xsec_token=ABR5bfKOp8zl4hWbafuRSjIrLun01ibXv4tQGvF7o4K0w=&xsec_source=pc_collect"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "681f37b1000000000f0381e3",
+  "type": "video",
+  "title": "斯坦福CS336第二课：pytorch手把手搭建LLM",
+  "desc": "这堂课主要讲解了如何从头开始构建语言模型，特别是关注 PyTorch 中的基本构件以及效率（内存和计算资源的使用）\n\t\n课程目标与重点：\n核心是实际构建模型，理解 PyTorch 的基本元素（张量、模型、优化器、训练循环）。\n高度关注效率，包括内存占用和计算资源（FLOPs）的估算与优化。\n侧重于 PyTorch 的机制 (mechanics) 和资源核算的心态 (mindset)。\n\t\n﻿#大模型[话题]#﻿ ﻿#人工智能[话题]#﻿ ﻿#小红书热点观察团[话题]#﻿ ﻿#LLM[话题]#﻿ ﻿#AI[话题]#﻿ ﻿#大模型学习[话题]#﻿ ﻿#AI学习[话题]#﻿ ﻿#pytorch[话题]#﻿ ﻿#科技[话题]#﻿ #科技作者强化学习营[话题]#",
+  "tags": [
+    "大模型",
+    "人工智能",
+    "小红书热点观察团",
+    "LLM",
+    "AI",
+    "大模型学习",
+    "AI学习",
+    "pytorch",
+    "科技",
+    "科技作者强化学习营"
+  ],
+  "author": "一只小茄墩",
+  "authorId": "597818875e87e73490fd8b3b",
+  "time": 1746876337000,
+  "ipLocation": "",
+  "likes": "799",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091348/7eecebde8d7f1e5e525e077c94fd1d38/spectrum/1040g0k031ha5jffd380049mqjkc8f2prm7pk9fo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/1/110/259/01e81f36bf49eda20103700396ba01de98_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/681f37b1000000000f0381e3?xsec_token=ABPg54WE7lULOw7_3V5eEITOfcSmWmGh-0Mh0fAbe-8lc=&xsec_source=pc_collect"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "685f8e5b000000002400fbaf",
+  "type": "normal",
+  "title": "",
+  "desc": "求助[捂脸R] 训练双塔Embedding，为什么使用faiss搜索user_emb最相近的item_emb，结果基本都相同，且命中率极其低。user个数为20000，item个数为9752。总点击数据为 112868。\n\t\n大佬是否有值得看的博客推荐[笑哭R]\n\t\n数据和初始物品embed来源是天池的新闻推荐赛\n参考的是Youtube的Sampling-bias-corrected neural modeling [捂脸R]",
+  "tags": [],
+  "author": "Mike",
+  "authorId": "5f1c6d290000000001009a16",
+  "time": 1751092827000,
+  "ipLocation": "",
+  "likes": "60",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091338/4f33ae102f74b685a023a61d58458010/1040g2sg31j90bt9kio005nosdkkg96gmm5deou0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/685f8e5b000000002400fbaf?xsec_token=ABNUHPETJC4SGPtIs2s_k2n28ZtrlfkxMkZNYQ34iy-Tw=&xsec_source=pc_collect"
+}

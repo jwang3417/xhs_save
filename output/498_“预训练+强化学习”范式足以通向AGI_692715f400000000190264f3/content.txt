@@ -1,0 +1,8 @@
+“预训练+强化学习”范式足以通向AGI
+
+Anthropic核心成员Sholto Douglas今年5月末在Unsupervised Learning的专访中表示，“预训练+强化学习”范式足以通向AGI。
+	
+#AI[话题]##大模型[话题]##大语言模型[话题]##AGI[话题]##预训练[话题]##强化学习[话题]##Ilya[话题]##Anthropic[话题]##SholtoDouglas[话题]##大咖之声[话题]#
+
+
+标签: #AI #大模型 #大语言模型 #AGI #预训练 #强化学习 #Ilya #Anthropic #SholtoDouglas #大咖之声

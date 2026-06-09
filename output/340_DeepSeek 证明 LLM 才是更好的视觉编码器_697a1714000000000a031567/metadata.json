@@ -1,0 +1,28 @@
+{
+  "id": "697a1714000000000a031567",
+  "type": "video",
+  "title": "DeepSeek 证明 LLM 才是更好的视觉编码器",
+  "desc": "本期对 DeepSeek OCR 2.0 的核心机制进行结构化解读，聚焦其在复杂文档场景（报纸排版、数学公式、表格）中的关键改进点：在视觉编码阶段显式引入“语义阅读顺序”，而非沿用 ViT 的 Raster-Scan（从左到右、从上到下）物理顺序。传统 Flatten 往往导致空间位置与逻辑语义错位，模型需要额外参数去“纠错”。\n\t\n核心设计：DeepEncoder V2 + DeepSeek-MoE Decoder\n\t\nDeepEncoder V2（视觉逻辑推理）：基于 LLM（Qwen2-0.5B）改造为视觉编码器，引入可学习的 Causal Queries，在编码阶段完成视觉 Token 的重排序与压缩，将无序 2D 图像块重组为符合阅读顺序的 1D 序列。 DeepSeek-MoE Decoder（任务逻辑推理）：在已“理顺”的视觉信息上执行文本生成，并支持 Markdown 输出。\n\t\n数据流概览（从冗余视觉到紧凑逻辑表示） 输入侧由 SAM + Conv 产生 8000+ 无序视觉特征（含背景/留白/噪声），通过约 400 个可学习 Queries 进行按逻辑顺序的信息抓取，形成 256~1120 的逻辑 Token 序列，最终交由 LLM Decoder 生成 Markdown。\n\t\n👉如果你希望系统掌握大模型核心技术、以及Agent应用开发，推荐你学习我刚上线的这门新课：\n《DeepSeek 系统实战：架构·算法·工程·应用》这是一套从模型微调、部署，到强化学习训练的系统学习路线，课程以企业级落地为目标，你将掌握LLM核心原理、Agentic RAG、MoE/MLA/MTP机制拆解、PPO/GRPO强化学习与工业级DeepSeek-OCR多模态实战等，想系统掌握并落地这些能力，就从这门课开始。点击首页置顶视频查看课程简介～\n\t\n#deepseek[话题]# #大模型[话题]# #deepseekocr[话题]# #deepseekocr2[话题]# #ai大模型[话题]# #计算机技术课[话题]# #多模态大型模型[话题]# #多模态[话题]# #唐国梁Tommy[话题]# #AI技术分享[话题]#",
+  "tags": [
+    "deepseek",
+    "大模型",
+    "deepseekocr",
+    "deepseekocr2",
+    "ai大模型",
+    "计算机技术课",
+    "多模态大型模型",
+    "多模态",
+    "唐国梁Tommy",
+    "AI技术分享"
+  ],
+  "author": "唐国梁Tommy",
+  "authorId": "6430180d0000000011022993",
+  "time": 1769608980000,
+  "ipLocation": "",
+  "likes": "35",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090942/46962ed0781b29bb94ad970ad08b8037/spectrum/1040g34o31rst8fja22105p1g306kcacjaa1o2og!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e97a1714db7431010370039c04ebdae7_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/697a1714000000000a031567?xsec_token=ABld_XC_ij3-UQFO9FjEyrx5ogy0GZa1B6vTAJhk4swOQ=&xsec_source=pc_collect"
+}

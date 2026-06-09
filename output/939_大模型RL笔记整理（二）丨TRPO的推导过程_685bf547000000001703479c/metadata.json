@@ -1,0 +1,36 @@
+{
+  "id": "685bf547000000001703479c",
+  "type": "normal",
+  "title": "大模型RL笔记整理（二）丨TRPO的推导过程",
+  "desc": "（啊啊啊啊这些公式手打了快一天要累死了，公司的活要晚上加班干了啊啊啊）\n\t\n[海豚R]这一部分是从 基础 reinforce 策略一路推到 TRPO，如果对基础 reinforce 不熟悉的友友可以搜我笔记里的 大模型RL笔记整理（一）\n\t\n[草莓R]这次十页笔记依旧全量上传为图片，还是欢迎友友们学习讨论和批评指正！\n\t\n接下来的几部分\n第三部分我会着重整理 PPO 和 clip\n第四部分会整理 PPO 在 LLM 中的使用和四个model\n第五部分会整理 PPO 在 LLM 训练时的问题\n接下来就是 GRPO，DAPO，DPO 等在llm中的应用，敬请期待！\n\t\n[红书R]btw，有没有朋友知道飞书文档导出pdf的时候如何页面排版呀，我实在搞不明白这个！\n\t\n#互联网大厂[话题]# #大模型[话题]# #实习[话题]# #北京大学[话题]# #强化学习[话题]# #算法[话题]# #面试[话题]# #人工智能[话题]#",
+  "tags": [
+    "互联网大厂",
+    "大模型",
+    "实习",
+    "北京大学",
+    "强化学习",
+    "算法",
+    "面试",
+    "人工智能"
+  ],
+  "author": "低头的人",
+  "authorId": "62aea66e000000001902bf2b",
+  "time": 1750857031000,
+  "ipLocation": "",
+  "likes": "186",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091337/ffcb6c8b3d6614cab4b55090770b50fd/1040g00831j55mq8rio005olekpn6dfpbu07653o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091337/fa4552e381ddfc3a65dc7ca066d97374/1040g00831j55mq8rio0g5olekpn6dfpbbeoqa30!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091337/78a5865639fdb0e5e6bfbc5e5ed88cc2/1040g00831j55mq8rio105olekpn6dfpbq497kio!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091337/10739f2477b45cb295edbf3af85b5788/1040g00831j55mq8rio1g5olekpn6dfpbdch6vsg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091337/ad229c5c229e3426e6cc9559ce2c10a9/1040g00831j55mq8rio205olekpn6dfpbidf0lj8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091337/84568ea1e48a2f1803c8b018b34d95a2/1040g00831j55mq8rio2g5olekpn6dfpbajqe4t0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091337/9199ea920fe2a543e0f1bb574863019e/1040g00831j55mq8rio305olekpn6dfpb1r9k228!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091337/7dd45643fe853a41bb8bdc814d4b1522/1040g00831j55mq8rio3g5olekpn6dfpb40026ho!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091337/91a78fb564e756b8850f47c66f802155/1040g00831j55mq8rio405olekpn6dfpbd9entt8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091337/cca6d66af262965ccec0a86c23ea6ed9/1040g00831j55mq8rio4g5olekpn6dfpbogqb0no!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091337/3c628e6c8fc2116be26af8a4b2fd1100/1040g00831j55mq8rio505olekpn6dfpbsqp4tr0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/685bf547000000001703479c?xsec_token=ABacsva2m14Rg9SebGYUDwzJyeVM-QInjqKIO0wuURe-I=&xsec_source=pc_collect"
+}

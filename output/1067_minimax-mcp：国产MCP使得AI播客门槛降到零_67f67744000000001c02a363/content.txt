@@ -1,0 +1,6 @@
+minimax-mcp：国产MCP使得AI播客门槛降到零
+
+minimax-mcp：国产MCP使得AI播客的门槛降低到零，人人都可以用自然语言生成图文、声音并茂的播客内容，比elevenlabs-mcp使用起来更简单﻿#minimax[话题]#﻿ ﻿#mcp[话题]#﻿ ﻿#ai播客[话题]#﻿
+
+
+标签: #minimax #mcp #ai播客

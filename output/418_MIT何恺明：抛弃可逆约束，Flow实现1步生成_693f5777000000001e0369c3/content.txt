@@ -1,0 +1,18 @@
+MIT何恺明：抛弃可逆约束，Flow实现1步生成
+
+传统 Normalizing Flow（NF）模型必须保证“正向可逆”，导致架构受限、推理极慢（尤其是自回归解码）。本文提出 Bidirectional Normalizing Flow（BiFlow），首次在 NF 框架中移除解析逆映射的硬约束，通过学习一个高效的“近似逆模型”，在保持高生成质量的同时，将采样速度提升 1–2 个数量级，并实现真正的 1-NFE（一次前向）生成。该工作在 ImageNet 256×256 上刷新 NF 系列 SOTA，具有明确的范式意义。
+核心亮点：
+去除“必须可逆”的历史包袱： BiFlow 不再要求反向过程是前向模型的解析逆，而是单独学习一个逆向模型 G，使 NF 从“严格可逆映射”转向“可学习双向系统”。
+隐式对齐而非直接反演： 提出 Hidden Alignment（隐状态对齐），通过对齐前向与反向的中间轨迹，而非仅在输出空间做重建，显著优于 naive distillation 与 hidden distillation。
+非自回归、完全并行的 1-NFE 生成： 逆向模型可使用双向 Transformer，无需因果掩码，单次前向即可从噪声生成图像，彻底摆脱 TARFlow 的数百/上千步自回归推理。
+学习式去噪，消除 score-based 后处理： 将 TARFlow 中昂贵的 score-based denoising 融合进逆模型本身，仅增加一个 block，即可同时完成“反演 + 去噪”。
+What-you-see-is-what-you-get 训练范式： 生成样本在训练阶段即可直接访问，支持 MSE + 感知损失，这是显式逆 NF 几乎无法做到的。
+CFG 一次前向完成： 将 classifier-free guidance 融入训练阶段，推理时无需双次评估，在保持可调 guidance 的同时维持 1-NFE。
+NF 系列首次达到“质量 × 速度”双突破： BiFlow-B/2 在 ImageNet 256×256 上取得 FID=2.39，参数量仅 133M，但推理速度比改进版 TARFlow 快 200–700×。
+	
+arXiv：2512.10953
+	
+#生成模型[话题]#  #AIChannel[话题]#  #何恺明[话题]#  #transformer[话题]#  #ImageNet[话题]#  #扩散模型[话题]#  #科研解读[话题]#  #模型加速[话题]#  #ai前沿[话题]#  #计算机视觉[话题]#
+
+
+标签: #生成模型 #AIChannel #何恺明 #transformer #ImageNet #扩散模型 #科研解读 #模型加速 #ai前沿 #计算机视觉

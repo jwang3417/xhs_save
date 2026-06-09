@@ -1,0 +1,28 @@
+{
+  "id": "68b9ce8a000000001c004343",
+  "type": "normal",
+  "title": "搜推广算法必读🚀召回模型怎么搞超长序列",
+  "desc": "🌟做推荐的同学都懂，用户历史序列越长，兴趣就越准。但受限于性能，召回层通常只敢用短序列（比如最近200次行为），超长序列建模基本是精排阶段的专属。\n\t\n[哇R]今天分享一篇字节的论文 LongRetriever，看看他们是如何巧妙地把超长用户序列的威力，成功应用到召回阶段的\n\t\n1️⃣ 核心思路：多兴趣top-k检索\n\t\n它不再试图用一个向量概括用户的所有兴趣，而是为用户的不同兴趣（比如你可能同时喜欢美食、数码、服饰）分别建模。\n\t\n具体做法是，当要为“美食”这个上下文（Context）检索内容时，模型会从用户的超长历史行为中，只筛选出与“美食”相关的部分，然后用Transformer编码成一个专属的“美食兴趣向量”。\n\t\n2️⃣ 如何挑选兴趣上下文？\n\t\n那问题来了，每次用户请求，系统怎么知道该用哪些兴趣（上下文）去检索呢？\n\t\n论文里提出了一种名为Random in Top的策略：\n\t\n🎈首先，系统会根据用户的全部历史行为，给所有兴趣类目打一个“兴趣分”。这个分数是时间加权的，最近互动的类目，得分会更高。\n🎈然后，选出得分最高的Top 20个类目，再从这20个里面随机挑出5个，作为这次请求要检索的上下文。\n\t\n为什么要加一个随机的步骤？主要是为了增加探索（Exploration）和结果的多样性，避免每次都给你推最热门的那几个类目，时不时带来点小惊喜！\n\t\n3️⃣ 类目内负采样\n\t\n直接这么做会遇到一个“数据泄漏”问题：模型可能偷懒，不去学用户在某个类目下的精细偏好，而是只学会区分不同类目。\n\t\n为了解决这个问题，论文提出了“上下文内训练 (In-Context Training)”。在构建mini-batch时，它保证了对于一个正样本（用户U，物品V），所有的负样本都和V来自同一个上下文（比如同一个物品类目）\n\t\n4️⃣ 实验效果：线上A/B数据亮眼\n\t\n理论再好，也要看疗效。LongRetriever的线上A/B测试效果非常能打。\n\t\n🎈业务指标提升：在电商场景中，相比多兴趣基线模型（MIND），LongRetriever实现了 页面浏览量(PV) +0.62%，用户转化率(UV CVR) +1.33%，以及 单用户订单量 +1.70% 的显著提升。\n\t\n🎈生态多样性增强：模型的新颖性也更强（Unique Exposure Ratio提升4.71%），能为用户挖掘出更多以前没见过的、但可能感兴趣的好东西，对整个推荐生态有益\n\t\n总的来说，LongRetriever通过“多兴趣检超厂序列”和“类目内负采样”这两个抓手，为工业界推荐系统提供了一个非常实用的新范式。\n#互联网大厂[话题]# #算法岗[话题]# #大厂[话题]# #秋招[话题]# #程序员[话题]#",
+  "tags": [
+    "互联网大厂",
+    "算法岗",
+    "大厂",
+    "秋招",
+    "程序员"
+  ],
+  "author": "Sam聊算法",
+  "authorId": "5b40a80311be103d7c8cfa08",
+  "time": 1757215817000,
+  "ipLocation": "",
+  "likes": "114",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091158/d79b781e7b72399ba242ca8dbabfa34b/1040g00831m10fdgblu504a6u5uk07ug8mg4sleo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091158/aee5d6b55bfab9d7509c1c3950711175/1040g00831m10fdgblu4g4a6u5uk07ug8d9ltgrg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091158/6f305cae983813773b2c0f6d949e1985/1040g00831m10fdgblu1g4a6u5uk07ug81fn8fag!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091158/4bb23c61c9a06ede457a095f42d13c8d/1040g00831m10fdgblu004a6u5uk07ug83l16vs0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091158/d51d8ec63f6981a1932c60f30e5c8957/1040g00831m10fdgblu5g4a6u5uk07ug8ingaavg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091158/f938658b4e388add69b2fe45719d363a/1040g00831m10fdgblu2g4a6u5uk07ug8j8nr1s0!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68b9ce8a000000001c004343?xsec_token=ABOi99YIVScVGjLszQazLFMdLcguQGx8FPn08wA17kV6s=&xsec_source=pc_collect"
+}

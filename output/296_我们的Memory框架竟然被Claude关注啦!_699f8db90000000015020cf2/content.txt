@@ -1,0 +1,35 @@
+我们的Memory框架竟然被Claude关注啦!
+
+最近有点小激动：KCL NLP Group  , 我们关于 Agent Memory 的工作 Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation，被 Claude Memory、PageIndex、OpenClaw 等项目关注/讨论了（有种“我们做的方向对了”的感觉🥹）。
+更重要的是：代码已经开源，想复现/对比/直接用的同学可以来玩👇
+GitHub： https://github.com/HU-xiaobai/xMemory
+Project Page： https://zhanghao-xmemory.github.io/Academic-project-page-template/
+	
+省流一句话:
+Agent Memory 继续照搬 RAG范式 的“相似度 top-k”会天然取回重复的证据链，会混淆模型或者找不到真正的答案。我们把记忆从传统“chunk 索引”解耦成“语义组件索引”，再配套一个自上而下的检索，让回答更准、token 更省。（详情请关注我们上一个帖子!）
+	
+现状: 为什么 Agent Memory 和传统 RAG 不一样？
+不少Memory 框架仍是标准RAG：
+chunks → 向量化 → top-k → 拼上下文 → LLM 回答
+但 RAG 面向异质文档库，主要风险是“检索到不相关”；
+而 Agent Memory 是一条连贯对话流，候选普遍都“相关”，问题变成：
+近重复太多：top-k 很容易塌缩在同一团相似区（全是“差不多的证据”）
+后处理容易误伤：pruning/压缩会剪断跨轮次证据链（指代/省略/时间依赖一断就错）
+所以矛盾不是“找不到相关”，而是：取回太重复 + 剪枝容易删错前提。
+我们怎么做（核心两件事）
+(A) 改索引：chunk → 语义组件索引
+把对话记忆拆成“语义组件”，再组织成更高层结构；构建时用一个 稀疏度–语义一致性 的目标来指导拆分/合并，让结构既不拥挤也不碎。
+(B) 改检索：一次性 top-k → 自上而下逐级取证
+先选一个精但全的高层骨架，再只在“能提升模型确定性”时扩展细节。
+直观效果：少取重复、不剪碎链条。
+在 LoCoMo / PerLTQA、以及多种开源/闭源 LLM 上，我们看到：回答更稳, token 更省。
+关键不是“检索完再剪”，而是从源头换索引与检索范式。
+	
+如果你也在做 agent / memory / RAG：
+如果你觉得有所启发，欢迎来 GitHub 点个 star 或提 issue。
+也欢迎任何讨论，希望大家一起做retrieval index structure!也欢迎大家观看我们组其他论文~
+@KCL NLP Group
+#RAG[话题]# #agent[话题]# #自然语言处理[话题]# #LLM[话题]# #数据科学[话题]# #大模型[话题]# #信息检索[话题]# #学术分享[话题]##ai[话题]# #智能体[话题]#
+
+
+标签: #RAG #agent #自然语言处理 #LLM #数据科学 #大模型 #信息检索 #学术分享 #ai #智能体

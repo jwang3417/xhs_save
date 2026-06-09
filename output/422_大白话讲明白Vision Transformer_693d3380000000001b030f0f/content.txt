@@ -1,0 +1,6 @@
+大白话讲明白Vision Transformer
+
+#ViT[话题]# #VisionTransformer[话题]# #transformer[话题]# #深度学习[话题]# #深度学习入门[话题]# #人工智能[话题]# #大模型[话题]# #计算机视觉[话题]#
+
+
+标签: #ViT #VisionTransformer #transformer #深度学习 #深度学习入门 #人工智能 #大模型 #计算机视觉

@@ -1,0 +1,4 @@
+OneSug：快手首个全量落地的端到端Query Suggestion生成式模型
+论文链接：https://arxiv.org/pdf/2506.06913v1
+	
+快手OneSug是面向电商搜索场景的端到端生成式查询建议（Query Suggestion）模型，旨在解决传统多阶段级联架构（Multi-stage Cascading Architecture，MCA）中因优化目标不一致导致的效率低下和性能次优问题。

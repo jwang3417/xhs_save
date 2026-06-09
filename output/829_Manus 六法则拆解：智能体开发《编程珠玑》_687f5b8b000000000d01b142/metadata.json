@@ -1,0 +1,35 @@
+{
+  "id": "687f5b8b000000000d01b142",
+  "type": "normal",
+  "title": "Manus 六法则拆解：智能体开发《编程珠玑》",
+  "desc": "Manus 这篇小而硬的博客，像是你走了很远很远之后突然在半山腰看到的一块坐标石碑，告诉你你快进入上下文工程师的区域了。\n做得越深，就越知道所谓“智能体跑不起来”，是根本没给模型构造一个可持续运行的信息生命系统，它记不清目标、摸不清状态、想不清下一步能干嘛，更不用说从失败中自我修正。\n对我来说，这篇文章让我确认了我们走的那些弯路其实早有共性路径，也让我第一次能用一套更准确的语言来描述我眼里“一个靠谱的 Agent 系统到底需要什么样的上下文架构”。\n只要你干过这些，你就会意识到：Prompt 是告诉模型你想要什么，Context是构建一个系统，让模型每一次都有机会自动靠近正确。\n如果你正在做 Agent，或者计划进入这个方向，不妨用这六条 checklist 把你现在的系统过一遍：哪个上下文会频繁变动？哪个状态是隐式的？错误有没有暴露给模型？工具调用是否具备 mask 控制能力？你的记忆系统是全塞还是挂载的？\n#大模型[话题]# #ai[话题]# #agent[话题]# #manus[话题]# #智能体[话题]#",
+  "tags": [
+    "大模型",
+    "ai",
+    "agent",
+    "manus",
+    "智能体"
+  ],
+  "author": "凡人小北",
+  "authorId": "6726d28b000000001c01b8a8",
+  "time": 1753176971000,
+  "ipLocation": "",
+  "likes": "317",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091322/9cabc66e81e98286bd1c35592f81461f/notes_pre_post/1040g3k031k821ochig0g5pp6qa5n3e584qt696g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/4bee5f82db0392579dd5d47b8851929c/notes_pre_post/1040g3k031k822kpd2g4g5pp6qa5n3e582gfm9i8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/25e1e1eaa709cbc7218b667dd75076e0/notes_pre_post/1040g3k031k821ochig505pp6qa5n3e58doja160!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/ebe7b92172140aca276bd8f425c3b9ec/notes_pre_post/1040g3k031k823dv82g005pp6qa5n3e583dga4sg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/3cd7c291541300ce57a892e243fcfcae/notes_pre_post/1040g3k031k823gmb3q005pp6qa5n3e58h2v3q78!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/5d6544d343eb865c5589abed05c93a16/notes_pre_post/1040g3k031k822kpd2g6g5pp6qa5n3e58g45drcg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/3f481a72d532240bbf3f80ad78446d40/notes_pre_post/1040g3k031k822kpd2g605pp6qa5n3e58fojoajg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/afe385b7ef32f1c21ab61d2481db3bbc/notes_pre_post/1040g3k031k821ochig005pp6qa5n3e58cmme8q8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/d42fec55dcf6befaa7a0483bfdd97bd8/notes_pre_post/1040g3k031k821ochig3g5pp6qa5n3e58sk8ui4g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/efee7a84aed789414450cc3327801996/notes_pre_post/1040g3k031k821ochig405pp6qa5n3e58mbbekkg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/f80ce43607f87c12d403970377443d73/notes_pre_post/1040g3k031k821ochig1g5pp6qa5n3e581gh4o9g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/9608a74c4786d85dce9ff1aafbfed653/notes_pre_post/1040g3k031k821ochig205pp6qa5n3e58rsvqe10!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/77b78ce5962bb595562b4b4b5de84e9b/notes_pre_post/1040g3k031k821ochig305pp6qa5n3e58ih88ol0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/687f5b8b000000000d01b142?xsec_token=ABXeyWguniraRqpV5fFUZmwnNqu_VXS25W8QFlLVC6Vws=&xsec_source=pc_collect"
+}

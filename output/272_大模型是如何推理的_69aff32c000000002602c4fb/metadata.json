@@ -1,0 +1,19 @@
+{
+  "id": "69aff32c000000002602c4fb",
+  "type": "video",
+  "title": "大模型是如何推理的",
+  "desc": "大模型预训练过程广泛的语料库中自然包含了许多推理信息，因此，通过小样本思维链（Chain-of-Thought，CoT）提示词，即可激活#大模型[话题]# 的推理能力。",
+  "tags": [
+    "大模型"
+  ],
+  "author": "Dr.余",
+  "authorId": "5b2681144eacab55a1698d74",
+  "time": 1773145922000,
+  "ipLocation": "",
+  "likes": "61",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090932/dbab112f5cf80bb3b204a4f9c031f1ba/spectrum/1040g0k031thghu0al6004a6bj90h93bkanm2sag!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/114/01e9aff1fe510efe4f0370019cd755ae5d_114.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69aff32c000000002602c4fb?xsec_token=ABsiMnMqYHxqdmDY2UXMFeut9mvQLLMSpYZx8RROKUTqE=&xsec_source=pc_collect"
+}

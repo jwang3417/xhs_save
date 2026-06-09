@@ -1,0 +1,33 @@
+{
+  "id": "6846d694000000002202785e",
+  "type": "normal",
+  "title": "Meta GenAI 新突破！跨模态生成告别噪声",
+  "desc": "Title: Flowing from Words to Pixels: A Noise-Free Framework for Cross-Modality Evolution\n\t\n本文提出了CrossFLow，使用最简洁的模型，最原始的Flow Matching 算法，无需噪声或者 cross attention，既可以在任意模态间进行双向映射\n- 模型非常简单，只需要一个 variantial encoder 和一个最基础的 Flow matching 模型\n- 直接把文字往图片映射，便与当前的算法不分伯仲；严格测试环境下相比于主流的 noise + cross attention 的算法有更好的性能和更强的 scalability\n- 相同的框架，无需基于任务的特定设计，便可以解决各种任务，比如深度估计（将图片转成深度图），image captioning（将图片转成文字），超分（将低分辨率图转高分辨率），均达到或超越当前最佳性能\n- 支持各种 source distribution 的加减/差值运算，为生成内容提供前所未有的可控性，同时为 image editing，smooth video generation 等任务提供新思路。\n- Source distribution 可定制，让图像生成更灵活，同时显著降低训练成本 （208 A100 天 VS 数千天），提高生成速度 （6.62x 采样速度提升）\n这项研究的核心在于，显著拓展了 Diffusion（flow matching）的应用灵活性，不再依赖噪声分布，可以使用 flow matching 直接实现任意两个/多个模态间的双向转换，为连续空间的预测提供了非常简洁但是强大的工具。\n👉 项目主页：https://cross-flow.github.io/\n🏆 ​​成果已被CVPR 2025接收为Highlight论文！​​\n👥 ​​想和作者面对面交流？​​\n📍 ​​13号上午​​，CVPR展会现场，欢迎来展台聊聊！\n\t\n#多模态人工智能[话题]# #深度学习[话题]# #diffusion模型[话题]# #科研[话题]# #CVPR[话题]# #CVPR25[话题]# #论文[话题]#",
+  "tags": [
+    "多模态人工智能",
+    "深度学习",
+    "diffusion模型",
+    "科研",
+    "CVPR",
+    "CVPR25",
+    "论文"
+  ],
+  "author": "望穿",
+  "authorId": "5706184b4775a720b04082a8",
+  "time": 1749472916000,
+  "ipLocation": "",
+  "likes": "185",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091340/bc7f8e9a45458fd98226f4e1c3085694/notes_pre_post/1040g3k831igrgso10ei047ohs4c4n0l8e0nbn0g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091340/94ee18a25349013f2bc71493f0088eef/notes_pre_post/1040g3k831igrgso10ejg47ohs4c4n0l8p5r6hc0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091340/a89e074c3745be82b49664f406ac1d18/notes_pre_post/1040g3k831igru0vdge0047ohs4c4n0l8s31k8pg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091340/fc303b34833e493917f96e4af9ba0e20/notes_pre_post/1040g3k831igrgso10ee047ohs4c4n0l8se7st90!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091340/cf5d67f11757d309d900bd91730fc95b/notes_pre_post/1040g3k031igru0pp0c0047ohs4c4n0l8mrnte28!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091340/083ee45a8dbe13eadb27580ccadff8ee/notes_pre_post/1040g3k031igru0ld020047ohs4c4n0l8tdc2cb8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091340/d565e30b4dc912a637374a5faeafe38d/notes_pre_post/1040g3k031igru0h6ga0047ohs4c4n0l8b46bssg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091340/cc2aa88c642871350ab56c9322b5025f/notes_pre_post/1040g3k031igru0cv080047ohs4c4n0l8u9vnr28!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091340/e62cf084302fc001d817a9b03fe23c0e/notes_pre_post/1040g3k031igru05hge0047ohs4c4n0l85m7hr08!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6846d694000000002202785e?xsec_token=ABE051kf-EEASMQ9eOAlLq09x-LMnn3DduK61xJUwLOTI=&xsec_source=pc_collect"
+}

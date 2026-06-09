@@ -1,0 +1,31 @@
+{
+  "id": "6929860a000000001f00df8f",
+  "type": "normal",
+  "title": "生成式推荐算法重构广告系统",
+  "desc": "2025 腾讯广告算法大赛聚焦全模态生成式推荐，以 360 万奖金吸引全球超 8400 人、2800 支队伍参赛。这场国内数据规模最大的全模态生成式推荐算法竞赛，见证了推荐系统从检索排序到直接生成的技术变革。\n\t\n1️⃣ 为什么需要生成式推荐？\n传统广告推荐采用多阶段级联架构，存在明显局限：召回阶段的信息损失无法弥补，多阶段优化目标不一致。生成式推荐通过序列模型直接预测用户下一个感兴趣的广告，实现端到端优化，让选广告变成生成广告。\n\t\n冠军团队 Echoch 的成员来自华中科技大学、北京大学、中国科学技术大学，他们认为：\"生成式推荐是很有可能的，它很有可能是未来的一种新范式。\"这代表了顶尖算法人才对技术趋势的共识。\n\t\n2️⃣ 技术挑战与突破\n生成式推荐需要三大核心能力：融合文本、图像、视频的多模态理解、捕捉用户兴趣演化进行序列建模、毫秒级响应实时推理。\n\t\n目前对于很多有推荐业务的企业和团队而言，生成式推荐是一个全新的范式，特别是对于已有的推荐系统架构来说，这是一次技术革新的机会。\n\t\n3️⃣ 商业价值与未来\n生成式推荐突破信息茧房，发现用户的潜在商业兴趣，为广告主自动生成投放方案，降低运营成本，为用户提供个性化即时推荐。\n\t\n决赛 20 强汇聚中山大学、华南理工大学、电子科技大学等高校的算法精英，\u0005在\u0005深圳腾讯滨海大厦展开决赛对决。\n\t\n最终 \"Echoch\" 夺得冠军，亚军花落来自中山大学的 \"leejt\" 队，季军由香港大学的\"也许明天\"队获得，前三甲凭借创新性的生成式推荐算法方案，均获得腾讯 offer 意向书及奖金。\n\t\n此外，大赛还特别增设 20 万元技术创新奖，授予来自中国科学院计算技术研究所的队伍\"料峭春风吹酒醒\"。这些年轻团队在真实商业数据上的创新探索，正推动广告行业迈向生成时代。\n\t\n#人工智能[话题]# #腾讯广告算法大赛[话题]# #算法大赛[话题]# #腾讯广告[话题]# #AI人工智能[话题]# #推荐算法[话题]# #算法工程师[话题]# #生成式推荐[话题]#",
+  "tags": [
+    "人工智能",
+    "腾讯广告算法大赛",
+    "算法大赛",
+    "腾讯广告",
+    "AI人工智能",
+    "推荐算法",
+    "算法工程师",
+    "生成式推荐"
+  ],
+  "author": "极客开源",
+  "authorId": "62dd69d1000000001f0150ad",
+  "time": 1764328970000,
+  "ipLocation": "",
+  "likes": "290",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091018/9afa1690c51f6f4ae083ae3af24f5a33/notes_pre_post/1040g3k831pe6jgu82geg5omtd78nqk5dlvv95cg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091018/08d111a96a76d208f80fd3d097d0bb96/notes_pre_post/1040g3k831pe6jgu82ge05omtd78nqk5d8oipbkg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091018/ae5a8bcbe2eb5e139b17608148b8fb14/notes_pre_post/1040g3k831pe6jgu82gdg5omtd78nqk5duv3uoa8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091018/0e6d1aca43f736801451495adc01daea/notes_pre_post/1040g3k831pe6jgu82gf05omtd78nqk5d2v04ujo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091018/6ef1cfbbc5580b39b97f611a9870ce40/notes_pre_post/1040g3k831pe6jgu82gfg5omtd78nqk5d5dsqo6o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091018/b867ac167a563df8b6a433e4c10e8ff6/notes_pre_post/1040g3k831pe6jgu82ggg5omtd78nqk5dqmacbqg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6929860a000000001f00df8f?xsec_token=ABsskDrQvBAwn3XkTida7WbEg2PU4lWNdzdEi9PAAhk40=&xsec_source=pc_collect"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "68e99bb3000000000302ccbc",
+  "type": "normal",
+  "title": "三维tensor在cv和nlp中本质上的统一",
+  "desc": "B: batch size，cv中是图片的张数，nlp中是文本段落的个数。\nC: channel，cv中是特征维度(比如RGB三个色层），nlp中是embedding的特征维度，可以统一理解为hidden dimension(n_layers)。\nS: sequence，cv中是像素点所在坐标的位置序列，总长度为照片的长乘宽；nlp中是所在文本含有token的总长度。\n这个本质上的统一使得一系列机器学习模型可以跨应用领域完美配适CV和NLP。\n#说人话解释机器学习[话题]#",
+  "tags": [
+    "说人话解释机器学习"
+  ],
+  "author": "功夫海牛！",
+  "authorId": "5a869eb6e8ac2b44e68e1c3e",
+  "time": 1760140211000,
+  "ipLocation": "",
+  "likes": "2",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091117/e7eeb3d6019716444ffba3edf7e06130/notes_pre_post/1040g3k831nfp3n96mm8g4a1ga1fbc71u9fquo70!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68e99bb3000000000302ccbc?xsec_token=ABW62CIcS4MEsl7T_07WHhkivMQ3tiDJd2PaEeIupSuuk=&xsec_source=pc_collect"
+}

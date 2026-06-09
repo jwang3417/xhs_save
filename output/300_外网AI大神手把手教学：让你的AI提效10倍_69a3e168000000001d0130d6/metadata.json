@@ -1,0 +1,25 @@
+{
+  "id": "69a3e168000000001d0130d6",
+  "type": "video",
+  "title": "外网AI大神手把手教学：让你的AI提效10倍",
+  "desc": "真正值得深挖的是英文推特/X的技术区，尤其是AI圈的干货。svpino这位大神最近分享的一个7分多钟实战视频，直接把AI的信息获取能力拉到新高度\n✅给你的AI代理（他用的是Claude Code）装上“全网解析”能力，让它能直接从世界上任意网站抓取、理解并回答问题。信息处理从有限变成近乎无限，效用轻松提升10倍+。\n关键实现方式：\n- 基础：Claude Code（Anthropic的Claude系列在代理/代码任务上特别强）\n- 核心插件：Apify 的 agent-skills\n- 重点用“development skills”：现场构建一个actor，就能刮任意网站的数据。\n✅为什么靠谱？不是靠LLM直接瞎解析网页（容易大规模幻觉），而是：\n- 用确定性工具读取网页内容（稳定、可靠）\n- 再交给LLM做分析和理解（发挥LLM长处）\n- 即使处理几十上百页数据，也不会崩盘。Apify 有20年爬虫经验，这次结合AI做得非常专业。\n- 现成资源：Apify平台有海量actor模板可直接，挑合适的就能快速上手。\n实战效果：\n- 问任何实时/深度网页问题，不再受知识截止限制\n- 可以要求AI输出结构化数据（表格、JSON等），直接拿来用。\n想自己试的可以从Claude Code环境入手，集成Apify skills，然后直接prompt让它用工具刮指定站点或全网搜索。信息能力一旦解锁，用起来真的停不下来。\n有玩过的同学，欢迎评论区分享你的prompt或刮取场景，一起优化～🚀\n#AI人工智能[话题]# #ai[话题]# #Ai工具[话题]# #Claude[话题]# #AI提效[话题]# #AI大神[话题]# #LLM[话题]#",
+  "tags": [
+    "AI人工智能",
+    "ai",
+    "Ai工具",
+    "Claude",
+    "AI提效",
+    "AI大神",
+    "LLM"
+  ],
+  "author": "Funny ai",
+  "authorId": "5b5845f2e8ac2b59eb719c10",
+  "time": 1772347752000,
+  "ipLocation": "",
+  "likes": "241",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090934/33b07c750ac56809d571f2c4591fd867/1040g2sg31t5ndrgslk6g4a7gmj2v570gpg2r228!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e9a3e0dc45f4a6010370039ca829c8dd_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69a3e168000000001d0130d6?xsec_token=ABv8GIsDYxAs_ftFBY8J6lfQPKhhOZfjk26RBCB2yc3mg=&xsec_source=pc_collect"
+}

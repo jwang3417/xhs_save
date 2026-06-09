@@ -1,0 +1,25 @@
+{
+  "id": "68bea540000000001d020e3e",
+  "type": "normal",
+  "title": "搜索OneSearch技术讨论",
+  "desc": "搜索首个端到端生成式模型OneSearch上线啦！[派对R][派对R]\n\t\n作为论文的一作与通讯，首先也是与发布OneSug一样的回应：效果都是保真的哈，在线效果、GSB评测、case分析、各维度下钻，我们都做了详细分析。并在docs上公开了LR文档，快手内部同学欢迎随时审阅。\n\t\n另外，搜索上做端到端，最核心的问题就是相关性，因此对齐思路是贯彻始终的。论文里讲了很多tips，也都是在为对齐、偏好学习做准备。OneSearch\n还有很多不完善的地方，希望各位大佬不吝赐教，共同进步。\n\t\n最后，我们团队会始终保持“开放、共享”的互联网思维，近期会先将OneSug核心代码开源，也希望大佬们能够多多指教[抱拳R][抱拳R]\n#OneSearch[话题]# #OneSug[话题]# #端到端生成式[话题]# #AI搜索[话题]#",
+  "tags": [
+    "OneSearch",
+    "OneSug",
+    "端到端生成式",
+    "AI搜索"
+  ],
+  "author": "flightless_pig",
+  "authorId": "654c66b9000000000301d81a",
+  "time": 1757324608000,
+  "ipLocation": "",
+  "likes": "393",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091158/2799990952bb7fd396c472d4b0fbe2bf/1040g00831m5rhhnqlm005paccqsgrm0qqrl7uoo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091158/725d7893a6729a91117bc8d53cc09030/1040g00831m5rhhnqlm0g5paccqsgrm0q3upou58!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091158/e8d7bca48f8531a6021e79be0097841b/1040g00831m5rhhnqlm105paccqsgrm0ql14bbro!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091158/15f7e7dcaf8cc4a27f9c4ac44e8cb830/1040g00831m5rhhnqlm1g5paccqsgrm0qshovtco!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68bea540000000001d020e3e?xsec_token=ABJNhUbulr7tcn30Gn_Hr3ovYFO7g9kzLzlwe6iMnp5og=&xsec_source=pc_collect"
+}

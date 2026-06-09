@@ -1,0 +1,5 @@
+扩散模型新突破 离散编码惊艳表现
+
+今天给大家介绍一篇关于扩散模型的新研究——Discrete Latent Codes (DLCs)。这项技术为扩散模型提供了一种离散表示方法，在无条件图像生成任务上取得了SOTA效果（ImageNet FID 1.59），同时支持组合式生成，并能与LLM结合使用。
+作者推推: Samuel Lavoie
+参考地址: https://x.com/lavoiems/status/1947666680760410393

@@ -1,0 +1,10 @@
+三维tensor在cv和nlp中本质上的统一
+
+B: batch size，cv中是图片的张数，nlp中是文本段落的个数。
+C: channel，cv中是特征维度(比如RGB三个色层），nlp中是embedding的特征维度，可以统一理解为hidden dimension(n_layers)。
+S: sequence，cv中是像素点所在坐标的位置序列，总长度为照片的长乘宽；nlp中是所在文本含有token的总长度。
+这个本质上的统一使得一系列机器学习模型可以跨应用领域完美配适CV和NLP。
+#说人话解释机器学习[话题]#
+
+
+标签: #说人话解释机器学习

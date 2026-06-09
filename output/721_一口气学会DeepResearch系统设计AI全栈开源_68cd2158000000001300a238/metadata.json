@@ -1,0 +1,17 @@
+{
+  "id": "68cd2158000000001300a238",
+  "type": "video",
+  "title": "一口气学会DeepResearch系统设计AI全栈开源",
+  "desc": "这期视频我打算开源自制的 AI深度研究系统设计 和 全栈代码库。视频里演示了 Kimi K2 0905、Claude-4、GPT-5 这三大模型在这个系统里的表现，AI在深度研究后还可以直接把研究结果导到 Google Docs。不搞概念, 硬核全栈全面上线, 供大家评测和讨论.\n\t\n系统基于 LangChain的Open Deep Research，我做了以下改进：\n- 支持流式输出，研究过程可以实时显示在前端\n- 后端是 FastAPI Python，前端是 NextJS，部署在 Google Cloud\n- 代码完全开源，大家都能用\n\t\n代码地址：\nBackend: https://github.com/ShenSeanChen/yt-DeepResearch-Backend\nFrontend: https://github.com/ShenSeanChen/yt-DeepResearch-Frontend\nKimi-Claude: https://github.com/ShenSeanChen/yt-kimi-k2-claude\n\t\nYou can build anything. You can learn anything. 💪",
+  "tags": [],
+  "author": "肖恩君Sean",
+  "authorId": "5cf02cfb0000000005014371",
+  "time": 1758273880000,
+  "ipLocation": "",
+  "likes": "636",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091154/104e6c876720657e4f6962ae0eec6b7b/spectrum/1040g34o31mk01on1l20g5n7g5jthagrhk85725o!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/114/01e8cd21581cd6194f0370019961562fd3_114.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68cd2158000000001300a238?xsec_token=ABJjjUhUZq-i11SAejRBwlCMD8qMFUCTzUFBWQmNTIdVo=&xsec_source=pc_collect"
+}

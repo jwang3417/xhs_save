@@ -1,0 +1,30 @@
+{
+  "id": "6997fa2f000000000d00b650",
+  "type": "normal",
+  "title": "🤖具身｜为什么VAM 比 VLA 更有前途",
+  "desc": "👋大家好，我是风啸。今天聊聊为什么我觉得VAM（Video Action Model）比VLA更有前途[微笑R]\n\t\nVLA大家都很熟悉了，就不多介绍。VAM以mimic-video为代表，核心就两个生成模块：一个是视频骨干，输入视频+语言条件，规划未来的视频帧；另一个是action decoder，基于规划画面做逆动力学变换，输出机器人能执行的控制动作。\n\t\n论文里常说，VAM的优势在于用视频预训练，天然包含物理动力学和时序依赖，这点我认同，但我觉得它真正的潜力不止于此。\n\t\n在我看来，VAM 厉害的不是“用了视频”，而是先建模观测，再建模动作[哇R]很多VLA也能输多帧视频，但本质还是只在建模动作，默认世界是静态的、观测是固定的，动作只是输出。就算是基于流和扩散的VLA，能处理多模动作分布，也只是承认“有多个合理动作”，从来没想过：是不是应该先改变自己看到的东西[doge]\n\t\n这一点其实特别关键。就像蚂蚁的Lingbot-Depth所揭示的，真实世界的观测存在遮挡、反光、透明物体，传感器往往读不准。像它硬解是一条路，但从 first principle 看，人看不清的时候，会先绕一绕、换个角度，先把环境看清楚再动手。很多任务的瓶颈根本不是选哪个动作，而是能不能先降低观测的歧义、噪声和不确定性。\n\t\nVAM的视频主干，正好让这种“试探”成为可能[点赞R]当直接生成稳定动作不靠谱时，它可以先猜测各种试探后的观测结果，根据不确定性下降的程度来选择动作。这时候，动作不再只是执行工具，而可以是信息采集的手段。\n\t\n这其实是范式级别的改变[偷笑R]传统VLA是在给定观测下去优化决策，而VAM开始让系统主动优化观测本身。一个是在不确定性里硬选最优动作，更像本能反射；一个是先主动消除不确定性，更接近真正的思考。\n\t\n如果一个系统不能主动改变观测条件，它永远只能在歧义里做统计匹配；只有当它能通过动作塑造下一步的观测，才算真正走进闭环智能。在我眼里，这才是VAM真正的意义吧[色色R]\n\t\n#具身[话题]# #机器人[话题]# #小红书科技AMA[话题]# #科研干货[话题]# #VLM[话题]# #VLA[话题]# #VAM[话题]# #灵波[话题]# #世界模型[话题]# #diffusion[话题]#",
+  "tags": [
+    "具身",
+    "机器人",
+    "小红书科技AMA",
+    "科研干货",
+    "VLM",
+    "VLA",
+    "VAM",
+    "灵波",
+    "世界模型",
+    "diffusion"
+  ],
+  "author": "具身薯风啸",
+  "authorId": "5e047e5600000000010059fd",
+  "time": 1771567663000,
+  "ipLocation": "",
+  "likes": "812",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090935/814bc75d1d28c11ccedf133ce98d9d02/1040g2sg31sq36ls75k805ng4fpb08mftq4ighhg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/c6200a1daefa12439c8ccda0bb56d48a/1040g2sg31sq36ls75k7g5ng4fpb08mftn90ro48!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/e09d7d8efdb9faae1801466db4c7f176/1040g2sg31sq36ls75k705ng4fpb08mfthdalkk8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6997fa2f000000000d00b650?xsec_token=ABfbaojZDehDIEakIJXjwI54GXAR3quqwuq-E6yViYK6c=&xsec_source=pc_collect"
+}

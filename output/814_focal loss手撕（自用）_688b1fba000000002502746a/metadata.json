@@ -1,0 +1,28 @@
+{
+  "id": "688b1fba000000002502746a",
+  "type": "normal",
+  "title": "focal loss手撕（自用）",
+  "desc": "上个帖子整理了一下Adam和AdamW，这个记录一下focal loss手撕。见图片\n\t\n#面试题[话题]# #面试手撕[话题]# #我的学习进化论[话题]# #计算机面试[话题]# #实习[话题]# #面经[话题]# #面试技巧[话题]#",
+  "tags": [
+    "面试题",
+    "面试手撕",
+    "我的学习进化论",
+    "计算机面试",
+    "实习",
+    "面经",
+    "面试技巧"
+  ],
+  "author": "一只站立的躺狗",
+  "authorId": "6225ae3400000000210258e2",
+  "time": 1753948090000,
+  "ipLocation": "",
+  "likes": "106",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091320/24b4e0e4b36b7f25ba6d2ca2964cecff/1040g00831kjhpr0dia6g5oh5loq8cm720mrnja0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091320/78710ad10c89888bd64b5b29b87fac68/1040g00831kjhpr0dia605oh5loq8cm72n745cf8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091320/eb6f3ab1304c9cd1bc8ec098e50715ad/1040g00831kjhpr0dia5g5oh5loq8cm72hef9oao!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091320/4c70e6463df90372504990eeb8e43218/1040g00831kjhpr0dia4g5oh5loq8cm72v9tvri8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/688b1fba000000002502746a?xsec_token=ABlIgiD_N3RQR-GMglSsohe7y3WI5-9y3V3m6OFrEjhyM=&xsec_source=pc_collect"
+}

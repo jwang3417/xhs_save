@@ -1,0 +1,3 @@
+今天才刚在 arXiv 公开。算的上简单高效，也算卷出了一种全新的范式，打破了过往vision-language zero-shot AD （至少几十篇顶会顶刊）要靠text prompt 或 text encoder 作为纽带的传奇。
+	
+interesting and beautiful. 大道至简！

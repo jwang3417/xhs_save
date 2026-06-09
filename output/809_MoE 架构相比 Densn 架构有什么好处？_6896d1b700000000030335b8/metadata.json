@@ -1,0 +1,30 @@
+{
+  "id": "6896d1b700000000030335b8",
+  "type": "normal",
+  "title": "MoE 架构相比 Densn 架构有什么好处？",
+  "desc": "1.Dense 模型与 MoE 模型加载所需的显存是一样的，只是每个 token 的计算量不一样\n\t\n2.MoE 架构最大的优点就是减少计算量。实际中比如 qwen 有 64 个专家，每次只激活4个，如果用 dense 架构每次 64 个专家都需要被激活工作，现在使用 MoE 仅需要 4 个被激活，所以可以大大加快大模型的推理速度\n\t\n﻿#算法[话题]#﻿ ﻿#大模型[话题]#﻿ ﻿#人工智能[话题]#﻿ ﻿#互联网大厂[话题]#﻿ ﻿#小米[话题]#﻿ ﻿#MoE架构[话题]#﻿ ﻿#全连接层[话题]#",
+  "tags": [
+    "算法",
+    "大模型",
+    "人工智能",
+    "互联网大厂",
+    "小米",
+    "MoE架构",
+    "全连接层"
+  ],
+  "author": "AI有温度",
+  "authorId": "6416aa61000000001201071b",
+  "time": 1754714551000,
+  "ipLocation": "",
+  "likes": "222",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091319/c7035fd8b178f4d22ebcd9b8d4948fee/spectrum/1040g34o31l2u3nsuj6105p0ml9gki1ord81ln78!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091319/3423a794d07d83aea2bb23a844f13c1d/spectrum/1040g34o31kuv9hid2g6g5p0ml9gki1orqk6ku5o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091319/68f067c37c62ccacbd61f51268639405/spectrum/1040g34o31kuv9hid2g705p0ml9gki1or3ah4if8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091319/e82e4ed7da02af8c1c1f686755fa442e/spectrum/1040g34o31kuv9hid2g7g5p0ml9gki1orspok2ko!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091319/2403f16a9442b6a1ece47d1456aff3c9/spectrum/1040g34o31kuv9hid2g805p0ml9gki1orpg11lt0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091319/38c354785f8d4680e8e7fdc2ca89b3eb/spectrum/1040g34o31kuv9hid2g8g5p0ml9gki1or1tc7ne8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6896d1b700000000030335b8?xsec_token=ABrOCZD-5Ouc-RCYQ5gZ4MigG8-AlQ9bvAjF_9kHd9PkQ=&xsec_source=pc_collect"
+}

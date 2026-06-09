@@ -1,0 +1,28 @@
+{
+  "id": "6831468c0000000022028e09",
+  "type": "normal",
+  "title": "扩散=流匹配？DeepMind终于把它俩讲明白了！",
+  "desc": "扩散模型（Diffusion）和流匹配（Flow Matching）这两年大火，但你是不是一直在纠结：\n到底选哪个框架训练？谁采样更快？结构生成用哪个更好？\n📣DeepMind 直接打消疑惑：《Diffusion Meets Flow Matching》\n🧠核心观点：Diffusion模型 + DDIM采样器 = Flow Matching + Euler采样器\n✅ 两者本质上等价，只是换了“输出变量”和“调度表”的外衣！\n\t\n🔍关键对比点：它俩到底有多像？\n📌1⃣ 相同的前向过程：\n当 Flow Matching 的起点是高斯分布，且 Diffusion 采用 FM调度，两者前向过程完全一致。\n📌2⃣ 一样的采样机制：\n都是每一步预测“干净数据”并往前推一小步。\n实际数学公式一对比就会发现：\nDDIM的采样过程 = Flow Matching的欧拉近似解！\n📌3⃣ 采样路径并不更直！\n常说 Flow Matching 更“直”，其实这只是对单点预测模型才成立。\n真实数据是分布，路径弯不弯要看噪声调度和模型表现。\n\t\n🧪训练阶段也能对齐？\n✅ 是的。Diffusion 和 Flow Matching 在训练目标上也几乎是 MSE loss + 权重函数 的组合：\n📌Flow Matching 的损失权重 ≈ Diffusion 的 v-MSE + cosine noise schedule\n\t\n⚡Flow Matching两个创新：\n1. 输出向量场（vector field）作为网络输出\n介于 x̂ 和 ε̂ 之间，数值稳定性好，适合高阶采样器\n2. 更简单的 noise schedule\nFlow Matching 默认用 α=1−t, σ=t 的线性调度\n方便采样轨迹控制，减少误差累积\n\t\n📚原文链接：https://diffusionflow.github.io/\n🧬推荐结构建模/蛋白设计人群也关注起来，因为 Flow Matching 已经开始出现在 SE(3)架构里了！\n🌱关注我，持续分享基于扩散和流匹配的蛋白质设计方法。\n\t\n#AI[话题]# #生物[话题]# #人工智能[话题]# #deepmind[话题]# #蛋白质设计[话题]# #研究生[话题]# #计算机[话题]# #科研[话题]# #研究生日常[话题]# #实验[话题]#",
+  "tags": [
+    "AI",
+    "生物",
+    "人工智能",
+    "deepmind",
+    "蛋白质设计",
+    "研究生",
+    "计算机",
+    "科研",
+    "研究生日常",
+    "实验"
+  ],
+  "author": "BioDesign",
+  "authorId": "6098dc590000000001003e70",
+  "time": 1748059788000,
+  "ipLocation": "",
+  "likes": "425",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091344/49974eb866968d2606b8a41e695aa59c/notes_pre_post/1040g3k031hrp5ii6j82g5o4orhcg8fjg8cjplq0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6831468c0000000022028e09?xsec_token=ABrsYe134mpCHwDQjDKSM4CsEBve97O74vHILJ0YpqUhY=&xsec_source=pc_collect"
+}

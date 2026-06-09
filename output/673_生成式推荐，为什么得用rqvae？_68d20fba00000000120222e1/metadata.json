@@ -1,0 +1,31 @@
+{
+  "id": "68d20fba00000000120222e1",
+  "type": "normal",
+  "title": "生成式推荐，为什么得用rqvae？",
+  "desc": "也不止是rqvae，只能说生成式推荐主流的分词器之一，下篇文章讲一下rqkmeans，后面开始讲各家的论文，会尝试用简单的数据手撕一下代码，(ps最近又开始工作了，更新速度可能会慢一点，争取一周一更这种有意思高质量一点的贴子)，话不多说。\n\t\n上篇文章没讲清楚损失函数的设计部分，这里讲清楚了一下。\n\t\n另外补充一下rqvae的一些好处\n\t\nRQ-VAE将高维、稀疏、无结构的物品ID世界，“翻译”成了低维、密集、富含语义、具有层次结构的Token序列世界。\n我们可以将LLM4Rec的流程想象成这样：\n1. 编码阶段（RQ-VAE）：使用RQ-VAE作为“感知器”，将世界上的所有物品（及其内容）翻译成一种LLM能懂的“语言”——一种由离散、层次化Token构成的“语言”。\n2. 推理与生成阶段（LLM）：LLM扮演“大脑”的角色，它精通这种新语言。它阅读用户的历史（一段由物品Token序列组成的“故事”），然后运用其强大的序列建模能力，续写这个故事，预测下一个最合理的Token序列。\n3. 解码阶段：将LLM预测出的Token序列，通过RQ-VAE的解码器映射回具体的物品，完成推荐。\n而这个“翻译后的世界”正是LLM所熟悉和擅长的领域。因此，RQ-VAE成功地弥合了传统推荐系统与生成式大语言模型之间的鸿沟，使得LLM强大的序列建模和生成能力能够被直接、高效地应用于推荐任务，这就是它成为LLM4Rec关键技术的原因。\n\t\n#算法[话题]# #生成式推荐[话题]# #推荐算法[话题]# #搜广推[话题]# #机器学习[话题]# #搜广推算法[话题]# #推荐算法面试[话题]#",
+  "tags": [
+    "算法",
+    "生成式推荐",
+    "推荐算法",
+    "搜广推",
+    "机器学习",
+    "搜广推算法",
+    "推荐算法面试"
+  ],
+  "author": "momo",
+  "authorId": "66a083ff000000000b0304d6",
+  "time": 1758597050000,
+  "ipLocation": "",
+  "likes": "153",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091145/3ac7153866acd4ef37837fa56797c659/1040g00831moql607ku4g5pl0gfviu16mi4m2cb8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091145/4788ed507b6f9057ebf51b2869d47340/1040g00831moql607ku205pl0gfviu16mpj2fr1g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091145/1d749df65c0dd6df5bd8ed1e13522dfb/1040g00831moql607ku5g5pl0gfviu16m74ka678!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091145/b795c072d797de2f63a3651e6f3c72d2/1040g00831moql607ku1g5pl0gfviu16m0sf0vh0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091145/5088208614ea78afe2d71589aaef39f2/1040g00831moql607ku105pl0gfviu16m3t1kleo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091145/775ed8d5c699c17a6e3fd4ef2be477bb/1040g00831moql607ku2g5pl0gfviu16mquse6r0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091145/efa709ce4ed421f534e193018978d788/1040g00831moql607ku305pl0gfviu16mj8f1oc8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68d20fba00000000120222e1?xsec_token=ABl_L4NqPdXb4HnJagpSMBZjvfCbvp96zNVL9F62fq_Vg=&xsec_source=pc_collect"
+}

@@ -1,0 +1,12 @@
+多智能体“并行推理”的故事应该是这样的
+
+o1-pro,  o3-pro 应该就是Muti agents 的 Parallel Thinking， 因为它们在价格上是 o1, o3 的十倍， 与 Grok 4 Heavy 是 Grok 4 的十倍的计算量相对应。
+	
+所以，早在2024，12， OpenAI 就已经做出了 Parallel Thinking。 OpenAI 的推出后，那些做大模型的公司应该都能猜到这里面的原理。 然后，才有 2025，05 谷歌展示的 gemini deep think， 接着，才是xAI 疯狂加班赶出来的 Grok 4 Heavy。
+	
+与模型训练数据，参数规模一样，推理时的计算量也模型的另外一个 scaling law 有效的维度。 十倍计算量正好对应幂律增长的一个有效量级， Grok 4 Heavy 的 4 并发差不多就是 10 倍计算量。
+	
+#ai[话题]# #llm[话题]# #AGI[话题]# #ASI[话题]# #大模型研究[话题]#
+
+
+标签: #ai #llm #AGI #ASI #大模型研究

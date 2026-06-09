@@ -1,0 +1,32 @@
+华中科大-大模型后训练调研报告
+
+关于后训练的综述论文讲解，不过像作者在开头说的，时间太短讲的不够深，要个后训练概要了解可以看看。
+	
+1. Post-Training 总体图景
+5部分（Fine-Tuning、Alignment、Reasoning、Efficiency、Adaptation）
+2. 技术发展脉络
+回顾2018-2025关键节点：BERT/GPT 预训练+微调 → RLHF催生ChatGPT → 深层推理、多模态与MoE兴起。
+3. Fine-Tuning
+•监督微调（SFT）：用高质量问答/指令数据把通用模型转向专业模型。
+•强化微调：在SFT基础上用RL结合奖励进一步优化。
+4. Alignment
+•RLHF：人类排序生成偏好数据 → 训练奖励模型 → RL优化策略。
+•DPO：跳过奖励模型，直接用偏好对优化策略。
+5. Reasoning 提升
+四类Self-Refine：
+•内部自反馈
+•外部工具自反馈
+•上述两种的微调版本
+6. Efficiency 优化
+•模型压缩：量化、剪枝。
+•PEFT：Adaptive / Selective / Re-parameter 三类少参微调。
+•知识蒸馏：DeepSeek R1等示例表明KD重新受关注。
+7. Integration & Adaptation
+•多模态集成：按模态设编码器+连接器实现联合推理。
+•Model Merge：权重级、输出级、模型级（如 MoE）组合。
+•RAG：检索增强生成缓解幻觉与过时信息，实现领域适配。
+	
+#大模型[话题]# #后训练[话题]# #强化学习[话题]##推理模型[话题]#
+
+
+标签: #大模型 #后训练 #强化学习 #推理模型

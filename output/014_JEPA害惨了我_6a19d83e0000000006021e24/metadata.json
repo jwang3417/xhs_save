@@ -1,0 +1,21 @@
+{
+  "id": "6a19d83e0000000006021e24",
+  "type": "normal",
+  "title": "JEPA害惨了我",
+  "desc": "有没有人觉得向jepa引入动力学方程很矛盾的一点在于：潜向量Zt只由当前观测ot得到，这就说明不可能从Zt中拿到运动的物理量（速度、加速度），但是如果让Zt由前几步和当前观测得到，那它就不是单纯encoder了还承担了一部分的predictor功能，与单纯对观测编码的设计不合\n#世界模型[话题]# #JEPA[话题]# #我不能理解[话题]#",
+  "tags": [
+    "世界模型",
+    "JEPA",
+    "我不能理解"
+  ],
+  "author": "止雨",
+  "authorId": "64c0d8b6000000001403eec3",
+  "time": 1780078654000,
+  "ipLocation": "美国",
+  "likes": "265",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090701/7fd04570b4e9c4ee8752649cb8649141/notes_pre_post/1040g3k8320otdl6h5s7g5p60r2r57rm3fdil7ro!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a19d83e0000000006021e24?xsec_token=ABAXnnN-omZQUnF4Jn0bYdtd1HVCMJqrqZG3YxtAOojcU=&xsec_source=pc_collect"
+}

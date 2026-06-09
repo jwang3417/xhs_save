@@ -1,0 +1,28 @@
+{
+  "id": "6961ffab000000002103f07e",
+  "type": "video",
+  "title": "LLM论文解读｜K3 in Loss 用错了！",
+  "desc": "📑 本次云组会论文： A Comedy of Estimators: On KL Regularization in RL Training of LLMs\n\t\n💡 TL;DR：系统研究了RL 训练中 KL 散度估算器的“放置位置”对性能的影响 。结论： 绝大多数常用配置（包括 GRPO 默认配置）都会导致梯度偏差 ，而使用无偏梯度配置（如 K1-in-reward）能显著提升模型在推理任务上的内外推泛化性能 。\n\t\n✍🏻 作者+单位： Vedant Shah¹'², Johan Obando-Ceron¹'², Vineet Jain¹'³, Brian Bartoldson⁴, Bhavya Kailkhura⁴, Sarthak Mittal¹'², Glen Berseth¹'²'⁷, Pablo Samuel Castro¹'², Yoshua Bengio¹'²'⁴'⁷, Nikolay Malkin⁶'⁸, Moksh Jain¹'², Aaron Courville¹'²'⁷, Siddarth Venkatraman¹'²\n（共同一作；¹Mila - Québec AI Institute, ²Université de Montréal, ³LawZero, ⁴LLNL, ⁶McGill University, ⁷CIFAR Fellow/AI Chair, ⁸University of Edinburgh）\n\t\n💭 这篇论文是一篇极具实用价值的“排雷”指南，揭示大模型 RL 训练中长期被忽视的数学陷阱：\n\t\n[一R]纠正流行错误： 明确指出如 GRPO 等流行算法将 KL 直接放入 Loss（K3-in-loss）虽然训练稳定，但在数学上是有偏的，本质上执行的是 token 级别的知识蒸馏 。\n[二R]训练稳定性的真凶： 解释了为何某些配置会导致模型崩溃或训练不稳定，根源在于梯度估算引入了巨大的偏差与方差 。\n[三R]性能提升的钥匙： 实证表明，切换到无偏梯度配置（如 K1-in-reward 或同时在 Reward 和 Loss 中添加 KL），能显著增强模型在数学推理任务上的 OOD（分布外）泛化能力 。\n\t\n#ai[话题]# #大模型[话题]#  #科研[话题]#  #学术[话题]# #deepseekr1[话题]# #强化学习[话题]##论文复现[话题]# #组会[话题]# #图灵奖[话题]# #带你一起读论文[话题]#",
+  "tags": [
+    "ai",
+    "大模型",
+    "科研",
+    "学术",
+    "deepseekr1",
+    "强化学习",
+    "论文复现",
+    "组会",
+    "图灵奖",
+    "带你一起读论文"
+  ],
+  "author": "根思喵教授",
+  "authorId": "65465f81000000000301f9bd",
+  "time": 1768030123000,
+  "ipLocation": "",
+  "likes": "978",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090946/aa628df7d9e1cf240f4e4ab7c60e9706/spectrum/1040g34o31r5b2tjrn4105pa6bu0grudt34hghbo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e961ffacec7e84010370039ba6cf382c_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6961ffab000000002103f07e?xsec_token=AB-8EnQBqqgz7_XQ4zbDyzen9L__a7yNypfh0wBIs9Kyk=&xsec_source=pc_collect"
+}

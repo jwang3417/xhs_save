@@ -1,0 +1,33 @@
+{
+  "id": "69aa2eb1000000001b015413",
+  "type": "normal",
+  "title": "阿里：推荐系统Transformer化，实现SOTA",
+  "desc": "工业推荐系统中的排序模型长期依赖 DIN、DeepFM、DCN 等结构化网络，但这些模型难以扩展、难以充分利用现代计算硬件。论文提出 SORT（Systematically Optimized Ranking Transformer），尝试用 Transformer 统一工业级推荐排序模型，并针对推荐系统特有的 高特征稀疏、低标签密度 问题进行系统优化，实现更强的扩展性与更高的业务收益。\n核心亮点：\n请求级样本组织： 将传统“单候选样本”改为“请求级样本”，一次处理多个候选商品，避免重复计算用户特征，提高训练和推理效率。\n局部注意力 + Query剪枝： 对用户长行为序列采用局部注意力，并逐层剪枝远离候选商品的 token，将复杂度从 O(L²) 降到 O(L)，显著减少计算开销。\n生成式预训练缓解稀疏问题： 先用“下一商品预测”预训练商品 embedding，再迁移到排序模型并冻结参数，提高标签密度并减少过拟合。\n排序版 Transformer结构优化： 加入特殊 token、QKNorm、Attention Gate 与 Sparse MoE，提高训练稳定性与模型容量。\n推荐系统可扩展架构： 模型在数据规模、序列长度、参数规模上都表现出稳定的 scaling law，可持续提升效果。\n\t\narXiv：2603.03988\n\t\n#推荐系统[话题]# #工业AI[话题]# #transformer[话题]# #电商推荐[话题]# #排序模型[话题]# #CTR预测[话题]# #阿里巴巴[话题]# #深度学习[话题]# #MoE模型[话题]# #算法工程[话题]#",
+  "tags": [
+    "推荐系统",
+    "工业AI",
+    "transformer",
+    "电商推荐",
+    "排序模型",
+    "CTR预测",
+    "阿里巴巴",
+    "深度学习",
+    "MoE模型",
+    "算法工程"
+  ],
+  "author": "每日ComputerScience",
+  "authorId": "677419a40000000015005599",
+  "time": 1772796621000,
+  "ipLocation": "",
+  "likes": "131",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090933/2e0809e80fcff6f970c7a7d43612686f/spectrum/1040g34o31tbscs07l68g5prk36i58lcpatk1rvg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090933/d4c12d94a888dbebb5ecce5c0e686352/spectrum/1040g34o31tbscs07l6805prk36i58lcp8dp4gu8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090933/8c854a66aa5a1c99bb2f68c7a0f3c744/spectrum/1040g34o31tbscs07l67g5prk36i58lcp88cjpj8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090933/9545dfec449c9fdbd5bd478d06e53430/spectrum/1040g34o31tbscs07l6705prk36i58lcpgk0cs9o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090933/bbac7a1fdf436be7b4bde6b98a9fb05d/spectrum/1040g34o31tbscs07l66g5prk36i58lcp6q5pi6g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090933/5324e39d920f3f97bb38064b443bfc57/spectrum/1040g34o31tbscs07l6605prk36i58lcph5ddhm8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69aa2eb1000000001b015413?xsec_token=ABXOkAAxTLmYFBAjUwagJTHkzihMGKzJJtkgUTOwsJtao=&xsec_source=pc_collect"
+}

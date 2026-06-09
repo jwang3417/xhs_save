@@ -1,0 +1,21 @@
+{
+  "id": "68457fc4000000000c039847",
+  "type": "video",
+  "title": "DeeSeek NSA原作介绍论文-智源大会2025",
+  "desc": "智源大会深度推理模型专场精选视频。\n\t\n北大袁博士介绍在DeepSeek实习期间的工作，大家可以先去看看论文，再来看视频。\n\t\nNative Sparse Attention (NSA)框架，以三分支结构（全局压缩、关键块选择、滑动窗口）原生稀疏化注意力，端到端可训练；\n\t\n讲了个论文外的技术点：Tile Lang kernel比Triton的更快。\n\t\nNSA 在64K上下文下前向、反向、解码分别较Flash Attention 2提速约9×、6×、11×，且在通用能力、长文本理解和复杂推理任务上整体优于全注意力模型。\n\t\n作者在最后问答阶段回答了和MLA结合的问题：可和DeepSeek MLA 等机制结合，但要做一些仔细的改造。\n\t\n#大模型[话题]# #deepseek[话题]# #智源大会[话题]#",
+  "tags": [
+    "大模型",
+    "deepseek",
+    "智源大会"
+  ],
+  "author": "一蛙",
+  "authorId": "607c6b9f0000000001000330",
+  "time": 1749385156000,
+  "ipLocation": "",
+  "likes": "1,383",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091343/cdb621203d66baca98267045b0c7e052/1040g00831ifgfmns08005o3sdefg80pgia2mv60!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/1/110/259/01e8457fc4135a6d01037003974f802873_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68457fc4000000000c039847?xsec_token=ABikxf-wtoTGWbaf2YNtDjUPfLPnhMHfo4nmyxopvEDU8=&xsec_source=pc_collect"
+}

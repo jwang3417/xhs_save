@@ -1,0 +1,36 @@
+{
+  "id": "688b0cf30000000002001032",
+  "type": "normal",
+  "title": "",
+  "desc": "ICML 2025 | 何恺明团队：高压缩的Tokenizer，无需训练就能图像生成和编辑！\n\t\n近年视觉生成领域，传统的生成模型（如 GAN、扩散模型）均依赖大规模训练与复杂的迭代过程。\n\t\n而在 2025 年 ICML 大会上，Lao Beyer 等提出的 TiTok 1D Tokenizer 技术却展示了惊人的“零训练”生成与编辑能力：仅通过对 1D 离散 token 的测试时梯度优化，就能实现从 inpainting、文本引导编辑到从零生成高质量图像。\n\t\n本文《Highly Compressed Tokenizer Can Generate Without Training》首次系统揭秘了 高度压缩的 1D 图像 token 表示如何蕴含丰富的语义与生成能力，为后续无监督、低成本的图像生成开辟了全新方向，具有重要的学术与工程价值。\n﻿#视觉生成[话题]#﻿ ﻿#计算机视觉[话题]#﻿ ﻿#GAN[话题]#﻿ ﻿#扩散模型[话题]#﻿ ﻿#何恺明[话题]#﻿ ﻿#人工智能[话题]#﻿ ﻿#论文[话题]#﻿",
+  "tags": [
+    "视觉生成",
+    "计算机视觉",
+    "GAN",
+    "扩散模型",
+    "何恺明",
+    "人工智能",
+    "论文"
+  ],
+  "author": "AI前沿速递",
+  "authorId": "6708e923000000001d0317b2",
+  "time": 1753943283000,
+  "ipLocation": "",
+  "likes": "210",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091323/e69e38d9ce04876ddc3ba9d0e83ab5f9/spectrum/1040g34o31kjfglon3qhg5po8t4hne5ti7q0b1t0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091323/1d5ed0cd95a9cf663fa17f7e9c2fdd4f/spectrum/1040g34o31kjfglon3qc05po8t4hne5tid07h5lg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091323/98d2039e4f3cb7996a228d3d047a10af/spectrum/1040g34o31kjfglon3qcg5po8t4hne5tiggdrds0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091323/57f1390ba0585a36fd45a2ca23dc5e0d/spectrum/1040g34o31kjfglon3qd05po8t4hne5ti2itu8u8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091323/9ff6bfc746a6d3f0648c896950fc0c1d/spectrum/1040g34o31kjfglon3qdg5po8t4hne5ti2loi78g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091323/c7786721ae7d728514f120c752686f5e/spectrum/1040g34o31kjfglon3qe05po8t4hne5ti1qa7e8o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091323/14c7316f761c8722cd7d3a6749f70e24/spectrum/1040g34o31kjfglon3qeg5po8t4hne5tigskieh8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091323/89d2f3217a1fdfdaddd8ca5f83a8f06a/spectrum/1040g34o31kjfglon3qf05po8t4hne5tits7am80!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091323/365ef97dd19e18666fd8104621160524/spectrum/1040g34o31kjfglon3qfg5po8t4hne5tip7kkkko!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091323/698157d66b86893e021942deb8ba2390/spectrum/1040g34o31kjfglon3qg05po8t4hne5ti39o70u0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091323/c694b18d5363b2265597d710465498ed/spectrum/1040g34o31kjfglon3qgg5po8t4hne5timqape6o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091323/9a1e765298958cbf535e0e6969e19764/spectrum/1040g34o31kjfglon3qh05po8t4hne5ti33kj0v0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/688b0cf30000000002001032?xsec_token=ABlIgiD_N3RQR-GMglSsohezs6EeySidJnzQ6mP51UsZ4=&xsec_source=pc_collect"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "6a150695000000000702b6c5",
+  "type": "normal",
+  "title": "Transformer面试:注意力后面为什么加FFN？",
+  "desc": "🤔Transformer面试被问\"FFN为什么加在注意力后面\"怎么答？\n\t\n1️⃣ FFN = 两层全连接 + GELU激活，对每个token独立做非线性变换\n2️⃣ Attention先开全员大会交流信息 → FFN再让每个人回工位独立思考\n3️⃣ 顺序绝不能反：先FFN后Attention = 还没交流就瞎加工，全局信息全浪费\n4️⃣ FFN内部先升维4倍(512→2048)给变换空间，再降维回来——像吸气再呼出\n\t\n面试三层递进回答：定义分工→内部机制→顺序必然性📝 #LLM[话题]# #大模型入门[话题]# #大语言模型[话题]# #大模型面试[话题]# #归一化[话题]# #ai入门[话题]# #深度学习[话题]# #卷积神经网络[话题]# #attention[话题]#",
+  "tags": [
+    "LLM",
+    "大模型入门",
+    "大语言模型",
+    "大模型面试",
+    "归一化",
+    "ai入门",
+    "深度学习",
+    "卷积神经网络",
+    "attention"
+  ],
+  "author": "盒子里的agent",
+  "authorId": "6a05633e0000000002001c01",
+  "time": 1779762837000,
+  "ipLocation": "浙江",
+  "likes": "85",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090709/5c9746d079c2946249431cc602cb2d0c/spectrum/1040g34o320k779qdle705qg5ccv0g701k99dmpg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/fe6444bf5a86afefeaab4c09f8fa5dc5/spectrum/1040g34o320k779qdle7g5qg5ccv0g701h9veke0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/12dbf0300c868bf8a3bf185539840a4d/spectrum/1040g34o320k779qdle805qg5ccv0g7018339lng!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/c022eeb4c2ed54830d1aee206cf8a1ba/spectrum/1040g34o320k779qdle8g5qg5ccv0g701nbbppp0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/5c6f4d73fac28e255440373ab419c953/spectrum/1040g34o320k779qdle905qg5ccv0g70102gou8g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/8a079c7021da7669f6589635ab74a2f5/spectrum/1040g34o320k779qdle9g5qg5ccv0g7016l79ad8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/78e3b907cbfdef5d2716a56ded482c38/spectrum/1040g34o320k779qdlea05qg5ccv0g7017jaqf9o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a150695000000000702b6c5?xsec_token=ABj5qS8UaWYRbS1dpUPxQBeNFl6WC3N0oElz6zBPR48OE=&xsec_source=pc_collect"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "69d3c47d000000001f0079e7",
+  "type": "video",
+  "title": "Transformer 核心的机制，终于有人讲清楚了",
+  "desc": "正文 终于把 Self-Attention 做成动画了[害羞R]。\n之前看论文总觉得\"注意力机制\"这几个字高大上但又说不清楚到底在干嘛。\n这个动画分四步：\n生成 Q、K、V\n计算注意力分数\nSoftmax 归一化\n加权求和\n看完应该能理解为什么 Transformer 能捕捉长距离依赖了。\n有问题的评论区问，看到会回。\n#大模型[话题]# #transformer模型[话题]#  #selfattention[话题]# #算法[话题]# #机器学习[话题]#",
+  "tags": [
+    "大模型",
+    "transformer模型",
+    "selfattention",
+    "算法",
+    "机器学习"
+  ],
+  "author": "一不小心学会了数学",
+  "authorId": "619883f40000000010009c62",
+  "time": 1775486077000,
+  "ipLocation": "",
+  "likes": "52",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091309/23ad1a03d0476c333a198bb77b0c53ec/spectrum/1040g0k031ukfrb0v2s005ocogfq41732nvrjubg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/79/110/259/01e9d3c31f3097e7010370039d6337d7d6_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69d3c47d000000001f0079e7?xsec_token=ABcHOIvsb2DeyXVeRhKsFdwR7Gv0VthC_CG1BBUmFYenI=&xsec_source=pc_collect"
+}

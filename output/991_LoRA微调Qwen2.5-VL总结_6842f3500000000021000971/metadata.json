@@ -1,0 +1,17 @@
+{
+  "id": "6842f3500000000021000971",
+  "type": "normal",
+  "title": "LoRA微调Qwen2.5-VL总结",
+  "desc": "终于微调得到了不错的效果，回顾这段时间真的好折磨，好在结果是可以的。\n以下是一些经验：\n①llama-factory默认只解冻llm，对于视觉任务的训练只解冻llm训练效果可能不太会提升。后面全部参数都解冻了指标涨了不少，也试过只解冻vit和adapter进行训练，效果也一般。\n②图像分辨率很重要，之前一直在100*100～200*200下的分辨率训练，但是分辨率太低是无法提取到图像细粒度特征的（血泪教训了）\n③case分析很重要，针对badcase进行分析，看看他们有没有什么共性问题，并针对性做整改。\n④数据质量也很重要，最后在进行case分析的时候发现数据有5%的标签是错的，但qwen预测对了，服了。。。\n⑤如果是自己写的评估脚本一定要看看自己的评估方式，脚本有没有问题，最后发现自己评估也有点小问题，麻了[哭惹R]\n遇到了很多问题，中间一度微调得很崩溃，如今总算达到了目标并且完成了技术分享，非常感谢各位薯友对我的建议和帮助[哭惹R][哭惹R][哭惹R][哭惹R]@kohl @星尘微语\n@momo 还有好多薯友这里就不再一个个@啦",
+  "tags": [],
+  "author": "下蛋的大熊猫",
+  "authorId": "60f925610000000001008598",
+  "time": 1749218128000,
+  "ipLocation": "",
+  "likes": "426",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091343/6667e35d3702d93e75583022922c7b84/notes_pre_post/1040g3k031id2e8sj0c405o7p4lgg91co91kier8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6842f3500000000021000971?xsec_token=ABL3fNWVvGwZQ0vncSmJ_CBAqC3SJRnr_HquqGzlgkyMA=&xsec_source=pc_collect"
+}

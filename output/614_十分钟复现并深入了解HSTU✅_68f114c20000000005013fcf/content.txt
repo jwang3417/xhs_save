@@ -1,0 +1,21 @@
+十分钟复现并深入了解HSTU✅
+
+[斜眼R]分享的第二个部分是HSTU项目中最关键的模型代码部分，代码文件夹如下：
+generative-recommenders/generative_recommenders/research/modeling/sequential
+	
+[黄金薯R]论文中看不到或者不易发现的细节
+[一R]除_hstu 和_embedding_module 外的参数做 xavier 初始化
+[二R]Embedding table中为padding位置单独留了位置
+[三R]user_embedding是当前步的输出output token embedding,本质是用户长期行为的表征，是理解hstu训练和检索最关键的一个变量。
+[四R]和attention一样，uqkv都是通过linear得到的，仍然是在embedding维度进行layer norm，relative posttion embedding包括相对位置信息和bin之后的相对时间信息，通过torch.einsum进行QK计算，消除d，最后与u进行点击，u可以理解为一个当前行为下的用户兴趣gate（类似于DIN，SENet？）
+[五R]mask是一个普通的上三角为1的矩阵
+[六R]HSTU使用（SiLU / / n）的归一化方式，这里可以对比Transformer的学习
+[七R]该样本训练后的输出token会和target token进行正样本相似度计算；对于采样后的负样本同理（提供batch内负采样和全局负采样两种实现，具体指的其他样本的target item）
+[八R]损失计算使用的经典的sampled softmax，将正负样本的logits concat后过一个log_softmax最大化正样本的logits即可
+[九R]线上如何召回论文里说的比较少，这里严重怀疑是怕说太细了被质疑没有创新点。本质还是基于向量相似度+ANN，和双塔等一样，并不是生成式。基建允许的话可以使用beam-search等方法进行召回扩展
+	
+（因为业务原因博主主要侧重于召回部分，下一期可能分享复杂度计算和工程优化细节等，欢迎互动👏）
+#互联网大厂[话题]# #实习[话题]# #2026校招季[话题]# #转码[话题]# #算法[话题]# #研究生[话题]# #计算机[话题]# #字节跳动[话题]# #秋招[话题]# #推荐算法[话题]#
+
+
+标签: #互联网大厂 #实习 #2026校招季 #转码 #算法 #研究生 #计算机 #字节跳动 #秋招 #推荐算法

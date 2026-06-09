@@ -1,0 +1,28 @@
+{
+  "id": "6860c7a40000000010012ad1",
+  "type": "normal",
+  "title": "加特征一时爽，一直加一直爽，﻿直到——",
+  "desc": "（拍桌）谁说算法工程师是调参、炼丹仙人[扯脸H]？来，今天盘盘这加特征的玄学[黄金薯R]：\n\t\n一、为什么改模型不如加特征？\n1️⃣ 数据是地基，模型是装修​\n用ResNet堆出花来，不如用户「昨天是否点击过同类商品」戳中痛点。工业场景里，特征自带业务逻辑，相当于开了上帝视角——比如推荐系统里，「用户近30天搜索关键词频次」比任何注意力机制都懂用户想买啥。\n\t\n2️⃣ 效率碾压​\n加特征呢？\n> 理想很丰满：SQL+Spark，应该很快吧？\n> 现实很骨感：改策略代码 → 离线测试 → 联调 → 回溯 → 值班落盘日志 → 线上predictor部署... 一套组合拳下来，顺利的话小一周！每个环节都是埋雷点，KPI在头顶悬着，头发在风中飘着[笑哭R]\n> 但对比改模型呢？调结构+分布式训练+压测+上线，周期直接翻倍。PM催命时，加特征的ROI依然肉眼可见——毕竟CTR能涨就是爷。\n\t\n3️⃣ 业务导向更直接​\n业务方要突出618大促商品，改模型架构？直接加「是否大促标品」的二值特征。特征工程是把业务经验翻译成数学语言，而模型迭代更像赌概率——毕竟谁也说不准，今天调的dropout到底是救命还是埋雷。\n\t\n二、加特征的千层套路与反噬\n✅ 千层套路​\n时间维度榨干：从 「近1天点击」到「近7天/30天点击」，拆分 N 种特征。​\n交叉组合暴击：「用户性别×商品类目」不够，疯狂组合 「年龄 × 消费层级 × 品牌偏好」，但 99% 都是无效噪音。​\n\t\n❌ 反噬警告​\n某厂曾搞出10万特征的盛况，结果推理时占满内存，模型推理时间从 50ms 飙到 200ms！最后裁掉大部分特征，发现效果几乎没差…\n\t\n三、所以，算法工程师的宿命就是当「特征农民」？\n也不全是。但现实就是：在工业界，特征工程的ROI永远高于模型创新。\n模型像芯片，年年迭代但提升有限；特征像手机功能，多一个拍月亮模式就能卖爆。\n改模型改到头发掉光，PM可能说「效果和基线差不多」；但加个「用户所在城市降雨概率」特征，雨天推雨伞的转化率暴涨20%——这就是业务方看得见的价值。\n\t\n不过别慌，等你加特征加到精通业务逻辑，某天突然会悟：最牛逼的模型，其实是能自动发现高价值特征。比如AutoML搞特征搜索，或者大模型直接学端到端表征，特征工程的终局并非无限缝合，而是因果驱动的自动化高价值特征发现。\n\t\n“因果表征学习是深度学习后的核心方向”——当模型能自动识别“降雨概率→雨伞购买”的因果链（而非人工设计“城市×天气”交叉项），特征工程才真正从玄学走向科学。当研究从学术走向工业时，或许会成为比模型结构更锋利的增长引擎。\n\t\n﻿#算法[话题]#﻿ ﻿#互联网实习[话题]#﻿ ﻿#算法工程师[话题]#﻿ ﻿#实习[话题]# ﻿﻿#因果推断[话题]#﻿",
+  "tags": [
+    "算法",
+    "互联网实习",
+    "算法工程师",
+    "实习",
+    "因果推断"
+  ],
+  "author": "momo🥕",
+  "authorId": "64abc3b0000000002b00b6fd",
+  "time": 1751173028000,
+  "ipLocation": "",
+  "likes": "480",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091338/daec5196c86402e298bfb99d1c798da3/spectrum/1040g34o31ja5kcmgii105p5boeoapdnttb5fbio!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/99d30b933f7c33abcbedfbbda95e802e/spectrum/1040g34o31ja5khsh2g205p5boeoapdntn7mhsq0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/54649e72a1da031b56abc2c04df0baca/spectrum/1040g34o31ja5khsh2g2g5p5boeoapdntdg1qf00!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/dc0660e8fa2c5b65d834311556695acd/spectrum/1040g34o31ja5kmg8ii305p5boeoapdntlgvfl58!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/cd24694dd2b076767b088dbed213234a/spectrum/1040g34o31ja5kmg8ii3g5p5boeoapdntf5o5q5o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/7b5cb3ff18fbe9e8cc4be5f9c23873bd/spectrum/1040g34o31ja5kmg8ii405p5boeoapdntg561cbg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6860c7a40000000010012ad1?xsec_token=ABd1y3rjDjbbkYKx21J3lgpU1NFB19yyBkcjog7gF_QdI=&xsec_source=pc_collect"
+}

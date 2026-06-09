@@ -1,0 +1,27 @@
+{
+  "id": "69a582e6000000000d008b88",
+  "type": "video",
+  "title": "SOAK：探索大模型的永久技能库",
+  "desc": "深度解读 | SOAK：探索大模型的永久技能库\n🔍 研究背景：\n当下的AI宛如患有“失忆症”，一旦上下文窗口关闭，其解决复杂问题的“程序性知识”就会彻底清空。仅仅依赖单次、静态的工具调用已成效率瓶颈，真正的智能体需要能从成败中积累经验，形成持久的程序性记忆。\n💡 核心创新：\n本文系统梳理了65篇前沿文献，突破性提出将杂乱的试错过程“蒸馏”为可复用的智能体技能（Agentic Skills），并揭示了阻碍AI自我进化的反直觉陷阱。\n1. 技能蒸馏与元数据驱动：技能不再局限于静态Python代码，还可以是自然语言指令。通过元数据标签系统，AI能精准判断在何种情境下从工具箱调用特定技能，实现从单次推导到模块化复用的跃迁。\n2. 警惕“技能债务”（Skill Debt）：研究揭示了一个反常识结论——若无严格验证，让AI盲目零样本（Zero-shot）自学反而会导致性能平均下降1.3%。就像没有教练纠正的坏挥杆，AI会完美固化错误习惯，导致能力退化，因此验证机制是规模化扩展的关键。\n📄 论文原文：\n标题：SOAK: Agentic Skills Beyond Tool Use in LM Agents\n链接：https://arxiv.org/pdf/2602.20867\n🏫 机构/高校：\n悉尼科技大学、CSIRO Data 61\n🏷️ 话题标签：\n#ai[话题]# #LLM[话题]# #人工智能[话题]# #智能体[话题]# #大模型[话题]# #AgenticSkills[话题]# #技能债务[话题]# #自主学习[话题]# #知识蒸馏[话题]#",
+  "tags": [
+    "ai",
+    "LLM",
+    "人工智能",
+    "智能体",
+    "大模型",
+    "AgenticSkills",
+    "技能债务",
+    "自主学习",
+    "知识蒸馏"
+  ],
+  "author": "PaperInsight 学术雷达",
+  "authorId": "6298c8b400000000210287e4",
+  "time": 1772454630000,
+  "ipLocation": "",
+  "likes": "8",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090933/5b8c7f1cba95fd4a31f71619feae9693/1040g00831t7ae5etlk005okop2q8d1v49vtfr08!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/1/110/259/01e9a582b0c5d6bb010370039cae87d282_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69a582e6000000000d008b88?xsec_token=ABNvr-0QKStCUU8lADst3jPOLzK1XkJCq0SKNzbbbjDRA=&xsec_source=pc_collect"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "689879e70000000005005885",
+  "type": "video",
+  "title": "Context Engineering：概念与技术实现",
+  "desc": "Context Engineering：概念与技术实现深度解析 ﻿#langchain[话题]#﻿ ﻿#rag[话题]#﻿ ﻿#agent[话题]#﻿ ﻿#llm[话题]#﻿ ﻿#ai[话题]#﻿ ﻿#chatgpt[话题]#﻿ ﻿#gemini[话题]#﻿ ﻿#context[话题]#﻿\n\t\n时间轴：\n00:00 视频内容介绍\n00:16 Context 和 Context Window 介绍\n04:27 Context Engineering 介绍\n06:48 Context Enginneering 的实现方法\n13:16 视频总结\n14:18 相关文章推荐",
+  "tags": [
+    "langchain",
+    "rag",
+    "agent",
+    "llm",
+    "ai",
+    "chatgpt",
+    "gemini",
+    "context"
+  ],
+  "author": "马克的技术工作坊",
+  "authorId": "64687d3a000000002901216f",
+  "time": 1754823143000,
+  "ipLocation": "",
+  "likes": "1,832",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091319/d320be73315108957c35f81f63225fe4/spectrum/1040g34o31l0fvecl2g0g5p38fktaa8bfa4k3l3o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/1/110/114/01e898706db27000010370019893aa9844_114.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/689879e70000000005005885?xsec_token=ABEmVvs8D0JvEXA0YfpstWOl4sl63pSdQ1LwGcAt8iKJg=&xsec_source=pc_collect"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "69fd8d81000000003700c70a",
+  "type": "normal",
+  "title": "【干货】Agent检索的两种范式",
+  "desc": "一、概念定义\n\t\ngrep (Global Regular Expression Print)，是一种基于字符串匹配与正则表达式的文本搜索工具。其核心逻辑是在给定的数据流或文件中，通过逐行扫描，提取出符合特定模式（Pattern）的文本行，并将其作为输出结果。\n\t\nRAG (Retrieval-Augmented Generation)，是一种结合了非结构化检索与生成式深度学习的架构。它通过从外部知识库中检索相关片段，并将其作为上下文（Context）输入给大型语言模型（LLM），以增强模型回答的准确性与实时性。\n（详细流程如图）\n\t\n二、核心差异\n\t\n1. 数据维护\nRAG：需要对文档进行切块、向量化并构建索引，前期预处理成本较高，本质上是某一时刻的文档快照，文件更新后需重新入库，存在时效滞后。\nGrep：无需任何预处理，直接扫描原始文件，更新后实时生效，维护成本低。\n\t\n2. 检索效率\nRAG：单次检索仅注入召回片段，token 消耗少，且速度较快，在大规模文档场景下综合效率较高。\nGrep：每次查询实时扫描原始文件，token 消耗相对更高，且耗时随文件规模增长。\n\t\n3. 检索质量\nRAG：具备语义理解能力，可匹配字面不同但语义相近的内容；但也存在召回不完整、上下文截断及语义偏差的风险，本质是有损检索。\nGrep：关键词或正则精确匹配，不具备语义理解能力；但在查询条件明确时，准确性更高。\n\t\n三、总结\n对于内容稳定、语义多样、规模庞大的知识库，RAG 的优势更为突出。\n对于高频变更、查询条件明确、结果精确性要求高的场景，Grep 更为可靠。\n#大模型[话题]# #grep[话题]# #rag[话题]# #agent[话题]#",
+  "tags": [
+    "大模型",
+    "grep",
+    "rag",
+    "agent"
+  ],
+  "author": "AI产品经理木城",
+  "authorId": "69547ddb000000002b0075e1",
+  "time": 1778224513000,
+  "ipLocation": "",
+  "likes": "320",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090730/cc0293edd68a2d3d63b955440c65037f/1040g00831vt9mat4ig6g5qakfndqotf1q507ht0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090730/c82bf25e0b365acdf14cc60cdd56ad8f/1040g00831vt9mat4ig5g5qakfndqotf1p7jqkng!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090730/586261919da65c53f9b3e9d98830d5de/1040g00831vt9mat4ig605qakfndqotf1l3o808g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69fd8d81000000003700c70a?xsec_token=ABCNN5HfZmarSnapWiJ_vAJcZZsPcJ7nKLnQt8Y3sKtec=&xsec_source=pc_collect"
+}

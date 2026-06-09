@@ -1,0 +1,23 @@
+{
+  "id": "685fb1a4000000001001141d",
+  "type": "video",
+  "title": "40分钟Docker实战攻略，一期视频精通Docker",
+  "desc": "本视频是一个40分钟的Docker的实战教程。涵盖了Docker的所有常用功能与命令\n主要内容：\n1. Docker的核心概念\n2. 在Linux, windows 还有Mac电脑上安装docker\n3. 下载镜像。配置镜像站解决下载镜像的网络问题\n4. dokcer run命令创建并且运行容器。 docker run命令的重要参数\n5. 进入容器内部进行调试\n6. Docker网络，分别是bridge模式，创建子网，host模式与none模式\n7. 轻量级的容器编排技术Docker Compose\n8. AI辅助学习Docker\n\t\n﻿#操作系统[话题]#﻿ ﻿#编程[话题]#﻿ ﻿#科技[话题]#﻿ ﻿#计算机[话题]#﻿ ﻿#程序员[话题]#﻿",
+  "tags": [
+    "操作系统",
+    "编程",
+    "科技",
+    "计算机",
+    "程序员"
+  ],
+  "author": "技术爬爬虾",
+  "authorId": "5d4e1f9b0000000012026818",
+  "time": 1751101860000,
+  "ipLocation": "",
+  "likes": "6,473",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091339/45151f0da0c46372c7e0ddfeef579203/spectrum/1040g0k031j94kobaj6005nae3udkkq0o7o1uki0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/1/110/114/01e85fb1a4493b2d0103700197b60a90f8_114.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/685fb1a4000000001001141d?xsec_token=ABNUHPETJC4SGPtIs2s_k2n8YyOMAZBKJdwGQTEjCFBeI=&xsec_source=pc_collect"
+}

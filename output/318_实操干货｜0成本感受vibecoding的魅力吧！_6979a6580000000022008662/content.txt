@@ -1,0 +1,13 @@
+实操干货｜0成本感受vibecoding的魅力吧！
+
+1️⃣整理想法：chatGPT/豆包/deepseek等
+2️⃣Vibecoding：Google AI studio
+3️⃣版本管理：GitHub
+4️⃣上线部署：Vercel
+5️⃣chrome翻译插件：沉浸式翻译
+________________
+常见问题：部署后白屏（可以把问题抛给Gemini/检查环境变量是否填写正确）
+#AI工具[话题]# #提升生产力[话题]# #vibecoding[话题]# #chatgpt[话题]# #googleaistudio[话题]# #vercel[话题]# #SVTech[话题]#
+
+
+标签: #AI工具 #提升生产力 #vibecoding #chatgpt #googleaistudio #vercel #SVTech

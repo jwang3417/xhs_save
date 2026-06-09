@@ -1,0 +1,17 @@
+{
+  "id": "6872ba560000000022032a14",
+  "type": "normal",
+  "title": "Kimi-K2 与 DeepSeek-R1 架构对比",
+  "desc": "Kimi-K2 与 DeepSeek-R1 架构对比，相比较下 Kimi-k2 增加了专家数量，减少了注意力头的数量。\n\t\n这么设计的好处是，专家数量多无疑知识多，能记住更多东西，在知识广度上表现很好。而减少注意力头则能显著减少显存开销，另外过多的注意力头有时会学习到冗余或过于相似的注意力模式。通过减少头的数量，模型可能被迫让每个头学习到更独特、更关键的特征，这可能有助于防止过拟合，提升模型的泛化能力。",
+  "tags": [],
+  "author": "karminski",
+  "authorId": "607fcaef0000000001004dcf",
+  "time": 1752367261000,
+  "ipLocation": "",
+  "likes": "43",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091328/39b20cd1a4323a64ce6d83a1ab7c8928/spectrum/1040g0k031jrnfip73q405o3vpbng8jefg5j2jf8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6872ba560000000022032a14?xsec_token=ABsFV70RgU0kkXxSqhOJ_WvZuVFiLjHYtcmHw2Vla8aXQ=&xsec_source=pc_collect"
+}

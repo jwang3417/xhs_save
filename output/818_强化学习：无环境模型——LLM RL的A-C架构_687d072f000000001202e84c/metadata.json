@@ -1,0 +1,39 @@
+{
+  "id": "687d072f000000001202e84c",
+  "type": "normal",
+  "title": "强化学习：无环境模型——LLM RL的A-C架构",
+  "desc": "强化学习应用选择的大致演进脉络如下：\n（1）无环境状态，MAB模型\n（2）有环境状态，MDP，相比MAB更贴近真实场景互动规律。\n（3）MDP：基于环境模型（model-based）完备先验知识（状态转移和奖励机制）的规划方法\n（4）MDP：不依赖环境模型的（model-free）试错学习方法，后者更加适应复杂多变的真实世界。\n（5）MDP的model-free：基于价值value-based，通过优化动作价值导出策略\n（6）MDP的model-free：基于策略policy-based，纯策略梯度，如使用蒙特卡洛采样计算回报无偏但高方差的REINFORCE。\n（7）MDP的model-free：结合价值与策略的Actor-Critic架构，使用深度神经网络近似两者，直接梯度上升优化策略，并顺便基于TD误差优化价值。\n\t\n得益于深度学习发展，基于梯度的Actor-Critic方法在众多场景中得到了相对充分的发展。例如针对连续动作空间场景（如机器人、自动驾驶）出现了DDPG、SAC等新算法；而针对离散动作空间场景（如语言模型）出现了以TRPO、PPO为开端的新算法。本篇着重推导TRPO的优化目标构建过程，为PPO目标提供更完整的视角。\n\t\n作为公认的复杂难懂的算法，只能通过抽丝剥茧理解每一步的推倒才能理解其优化目标严格的单调性理论保证；同时，考虑其优化目标求解的方法过于复杂且减少被使用，仅在算法流程中简要介绍其功能。\n\t\n#强化学习[话题]#   #大模型[话题]#   #算法[话题]#   #大模型算法[话题]#  #大模型强化学习[话题]#   #PPO[话题]#   #TRPO[话题]#",
+  "tags": [
+    "强化学习",
+    "大模型",
+    "算法",
+    "大模型算法",
+    "大模型强化学习",
+    "PPO",
+    "TRPO"
+  ],
+  "author": "整点🍟",
+  "authorId": "62061e97000000001000e423",
+  "time": 1753069204000,
+  "ipLocation": "",
+  "likes": "21",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091321/25f5b34601dea84b23bbad495ebbddaf/1040g2sg31k5okj7232fg5og63qbk1p13qjhqvk8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/5e628efe3f880d27fc62f09baff3655a/1040g2sg31k5okj7232g05og63qbk1p136kvcq5o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/4beab981c66f031e5c82275d008bbad0/1040g2sg31k5okj7232f05og63qbk1p13t1oom80!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/9370775719399c78b74baced524698ed/1040g2sg31k5okj7232jg5og63qbk1p13odoblig!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/c3351e5292897edc6f27c9d650d5f40a/1040g2sg31k5okj7232hg5og63qbk1p13qki0k8o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/f50ce829cd54e53fa4abf896edb51caf/1040g2sg31k5okj7232gg5og63qbk1p13lro5k78!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/b71de6b9d139d5498aff90fae4f5aab3/1040g2sg31k5okj7232i05og63qbk1p13i2betgo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/afd5bd37a405bd0327b20f062ae56ab7/1040g2sg31k5okj7232h05og63qbk1p13i79ap18!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/bfdc534914f01cb4b744d15d80efdd9c/1040g2sg31k5okj7232k05og63qbk1p13bg1abeo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/e0e5a9d9e71af9c04639a8dca54b9a95/1040g2sg31k5okj7232kg5og63qbk1p130eko5s0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/a8486dd7ba3b178468ac3c800fdfe271/1040g2sg31k5okj7232ig5og63qbk1p13u7tbsdg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/c157ea7465db254b0fd85f23a6868cbd/1040g2sg31k5okj7232j05og63qbk1p139lmr4mg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/27cef18a3c609f7fd0bee5784fb7abc1/1040g00831k7uucghio005og63qbk1p13s61fajo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/64dcfbfdf24d5e0760e64568d51b8c7c/1040g00831k5pbs1gj40g5og63qbk1p13n5711t8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/5f6949b2a2ed16a2175bf14c65e78db2/1040g00831k5pbs1gj4005og63qbk1p13vkppeco!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/687d072f000000001202e84c?xsec_token=AB3FIdUBrc_cDdiCwQzQ1hFTy3iVEW5vxx0PR_CxHStBU=&xsec_source=pc_collect"
+}

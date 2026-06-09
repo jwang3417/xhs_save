@@ -1,0 +1,32 @@
+{
+  "id": "68f72a71000000000700a6db",
+  "type": "normal",
+  "title": "Meta 直接抄作业，RL 新范式来源中国团队！",
+  "desc": "Meta 最新的 scaling RL compute 的实验，发现 CISPO 表现出了最好的 scaling，并且在最终的方案也选用了 CISPO 做 scaling。\n\t\nCISPO 这一创新来源于 MiniMax 早期版本模型 M1 阶段的研究，是 2025 年由我国 AI 团队 MiniMax 提出的强化学习算法，专为大模型的 RLHF 任务设计。\n\t\n其首次亮相于《MiniMax-M1: Scaling Test-Time Compute Efficiently with Lightning Attention》论文中，核心价值在于解决传统算法在长序列推理训练中的关键痛点。\n\t\nMiniMax CISPO发现 LLM在训练中被 PPO clip 的 token 比例高达约 2%，正负 advantage 对应的 token clip 比例存在显著差异，这表明 PPO 的目标函数以一种我们未曾预料到的､甚至可能是有偏的方式限制着策略的更新；与参数量较小的传统 RL 智能体不同， MiniMax 发现大型语言模型对单步的梯度更新表现更好，推测出这得益于其巨大的参数量带来的内在稳定性｡所以 MiniMax 提出与其通过一个复杂的 clip 目标函数去限制梯度的更新幅度，不如换一个更直接的思路，就是去限制我们用来学习的样本｡\n\t\n通过截断过滤，用重要性比率和阈值过滤噪声，只保留有效样本；通过梯度解耦，用停止梯度隔绝干扰，让策略仅通过纯粹的梯度项学习。通过以上两步操作，让 CISPO 成为目前表现最好的 scaling。\n\t\n现在国外 AI 博主疯狂安利说这篇论文是 RL 领域必看，这最初的想法是MiniMax 提出来的。目前算法领域更新速度飞快，咱们国家在 AI 领域也越来越强，紧紧逼近世界顶级，期待超越的那一天。\n\t\n#CISPO[话题]# #minimax[话题]# #meta[话题]# #大模型[话题]# #算法[话题]# #人工智能[话题]# #强化学习[话题]# #互联网大厂[话题]#",
+  "tags": [
+    "CISPO",
+    "minimax",
+    "meta",
+    "大模型",
+    "算法",
+    "人工智能",
+    "强化学习",
+    "互联网大厂"
+  ],
+  "author": "AI有温度",
+  "authorId": "6416aa61000000001201071b",
+  "time": 1761051480000,
+  "ipLocation": "",
+  "likes": "296",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091102/55bea985d15b921fd905126f040dc104/spectrum/1040g34o31nt1nn95l2105p0ml9gki1orkht3970!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091102/b3e636947d2349d57d7f4f0e3517e41a/spectrum/1040g34o31nt0lg17l00g5p0ml9gki1or7d3k4a0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091102/ba9c63aef1aeccc996f5d666e1c73a99/spectrum/1040g34o31q6e0osr70105p0ml9gki1oros51agg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091102/4d9039972a4a8ef9a6e8ed989cdf341d/spectrum/1040g34o31nt0lg17l01g5p0ml9gki1ora33le50!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091102/cb273cbdb49d5dc2c27d85cbdee4a2d9/spectrum/1040g34o31nt0lg17l0205p0ml9gki1orvpi2hqo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091102/2bae18a78065360c311773a6859e85c4/spectrum/1040g0k031q6e14006u005p0ml9gki1or5tagmso!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091102/13e79a42955679b102da452aa50375a0/spectrum/1040g34o31nt0lg17l02g5p0ml9gki1orgjd9880!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68f72a71000000000700a6db?xsec_token=ABXbUKklv6ObetNFbnoTP-JOJpPdqYf5u6y92pRSOhrzE=&xsec_source=pc_collect"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "67c16f88000000000e007940",
+  "type": "video",
+  "title": "NVIDIA GPU上的Tensor Cores到底是什么！",
+  "desc": "🎉声明视频来自《Simon Oz》，字幕是自己翻译+校对的结果。\n✅ 矩阵乘法：GPU编程中的基础算法\n矩阵乘法是GPU编程中的一个经典算法，利用行向量与列向量的点积计算输出矩阵的元素。通过在三维空间中可视化计算过程，使得该操作非常适合GPU进行并行处理。\n✅ GPU的朴素实现：简单但低效\n在GPU上实现矩阵乘法的朴素方式是将每个线程分配给输出矩阵中的一个元素。虽然直观易懂，但对于大矩阵，性能较低，因此需要进一步优化。\n✅ 矩阵分块：优化内存访问\n矩阵分块（tiling）技术通过将矩阵分割成更小的块来提升内存访问效率。每个线程块加载并计算一个子矩阵，减少了内存访问延迟，大大提升了计算效率。\n✅ Tensor Core硬件：加速矩阵乘法\nTensor Core是专门为加速矩阵乘法设计的GPU硬件单元。它能够在多个线程的协同作用下，快速计算矩阵的乘法操作，极大提高了性能。\n✅ Tensor Core编程：灵活的矩阵形状\n编程时，我们需要指定输入矩阵和输出矩阵的形状（M、N、K），Tensor Core支持多种形状配置（如16x16x16、32x8x16等），根据矩阵大小选择最合适的形状，以提高计算效率。\n✅ 性能提升：但仍有提升空间\n使用Tensor Core后，矩阵乘法的性能比传统分块算法提高了六倍，但仍未达到GPU硬件的最大性能，未来的视频将讨论如何进一步优化，填补这一性能差距。\n﻿#tensor[话题]#﻿ ﻿#大模型[话题]#﻿ ﻿#大语言模型[话题]#﻿ ﻿#人工智能[话题]#﻿ ﻿#AI[话题]#﻿ ﻿#矩阵运算[话题]#﻿ ﻿#gpu加速[话题]#﻿ ﻿#大模型算法[话题]#﻿ ﻿#GPU[话题]#﻿ ﻿#TensorCore[话题]#﻿",
+  "tags": [
+    "tensor",
+    "大模型",
+    "大语言模型",
+    "人工智能",
+    "AI",
+    "矩阵运算",
+    "gpu加速",
+    "大模型算法",
+    "GPU",
+    "TensorCore"
+  ],
+  "author": "AI大模型前沿研究",
+  "authorId": "5f978c7c00000000010047cb",
+  "time": 1740737286000,
+  "ipLocation": "",
+  "likes": "205",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091318/8a9ff742d0d35a05eb25914176c690de/1040g00831eee4bish00g5nsnhhu08hubsgnlvn0!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/79/110/259/01e7c16a5948a68e01037003954b9d7de7_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/67c16f88000000000e007940?xsec_token=ABKfUIGTlzbF6gObAW1OgmrO7SZrhCBjUFb0UJst5kF2k=&xsec_source=pc_collect"
+}

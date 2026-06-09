@@ -1,0 +1,25 @@
+{
+  "id": "6917d421000000000402a109",
+  "type": "video",
+  "title": "“LoRA已死，果蝇称王”——FlyLoRA",
+  "desc": "你是否想过，一只小小的果蝇，竟然能解决AI大模型的‘训练噩梦’？今天，我们要揭秘清华大学刚刚在NeurIPS 2025发表的重磅研究——FlyLoRA。  它受果蝇大脑启发，用‘随机投影+赢者通吃’的神经机制，打破了LoRA的局限，训练成本再降80%！  本期视频，我们将拆解 FlyLoRA 如何以「果蝇仿生设计」，实现大模型单任务解耦与多任务融合的双重突破。  云组会，论文精读系列，参数高效微调新标杆 ——FlyLoRA！\n#小红书科技AMA[话题]# #人工智能[话题]# #大模型[话题]# #transformer[话题]# #算力[话题]# #深度学习[话题]# #带你一起读论文[话题]#",
+  "tags": [
+    "小红书科技AMA",
+    "人工智能",
+    "大模型",
+    "transformer",
+    "算力",
+    "深度学习",
+    "带你一起读论文"
+  ],
+  "author": "Lau博士的云组会",
+  "authorId": "657690f4000000003d02a1ef",
+  "time": 1763169313000,
+  "ipLocation": "",
+  "likes": "4,975",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091010/4530d2f27bc83bfc64e059c4b481c083/spectrum/1040g0k031osuo9e91u005pbmi3qfd8ffs0ov9l0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e917d400264d12010370039a85183e95_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6917d421000000000402a109?xsec_token=AB9Pgnsx9EynlYRNCs5Be0uNgLogrmh_c1nSe7DdymEgk=&xsec_source=pc_collect"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "699281bb000000001a028888",
+  "type": "normal",
+  "title": "Git恐惧症｜小组合作，靠这3条命令活下来了🙋",
+  "desc": "CS留学生们，你是不是也这样：\n第一次用Git小组合作，听到最多的话就是“代码被我冲没了”、“冲突不会解”、“不敢pull”。\n作为一个被Git折磨过一整个学期的过来人，我想说：你不是一个人。\n\t\n其实Git没那么可怕，你只需要先搞懂一件事：“我在哪”和“怎么去”。\n\t\n🗺️ 一张图看懂Git的“四层空间”\n\t\n工作区：你正在写代码的地方（VS Code里看到的）\n暂存区：打包站，用add把文件放进去\n本地仓库：你电脑里的时光机，每次commit就是一次存档\n远程仓库：云端的代码库，所有人最终都往这儿推\n\t\n流转公式： 工作区 → add → 暂存区 → commit → 本地仓库 → push → 远程仓库\n（配图：四层空间流转图）\n\t\n✅命令一：别再直接pull了，学会“先看后买”\n新手最爱干的事：\ngit pull，然后代码没了、冲突炸了、人傻了。\n\t\n👉真相：pull = fetch + merge，拆开用才是高手\n👉正确姿势：见图\n\t\n遇到冲突怎么办？\n首先识别冲突长什么样：见图\n👉处理原则：留下对的，删掉标记（<<<<<<<、=======、>>>>>>>），然后：\ngit add .\ngit commit\n\t\n✅命令二：后悔药——reset和revert怎么选？\n\t\n👉场景A：刚commit完就后悔（还没push）\n用reset，三个模式区别很大：见图\n\t\n👉场景B：已经push到远程了\n千万别用reset，队友会恨你😂\n用revert——创建一个“反向提交”来抵消错误：见图\n👉为什么安全：不改历史，队友拉代码时能看到清晰的撤销记录。\n\t\n✅命令三：stash——写到一半被叫去修bug的救命神器\n👉场景：代码写一半（不能commit），组长说有个紧急bug要修。\n👉操作：见图\n如果取出来时有冲突：手动解决，然后git add .就行。\n\t\n给新手的最后建议：\n✅ 小提交：别攒一周代码才commit。完成一个小功能就commit一次。这样翻车也只会丢一小段。\n\t\n✅ 勤拉取：每天开工前git fetch一下，看看队友进度。越早解决冲突，痛苦越小。\n\t\n✅ 认真写备注：别只写“update”。写清楚改了啥，这是团队协作的第一步。\n\t\n如果你也被Git折磨过，\n请点赞❤️收藏⭐️这篇笔记~\n下次遇到小组作业再也不慌了！\n\t\n#Git[话题]# #编程[话题]# #计算机科学[话题]# #CS留学生[话题]# #留学生辅导[话题]# #小组合作[话题]#",
+  "tags": [
+    "Git",
+    "编程",
+    "计算机科学",
+    "CS留学生",
+    "留学生辅导",
+    "小组合作"
+  ],
+  "author": "口袋学霸 POCKETGPA",
+  "authorId": "5edf50160000000001007235",
+  "time": 1771209147000,
+  "ipLocation": "",
+  "likes": "172",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090935/e37d4b872945aeda0f076b2cb924ce85/spectrum/1040g34o31sknm4ue56105nmva0b08shllh7ukfo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/246505c711f35a25fc3498fd4af407d7/spectrum/1040g0k031skobi5t56005nmva0b08shl4ao6a18!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/f2f11f835b302722928357d9d1adc0d4/notes_pre_post/1040g3k031skojads68005nmva0b08shl08h2ieg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/00e587e2631c38e557660d89f49034f0/spectrum/1040g0k031skobi5t56105nmva0b08shlj46mdpo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/d56e645eb6ed15434600e97a8f20f24f/spectrum/1040g0k031skobi5t561g5nmva0b08shld7pmm70!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/213cee43e62e2a1d02c1c7ab6243fb11/spectrum/1040g0k031skobi5t56205nmva0b08shljrc2jho!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/f60f8a4ebc78524d3f1d55d006f84b65/spectrum/1040g0k031skobi5t562g5nmva0b08shlobk2nh8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/699281bb000000001a028888?xsec_token=AB1VxYd_SvUMJxm9h6ra2KtCs0WdqVapNsQqqBBKqo_Pw=&xsec_source=pc_collect"
+}

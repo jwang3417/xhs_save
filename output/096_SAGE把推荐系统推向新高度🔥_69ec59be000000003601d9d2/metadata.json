@@ -1,0 +1,17 @@
+{
+  "id": "69ec59be000000003601d9d2",
+  "type": "normal",
+  "title": "SAGE把推荐系统推向新高度🔥",
+  "desc": "最近读到一篇小红书团队发的论文，真的有点颠覆认知。\n\t\n论文叫 SAGE，一句话总结：它让大模型做推荐这件事，第一次有了真正为「推荐」量身定做的优化器✨\n\t\n🌱 为什么现在的生成式推荐不够用？\n\t\n过去做生成式推荐基本照搬 NLP 套路，但推荐场景有三个先天问题：\n・冷启动压制：新内容正反馈被「对称截断」拉回来\n・多样性坍塌：烂推荐和探索失败同等惩罚，信息茧房越滚越厚\n・奖励坍塌：多目标加权归一化，梯度信号糊成一团\n\t\n🚀 SAGE 三板斧\n\t\n1️⃣ 序列级概率比值——几何平均聚合 Token 级→Slate 级\n2️⃣ 多目标信号解耦——点击/完播/评论独立归一化\n3️⃣ 非对称自适应边界（核心🌟）\n・正反馈：Boost Factor 允许冷启动内容超线性增长\n・负反馈：用 Entropy 区分探索失败 vs 同质化摆烂\n\t\n📊 实验结果\n・冷启动召回率提升 43%~63%\n・多样性 Entropy 提升 5.9%~10.36%\n・1.2亿交互的工业基准上全面超越 TIGER、OneRec-V2\n\t\n消融实验：去 Boost 冷启动暴跌50%，去 Entropy 多样性掉22%\n\t\nSAGE 最聪明的地方是承认推荐正负反馈本就不对称，不该用 NLP 的对称 clipping 硬套\n\t\n做搜广推的同学必读👇\n\t\n#生成式推荐 #大模型 #推荐系统 #小红书 #算法 #RLHF #论文精读 #AI #搜广推",
+  "tags": [],
+  "author": "GuoXun",
+  "authorId": "609cccb9000000000100be29",
+  "time": 1777097150000,
+  "ipLocation": "",
+  "likes": "80",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090711/82324303b389dabd8374b997b16baa34/spectrum/1040g0k031vckcfe8hm1g5o4spisg9fh98au8s10!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69ec59be000000003601d9d2?xsec_token=ABIyD2l7ajovt1nfRzIodO5b_DbjHTENqpqVbICFlt1ag=&xsec_source=pc_collect"
+}

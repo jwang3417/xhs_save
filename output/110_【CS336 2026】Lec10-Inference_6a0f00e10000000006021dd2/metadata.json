@@ -1,0 +1,28 @@
+{
+  "id": "6a0f00e10000000006021dd2",
+  "type": "video",
+  "title": "【CS336 2026】Lec10-Inference",
+  "desc": "：推理系统的底层瓶颈 [中英字幕]\n本期视频来自 Stanford CS336 Language Modeling from Scratch | Spring 2026 的 Lecture 10: Inference，由 Percy Liang 主讲，核心是在回答：模型训练完成之后，推理为什么会在真实产品里迅速成为成本和体验的双重瓶颈。\n\t\n课程先比较 TTFT、单请求延迟和吞吐率，再解释为什么自回归生成让推理和训练呈现完全不同的并行约束。后半段沿着 KV Cache、Paged Attention、continuous batching、shared-prefix reuse 和 speculative decoding 展开，把“如何让推理更快”拆成一条从内存管理到解码策略的工程主线。\n\t\n【时间轴】\n00:00 推理为何重要\n05:13 TTFT / 延迟 / 吞吐\n15:04 算术强度与瓶颈\n22:41 KV Cache 基础\n29:29 Attention 读写路径\n38:50 HBM / SRAM 流动\n01:17:36 连续批处理\n01:19:38 Paged Attention\n01:22:09 提示缓存复用\n01:24:54 推理架构总结\n\t\n【视频来源】\nStanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 10: Inference\nPercy Liang | Stanford\nY2B ID: EfM546A79aM\ndate: 2026-05-11\n\t\n#CS336[话题]#  #Stanford[话题]#  #Inference[话题]#  #TTFT[话题]#  #KVCache[话题]#  #PagedAttention[话题]#  #SpeculativeDecoding[话题]#  #LLM推理[话题]#  #推理系统[话题]#  #好视频扶持计划[话题]#",
+  "tags": [
+    "CS336",
+    "Stanford",
+    "Inference",
+    "TTFT",
+    "KVCache",
+    "PagedAttention",
+    "SpeculativeDecoding",
+    "LLM推理",
+    "推理系统",
+    "好视频扶持计划"
+  ],
+  "author": "葬送的模数师",
+  "authorId": "649db0f10000000010036460",
+  "time": 1779368161000,
+  "ipLocation": "中国澳门",
+  "likes": "105",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090714/de85ec85bca2e036dae0e32a6e9e91c2/spectrum/1040g0k0320ebg3qf5e005p4tm3ok6p30mld2htg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/79/110/259/01ea0f009c13476f010370039e4aa84d86_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a0f00e10000000006021dd2?xsec_token=ABzV9KiIIIadlcGAo5n0ti55vmXBU8vaH6Ff96rWCfeSE=&xsec_source=pc_collect"
+}

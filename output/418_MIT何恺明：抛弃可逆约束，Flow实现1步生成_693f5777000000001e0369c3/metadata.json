@@ -1,0 +1,33 @@
+{
+  "id": "693f5777000000001e0369c3",
+  "type": "normal",
+  "title": "MIT何恺明：抛弃可逆约束，Flow实现1步生成",
+  "desc": "传统 Normalizing Flow（NF）模型必须保证“正向可逆”，导致架构受限、推理极慢（尤其是自回归解码）。本文提出 Bidirectional Normalizing Flow（BiFlow），首次在 NF 框架中移除解析逆映射的硬约束，通过学习一个高效的“近似逆模型”，在保持高生成质量的同时，将采样速度提升 1–2 个数量级，并实现真正的 1-NFE（一次前向）生成。该工作在 ImageNet 256×256 上刷新 NF 系列 SOTA，具有明确的范式意义。\n核心亮点：\n去除“必须可逆”的历史包袱： BiFlow 不再要求反向过程是前向模型的解析逆，而是单独学习一个逆向模型 G，使 NF 从“严格可逆映射”转向“可学习双向系统”。\n隐式对齐而非直接反演： 提出 Hidden Alignment（隐状态对齐），通过对齐前向与反向的中间轨迹，而非仅在输出空间做重建，显著优于 naive distillation 与 hidden distillation。\n非自回归、完全并行的 1-NFE 生成： 逆向模型可使用双向 Transformer，无需因果掩码，单次前向即可从噪声生成图像，彻底摆脱 TARFlow 的数百/上千步自回归推理。\n学习式去噪，消除 score-based 后处理： 将 TARFlow 中昂贵的 score-based denoising 融合进逆模型本身，仅增加一个 block，即可同时完成“反演 + 去噪”。\nWhat-you-see-is-what-you-get 训练范式： 生成样本在训练阶段即可直接访问，支持 MSE + 感知损失，这是显式逆 NF 几乎无法做到的。\nCFG 一次前向完成： 将 classifier-free guidance 融入训练阶段，推理时无需双次评估，在保持可调 guidance 的同时维持 1-NFE。\nNF 系列首次达到“质量 × 速度”双突破： BiFlow-B/2 在 ImageNet 256×256 上取得 FID=2.39，参数量仅 133M，但推理速度比改进版 TARFlow 快 200–700×。\n\t\narXiv：2512.10953\n\t\n#生成模型[话题]#  #AIChannel[话题]#  #何恺明[话题]#  #transformer[话题]#  #ImageNet[话题]#  #扩散模型[话题]#  #科研解读[话题]#  #模型加速[话题]#  #ai前沿[话题]#  #计算机视觉[话题]#",
+  "tags": [
+    "生成模型",
+    "AIChannel",
+    "何恺明",
+    "transformer",
+    "ImageNet",
+    "扩散模型",
+    "科研解读",
+    "模型加速",
+    "ai前沿",
+    "计算机视觉"
+  ],
+  "author": "每日ComputerScience",
+  "authorId": "677419a40000000015005599",
+  "time": 1765787580000,
+  "ipLocation": "",
+  "likes": "115",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091001/47a7c58de37fbc5beedc7668bda38623/spectrum/1040g0k031q3hjsbpn02g5prk36i58lcp2e7f8k0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091001/ba0801e8a2d484b90deb2f10129d3f72/spectrum/1040g0k031q3hjsbpn01g5prk36i58lcpuc4hp18!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091001/00cf79965a24c1457a8870af23769af6/spectrum/1040g0k031q3hjsbpn0105prk36i58lcpq4c0t9g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091001/6e7e3e909ae79ec1f943d5349ee99895/spectrum/1040g0k031q3hjsbpn00g5prk36i58lcpiq06vpo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091001/6392871aca672d51306888c7a1c0c623/spectrum/1040g0k031q3hjsbpn0205prk36i58lcpsvq03kg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091001/57ae4014c600b66ee14b8b11c3f9b6ef/spectrum/1040g0k031q3hjsbpn0005prk36i58lcpegr36q8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/693f5777000000001e0369c3?xsec_token=ABYI54DkFlStfAc-O-dA20fSHCFtd8g11KTz24U4Y3oFI=&xsec_source=pc_collect"
+}

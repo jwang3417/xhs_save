@@ -1,0 +1,37 @@
+{
+  "id": "68d78d54000000001203dab6",
+  "type": "normal",
+  "title": "RLHF 全家桶： PPO、DPO、GRPO、DAPO、GSPO",
+  "desc": "PPO：依赖策略、参考、奖励、价值四个模型，以 clip 限制更新步幅，通过计算实际与预期收益的优势优化策略。\n\t\nDPO：仅需加载策略和参考两个模型，基于“输入-优选回答-次选回答”三元组数据直接贴合人类偏好。\n\t\nGRPO：对单个 prompt 生成多个回答，利用群体奖励的均值和标准差计算相对优势，无需加载 Critic 模型，更聚焦群体表现。\n\t\nDAPO：通过提高clip上界、动态采样、token级梯度聚合等改进、引入规则奖励、移除KL的优化算法。\n\t\nGSPO：从 token 级优化转为整句级优化，解决 MoE 收敛难与 token 级噪声问题。\n\t\n#大模型[话题]# #算法[话题]# #人工智能[话题]# #互联网大厂[话题]#  #RLHF[话题]# #GSPO[话题]# #GRPO[话题]# #DPO[话题]# #2026校招季[话题]# #秋天的第一个offer[话题]#",
+  "tags": [
+    "大模型",
+    "算法",
+    "人工智能",
+    "互联网大厂",
+    "RLHF",
+    "GSPO",
+    "GRPO",
+    "DPO",
+    "2026校招季",
+    "秋天的第一个offer"
+  ],
+  "author": "AI有温度",
+  "authorId": "6416aa61000000001201071b",
+  "time": 1758977889000,
+  "ipLocation": "上海",
+  "likes": "3,643",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091054/e09c68609d16a2e99659503c708180ef/spectrum/1040g34o3203uq0kml4105p0ml9gki1orpe7fkqg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091054/6df13e5c48c94527f07a03bd270d2053/spectrum/1040g34o3203uq0kml41g5p0ml9gki1or0fde0o0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091054/7f666d8db4fec0d23232c5709ca620cf/spectrum/1040g0k031mu63p2tkq105p0ml9gki1org00ppco!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091054/da64707ed65fe972ed31a8be7f7da4b7/spectrum/1040g0k031mu63p2tkq1g5p0ml9gki1ornuhda4o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091054/c251388efcaeaf2c4400fb0237c453ee/spectrum/1040g0k031mu63p2tkq205p0ml9gki1orf5asu58!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091054/24b721964be6f6c43fc7fa821c5e70be/spectrum/1040g0k031mu63p2tkq2g5p0ml9gki1ors9kpqro!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091054/00b73550415e2f8fdd7951e016b3983d/spectrum/1040g0k031mu63p2tkq305p0ml9gki1or8260jt8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091054/55c1c92028f31d4acc8f92634c52cfbb/spectrum/1040g0k031mu63p2tkq3g5p0ml9gki1ors6nglk8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091054/c4295aa1eca4026a39ac4e7b9af0ee83/spectrum/1040g0k031mu63p2tkq405p0ml9gki1orpinic1g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091054/ee65b6e7fd9ca1223600e1dfb4ea35e3/spectrum/1040g0k031mu63mbil0005p0ml9gki1orum9h18o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68d78d54000000001203dab6?xsec_token=ABbw2QefP814igmwsBM5ZDLv_ewy7t2eDshVwWS98yMkw=&xsec_source=pc_collect"
+}

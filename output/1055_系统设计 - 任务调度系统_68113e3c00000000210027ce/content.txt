@@ -1,0 +1,19 @@
+系统设计 - 任务调度系统
+
+﻿#系统设计[话题]#﻿
+	
+00:00 design job scheduler
+00:15 clarify questions
+02:00 functional requirements
+04:30 non-functional requirements
+06:03 data model
+07:42 state machine
+09:16 high-level diagram
+11:56 deep dive: data store
+14:34 queue
+19:13 assign task
+22:29 resource allocation
+27:06 advance feature
+
+
+标签: #系统设计

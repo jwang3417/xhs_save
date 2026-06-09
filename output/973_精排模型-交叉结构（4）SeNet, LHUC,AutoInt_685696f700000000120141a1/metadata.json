@@ -1,0 +1,29 @@
+{
+  "id": "685696f700000000120141a1",
+  "type": "normal",
+  "title": "精排模型-交叉结构（4）SeNet, LHUC,AutoInt",
+  "desc": "推荐系统精排模型，特征交叉结构（4）\n本篇四个模型大体上都可以视为特征交叉来给特征赋权\nSeNet: 不同特征不同权重\nLHUC:  不同类别特征交互得到权重\nGateNet: Embedding层和MLP层特征权重的分别处理\nAutoInt: 注意力机制得到权重\n特征交叉模型暂时先到这里，后续主包有时间再更新其他系列如生成式推荐、用户行为建模、多目标建模等\n#互联网大厂[话题]# #算法岗[话题]# #搜广推[话题]# #深度学习[话题]# #推荐系统[话题]#",
+  "tags": [
+    "互联网大厂",
+    "算法岗",
+    "搜广推",
+    "深度学习",
+    "推荐系统"
+  ],
+  "author": "hululu",
+  "authorId": "63cc0e6f0000000026005131",
+  "time": 1750505207000,
+  "ipLocation": "",
+  "likes": "135",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091342/87ee127c9da0ed91be8179fdd7ed83c1/1040g2sg31j085flchie05ouc1pnpgk9hrva4ia8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/ed975269daac04d8507632b4c0a0df7d/1040g2sg31j085flchieg5ouc1pnpgk9hijbr6m0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/aca6c5120d86738703fd01f1a781fc44/1040g2sg31j085flchif05ouc1pnpgk9hdl3melg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/16b30415f2a3e18825931cc9ab57b798/1040g2sg31j085flchifg5ouc1pnpgk9hqukcc28!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/90efd79f21a551a423d7ec8a18454339/1040g2sg31j085flchig05ouc1pnpgk9hrak3sjo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/fac311d26703cb20bfa15eef8efb60f2/1040g2sg31j085flchigg5ouc1pnpgk9h3slqr00!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/7e117f3fb6bcee9492ecaf49906ed296/1040g2sg31j085flchih05ouc1pnpgk9h6aigpb8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/685696f700000000120141a1?xsec_token=AB_GbJs_wv1jV94RSt74c-rTjK5hBmZTxxyFUuMEr3Rp0=&xsec_source=pc_collect"
+}

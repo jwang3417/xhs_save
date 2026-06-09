@@ -1,0 +1,27 @@
+{
+  "id": "6878ed2d0000000012016c34",
+  "type": "normal",
+  "title": "",
+  "desc": "求助一下大佬们，Flow Matching很难是完美直线是主要由于flow存在交点，导致计算的速度v是均值的原因吗，或者还有其他原因？假如我在做下游任务时，确定了两个分布中点的一一对应关系，并且在高维空间中可以认为不存在交点，是否可以认为flow是近似完美直线，这种情况下做一步采样效果还是不如多步，说明我上面的推理似乎是有问题的，有大佬可以解答一下吗[皱眉R]，也欢迎大家宣传自己在这方面的工作[萌萌哒R]\n#生成式AI[话题]# #diffusion模型[话题]# #flow[话题]# matching#流模型[话题]# #深度学习[话题]##读博日常[话题]##论文[话题]##CVPR[话题]##v[话题]#-prediction",
+  "tags": [
+    "生成式AI",
+    "diffusion模型",
+    "flow",
+    "流模型",
+    "深度学习",
+    "读博日常",
+    "论文",
+    "CVPR",
+    "v"
+  ],
+  "author": "push我就疯",
+  "authorId": "5e2a6c8a000000000100b223",
+  "time": 1752755501000,
+  "ipLocation": "",
+  "likes": "104",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091328/430ec0e3e2ea3c3f52515d7f09da9c14/1040g00831k1otlquig005nhadi509ch3ab0nb3g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6878ed2d0000000012016c34?xsec_token=ABOw9tYQ3MbxIe8v17Sd35od536SGdrmTksZ5QTvVHAgE=&xsec_source=pc_collect"
+}

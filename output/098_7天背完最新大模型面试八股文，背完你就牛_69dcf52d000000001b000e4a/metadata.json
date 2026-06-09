@@ -1,0 +1,41 @@
+{
+  "id": "69dcf52d000000001b000e4a",
+  "type": "normal",
+  "title": "7天背完最新大模型面试八股文，背完你就牛",
+  "desc": "7天突击大模型面试攻略\n\t\nDay1-2：吃透Transformer架构（注意力机制、位置编码、FFN）、BERT/GPT核心区别。\n\t\nDay3-4：掌握微调方法（LoRA、P-tuning）、RLHF流程、涌现能力与Scaling Law。\n\t\nDay5：实战推理优化（vLLM、FlashAttention）、量化（GPTQ/AWQ）、部署框架。\n\t\nDay6：刷高频题（显存估算、长文本外推、RAG原理），背最新SOTA模型（LLaMA 3、DeepSeek）。\n\t\nDay7：模拟面试+复盘错题，重点准备项目经验（微调/部署/评测）。\n\t\n重点：少看长篇原理，多背面试口诀+公式+对比表格！\n#大模型面试[话题]# #大模型应用[话题]# #大模型微调[话题]# #大模型[话题]# #大模型实习[话题]# #Transformer[话题]# #ai大模型[话题]# #大模型算法[话题]# #大模型开发[话题]# #大模型训练[话题]#",
+  "tags": [
+    "大模型面试",
+    "大模型应用",
+    "大模型微调",
+    "大模型",
+    "大模型实习",
+    "Transformer",
+    "ai大模型",
+    "大模型算法",
+    "大模型开发",
+    "大模型训练"
+  ],
+  "author": "知识分享官01p",
+  "authorId": "643a5b9d000000001400cbee",
+  "time": 1776088365000,
+  "ipLocation": "",
+  "likes": "81",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090711/c2ba302266c595abe5677198df7e4209/notes_pre_post/1040g3k031utevk1f3m6g5p1qbeel1ive1umf1ig!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/c2b5e8b4deee7c2eafa9ab310554765e/notes_pre_post/1040g3k031utevk1f3m605p1qbeel1ive5iafjvo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/8c93dd0ddd518b92596064ceb60aec3e/notes_pre_post/1040g3k031utevk1f3m005p1qbeel1ivebsdsfto!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/2a8e01362e4db02da34f69e85d0a99ee/notes_pre_post/1040g3k031utevk1f3m0g5p1qbeel1iveco10bqo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/83aa706915ce1cdc3237a640bfb04a08/notes_pre_post/1040g3k031utevk1f3m3g5p1qbeel1ivej1b2240!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/380c7f1056002ec966aee796501b5d82/notes_pre_post/1040g3k031utevk1f3m1g5p1qbeel1ive9tbdhmg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/99004c5ffe6cddbd664f0675183384a9/notes_pre_post/1040g3k031utevk1f3m105p1qbeel1ivecr4iqo8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/a8fbc14862deac4d510ffe483fd68cea/notes_pre_post/1040g3k031utevk1f3m205p1qbeel1ivescr8ukg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/3cf914fc7fbf30a1253482eeb65f32da/notes_pre_post/1040g3k031utevk1f3m4g5p1qbeel1ivebk3hps8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/d7d5550a5939276384b3eba7e4c8be22/notes_pre_post/1040g3k031utevk1f3m2g5p1qbeel1ives5pa5j8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/b13cf0c191a21b1f34265bfdc8245ae2/notes_pre_post/1040g3k031utevk1f3m305p1qbeel1ivei0kbfmo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/0f94bf1b13c603273080012a699c871b/notes_pre_post/1040g3k031utevk1f3m505p1qbeel1iveiuttteg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/94b45e4b46f808fd2d9071614f32d14d/notes_pre_post/1040g3k031utevk1f3m405p1qbeel1ive9gr3cuo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/6c5015e2eaecb3cb98d10bbe2a129556/notes_pre_post/1040g3k031utevk1f3m5g5p1qbeel1iven4cp3o8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69dcf52d000000001b000e4a?xsec_token=ABWaBXHufD2cavQNnZt-sBsfjyT_Ziqh2y7Hr4df1MF-0=&xsec_source=pc_collect"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a0c1cd70000000035024204",
+  "type": "normal",
+  "title": "中国 AI 云第一名，还是阿里云？",
+  "desc": "刚刚，阿里云 AI 云份额 38.1%，公布了。\n\t\n每 5 块 AI 云支出，将近 2 块花在阿里云。\n\t\n1 ——\n十几年了，技术换了好几代，中国云市场排第一的始终是阿里云。\n5 月 19 日 Omdia《中国 AI 云市场份额 2025》显示，AI 云赛道也一样：阿里云 38.1%，比第二到第四名加起来还多。\n\t\n2 ——\nOmdia 把 AI 云分成 IaaS（算力底子）和 MaaS（模型即服务）两块。阿里云两块都是第一：IaaS 38.6%，MaaS 中的 MPS 42.3%，是第二名两倍多。\n\t\n整个市场 567 亿，IaaS 占 69%，MaaS 占 31%。说明企业真实 AI 支出仍集中在基础设施，但 MaaS 是不容小觑的增量。\n\t\n3 ——\nMaaS 内部分 MCS（API 调模型，按 Token 计费）和 MPS（微调、定制、部署）。\nMPS 占 MaaS 的 3/4，MCS 仅 1/4。平时挂在嘴边的「Token 调用量」，只是 MCS 那一小段。\n\t\n4 ——\n国内不少厂商不再讲 Token 叙事。阿里云 Coding Plan 改成 credits 计费，李彦宏在 Create 2026 给出新口径 DAA（日活智能体数）。\n\t\n原因不复杂：Token 消耗 ≠ 商业价值。免费推理、低价竞标背景下，Token 数可做得很大，营收不一定跟得上。\n亚马逊员工「让 AI 做无效任务虚增 Token」也是侧证。\n\t\n5 ——\n阿里云能拿到这个位置，核心是全栈。国内只有阿里云做成了「自研芯片 + 自研模型 + 云平台」，对标谷歌 Gemini + TPU + GCP。\n\t\n芯片：超 10 万卡自研真武 PPU\n模型：Qwen3.6-Plus 登上 OpenRouter 全球周调用量第一\n平台：PAI 覆盖微调到 Agent 全链路\nOmdia 认为，开发者生态和工程深度比算力规模更有决定性。\n\t\n6 ——\n上半年 35.8%，下半年 38.1%，集中度还在上升。B2B 客户要的是稳定、全栈、长期服务能力，这些不是一两年能补全的。\n\t\n7 ——\n回头看十几年，每次代际切换，第一名都是阿里云。中国 AI 云是 B2B 市场，70% 的 Token 消费来自企业，企业级服务能力是长期胜负手。\n\t\n这种位置，靠的是时间。\n但我仍希望国内不只有阿里，能百花齐放，而阿里能成为那个引导者。\n#互联网大厂[话题]# #小红书科技AMA[话题]# #AI工具[话题]# #阿里[话题]# #阿里云[话题]#",
+  "tags": [
+    "互联网大厂",
+    "小红书科技AMA",
+    "AI工具",
+    "阿里",
+    "阿里云"
+  ],
+  "author": "杉森楠 AI Humanist",
+  "authorId": "5a7476424eacab2bf5fda210",
+  "time": 1779181810000,
+  "ipLocation": "北京",
+  "likes": "177",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090731/7f634cec67d75068b00a06e4752618b4/spectrum/1040g0k0320bg1re15k004a17s0r458gg0ltleg8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090731/a331e646fee95f7308cb4b2c58a94a04/spectrum/1040g0k0320bg1re15k0g4a17s0r458ggpev5k0g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090731/e0c3b19c76ae21cf6285eae1c55f202f/spectrum/1040g0k0320bg1re15k104a17s0r458ggtosth8o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090731/912735cf147c5abf35734b2127c810b5/spectrum/1040g0k0320bg1re15k1g4a17s0r458ggm9ha408!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090731/2853e5a2a76e9c56b6493c5eb0013a9b/spectrum/1040g0k0320bg1re15k204a17s0r458ggh06pg4o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a0c1cd70000000035024204?xsec_token=ABgx5DhB33oacAfrZCIMg_Pcx_zKMrLa4eWvjNW6z3GPM=&xsec_source=pc_collect"
+}

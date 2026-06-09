@@ -1,0 +1,33 @@
+{
+  "id": "69e18d770000000022027f82",
+  "type": "normal",
+  "title": "面试官： RL训推不一致的原因 & 解决方案？",
+  "desc": "📌 今天解析大模型 RL 中的训推不一致的原因 & 解决方案。\n\t\n📌 各厂在卷的 Reasoning & Agentic 大规模 RL 后训练都是训推分离式架构，不可避免必须解决训推不一致的原因，因此面试必须知道常见解决方案。\n\t\n📒 详细解析内容➡️滑图查看！\n\t\n🎯相关内容已经总结到下方学习笔记中，持续更新！在平台提供大模型一手、原创、深度解析！带给大家更多好玩实践项目。\n\t\n#agenticrl[话题]# #agentrl[话题]# #rlagent[话题]# #agent强化学习[话题]# #强化学习Agent[话题]# #大模型强化学习[话题]# #训推不一致[话题]# #大模型[话题]# #算法工程师[话题]# #古希腊掌管代码的神[话题]#",
+  "tags": [
+    "agenticrl",
+    "agentrl",
+    "rlagent",
+    "agent强化学习",
+    "强化学习Agent",
+    "大模型强化学习",
+    "训推不一致",
+    "大模型",
+    "算法工程师",
+    "古希腊掌管代码的神"
+  ],
+  "author": "古希腊掌管代码的神",
+  "authorId": "6543cd40000000000400953c",
+  "time": 1776389495000,
+  "ipLocation": "",
+  "likes": "406",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090709/eeb155dcf9dbb107cf5bfe41a4ae3ba3/notes_pre_post/1040g3k031v1gsu4via005pa3pl01159sp9j1j0o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/5fa345dffe05d8211f886d3f8d9404a2/notes_pre_post/1040g3k031v1gsu4via0g5pa3pl01159sbsfe3h0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/847b847830fcaae45ccb9a7005862fa8/notes_pre_post/1040g3k031v1gsu4via105pa3pl01159saqagueg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/a95898dcc21e46f331ee08066d4f95f4/notes_pre_post/1040g3k031v1gsu4via1g5pa3pl01159spkfli10!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/73e67cb34bf4364801391becd937a8a0/notes_pre_post/1040g3k031v1gsu4via205pa3pl01159sil02a6o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/82e2ddbc4db7e2b24e847d1586bc3862/notes_pre_post/1040g3k031v1gsu4via2g5pa3pl01159soisqh48!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69e18d770000000022027f82?xsec_token=AB3nwhZ944yhswAcRJGJeQDkBuGM6LDG6qrBbjrgnbZdQ=&xsec_source=pc_collect"
+}

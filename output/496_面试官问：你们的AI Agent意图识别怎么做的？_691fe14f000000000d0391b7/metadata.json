@@ -1,0 +1,33 @@
+{
+  "id": "691fe14f000000000d0391b7",
+  "type": "normal",
+  "title": "面试官问：你们的AI Agent意图识别怎么做的？",
+  "desc": "[向右R]在我们写Agent系统的时候,意图识别往往是一个比较重要的点，因为这个关系到你的Agent系统是否准确.\n[鼓掌R]常用的方式也比较多，简单的提示词模版识别，结合微调的识别，多Agent多协同编排等…#AI开发[话题]# #大模型应用[话题]# #互联网大厂[话题]# #后端开发[话题]# #ai[话题]# #留学生校招[话题]# #agent[话题]# #校招[话题]# #算法工程师[话题]# #java[话题]#",
+  "tags": [
+    "AI开发",
+    "大模型应用",
+    "互联网大厂",
+    "后端开发",
+    "ai",
+    "留学生校招",
+    "agent",
+    "校招",
+    "算法工程师",
+    "java"
+  ],
+  "author": "勇哥玩AI",
+  "authorId": "68e8bce8000000003703380f",
+  "time": 1763696975000,
+  "ipLocation": "",
+  "likes": "30",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091019/291b63eb993360673a5a6a4c2f3d76ad/1040g2sg31p4qftkcise05q78njkdue0f1unpck8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091019/83a072abe8d9a7a87c39a810416867e9/1040g2sg31p4qftkcisfg5q78njkdue0fiv01bv0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091019/bbc9acfbceab621b2fa8dcbc47638463/1040g2sg31p4qftkcisg05q78njkdue0fkl6vc5g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091019/78cba72b1ae1aebd3b8e153e25fbf8bc/1040g2sg31p4qftkcisf05q78njkdue0fgdtaek8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091019/45e3e21433633eedaecc10489f8b2770/1040g2sg31p4qftkciseg5q78njkdue0fe58gh5o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091019/a0c3c754940afbe30794852fb63ab1c0/1040g2sg31p4qftkcisgg5q78njkdue0fp2g892g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/691fe14f000000000d0391b7?xsec_token=AB19B5ndW7T2C3WTO3DukxcIs0Pegs7D3tqqZ3nlZONas=&xsec_source=pc_collect"
+}

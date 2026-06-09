@@ -1,0 +1,31 @@
+北大：只用一个 ViT 跑完端到端 Diffusion
+
+传统 Latent Diffusion 需要 Encoder + Decoder + Diffusion 模型 三件套，多阶段训练、低效率、参数大、难统一。 这篇来自北大团队的研究提出 DSD，首次把三者彻底合一，用 一个单体 ViT 同时完成编码、解码和扩散，解决了长期困扰业界的 端到端训练崩溃问题。 结果：205M 参数、50 epoch，即可在 ImageNet 256×256 获得 FID 4.25 的强指标，堪比 700M+ 参数的传统 LDM。
+核心亮点
+1. 发现端到端失败的根因：latent collapse（核心贡献）
+论文通过 rank 分析证明扩散损失会导致：
+隐变量方差被压缩
+预测头输出高秩噪声导致 rank differentiation 机制失效 → 最终 latent 空间坍缩成低维点。
+2. 提出统一理论：Diffusion = Self-Distillation
+作者首次证明：扩散训练形式与 BYOL / DINO 系列自蒸馏框架在结构上本质相同，因此可用 SD 的收敛机制来稳定训练。
+3. 两个关键改动解决崩溃
+（1）Decoupling：对 clean latent 加 stop-gradient，切断方差压缩项的梯度。 （2）Loss Transformation：数学证明速度预测与“预测 clean latent”完全等价，因此可让预测器变成低通滤波器，恢复 SD 的 rank differentiation 稳定性。
+4. 单模型统一：Encoder + Decoder + Diffusion
+论文将所有功能接入 同一个 ViT：
+一个 backbone
+三个 head 打造真正意义的 单模型 LDM。
+5. 进一步引入完整自蒸馏策略
+EMA target encoder
+大量图像增强
+中层特征对齐 → 提升稳定性与表示质量。
+6. 实验效果强劲
+DSD-B在 FID、sFID、IS 上显著优于同规模方法
+在无 classifier-free guidance 下仍能达到 4.25 FID
+训练仅需 50 epoch
+	
+arXiv：2511.14716
+	
+#AI工具[话题]#  #生成式AI[话题]#  #DiffusionModel[话题]#  #自监督学习[话题]#  #VisionTransformer[话题]#  #开源研究[话题]#  #模型压缩[话题]#  #端到端训练[话题]#  #图像生成[话题]#  #AIGC[话题]#
+
+
+标签: #AI工具 #生成式AI #DiffusionModel #自监督学习 #VisionTransformer #开源研究 #模型压缩 #端到端训练 #图像生成 #AIGC

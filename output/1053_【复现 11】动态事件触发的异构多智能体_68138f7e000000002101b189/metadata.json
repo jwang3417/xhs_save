@@ -1,0 +1,22 @@
+{
+  "id": "68138f7e000000002101b189",
+  "type": "video",
+  "title": "【复现 11】动态事件触发的异构多智能体",
+  "desc": "#控制顶刊[话题]# #论文复现[话题]# #多智能体共识[话题]# #事件触发控制[话题]#\n内容：摘要—本文研究了具有动态事件触发机制（ETM）的异构多智能体系统（HMASs）中全分布式预定时间跟随领导者输出一致性（FDPT-LFOC）问题。首先，为每个智能体开发了一种基于自适应增益和时间可变缩放函数的全分布式预定时间（FDPT）观测器，用于估计领导者的状态。自适应增益用于避免在观测器设计中使用全局信息（如拉普拉斯矩阵特征值、代理数量等），而时间可变缩放函数在领导者状态的准时估计中发挥关键作用。为了在实现FDPT-LFOC时避免代理之间进行连续通信，设计了一种新型动态ETM，该ETM包含动态阈值和时间变量缩放函数。基于提出的FDPT观测器和动态ETM，开发了一种新型分布式PT（DPT）控制器。研究表明，采用所提DPT控制器和动态ETM的HMAS系统可在PT内实现低频率振荡控制（LFOC），并随后保持其一致性性能，同时可排除泽诺行为。最后，通过仿真实例验证了所提控制器和动态ETM的有效性。\n需要请私信！",
+  "tags": [
+    "控制顶刊",
+    "论文复现",
+    "多智能体共识",
+    "事件触发控制"
+  ],
+  "author": "不知名的C_c",
+  "authorId": "67c33d73000000000a03e4a1",
+  "time": 1746112382000,
+  "ipLocation": "",
+  "likes": "13",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091349/0904b590e2408070f485718197ea8f83/1040g2sg31gupcorvjq605pu37lpinp51amskpv0!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/1/110/259/01e8138e9a4b0d9201037003968c696948_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68138f7e000000002101b189?xsec_token=ABB6QJveNbVGNa2c539nCBuvx0kvNMS3jy0qmEeDYLhqg=&xsec_source=pc_collect"
+}

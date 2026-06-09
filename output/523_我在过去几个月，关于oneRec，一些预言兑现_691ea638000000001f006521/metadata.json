@@ -1,0 +1,28 @@
+{
+  "id": "691ea638000000001f006521",
+  "type": "normal",
+  "title": "我在过去几个月，关于oneRec，一些预言兑现",
+  "desc": "最近几个月，快手One model系列，在行业内引发了广泛的讨论；随着快手Q2\\Q3财报，对oneRec相关技术的重点关注，我也分享一下，在过去几个月，关于oneRec，一些“预言”的兑现。也欢迎大家交流讨论～（ps: 我的发言仅代表个人，信息均公开可查，不涉密[doge]）\n\t\n4月份，oneRec的论文刚发出来不久，受到了行业内同学们的广泛关注，有同学关心快手论文发这么狠是不是都落地了呀？【图2】当时，我负责任的说，我了解的这些工作是全量铺开取得了显著受益\n\t\n而oneRec是直接在快手最大消费的场景上迭代，范式是对传统推荐链路的“颠覆”，需要慎之又慎，不仅要分析其短、中、长期对用户端、生态端的影响，还需要梳理清楚，在端到端链路如何支持几百号人的迭代，以及业务运营意志的实现，这已然超出算法技术讨论的范畴，是系统性、组织性的工程。因此在主场景的推进上十分克制，但效果是对比全流量实打实的拿到了，而在其他耦合较轻的子场景上，铺开的效率是雷厉风行的。相关技术在快手Q2的财报【图3】里得到了背书。\n\t\n8月份，oneRec更详细的技术报告发出后，有不少同学关心该技术能否在其他场景落地【图4】； 我的看法也是如此，只有通用的技术，才值得大家广泛的关注；这几个月来，业内多家公司也发布了自己的one Model, 在快手场景，也已经在消费短视频、电商、商业化、本地生活等多个业务场景铺开，均取得显著的收益，快手Q3的财报【图5】有重点提及\n\t\n新范式的出现，往往会经历“质疑 > 理解 > 追随” 的历程，oneRec很小，生成式很大，欢迎加入我们一起探索[爆炸R]\n\t\n#快手[话题]# #OneRec[话题]# #生成式推荐[话题]# #互联网实习[话题]# #互联网大厂[话题]# #社招[话题]#",
+  "tags": [
+    "快手",
+    "OneRec",
+    "生成式推荐",
+    "互联网实习",
+    "互联网大厂",
+    "社招"
+  ],
+  "author": "楚风的算法笔记",
+  "authorId": "5fb7f3850000000001004838",
+  "time": 1763616312000,
+  "ipLocation": "",
+  "likes": "146",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091024/3710a2c3acdd8d038b77190a163addd0/spectrum/1040g0k031p3j0kmmi8e05ntnue2g8i1odu8lns8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091024/fe70de87f60c6972e5661c6565686127/spectrum/1040g0k031p3j2cg82c005ntnue2g8i1oaep3k98!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091024/c3b04c5797df922741528b210336e8ad/spectrum/1040g0k031p3j2cg82c105ntnue2g8i1or1bq2eo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091024/4bd097156375714b24a1d5321411d4bb/spectrum/1040g0k031p3j2cg82c0g5ntnue2g8i1osu9qde0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091024/1584bd83de9d8d0dcf5462ae4856e5a6/spectrum/1040g0k031p3j2cg82c1g5ntnue2g8i1o83a5r8o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/691ea638000000001f006521?xsec_token=ABQUn8SP6rHM46G61hGY0e8hWEb1Aq8-OPZm31I63JT8E=&xsec_source=pc_collect"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "69017ff70000000003021839",
+  "type": "video",
+  "title": "OneRec分享原视频回放&欢迎同频的你加入",
+  "desc": "hello，我叫大摇（王诗瑶），很幸运能代表团队小伙伴来介绍OneRec前前后后的研发过程。\n我们正在做的事情：\n1. 探索 Gen-RecSys 的Scaling Law   解构推荐场景下的“Chinchilla时刻”，包括数据、模型结构、tokenizer、memory等；\n2. 模型的深度推理（Reasoning）与意图对齐（Intent Alignment） 让模型“思考”而不是“拟合”，包括精细化的 Reward Modeling（奖励建模）、高质量数据（High-Quality Data）挖掘，以及 Data Efficiency等。\n3. 自主探索与利用（Exploration & Exploitation, E&E）   在闭环的数据自循环系统中，利用真实的交互反馈中持续地自我迭代和增强。\n4. 攻坚生产化的核心挑战 这包括（但不限于）提升模型在复杂分布下的鲁棒性（Robustness），量化（Quantization）、知识蒸馏（Distillation）等，确保模型能够高效、低成本地服务于海量用户。\n\t\n无论是LLM的背景还是Reco的背景都可以，但希望你是\n1. 对AI技术具备强烈热情，认同技术驱动业务与社会价值提升；\n2. 关注推荐大模型/大语言模型技术前沿，对行业动态有持续追踪和理解；\n3. 在某一领域有突出成果，包括但不限于：\n1）在ICML、ICLR、NeurIPS 、ACL、CVPR、ICCV、ECCV等国际顶级会议以一作发表过论文；\n2）有ACM/ICPC、TopCoder、Kaggle等算法竞赛获奖经历；\n\t\n二维码我放评论区哈，欢迎投递～\n#快手OneRec[话题]# #推荐大模型[话题]# #llm[话题]# #互联网大厂实习[话题]# #强化学习[话题]# #多模态[话题]#",
+  "tags": [
+    "快手OneRec",
+    "推荐大模型",
+    "llm",
+    "互联网大厂实习",
+    "强化学习",
+    "多模态"
+  ],
+  "author": "大摇sy",
+  "authorId": "5856bb765e87e73eedc2ac36",
+  "time": 1761705975000,
+  "ipLocation": "",
+  "likes": "795",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091101/af20b8b302e9475548e0eed46071abd3/1040g2sg31o6h11cemme048vg2jtndb1mrk77j28!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e9016cdd7f4dce010370039a2ddef61d_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69017ff70000000003021839?xsec_token=ABmyiJ-RB0P3x3M96Bo3Ces2AMRtaI7sQn7Xy6XQ9L170=&xsec_source=pc_collect"
+}

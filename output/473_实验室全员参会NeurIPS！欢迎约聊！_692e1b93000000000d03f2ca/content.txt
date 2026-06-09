@@ -1,0 +1,16 @@
+实验室全员参会NeurIPS！欢迎约聊！
+
+一年一度年底AI盛会NeurIPS又要来了！今年我们实验室（几乎）全员都会去圣地亚哥参加 #NeurIPS2025[话题]# 🎉 我会在 12/2–12/6 全程在现场，如果你对 #agents[话题]# #多模态推理 #对齐与安全 #科研/职业选择 有兴趣，真的非常欢迎来找我或者我们组的同学聊天～😁
+	
+这次我们组有三篇推理方向的主会论文（和多篇workshop论文）：
+✨ Soft Thinking: 让 LLM 在连续概念空间里思考得更好，by Zhen and Xuehai 等
+👉 https://soft-thinking.github.io
+✨ GRIT：教 MLLMs 用图像思考， by Yue, Xuehai, Kaizhi 等
+👉 https://grounded-reasoning.github.io
+✨ More Thinking, Less Seeing?: 分析多模态推理模型的“幻觉增强”问题，by Chengzhi 等
+👉 https://mlrm-halu.github.io
+	
+另外也给我们组的小伙伴们打一波 call 📣：Yue和Kaiwen今年在market上🔥, open for全职科研岗位。其他同学也open for 暑假科研实习。这些同学都非常非常优秀，欢迎提前“锁定人才”哈哈。Catch them early before they go! 😄
+
+
+标签: #NeurIPS2025 #agents

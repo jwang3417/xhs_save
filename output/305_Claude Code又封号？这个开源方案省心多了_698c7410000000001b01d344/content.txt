@@ -1,0 +1,25 @@
+Claude Code又封号？这个开源方案省心多了
+
+被封号折腾够了之后，我找到了一个省心的替代方案
+OpenCode + Oh My OpenCode + 接口AI。
+功能差不多，但不用翻墙、不用担心封号、模型随便切。
+	
+⏱️ 时间戳：
+00:00 被封号后的新选择
+00:28 OpenCode是什么
+00:32 OpenCode的独特优势
+00:52 oh-my-opencode多Agent插件
+01:12 OpenCode整体架构解析
+01:50 多Agent多模型协作机制
+02:21 为什么需要多个代理
+03:25 安装OpenCode和插件
+04:56 配置多模型和Agent
+06:20 用接口AI解决封号问题
+07:30 配置文件详解
+08:46 实战演示多Agent协作
+13:04 总结与推荐
+	
+#opencode[话题]# #claudecode[话题]# #ohmyopencode[话题]# #接口AI[话题]#
+
+
+标签: #opencode #claudecode #ohmyopencode #接口AI

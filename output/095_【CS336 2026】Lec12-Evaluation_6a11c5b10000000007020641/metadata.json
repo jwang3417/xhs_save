@@ -1,0 +1,28 @@
+{
+  "id": "6a11c5b10000000007020641",
+  "type": "video",
+  "title": "【CS336 2026】Lec12-Evaluation",
+  "desc": "：困惑度、MMLU 与 Arena 怎么看 [中英字幕]\n【内容摘要】\n本期视频来自 Stanford CS336 Language Modeling from Scratch | Spring 2026 的 Lecture 12: Evaluation，由 Percy Liang 主讲，核心问题是：如果我们已经能训练出越来越强的语言模型，那么“强”究竟该如何定义，又该如何测量。\n\t\n课程先从 perplexity、likelihood 和 log loss 这些传统语言建模指标出发，再一路延伸到 MMLU、多项选择基准、pairwise preference、Chatbot Arena / LLM Arena、人类偏好和数据污染问题。整讲的重点不是罗列 benchmark，而是说明每种评测都隐含了自己的任务假设、噪声来源和失真方式，因此真正的 evaluation 需要同时理解指标、数据和使用场景。\n\t\n【时间轴】\n00:00 为什么 evaluation 不能只看排行榜\n05:40 perplexity / likelihood / log loss\n09:07 train-test contamination 问题\n14:49 multiple-choice benchmark 的做法\n19:06 MMLU 这类经典评测怎么读\n32:57 Chatbot Arena 与 pairwise preference\n35:56 LLM Arena 的参与者与偏差\n45:11 聊天场景与开放式任务\n57:36 指标提升背后的熟悉模式\n01:09:37 数据不可见性与评测边界\n\t\n【视频来源】\nStanford CS336 Language Modeling from Scratch | Spring 2026 | Lecture 12: Evaluation\nPercy Liang | Stanford\nY2B ID: JpAxdTWQJxM\ndate: 2026-05-19\n\t\n#CS336[话题]#  #Stanford[话题]#  #Evaluation[话题]#  #Perplexity[话题]#  #MMLU[话题]#  #ChatbotArena[话题]#  #LLMArena[话题]#  #模型评测[话题]#  #Benchmark[话题]# #好视频扶持计划[话题]#",
+  "tags": [
+    "CS336",
+    "Stanford",
+    "Evaluation",
+    "Perplexity",
+    "MMLU",
+    "ChatbotArena",
+    "LLMArena",
+    "模型评测",
+    "Benchmark",
+    "好视频扶持计划"
+  ],
+  "author": "葬送的模数师",
+  "authorId": "649db0f10000000010036460",
+  "time": 1779588047000,
+  "ipLocation": "中国澳门",
+  "likes": "19",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090711/9e0e56652041aa0d1d3aca6effce63ff/spectrum/1040g34o320h1jtcklc0g5p4tm3ok6p3058en4jo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/79/110/259/01ea11c53513f547010370039e55754bea_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a11c5b10000000007020641?xsec_token=ABLg8YljjKHep9bu27Pz-fnLGXrVefOxEpxEVnFcwzmRU=&xsec_source=pc_collect"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "68bacdf6000000001c00e15d",
+  "type": "normal",
+  "title": "LLM助力Pinterest搜索：高效自动评估相关性",
+  "desc": "📜 翰林侍读在此！给陛下奉上今日AI领域的论文速报！\n📅 右滑查看士子奏报和论文重要图表——\n👨‍🎓 关注微臣，每天批阅更多奏章！\n📚 论文标题：LLM-based Relevance Assessment for Web-Scale Search Evaluation at  Pinterest\n🔗 Arxiv ID：2509.03764v1\n🔑 关键词：relevance evaluation, personalized search, LLMs, online experiments, MDE\n📖 太长不看版：本研究展示了Pinterest Search如何利用微调的大型语言模型（LLM）自动化在线实验的相关性评估，验证了LLM生成的判断与人工标注的一致性，显著提升了评估效率，优化了查询集和抽样设计，降低了在线实验的最小可检测效应（MDE），提升了相关性指标质量。\n📝 摘要翻译：相关性评估在个性化搜索系统中扮演着至关重要的角色，以确保搜索结果与用户的查询和意图相一致。虽然人工标注是传统的相关性评估方法，但其高昂的成本和漫长的周转时间限制了其可扩展性。在这项工作中，我们介绍了Pinterest Search的自动化相关性评估方法，该方法使用微调的LLM进行在线实验。我们严格验证了LLM生成的判断与人工标注之间的一致性，证明了LLM可以为实验提供可靠的相关性度量，同时大大提高了评估效率。利用基于LLM的标注进一步解锁了扩展查询集、优化抽样设计以及高效评估更广泛搜索体验的机会。这种方法带来了更高质量的相关性指标，并显著降低了在线实验测量中的最小可检测效应（MDE）。\n\t\n🔍 本帖由AI整理生成，若有错误欢迎朱批！\n👉🏻 求一个关注，让我更有动力为大家整理更多的AI领域的新文章！\n\t\n#LLM[话题]#  #NLP[话题]#  #AI[话题]#  #大模型[话题]#  #人工智能[话题]#  #论文阅读[话题]#  #LLM翰林院[话题]#",
+  "tags": [
+    "LLM",
+    "NLP",
+    "AI",
+    "大模型",
+    "人工智能",
+    "论文阅读",
+    "LLM翰林院"
+  ],
+  "author": "LLM 翰林院",
+  "authorId": "6468629c0000000012037726",
+  "time": 1757072886000,
+  "ipLocation": "",
+  "likes": "81",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091157/eedf63accab0177760651188226aa51a/spectrum/1040g0k031m23r5qc50005p38cae4mtp6dl6v2s8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/45b771bbd8fdaa35be849b2d526b7466/spectrum/1040g0k031m23r5qc500g5p38cae4mtp6cuvo3eg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/3db77cc3dab0cbdc3a665e70e00ea39a/spectrum/1040g0k031m23r5qc50105p38cae4mtp6kegc32o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/f2dc230805d0f06873eea329f937fd1f/spectrum/1040g0k031m23r5qc501g5p38cae4mtp627uvti8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/b5624691ddfffce1361fbee0ee4857e7/spectrum/1040g0k031m23r5qc50205p38cae4mtp6ps8ccl0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/4dc1ec49a03582cf7302d9de30987e2c/spectrum/1040g0k031m23r5qc502g5p38cae4mtp60978b10!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/dbbf5898a137d07a9998a87786899685/spectrum/1040g0k031m23r5qc50305p38cae4mtp69f10vj8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091157/e734061cc9e946b58efabfbf9f867932/spectrum/1040g0k031m23r5qc503g5p38cae4mtp6ivh7ffg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68bacdf6000000001c00e15d?xsec_token=ABYmFhJU6wlwNihdcbUA2H9GMvI-5uyofV7Io43wTcu_I=&xsec_source=pc_collect"
+}

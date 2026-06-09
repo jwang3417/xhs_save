@@ -1,0 +1,9 @@
+俄罗斯套娃特征学习👀
+
+因为ICML oral的文章 Beyond Matryoshka: Revsiiting Sparse coding for adaptive representation, 认识了套娃特征学习[扯脸H]
+	
+Idea很简单，一次学 features with different dimensionality. 比如 classification tasks, 从倒数第二层layer出来的feature 是2048，再多加几个mlp heads得到不同的features. 最后的loss就是所有的cross-entropy losses取平均。
+#NeurIPS22[话题]# #ICML2025[话题]#
+
+
+标签: #NeurIPS22 #ICML2025

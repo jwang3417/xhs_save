@@ -1,0 +1,27 @@
+{
+  "id": "6982ca6b0000000021032cdb",
+  "type": "normal",
+  "title": "腾讯姚顺雨这篇论文确实值得一看。",
+  "desc": "腾讯姚顺雨署名的这篇 AI 论文确实值得一看。我估计论文里提到的 Context Learning 会成为 2026 年的一个新趋势。\n\t\nContext Learning 和 Context Engineering 不是一回事。\n\t\nContext Engineering 讨论的是什么信息该放进上下文窗口。模型的上下文长度有限，所以我们得想办法把最相关的内容塞进去。\n\t\n怎么切分文档、怎么排序、要不要做摘要、要不要加索引，这些都是 Context Engineering 的范畴。\n\t\n它本质上是一个工程问题，核心假设是：只要我把对的信息给到模型，模型就能用好。\n\t\n而 Context Learning 讨论的是另一个问题：模型拿到这些信息之后，能不能从中学会新东西，然后用这个新东西解决问题？\n\t\n打个比方。Context Engineering 像是老师帮学生整理好了复习资料，把重点都标出来，按章节排好，删掉无关内容。\n\t\n这个工作很重要，但它解决的是信息组织的问题。\n\t\nContext Learning 考察的是学生拿到这份整理好的资料后，能不能真的学会里面的新知识，然后去答一道他从没见过的题。\n\t\n这个区别非常重要。\n\t\n因为现实世界的任务，往往需要模型处理它从没见过的东西。一个新产品的操作手册、一套刚发布的政策法规、一份内部业务流程文档。\n\t\n这些内容不在模型的预训练数据里。模型不能靠回忆来回答，它必须现场学、现场用。\n\t\n那目前头部模型的 Context Learning 能力到底怎么样？\n\t\n这篇论文做了一个很硬核的测试。研究团队构建了 500 个复杂上下文，设计了 1899 个任务，配了 31607 条评分标准。\n\t\n每个任务都经过精心设计，确保解决它所需要的知识只存在于给定的上下文里，模型没法靠预训练记忆来蒙混过关。\n\t\n这些上下文包括什么呢？全新的编程语言语法、刚发布的产品操作手册、需要从实验数据中归纳出的物理规律。全都是模型不可能提前见过的内容。\n\t\n结果相当残酷。\n\t\n十个顶尖模型的平均成功率只有 17.2%。表现最好的 GPT-5.1 也只解决了 23.7% 的任务。Claude Opus 4.5 是 21.1%，o3 是 17.8%。\n\t\n没有一个模型突破 30%。\n\t\n研究团队还做了一个对照实验：把上下文拿掉，让模型直接答题。成功率直接掉到不到 1%。\n\t\n这说明这些任务确实需要从上下文中学习，不是靠猜或者靠预训练知识能蒙对的。",
+  "tags": [],
+  "author": "小盖",
+  "authorId": "6720c690000000001c01b883",
+  "time": 1770179179000,
+  "ipLocation": "",
+  "likes": "881",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090939/af499627ddb16241c7bed73ddb105ae6/spectrum/1040g0k031s5dbdqjla005pp0oq873e43vb1n0bo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090939/35451f1d9674ef93e347d12d2c18c8da/spectrum/1040g34o31s5dbihvle105pp0oq873e430hip0bo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090939/c57e958465dd924f0b0637bf68af0009/spectrum/1040g34o31s5dbn7o560g5pp0oq873e43412u4rg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090939/0079ef63784881ad559630fde1e34902/spectrum/1040g34o31s5dbs9j56105pp0oq873e430e29rp8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090939/91a9f2dbc8d012a169eb10b12255438b/spectrum/1040g34o31s5dbuovle105pp0oq873e43lq38g38!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090939/a9f92b82887949ccf5abfcb596b4b153/spectrum/1040g0k031s5dc1fple005pp0oq873e43o56jae8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090939/ec23cff085aa9e529b65971d87b0d9f0/spectrum/1040g0k031s5dc4ahla0g5pp0oq873e43cp228sg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090939/1d294a8dd7509acf6778f900ea873954/spectrum/1040g0k031s5dc6pdlc005pp0oq873e437m873s8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090939/9d708ca8d9ecdfb5c4c6f04ec2b08ea7/spectrum/1040g34o31s5dc939lc005pp0oq873e43or8le20!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090939/27e2c48a9324738b7f9f285837e780bf/spectrum/1040g34o31s5dcbsl5a0g5pp0oq873e43esufef0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090939/a7f526ff9872759309dd61f58c43a353/spectrum/1040g0k031s5dce2ula005pp0oq873e43vhl67q8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6982ca6b0000000021032cdb?xsec_token=ABjemWMEFH9Nwl5Mc1NtfgN47Ed0pfOxGDkv5DQ9oZzC8=&xsec_source=pc_collect"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6960ff25000000002200be39",
+  "type": "normal",
+  "title": "如何区分扩散模型、Transformer、DiT和AR？",
+  "desc": "🚩 Diffusion model、Transformer、DiT与AR生成这四个高频词汇常被混淆，其根源在于未能清晰界定「生成范式」与「网络架构」的对象层级差异。\n🚩 本文旨在通过Architecture-agnostic的视角，纵向拆解范式逻辑，横向对比架构特性，深度解析这四者在Image Generation中的确切定义与技术边界。\n🚩 本次分享将从生成范式的核心逻辑、通用架构的适配机制以及二者的融合创新三个维度展开，具体内容包括：\n\t\n👉 生成范式辨析：\n1）Diffusion Model：核心为迭代去噪的反向马尔可夫链，属Architecture-agnostic范式（可用U-Net或DiT），虽通常为Non-AR，但Self Forcing等工作证明了其具备AR生成的可能性；\n2）AR生成：基于Next-X Prediction的序列依赖范式，强制要求Causal Mask与串行推理，与Diffusion的全图并行生成存在本质差异。\n\t\n👉 架构与范式的结合：\n1）Transformer架构：一种以Self-Attention为核心的通用神经网络架构，既可用于AR生成（LlamaGen），也可用于Non-AR生成（MaskGIT）；\n2）Diffusion Transformer（DiT）：Transformer架构+Diffusion范式的结合体，利用Global Attention替代U-Net的Inductive Bias，实现了对Latent Patch的高效建模。\n\t\n（由于文字篇幅限制，具体细节麻烦大家移步图片～👆）",
+  "tags": [],
+  "author": "叫我Alonzo就好了",
+  "authorId": "632dbaa10000000023026ad9",
+  "time": 1768478445000,
+  "ipLocation": "",
+  "likes": "92",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090940/70301750570dac60cf243c840e645e08/spectrum/1040g34o31r4danh5n0b05opdnagosqmp7totk7g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090940/8cb39650e548eda535c32f4727f0e351/spectrum/1040g34o31r4danh5n0bg5opdnagosqmpau0mqn8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090940/6db29d63868bb2b3f83dcbfb7a6021a3/spectrum/1040g34o31r4danh5n0c05opdnagosqmpsm65co8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090940/ab64d2484794b261d35b704f25b07c7f/spectrum/1040g34o31r4danh5n0cg5opdnagosqmpfvhr0n0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090940/035f9818d8824983efae3eaeee83ad88/spectrum/1040g34o31r4danh5n0d05opdnagosqmpq7nr8p8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090940/4b63f28d828c0882d5c925961ddcc711/spectrum/1040g34o31r4danh5n0dg5opdnagosqmp3596500!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090940/8abdd29d140fa663d8e19ac90f65668e/spectrum/1040g34o31r4danh5n0e05opdnagosqmp2gsk1e0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090940/1056d14f5748895088eb00bea23c4070/spectrum/1040g34o31r4danh5n0eg5opdnagosqmp3hcala8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090940/d64f8ea1e42154cc379ac25a3a4920ad/spectrum/1040g34o31r4danh5n0f05opdnagosqmpvurb5p8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090940/f343cb336680cfd250ee7f7273f9c0ad/spectrum/1040g34o31r4danh5n0fg5opdnagosqmp0m4m2ho!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090940/73a53322ad759f5babe71b66a0976879/spectrum/1040g34o31r4danh5n0g05opdnagosqmp723kad0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6960ff25000000002200be39?xsec_token=AB3RNxw648COXZi71Z2uvxUcyBLNt16urVTkEHqjD8W0w=&xsec_source=pc_collect"
+}

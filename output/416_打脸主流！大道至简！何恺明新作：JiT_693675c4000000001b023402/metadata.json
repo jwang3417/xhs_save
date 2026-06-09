@@ -1,0 +1,27 @@
+{
+  "id": "693675c4000000001b023402",
+  "type": "video",
+  "title": "打脸主流！大道至简！何恺明新作：JiT",
+  "desc": "他，是让整个AI领域都为之瞩目的男人——何恺明。 他提出的ResNet，是21世纪单篇被引次数最多的论文；他引领的MAE，重塑了视觉自监督学习。 而今天，他的团队带着一篇新论文回来了，这一次，目标直指当前AI圈的顶流——扩散模型。 论文的标题霸气外露：《Back to Basics》（返璞归真）。 文中直接拷问：我们花了这么多算力，让模型去预测噪声，这条路是不是从一开始就走错了？ 如果答案是真的错了，那我们过去几年看到众多AI图像、视频的爆炸式进展，其底层逻辑可能都要被重新审视。 本期视频，我们就来深入解读，何恺明团队如何用一个最简单Transformer，直接预测目标图像，挑战扩散模型的根本范式。#人工智能[话题]# #大模型[话题]# #transformer[话题]# #深度学习[话题]# #算力[话题]# #带你一起读论文[话题]# #计算机视觉[话题]# #扩散模型[话题]# #视频生成[话题]#",
+  "tags": [
+    "人工智能",
+    "大模型",
+    "transformer",
+    "深度学习",
+    "算力",
+    "带你一起读论文",
+    "计算机视觉",
+    "扩散模型",
+    "视频生成"
+  ],
+  "author": "Lau博士的云组会",
+  "authorId": "657690f4000000003d02a1ef",
+  "time": 1765184281000,
+  "ipLocation": "",
+  "likes": "2,677",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091001/1d68617d6c3c6274d1003e74a87103f5/spectrum/1040g34o31pqs1dtq40105pbmi3qfd8ffnp8a1i0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/1/110/259/01e9367553277efd010370039afcbf4774_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/693675c4000000001b023402?xsec_token=ABY8jA6ITRkkstIov3DHeCNsk5NNwhm54idqaAyZeA6D8=&xsec_source=pc_collect"
+}

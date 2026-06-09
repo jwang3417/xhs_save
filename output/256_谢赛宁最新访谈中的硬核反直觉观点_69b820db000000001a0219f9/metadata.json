@@ -1,0 +1,33 @@
+{
+  "id": "69b820db000000001a0219f9",
+  "type": "normal",
+  "title": "谢赛宁最新访谈中的硬核反直觉观点",
+  "desc": "1.“很多关键选择都不是‘规划出来’的，而是随机、神秘、带运气成分”\n2.“不要想‘我不做也会有人做’，要想‘我不做这事可能永远不会发生’”\n3.“我不追求第一名；在一个强竞争环境里，‘不被淘汰’就很好”（竞争过度会压制创新；而科研更需要长期兴趣与自主性）\n4.“研究最常见的节奏是：前面很久做不出来，最后一个月突然收敛”“最糟糕的研究：开题时的想法=最终发表的想法”\n5.“失败实验也可能给更大的梯度，比成功实验更有信息量”\n6.“科研职业优化的不是平均水平，而是你一生中少数几篇峰值作品，甚至一次就够” （引用 Bill Freeman 的那张曲线）（真正改变领域的工作非常稀缺；职业回报是强非线性的；而多数评价体系却又鼓励稳定刷产出....）\n7.“别迷信影响力 impact这个词，它很自我中心；更好的目标是：让更多人理解你理解到的东西” （谈 Hannah Arendt）\n8.“做研究首先要把 baseline 推到极致；弱 baseline 上的改进，多数是一次性论文” （讲 FAIR 的工程/infra 文化）\n9.“我去 Google的一部分动机是：看看工业界在做什么，从而知道学术界不要做什么”（工业资源碾压式领先，学术去硬追往往变成用花生资源追航母；更聪明的是错位竞争）\n10.“美国青年教师的资源困境非常真实，经费小、竞争大，甚至像创业一样在到处化缘”\n11.“LLM 很有用、我也每天用，但它不会是通用智能/世界模型的地基；它会逐渐淡出成接口层”\n12.“语言是毒药/鸦片，会让视觉研究被污染，而且污染已经发生”（语言作为强势接口，会把问题改写成更像语言的任务，导致视觉表征能力被弱化，研究重心被叙事和 benchmark 牵引）\n13.“语言模型的 Scaling Law 里有水分（inflation）。它的规模提升，部分来自知识记忆/检索需求，而不等同于更深的世界理解”（语言数据本身是人类长期加工过的世界，训练相当于在吃高度浓缩的监督信号；因此曲线里有一部分是被任务定义与知识密度抬出来的）\n14.“把视频/视觉 token 串成超长序列喂给 Transformer，本质上是不合理的。它把一个有全局状态的连续世界，序列化成高度冗余的 token”\n15.“视觉可能不需要（语言那种形式的）Scaling Law；视觉的 scaling 形态会非常不同，甚至模型未必需要那么大”\n\t\n更多内容请看图中总结的完整的24条硬核观点\n#大模型[话题]# #访谈[话题]# #谢赛宁[话题]# #世界模型[话题]##商业[话题]# #AI人工智能[话题]# #科研[话题]# #meta[话题]# #硅谷[话题]# #大语言模型[话题]#",
+  "tags": [
+    "大模型",
+    "访谈",
+    "谢赛宁",
+    "世界模型",
+    "商业",
+    "AI人工智能",
+    "科研",
+    "meta",
+    "硅谷",
+    "大语言模型"
+  ],
+  "author": "川川冲冲冲",
+  "authorId": "63ea4a89000000002702b073",
+  "time": 1773674715000,
+  "ipLocation": "",
+  "likes": "1,600",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090930/a1d9ec8a343722b49bd6a487af5f43bd/1040g2sg31tp4716q7ejg5ova9a4ptc3jvdf8ogo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090930/393b2d78ea7414959d8c46fe4dada251/1040g2sg31tp4716q7egg5ova9a4ptc3jk4h61k0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090930/b5ca2572c58aa88ad17b6e5cd6b06ebf/1040g2sg31tp4716q7ef05ova9a4ptc3jnrmc7c8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090930/155eb3ba9a4e55f61a4672a1a2d4030d/1040g2sg31tp4716q7ekg5ova9a4ptc3jju54d5o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090930/3ea65222b083f32278f5eeca5fce28f0/1040g2sg31tp4716q7eh05ova9a4ptc3j59f4c7o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090930/d7ceb5119845d4a946439296395773ff/1040g2sg31tp4716q7ee05ova9a4ptc3jg7a8oe0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69b820db000000001a0219f9?xsec_token=AB5h8BIus10hw4XrutEXKuPGRc5RIRFluyaPgOgMFSmv4=&xsec_source=pc_collect"
+}

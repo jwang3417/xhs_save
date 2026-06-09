@@ -1,0 +1,10 @@
+AI学习| 近期看到最好的Prompt Eng视频
+
+Prompt Engineering是在这个AI时代最重要的能力之一。之前看了很多讲Prompt Enginnering的视频，要么讲的很浅，要么过于深奥。
+	
+这周看到了Anthropic发布的Prompting 101，短短20分钟的视频，用一个非常具体的案例，把Prompt Engineering 由浅至深讲解的很好，也解答了很多我在做自己的app的过程中关于prompt的很多疑惑。所以给大家用4分钟讲解了一下这个视频的重点。
+	
+#AI[话题]# #人工智能[话题]# #vibecoding[话题]# #vibecoding项目[话题]# #AI工具[话题]# #prompt[话题]# #Claude[话题]# #大模型[话题]#
+
+
+标签: #AI #人工智能 #vibecoding #vibecoding项目 #AI工具 #prompt #Claude #大模型

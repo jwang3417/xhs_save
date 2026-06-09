@@ -1,0 +1,21 @@
+{
+  "id": "6846fcc8000000000c039780",
+  "type": "video",
+  "title": "TTRL、PRIME原作论文讲解-智源大会2025（二）",
+  "desc": "智源大会2025深度推理专场精选2\n包含了最近很火的TTRL论文讲解\n\t\n丁宁老师报告主题是“强化学习驱动的推理模型”，主要三部分：\n·从结果奖励获得和利用免费的密集奖励(PRIME)\n·模糊奖励估计和模型自进化(TTRL)\n·模型探索和学习的熵机理(the entropy mechanism)\n\t\n1、隐式密集奖励框架Implicit-PRM。传统RLHF通常只有结果奖励，难以获得过程监督，而Implicit-PRM通过将奖励定义为策略与参考模型对同一动作对数概率之比，只要有最终得分，就能在推理阶段为每一步甚至每个token生成免费的过程奖励。基于这样的奖励信号，团队提出了RL框架PRIME：结果奖励实时更新PRM，PRM立即反馈密集奖励，再与结果奖励合并更新策略模型。\n\t\n2、Test-Time Reinforcement Learning（TTRL），最近也比较火。在没有任何人工标签的情况下，模型对同一输入采样多条答案，通过多数投票给出伪标签，再将“是否与投票答案一致”作为0、1奖励做强化学习训练。有效性来自“幸运的负奖励”现象：只要模型输出充分多样，即使真标签未知，投票也能提供方向正确、噪声可控的梯度信号。\n\t\n3、The Entropy Mechanism\n实验证明，在各种模型、数据和算法设置下，丁宁老师指出：高概率且高优势的动作会急剧降低熵，低概率但高优势的动作则会抬高熵。据此，只需对极少数协方差最大的token做Clip，或用KL正则约束更新幅度，就能保持探索多样性并避免熵快速坍缩，效果超过DAPO，而无需反复调参。\n\t\n4、展示了在视觉-运动控制任务中的尝试：仅用一条演示轨迹和二元奖励信号，就把机器人任务成功率提升99% 以上。\n\t\n5、问答环节：Clip是否引入偏差、TTRL如何避免reward hacking\n#大模型[话题]# #TTRL[话题]# #强化学习[话题]#",
+  "tags": [
+    "大模型",
+    "TTRL",
+    "强化学习"
+  ],
+  "author": "一蛙",
+  "authorId": "607c6b9f0000000001000330",
+  "time": 1749482696000,
+  "ipLocation": "",
+  "likes": "1,711",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091343/dda8e0c149b28dd3dc4e9cc8628ea803/1040g2sg31ih0j5sog8705o3sdefg80pgq7d90sg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/1/110/259/01e846f4c8060b390103700397554f1d99_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6846fcc8000000000c039780?xsec_token=ABE051kf-EEASMQ9eOAlLq0w8IkdX8HWQjf_RsdG3P2TQ=&xsec_source=pc_collect"
+}

@@ -1,0 +1,15 @@
+GPT解读X(Twitter)公开的推荐算法
+
+X(Twitter)公开了自己的推荐算法
+https://github.com/xai-org/x-algorithm
+	
+GPT的总结是——
+	
+你可以把这套 X（xai-org/x-algorithm） 的推荐理解成：传统推荐的外壳（召回→过滤→排序→多样性→再过滤）没变，但‘相关性/排序’这颗心脏，尽量从‘特征工程+规则+一堆小模型’换成了‘一个 Grok 架构的 Transformer 直接吃用户行为序列来学相关性’。
+	
+详情见图片。
+	
+#Twitter[话题]# #Musk[话题]# #ChatGPT[话题]# #推荐算法[话题]# #LLM[话题]#
+
+
+标签: #Twitter #Musk #ChatGPT #推荐算法 #LLM

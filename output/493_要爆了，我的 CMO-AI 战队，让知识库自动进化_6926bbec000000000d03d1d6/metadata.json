@@ -1,0 +1,36 @@
+{
+  "id": "6926bbec000000000d03d1d6",
+  "type": "normal",
+  "title": "要爆了，我的 CMO-AI 战队，让知识库自动进化",
+  "desc": "最近 Obsidian 圈子流行“AI 接管知识库\n我也折腾了一套自己的「CMO组合」：\nClaude Code + MiniMax M2 + Obsidian\n\t\nCMO 组合说明：\n\t\nClaude Code 它不只是编程工具，也可以是个AI知识库管家 ， 读取Obsidian里所有笔记，直接AI对话\n\t\nMiniMax M2 我的主力干活模型，开了个9.9元的Coding Plan，一杯冰美式价格，试错成本极低，用于替换昂贵的CC （穷人的眼泪），用M2稳定，还不用担心被ban，都给我冲～\n\t\nObsidian 我的第二大脑，所有笔记都在这  现在有AI加持，直接起飞\n\t\n大家用AI有个误区是：要么不用，要么就只盯着昂贵的 Claude  或 GPT用，\n其实我发现聪明的做法是：分级外包\n\t\n主力模型（Claude/GPT）： 负责脑力活 → 复杂架构、深度推理\n平替模型（MiniMax M2）： 负责体力活 → 批量处理、数据分析\n简单说：贵的动脑，便宜的干活。\n\t\n现在我在 Obsidian 里的高频任务，基本都交给 MiniMax M2，生成速度快，遵循命名且没有卡顿。\n\t\nobsidian 里的使用场景：\n周总结：把一周笔记丢给它，自动提炼信息\n\t\n生成导图：一句话生成 Obsidian白板图\n\t\n清洗Markdown格式：批量统一格式、修复链接、添加标签\n\t\n翻译外文文章：英文论文秒翻+自动做笔记卡片\n\t\n润色英文笔记：语法检查、表达优化\n\t\n除了 Obsidian，MiniMax M2 在其它工具也能用，支持Claude Code、Cursor、Cline、Figma、Notion、Browser 等等。\n\t\nAI 时代，真正的壁垒不是你买了多贵的模型，而是你组合工具的想象力。 选一个最顺手的工具（我是Obsidian），配一个像 M2 这样量大管饱、逻辑在线的国产模型，这才是普通人长期主义的 AI 解法\n#obdisian[话题]# #minimax[话题]# #claude[话题]# #ai[话题]# #obsidian教程[话题]# #Obsidian模版[话题]# #Obsidian插件[话题]# #obsidian笔记[话题]# #ai工具[话题]# #数码科技[话题]#",
+  "tags": [
+    "obdisian",
+    "minimax",
+    "claude",
+    "ai",
+    "obsidian教程",
+    "Obsidian模版",
+    "Obsidian插件",
+    "obsidian笔记",
+    "ai工具",
+    "数码科技"
+  ],
+  "author": "被减数",
+  "authorId": "5d0a48fd00000000160374bd",
+  "time": 1764146156000,
+  "ipLocation": "",
+  "likes": "80",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091018/4393318137f877c26ac17bda59619732/notes_pre_post/1040g3k831pbglpb3iu005n8a93ulmt5tgq0jnpo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091018/429cd18a812ce69169c0eac17bb6c275/notes_pre_post/1040g3k831pbglpb3iu0g5n8a93ulmt5t0dokdd0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091018/40533dd333dc33886b6f29a4061e9f66/notes_pre_post/1040g3k831pbglpb3iu105n8a93ulmt5t5ke4gr8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091018/e2e565f19cae3b296c8192737826f009/notes_pre_post/1040g3k831pbglpb3iu1g5n8a93ulmt5te5qdeig!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091018/415807c7462def11f7b24141f244f4ac/notes_pre_post/1040g3k831pbglpb3iu205n8a93ulmt5t102b2h0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091018/643bcb4315b05ddd4052e07bf46123bb/notes_pre_post/1040g3k831pbglpb3iu2g5n8a93ulmt5t00bsb3o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091018/c48cd356e0552ff07713e867673cce5a/notes_pre_post/1040g3k831pbglpb3iu305n8a93ulmt5tgeeun7o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091018/d7549e9e9c12cd465f54b91c6f529077/notes_pre_post/1040g3k831pbglpb3iu3g5n8a93ulmt5tdngplpg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091018/f66d9237eca17082a97da885b51f8ca2/notes_pre_post/1040g3k831pbglpb3iu405n8a93ulmt5ttra9gj0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6926bbec000000000d03d1d6?xsec_token=ABwbJbzoOH1dRN4u_pAWyoLqTPHuJFAoU5bqPHl9PZMe0=&xsec_source=pc_collect"
+}

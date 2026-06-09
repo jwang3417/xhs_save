@@ -1,0 +1,3 @@
+被低估的 RAG方法
+
+#AI #人工智能 #大模型 #本地部署 #工程化 #RAG #向量数据库 #Embedding #上下文补充 #Astropy #开源模型 #千问 #BGE #LangChain #Chroma #FastAPI #NextJS #React #技术分享 #程序员 #机器学习 #深度学习 #代码架构 #生产级项目 #AI应用 #成本优化 #摘要生成 #模型压缩 #开发教程

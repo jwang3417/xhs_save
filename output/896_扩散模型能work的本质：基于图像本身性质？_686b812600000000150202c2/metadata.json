@@ -1,0 +1,20 @@
+{
+  "id": "686b812600000000150202c2",
+  "type": "normal",
+  "title": "扩散模型能work的本质：基于图像本身性质？",
+  "desc": "图像本身具有什么样的属性使得diffusion模型通过实现加噪去噪的操作可以成功work？\n先前与一位老师交流的时候，被提问了这个问题。算是对扩散模型方向的一个深刻理解的质询吧。这段时间也一直在思考这个问题，发现能给出的只有基于diffusion模型的回答，貌似要回复这个问题要跳脱出在扩散模型大方向下的工作思维。\n来请教一下万能的📕友们，佬们是怎么理解这个问题的？#扩散模型领域[话题]# #diffusion_model[话题]#",
+  "tags": [
+    "扩散模型领域",
+    "diffusion_model"
+  ],
+  "author": "momo",
+  "authorId": "62d27c32000000000e00df28",
+  "time": 1751875878000,
+  "ipLocation": "",
+  "likes": "457",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091332/0bbc742af9323ff7ce08ba2a3d14c40b/1040g2sg31jkleu3r32005omifgp3hnp8713vboo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/686b812600000000150202c2?xsec_token=ABjdmYuA9yKOifTMJadaRyaPr9tfKdGdDistyhqKSqsYs=&xsec_source=pc_collect"
+}

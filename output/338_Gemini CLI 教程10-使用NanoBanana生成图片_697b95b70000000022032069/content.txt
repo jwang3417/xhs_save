@@ -1,0 +1,8 @@
+Gemini CLI 教程10-使用NanoBanana生成图片
+
+Gemini CLI 教程#10 - 使用 Nano-banana扩展
+	
+#gemini[话题]# #geminicli[话题]#
+
+
+标签: #gemini #geminicli

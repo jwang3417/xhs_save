@@ -1,0 +1,35 @@
+{
+  "id": "68ac65f4000000001d01dbc6",
+  "type": "normal",
+  "title": "RL面试重点3：哪些tricks更有效？阿里结论!",
+  "desc": "本月中旬的文章，比较及时地解决了我一些实验中产生的困惑，在VeRL里修改验证也比较方便。\n\t\n主要内容：阿里+4所高校针对现在层出不穷的 RL tricks 进行统一验证。具体而言，该文将目前 tricks 分为七类，并就其中四种主要的进行实验验证，得出结论如下：\n1. **奖励归一化（实验结论见 P5）**：均值粒度、是否用标准差：\n（1）Group-level 归一化更鲁棒普适，没特殊情况就用这个；Batch-level 对奖励尺度敏感，与数据分布密切相关，慎用。\n（2）标准差比较鸡肋，最好移除。对于奖励分布集中的简单任务，差异过小，会过度放大优势，梯度爆炸；对于分布较为分散的困难任务，影响不大。\n（3）最佳混合策略：在 Group-level 计算均值（组内有意义的优劣比较），在 Batch-level 计算标准差（全局的稳定尺度信息）。\n\t\n2. **Clip 策略（P6）**： Clip Higher 更适用于 aligned 模型，可显著缓解熵下降，持续提升性能；不适用于 base 模型，因为其基础能力较差，过大的更新步长会阻碍构建初步的认知结构。语言学视角：较小的 clip 约束最多的是逻辑连接词，影响推理链路；较大的 clip-higher 则主要约束高频功能词如 the, is，对逻辑链路影响不大。\n\t\n3. **损失聚合粒度（P7）**：token-level vs sequence-level。\n（1）Token级聚合更适用于 base 模型，因为可以从长的逻辑链路中充分学习推理；\n（2）序列级聚合更适用于 aligned 模型，能够更好地保持其生成内容的整体连贯性和结构完整性，避免因过度关注局部 token 而破坏整体语义。\n\t\n4. **生成序列超长过滤（P8）**：Overlong Filtering适用于中、短长度推理任务，能有效提升准确率和回答的简洁性，尤其是可以避免结束符无法正常生成的问题；但是对需要极长推理的任务收益有限。\n\t\n#强化学习[话题]# #大模型[话题]# #大模型算法[话题]# #秋招[话题]# #面试[话题]# #八股[话题]# #模型训练[话题]# #大厂实习[话题]# #训练[话题]# #训练技巧[话题]#",
+  "tags": [
+    "强化学习",
+    "大模型",
+    "大模型算法",
+    "秋招",
+    "面试",
+    "八股",
+    "模型训练",
+    "大厂实习",
+    "训练",
+    "训练技巧"
+  ],
+  "author": "整点🍟",
+  "authorId": "62061e97000000001000e423",
+  "time": 1756128756000,
+  "ipLocation": "",
+  "likes": "283",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091201/f50116737733042fb27e142310f8fcf5/1040g2sg31lk0t9bllegg5og63qbk1p135q98rbo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/804baaa9cf3cdaa24790e865046bda33/1040g2sg31lk0t9bllefg5og63qbk1p13vjr5j7g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/5310692b99e041ec657872cb08bb24da/1040g2sg31lk0t9bllee05og63qbk1p13mjoe0e0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/76982b26e27116eb71a63fa9a5dfa5a8/1040g2sg31lk0t9bllehg5og63qbk1p13eu20640!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/3fdab6686dc7fcd2d0ce835569ee888f/1040g2sg31lk0t9blleh05og63qbk1p13c7ic17o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/bfd15efb8b71944b3bebf03d5e6fce5f/1040g2sg31lk0t9blleg05og63qbk1p13dp470ug!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/17b0c7e5c00e2176111f99dfea8cce35/1040g2sg31lk0t9bllef05og63qbk1p133trmib0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091201/86c54596e10f638a7cc2f6779f78dd04/1040g2sg31lk0t9blleeg5og63qbk1p134ug76jg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68ac65f4000000001d01dbc6?xsec_token=ABExsobf0VOX3f2MDfSxsiv57NHj1ZxLlmwgpuB3V6Lok=&xsec_source=pc_collect"
+}

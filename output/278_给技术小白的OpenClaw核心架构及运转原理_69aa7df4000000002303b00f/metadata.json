@@ -1,0 +1,24 @@
+{
+  "id": "69aa7df4000000002303b00f",
+  "type": "video",
+  "title": "给技术小白的OpenClaw核心架构及运转原理",
+  "desc": "拆开 OpenClaw 的架构看，它就像一家精密运转的顶级餐厅。\n从 Telegram 或 Discord 发的一句话，就是一份“原始订单”。\nChannel Adapter 是前台，负责把各种方言翻译成厨房听得懂的标准单子。\nGateway Server 是领班，负责查你之前的消费记录（Session），顺便让你排个队。\nAgent Runner则是最忙的备菜间，负责选哪个大厨（模型）、调出你的口味偏好（Prompt），把背景资料备齐。\n最后，它把这整盘菜端给真正的“大脑”——LLM。\nAgentic Loop 会反复沟通跟大模型沟通直到拿到最终结果。\n简单来说：OpenClaw 不生产脑子，它只是顶级脑子的“神级调度系统”。\n#个人开发者[话题]# #独立开发者[话题]# #大模型[话题]# #openclaw[话题]# #架构图[话题]# #AIagent[话题]#",
+  "tags": [
+    "个人开发者",
+    "独立开发者",
+    "大模型",
+    "openclaw",
+    "架构图",
+    "AIagent"
+  ],
+  "author": "鹿桃桃的AI百宝箱",
+  "authorId": "6299ee4e000000001902a143",
+  "time": 1772802601000,
+  "ipLocation": "",
+  "likes": "3,249",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090932/7948bce692cfe1db9dd098d429d24e77/1040g2sg31tc5ti2e56705okptp76d8a3m8327r8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/1/110/259/01e9aa7d50c5f47c010370039cc1fd9947_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69aa7df4000000002303b00f?xsec_token=ABXOkAAxTLmYFBAjUwagJTHpmc6G8HudT-MxZWSKTk1fc=&xsec_source=pc_collect"
+}

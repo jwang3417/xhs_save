@@ -1,0 +1,19 @@
+{
+  "id": "68113e3c00000000210027ce",
+  "type": "video",
+  "title": "系统设计 - 任务调度系统",
+  "desc": "﻿#系统设计[话题]#﻿\n\t\n00:00 design job scheduler\n00:15 clarify questions\n02:00 functional requirements\n04:30 non-functional requirements\n06:03 data model\n07:42 state machine\n09:16 high-level diagram\n11:56 deep dive: data store\n14:34 queue\n19:13 assign task\n22:29 resource allocation\n27:06 advance feature",
+  "tags": [
+    "系统设计"
+  ],
+  "author": "s09g",
+  "authorId": "6591d3a600000000220086e5",
+  "time": 1745960508000,
+  "ipLocation": "",
+  "likes": "576",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091349/8b3b2c5c69ad3f942f7e62a1715042ec/spectrum/1040g34o31gsgvft03a0g5pchqej8h1n5e7rd2u8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/1/110/259/01e8113d056161450103700396835eb47d_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68113e3c00000000210027ce?xsec_token=AByBFbOKKw9Dg16d4_-CsbKf1MDQgO9M8IJwfwNZG59JM=&xsec_source=pc_collect"
+}

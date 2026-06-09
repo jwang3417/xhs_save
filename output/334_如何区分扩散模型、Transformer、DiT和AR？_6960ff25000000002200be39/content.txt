@@ -1,0 +1,15 @@
+如何区分扩散模型、Transformer、DiT和AR？
+
+🚩 Diffusion model、Transformer、DiT与AR生成这四个高频词汇常被混淆，其根源在于未能清晰界定「生成范式」与「网络架构」的对象层级差异。
+🚩 本文旨在通过Architecture-agnostic的视角，纵向拆解范式逻辑，横向对比架构特性，深度解析这四者在Image Generation中的确切定义与技术边界。
+🚩 本次分享将从生成范式的核心逻辑、通用架构的适配机制以及二者的融合创新三个维度展开，具体内容包括：
+	
+👉 生成范式辨析：
+1）Diffusion Model：核心为迭代去噪的反向马尔可夫链，属Architecture-agnostic范式（可用U-Net或DiT），虽通常为Non-AR，但Self Forcing等工作证明了其具备AR生成的可能性；
+2）AR生成：基于Next-X Prediction的序列依赖范式，强制要求Causal Mask与串行推理，与Diffusion的全图并行生成存在本质差异。
+	
+👉 架构与范式的结合：
+1）Transformer架构：一种以Self-Attention为核心的通用神经网络架构，既可用于AR生成（LlamaGen），也可用于Non-AR生成（MaskGIT）；
+2）Diffusion Transformer（DiT）：Transformer架构+Diffusion范式的结合体，利用Global Attention替代U-Net的Inductive Bias，实现了对Latent Patch的高效建模。
+	
+（由于文字篇幅限制，具体细节麻烦大家移步图片～👆）

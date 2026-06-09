@@ -1,0 +1,31 @@
+如何评价字节的最新工作NextFlow？
+
+🚩 现有统一多模态模型常陷入架构割裂的困境：Chameleon类方法受困于离散化表征的信息损耗与推理低效，而Transfusion类混合架构虽引入Diffusion Loss提升了保真度，却因优化目标的分治导致Post-Training与Scaling Law难以在生态层面统一。
+🚩 NextFlow旨在通过一套Tokenizer、单一Transformer Backbone及统一的Next-Token Prediction范式，打破理解与生成的壁垒。
+	
+👉 Dual-Codebook VAE表征：
+1）兼顾Semantic Density与Pixel Fidelity，强制Token同时携带语义与像素信息；
+2）引入Optional Diffusion Decoder补偿离散表征在高频细节上的物理极限。
+	
+👉 生成范式的革新：
+1）Next-Scale Prediction：摒弃Raster-Scan顺序，采用源自VAR的Coarse-to-Fine层级生成；
+2）高效推理：配合Multi-Scale 3D RoPE与Scale-Aware Loss，实现1k分辨率下的秒级出图。
+	
+👉 统一优化的Post-Training：
+1）GRPO引入：得益于架构统一，直接复用LLM生态中的RLHF算法进行对齐；
+2）规避了Diffusion Model中复杂的Reward Modeling设计，提升Image-Text Alignment与美学质量。
+	
+（由于文字篇幅限制，具体细节麻烦大家移步图片～👆）
+	
+#深度学习[话题]#
+#科研[话题]#
+#大模型[话题]#
+#计算机视觉[话题]#
+#扩散模型[话题]#
+#博士生日常[话题]#
+#多模态人工智能[话题]#
+#diffusion[话题]#
+#机器学习[话题]#
+
+
+标签: #深度学习 #科研 #大模型 #计算机视觉 #扩散模型 #博士生日常 #多模态人工智能 #diffusion #机器学习

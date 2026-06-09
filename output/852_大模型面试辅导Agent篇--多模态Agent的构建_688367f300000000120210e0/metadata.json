@@ -1,0 +1,27 @@
+{
+  "id": "688367f300000000120210e0",
+  "type": "video",
+  "title": "大模型面试辅导Agent篇--多模态Agent的构建",
+  "desc": "大模型面试辅导 Agent篇 12，面试官问“如何构建支持图像、音频等多模态输入的Agent？或者说，构建支持图像、音频等多模态输入的Agent，需解决哪些关键技术问题？”面试官问这个问题，意在考察候选人对多模态AI技术的理解深度，以及能否从系统架构、技术挑战、解决方案等多个维度分析多模态Agent的设计思路和实现难点。本视频对这个问题的思路进行了梳理，希望对大家有帮助。﻿#大厂面试[话题]#﻿ ﻿#大模型面试[话题]#﻿  ﻿#AI[话题]#﻿ ﻿#大厂实习[话题]#﻿ ﻿#Agent[话题]#﻿ ﻿#AI产品经理[话题]#﻿ ﻿#秋招[话题]#﻿ ﻿#求职季[话题]#﻿ ﻿#民间招生办[话题]#﻿﻿",
+  "tags": [
+    "大厂面试",
+    "大模型面试",
+    "AI",
+    "大厂实习",
+    "Agent",
+    "AI产品经理",
+    "秋招",
+    "求职季",
+    "民间招生办"
+  ],
+  "author": "小红薯672F815D",
+  "authorId": "672f52c6000000001402f2fd",
+  "time": 1753442291000,
+  "ipLocation": "",
+  "likes": "11",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091327/4ecb006fcb83dd987b28fe7269c3a513/spectrum/1040g34o31kc0lm92j6105ppfab355sntfhemsig!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/1/110/114/01e883676570316f010370019841509725_114.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/688367f300000000120210e0?xsec_token=AB5LU69qVF0La-2nSoJVu7X85nz1jYz00t2uJN62ZuC0g=&xsec_source=pc_collect"
+}

@@ -1,0 +1,7 @@
+上下文工程是什么？和提示词工程有什么不同
+
+OpenAI创始人说的context engineering 和传统的prompt engineering有什么不同
+为了减少AI执行任务时出现幻觉的function call 和RAG就是提供上下文#大模型[话题]# #算法[话题]# #上下文工程[话题]# #提示词工程[话题]# #prompt[话题]# #context_engineering[话题]# #人工智能未来[话题]#
+
+
+标签: #大模型 #算法 #上下文工程 #提示词工程 #prompt #context_engineering #人工智能未来

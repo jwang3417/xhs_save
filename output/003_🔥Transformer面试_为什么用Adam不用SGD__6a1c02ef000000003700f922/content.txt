@@ -1,0 +1,14 @@
+🔥Transformer面试:为什么用Adam不用SGD?
+
+Transformer面试被问"为什么用Adam不用SGD"怎么答？🎯
+	
+1️⃣ SGD给所有参数同一个lr→Transformer的QKV/FFN/Emb梯度量级差100倍→统一lr必然崩
+2️⃣ Adam=Momentum(方向惯性)+RMSProp(自适应步长)→每个参数独立lr，自动调速
+3️⃣ 高维鞍点极多→SGD卡死，Adam累积动量冲过去
+4️⃣ 论文细节：β2=0.98不是默认0.999——Transformer梯度变化快需更短窗口
+	
+面试三层：SGD为什么不够→Adam为什么必要→β2和AdamW的细节📝
+#大模型入门[话题]#   #大语言模型[话题]#    #深度学习[话题]#   #NLP[话题]#  #面试题[话题]#  #大模型面试[话题]#   #ai面试[话题]#  #深度学习[话题]# #transformer[话题]#  #机器学习[话题]#
+
+
+标签: #大模型入门 #大语言模型 #深度学习 #NLP #面试题 #大模型面试 #ai面试 #深度学习 #transformer #机器学习

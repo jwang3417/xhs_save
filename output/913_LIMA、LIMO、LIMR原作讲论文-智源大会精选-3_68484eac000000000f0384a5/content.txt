@@ -1,0 +1,25 @@
+LIMA、LIMO、LIMR原作讲论文-智源大会精选-3
+
+1.	生成式AI第二幕——认知工程
+回顾团队对OpenAI  O1早期复现的探索，提出生成式AI第二幕，借助Inference/Test-Time Scaling，让大模型深度思考。
+	
+2.	LIMA：极致数据高效性
+2022年团队工作LIMA（Less Is More for Alignment）在非推理场景，仅用1000条高质量指令样本即可使大模型达成优秀的instruction-following能力。
+	
+3.	最近比较火的LIMO：Less is more For Reasoning
+LIMO用极小样本思想扩展到高难度数学推理，仅用817条精挑细选的SFT数据，就把AMC题目刷到业内领先水平。
+	
+4.	LIMR：Less is more For RL Scaling
+强化学习阶段同样遵循数据高效性——将常规8000 条RL轨迹缩减到1000条，甚至个别错误标签也能收敛，并取得更佳表现。
+	
+5.	PC Agent-E：Efficient Training
+compute use训练的数据高效性
+	
+6.	问答环节
+•时间分配与推理调度
+•幻觉 & 认知失调风险
+	
+#大模型[话题]# #强化学习[话题]# #智源大会[话题]#
+
+
+标签: #大模型 #强化学习 #智源大会

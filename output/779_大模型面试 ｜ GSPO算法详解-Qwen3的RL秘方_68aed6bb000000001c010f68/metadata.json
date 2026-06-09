@@ -1,0 +1,34 @@
+{
+  "id": "68aed6bb000000001c010f68",
+  "type": "normal",
+  "title": "大模型面试 ｜ GSPO算法详解-Qwen3的RL秘方",
+  "desc": "🌈【GSPO算法详解】Qwen3 的 RL 秘方！💯 paper：https://arxiv.org/pdf/2507.18071\n🔥一、背景\nQwen3最新GSPO强化学习方法，把奖励计算从token级别 改成了sequence 级别，解决了LLM 过多的关注token导致训练不稳定的问题，而且主流的强化学习框架，vetl,trl都已经立马进行了支持，也显示出GSPO的价值。\n🔥二、GSPO核心机制\nGSPO 的核心思想简单而深刻：奖励的单位，应该与优化的单位相匹配。 奖励是给整个回答序列的，那么我们的重要性权重和优化过程，也应该在序列 的层面上进行。这就像老师批改作文，是通读全文后给出一个总分和评语，而不是逐字逐句地打分。\n1.GRPO（token 级） 更关注每个 token 的精细优化，适合需要精准控制生成细节的任务，但可能受异常 token 影响较大。\n2.GSPO（sequence 级） 通过句子级平均平滑了 token 级波动，训练更稳定，适合以句子整体质量为导向的任务，但牺牲了部分 token 级优化精度。所以GSPO 还有一个GSPO-token的版本，是为了去解决多轮对话中一些，特殊token的生成效果问题。\n🔥三、实验效果\nQwen 团队在 MoE 模型和复杂的数学、编程任务上对 GSPO 和 GRPO 进行了对比。在相同计算资源下，GSPO 在训练奖励和下游任务性能上，都稳定且持续地优于 GRPO。\n🔥四、结论\n1.理论创新：明确指出 GRPO 等算法在词元级重要性采样上的理论缺陷，提出优化单位应与奖励单位一致，回归重要性采样的正确用法。\n2.算法提升：提出 GSPO 新算法，通过序列级权重计算和裁剪，显著提升训练稳定性、收敛效率和最终性能，并用长度归一化）解决不同长度序列的数值稳定问题。\n3.工程简化：彻底解决 MoE 训练不稳定问题，移除对「路由回放」等复杂技巧的依赖，简化 RL 训练流程，并提升对数值精度差异的容忍度，降低工程复杂度。\n4.实际验证：GSPO 已在 Qwen3 等大规模模型中成功应用，展现出工业级的有效性和可靠性。\n#算法[话题]# #大厂[话题]# #面经[话题]# #大模型面试[话题]# #大厂算法[话题]# #秋招[话题]# #互联网大厂[话题]# #字节跳动[话题]# #算法实习[话题]# #大模型学习[话题]#",
+  "tags": [
+    "算法",
+    "大厂",
+    "面经",
+    "大模型面试",
+    "大厂算法",
+    "秋招",
+    "互联网大厂",
+    "字节跳动",
+    "算法实习",
+    "大模型学习"
+  ],
+  "author": "草莓师姐",
+  "authorId": "64966a4f0000000010034a32",
+  "time": 1756288699000,
+  "ipLocation": "",
+  "likes": "148",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091200/2694e4984d0b051c5fcdc167323d6839/1040g00831lmdo4o3lmdg5p4md97k6ihij85a558!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091200/4762bf97ab3ee626421ceb884e63761c/1040g00831lmdo4o3lmd05p4md97k6ihibi7oq90!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091200/655b61baad8a0ab89a992e5682f2f090/1040g00831lmdo4o3lma05p4md97k6ihiff00du8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091200/4f9f6a9ea5d8d503654b9e80c6b59b13/1040g00831lmdo4o3lmb05p4md97k6ihiis1b39o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091200/f427165518493b3b5e8e514dd3b7d86c/1040g00831lmdo4o3lmag5p4md97k6ihi3iba7go!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091200/aafd58530c3c5d15da135ffefb4cda7d/1040g00831lmdo4o3lmc05p4md97k6ihi39i90j0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091200/105f14a21e9aa308f06bc9112856bf5e/1040g00831lmdo4o3lmcg5p4md97k6ihi0ncvp58!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68aed6bb000000001c010f68?xsec_token=ABCztYpm-ut2zeHAevaw6IXAN5XY16gqQuh2yJpX1OPfE=&xsec_source=pc_collect"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "6a00ced90000000006032e9b",
+  "type": "video",
+  "title": "第七集：卷积神经网络（CNN）",
+  "desc": "卷积神经网络（CNN）的崛起 (1990s)：Yann LeCun等人结合LeNet-5开创了CNN的现代范式。通过卷积核和共享权重，在图像识别领域展现巨大潜力。#神经网络[话题]# #深度学习[话题]# #机器学习[话题]#",
+  "tags": [
+    "神经网络",
+    "深度学习",
+    "机器学习"
+  ],
+  "author": "码上行动",
+  "authorId": "67c5cfad000000000a03d24b",
+  "time": 1778501705000,
+  "ipLocation": "山东",
+  "likes": "42",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090735/b48e4d7ccbcfd594344ea92936022b62/spectrum/1040g0k03200feovi54005pu5puminkibrnprtsg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/79/110/259/01ea00e734162a06010370039e1387a1c9_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a00ced90000000006032e9b?xsec_token=AB7bWHOoBqZCGDvZQ_9SAvhyBAdAEsZTvWfL8A8MGIGPs=&xsec_source=pc_collect"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "695a8641000000001e038169",
+  "type": "normal",
+  "title": "文献阅读之扩散模型DDPM第二篇",
+  "desc": "努力搞懂扩散模型系列\n文献阅读《Denoising-Diffusion-Probabilistic-Models》之第二篇\n\t\n手推DDPM原论文所有公式之从ELBO一步一步到噪声预测的过程\n\t\n#人工智能[话题]# #深度学习[话题]# #文献阅读[话题]# #个人知识库[话题]# #大模型[话题]# #论文打卡[话题]# #AIGC[话题]# #扩散模型[话题]# #手推[话题]# #持续更新[话题]#",
+  "tags": [
+    "人工智能",
+    "深度学习",
+    "文献阅读",
+    "个人知识库",
+    "大模型",
+    "论文打卡",
+    "AIGC",
+    "扩散模型",
+    "手推",
+    "持续更新"
+  ],
+  "author": "竹影清风",
+  "authorId": "5e0d47e800000000010015bc",
+  "time": 1767540289000,
+  "ipLocation": "",
+  "likes": "3",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090952/6ea40741c6481f0a3782e5e040a1aa4c/1040g2sg31qu2v6qmng305ngd8vk085ds4qbs58g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090952/39bf0f8c23fd51f9e0810db1834e2069/1040g2sg31qu2v6qmng2g5ngd8vk085dstebq90o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090952/302d7d9a57568028abd09d93f9d7d34b/1040g2sg31qu2v6qmng0g5ngd8vk085ds9mgki1g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090952/ae1ea2ee415ea6512f00988eb7874315/1040g2sg31qu2v6qmng105ngd8vk085dsfp1gp38!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090952/3efb13e16ead852b78e68c946f38d55f/1040g2sg31qu2v6qmng005ngd8vk085dsbbc8bmg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090952/c905e5b781297e6e05b636f355d5a24a/1040g2sg31qu2v6qmng205ngd8vk085ds4765fvo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090952/48801cee09c986218d232c91a7f31de6/1040g2sg31qu2v6qmng1g5ngd8vk085dsvrpjd0o!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/695a8641000000001e038169?xsec_token=ABn0tax6KKJs8H-LyZPZOzDPprmEqqZwOSA0IQJtP9-kA=&xsec_source=pc_collect"
+}

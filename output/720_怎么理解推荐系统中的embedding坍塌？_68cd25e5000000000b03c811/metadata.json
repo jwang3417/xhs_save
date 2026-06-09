@@ -1,0 +1,23 @@
+{
+  "id": "68cd25e5000000000b03c811",
+  "type": "normal",
+  "title": "怎么理解推荐系统中的embedding坍塌？",
+  "desc": "Embedding 维度坍塌是指特征 Embedding 虽然处在高维空间，但实际仅占据低维子空间，从而导致信息丢失。这种情况在大规模推荐系统中非常常见。\n\t\n这是因为后续特征交叉中的 MLP 与 Embedding 之间会产生耦合关系，简单来说就是 rank(AB) ≤ rank(A)，因此只要其中存在一个低秩特征，交叉后的结果也会是低秩的，这一现象同样在 FFM 特征交叉中出现。\n\t\n为了衡量 Embedding 是否发生坍塌，可以利用奇异值的分布来度量信息的丰富程度。但特征坍塌也不一定是坏事：在大多数情况下，严重的特征坍塌意味着表征维度被浪费，信息不足，从而损害模型效果。但在某些应用中，适度的坍塌可能是一种正则化效果（高维 Embedding 空间可能过拟合训练集），有助于减少过拟合。在实际推荐系统中，通常会通过减少显式特征交叉（如避免 DCNv2 这类结构），而更多依赖隐式交叉（如 DNN）来缓解坍塌问题。不过，这也可能导致 离线 AUC 下降 或 推荐效果降低 的副作用（显式特征交叉效果优于隐式）。\n#推荐系统[话题]# #算法[话题]# #秋招面试[话题]#",
+  "tags": [
+    "推荐系统",
+    "算法",
+    "秋招面试"
+  ],
+  "author": "搜推Doge",
+  "authorId": "6010e6010000000001003e70",
+  "time": 1758275045000,
+  "ipLocation": "",
+  "likes": "256",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091154/93fecff079b649492eb8e333ba83c942/1040g2sg31mk10qo75ie05o0gso0g8fjgskp1838!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091154/2fcff54fe0f1d3979af01e31af68b4aa/1040g2sg31mk10qo75ieg5o0gso0g8fjgdgpkf0o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091154/215f227881a12a0af41dc91bdbe0401d/1040g2sg31mk10qo75if05o0gso0g8fjggaoi2gg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68cd25e5000000000b03c811?xsec_token=ABJjjUhUZq-i11SAejRBwlCB0gzn_vxx7dUdcKUmWaN_A=&xsec_source=pc_collect"
+}

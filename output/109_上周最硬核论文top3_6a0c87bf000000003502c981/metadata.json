@@ -1,0 +1,25 @@
+{
+  "id": "6a0c87bf000000003502c981",
+  "type": "normal",
+  "title": "上周最硬核论文top3",
+  "desc": "MIT 何恺明团队｜ELF：连续扩散语言模型重新翻身[坏笑R]\n\t\nELF 把语言生成的大部分过程放进连续嵌入空间，只在最后一步映射回离散 token，并通过统一去噪-解码设计，在效率与质量上超越 MDLM、Duo 等扩散语言模型。它释放出的信号是：语言模型架构创新重新活跃，连续潜空间与 Flow Matching 正重新进入主流视野，也让图像/视频领域的扩散技术更容易迁移到语言模型。\n\t\nMeta × 牛津｜VGGT-Ω：3D 重建开始进入规模化训练时代[萌萌哒R]\n\t\nVGGT-Ω 通过 register attention 与大规模动态场景数据，把前馈式 3D/4D 重建模型扩展到 10B 参数与 400 万场景，并刷新静动态重建 SOTA。它释放出的信号是：3D 几何理解正在复制语言模型的“规模化路径”，前馈重建模型也开始成为世界模型、视频生成与 VLA 的空间基础设施。\n\t\nNVIDIA｜SANA-WM：分钟级世界模型开始低成本开源化[doge]\n\t\nSANA-WM 用 2.6B 参数实现单 GPU 生成一分钟 720p 视频，并支持长时程 6-DoF 相机控制。它释放出的信号是：世界模型竞争开始从“大模型堆算力”，转向更低成本、更强控制与更易部署的开源路线。",
+  "tags": [],
+  "author": "JoinAI的观察啾",
+  "authorId": "6809bc20000000000e01139b",
+  "time": 1779206079000,
+  "ipLocation": "浙江",
+  "likes": "612",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090714/9c0a76a909aa710dc7ae58545a64552c/notes_pre_post/1040g3k0320btokoi6i005q09ngg3i4sr290kl8g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/7cd7c0a84ec2ed763eaef7882c127002/notes_pre_post/1040g3k0320btokoi6i0g5q09ngg3i4srj7s51bg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/f30c69c171c6231a604d13af23a6ef90/notes_pre_post/1040g3k0320btokoi6i105q09ngg3i4sria5rasg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/cf5f24bc4c9385d0c80bbf616f666b22/notes_pre_post/1040g3k0320btokoi6i1g5q09ngg3i4srftjbveo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/5368aa6d8543707b51985026b4ad3169/notes_pre_post/1040g3k0320btokoi6i205q09ngg3i4srnf84h60!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/a2b41e7e6f89544140196f4a0617ba39/notes_pre_post/1040g3k0320btokoi6i2g5q09ngg3i4sr9r644b8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/ead9f7380855d668d25b97c5ac59e681/notes_pre_post/1040g3k0320btokoi6i305q09ngg3i4sr6k34310!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/b314d886e0997dbfd473c13e43c2dbca/notes_pre_post/1040g3k0320btokoi6i3g5q09ngg3i4sr9s4uov8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/2284bbab3b37b883f678c4b013ac2b71/notes_pre_post/1040g3k0320btokoi6i405q09ngg3i4sra3rm1o8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a0c87bf000000003502c981?xsec_token=ABgx5DhB33oacAfrZCIMg_PRYstBJ0pPV5lD2ghjkuaZ8=&xsec_source=pc_collect"
+}

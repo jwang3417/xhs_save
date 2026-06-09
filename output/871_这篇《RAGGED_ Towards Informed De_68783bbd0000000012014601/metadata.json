@@ -1,0 +1,26 @@
+{
+  "id": "68783bbd0000000012014601",
+  "type": "normal",
+  "title": "",
+  "desc": "这篇《RAGGED: Towards Informed Design of Retrieval Augmented Generation Systems》要解决的问题是如何系统地找到检索增强生成（RAG）系统的最佳配置，以提高语言模型（LM）在文档问答（DBQA）任务中的性能。\n\t\n在检索增强生成（RAG）系统中，检索本应提升生成效果。但实际操作中，即便检索到相关文档，增加文档数量反而可能降低性能。为此，我们提出了 RAGGED 框架 —— 该框架可用于衡量并诊断检索在何时起作用、何时产生负面影响。\n\t\nRAGGED 引入了两个用于评估阅读器稳健性的指标：\n\t\n1️⃣ RSS（检索稳定性分数）—— 在最佳检索深度附近，性能是否稳定？\n\t\n2️⃣ fgRSC（检索一致性分数）—— 随着文档数量增加，性能是否有所提升？\n\t\n这些指标可用于对比不同 RAG 配置，并为模型训练、选择及评估提供指导。\n\t\n核心发现：检索失效往往源于阅读器，而非检索器。\n部分模型会随文档数量增加而提升表现；另一些模型则会 “性能崩溃”—— 即便检索到相关文档也是如此。提示词优化或重排序技术或许能延缓崩溃，但无法从根本上避免。根本问题在于：阅读器的脆弱性。\n\t\n这种崩溃由何导致？\n并非缺乏相关文档，而是无关文档的存在。即便检索到关键段落，嘈杂的上下文也会让脆弱的阅读器难以承受。稳健的 RAG 系统需要能够处理杂乱、过度检索输入的模型。\n\t\n借助 RAGGED 框架，可更可靠地分析 RAG 系统：\n\t\n1️⃣ 识别脆弱的阅读器及不稳定的检索深度\n2️⃣ 通过一致的量化信号对比模型及配置\n3️⃣ 为更稳健阅读器的训练、评估与设计提供指导\n\t\n﻿#RAG[话题]#﻿ ﻿#RAGGED框架应用[话题]#﻿ ﻿#检索增强生成技术[话题]#﻿ ﻿#RAG检索失效原因[话题]#﻿ ﻿#大模型rag[话题]#﻿ ﻿#检索性能优化[话题]#﻿﻿",
+  "tags": [
+    "RAG",
+    "RAGGED框架应用",
+    "检索增强生成技术",
+    "RAG检索失效原因",
+    "大模型rag",
+    "检索性能优化"
+  ],
+  "author": "AI产品少女贝",
+  "authorId": "57ff07f55e87e72e7114f1da",
+  "time": 1752710077000,
+  "ipLocation": "",
+  "likes": "4",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091328/923501b4c6edbab7baab99e76eb8856b/spectrum/1040g34o31k13ad3big0g48p2rn3vbseq2bt9gu0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091328/f2786ed600d601d639aa2cf170af1f59/spectrum/1040g34o31k13bdcr2g2048p2rn3vbseq6co7f20!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091328/2124cdd8c85551432819cd228ec10d5b/spectrum/1040g34o31k13bdcr2g2g48p2rn3vbseqk83i868!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68783bbd0000000012014601?xsec_token=ABOw9tYQ3MbxIe8v17Sd35odfBjXLfCRmyYyW6z4WxWPI=&xsec_source=pc_collect"
+}

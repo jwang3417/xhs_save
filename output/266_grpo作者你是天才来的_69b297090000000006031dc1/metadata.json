@@ -1,0 +1,23 @@
+{
+  "id": "69b297090000000006031dc1",
+  "type": "normal",
+  "title": "grpo作者你是天才来的",
+  "desc": "看search-R1的论文作者提到了PPO和GRPO，之前不太了解RL，就看了下\nPPO的Value LLM每次都要被更新（更新目标是减少真实得分与预测得分的差距），对显存消耗很大，GRPO优化掉了这个模块，它让llm生成一组预测，通过小组实际得分均值作为基线，强化优势回答生成路线。\n假如它一组生成了五个数据，它就得到了5个用于更新的样本 并且因为有的大于均值有的小于均值，就同时拥有了用于强化的正例和惩罚的负例。并且由于模型参数更新了，下一轮均值也会发生变化，相当于这里没用真的value llm但是实现了value llm的更新，这是天才的设计。我认为这是一个对模型逐渐雕琢的过程，修剪不利的部分，增加有利的部分，不断增加优势补齐短板，这是非常符合直觉和逻辑的设计。\n我觉得这种设计思想惊人地跟传统GA类似，不断变异，通过优势决定谁有资格活下来，不断地去进行选择。\n#RL[话题]##强化学习[话题]##PPO[话题]##GRPO[话题]##deepseek[话题]#",
+  "tags": [
+    "RL",
+    "强化学习",
+    "PPO",
+    "GRPO",
+    "deepseek"
+  ],
+  "author": "你别睡",
+  "authorId": "60d9f2fb000000000101eb5b",
+  "time": 1773311753000,
+  "ipLocation": "",
+  "likes": "311",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090931/d599584fd1ff868407d0996d67ae6b33/1040g2sg31tk34aten86g5o6pubtgbqqrtjkeiq8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69b297090000000006031dc1?xsec_token=ABJPavCDsLOSniiRO6AeWDegA8DokskyAcVYhLYeEF6oc=&xsec_source=pc_collect"
+}

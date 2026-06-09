@@ -1,0 +1,29 @@
+{
+  "id": "66f0c38b000000001e018b6c",
+  "type": "normal",
+  "title": "手撕PE/RoPE｜位置编码的发展",
+  "desc": "[零R]位置编码（Positional Encoding） 是 Transformer 模型中引入序列位置信息的技术。由于 Transformer 模型在处理输入时是并行处理的，而不像 RNN 或 LSTM 那样逐个时间步处理，因此模型本身并没有天然的顺序感知能力。位置编码的目的是为序列中的每个标记（token）引入位置信息，让模型能够区分和理解输入序列中标记的顺序。\n[一R]绝对位置编码\n这是一种经典的位置编码方法，最早由 Vaswani 等人在《Attention Is All You Need》论文中提出。其基本思想是使用正弦和余弦函数来生成不同频率的编码，以确保每个位置都有唯一的表示，并且这些表示具有一定的平滑性和周期性。\n[二R]相对位置编码\n相对位置编码（RPE，Relative Position Embedding）是一种基于相对位置的方法，其中每个位置被编码为一个偏移量，表示该位置与其他位置之间的相对距离。在自注意力机制中，这种编码可以通过调整注意力权重来实现。这种编码方式可以处理长序列，并且能够在不同的上下文中保持一定的一致性。\n[三R]旋转位置编码\n旋转位置编码‌（RoPE，Rotary Position Embedding）是一种改进的相对位置编码，利用旋转变换将位置信息直接嵌入到词向量中，能够更好地处理长序列的相对位置信息。RoPE的关键思想是通过将上下文表示与旋转矩阵相乘来编码相对位置，使得向量之间的角度变化反映它们的相对位置关系。RoPE随相对距离的增加而衰减，这种编码方式旨在通过旋转方式将位置信息编码到输入的表示中，使得模型能更好地理解序列中元素的位置关系‌。\n——————————————\n如有不对请指出[黄金薯R]#动手实现旋转位置编码[话题]# #算法学习[话题]#",
+  "tags": [
+    "动手实现旋转位置编码",
+    "算法学习"
+  ],
+  "author": "锦砺",
+  "authorId": "5bbb32c03c2ad90001a345e0",
+  "time": 1727054731000,
+  "ipLocation": "",
+  "likes": "317",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091352/1462a71e401cbd4d307c0f5ea54f4d12/1040g0083182q3hgh0o6g4bc2v6pc0hf0oa51nqo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091352/ca12523aa54ff6779ef4cdc99f2548f6/1040g0083182q3hgh0o5g4bc2v6pc0hf0dfc26co!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091352/8244ef4afc5d71173ad58fb29fb79dd6/1040g2sg318ljv7atgmd04bc2v6pc0hf0usq0v78!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091352/52bf1b13a063c70601cf866091f472ea/1040g0083182q3hgh0o4g4bc2v6pc0hf0pdvanbg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091352/53805cde989796141297160bd157b080/1040g0083182q3hgh0o2g4bc2v6pc0hf068ubd00!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091352/e9860289a2526635aa7dc85fb4404df1/1040g0083182q3hgh0o204bc2v6pc0hf0q9vqf5g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091352/273ef34deed095a66a2084ab892a0128/1040g0083182q3hgh0o604bc2v6pc0hf0fjbm1g8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091352/eca8298e6b54dd1fb290c5c275a2bc7b/1040g0083182q3hgh0o104bc2v6pc0hf0scob7vo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091352/10261b864ea226c1309fda2f95a1dc47/1040g0083182q3hgh0o0g4bc2v6pc0hf0ovjla9o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091352/c3346c08e12184bc1f9cd5b4347d9506/1040g0083182q3hgh0o404bc2v6pc0hf003n533o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/66f0c38b000000001e018b6c?xsec_token=AB619WksCtsJSYkYKZ5t_yAOfxOY21OgxyvFfgOGvlEcM=&xsec_source=pc_collect"
+}

@@ -1,0 +1,26 @@
+NeurIPS2025面基！
+
+大家好！我是郭平。
+目前在TikTok 与 AI Safety @Yi Zeng （曾祎） / LLM Data / LLM Architecture相关团队一起搬砖，我们组主要做多语言数据、多模态底模的训练管线（是的，就是那种在3️⃣0️⃣0️⃣0️⃣张卡上跑实验的工作…）
+2025年，我们组已经有 3 篇 NeurIPS:
+[一R]multilingual 数据清洗
+🔗 MuRating: Data Selecting Approach to Multilingual Large Language Model Pretraining
+[二R]跨语种数据配比策略
+🔗 Exploring Polyglot Harmony: On Multilingual Data Allocation for Large Language Models Pretraining
+[三R]模型架构 MOE
+🔗 MoORE: SVD-based Model MoE-ization for Conflict- & Oblivion-Resistant
+	
+同时，我们组投稿了5️⃣篇 ICLR 2026 的工作，我们组的目标就是让LLM数据「够干净、够平衡、够能打」，模型「能 scale、能稳定、效率高」。
+我自己的研究方向主要在：
+• Multilingual Pretraining
+• Network Understanding
+之前听说小红书藏了很多做 模型 / 数据的同频伙伴，今年赶上 NeurIPS，就想着一边逛会，一边在 🍠 认识一些同好，也顺便看看有没有机会线下面基一下。
+目前在找对 LLM pretraining，vLLM training等方向感兴趣的同学。包括但不限于multilingual modeling、数据质量、scaling law、MoE 架构、训练系统 等方向。欢迎[庆祝R][庆祝R]感兴趣的同学（实习 / 全职 都欢迎[庆祝R][庆祝R]）
+📍北京，上海，San Jose
+如果你正在读研读博、找机会，
+或者今年也来 NeurIPS，欢迎评论 / 私信，或者直接来一句「想聊机会」也行。
+我都会尽量回复，也很期待能线下一起喝杯咖啡聊聊☕️
+#国际会议[话题]# #NeurIPS25[话题]# #博士生[话题]# #计算机视觉[话题]# #学术会议[话题]# #数据科学[话题]# #深度学习[话题]# #社招[话题]# #校招[话题]#
+
+
+标签: #国际会议 #NeurIPS25 #博士生 #计算机视觉 #学术会议 #数据科学 #深度学习 #社招 #校招

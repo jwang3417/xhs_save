@@ -1,0 +1,44 @@
+近期面试ML的一些经验和技巧
+
+Blind上大牛的个人总结，这里分享给大家作为参考：
+1. 手写 Transformer / MHA 已经是基本功了
+现在基本都会让你从零实现 multi-head attention。
+不能用 torch.nn.MultiheadAttention 这种现成 API。
+有些公司（尤其 Anthropic）甚至会要求你在一小时内顺手把 KV cache 和 GQA 也实现了。
+	
+2. 手推反向传播，直接筛掉 80% 的人
+听起来很基础，但我真见过不少 senior candidate 在白板上 chain rule（链式法则）都推不顺。
+如果你不能很干净地推导：
+•	softmax
+•	cross-entropy gradient（交叉熵梯度）
+基本就凉了。
+	
+3. 做 infra 岗的话，不懂分布式训练基本没戏
+Megatron-LM（TP / PP / SP）、ZeRO、FlashAttention 这些，
+现在要求已经不是“知道概念”了，得能深入到 source code 级别。
+只读 paper 已经完全不够用了。
+尤其是 inference / training infra 岗位，不会这些就别硬投。
+	
+4. Softmax 数值稳定性是个隐藏筛选题
+有个 quant 面试官让我手写 softmax，
+还要求解释 log-sum-exp trick。
+看起来很简单，真写的时候其实一点都不简单。
+	
+5. Quant ML 面试 和 AI Lab ML 面试 完全是两种东西
+它们关注点差别特别大。
+Quant 更关心：
+•	latency（延迟）
+•	determinism（确定性）
+•	statistical rigor（统计严谨性）
+AI Lab 更关心：
+•	scaling（扩展能力）
+•	distributed systems（分布式系统）
+•	model behavior（模型行为）
+所以千万别用同一套材料准备。
+	
+有人对练习题目感兴趣的话可以在下面留言。
+	
+#machinelearning[话题]# #转码[话题]# #北美找工[话题]# #newgrad求职[话题]# #西雅图[话题]# #数据科学岗位[话题]#
+
+
+标签: #machinelearning #转码 #北美找工 #newgrad求职 #西雅图 #数据科学岗位

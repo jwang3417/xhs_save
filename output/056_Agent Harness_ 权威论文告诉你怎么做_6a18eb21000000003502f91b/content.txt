@@ -1,0 +1,8 @@
+Agent Harness: 权威论文告诉你怎么做
+
+CMU、Yale、JHU 等联合综述 Agent Harness Engineering 解读：为什么长任务 Agent 失败常因「外壳」而非模型不够聪明？Prompt → Context → Harness 三阶段、ETCLOVG 七层、trace-native 评估与 Framework 走向 Platform。双人对话中视频，基于 Datawhale 整理稿。
+	
+#AgentHarness[话题]#  #ETCLOVG[话题]#   #ContextEngineering[话题]#  #AI工程[话题]#  #大厂吾师兄
+
+
+标签: #AgentHarness #ETCLOVG #ContextEngineering #AI工程

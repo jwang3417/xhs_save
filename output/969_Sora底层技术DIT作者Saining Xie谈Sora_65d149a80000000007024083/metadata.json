@@ -1,0 +1,34 @@
+{
+  "id": "65d149a80000000007024083",
+  "type": "normal",
+  "title": "Sora底层技术DIT作者Saining Xie谈Sora",
+  "desc": "1️⃣  架构：DiT = [VAE 编码器 + ViT + DDPM + VAE 解码器]\n2️⃣  \"视频压缩器网络\"：看起来它只是一个 VAE，但经过原始视频数据的训练。标记化可能对获得良好的时间一致性起着重要作用\n3️⃣  DiT 优先考虑了两个方面：简单性和可扩展性\n4️⃣  Sora有两个关键点尚未得到讨论：训练数据，（自动回归）长视频生成\n\t\n#AI[话题]#  #Ai[话题]#  #ai[话题]#  #科技[话题]#  #人工智能[话题]#  #opanai[话题]#  #互联网[话题]#  #互联网大厂[话题]#  #自然语言处理[话题]#  #计算机视觉[话题]#  #视频[话题]#",
+  "tags": [
+    "AI",
+    "Ai",
+    "ai",
+    "科技",
+    "人工智能",
+    "opanai",
+    "互联网",
+    "互联网大厂",
+    "自然语言处理",
+    "计算机视觉",
+    "视频"
+  ],
+  "author": "一只小茄墩",
+  "authorId": "597818875e87e73490fd8b3b",
+  "time": 1708214696000,
+  "ipLocation": "",
+  "likes": "251",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091341/120bf21d6785c9ff7cf444b66048fd87/spectrum/1040g0k030va2b2575c0049mqjkc8f2prtjp6f08!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/f30e71b244527213bef030a447924ca7/spectrum/1040g0k030va2b1nmlk0049mqjkc8f2prlmvepoo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/e1ab6b930ccc48932f8c04da9533de80/spectrum/1040g0k030va2b21m5a0049mqjkc8f2prnppa5ho!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/14ad172e3d6952c630c4b72404f72785/spectrum/1040g0k030va2b206lc0049mqjkc8f2prn1j0sf0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/fd0379457377b42f8948054197077491/spectrum/1040g0k030va2b23j5i0049mqjkc8f2pr9mta708!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/a8bdad8a9005bb68b34349b40b4f77d5/spectrum/1040g0k030va2b1m7le0049mqjkc8f2pr0unrhb8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/65d149a80000000007024083?xsec_token=ABukaAdFHThO3hUnDHgvyVglMPcx4Bcdlh8UTjt3JiVsg=&xsec_source=pc_collect"
+}

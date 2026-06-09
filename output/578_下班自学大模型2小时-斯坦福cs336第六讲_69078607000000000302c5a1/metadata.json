@@ -1,0 +1,25 @@
+{
+  "id": "69078607000000000302c5a1",
+  "type": "video",
+  "title": "下班自学大模型2小时-斯坦福cs336第六讲",
+  "desc": "今天的课程内容为 Kernels, Triton，深入探讨了如何为 GPU 编写高性能代码，重点在于理解 GPU 的低层执行细节、性能分析工具的使用，以及通过内核（Kernel）融合技术实现代码优化。\n#大模型[话题]# #深度学习[话题]# #程序员[话题]# #转码[话题]# #AI人工智能[话题]# #studywithme[话题]# #下班学习[话题]#",
+  "tags": [
+    "大模型",
+    "深度学习",
+    "程序员",
+    "转码",
+    "AI人工智能",
+    "studywithme",
+    "下班学习"
+  ],
+  "author": "秧秧怪",
+  "authorId": "602e0020000000000100bcd4",
+  "time": 1762100743000,
+  "ipLocation": "",
+  "likes": "249",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091059/f690a104220f1abf26cea9727d66951d/spectrum/1040g34o31od1a8a4ks105o1e00g09f6k2qvu75o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e90785e7262a8e010370039a4563d088_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69078607000000000302c5a1?xsec_token=AB-dT1bvWNPH8rRQNksthwLyX48OYW5HKVzjYJ81mkqts=&xsec_source=pc_collect"
+}

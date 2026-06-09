@@ -1,0 +1,37 @@
+{
+  "id": "6a0fad9e0000000035023805",
+  "type": "normal",
+  "title": "为什么多模态大模型（VLM）难以胜任检测、",
+  "desc": "很多人疑惑：\n现在的多模态大模型明明训练过大量检测框、坐标数据，\n算数又精准、看图又聪明，\n为什么一做检测、分割，就不如YOLO/DETR/SAM精准？\n今天把底层逻辑讲透，看完彻底开窍✅\n1. 同样学坐标，目的完全不同\n大模型学坐标，是为了辅助理解画面。\n坐标对它来说只是一段“描述位置的文字”，\n只要大概区域对、回答逻辑没问题就算合格。\n它不能学太精细！\n强行抠像素精度，反而会破坏语义理解、推理能力，得不偿失。\n而专业视觉模型学坐标：只为定位精准而生。\n一辈子只优化位置、边界、像素误差，目标专一，精度自然拉满。\n2. 大模型没有真正的“空间思维”\n这是最关键的核心！\n大模型是语言序列思维，\n哪怕学过坐标，也只是记住了一串数字Token，\n脑子里没有真实二维画面、没有坐标系。\n像背熟了经纬度，却没见过地图，\n只记数字，不懂空间关系。\nYOLO、DETR、SAM天生适配二维图像，\n自带网格、位置编码、边缘感知，真的看懂物体边界。\n3. 训练惩罚力度天差地别\n大模型主打语义对齐，\n框偏一点、边缘糊一点，基本不影响整体得分，监督非常弱。\n检测分割模型是强监督硬约束，\n偏一个像素、轮廓不对都会被严厉惩罚，\n不断迭代逼模型越来越准。\n4. 图像坐标，远比数学难学\n大模型能精准算超长小数，是因为：\n数字规则固定、答案唯一，超好收敛。\n但视觉坐标是连续浮动值，\n角度、光线、遮挡一变，框的合理位置就变了，\n没有标准答案，只能概率预估，天然存在误差。\n再加上大模型压缩图像、丢失边缘细节，精度自然上不去。\n💡一句话总结：\n大模型是记住位置，专业模型是理解位置。\n所以行业最优解一直是：\n✅精准定位、分割 → 专业视觉模型\n✅语义理解、推理问答 → 多模态大模型\n各司其职，才是最强组合！\n\t\n陆续整理CV视觉，OCR,  视觉大模型，多模态大模型，图像生成，视频生成，世界模型, 文本大模型，强化学习，Agent相关的内容，欢迎交流\n\t\n#人工智能[话题]# #计算机视觉[话题]# #多模态大模型[话题]# #目标检测[话题]# #图像分割[话题]# #AI科普[话题]# #深度学习[话题]# #算法学习[话题]#",
+  "tags": [
+    "人工智能",
+    "计算机视觉",
+    "多模态大模型",
+    "目标检测",
+    "图像分割",
+    "AI科普",
+    "深度学习",
+    "算法学习"
+  ],
+  "author": "little book",
+  "authorId": "5aa31efa4eacab506ca75b7c",
+  "time": 1779412382000,
+  "ipLocation": "上海",
+  "likes": "358",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090708/59a928fe416a622bd7eb3e59074542f7/1040g2sg320ef8u28leag4a37s3ffkmrs36q7fo8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/84fc2258e86114818e9ae5806b64b8bf/1040g2sg320f06110li004a37s3ffkmrsmi27es0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/51111b942a098eb0735c05c0c773adde/1040g2sg320f06110li5g4a37s3ffkmrsvrq8jao!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/b64bbf39719008d964755b6be0384708/1040g2sg320f06110li6g4a37s3ffkmrs8i5nhk0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/efec936583b13420572db5a50c1a1ad7/1040g2sg320ef8u28le704a37s3ffkmrs3eok36g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/c423771bb8a0854cba435c54b703267e/1040g2sg320ef8u28le8g4a37s3ffkmrs3pfgvqo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/a5a7b997d025aad3e4e9915baed8c1e2/1040g2sg320ef8u28ledg4a37s3ffkmrshad0tmo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/bec608fb219d711ea173cfb514b06f4c/1040g2sg320ef8u28le7g4a37s3ffkmrscveleso!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/885122ab27dc703a0328e9401a6f4ff6/1040g2sg320ef8u28lea04a37s3ffkmrs0dde448!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/9238f11a78c420dc48957bf1d803d398/1040g2sg320ef8u28le904a37s3ffkmrs97gv7j8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/4b79b48e2ab2f1e805f1cd473bcc5b71/1040g2sg320ef8u28le9g4a37s3ffkmrsemdt5oo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/368af5dffcfef0c267e7679556d8d256/1040g2sg320ef8u28le804a37s3ffkmrsatfpsa0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a0fad9e0000000035023805?xsec_token=ABzV9KiIIIadlcGAo5n0ti5_ylTEiCsu623_DzvAspX_Q=&xsec_source=pc_collect"
+}

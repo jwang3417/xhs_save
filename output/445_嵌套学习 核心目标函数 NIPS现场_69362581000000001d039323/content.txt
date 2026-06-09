@@ -1,0 +1,8 @@
+嵌套学习 核心目标函数 NIPS现场
+
+associative memory，context learning，与目标函数。
+论文和poster的核心部分
+#nips[话题]# #大模型[话题]# #nips25[话题]#
+
+
+标签: #nips #大模型 #nips25

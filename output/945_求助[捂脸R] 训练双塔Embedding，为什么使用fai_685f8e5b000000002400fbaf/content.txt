@@ -1,0 +1,6 @@
+求助[捂脸R] 训练双塔Embedding，为什么使用faiss搜索user_emb最相近的item_emb，结果基本都相同，且命中率极其低。user个数为20000，item个数为9752。总点击数据为 112868。
+	
+大佬是否有值得看的博客推荐[笑哭R]
+	
+数据和初始物品embed来源是天池的新闻推荐赛
+参考的是Youtube的Sampling-bias-corrected neural modeling [捂脸R]

@@ -1,0 +1,27 @@
+{
+  "id": "69c176ea0000000028008577",
+  "type": "normal",
+  "title": "如何管理你的Claude Code项目？",
+  "desc": "大多数开发者拿到 Claude Code，上来就写提示词，项目初始化直接跳过。\n这就是问题所在。\n\t\n一个正经的Claude Code项目，应该从 .claude/ 目录开始搭。\n\t\n第一步是写 CLAUDE.md。\n这是你给 Claude 的行动指南——项目背景、代码规范、注意事项，全写在这里。Claude 每次启动都会读它，相当于你团队的 onboarding 文档。\n.\n内容多了就拆。 把规则按主题拆进 rules/ 目录，比如代码风格一份、测试规范一份、安全要求一份，各管各的，好维护。\n.\n常用流程放 commands/。 比如”跑一遍 lint 然后提 PR”、“生成变更日志”这种重复性操作，定义成命令，一句话调用，不用每次重新描述。\n.\n按上下文自动触发的逻辑放 skills/。 比如打开某类文件时自动执行检查，不需要你手动喊，Claude 自己判断该不该跑。\n.\n需要独立运行的子代理放 agents/。 它们彼此隔离，各干各的，互不污染上下文。\n.\n权限在 settings.json 里锁死。 哪些操作允许、哪些要确认、哪些直接禁止，白纸黑字写清楚。\n.\n还有一点容易忽略：.claude/ 其实有两个层级。\n项目目录里的那个跟着代码仓库提交，团队所有人共享；\n.\n而 ~/.claude/ 是全局的，存你的个人偏好和跨项目的自动记忆，只属于你自己。\n\t\n#claude[话题]# #claudecode[话题]# #codex[话题]# #ai工具[话题]# #大模型[话题]# #个人开发者[话题]# #openclaw[话题]# #小龙虾[话题]#",
+  "tags": [
+    "claude",
+    "claudecode",
+    "codex",
+    "ai工具",
+    "大模型",
+    "个人开发者",
+    "openclaw",
+    "小龙虾"
+  ],
+  "author": "小西AI不释手",
+  "authorId": "632e6a51000000002303af20",
+  "time": 1774323606000,
+  "ipLocation": "",
+  "likes": "1,562",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090734/6f2773a618b96773d321bb2807979656/notes_pre_post/1040g3k031u2jq53i78005oped98ovbp0e1bdbtg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090734/c8805f6fecd9d8cc2541248d884583c2/notes_pre_post/1040g3k031u2jq53i780g5oped98ovbp01ugsqko!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69c176ea0000000028008577?xsec_token=ABxWvRvz8jxnAeI32szez0VuCk35m_U7jZaHW55PgADWA=&xsec_source=pc_collect"
+}

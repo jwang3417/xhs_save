@@ -1,0 +1,19 @@
+{
+  "id": "69b2b861000000001503a9be",
+  "type": "video",
+  "title": "GRPO我不信这么讲你还学不会",
+  "desc": "大模型的#强化学习[话题]# 方法GRPO，应用于数学推理过程。强调去掉Critic网络，那就是回归到REINFROCE的策略网络，加上重要性采样并进行裁剪。更多是工程应用，还是希望大家去快速过一下强化学习基础概念，会发现是很简单的工程应用。",
+  "tags": [
+    "强化学习"
+  ],
+  "author": "Dr.余",
+  "authorId": "5b2681144eacab55a1698d74",
+  "time": 1773320289000,
+  "ipLocation": "",
+  "likes": "225",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090932/3f6060e52a0399e336073d91de288557/spectrum/1040g34o31tk747opmq0g4a6bj90h93bkumf8qeo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e9b2b7562fe6de010370039ce223b28a_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69b2b861000000001503a9be?xsec_token=ABJPavCDsLOSniiRO6AeWDeiSWUfht62-8EA-CQgsK0k0=&xsec_source=pc_collect"
+}

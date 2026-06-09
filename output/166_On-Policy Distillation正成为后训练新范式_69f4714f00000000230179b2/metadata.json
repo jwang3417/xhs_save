@@ -1,0 +1,43 @@
+{
+  "id": "69f4714f00000000230179b2",
+  "type": "normal",
+  "title": "On-Policy Distillation正成为后训练新范式",
+  "desc": "#深蓝学院[话题]# #深蓝具身智能[话题]# #具身智能[话题]# #大模型[话题]# #小米[话题]# #ai[话题]# #强化学习[话题]# #工程师[话题]# #人工智能[话题]#",
+  "tags": [
+    "深蓝学院",
+    "深蓝具身智能",
+    "具身智能",
+    "大模型",
+    "小米",
+    "ai",
+    "强化学习",
+    "工程师",
+    "人工智能"
+  ],
+  "author": "深蓝具身智能",
+  "authorId": "670a34d0000000000b0323e5",
+  "time": 1777627471000,
+  "ipLocation": "",
+  "likes": "620",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090735/f4d6287a0e7dd5ced75e8dff0977234a/spectrum/1040g0k031vkcu0mgk8005poa6j82u8v5emplik0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/15bad97bf3cd3773ba0aacfb466b1b20/spectrum/1040g0k031vkcu0mgk80g5poa6j82u8v55muhu2g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/42abd5b680daea0dc20311a0c2ecaee4/spectrum/1040g0k031vkcu0mgk8105poa6j82u8v5jqigvb8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/48aaf187616473aafb86c1c440543e72/spectrum/1040g0k031vkcu0mgk81g5poa6j82u8v5j6vhl4g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/933977b6261ead61cc7d246c290ce60f/spectrum/1040g0k031vkcu0mgk8205poa6j82u8v5m447bu0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/b46ecd4994c6e97b680ebbed42310868/spectrum/1040g0k031vkcu0mgk82g5poa6j82u8v5mra4u18!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/367ad82070aa6a9e15eb07a9859f4c1b/spectrum/1040g0k031vkcu0mgk8305poa6j82u8v5bg22c1g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/7c87f159fcc7f13c43774f480507c7cc/spectrum/1040g0k031vkcu0mgk83g5poa6j82u8v56i4nptg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/afd391fcfc2d1d394cd19888c62a5f8c/spectrum/1040g0k031vkcu0mgk8405poa6j82u8v5dnjvib0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/9eb17616be70e1ec17350ae8438fa7f9/spectrum/1040g0k031vkcu0mgk84g5poa6j82u8v5m0vrl2g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/277249a6b9ac75d09675843654178896/spectrum/1040g0k031vkcu0mgk8505poa6j82u8v52kiudu0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/933ca5d9113305efe4d057df50e0b6d2/spectrum/1040g0k031vkcu0mgk85g5poa6j82u8v52j6t7t0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/21da404f9f9805297ea11aefd3775167/spectrum/1040g0k031vkcu0mgk8605poa6j82u8v5h5lmphg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/2d7e040e1be7b495c4c05e5cffcbc9e0/spectrum/1040g0k031vkcu0mgk86g5poa6j82u8v5cf2t82o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/58dcd4a827d48d53bd981aae57a7076a/spectrum/1040g0k031vkcu0opis0g5poa6j82u8v5r5u0aig!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/23e1e6cd5cfb3573e017959eaa06a9da/spectrum/1040g0k031vkcu0opis105poa6j82u8v57vrq4n8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/b76d3c71800370897d07e545043bdcf6/spectrum/1040g0k031vkcu0opis1g5poa6j82u8v5m7o233o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69f4714f00000000230179b2?xsec_token=ABvYfttkgwc5-boPwAqs6_ZWY2dOrDuWYDTkHF0H0cdMA=&xsec_source=pc_collect"
+}

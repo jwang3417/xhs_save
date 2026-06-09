@@ -1,0 +1,24 @@
+{
+  "id": "68104b33000000002001dc81",
+  "type": "normal",
+  "title": "我在Startup工作学会了什么 （1）",
+  "desc": "机缘巧合加入了一家早期 toB GenAI Startup 做founding engineer 工作了两年，发展还不错，也学到了很多，先写一些技术上的心得\n\t\n1/ Startup 技术栈基本上是根据公司规模决定。最早期的时候用Heroku做后端，Vercel前端自动部署，主要是做demo。后期有客户了开始用GCP，基本上也是Cloud Run severless。好处是自动扩容，连接Github CI/CD非常方便。越早期越追求轻量\n\t\n2/ RAG系列的产品可以用现在比较流行的Azure AI search 或者 ElasticSearch。好处是简便易用，文档完善，还有传统搜索的功能。坏处是会比外面流行的VectorDB贵\n\t\n3/ 大多数应用场景用不到fancy的LLM，基本上gpt-4o/4o-mini是最主流的。算经济账的话用enterprise model比开源要便宜。极少数情况需要fine tuning，也取决于数据是否足够\n\t\n4/ production的话要注意的主要是security和scalability。authentication，firewall都需要有。还需要注意就是你提供的服务的SLA availability，能不能到达99% or 99.9%。要有stress testing。可以用postman做一些基础的simulated testing也可以用更专业的服务。\n\t\n5/ 有的客户会要求看你的Security Compliance报告。这个越早弄越方便。而且有了这个放到官网也会感觉更放心。现在都有automated platform连接各个平台（Cloud，Github等等）然后自动扫描。 找一些主流的platform会更省事一些，因为他们的平台自动化程度更高，更加省时。比如OpenAI找的就是Vanta。缺点就是稍微贵一些。注意有很多不同的compliance，北美一般都是最优先做SOC 2。如果是SOC 2 type 2 有三个月monitoring的窗口期，整个流程大概4-6个月\n\t\n6/ 创业的话可以去申请各大云厂商的Startup Program，给的credit在早期还是非常不错的\n\t\n#startup[话题]# #genai[话题]# #创业[话题]# #ai[话题]# #北美创业[话题]# #初创[话题]#",
+  "tags": [
+    "startup",
+    "genai",
+    "创业",
+    "ai",
+    "北美创业",
+    "初创"
+  ],
+  "author": "小红薯6804E64B",
+  "authorId": "68041e99000000000d00a160",
+  "time": 1745898291000,
+  "ipLocation": "",
+  "likes": "742",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091350/f6dce9448eb5d7e373351ea1b0dcc015/1040g00831grjdi8tjq005q043qcj98b03am7fa0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68104b33000000002001dc81?xsec_token=ABh44VZkOIDdP-o_k9CzqAprFZiKKT4PiryjL3E5-AdGQ=&xsec_source=pc_collect"
+}

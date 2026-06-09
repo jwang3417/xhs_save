@@ -1,0 +1,29 @@
+{
+  "id": "69a9abc4000000002602ebdf",
+  "type": "normal",
+  "title": "Pinterest PinFM: 推荐系统新卷王全拆解",
+  "desc": "Pinterest 近期发布的 PinFM (PinFM: Foundation Model for User Activity Sequences at a Billion-scale Visual Discovery Platform) 打破了长序列推荐的瓶颈。它用 16,000 的超长用户行为序列，配合 200 亿参数的超大 Embedding Table，在端到端预训练上跑通了。\n\t\n核心亮点：DCAT 架构实现 600% 吞吐提升、Int4 量化压缩 70% 内存、跨任务对比学习损失函数。 一句话：它让推荐系统真正拥有了“过目不忘”的长久记忆。\n\t\n#推荐算法[话题]#  #人工智能[话题]#  #推荐系统[话题]# #Transformer[话题]#  #大数据[话题]#  #大模型[话题]#  #深度学习[话题]#  #技术干货[话题]# #基础模型[话题]#",
+  "tags": [
+    "推荐算法",
+    "人工智能",
+    "推荐系统",
+    "Transformer",
+    "大数据",
+    "大模型",
+    "深度学习",
+    "技术干货",
+    "基础模型"
+  ],
+  "author": "从词表征到ChatGPT",
+  "authorId": "5f9c38120000000001008c90",
+  "time": 1772727236000,
+  "ipLocation": "",
+  "likes": "83",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090933/066aaafcfc5f319880e9ff1d5e7264a0/spectrum/1040g34o31tbccn355e2g5nss7090934g3oplm88!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090933/6cebfbeb379d3671d5841b53e2079fcc/spectrum/1040g34o31tbccn355e205nss7090934ghd568h8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090933/16d7a48d06fba797abc404c7317fb7b0/spectrum/1040g34o31tbccn355e1g5nss7090934g4ob68ko!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69a9abc4000000002602ebdf?xsec_token=AB7Iw4mH6rM4BFpjCZZpiIiGGqISsbXeUXyiZNj5B8zZ8=&xsec_source=pc_collect"
+}

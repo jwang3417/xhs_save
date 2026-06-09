@@ -1,0 +1,38 @@
+{
+  "id": "694a547e000000001e00df0d",
+  "type": "normal",
+  "title": "搜索太精准导致用户不逛了，这算好事吗？",
+  "desc": "一、 识破数字陷阱：大盘其实亏了 这道题表面是“效率 vs 体验”的博弈，实则是数学题。 算法同学强调加购率涨 8%，但掩盖了浏览量跌 15% 的致命伤。 代入公式推演：整体效能 ≈ (1 + 8%) × (1 - 15%) = 0.918。 这说明，虽然单次匹配准了，但因用户浏览规模大幅缩水，总产出其实下降了约 8.2%。 更危险的是口径陷阱：加购率 = 加购次数 / 浏览次数。当分母（浏览数）大跌 15% 时，哪怕分子（加购意愿）不变，比率也会被动上涨。这 8% 的提升极可能是分母变小带来的“虚假繁荣”，实际的总加购绝对值大概率是崩盘的。\n二、 业务场景分层：旱涝不均 不能一刀切看数据。必须把流量拆解为“标品（强目的）”和“非标品（弱目的）”。\n标品（如充电器）： 用户想买完即走。浏览跌、转化涨是好事，说明效率真的高了。\n非标品（如女装）： 用户诉求是“逛”。浏览量本身就是收益。浏览跌 15% 意味着算法把路走窄了，扼杀了“发现乐趣”，导致用户没逛爽就流失。目前的策略显然在非标品上“用力过猛”。\n三、 商业化隐忧：库存缩水 浏览量（PV）直接对应广告库存。PV 跌 15%，意味着平台能卖的广告位直接少了 15%。除非点击率（CTR）的提升能覆盖此缺口，否则商业化收入（RPM）会直接跳水。\n结论： 风险大于收益，不支持全量上线。建议按品类做差异化策略：标品追求效率，非标品追求丰富度。\n面试官追问解答\n#电商运营[话题]#  #数据分析[话题]#  #淘宝[话题]#  #面试题[话题]#  #搜索策略[话题]#  #用户体验[话题]#  #大厂[话题]#  #求职[话题]#  #商业思维[话题]#  #增长[话题]#",
+  "tags": [
+    "电商运营",
+    "数据分析",
+    "淘宝",
+    "面试题",
+    "搜索策略",
+    "用户体验",
+    "大厂",
+    "求职",
+    "商业思维",
+    "增长"
+  ],
+  "author": "跟Eliza玩转数据",
+  "authorId": "5ec77084000000000101c106",
+  "time": 1766504160000,
+  "ipLocation": "",
+  "likes": "181",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090958/fbe197e8095b54a40a55559c52a3e792/spectrum/1040g34o31qe91e1bn2005nm7e220bg86g7p57j0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090958/92cb27d317125dba60599cbf25b53a93/spectrum/1040g34o31qe91e1bn20g5nm7e220bg8698qv49o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090958/53e17be9e0189aa44610d0e86760d379/spectrum/1040g34o31qe91e1bn2105nm7e220bg860qvi6u8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090958/a1f35e2736450d7200d7c5e012304fb0/spectrum/1040g34o31qe91e1bn21g5nm7e220bg86sg72c8g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090958/d5acfc9516bd75587dbfff262d826c1f/spectrum/1040g34o31qe91e1bn2205nm7e220bg862ak7beg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090958/c9396f4ea8b8901cc79c3b0b2798aa1d/spectrum/1040g34o31qe91e1bn22g5nm7e220bg86fa0rjjo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090958/16ae8fafcca797ce4a7ac2d33452314d/spectrum/1040g34o31qe91e1bn2305nm7e220bg863j8f6e0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090958/b268550442e1dec7ead576d795c55fb7/spectrum/1040g34o31qe91e1bn23g5nm7e220bg86puahgvg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090958/130ec05f8ee312bfd4826e1c7b9bf3c8/spectrum/1040g34o31qe91e1bn2405nm7e220bg86tu875f8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090958/a9d195db74b499b92afafc794f4d80d2/spectrum/1040g34o31qe91e1bn24g5nm7e220bg86fng09pg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090958/6c043e758cc22c60ebab2f8d6a0303ab/spectrum/1040g34o31qe91e1bn2505nm7e220bg86tenick0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/694a547e000000001e00df0d?xsec_token=ABIv8nH_hiSr62b7p6CeIuyhYvZ0mIVjA6Ll7U5VPfLT8=&xsec_source=pc_collect"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "6a03e93f0000000007027f13",
+  "type": "normal",
+  "title": "OneSeaechV2 将LLM 推理能力压进电商搜索",
+  "desc": "电商搜索里目前最棘手的问题就是对复杂查询的理解不足，用户只输入几个模糊词，系统却要同时理解查询语义、个人偏好和转化目标。\n\t\n为应对这些挑战，快手提出OneSearch-V2 这篇工作，用于解决这个矛盾：LLM 很擅长推理复杂意图，但线上搜索不能每次都慢慢生成 CoT。本文的做法是先用 LLM 为 query-user 对生成高密度关键词推理，再通过自蒸馏把这种推理能力内化进 OneSearch 模型权重里，上线时不需额外增加推理链路。\n\t\n该系统有一个很关键的行为偏好优化系统：不再依赖单独 reward model，而是将查询相关性、后验转化、点击与下单反馈组合成行为偏好对齐信号，并用 TPMA-GRPO 处理 SID 序列里不同位置 token 的贡献差异。\n\t\n线上 A/B 的结果比较扎实：Item CTR +3.98%，PV CVR +2.90%，Order +2.11%。\n同时，论文中强调这些收益没有引入额外 serving latency，对当前的GR范式的工业系统来说，这个点很现实，真正能上线的推理能力，必须被压缩到系统可承受的成本里。\n\t\n大概概括一下：，OneSearch-V2 通过先让大模型负责解释意图，再把解释能力蒸馏到轻量生成式检索系统中，最后用真实行为反馈校准线上所需的商业目标。\n#人工智障与人工智能[话题]# #大模型[话题]# #算法[话题]# #生成式推荐[话题]# #大语言模型[话题]# #论文阅读[话题]# #快手[话题]# #RED新生代创作大赛[话题]#",
+  "tags": [
+    "人工智障与人工智能",
+    "大模型",
+    "算法",
+    "生成式推荐",
+    "大语言模型",
+    "论文阅读",
+    "快手",
+    "RED新生代创作大赛"
+  ],
+  "author": "卡卡螺丝",
+  "authorId": "642d107f00000000110222ca",
+  "time": 1778641216000,
+  "ipLocation": "浙江",
+  "likes": "72",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090732/4d4b7576d9cd6c7ed09097dc961ebc25/spectrum/1040g0k03203g85hkl6005p1d21vkc8ma97ijf0o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/cd06f20a900a8da983c07ed0c8240d58/spectrum/1040g34o3203g89cois705p1d21vkc8ma3q5fg7g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/bad23130e43e341a75ab2a2606e20e1b/spectrum/1040g34o3203g89cois7g5p1d21vkc8ma1kh9190!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/50f2fa850927ab56f324a58c0eb74cad/spectrum/1040g34o3203g89cois805p1d21vkc8mape40ioo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/adc9c2201aed16b399a0b66afe0e4bd9/spectrum/1040g34o3203g89cois8g5p1d21vkc8majppe2tg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/d27bcf9530cd978dc413dac1cd0a212c/spectrum/1040g34o3203g89cois905p1d21vkc8ma93tdds8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/904a80917ea7526723cf35264f500aaf/spectrum/1040g34o3203g89cois9g5p1d21vkc8maic62rao!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/562b6dae302fd4da3126b0831ac0cbd6/spectrum/1040g34o3203g89coisa05p1d21vkc8ma2d98b6g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/87ba2601704f2fcd4bdc3a5181412f82/spectrum/1040g34o3203g89coisag5p1d21vkc8ma59l8agg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/c9976c66920ad76f5ac2cfbc1afea520/spectrum/1040g34o3203g89coisb05p1d21vkc8ma7uhnrq8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/adcad577d68051cfc4f499a03e6b2c8e/spectrum/1040g34o3203g89coisbg5p1d21vkc8matlt4ijo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/23dc5fa2cbef0916bca1c591fd214ef8/spectrum/1040g34o3203g89coisc05p1d21vkc8mag0f4248!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/ba04c0014b50a860ae62c535724fcaa0/spectrum/1040g34o3203g89coiscg5p1d21vkc8ma4g8m2ng!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/56ea5d22d78c2fbc8e4f2fb84892f542/spectrum/1040g34o3203g89coisd05p1d21vkc8malnem1jg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/826f8a989e2db780edfd308f595d54aa/spectrum/1040g34o3203g89coisdg5p1d21vkc8mav9hf3s8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/706028de75c63fbfa17a4ebf941d4ff1/spectrum/1040g34o3203g89ejl4205p1d21vkc8ma97ba820!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/dde028a838acd98d2fb5ac90b7c32999/spectrum/1040g34o3203g89ejl42g5p1d21vkc8ma1ecltko!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a03e93f0000000007027f13?xsec_token=AB6v-Ms6NdWLc302pI1IT5hsm4lsFrvSpejGiRBJvTBuU=&xsec_source=pc_collect"
+}

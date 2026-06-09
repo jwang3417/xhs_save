@@ -1,0 +1,9 @@
+网易发布世界模型LatticeWorld：交互式世界
+
+网易发布世界模型LatticeWorld：交互式世界生成框架，LatticeWorld：一种交互式3D世界生成新框架，利用轻量级 LLM（LLaMA-2-7B）和工业级渲染引擎（例如虚幻引擎 5）来生成动态环境，在场景布局生成和视觉保真度方面均达到了卓越的精度，并在保持高质量创作的同时，实现了工业生产效率的 90 倍以上提升！
+单位：网易, 北航, 香港城市大学等
+《LatticeWorld: A Multimodal Large Language Model-Empowered Framework for Interactive Complex World Generation》
+#人工智能[话题]# #AI[话题]# #计算机视觉[话题]# #大模型[话题]# #网易[话题]# #深度学习[话题]# #3D[话题]# #世界模型[话题]# #3D视觉[话题]# #AIGC[话题]#
+
+
+标签: #人工智能 #AI #计算机视觉 #大模型 #网易 #深度学习 #3D #世界模型 #3D视觉 #AIGC

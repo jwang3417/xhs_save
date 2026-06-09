@@ -1,0 +1,35 @@
+{
+  "id": "6917f8260000000005012386",
+  "type": "normal",
+  "title": "面试官：多模态对齐选 Q-Former 还是 MLP？",
+  "desc": "多模态大模型的面试题里，有个坑很多人踩 —— 就是视觉和语言特征怎么对齐，选 Q-Former 还是 MLP。这题在大厂面经里出现频率特别高，看似基础，其实藏着大学问。\n\t\n面试官问这个，不只是考你知道这两个东西，更想看你懂不懂技术权衡。比如什么时候该牺牲点性能换效率，什么时候必须保精度哪怕多花算力。很多人只背概念，说不出不同场景下的选择逻辑，直接就被归为 “只懂理论”。\n\t\n其实核心是要搞清楚这两种连接器的本质区别，以及它们在实际落地时的约束条件。要是说不清这些，哪怕简历写了多模态项目，也容易被问住。\n\t\n相关的考点拆解和场景分析，已经整理到 190G《大模型实战攻略全系列整合包》里了，就在 “LLM 大模型场景题” 文件夹，想系统梳理的可以去看看。#grpo[话题]# #ppo[话题]# #大模型面试题[话题]# #互联网大厂[话题]# #大模型八股[话题]# #大模型八股文[话题]# #大模型面试题[话题]# #大模型学习路线[话题]# #大模型实战[话题]# #大模型[话题]#",
+  "tags": [
+    "grpo",
+    "ppo",
+    "大模型面试题",
+    "互联网大厂",
+    "大模型八股",
+    "大模型八股文",
+    "大模型学习路线",
+    "大模型实战",
+    "大模型"
+  ],
+  "author": "AI芝士派学长",
+  "authorId": "670bc4e1000000001d03323f",
+  "time": 1763178534000,
+  "ipLocation": "",
+  "likes": "95",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091023/13beb45f9aa85e9c7c0515f6f5bdef80/notes_pre_post/1040g3k031ot380e11k605pobojgnechvnvjekgg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091023/5b4c5464d50bf241b63502720027d17e/notes_pre_post/1040g3k031ot380h5ho605pobojgnechvja64l50!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091023/9cf0a5c4f2acbf501c9e71c102e036f3/notes_pre_post/1040g3k831ot380sn1qd05pobojgnechv3flrvh8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091023/62d063d9af16d5b836901cf5a01b08f3/notes_pre_post/1040g3k831ot380sn1q905pobojgnechvfqe3i6o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091023/20a5e44d0f3a26e2f0b8deb9982181ba/notes_pre_post/1040g3k831ot380sn1qbg5pobojgnechvdoav2ko!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091023/409a6c2411a1fa9befb5188ec42fc4fd/notes_pre_post/1040g3k831ot380sn1q705pobojgnechv0v42lao!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091023/fa4b6d36357cfd0266e3e8254a451e89/notes_pre_post/1040g3k831ot380sn1qc05pobojgnechvct7p6qg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091023/b2a8c3e84361d8ecc810c985e9473a40/notes_pre_post/1040g3k831ot380sn1qdg5pobojgnechverujb80!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091023/888461678a95ca5cf0308f8f3c7a2036/notes_pre_post/1040g3k031ot380o31q6g5pobojgnechv1a3gt1g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6917f8260000000005012386?xsec_token=AB9Pgnsx9EynlYRNCs5Be0uOkSpfZJe73FlLLgzfv8bL0=&xsec_source=pc_collect"
+}

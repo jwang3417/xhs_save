@@ -1,0 +1,27 @@
+{
+  "id": "6a15183200000000360327f0",
+  "type": "normal",
+  "title": "ICML26 | HSIR自改进提速",
+  "desc": "🎉 背景\n自改进训练让LRM用自生成CoT迭代训练，降低外部监督依赖，但作者发现它在复杂推理上常失效甚至模型坍塌。关键困惑是：\n① 为什么GSM8K上有效，到了MedQA这类复杂任务就不稳？\n② 为什么多采样仍难覆盖真正困难但关键的样本？\n③ 为什么只追求短推理会省token，却可能伤害深度推理？\n\t\n✨ 方法\n作者核心视角是：自改进的瓶颈不是“没有更多轨迹”，而是难例正确轨迹不足与过度思考轨迹过多。HSIR包含\n① VeriExit，从失败解中验证中间步骤，若已到达正确答案就截断并退出采样，回收困难问题的有效前缀；\n② InDiv，用模型中层隐藏状态和注意力感知特征做特征值分析，度量推理内在多样性，过滤冗余重复解；\n③ 将筛出的准确、多样、简洁轨迹用于SFT/DPO，并扩展到H-GRPO，把InDiv作为额外奖励缓解RLVR过度思考。\n\t\n🏆 实验\n设置覆盖7个LLM，主任务为MedQA、GSM8K，另测ARC、CSQA、StrategyQA，并做Medbullets、MedXpertQA、MATH、AMC2023及MedQA→GPQA、GSM8K→MedQA的OOD评估。\n① HSIR-DPO最高带来+10.9%平均性能增益，并减少42.4%相对推理开销；\n② 在Qwen3、Phi、Mistral、LLaMA3等模型上，HSIR-SFT仍获得+5.62%平均增益和22.4% token下降；\n③ 在ARC/CSQA/StrategyQA上，HSIR-SFT提升+7.36%，token下降27.9%。\n消融显示，去掉VeriExit或InDiv都会退化；VeriExit优于Answer-driven，InDiv也优于Length-driven。它把STaR/ReSTEM/RFT/IRPO与长度奖励GRPO统一连接到两个变量：难例覆盖与冗余控制。\n\t\n2605.24998\n#大模型[话题]# #人工智能[话题]# #深度学习[话题]# #创新点实现[话题]# #提供思路和创新点[话题]# #大模型推理[话题]# #强化学习[话题]#",
+  "tags": [
+    "大模型",
+    "人工智能",
+    "深度学习",
+    "创新点实现",
+    "提供思路和创新点",
+    "大模型推理",
+    "强化学习"
+  ],
+  "author": "MLNLP",
+  "authorId": "672f16ad000000001d02fd60",
+  "time": 1779810300000,
+  "ipLocation": "黑龙江",
+  "likes": "28",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090707/4df910017f3a6f3d1cc37ee46d2ee01e/spectrum/1040g0k0320k99kaq5i005ppf2qmndvb0r01jlig!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090707/06d537820f5748784c0e32c50991cc2f/spectrum/1040g0k0320k99kaq5i0g5ppf2qmndvb02sj8v2g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090707/291be3e1db5f4b9947e656d427dab433/spectrum/1040g0k0320k99kaq5i105ppf2qmndvb0b21f1eg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a15183200000000360327f0?xsec_token=ABj5qS8UaWYRbS1dpUPxQBeFhzKi7q3R5ecMZQ0m3Ao4s=&xsec_source=pc_collect"
+}

@@ -1,0 +1,6 @@
+为什么 300 万条数据比 8500 万条更有效？
+
+#AI对齐训练[话题]# #AnthropicClaude安全[话题]# #AI训练数据工程[话题]# #ConstitutionalAI[话题]# #AI越界行为[话题]# #模型对齐方法论[话题]# #OOD泛化[话题]#
+
+
+标签: #AI对齐训练 #AnthropicClaude安全 #AI训练数据工程 #ConstitutionalAI #AI越界行为 #模型对齐方法论 #OOD泛化

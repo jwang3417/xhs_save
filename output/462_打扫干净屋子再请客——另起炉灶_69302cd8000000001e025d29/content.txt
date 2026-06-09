@@ -1,0 +1,17 @@
+打扫干净屋子再请客——另起炉灶
+
+最近看到了腾讯的recgpt，想到了华为的recbase，这两篇论文还挺像的，均聚焦传统ID嵌入推荐系统的跨域泛化与冷启动痛点，核心思路一致：构建推荐领域专属Foundation Model，摒弃传统ID嵌入依赖。
+1. RecGPT: A Foundation Model for Sequential Recommendation
+核心动机
+解决传统ID推荐模型零样本泛化能力弱的问题，实现真正意义上的跨域推荐，突破新物品/新领域适配瓶颈。
+关键技术
+• 统一物品分词（Unified Item Tokenization - FSQ）：通过MPNet提取物品语义，采用有限标量量化（FSQ）将连续文本嵌入转为离散Token序列；相比VQ-VAE无需复杂码本训练，避免码本坍塌，保留丰富语义。
+• 通用推荐建模（Universal Recommendation Modeling）：设计混合双向-因果注意力机制（Hybrid Bidirectional-Causal Attention）——物品内部Token用双向注意力保证语义完整，物品间用因果注意力遵循时序预测逻辑；引入辅助语义路径（Auxiliary Semantic Pathways），弥补量化过程中的信息损失。
+• 高效解码器（Efficient Item Token Decoder）：采用基于Trie树的前缀约束Beam Search，解决Token组合空间过大问题，确保推理时仅生成商品库中实际存在的有效物品ID。
+2. RecBase: Generative Foundation Model Pretraining for Zero-Shot Recommendation
+关键技术创新
+• 大规模跨域数据集：涵盖15个不同领域（新闻、电商、视频等），包含450万物品与3500万交互记录，为从头预训练提供数据支撑。
+• 统一物品分词器：采用课程学习增强的RQ-VAE（CL-VAE）实现物品离散化；通过分层训练策略（从粗粒度到细粒度）解决跨域物品潜在空间分布不均问题，避免码本坍塌；生成层级结构的concept ID，助力跨域语义对齐与零样本迁移。#推荐算法[话题]# #生成式推荐[话题]# #互联网大厂实习[话题]# #算法岗[话题]#
+
+
+标签: #推荐算法 #生成式推荐 #互联网大厂实习 #算法岗

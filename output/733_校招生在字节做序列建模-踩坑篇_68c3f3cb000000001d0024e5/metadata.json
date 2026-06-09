@@ -1,0 +1,26 @@
+{
+  "id": "68c3f3cb000000001d0024e5",
+  "type": "normal",
+  "title": "校招生在字节做序列建模-踩坑篇",
+  "desc": "当你校招入职某宇宙公司，被大公司饱和福利冲击得晕头转向时，自己给自己暗暗定下目标“我要x年之内升到x-x”，仿佛税后百万就在眼前，这时你开启了自己的第一个专项，发现同样的实验训5遍得到了3个不同结论，你会：\nA扛着火车跑路\nB加大药量，蒙特卡洛启动！\nC从古法tensor board打点中寻找蛛丝马迹\n\t\n上面关于实验的部分就是我的真实经历，很难想象业务导向对于模型训练的影响，只要ab有收益，那么模型训崩也是无所谓的（难平\n\t\n分享几个我解决离线aa波动过大的技巧\n观察auc或者loss 波动的来源，一般会是dense 或者sparse 梯度值过大\n首先在模型结构上做LN/softcap\n对于前期容易训崩的结构，直接对输出添加一个从0warm up到1的逻辑\n对于预测头梯度尖刺的情况，可以尝试给头的输入做LN，同时添加L2正则化\n对于异常数据报nan就只能增加梯度过滤的逻辑了，训到它们就丢掉\n\t\n#我的学习进化论[话题]# #字节跳动[话题]# #互联网大厂[话题]#",
+  "tags": [
+    "我的学习进化论",
+    "字节跳动",
+    "互联网大厂"
+  ],
+  "author": "7师傅",
+  "authorId": "5eaa7dfc000000000100472a",
+  "time": 1757672395000,
+  "ipLocation": "",
+  "likes": "102",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091156/e42d78bce563e4c4d36d464eff216cc6/notes_uhdr/1040g3qg31mb1nu734u005nlafnu08hpa8gvjrv8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091156/0777298e794841ef9cd87d76149fd5b3/notes_uhdr/1040g3qg31mb1nu734u0g5nlafnu08hpa4ahlc88!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091156/558d6db46791cdc76bd8e5a420aa18b3/notes_uhdr/1040g3qg31mb1nu734u105nlafnu08hpag4s9t00!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091156/e8b7dd6dd351a05ffdcddd760e47f6c2/notes_uhdr/1040g3qg31mb1nu734u1g5nlafnu08hpagev9m38!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091156/837f06aa6a35fe560a50e52b170bce97/notes_uhdr/1040g3qg31mb1nu734u205nlafnu08hpamc1qln8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091156/9d43cc2a1b25de04cd86db2f60f3fb05/notes_uhdr/1040g3qg31mb1nu734u2g5nlafnu08hpaaf2dpmg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68c3f3cb000000001d0024e5?xsec_token=ABfSevBQ-Y3QhdbCP7C18oze6K9AfCnNOSUtlYwIaOZY4=&xsec_source=pc_collect"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "6a22a6f4000000000602167c",
+  "type": "normal",
+  "title": "手撕代码：BN / LN / RMSNorm",
+  "desc": "深度学习里最常用的三种归一化，公式其实一模一样。区别只在一件事：对哪几个维度求均值方差。\n\t\nBatchNorm 竖着切。同一 channel 跨 batch 和空间位置算统计量。训练时用当前 batch，推理时用 running_mean。问题是小 batch 不稳定，这也是为啥 Transformer 不用它。\n\t\nLayerNorm 横着切。同一样本所有特征算统计量。不依赖 batch size，训练推理行为一致。Transformer 标配就是这个原因。\n\t\nRMSNorm 是 LayerNorm 的极简版。不做均值减除，不加 β 偏置。只除以 RMS 再乘 γ。数学上比 LN 少一次减法和一次加法，实测快 15%，LLaMA 和 Qwen 都在用。\n\t\n配图里放了三条公式和对应的 PyTorch 代码，逐行有注释。看完你就能手写这三种归一化。\n\t\n#LLM[话题]# #大模型[话题]# #归一化[话题]# #算法[话题]# #手撕代码[话题]# #八股[话题]# #Transformer[话题]# #深度学习[话题]# #面试[话题]#",
+  "tags": [
+    "LLM",
+    "大模型",
+    "归一化",
+    "算法",
+    "手撕代码",
+    "八股",
+    "Transformer",
+    "深度学习",
+    "面试"
+  ],
+  "author": "地上AI888",
+  "authorId": "6454b23a000000000f006573",
+  "time": 1780655860000,
+  "ipLocation": "江苏",
+  "likes": "25",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090701/26e15862d4209eb0f9569ea849b1b2f3/spectrum/1040g34o3211h1kcmms905p2km8t3opbjl6gu270!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090701/c97362e2e760bf7114dd2af162a8eb0f/spectrum/1040g34o3211h1kcmms9g5p2km8t3opbjhe935v8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090701/149162af26b7b21a7cc16e15f4c08771/spectrum/1040g34o3211h1kcmmsa05p2km8t3opbjeth1ud8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090701/9beaf63d0cf0e7cac50b3d4496f8e64f/spectrum/1040g34o3211h1kcmmsag5p2km8t3opbj4p4f7lo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090701/4a4f5eee71a1a7effecf91366aee90f5/spectrum/1040g34o3211h1kcmmsb05p2km8t3opbjedngs78!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090701/3b9bde1fe840460768c1073cd70077df/spectrum/1040g34o3211h1kcmmsbg5p2km8t3opbjjtn7l0g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090701/e7411aeb647ec162daaeef61a35a8c2f/spectrum/1040g34o3211h1kcmmsc05p2km8t3opbj88dqfoo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090701/c5f974d2c946a0ab63768997fcc0b101/spectrum/1040g34o3211h1kcmmscg5p2km8t3opbjf7bej9o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090701/2c2c095de66e9091ee681a33f6ee67a0/spectrum/1040g34o3211h1kcmmsd05p2km8t3opbjig1c07o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a22a6f4000000000602167c?xsec_token=ABXgUX3B-1VWT4RSIn9sgc3KJETEFBXPJUqr-ZxjCQmXM=&xsec_source=pc_collect"
+}

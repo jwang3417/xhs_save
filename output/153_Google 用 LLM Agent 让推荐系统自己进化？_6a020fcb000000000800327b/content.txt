@@ -1,0 +1,17 @@
+Google 用 LLM Agent 让推荐系统自己进化？
+
+工业推荐系统中的迭代线路一直是改模型结构、重新定义奖励函数、设计新的优化算法，并把这些改动安全地推到线上 A/B 实验。然而，传统流程高度依赖 MLE 的人工假设、代码实现、训练验证和指标复盘，迭代速度天然受限。
+	
+所以，Google 在这篇论文提出 Self-Evolving Recommendation System，把 LLM agents 作为自动化 MLE 来驱动端到端模型优化，把做“推荐大模型”变成做“优化系统的 agent”。
+	
+系统分成两个闭环：Offline Agent 是快内环，负责读取历史实验、生成假设、写代码或配置 diff，并用离线 proxy metric 筛选候选；Online Agent 是慢外环，负责安全校验、训练导出、线上流量实验、监控 north-star metrics，并把线上结果写回 Experiment Journal。
+	
+对于这些agents ，不只是做超参搜索，论文展示它们能发现优化器切换、训练效率改进、Gated Path 架构、激活函数 refinement，以及多目标 reward synthesis。
+	
+最终实验结果在 YouTube 生产环境中，带来了多项 YouTube-level 和 surface-level 指标提升；实验吞吐也从人工流程的约 1-10 个/周提升到 agent workflow 的约 100 个/周。
+	
+如果未来推荐系统可实现论文所构想的自演化能力，让模型主动参与业务逻辑与优化目标的自主定义，这一范式将远比一味扩充模型体量、重度依赖人工规则约束的推荐方案更具研究价值与落地意义。
+#推荐系统[话题]# #LLM[话题]# #大模型[话题]# #agent[话题]# #论文解读[话题]# #多智能体[话题]# #人工智能发展[话题]# #RED新生代创作大赛[话题]# #maker[话题]#
+
+
+标签: #推荐系统 #LLM #大模型 #agent #论文解读 #多智能体 #人工智能发展 #RED新生代创作大赛 #maker

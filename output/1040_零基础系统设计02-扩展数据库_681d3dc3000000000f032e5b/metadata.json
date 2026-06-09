@@ -1,0 +1,19 @@
+{
+  "id": "681d3dc3000000000f032e5b",
+  "type": "video",
+  "title": "零基础系统设计02-扩展数据库",
+  "desc": "#系统设计[话题]#﻿\n\t\n00:00 scaling database\n02:53 data replication\n05:34 data sharding\n07:46 Hotspot",
+  "tags": [
+    "系统设计"
+  ],
+  "author": "s09g",
+  "authorId": "6591d3a600000000220086e5",
+  "time": 1746746819000,
+  "ipLocation": "",
+  "likes": "1,182",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091348/9c02c54bb317219be7d4a3715414d8c6/spectrum/1040g34o31h87u959k2005pchqej8h1n542fl548!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/79/110/259/01e81d3d924b1d1c0103700396b23ad413_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/681d3dc3000000000f032e5b?xsec_token=ABl2r8DTwuDh09R1jdJ35oPqCOYG8P8k_5ZIh_ht0RMoA=&xsec_source=pc_collect"
+}

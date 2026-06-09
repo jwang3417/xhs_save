@@ -1,0 +1,28 @@
+{
+  "id": "69c25ef5000000001d01c0f9",
+  "type": "video",
+  "title": "OpenClaw正在构建AI Agent的操作系统层",
+  "desc": "最近系统看了 OpenClaw 生态中的 16 个项目，越来越觉得它想做的并不是一个普通的 AI Agent 框架，而是一套覆盖 Agent 生命周期全链路的基础设施生态。\n从运行时、多 Agent 协作，到隐私安全、在线学习与自我演化，这个生态正在认真回答一个很重要的问题：\n如果 AI Agent 真要成为基础设施，它需要什么样的“操作系统层”？\n这期视频，我会带你一次看懂 OpenClaw 的四层布局，以及几个特别值得关注的方向：\n嵌入式 Agent、多 Agent 协作、企业级安全沙箱、隐私保护架构、对话即训练。\n\t\n#AIAgent[话题]# #OpenClaw[话题]#  #Agent[话题]#  #人工智能[话题]#  #大模型[话题]#  #AIGC[话题]#  #唐国梁Tommy[话题]#  #开源项目[话题]#  #AI前沿技术[话题]#  #智能体[话题]#",
+  "tags": [
+    "AIAgent",
+    "OpenClaw",
+    "Agent",
+    "人工智能",
+    "大模型",
+    "AIGC",
+    "唐国梁Tommy",
+    "开源项目",
+    "AI前沿技术",
+    "智能体"
+  ],
+  "author": "唐国梁Tommy",
+  "authorId": "6430180d0000000011022993",
+  "time": 1774345973000,
+  "ipLocation": "",
+  "likes": "8",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091313/aad0edfea750c18e4d50fa9ea5229247/spectrum/1040g0k031u3fmggihs005p1g306kcacj6avqcoo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/1/110/259/01e9c25ef6588362010370039d1f4d6703_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69c25ef5000000001d01c0f9?xsec_token=AB1v132eceoqwnzQdo11pRPZ_FboFjHwRy6XOuDx85auQ=&xsec_source=pc_collect"
+}

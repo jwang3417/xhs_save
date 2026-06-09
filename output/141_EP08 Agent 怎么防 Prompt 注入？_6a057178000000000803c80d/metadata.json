@@ -1,0 +1,25 @@
+{
+  "id": "6a057178000000000803c80d",
+  "type": "video",
+  "title": "EP08 Agent 怎么防 Prompt 注入？",
+  "desc": "面试被追问：Agent 怎么防 Prompt 注入？性能怎么评估？                                                 很多人会搭 demo，但答不上这两个问题——因为这是只有在生产环境真正踩过坑，才会认真想的事。\n这期讲 Agent 开发中最容易被忽视的两块：                                                                     设计模式： 别让 Agent 完全自主决策，用 Workflow 框住它的边界，在每个节点里给局部决策权。加上Reflection（自我纠正）模式，任务成功率能提升 15-30%。                                   安全三道防线： ① 输入过滤——拦截 Prompt 注入；② Prompt 隔离——系统指令和用户输入严格分区；③ 输出验证 + 工具白名单——高风险操作强制 Human-in-the-loop。记住一个原则：权限最小化。\n性能评估四个指标： 任务成功率、平均推理步数、工具调用准确率、Shadow Testing。越来越多团队在用 LLM-as-Judge 做自动化评测。\n#大模型[话题]# #面经[话题]# #算法[话题]# #AI编程[话题]# #人工智能[话题]# #多模态人工智能[话题]# #个人开发者[话题]#",
+  "tags": [
+    "大模型",
+    "面经",
+    "算法",
+    "AI编程",
+    "人工智能",
+    "多模态人工智能",
+    "个人开发者"
+  ],
+  "author": "北岸",
+  "authorId": "6534afe80000000006007ca2",
+  "time": 1778741624000,
+  "ipLocation": "北京",
+  "likes": "82",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090733/853db2b5abdd4a7fa03dc476f8741cf0/spectrum/1040g0k0320509pj9is005p9klvk1gv52lvjji00!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01ea05716317335a010370039e254447ec_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a057178000000000803c80d?xsec_token=ABV9CTEV_FqNS7QppXkQYWj3Fs2XSQhbI3dVi9SkHN3wg=&xsec_source=pc_collect"
+}

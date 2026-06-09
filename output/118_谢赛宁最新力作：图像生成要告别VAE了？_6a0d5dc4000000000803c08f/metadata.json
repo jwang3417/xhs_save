@@ -1,0 +1,32 @@
+{
+  "id": "6a0d5dc4000000000803c08f",
+  "type": "normal",
+  "title": "谢赛宁最新力作：图像生成要告别VAE了？",
+  "desc": "大模型图像生成迎来重大突破！AI 搞定图像生成，可能再也不需要 VAE（变分自编码器）了！\n\t\n由 Adobe Research、纽约大学（NYU）谢赛宁团队等顶尖团队重磅推出 RAEv2，用极简改进让「表示自编码器」重回扩散模型基线舞台，训练速度提升 10 倍以上，在 ImageNet-256 上刷出 SOTA 性能！\n\t\n传统扩散模型（如 SD、Flux）极度依赖 VAE 来压缩图像，而 RAE 的终极梦想是用现成的预训练视觉大模型（如 DINOv2、CLIP）直接替代 VAE，从而完美统一 AI 对图像的「理解」与「生成」。针对初代 RAE 重建画质差、推理复杂的痛点，RAEv2 用三个极其优雅的纯数学创新实现了降维打击：\n🔸 多层求和，拯救画质\n过去只用视觉模型的最后一层特征，导致画面细节丢失。RAEv2 彻底摒弃了复杂的微调，直接把大模型的最后 K 层特征「简单相加」。不增加任何计算量，就让重建画质和清晰度直接媲美商业级 VAE！\n🔸 RAE + REPA 互补\n业界此前认为 RAE 和 REPA 功能重叠。但谢赛宁团队通过大规模实验证实：两者完全互补。将它们结合后，视觉大模型越强，DiT 的生成效果就呈爆发式增强。\n🔸 免费自引导\n初代 RAE 想要控图（CFG），必须额外训练并运行第二个弱扩散模型，开销巨大。RAEv2 巧妙地将网络重构为 x- 预测，让模型实现「自己引导自己」，不仅彻底不需要辅助模型，还把推理计算量（NFE）直接砍掉了一半！\n\t\n📈 在ImageNet-256上，80 epochs即达到gFID 1.06（SOTA）、FDr^6 2.17，收敛速度从177 epochs暴降至35 epochs，训练成本大幅降低，同时在文生图和世界模型任务上也展现出色泛化能力。\n\t\n从早期的 VAE 到如今直接复用大模型的「冻结表征」，RAEv2 证明了现有的视觉预训练模型本身就是一座未被挖透的宝库。未来的多模态生成，或许真的要彻底告别 VAE 时代了！\n\t\nAIGC、扩散模型（Diffusion）、世界模型以及多模态统一 Token 化领域的同学，强烈建议大家一读！这绝对是今年不容错过的底层架构风向标。\n\t\n如果觉得有用，欢迎点赞收藏并分享给你的朋友们～\n\t\n#AI[话题]# #深度学习[话题]# #谢赛宁[话题]# #AdobeResearch[话题]# #计算机视觉[话题]# #扩散模型[话题]# #世界模型[话题]# #AIGC[话题]# #论文[话题]#",
+  "tags": [
+    "AI",
+    "深度学习",
+    "谢赛宁",
+    "AdobeResearch",
+    "计算机视觉",
+    "扩散模型",
+    "世界模型",
+    "AIGC",
+    "论文"
+  ],
+  "author": "机器之心",
+  "authorId": "5c6130b900000000110112e8",
+  "time": 1779260868000,
+  "ipLocation": "北京",
+  "likes": "315",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090730/d708f101e937e7f82349fa082d3aaee3/spectrum/1040g0k0320cnedsg5e005n3162ska4n8qinu9r0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090730/bb229a964ded2c6b215b2f59d28cf2b3/spectrum/1040g34o320cne02alk6g5n3162ska4n889ars6g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090730/1ab6f88876594a081633752dcd90b4c7/spectrum/1040g34o320cne02alk705n3162ska4n8m8cbb28!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090730/45abc748686ff45cfa4ff52725b86db3/spectrum/1040g34o320cne02alk7g5n3162ska4n847u177o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090730/c60b35136aa001cfcae9237df830fd82/spectrum/1040g34o320cne02alk805n3162ska4n8b5fhu0g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090730/455295474d55ad7784ac14ca0b8d8a5a/spectrum/1040g34o320cne02alk8g5n3162ska4n8mcd1m0g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a0d5dc4000000000803c08f?xsec_token=ABKb6J5epqAybGAcu04rGsmK7iTHfmwZqk4gBlhh-eaoo=&xsec_source=pc_collect"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6826cb0400000000210057b2",
+  "type": "normal",
+  "title": "搜广推模型系列-多目标建模",
+  "desc": "两个月周更计划第一周[向右R]\nPDF已经传到主页置顶第一篇笔记最后一张图的github里了，之前主页链接被屏蔽了[汗颜R]\n本文内容包括了：\nMMOE 的结构\n如何缓解多目标建模中的梯度冲突问题\nMMOE中的极化问题的解决策略\nMMOE中专家数量如何选择\nPLE模型简介\n﻿#机器学习[话题]#﻿ ﻿#搜广推[话题]#﻿ ﻿#算法工程师[话题]#﻿ ﻿#互联网大厂[话题]#﻿ ﻿#MLE[话题]#﻿ ﻿#北美求职[话题]#﻿",
+  "tags": [
+    "机器学习",
+    "搜广推",
+    "算法工程师",
+    "互联网大厂",
+    "MLE",
+    "北美求职"
+  ],
+  "author": "MLE算法指北",
+  "authorId": "5ead057a0000000001007f4f",
+  "time": 1747372804000,
+  "ipLocation": "",
+  "likes": "81",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091346/6d4f0f7a870a2bd2f9afe57dad8ec5d6/spectrum/1040g0k031hhia5o942005nld0lt08vqfl3ci3r8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/75d635f24e91e8c453fe365449dde311/spectrum/1040g0k031hhia5o9420g5nld0lt08vqf5v82nko!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/006f5a5c23d0a97d93bcbccd48d95b52/spectrum/1040g0k031hhia5o942105nld0lt08vqfuf6be3o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/6ed7887712a94a7c45bee83aaa749b0d/spectrum/1040g0k031hhia5o9421g5nld0lt08vqfsllr96o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6826cb0400000000210057b2?xsec_token=ABYYzAMF677_cipctmO9SWhLYdb3iHq9h29LiCNN75pts=&xsec_source=pc_collect"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "6935a863000000001e014bde",
+  "type": "normal",
+  "title": "Qwen3-VL 相比 Qwen2.5-VL 改进了哪些？",
+  "desc": "前段时间，Qwen3-VL终于放出了技术报告，相较于2.5做了非常大的改动，从这些细节中我们也不难看出多模态大模型当下的演进趋势，一起来看看吧！\n\t\n先来看Qwen3-VL在Qwen2.5-VL的基础上具体做了哪些改进：\n\t\n1️⃣从架构上来看，Qwen3-VL 依然沿用 ViT + Merger + LLM 的整体范式，但在模块交互和位置编码上引入了显著改进：它通过 DeepStack 能在深层网络中更有效的保留视觉信息，通过交错-MRoPE 和基于文本的时间对齐机制 解决了多模态长序列的时空建模瓶颈，从而实现了更强的时空感知能力。\n\t\n2️⃣从预训练流程来看，Qwen2.5-VL 采用经典的三阶段式训练，侧重于 ViT 的从头培养；而 Qwen3-VL 升级为四阶段，新增了专门的对齐阶段（Stage 0），并且在长窗口（Long Context）的训练上更加激进，将其拆分为两个阶段以冲击 256K 的超长上下文 。\n\t\n3️⃣从后训练流程来看，这是变化最大的地方。Qwen2.5-VL 依靠传统的 SFT + DPO 组合 ；而 Qwen3-VL 引入了强弱知识蒸馏和强化学习 (SAPO算法)两个环节 ，标志着多模态模型从单纯的指令遵循向具备推理能力的 Agent演进。\n\t\n总结来说，Qwen2.5-VL 是一个扎实的多模态理解模型，而 Qwen3-VL 则通过引入复杂的 RL 和蒸馏流程，试图将模型进化为一个具备慢思考能力和长窗口视野的多模态智能体（Agent）。\n\t\n下一期我们再来看SAPO算法相对于GRPO算法的改进吧～\n\t\n#算法工程师[话题]# #llm大模型[话题]# #多模态[话题]# #互联网大厂[话题]# #大模型[话题]# #校招面经加载中[话题]#",
+  "tags": [
+    "算法工程师",
+    "llm大模型",
+    "多模态",
+    "互联网大厂",
+    "大模型",
+    "校招面经加载中"
+  ],
+  "author": "居丽叶",
+  "authorId": "56b1aae7b8c8b423d372da85",
+  "time": 1765124195000,
+  "ipLocation": "",
+  "likes": "356",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091007/faec1073622c61f80c9baab125e2d5b7/notes_pre_post/1040g3k031pq312cpk05045ff0elefmk5leu947o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091007/f9af4dd711e0833e803a232cb2276341/notes_pre_post/1040g3k831pq31j2k3ucg45ff0elefmk5e74aku0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091007/2f8ae23c04b3a66fbc299c4e5e7de77a/notes_pre_post/1040g3k031pq312cpk00g45ff0elefmk5va8hqa0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091007/ecd0a153df8270f729ca57ba293495ea/notes_pre_post/1040g3k031pq312cpk02045ff0elefmk5md37cio!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091007/c35032cb041b32077056832e135da860/notes_pre_post/1040g3k031pq312cpk04g45ff0elefmk5c44qsno!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091007/c503e3e1b6fcb08db20607fb55a0458a/notes_pre_post/1040g3k031pq312cpk00045ff0elefmk5u1828t0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091007/7cde6c6b825e56ef0618123da01cd6d0/notes_pre_post/1040g3k031pq312cpk04045ff0elefmk5qt7vmj8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091007/40d8b210db591e81fd2459d7839b8246/notes_pre_post/1040g3k031pq312cpk01g45ff0elefmk58bca0ro!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091007/708e768dbab625d33e88d812f4634f1a/notes_pre_post/1040g3k031pq312cpk03g45ff0elefmk5dtp9i8o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091007/9fa442951352dfa8a3b856b0e7e6276a/notes_pre_post/1040g3k031pq312cpk02g45ff0elefmk5a4ql50o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091007/bf3723acdf5705bd5d924bd1086dcc0a/notes_pre_post/1040g3k031pq312cpk03045ff0elefmk5ao7i9i8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6935a863000000001e014bde?xsec_token=ABVRmzNModrgMGTiNwZbBeXJYKIdpsmnlazVofO3LPSpw=&xsec_source=pc_collect"
+}

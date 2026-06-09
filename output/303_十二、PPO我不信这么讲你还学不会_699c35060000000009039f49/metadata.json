@@ -1,0 +1,20 @@
+{
+  "id": "699c35060000000009039f49",
+  "type": "video",
+  "title": "十二、PPO我不信这么讲你还学不会",
+  "desc": "PPO对TRPO#强化学习[话题]# 算法进行了简化，有两个方式：PPO-KL和PPO-clip。PPO-KL将KL散度约束通过拉格朗日松弛，把约束加入到目标函数中。PPO-clip则是直接对重要采样的比值进行裁剪。#深度学习[话题]#",
+  "tags": [
+    "强化学习",
+    "深度学习"
+  ],
+  "author": "Dr.余",
+  "authorId": "5b2681144eacab55a1698d74",
+  "time": 1772021161000,
+  "ipLocation": "",
+  "likes": "244",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090934/3ef5a9caf016c1101e4684e85f6dc371/spectrum/1040g0k031su7lvmrla004a6bj90h93bkom7iplo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/1/110/259/01e99c32ed7c967f010370039c8a314111_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/699c35060000000009039f49?xsec_token=AB5gw7DrKz1R2FSpf-PYXAmzfgNr57CBbyGV18HELBCL0=&xsec_source=pc_collect"
+}

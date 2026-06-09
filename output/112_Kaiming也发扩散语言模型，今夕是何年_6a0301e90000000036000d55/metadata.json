@@ -1,0 +1,26 @@
+{
+  "id": "6a0301e90000000036000d55",
+  "type": "normal",
+  "title": "Kaiming也发扩散语言模型，今夕是何年..",
+  "desc": "一时间恍惚回到了22-23年的text diffusion时代。模型是没有scaling的，task是unconditional generation和seq2seq的，chatgpt是不存在的，真是一个美好的时代（。\n\t\n正经说这篇文章，整个writing和presenting还是一如既往符合kaiming的风格，简单漂亮优雅。\n方法上，我个人觉得和之前的continuous diffusion for text generation没有特别本质的区别，不过假如performance和scaling等经得起验证还是会很有意思的。比较了和之前模型的不同，可以看图3，主要区别：1.改用flow matching 2. 固定encoder embedding 3. 对于denoise还是decode有一个mode切换（分别对应mse和ce loss）。第三点这个比较有意思，前2点持保留态度。\n\t\n其他部分基本都是和之前的工作差不多：比如self conditioning，CFG guidance，还有condition generation则是采用和DiffuSeq一样的做法（哇没想到有一天能被kaiming cite [哇R]）。\n\t\n再次感受到技术的发展是螺旋式上升的，最近风向又转回continuous diffusion了，希望这个领域持续进步。🫡\n\t\n#大模型[话题]# #diffusion[话题]# #nlp[话题]# #论文分享[话题]# #读博日记[话题]# #扩散语言模型[话题]#",
+  "tags": [
+    "大模型",
+    "diffusion",
+    "nlp",
+    "论文分享",
+    "读博日记",
+    "扩散语言模型"
+  ],
+  "author": "Sansa",
+  "authorId": "59f40d854eacab1029669bd9",
+  "time": 1778581993000,
+  "ipLocation": "广东",
+  "likes": "657",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090714/2f3d9b53e3a6192f9f1b9c22e34ef1e3/1040g2sg3202jqua7l4e049uvae6ob6upikab7g8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/26cd03bcd685a1a538f6f04f7918dc5b/1040g2sg3202jqua7l4eg49uvae6ob6upmem20m0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/870dd14cdece0ff15c112621fb61e369/1040g2sg3202jqua7l4f049uvae6ob6up2v0oedo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a0301e90000000036000d55?xsec_token=AB6v-Ms6NdWLc302pI1IT5huNdc95ypOYQR1wfgsX_luw=&xsec_source=pc_collect"
+}

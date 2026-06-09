@@ -1,0 +1,28 @@
+{
+  "id": "69440c0a000000001b032675",
+  "type": "normal",
+  "title": "为什么最近的一步扩散模型表现得这么好？",
+  "desc": "像 MeanFlow、Shortcut Diffusion、sConsistency Model 这些方法正在不断刷新认知：\n✅ 可以从头训练（train from scratch）\n✅ 图像生成质量依然很强 🎨\n⚡ 只需要一步生成\n\t\n这在扩散模型的语境下，其实是非常“反直觉”的 🤯\n——毕竟我们已经习惯了用几十步采样来换取高质量结果。\n\t\n那它们到底做对了什么？\n\t\n🔑 我们的核心发现是：\n这些方法本质上都在学习如何 shortcut 一条由边际速度生成的概率路径，通过构造一个 两步得到的 learning target，来监督 一步模型的输出。\n\t\n🧠 在这一统一视角下，我们能够 从实验和理论两个层面系统性地解析它们的设计空间，并进一步推动这些方法向更高质量发展。\n\t\n📈 在此基础上，我们提出了一系列改进：\n• 🚀 更快的收敛速度\n• 🎯 更低的训练方差\n• 📊 显著提升的生成性能\n\t\n在统一评测协议下：\n• ImageNet-256：FID 2.85\n• 2× training steps：FID 2.52\n🔥 相比 MeanFlow（FID 3.43），性能提升超过 15%\n\t\n生成模型正进入自己的「前 AlexNet 时代」：\n正从多步推理走向 端到端的一步生成 ✨\n\t\n欢迎阅读我们的文章: On the Design of One-step Diffusion via Shortcutting Flow Paths\n📃 Paper: https://arxiv.org/abs/2512.11831\n📦 Code: https://github.com/EDAPINENUT/ExplicitShortCut/\n\t\n我们组也在招收对生成模型或者其在AI4S应用(物理、水下具身智能、生命科学等)感兴趣的实习生、博后等。详情见前一个笔记，欢迎踊跃投递简历！\n\t\n#扩散模型[话题]# #机器学习[话题]# #吴泰霖[话题]# #生成模型[话题]# #科研学习[话题]# #千行百业AMA[话题]#",
+  "tags": [
+    "扩散模型",
+    "机器学习",
+    "吴泰霖",
+    "生成模型",
+    "科研学习",
+    "千行百业AMA"
+  ],
+  "author": "吴泰霖Talent",
+  "authorId": "6188b0da000000001000829c",
+  "time": 1766067210000,
+  "ipLocation": "",
+  "likes": "638",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091000/c29fdca2199de402b5f6300a874df969/notes_pre_post/1040g3k831q84d6jj0ak05oc8m3d410ksm67eueo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091000/45bbe95a3a6e95b6fcef9da6f09b9a04/notes_pre_post/1040g3k831q84d6jj0af05oc8m3d410ks0vl9jf8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091000/fee9552b8e3cd1f4a0509a3858a8a890/notes_pre_post/1040g3k831q84d6jj0akg5oc8m3d410ksm78004g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091000/9b46e5c4e8a9b57c6ceac817a25a38bd/notes_pre_post/1040g3k831q84d6jj0ai05oc8m3d410kssvaufpg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091000/23f5c49bb5d3ef6afd80b1d761e8c1ab/1040g00831q84d6ccno3g5oc8m3d410ks74d4ijg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69440c0a000000001b032675?xsec_token=ABCp83NbAz9rjflX81FKn5CVWGw2FRK0M1N0w1zH1aiKg=&xsec_source=pc_collect"
+}

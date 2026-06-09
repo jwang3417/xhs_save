@@ -1,0 +1,29 @@
+{
+  "id": "684959710000000021009770",
+  "type": "normal",
+  "title": "推荐大模型范式革新❗️MT双流生成式推荐✅",
+  "desc": "🔥生成式推荐和LLM4Rec🔥无疑是最近搜推广算法最火的方向\n\t\n[哇R]往期：自从Meta的HSTU指出了生成式推荐模型的潜力后，大伙都在跟，比如之前Sam给大家分享过的老铁厂OneRec和xhs的RankGPT\n\t\n[萌萌哒R]今天给大家分享团子的新工作DFGR，提出了一种双流注意力机制显著提高了HSTU的效率，效果也十分亮眼🚀\n\t\n📚论文：Action is All You Need: Dual-Flow Generative Ranking Network for Recommendation\n\t\n✌️细读前点个免费的关注和收藏，北大小哥Sam每天带你读LLM和推荐广告前沿论文，侃算法岗面经&成长经验\n\t\n🏠背景：Meta提出了基于LLM思想的生成式推荐模型MetaGR (HSTU)，试图直接端到端建模原始用户行为序列，摆脱人工特征。\n\t\n但它的代价巨大：为了同时建模item和action（如点击、购买），它把一个交互拆成两个token，导致序列长度翻倍。在Transformer架构里，计算复杂度可是跟序列长度的平方相关的！这让训练和推理都变得异常昂贵。\n\t\n那么，有没有一种方法，既能端到端建模，又不会让计算成本爆炸呢？这篇论文的 DFGR (Dual-Flow Generative Ranking) 模型 就给出了答案。\n\t\n🌟它的核心创新是 “双流机制” (Dual-Flow)：\n\t\n🌊 Real Flow (真实流): 这一路输入的是包含真实用户行为（比如view/click/pay）的序列。它的作用是在训练时提供准确的历史上下文信息，但它的输出在计算loss时会被完全mask掉，不参与梯度回传。\n\t\n👻 Fake Flow (伪装流): 这一路输入序列中的行为信息被替换成了伪装的placeholder。它的任务是预测出每个位置上item对应的真实行为是什么。模型的loss只在这一路计算。\n\t\n最巧妙的地方来了：在训练Fake Flow时，当模型计算自注意力（self-attention）时，对于历史信息的Key和Value，它会直接去“借用” Real Flow中对应位置的输出。这样一来，Fake Flow在做预测时，既能看到最完整的、包含真实意图的历史上下文，又避免了当前预测item的标签泄露。\n\t\n这个设计带来了巨大的训练效率提升，在推理时，它更是可以切换回高效的单流模式，速度比MetaGR提升4倍！\n\t\n效果也更优！它解决了MetaGR中item和action两种不同性质的token混合建模可能带来的学习困难，让模型训练更稳定，效果也更好。\n\t\n📊 实验效果：\n\t\n🔥在真实工业数据集TRec上，DFGR不仅大幅领先于MetaGR，甚至也超越了线上DLRM基线，GAUC提升近7个千分点💪\n\t\n#互联网大厂[话题]# #算法岗[话题]# #大模型[话题]# #大厂[话题]# #程序员[话题]# #北大[话题]#",
+  "tags": [
+    "互联网大厂",
+    "算法岗",
+    "大模型",
+    "大厂",
+    "程序员",
+    "北大"
+  ],
+  "author": "Sam聊算法",
+  "authorId": "5b40a80311be103d7c8cfa08",
+  "time": 1749637489000,
+  "ipLocation": "",
+  "likes": "169",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091343/d33457a9beaa871ca743362465ee7a90/notes_pre_post/1040g3k831ijad06602d04a6u5uk07ug8rslr3r8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091343/03c5f32f29c302949dc58165cc4a35e2/notes_pre_post/1040g3k831ijad06602j04a6u5uk07ug8hcmlau0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091343/5b1cd07e9f77515d2ea720b5f5be376b/notes_pre_post/1040g3k831ijad06602k04a6u5uk07ug8uhg296o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091343/ece38d04a9c3754616f8c458f4bc22ec/notes_pre_post/1040g3k831ijad06602hg4a6u5uk07ug8usg3ofg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091343/d12b1b420102cf6857c6999e667dd971/notes_pre_post/1040g3k831ijad06602i04a6u5uk07ug8b6ko4sg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091343/53cc78efa609aa4fffdc8bacd1af86ab/notes_pre_post/1040g3k831ijad06602ig4a6u5uk07ug8q4j9mm0!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/684959710000000021009770?xsec_token=ABwPIxXDWBswCi3-kT7PAkZhpqNl1Hd6R7WzebwFdN5h0=&xsec_source=pc_collect"
+}

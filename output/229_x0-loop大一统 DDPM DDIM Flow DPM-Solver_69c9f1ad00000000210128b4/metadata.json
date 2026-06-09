@@ -1,0 +1,31 @@
+{
+  "id": "69c9f1ad00000000210128b4",
+  "type": "normal",
+  "title": "x0-loop大一统 DDPM DDIM Flow DPM-Solver",
+  "desc": "我之前写了几个博客，但是现在回看貌似还是写的对读者来说不友好，太多公式了，而且重点虽然一直是 x0 视角，但是嵌入在了太多数学公式中，导致文章核心不明显，知识密度过大。\n\t\n所以，我再写一次，尽量简单并且不失严谨性，略去一些之前讲的部分，把 DDPM、DDIM、Flow Matching、DPM-Solver 这些看似不同的方法，讲成同一个故事。\n最核心的在于就是 本文看待扩散模型的视角就是 从中间图像 xt 来直接恢复 x0 即 xt1->x0->xt2->x0->...->x0, 而不是传统的视野 xt1->xt2-xt3->...->x0\n从这个视角来看，从定义模型到训练流程全部可以一页上面介绍完（第三张图像）。\n这种视角我称之为 x0-loop\n\t\n#大模型[话题]# #扩散模型[话题]# #多模态[话题]# #视频生成[话题]# #人工智能[话题]# #diffusion[话题]#",
+  "tags": [
+    "大模型",
+    "扩散模型",
+    "多模态",
+    "视频生成",
+    "人工智能",
+    "diffusion"
+  ],
+  "author": "皮匠",
+  "authorId": "6382f852000000001f01cbe2",
+  "time": 1774842285000,
+  "ipLocation": "",
+  "likes": "363",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091313/d679b3c5a12d4ba5e031f2aeece1eb31/spectrum/1040g0k031uc2sjk4hu005os2v197riv2pug96l0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/0ff000f7f360ee0be66b349184fd908d/spectrum/1040g0k031uasptlbis005os2v197riv2uojdl2g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/b4f4e8deb4161ee7c9291f4999126afe/spectrum/1040g0k031uasptlbis0g5os2v197riv25r8ecrg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/8d7e8c3775d7fbaa6f096fcb49b701ff/spectrum/1040g0k031uasptlbis105os2v197riv20ssh5go!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/aacdbc8358c86881625e77066b041445/spectrum/1040g0k031uasptlbis1g5os2v197riv2dili7c0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/3d41c0248974959384fbac45e0dc0ed6/spectrum/1040g0k031uasptlbis205os2v197riv2bu4crmg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/c890d6015df508b04d1f02c253abec91/spectrum/1040g0k031uasptlbis2g5os2v197riv2csq8rf8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/fdd74c14ce5f7db11c34db6feea70670/spectrum/1040g0k031uasptlbis305os2v197riv2kbcl0mo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69c9f1ad00000000210128b4?xsec_token=ABdHXmgsGKKpkiDRVUaHkSJCTRyIMkR68LuE2BNhZ5zBQ=&xsec_source=pc_collect"
+}

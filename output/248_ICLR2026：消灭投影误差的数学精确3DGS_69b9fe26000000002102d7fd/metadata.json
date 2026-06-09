@@ -1,0 +1,28 @@
+{
+  "id": "69b9fe26000000002102d7fd",
+  "type": "video",
+  "title": "ICLR2026：消灭投影误差的数学精确3DGS",
+  "desc": "3D Gaussian Splatting虽高效，但依赖2D投影近似，在大视场（FoV）和鱼眼相机下误差严重。本文提出3DGEER，从几何本质出发，实现“投影几何精确 + 实时效率”的统一，解决了长期存在的精度与速度权衡问题。\n核心亮点：\n精确渲染公式： 推导沿射线积分高斯密度的闭式解，避免EWA等线性近似，直接消除投影误差。\nPBF关联机制： 提出Particle Bounding Frustum，用解析几何替代BVH结构，实现高效且精确的ray-particle匹配。\nBEAP统一投影空间： 设计双极等角投影，使不同FoV相机统一表示，同时优化采样分布与训练效率。\n精度与效率兼得： 相比传统ray-based方法快约5×，同时避免splatting误差，是首个兼顾“exact + real-time”的方案。\n强泛化能力： 即使仅用窄FoV训练，也能泛化到极宽FoV（如180°鱼眼），重建完整场景。\n\t\narXiv:2505.24053\nboschresearch/3dgeer\n\t\n#3D视觉[话题]#  #神经渲染[话题]#  #计算机图形学[话题]#  #NeRF[话题]#  #GaussianSplatting[话题]#  #自动驾驶[话题]#  #机器人视觉[话题]#  #XR技术[话题]#  #场景重建[话题]#  #科研[话题]#",
+  "tags": [
+    "3D视觉",
+    "神经渲染",
+    "计算机图形学",
+    "NeRF",
+    "GaussianSplatting",
+    "自动驾驶",
+    "机器人视觉",
+    "XR技术",
+    "场景重建",
+    "科研"
+  ],
+  "author": "每日ComputerScience",
+  "authorId": "677419a40000000015005599",
+  "time": 1773883808000,
+  "ipLocation": "",
+  "likes": "73",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090929/6bb7176a34bf9a1f785637087e197190/spectrum/1040g0k031tradjjk6o005prk36i58lcp76dimgo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/1/110/259/01e9b9fd3520da67010370039cfe8a0467_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69b9fe26000000002102d7fd?xsec_token=ABW34Y5BRpOFqgiGN60qoms-mDj3roLDW0JfyFz5sppSU=&xsec_source=pc_collect"
+}

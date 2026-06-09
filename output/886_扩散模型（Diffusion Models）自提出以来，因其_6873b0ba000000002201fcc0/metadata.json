@@ -1,0 +1,30 @@
+{
+  "id": "6873b0ba000000002201fcc0",
+  "type": "normal",
+  "title": "",
+  "desc": "扩散模型（Diffusion Models）自提出以来，因其强大的生成能力和灵活性，已成为生成模型领域的重要研究方向。随着研究的深入，扩散模型在多个方面得到了显著的改进与创新，包括采样效率、生成质量、多模态生成能力、数据增强与隐私保护等。以下将从四个方面进行详细阐述。\n扩散模型如何改进创新？\n（1）采样效率优化\n高阶 ODE 求解器\n分布式采样\n（2）生成质量提升\n多尺度特征融合\n去偏置生成\n（3）多模态与可控生成\n文本到图像生成\n视频生成\n（4）数据增强与隐私保护\n伪数据生成\n反记忆指导\n📩 需要领域顶刊选题策略或技术方案深化zhi导，欢迎后台交流学习\n\t\n#深度学习[话题]##大模型创新点实现[话题]##机器学习[话题]##扩散模型[话题]##多模态[话题]##扩散模型领域[话题]##python[话题]##论文辅导[话题]##sci[话题]#",
+  "tags": [
+    "深度学习",
+    "大模型创新点实现",
+    "机器学习",
+    "扩散模型",
+    "多模态",
+    "扩散模型领域",
+    "python",
+    "论文辅导",
+    "sci"
+  ],
+  "author": "小红薯68E53BCE",
+  "authorId": "65f1860e000000000b032f31",
+  "time": 1752412346000,
+  "ipLocation": "",
+  "likes": "14",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091330/9549f60cedc5862fc772512a54552241/notes_pre_post/1040g3k031jsli5iiio6g5pfhgo72ubphjvhegp0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/66e1619f528839aa92f1895ab8da0457/notes_pre_post/1040g3k831jsli5ij30dg5pfhgo72ubphge1fac0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/59dd50c3eb9e1e70b7ca5e043658c38d/notes_pre_post/1040g3k031jsli5kfj05g5pfhgo72ubphr771uk0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/433b3cc9bd0becd17c4874f6cc9f0469/notes_pre_post/1040g3k831jsli5iv34505pfhgo72ubph4v09lhg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6873b0ba000000002201fcc0?xsec_token=ABKjMtzbhYwtfTRuHDV4NjVoEODiddQfJhHxWLG52ZbZU=&xsec_source=pc_collect"
+}

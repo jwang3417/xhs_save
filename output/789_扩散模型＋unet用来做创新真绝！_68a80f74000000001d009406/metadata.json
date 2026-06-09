@@ -1,0 +1,28 @@
+{
+  "id": "68a80f74000000001d009406",
+  "type": "normal",
+  "title": "扩散模型＋unet用来做创新真绝！",
+  "desc": "[一R]DiT架构替换UNet，效果显著\n最近看到好多paper都在搞DiT，说白了就是把扩散模型里的UNet换成Transformer。我之前一直觉得UNet的skip connection对去噪很关键，结果发现直接用Transformer也能work得很好。\n具体就是把图像切成patch，用标准Transformer block处理，配合adaptive layer normalization注入时间步信息。计算量确实大，但生成质量有提升，特别适合解决大分辨率生成时UNet的计算瓶颈。\n\t\n[二R]U-DiT的下采样自注意力机制\n今年有个很巧妙的视觉生成方法叫U-DiT，把UNet架构优势和Transformer结合起来。关键创新是自注意力计算时对token下采样，既保持了UNet的多尺度特征又减少了计算量。\n相当于不同stage用不同分辨率的token做attention，比原来DiT效率高很多。实验显示比DiT-XL/2效果还好但计算量只有1/6，特别适合实时生成应用。\n\t\n[三R]World-consistent Video Diffusion的3D建模\n技术上训练diffusion transformer学习RGB和XYZ联合分布，推理时根据相机轨迹生成新视角帧。我觉得这个idea可以扩展到3D物体生成或场景重建上。\n\t\n[四R]Rectified Flow Transformer的直线路径优化\nStable Diffusion 3.0用的Rectified Flow Transformer是个大突破。不再走复杂扩散路径，而是学习从噪声到图像的直线映射，推理步数大幅减少。\n架构用了multimodal diffusion transformer，文本和图像encoding在每个block里交互融合，比之前单向cross-attention更强。\n\t\n[五R]Multi-stage Framework的分阶段优化\n最近一些工作在探索multi-stage扩散框架，把生成过程分几个阶段，每阶段用不同网络结构和优化目标。比如第一阶段生成粗糙结构，第二阶段添加细节。\n我试过用轻量UNet做粗糙生成，然后用精细Transformer做细节优化。既保证生成速度又提升质量，特别适合移动端部署，可以根据计算资源动态调整生成质量。\n#深度学习[话题]# #论文辅导[话题]# #扩散模型[话题]##unet[话题]# #Python[话题]# #模型优化[话题]##代码定制[话题]##一对一指导[话题]##算法改进[话题]##跑通[话题]#",
+  "tags": [
+    "深度学习",
+    "论文辅导",
+    "扩散模型",
+    "unet",
+    "Python",
+    "模型优化",
+    "代码定制",
+    "一对一指导",
+    "算法改进",
+    "跑通"
+  ],
+  "author": "西西学长会辅导",
+  "authorId": "64794e0e000000001c0292b4",
+  "time": 1755844468000,
+  "ipLocation": "",
+  "likes": "48",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091202/ec8d0949f0fdca072f25a9134c4927d3/1040g2sg31lfpqofmkqkg5p3p9o7754lka1vorj0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68a80f74000000001d009406?xsec_token=ABzje2xHdRmQNIKXCWuk8LZVDEpYb61bLjK9lkahbGzsU=&xsec_source=pc_collect"
+}

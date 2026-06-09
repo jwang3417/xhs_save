@@ -1,0 +1,39 @@
+{
+  "id": "6a1436560000000006023ece",
+  "type": "normal",
+  "title": "阿里P9问：说下claude的系统提示词怎么写啊",
+  "desc": "有位读者去面阿里大模型方向的岗位，被P9问了一道题：你研究过Claude Code的源码，那你说下它的系统提示词怎么写的？他回答说就是静态和动态拼在一起嘛，静态放前面动态放后面。P9听完笑了笑，说你说对了一部分，但实际上没这么简单，建议回去仔细看看。\n\t\n他面完很困惑，来找我复盘。我帮他分析了一下，发现问题不在于他答错了，而在于他只答出了一个维度。Claude Code的系统提示词有900多行，由十几个模块拼接而成，背后至少有五个工程层面的设计，他当时只提到了一个。\n\t\n第一个设计是静态段和动态段的分离。这个他知道，但不知道为什么要这么做。答案是缓存。大模型API有提示词缓存机制，两次请求前缀一样就能复用计算结果，缓存命中只要十分之一的价格。如果静态和动态混着写，每个用户前缀都不一样，缓存就废了。把通用规则放前面、会话信息放后面，不同用户就能共享同一份缓存，API成本直接降好几倍。\n\t\n第二个设计是代码风格指令写得特别具体。很多人写提示词喜欢说\"请写高质量代码\"、\"遵循最佳实践\"，这种话等于没说。Claude Code的做法是每一条都是具体的负面约束：不要给没改的代码加注释，不要为假想的未来需求做设计，修Bug不要顺便清理周围。模型不怕规则多，怕的是规则模糊。\n\t\n第三个设计是行动风险评估框架。不是一张危险操作清单，而是一套判断逻辑，核心就两个维度：可逆性和影响范围。本地可逆的操作直接执行，不可逆且波及共享系统的必须先确认。这样模型遇到没见过的操作也能自己推断该不该确认，不用靠背规则。\n\t\n第四个设计是安全指令由专门团队维护。源码注释里写了具体负责人名字，任何修改必须经安全团队审批。系统提示词不是随手能改的配置文件，某些段落的修改会直接改变Agent的行为边界，需要像代码一样认真对待。\n\t\n第五个设计是防止模型说谎。直接告诉模型如实报告结果，测试失败就说失败，没执行验证就说没执行。研究数据显示，没有这段提示词时GPT-4o的虚假输出率有53%，加了简单干预能压到23%。模型天然倾向生成用户想听的答案，你需要用双向约束来矫正这个倾向。\n\t\n系统提示词不是一段介绍文字，而是Agent的操作系统。写得越精确，Agent的行为就越可控。\n\t\n#大模型[话题]# #算法[话题]# #深度学习[话题]# #开发者选项[话题]# #人工智能发展[话题]# #个人开发者[话题]# #AI工具[话题]# #开发[话题]#",
+  "tags": [
+    "大模型",
+    "算法",
+    "深度学习",
+    "开发者选项",
+    "人工智能发展",
+    "个人开发者",
+    "AI工具",
+    "开发"
+  ],
+  "author": "算法狗",
+  "authorId": "64db5d340000000001011d99",
+  "time": 1779709526000,
+  "ipLocation": "浙江",
+  "likes": "152",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090709/75ff38d2c58d9754876c3f4aa4c695fe/spectrum/1040g0k0320jdockvle6g5p6rbkq0a7cplvfvndg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/e0e99dd2392f9761d49a83a184d09174/spectrum/1040g0k0320jdockvle005p6rbkq0a7cpmukkpm8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/9539f003ce8bf49ad2a705f4409f15e9/spectrum/1040g0k0320jdockvle0g5p6rbkq0a7cpb1sb8so!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/ad2f9a0a97cdf8cb1dc64b7828975384/spectrum/1040g0k0320jdockvle105p6rbkq0a7cpp9r8p3o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/d783c5afe75a17032c9457e8c69b83f4/spectrum/1040g0k0320jdockvle1g5p6rbkq0a7cpl1o6m8o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/96fd4a1403de67986b586bad543be8c3/spectrum/1040g0k0320jdockvle205p6rbkq0a7cp20s5s0o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/e1582eefca63843863257e6f3af59340/spectrum/1040g0k0320jdockvle2g5p6rbkq0a7cpflt8c3o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/30b5aa3da404120c66614cfc6f398b90/spectrum/1040g0k0320jdockvle305p6rbkq0a7cp6pkl3to!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/f4d45554d744c026d6fa9e34fd021164/spectrum/1040g0k0320jdockvle3g5p6rbkq0a7cp81r77p0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/81d2989c557b04062bd6279812829b72/spectrum/1040g0k0320jdockvle405p6rbkq0a7cp4e7ddl0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/576169ba0fa16ad05e1e4924cf636683/spectrum/1040g0k0320jdockvle4g5p6rbkq0a7cpsasku3g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/719c96a159d736ece50cc7bb714ab419/spectrum/1040g0k0320jdockvle505p6rbkq0a7cpm29u7s0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/328c00eeaa4ae15c53375fb4fa0b8384/spectrum/1040g0k0320jdockvle5g5p6rbkq0a7cp2g3kr2g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090709/b704a8c28997932411f33b77d5bbae12/spectrum/1040g0k0320jdockvle605p6rbkq0a7cp7461jao!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a1436560000000006023ece?xsec_token=ABRx4L3hE599lawB0Y19pV2vWGh-diKZlCv40qfqt_WXQ=&xsec_source=pc_collect"
+}

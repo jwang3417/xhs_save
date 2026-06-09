@@ -1,0 +1,29 @@
+{
+  "id": "683b2be80000000023003546",
+  "type": "normal",
+  "title": "扩散模型新突破：经典搜索算法提升生成性能",
+  "desc": "分享一项利用经典搜索方法扩展扩散模型推理能力的研究成果。\n该研究展示了如何运用全局图搜索算法（BFS、DFS）和局部搜索技术，在图像生成、路径规划和强化学习等多个领域提升生成性能。\n通过并行生成多个粒子，并迭代使用验证器来筛选或探索有潜力的粒子，实现了图搜索算法的应用。其中噪声水平对应着搜索的深度。\n在局部搜索方面，采用退火Langevin采样方法处理扩散模型。理论证明该方法等同于\"循环噪声注入\"，即在相邻噪声水平间反复调整样本。\n这一技术在路径规划中展现出显著优势，能够在极其复杂的迷宫中有效构建长距离路径。\n对于离线强化学习任务，仅需结合无条件扩散模型和现成的价值函数（无需专门训练噪声条件价值函数），就能构建出高效策略。\n该方法还能根据复杂组合提示词高效生成图像。下图展示了不同计算量下的图像生成指标表现。\n更多项目详情及代码可访问项目网站。\n这项研究与优秀合作者共同完成：Xiangcheng Zhang, Haowei Lin, Haotian Ye, James Zou, Jianzhu Ma, Yitao Liang.\n作者推推: Yilun Du\n参考地址: https://x.com/du_yilun/status/1928474703573770349",
+  "tags": [],
+  "author": "AI Eye",
+  "authorId": "6206a757000000001000cb88",
+  "time": 1748708328000,
+  "ipLocation": "",
+  "likes": "27",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091339/8de075c42bc37225f70472d8af1e61b7/spectrum/1040g0k031i5f9d8anc005og6ktbk1is848k2o28!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/9dea43c492d544ed24e1d5eefd318ae5/spectrum/1040g0k031i5f9iac7a005og6ktbk1is8e861r90!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/1afb8993ee0dae2d901b174adf714518/spectrum/1040g34o31i5f9nqhn0005og6ktbk1is8e9paeo0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/1c99a7ca18b9c55343f4f61c53f3460d/spectrum/1040g34o31i5f9slqn00g5og6ktbk1is89bbnc18!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/3b5b3b9810b747cf162da82c34af3559/spectrum/1040g34o31i5fa195n80g5og6ktbk1is8vhl7u08!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/94285427fa38ca385f8bda9cbfb68842/spectrum/1040g0k031i5fa61en8l05og6ktbk1is86ma0m5o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/52de03e251598f0964f20e12d814ed35/spectrum/1040g34o31i5faal87e0g5og6ktbk1is8pi4vq3g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/2e481933de30c33998e5278e9f8f6d56/spectrum/1040g0k031i5fafch7c005og6ktbk1is8n36efgo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/2fce16b1a6a520c7d63ca74d228c6072/spectrum/1040g34o31i5fak4fna0g5og6ktbk1is8s1te920!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/34dd1383deefd2da270fd1277a08fd07/spectrum/1040g0k031i5faom4n8005og6ktbk1is8mdua9so!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/0b402849c92937633e739d656aee40ab/spectrum/1040g0k031i5fatek70005og6ktbk1is8kvskm20!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/d1b40075b203428959ffd471050eaa75/spectrum/1040g0k031i5fb251n00g5og6ktbk1is82arsn2o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091339/065f40aa773c1311448f7ed6f4ff9f56/spectrum/1040g0k031i5fb6rsnc005og6ktbk1is88oa660g!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/683b2be80000000023003546?xsec_token=ABP7UkUGSLVZ5t41o75SJdtuXSwwBLbfn0YX5TWWdhq2I=&xsec_source=pc_collect"
+}

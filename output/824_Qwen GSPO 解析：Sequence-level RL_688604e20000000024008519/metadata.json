@@ -1,0 +1,34 @@
+{
+  "id": "688604e20000000024008519",
+  "type": "normal",
+  "title": "Qwen GSPO 解析：Sequence-level RL",
+  "desc": "传统的基于 PPO 或 GRPO 的 RL 训练，往往使用 token level的重要性采样比与裁剪，但奖励信号往往只在序列级给出，二者“粒度不匹配”导致方差积累和训练不稳定\n\t\nQwen团队新提出的强化学习算法GSPO通过建立序列级重要性采样，很好地解决了LLM在用GRPO训练时的稳定性差的问题，对moe模型有更好的适配，也为RL scale进一步拓展提供了支持\n\t\n#大模型RLHF[话题]# #qwen[话题]# #我的学习进化论[话题]# #大模型[话题]# #论文[话题]##大厂[话题]# #强化学习[话题]# #GRPO[话题]# #GSPO[话题]# #面试[话题]#",
+  "tags": [
+    "大模型RLHF",
+    "qwen",
+    "我的学习进化论",
+    "大模型",
+    "论文",
+    "大厂",
+    "强化学习",
+    "GRPO",
+    "GSPO",
+    "面试"
+  ],
+  "author": "Minwell",
+  "authorId": "60eaacc1000000000101de20",
+  "time": 1753613538000,
+  "ipLocation": "",
+  "likes": "209",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091322/f8d70686e9b8b61b61e1361bc17e8d25/1040g2sg31kehtuh9iudg5o7alj0gbnh03rc13ng!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/1460ecac3ae6c56a6be53f14c77bc657/1040g2sg31keiat882u405o7alj0gbnh07i94io8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/e3e8eccdb008991315a24421df4f90a6/1040g2sg31keiat882u5g5o7alj0gbnh0eucq1e8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/cfc9d1906a0e20e8d061e785afe430f2/1040g2sg31kehtuh9iu705o7alj0gbnh038gip18!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/b465518d1d86e099a472a081b043fe00/1040g2sg31keiat882u605o7alj0gbnh0jh5j9o8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/44990e23cafea7d3d01b68a9c43f2581/1040g2sg31keiat882u6g5o7alj0gbnh08m34930!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091322/b08df436bf35748eaf1b7af0a71b24f7/1040g2sg31kehtuh9iuag5o7alj0gbnh0mlbnsbg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/688604e20000000024008519?xsec_token=ABcdJEuU3IkytT_QUx1HuVthpHn8MR0Ng1YL6Fu9D5X-0=&xsec_source=pc_collect"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "690b2557000000000302fa94",
+  "type": "video",
+  "title": "打破AI黑盒：用C编程深入理解大型语言模型",
+  "desc": "最近在玩一个超酷的项目——llm.c，完全手写C语言来实现Transformer模型！💻 特别感谢@karpathy的分享，这可能是我们能接触到的最底层实现了，超有挑战性但也超有趣。\n\t\n来看看GPT-2的前向传播步骤吧～🚀 它主要包括：矩阵乘法、注意力计算、再矩阵乘法，中间跳过了层归一化和残差连接部分。每一步都用手写C代码完成，是不是感觉很硬核？\n\t\n矩阵乘法部分涉及几个关键参数：B代表批次、T是词元数、C是输入通道、OC是输出通道。🧠 虽然C编程和矩阵乘法听起来有点枯燥，但通过这个练习，你能真正看清LLM的黑盒运作，说不定会爱上手写代码的乐趣呢！\n\t\n这个项目100%原创，纯手工打造哦～✍️ 如果你对AI和编程感兴趣，欢迎加入4.5万+读者的社区，一起探索更多内容：https://byhand.ai\n\t\n#C语言编程 #Transformer解析 #LLM黑盒 #矩阵乘法 #AI学习 #手写代码#AGI[话题]# #大模型[话题]# #人工智能发展[话题]#",
+  "tags": [
+    "AGI",
+    "大模型",
+    "人工智能发展"
+  ],
+  "author": "AGI-Eval大模型评测（宇据）",
+  "authorId": "6645ba3e0000000007007aa2",
+  "time": 1762338135000,
+  "ipLocation": "",
+  "likes": "11",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091057/4cf20e071810c625f25d02815a59bce2/1040g2sg31oghq8nlmgh05pi5n8v1oul25b33nmg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e90b2557263c6a010370039a538a040e_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/690b2557000000000302fa94?xsec_token=ABOg6b__H1FQ243lmGXg_EcePI8uP1Wlmcjfxrox0l7PU=&xsec_source=pc_collect"
+}

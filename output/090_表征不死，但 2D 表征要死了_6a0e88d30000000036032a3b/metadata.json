@@ -1,0 +1,31 @@
+{
+  "id": "6a0e88d30000000036032a3b",
+  "type": "normal",
+  "title": "表征不死，但 2D 表征要死了",
+  "desc": "表征学习一直是 AI 的灵魂。但过去 13 年，它一直长在 2D 上。\nImageNet、CLIP、Stable Diffusion、Sora——视觉地基全是 2D 张量。这套范式喂养了一代基建，也让大家忘了:2D 只是 representation 的一种载体，不是全部。\n最近一年明显能感觉到,2D 撞墙了。Sora / Veo 的物理崩坏不是数据问题,是表征本身不懂三维。与此同时,3DGS、NeRF、V-JEPA、Marble、HunyuanWorld 2.0、Genie 3 在另一条线快速堆基建。李飞飞、LeCun、Hinton 的学生悄悄都跑去做同一件事。\n一个判断:representation 没死,2D representation 的统治期结束了。下一代 AI 不在更大的 2D 模型里,在能承载世界的 3D 表征里。\n卡 5 列了 5 个关键节点,哪个最让你意外?评论 1/2/3/4/5。我会在置顶评论里补一份完整时间线。\n#人工智能[话题]#  #世界模型[话题]#  #空间智能[话题]#  #3DGaussianSplatting[话题]#  #AI研究[话题]#  #表征学习[话题]#",
+  "tags": [
+    "人工智能",
+    "世界模型",
+    "空间智能",
+    "3DGaussianSplatting",
+    "AI研究",
+    "表征学习"
+  ],
+  "author": "猫猫造世界",
+  "authorId": "69faf0e80000000002002802",
+  "time": 1779337427000,
+  "ipLocation": "浙江",
+  "likes": "95",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090710/be0097e3fdc0c21a3d8451805c843f79/spectrum/1040g34o320dsbruili805qfqu3k0ga02cmcsroo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/0177b39653167e46302ca6a9327220df/spectrum/1040g34o320dsbruili8g5qfqu3k0ga028vlu7t8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/37edbd071de52d957d403f4d5033c9b0/spectrum/1040g34o320dsbruili905qfqu3k0ga02mjigeh0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/059262293d628a2f78bd4495033316d1/spectrum/1040g34o320dsbruili9g5qfqu3k0ga02pn74jp8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/cbba321c153dfc7a3fd152013bfe3070/spectrum/1040g34o320dsbruilia05qfqu3k0ga02r1pjs68!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/c5fb90e40ae521c856a0ca0fe25f49b6/spectrum/1040g34o320dsbruiliag5qfqu3k0ga026cukcu8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/dd671688191e91235a498a2cc83a1740/spectrum/1040g34o320dsbruilib05qfqu3k0ga02phmeua8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090710/af95e292a63a7eff4b2d83f6d7a7f8e1/spectrum/1040g34o320dsbruilibg5qfqu3k0ga02fv4pjo8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a0e88d30000000036032a3b?xsec_token=ABPXfH9V2Dxeb-etGQ7wYfw8geLxB12SeEB4CTGUQWDfU=&xsec_source=pc_collect"
+}

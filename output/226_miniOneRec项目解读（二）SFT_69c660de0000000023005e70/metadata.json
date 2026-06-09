@@ -1,0 +1,25 @@
+{
+  "id": "69c660de0000000023005e70",
+  "type": "normal",
+  "title": "miniOneRec项目解读（二）SFT",
+  "desc": "[拔草R]这期解读SFT实现部分，以及解析如何处理SID碰撞问题，下期解读GRPO如何在推荐任务中应用#推荐算法[话题]# #生成式推荐[话题]# #大模型[话题]#",
+  "tags": [
+    "推荐算法",
+    "生成式推荐",
+    "大模型"
+  ],
+  "author": "Aleria",
+  "authorId": "5d25a15000000000110384f9",
+  "time": 1774608606000,
+  "ipLocation": "",
+  "likes": "118",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091312/9b57997bffc9897e7e1a757ac21a2cc0/spectrum/1040g0k031u7dgfph1m0g5n95k584f17pkutjdvo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091312/1b158a3108aa699c22ade9b23d5d287c/spectrum/1040g0k031u7dgfph1m105n95k584f17pb83e74g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091312/77d8fa761de78181fc6b73104e86434f/spectrum/1040g0k031u7dgfph1m205n95k584f17pp6m8uqg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091312/12030c00c72588b2efb2420adb2500cd/spectrum/1040g0k031u7dgfph1m305n95k584f17psbh4j68!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091312/e7dbea04e235258e1afca03f25cec2aa/spectrum/1040g0k031u7dgfph1m405n95k584f17po047ch8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69c660de0000000023005e70?xsec_token=ABMEeqvsGjy43mh12IOWbuXTyN0hmvTsNiiso697OFQdo=&xsec_source=pc_collect"
+}

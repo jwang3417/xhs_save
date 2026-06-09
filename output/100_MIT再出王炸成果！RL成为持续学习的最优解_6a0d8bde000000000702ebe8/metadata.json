@@ -1,0 +1,27 @@
+{
+  "id": "6a0d8bde000000000702ebe8",
+  "type": "video",
+  "title": "MIT再出王炸成果！RL成为持续学习的最优解",
+  "desc": "关注强化学习与持续学习领域的朋友，想必都留意到MIT近期的重磅成果“RL’s Razor”。这项研究从理论到实验系统论证：RL比SFT更能抵御灾难性遗忘，更好保留旧任务能力。\n而MIT这项工作的核心价值，远不止证明RL更优那么简单——它更关键的贡献，是明确指出了一个极具潜力的前沿方向：RL+CL。近两年，顶会中RL+CL交叉领域的论文数量持续攀升，但整体仍处于蓝海阶段，竞争远未白热化。无论是机器人控制、大模型进化、自动驾驶决策，还是医疗影像分析，只要涉及动态任务流、多场景适配、长期能力保留的场景，RL+CL都能找到落地价值，讲出创新故事。\n#强化学习[话题]# #持续学习[话题]# #深度学习[话题]# #机器学习[话题]# #计算机科学[话题]# #科研[话题]# #创新点[话题]# #论文[话题]# #人工智能[话题]#",
+  "tags": [
+    "强化学习",
+    "持续学习",
+    "深度学习",
+    "机器学习",
+    "计算机科学",
+    "科研",
+    "创新点",
+    "论文",
+    "人工智能"
+  ],
+  "author": "AI科研湫湫日记薄",
+  "authorId": "69fdac990000000002002805",
+  "time": 1779272670000,
+  "ipLocation": "安徽",
+  "likes": "194",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090712/5ef91f558fff98c08d478a8f9798ee75/spectrum/1040g0k0320ctb9iv5i005qftlicgga05m53hq90!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/79/110/259/01ea0d8bde4eef11010370039e44ead10e_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a0d8bde000000000702ebe8?xsec_token=ABKb6J5epqAybGAcu04rGsmDuvOcAfiC1D6AHIRQ7Frxo=&xsec_source=pc_collect"
+}

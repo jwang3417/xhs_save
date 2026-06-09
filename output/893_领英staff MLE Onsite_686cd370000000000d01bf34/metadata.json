@@ -1,0 +1,27 @@
+{
+  "id": "686cd370000000000d01bf34",
+  "type": "normal",
+  "title": "领英staff  MLE Onsite",
+  "desc": "✅\n1.coding 是 weighted probability，解法是cumulative然后做binary search。\n2.问了简历上的项目\n3.一个快速的case study。如果做linkedin\nlearning推荐，怎么根据user申请的工作或者向下一级别晋升推荐courses.\n\t\n✅Coding\n1️⃣onsite codinq1知道每个用户对一部分movies 的ratings，怎么用kNN去做推荐。\n\t\n2️⃣onsite coding2先问了半个小时的简历，然后 半个小时 implement decision tree, focus on OOP。for simplicity, input features 都是binary的，label 也是binary。\n\t\n3️⃣ML case study设计领英推荐系统，考虑不同types 的posts。这轮是一个staff三姐跟一个中国小哥shadow.\n\t\n3️⃣ML八股文，就是很正常的deep learning的八股文。andrew ng的那门课看完都能答上来。还问了一些logistic regression的问题以及丟筛子的问题。\n4️⃣HM聊天，project deep dive + 穿插着BQ。\n﻿#Linkedin[话题]#﻿ ﻿#面经[话题]#﻿ ﻿#MLE[话题]#﻿ ﻿#data[话题]#﻿ ﻿#斩获offer的秘决[话题]#﻿ ﻿#留学生求职[话题]#﻿ ﻿#留学生找工作[话题]#﻿ ﻿#datascientist[话题]#﻿",
+  "tags": [
+    "Linkedin",
+    "面经",
+    "MLE",
+    "data",
+    "斩获offer的秘决",
+    "留学生求职",
+    "留学生找工作",
+    "datascientist"
+  ],
+  "author": "Jasmine",
+  "authorId": "661af1060000000003033c0e",
+  "time": 1751962480000,
+  "ipLocation": "",
+  "likes": "58",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091331/65cb3488e9d86f559bf1f2328e2010e3/spectrum/1040g34o31jlv012p3q005pgqu430uf0ev32fdbg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091331/9af6ab2f96fd14d62f07405c17ee682c/spectrum/1040g34o31jlv043f2a0g5pgqu430uf0eph3uf7g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/686cd370000000000d01bf34?xsec_token=ABE77Dz_O2N5Vbyvmd3_TED8HH3AXtb7snMglJeH7cOgs=&xsec_source=pc_collect"
+}

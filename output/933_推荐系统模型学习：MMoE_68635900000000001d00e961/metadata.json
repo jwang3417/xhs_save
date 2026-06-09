@@ -1,0 +1,23 @@
+{
+  "id": "68635900000000001d00e961",
+  "type": "normal",
+  "title": "推荐系统模型学习：MMoE",
+  "desc": "看着代码👀自己画了一遍[吧唧R]\n\t\n以下内容由ai生成：[doge]\n💡 推荐算法必备模型 | 一分钟看懂 MMoE 🔥\n最近很多同学问我：\n多任务学习里，MMoE 到底是什么？🤔\n今天一次讲清楚 ✅\n🔷 MMoE（Multi-gate Mixture-of-Experts）\nGoogle 提出的多任务学习框架。核心 idea 是：\n多个专家网络 (experts)，提取任务共享特征\n每个任务一个 gate，学会怎么组合这些 experts\n📌 为什么用 MMoE？\n不同任务之间，有共同性，也有差异。\nMMoE 通过 “共享 + 个性化” 的设计，既节省参数，也能提升效果。\n🛠 简单原理：\n输入特征 → 多个 expert MLP\n每个任务用 gate 输出一个 softmax 权重\n各任务对 experts 输出做加权求和 → 下游 MLP → 任务预测\n✅ 优点\n共享知识，减少过拟合\n每个任务可按需选择专家，灵活\n❌ 缺点\n参数量比纯共享模型大\n需要精心设计 gate 特征\n👩🏻‍💻 应用场景\nCTR/CVR 多任务模型\n推荐系统多目标优化\n✨ 一句话总结：\nMMoE = 多任务“共享专家 + 专属 gate 混合”，提升模型表现必备利器 🔥\n\t\n#推荐算法[话题]# #MMoE[话题]# #多任务学习[话题]# #推荐系统[话题]# #深度学习模型[话题]#",
+  "tags": [
+    "推荐算法",
+    "MMoE",
+    "多任务学习",
+    "推荐系统",
+    "深度学习模型"
+  ],
+  "author": "mouseminar",
+  "authorId": "67377078000000001d02d484",
+  "time": 1751341312000,
+  "ipLocation": "",
+  "likes": "28",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091336/c53909847dac58a11361a89476dc0f20/1040g00831jcmrfecj2005ppne1s7dl44dhjf6bo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68635900000000001d00e961?xsec_token=ABG1MqKTTh8iJ4EcNiHgGiRCObMw7AhLCZ2cZIs7PP5U8=&xsec_source=pc_collect"
+}

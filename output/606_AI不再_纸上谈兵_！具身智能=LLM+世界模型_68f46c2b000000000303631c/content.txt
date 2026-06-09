@@ -1,0 +1,10 @@
+AI不再"纸上谈兵"！具身智能=LLM+世界模型
+
+清华世界模型与具身智能融合全面综述！具身智能：从LLMs到世界模型。
+作者：Tongtong Feng, Xin Wang, Yu-Gang Jiang, Wenwu Zhu
+单位：清华大学计算机科学与技术系，北京信息科学与技术国家研究中心，复旦大学可信具身智能研究所
+论文标题：Embodied AI: From LLMs to World Models
+论文链接：https://arxiv.org/pdf/2509.20021v1#大模型[话题]# #清华大学[话题]# #人工智能[话题]# #具身智能[话题]#
+
+
+标签: #大模型 #清华大学 #人工智能 #具身智能

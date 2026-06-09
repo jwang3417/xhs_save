@@ -1,0 +1,30 @@
+{
+  "id": "68ee148e00000000030231e1",
+  "type": "normal",
+  "title": "谢赛宁新作：VAE退役，RAE当立",
+  "desc": "昔日风光无限的VAE，终于被宣判“退役”？\n\t\n谢赛宁团队最新研究给出了答案——VAE的时代结束，RAE将接力前行。\n\t\n其中表征自编码器RAE（Representation Autoencoders）是一种用于扩散Transformer（DiT）训练的新型自动编码器，其核心设计是用预训练的表征编码器（如DINO、SigLIP、MAE 等）与训练后的轻量级解码器配对，从而替代传统扩散模型中依赖的VAE（变分自动编码器）。\n\t\n这种新结构不仅能提供高质量重建结果，还具备语义丰富的潜空间，同时支持可扩展的基于变换器的架构。\n\t\n该方法在无需额外表示对齐损失的情况下，实现了更快的收敛速度。通过采用配备轻量级宽型DDT头部的DiT变体，他们在ImageNet上取得强劲的图像生成效果：\n\t\n- 256×256分辨率下，无引导（no guidance）FID= 1.51；\n- 256×256和512×512分辨率下，有引导（with guidance）FID=1.13。\n\t\n#AI[话题]# #谢赛宁[话题]# #最新论文[话题]# #VAE[话题]#",
+  "tags": [
+    "AI",
+    "谢赛宁",
+    "最新论文",
+    "VAE"
+  ],
+  "author": "量子位",
+  "authorId": "6228870a0000000010008e88",
+  "time": 1760433294000,
+  "ipLocation": "",
+  "likes": "551",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091317/b25273d941e3d32a8e8f8f0286a69365/spectrum/1040g0k031nk62cbf4s005oh8gs5413k87ovnq08!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091317/b58a306b51882e91ac82b5e263a2f922/spectrum/1040g0k031nk62cbf4s0g5oh8gs5413k8tnb34u8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091317/7adbdfca42320cb9876c17480f16762e/spectrum/1040g0k031nk62cbf4s105oh8gs5413k8o5ppa88!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091317/f51444dedf7375e81db4c3ee93be03eb/spectrum/1040g0k031nk62cbf4s1g5oh8gs5413k8lt8bqq0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091317/df5af7f0b61cca4186fd1ee6efa69ef9/spectrum/1040g0k031nk62cbf4s205oh8gs5413k8vuvqr80!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091317/3f3b54012371095d9456cea0a71c1f62/spectrum/1040g0k031nk62cbf4s2g5oh8gs5413k8fnsiib8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091317/2efb5c36d32b341e918d74b1441e292f/spectrum/1040g0k031nk62cbf4s305oh8gs5413k848plvt0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091317/7494233d30a37040a9946c7d53542ef8/spectrum/1040g0k031nk62cbf4s3g5oh8gs5413k8bap74lg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091317/0811435d328da0a552fb187dca586e79/spectrum/1040g0k031nk62cbf4s405oh8gs5413k8viimvhg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68ee148e00000000030231e1?xsec_token=ABJUz4Ad9tcjg5R1egQ35tYySw9WYu_3V_8KAtP_Rt-Kc=&xsec_source=pc_collect"
+}

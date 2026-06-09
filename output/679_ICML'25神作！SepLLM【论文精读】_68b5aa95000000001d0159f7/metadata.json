@@ -1,0 +1,24 @@
+{
+  "id": "68b5aa95000000001d0159f7",
+  "type": "video",
+  "title": "ICML'25神作！SepLLM【论文精读】",
+  "desc": "本期我们要解读这篇被LSTM之父 引用的工作，其创造性地发现：逗号、句号等分隔符竟藏着文本段落的 \"记忆密码\"！ 开源即收获近400 GitHub stars，连deepseek团队 也在文章中引用和讨论该方法。 同时，团队还开源了“SepCache”, 这个是一个plug-and-play的 training-free的Cache类，在很多training-free的场景下即插即用，降低显存提高推理速度和吞吐率。针对所有不同架构的模型也是少量修改即可使用。按照 transformers＞=4.53.0，即可无缝兼容！\n#带你一起读论文[话题]# #大模型[话题]# #人工智能[话题]# #深度学习[话题]# #算力[话题]# #transformer[话题]#",
+  "tags": [
+    "带你一起读论文",
+    "大模型",
+    "人工智能",
+    "深度学习",
+    "算力",
+    "transformer"
+  ],
+  "author": "Lau博士的云组会",
+  "authorId": "657690f4000000003d02a1ef",
+  "time": 1756736149000,
+  "ipLocation": "",
+  "likes": "782",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091146/0436dd1a7ea23a9ceb390ff098c3343e/spectrum/1040g34o31lt35ep34u105pbmi3qfd8ff6hjh088!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e8b5a9a1bc778b010370039905a561a8_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68b5aa95000000001d0159f7?xsec_token=ABQdHIaIOxqKj7bhxk75vwm1l3sWTBw57KFLntdgVr2-E=&xsec_source=pc_collect"
+}

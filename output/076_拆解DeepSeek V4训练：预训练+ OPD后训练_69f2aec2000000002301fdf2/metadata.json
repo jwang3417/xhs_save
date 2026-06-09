@@ -1,0 +1,36 @@
+{
+  "id": "69f2aec2000000002301fdf2",
+  "type": "normal",
+  "title": "拆解DeepSeek V4训练：预训练+ OPD后训练",
+  "desc": "📌 今天来解析 DeepSeek V4训练流程，主要关注预训练阶段与 V3/V3.2 的区别、1M长上下文拓展训练、后训练 On-Policy Distillation 实现。\n\t\n📒 详细解析内容➡️滑图查看！\n\t\n🎯相关内容已经总结到下方学习笔记中，持续更新！在平台提供大模型一手、原创、深度解析！带给大家更多好玩实践项目。\n\t\n#deepseekv4[话题]# #deepseekv4模型架构[话题]# #deepseekv4技术报告[话题]# #onpolicydistillation[话题]# #OnPolicy蒸馏[话题]# #agentrl[话题]# #rlagent[话题]# #大模型[话题]# #算法工程师[话题]# #古希腊掌管代码的神[话题]#",
+  "tags": [
+    "deepseekv4",
+    "deepseekv4模型架构",
+    "deepseekv4技术报告",
+    "onpolicydistillation",
+    "OnPolicy蒸馏",
+    "agentrl",
+    "rlagent",
+    "大模型",
+    "算法工程师",
+    "古希腊掌管代码的神"
+  ],
+  "author": "古希腊掌管代码的神",
+  "authorId": "6543cd40000000000400953c",
+  "time": 1777512130000,
+  "ipLocation": "",
+  "likes": "214",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090708/f772a7e1653c0f6864a20a32321425a1/notes_pre_post/1040g3k031vh3m2h4ig005pa3pl01159sipg4pjo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/82ec527c3b8c1d63b773286b3e57f011/notes_pre_post/1040g3k031vh3m2h4ig0g5pa3pl01159sc00lrko!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/b736a7c5b4e74affef9e6fc02861e22d/notes_pre_post/1040g3k031vh3m2h4ig105pa3pl01159s9dnn0n0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/2a1c6a23002ca7f915939e02f6db3e56/notes_pre_post/1040g3k031vh3m2h4ig1g5pa3pl01159sb1nk2d8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/10000f41671c86c92ff6622a50a4d7ec/notes_pre_post/1040g3k031vh3m2h4ig205pa3pl01159sk8fk6j0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/5fd633e959e1016a3f802349dc8cb34c/notes_pre_post/1040g3k031vh3m2h4ig2g5pa3pl01159s7dpqsbg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/70a572d9f98ab92a4dd1470671af6166/notes_pre_post/1040g3k031vh3m2h4ig305pa3pl01159s18k5j18!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/66c0ab1e3bddf0d146f0d475120a1721/notes_pre_post/1040g3k031vh3m2h4ig3g5pa3pl01159ser3kjv8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090708/d3d98cbe554a34c4146973d6993560af/notes_pre_post/1040g3k031vh3m2h4ig405pa3pl01159svbl83sg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69f2aec2000000002301fdf2?xsec_token=ABBc-ikzCe8LtufGad_gqfjwpN1kQ5-Vy3zan82o1P-NI=&xsec_source=pc_collect"
+}

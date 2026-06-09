@@ -1,0 +1,36 @@
+{
+  "id": "696b2a72000000001a0379a5",
+  "type": "normal",
+  "title": "如何评价字节的最新工作NextFlow？",
+  "desc": "🚩 现有统一多模态模型常陷入架构割裂的困境：Chameleon类方法受困于离散化表征的信息损耗与推理低效，而Transfusion类混合架构虽引入Diffusion Loss提升了保真度，却因优化目标的分治导致Post-Training与Scaling Law难以在生态层面统一。\n🚩 NextFlow旨在通过一套Tokenizer、单一Transformer Backbone及统一的Next-Token Prediction范式，打破理解与生成的壁垒。\n\t\n👉 Dual-Codebook VAE表征：\n1）兼顾Semantic Density与Pixel Fidelity，强制Token同时携带语义与像素信息；\n2）引入Optional Diffusion Decoder补偿离散表征在高频细节上的物理极限。\n\t\n👉 生成范式的革新：\n1）Next-Scale Prediction：摒弃Raster-Scan顺序，采用源自VAR的Coarse-to-Fine层级生成；\n2）高效推理：配合Multi-Scale 3D RoPE与Scale-Aware Loss，实现1k分辨率下的秒级出图。\n\t\n👉 统一优化的Post-Training：\n1）GRPO引入：得益于架构统一，直接复用LLM生态中的RLHF算法进行对齐；\n2）规避了Diffusion Model中复杂的Reward Modeling设计，提升Image-Text Alignment与美学质量。\n\t\n（由于文字篇幅限制，具体细节麻烦大家移步图片～👆）\n\t\n#深度学习[话题]#\n#科研[话题]#\n#大模型[话题]#\n#计算机视觉[话题]#\n#扩散模型[话题]#\n#博士生日常[话题]#\n#多模态人工智能[话题]#\n#diffusion[话题]#\n#机器学习[话题]#",
+  "tags": [
+    "深度学习",
+    "科研",
+    "大模型",
+    "计算机视觉",
+    "扩散模型",
+    "博士生日常",
+    "多模态人工智能",
+    "diffusion",
+    "机器学习"
+  ],
+  "author": "叫我Alonzo就好了",
+  "authorId": "632dbaa10000000023026ad9",
+  "time": 1769256036000,
+  "ipLocation": "",
+  "likes": "101",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090941/9e8c98e6b4c9bb9a040a9ef65fbcd225/spectrum/1040g34o31reb1q8fn0a05opdnagosqmpj0vmbho!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090941/26c0dfd47fef4ddae0f1040c86b48dfe/spectrum/1040g34o31reb1q8fn0ag5opdnagosqmp4hr2seg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090941/bfb79ad356d0b4c8ea343a6972180190/spectrum/1040g34o31reb1q8fn0b05opdnagosqmpedpc0ng!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090941/2857520ed61fa91363e9d0ad738e097b/spectrum/1040g34o31reb1q8fn0bg5opdnagosqmpmnm30eg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090941/5faef9f2eae13f6763f5331f26839462/spectrum/1040g34o31reb1q8fn0c05opdnagosqmp5e4j42o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090941/1f6098ce75133806153b9b1f00f3897b/spectrum/1040g34o31reb1q8fn0cg5opdnagosqmp2l1vdqg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090941/5742199eb982b7db3765e55f6bfccfe6/spectrum/1040g34o31reb1q8fn0d05opdnagosqmppfcm4c0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090941/1397606b17c0c317393d9d20e31ebfaa/spectrum/1040g34o31reb1q8fn0dg5opdnagosqmp0rbe098!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090941/8a9b7889913c4f9967fd50c4a27f5c71/spectrum/1040g34o31reb1q8fn0e05opdnagosqmph53r8og!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090941/89d6c86c18759225f4e606f2f411b776/spectrum/1040g34o31reb1q8fn0eg5opdnagosqmppa8m89g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/696b2a72000000001a0379a5?xsec_token=AB3C0PoGqnShcB0ANhofL95Bp2mcS-n8s3MCec8RLE2Dk=&xsec_source=pc_collect"
+}

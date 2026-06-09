@@ -1,0 +1,33 @@
+{
+  "id": "69c9cab1000000001d01debd",
+  "type": "normal",
+  "title": "MIT：让Tokenizer和扩散一体训练",
+  "desc": "这篇工作想解决一个长期分阶段训练的问题：传统潜空间扩散模型通常要先单独训练tokenizer，再冻结它去训练生成器，流程复杂、组件多、训练目标也彼此割裂。UNITE提出把“图像压缩成潜变量”和“在潜变量里去噪生成”视为同一个潜变量推断问题的两种条件形式，用同一个Generative Encoder同时做tokenizer和latent denoiser，实现单阶段、端到端训练。作者证明，不依赖DINO这类预训练编码器，也不需要对抗损失，依然能把重建和生成同时做强。\n核心亮点：\n统一建模：把tokenization和generation视为同一问题 给定完整图像时是“强观测下的潜变量推断”，从噪声恢复潜变量时是“弱观测下的推断”，两者共享同一个GE。\n单阶段训练：一个模型同时学压缩和生成 训练时GE前向两次：第一次把图像编码成latent，第二次把加噪latent去噪回干净latent，再和decoder一起联合优化。\n参数共享：共享主干而不是堆更多模块 UNITE不是“编码器+生成器”两套网络，而是让同一个ViT主干复用。实验表明，共享权重比拆开训练有更好的rFID/gFID平衡。\n不靠外部老师：不用DINO也能做到近SOTA 相比依赖预训练视觉表征的路线，UNITE从零开始训练，流程更干净，也更容易迁移到没有强预训练编码器的领域。\n不止图像：分子生成也成立 在QM9上，UNITE不仅重建匹配率更高，生成分子的唯一性也很强，说明这套统一范式不只适合视觉。\n\t\narXiv：2603.22283\n\t\n#AIChannel[话题]#  #扩散模型[话题]#  #视觉生成[话题]#  #MIT[话题]#  #图像重建[话题]#  #分子生成[话题]#  #transformer[话题]#  #端到端训练[话题]#  #生成式模型[话题]#  #计算机视觉[话题]#",
+  "tags": [
+    "AIChannel",
+    "扩散模型",
+    "视觉生成",
+    "MIT",
+    "图像重建",
+    "分子生成",
+    "transformer",
+    "端到端训练",
+    "生成式模型",
+    "计算机视觉"
+  ],
+  "author": "每日ComputerScience",
+  "authorId": "677419a40000000015005599",
+  "time": 1774855813000,
+  "ipLocation": "",
+  "likes": "105",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091313/783ad62aa9dd55e7d0714f514a313b5c/spectrum/1040g0k031uao6e3bhs2g5prk36i58lcpr9kobso!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/fd42d2e8f911ac64aefd3726fd5e96d7/spectrum/1040g0k031uao6e3bhs205prk36i58lcpb9lcflg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/5e6286a88f6cef788d4c2e50a90336be/spectrum/1040g0k031uao6e3bhs1g5prk36i58lcpt8gp398!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/4092fec7f57bacb04d0747044806c494/spectrum/1040g0k031uao6e3bhs105prk36i58lcpbrs6hig!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/e8488b44ec1a39df63ba7cf1c85af85d/spectrum/1040g0k031uao6e3bhs0g5prk36i58lcpj165lvo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/6ecef83c8592924f33392895e8743a1a/spectrum/1040g0k031uao6e3bhs005prk36i58lcp1td0s9o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69c9cab1000000001d01debd?xsec_token=ABdHXmgsGKKpkiDRVUaHkSJArdfOUtBelL8aOudyFkkaE=&xsec_source=pc_collect"
+}

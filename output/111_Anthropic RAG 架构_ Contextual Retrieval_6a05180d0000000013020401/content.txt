@@ -1,0 +1,15 @@
+Anthropic RAG 架构: Contextual Retrieval
+
+Anthropic 的工程博客介绍了他们的 RAG 系统架构，核心基于：
+	
+Hybrid Retrieval + Contextual Retrieval 优化 + Reranker
+	
+其中最关键的思想是：
+不只是把文档切成 chunk 后直接做 embedding，而是先给每个 chunk 补上一小段“上下文说明”，再用于检索。
+	
+这是一个精彩的AI RAG 系统架构和优化。
+	
+#ai[话题]# #AI编程[话题]# #mle[话题]# #ai学习[话题]# #aicoding[话题]# #aiagent[话题]# #人工智能[话题]# #llm[话题]# #rag[话题]# #面试[话题]#
+
+
+标签: #ai #AI编程 #mle #ai学习 #aicoding #aiagent #人工智能 #llm #rag #面试

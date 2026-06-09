@@ -1,0 +1,28 @@
+{
+  "id": "68881e75000000001c033c7a",
+  "type": "video",
+  "title": "别扩了，我直接流了，Flow Matching太狠了",
+  "desc": "Flow Matching（流匹配）是一种新颖的生成建模方法，\n它的核心思想是：让模型学会从噪声状态一步“流动”到真实图像的方向。\n相比扩散模型那种“加噪 + 反推 + 多步生成”的方式，\nFlow Matching 只需一步即可生成图像，训练过程更稳定、生成速度更快！﻿#机器学习[话题]#﻿ ﻿#深度学习[话题]#﻿ ﻿#flowmatching[话题]#﻿ ﻿#流匹配[话题]#﻿ ﻿#生成式AI[话题]#﻿ ﻿#图像生成[话题]#﻿ ﻿#大模型[话题]#﻿ ﻿#人工智能[话题]#﻿ ﻿#扩散模型[话题]#﻿ ﻿#生成模型[话题]#﻿",
+  "tags": [
+    "机器学习",
+    "深度学习",
+    "flowmatching",
+    "流匹配",
+    "生成式AI",
+    "图像生成",
+    "大模型",
+    "人工智能",
+    "扩散模型",
+    "生成模型"
+  ],
+  "author": "AI算法工程师Power",
+  "authorId": "66866acc000000000303390d",
+  "time": 1753783682000,
+  "ipLocation": "",
+  "likes": "604",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091326/d48a87012cf8b813586e0f70db25f5dc/spectrum/1040g34o31kgjs4f1jq0g5pk6db60ue8djalgst0!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/79/110/259/01e8881dc683721f010370039853b8a74d_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68881e75000000001c033c7a?xsec_token=ABCf0F2p7plu0qLSjCnCFncWdY47Yt-o_mgfjeDnDNKtI=&xsec_source=pc_collect"
+}

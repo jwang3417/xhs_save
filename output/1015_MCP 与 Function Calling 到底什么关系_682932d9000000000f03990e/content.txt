@@ -1,0 +1,6 @@
+MCP 与 Function Calling 到底什么关系
+
+MCP 与 Function Calling 到底什么关系，以及为什么我认为大部分人的观点都是错误的。 ﻿#编程[话题]#﻿ ﻿#MCP[话题]#﻿ ﻿#FunctionCalling[话题]#﻿ ﻿#ChatGPT[话题]#﻿ ﻿#代码[话题]#﻿ ﻿#AI[话题]#﻿﻿
+
+
+标签: #编程 #MCP #FunctionCalling #ChatGPT #代码 #AI

@@ -1,0 +1,19 @@
+{
+  "id": "680c0800000000001c0364ee",
+  "type": "video",
+  "title": "系统设计 - 视频分享平台",
+  "desc": "﻿#系统设计[话题]#﻿\n00:00 design video sharing platform\n00:28 function requirements\n00:46 non-function requirements\n02:35 high-level diagram\n04:52 storage\n06:46 upload service\n13:42 view service\n15:45 wrap up",
+  "tags": [
+    "系统设计"
+  ],
+  "author": "s09g",
+  "authorId": "6591d3a600000000220086e5",
+  "time": 1745618944000,
+  "ipLocation": "",
+  "likes": "2,211",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091349/79200257b1cf7d270bd900633a949b98/spectrum/1040g0k031gne701bj8005pchqej8h1n57l6eqog!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/79/110/259/01e80c05f64b02a801037003966f00dba3_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/680c0800000000001c0364ee?xsec_token=AB31fk-y8fGllp-1ItsbU0KO52rKNyYT-eq-MkzeCNbQk=&xsec_source=pc_collect"
+}

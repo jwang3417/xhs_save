@@ -1,0 +1,18 @@
+突然感觉，kaiming老师领先我们两年...
+
+最近又看了一遍RCG（tianhong哪篇），和几个做生成的朋友都聊了，忽然感觉是真的脸疼。
+	
+之前RCG一出来，其实大家好像评价都一般，尤其又一次被拒的时候，好像风言风语更多（我还专门发帖吐槽 那时候还有很多人反对，觉得RCG没有任何意义），可能是一方面觉得在clip空间做diffusion这件事意义不大，另一方面不知道为什么要基于一个rept model做生成，并且感觉所谓无条件生成没什么场景。我当时也非常junior，但是出于对kaiming老师的好的prior，我仍然认为这个文章是过质量线的，不过也只能认知到这是过线的成果。
+	
+然而...如今两年过去了，我忽然发现现在生成当中大家又开始尝试去在clip这种VIT based的semantic space做denoising，忽然又语气类似unconditional generation一样，希望diffusion decoder能够直接基于rept model进行处理，RAE想在foundation model做这件事，unilip想在UMMs中进行，VFMtokenizer想在tokenizer角度思考...
+	
+似乎回头再看RCG，他如此先决地意识到representation的潜力是如此重要，尤其对更高效和更符合semantic的生成来说，RCG这种方案似乎真的能让decoder去尝试接受理解的潜在表示从而更加智能地生成，这对于未来来说太重要了。
+	
+如今，其实随着各种各样生成基础模型在质量上没有差异，但是相关的reason还是knowledge生成仍旧在探索的时候，这种思考和设计也显得更加重要性，或许里面还有更多可以探索的点。
+	
+还是感叹当初太年轻，看不透大佬真正的目的，只能后知后觉了...
+	
+#人工智能[话题]# #深度学习[话题]# #科研日常[话题]# #kaiming[话题]#
+
+
+标签: #人工智能 #深度学习 #科研日常 #kaiming

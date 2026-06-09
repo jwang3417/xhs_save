@@ -1,0 +1,30 @@
+{
+  "id": "68bedaa4000000001d01531c",
+  "type": "normal",
+  "title": "大模型的Embedding层和独立模型有什么区别",
+  "desc": "一言以蔽之：\nEmbedding 层 = 模型的“输入翻译器”\n独立 Embedding 模型 = 一个“语义定位器”，专门把文本放到一个语义坐标系里\n#大模型[话题]# #算法工程师[话题]# #大模型应用[话题]# #AI知识[话题]# #AI学习[话题]# #embedding[话题]# #变形金刚[话题]# #嵌入向量[话题]# #大模型学习[话题]#",
+  "tags": [
+    "大模型",
+    "算法工程师",
+    "大模型应用",
+    "AI知识",
+    "AI学习",
+    "embedding",
+    "变形金刚",
+    "嵌入向量",
+    "大模型学习"
+  ],
+  "author": "江船入海",
+  "authorId": "62b1659a000000001902e703",
+  "time": 1757338276000,
+  "ipLocation": "",
+  "likes": "44",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091158/35319cdb2b058c2428fccae99be865db/1040g2sg31m5va9tql26g5olhcmd6dpo3bqhs4io!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091158/4fdbbcf3a73f6e068fa16d7efadcefce/1040g2sg31m5va9tql2405olhcmd6dpo3ro8b0n0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091158/f1e16ad2b6c31b0f0761c5371399d844/1040g2sg31m5va9tql2505olhcmd6dpo3ntr6rug!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091158/7cc40149a6329b1d2d5abb872336ff1c/1040g2sg31m5va9tql2605olhcmd6dpo3fk539n0!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68bedaa4000000001d01531c?xsec_token=ABJNhUbulr7tcn30Gn_Hr3ogaVwEUkPrulGkkGwccZow0=&xsec_source=pc_collect"
+}

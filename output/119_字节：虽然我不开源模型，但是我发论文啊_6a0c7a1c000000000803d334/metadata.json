@@ -1,0 +1,24 @@
+{
+  "id": "6a0c7a1c000000000803d334",
+  "type": "normal",
+  "title": "字节：虽然我不开源模型，但是我发论文啊",
+  "desc": "论文：arxiv  2605.18678\n\t\n最近多模态的文章看多了，现在每次看到「统一多模态」这四个字就会下意识翻白眼，内心os：这又是哪家出来吹嘘来了。因为过去几年太多人喊这个口号了，最后出来的模型还是各管各的。\n\t\n但是呢， ByteDance 这篇《Lance: Unified Multimodal Modeling by Multi-Task Synergy》可能还真有点东西。\n\t\n▎他们干了件反常识的事\n\t\n把图文理解、图像生成、视觉问答这几个任务塞进同一个模型一起训。不是分开训好了再拼起来，是从头到尾一起跑。\n\t\n按现在正常主流的认知，这应该翻车。一个模型同时学好几个东西，精力分散，哪个都学不精——对吧？\n\t\n但实验结果是反的。一起训之后，每个任务都变好了。\n\t\n▎这是为什么呢？\n\t\n仔细琢磨了一下。比如你让模型既学会「描述一张图」又学会「根据文字生成一张图」。这两个任务表面上是反的，但底层的视觉和语言理解是同一套东西。一起训反而互相强化了。\n\t\n有点像你学了一门乐器之后，第二门上手快得多。基础乐理不用重新学。\n\t\n当然，多任务训练在实际工程上是个大灾难，基建差的团队肯定无法实现。一个任务的梯度更新可能把另一个的成果毁掉。他们在这上面花了大功夫——论文里关于训练稳定性的部分反而是最值得看的。\n\t\n▎值得跟\n\t\n不是因为这篇多厉害。但它探索了一个我觉得对的方向：多模态模型不应该是一堆子模态的合集，各自训好了再拼在一起。\n\t\n至于这个方向能不能成，得看后面能不能稳定复现。\n\t\n#字节[话题]# #多模态大模型[话题]# #多模态[话题]# #论文速读[话题]#",
+  "tags": [
+    "字节",
+    "多模态大模型",
+    "多模态",
+    "论文速读"
+  ],
+  "author": "迷途小书童",
+  "authorId": "5e1d94a200000000010018bb",
+  "time": 1779202588000,
+  "ipLocation": "北京",
+  "likes": "523",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090730/278458cfe97b64d4cdf92fc4a2b1b817/spectrum/1040g34o320brtktu5i305ngtiih0865rl22am30!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090730/fda2f917a6575a3c88277ac09ec8aa99/spectrum/1040g34o320brtktu5i3g5ngtiih0865r3fsqgjo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090730/f698b836baa593a54fcf01b243767044/spectrum/1040g34o320brtktu5i405ngtiih0865rr6c9mj8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a0c7a1c000000000803d334?xsec_token=ABgx5DhB33oacAfrZCIMg_PXT3J7shArsZs_PgHjKwWZ4=&xsec_source=pc_collect"
+}

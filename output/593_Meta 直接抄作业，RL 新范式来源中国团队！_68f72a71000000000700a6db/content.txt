@@ -1,0 +1,18 @@
+Meta 直接抄作业，RL 新范式来源中国团队！
+
+Meta 最新的 scaling RL compute 的实验，发现 CISPO 表现出了最好的 scaling，并且在最终的方案也选用了 CISPO 做 scaling。
+	
+CISPO 这一创新来源于 MiniMax 早期版本模型 M1 阶段的研究，是 2025 年由我国 AI 团队 MiniMax 提出的强化学习算法，专为大模型的 RLHF 任务设计。
+	
+其首次亮相于《MiniMax-M1: Scaling Test-Time Compute Efficiently with Lightning Attention》论文中，核心价值在于解决传统算法在长序列推理训练中的关键痛点。
+	
+MiniMax CISPO发现 LLM在训练中被 PPO clip 的 token 比例高达约 2%，正负 advantage 对应的 token clip 比例存在显著差异，这表明 PPO 的目标函数以一种我们未曾预料到的､甚至可能是有偏的方式限制着策略的更新；与参数量较小的传统 RL 智能体不同， MiniMax 发现大型语言模型对单步的梯度更新表现更好，推测出这得益于其巨大的参数量带来的内在稳定性｡所以 MiniMax 提出与其通过一个复杂的 clip 目标函数去限制梯度的更新幅度，不如换一个更直接的思路，就是去限制我们用来学习的样本｡
+	
+通过截断过滤，用重要性比率和阈值过滤噪声，只保留有效样本；通过梯度解耦，用停止梯度隔绝干扰，让策略仅通过纯粹的梯度项学习。通过以上两步操作，让 CISPO 成为目前表现最好的 scaling。
+	
+现在国外 AI 博主疯狂安利说这篇论文是 RL 领域必看，这最初的想法是MiniMax 提出来的。目前算法领域更新速度飞快，咱们国家在 AI 领域也越来越强，紧紧逼近世界顶级，期待超越的那一天。
+	
+#CISPO[话题]# #minimax[话题]# #meta[话题]# #大模型[话题]# #算法[话题]# #人工智能[话题]# #强化学习[话题]# #互联网大厂[话题]#
+
+
+标签: #CISPO #minimax #meta #大模型 #算法 #人工智能 #强化学习 #互联网大厂

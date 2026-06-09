@@ -1,0 +1,31 @@
+{
+  "id": "69be68c9000000001a022ca9",
+  "type": "normal",
+  "title": "",
+  "desc": "一文总结大厂CTR 模型常见优化策略，全是干货～\n\t\n1️⃣特征优化—决定模型上限\n核心是挖掘更多有效信号，减少噪声。\n- 特征挖掘：重点引入实时特征（近N分钟行为序列）和上下文特征（时间/设备/广告位），贝叶斯平滑处理长尾统计特征\n- 特征交叉：通过AutoCross自动搜索交叉组合，或借助DCN/RankMixer隐式学习高阶交叉\n- 特征选择：基于特征shuffle评估重要度，建立特征准入/淘汰机制，定期清理低效特征\n- Embedding优化：使用预训练Emb、Hash Emb压缩超大ID参数，按特征频次分配不同的emb维度\n\t\n2️⃣模型优化—逼近特征上限\n核心是增强模型的表达和泛化能力。\n- 注意力机制：DIN聚焦相关历史行为，MHA捕捉序列内部依赖\n- 序列建模：BST处理百级序列，SIM处理万级超长序列，同时引入Session建模和时间衰减\n- 多任务学习：MMoE/PLE解决任务跷跷板，GradNorm等方法平衡梯度\n- 架构创新：PPNet实现千人千面参数，SENet做特征重要性加权，稀疏MoE低成本扩容\n\t\n3️⃣训练优化—充分释放模型潜力\n核心是从样本、损失、正则、优化器四个维度精细打磨。\n- 样本处理：负采样+IPW校准，难负例Mining强化边界判别，PAL消除位置偏差\n- Loss设计：Focal Loss缓解样本不平衡，Label Smoothing防过拟合，Pairwise Loss优化排序\n- 正则化：Feature Dropout、L1/L2正则及Mixup数据增强\n- 学习率&优化器：Warmup+Cosine Decay，分层学习率（Embed大LR/DNN小LR），FTRL+Adam混合是业界标配\n\t\n4️⃣线上优化\n- 在线学习：分钟级FTRL Streaming更新，增量+全量结合防止模型漂移\n- 校准：Platt Scaling/分桶校准确保pctr准确，负采样需概率校正\n- 分人群建模：LHUC/MoE网络/Star Topology实现人群差异化建模\n\t\n一句话总结：特征定上限，模型逼上限，训练释放潜力，线上落地验证——四者构成「假设→实验→验证→沉淀」的持续迭代闭环~\n\t\n#互联网大厂[话题]##算法[话题]# #推荐系统[话题]# #大厂[话题]# #广告投放[话题]# #大厂面试[话题]# #广告算法[话题]# #点击率[话题]# #爆款笔记[话题]#",
+  "tags": [
+    "互联网大厂",
+    "算法",
+    "推荐系统",
+    "大厂",
+    "广告投放",
+    "大厂面试",
+    "广告算法",
+    "点击率",
+    "爆款笔记"
+  ],
+  "author": "大厂AI算法漫记",
+  "authorId": "6194fcda000000001000e14b",
+  "time": 1774086345000,
+  "ipLocation": "",
+  "likes": "179",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091314/07a32799a339c29ed7ad5b25e1881b72/notes_pre_post/1040g3k831tvjmdkk728g5ockvjd41oab72fm8tg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091314/24036f30be8d8a0454ed44e51e94642f/notes_pre_post/1040g3k031u0hbakmnqg05ockvjd41oabl796pr8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091314/39ff1700ca6fb20bf1813abfbea7307d/notes_pre_post/1040g3k031u0hbakmnqgg5ockvjd41oabf4uj0og!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091314/25a27cbd72051eaf0ec7f65f9bc8f0f9/notes_pre_post/1040g3k031u0hbakmnqh05ockvjd41oabhfu2578!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091314/11d65988673a7e269d4a389247117e99/notes_pre_post/1040g3k031u0hbakmnqhg5ockvjd41oabumno6p8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69be68c9000000001a022ca9?xsec_token=ABjFZbRSmkmOhUKOmpmXE7v0zjXN3serdGKLHfj6YisPU=&xsec_source=pc_collect"
+}

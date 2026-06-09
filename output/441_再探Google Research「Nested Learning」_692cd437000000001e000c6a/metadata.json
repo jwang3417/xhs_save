@@ -1,0 +1,33 @@
+{
+  "id": "692cd437000000001e000c6a",
+  "type": "normal",
+  "title": "再探Google Research「Nested Learning」",
+  "desc": "再探Google Research「Nested Learning」：不同于Transformer的优雅与暴力美学\n\t\n我想未来基于Nested Learning思想持续构建和训练一个更加庞大且扩展完备的具有多个独立梯度流和自适应更新频率的复杂自学习系统，也许并不能快速呈现出8年前transformer技术上的简单优雅且all you need在更广泛任务扩展下的应用前景，同时直觉上感觉其两者在复杂度与优化路径上存在着不同的Research‌模式。\n\t\n那么接下来是否可以以AI 4 Research‌的方式来驱动Nested Learning框架的进一步演进呢？\n\t\n[向右R]比如借助「AlphaEvolve」等来分别对“Associative Memory”所描述的形式和纳入的组件进一步扩展；\n\t\n[向右R]对“SGD/Momentum”或其它Optimizer策略进行更'深度'的优化；\n\t\n[向右R]对“HOPE”架构下分别在“CMS&Titans”在记忆方面更有想象力的持续创新组合与设计...\n\t\n[向右R]并最终将当前看似离散的、同时又机械耦合在一起的深度学习组件（网络架构、优化算法）平滑统一到“关联记忆”和“嵌套优化”的整体反向（梯度优化）&正向（推理时）“非同频”动态传播视角中，以使得模型能够像人类大脑那样在持续学习方面表现出高度的效率、鲁棒性及神经可塑性（neuroplasticity），同时亦增强模型的可解释性。\n\t\n谁又能知道当下这种看起来复杂机械且借鉴人类大脑对记忆机制的启示不是通过研究人员精准且富有洞察指引的灵感提示交互下完成对Nested Learning思想的提出和HOPE架构的设计呢？[偷笑R]\n\t\n不知大家对Google Research的这篇论文《Nested Learning: The Illusion of Deep Learning Architectures》有什么不同的视角和理解呢？欢迎评论区继续讨论～\n关于之前论文的思考，大家感兴趣也可以参考之前写的分析文章↑[拔草R]\n\t\n#人工智能[话题]# #AGI[话题]# #大模型[话题]# #LLM[话题]# #强化学习[话题]# #人工智能发展[话题]# #google[话题]# #transformer[话题]# #titan[话题]# #梯度[话题]#",
+  "tags": [
+    "人工智能",
+    "AGI",
+    "大模型",
+    "LLM",
+    "强化学习",
+    "人工智能发展",
+    "google",
+    "transformer",
+    "titan",
+    "梯度"
+  ],
+  "author": "碳酸碳水碳基|三碳终结者",
+  "authorId": "6425945c00000000110211c9",
+  "time": 1764545591000,
+  "ipLocation": "",
+  "likes": "89",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091315/ae183d18654927ea9d3eef1d0c7163d3/notes_pre_post/1040g3k031phf4p0dic6g5p15ihe4c4e96rbdsf8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/ac289d1881a836cc12ad5726bd598a0f/notes_pre_post/1040g3k831phf4p0ijm005p15ihe4c4e9c3mkkq0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/bdae0441ad4dcf014e557cadf40f0210/notes_pre_post/1040g3k831phf4pd3ic005p15ihe4c4e9jmr4hbo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/1f8d01c1790b6b9ff77dd9a2b6f01e52/notes_pre_post/1040g3k831phf4pad28005p15ihe4c4e94gner4g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/3690b04028e817c5d20a50e86ac2a4b8/notes_pre_post/1040g3k831phf4p7pia005p15ihe4c4e9unsr8hg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091315/40c52f0b83d9e273bba09b2841ff2aa4/notes_pre_post/1040g3k031phf4p383m005p15ihe4c4e9m7vn4lo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/692cd437000000001e000c6a?xsec_token=AB2myjyXTOXYkbVNim54NEMqkk3JKMQIrADw_jvLKM9AI=&xsec_source=pc_collect"
+}

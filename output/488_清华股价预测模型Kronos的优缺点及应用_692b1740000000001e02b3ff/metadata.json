@@ -1,0 +1,22 @@
+{
+  "id": "692b1740000000001e02b3ff",
+  "type": "video",
+  "title": "清华股价预测模型Kronos的优缺点及应用",
+  "desc": "这期视频聊聊最近大家常问的 Kronos 模型。虽然它号称用全球 45 个交易所、上亿条 K 线训练而成，但在实际预测个股时并不理想，反而在指数层面表现更稳定。我也结合量化交易助手里的版本做了再次测试，并解释它把 K 线当“语言”来处理的底层逻辑。如果你想了解它为什么效果一般、哪些场景还能用，这期能给你很好的参考。\n#Kronos[话题]# #清华[话题]# #量化交易[话题]# #点点ai[话题]#",
+  "tags": [
+    "Kronos",
+    "清华",
+    "量化交易",
+    "点点ai"
+  ],
+  "author": "数分魔",
+  "authorId": "5a2e6d2be8ac2b4d5aee4fe3",
+  "time": 1764431680000,
+  "ipLocation": "",
+  "likes": "185",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091018/c2b9834dcaf3b870accb767a1cfba8a4/spectrum/1040g0k031pfopbbj28004a07clmimjv3igaq3cg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e92b173a613952010370039ad0534afe_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/692b1740000000001e02b3ff?xsec_token=ABMgtQthNGFSpyN8qrT6idD1E1rVgYDPf_AVuylWwtptM=&xsec_source=pc_collect"
+}

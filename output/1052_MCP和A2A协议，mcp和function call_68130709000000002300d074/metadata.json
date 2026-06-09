@@ -1,0 +1,38 @@
+{
+  "id": "68130709000000002300d074",
+  "type": "normal",
+  "title": "MCP和A2A协议，mcp和function call",
+  "desc": "列举了面试中可能会问道的一些问题，做了详细的解读。如下：[向右R][向右R]\n1.Function call怎么训练的?怎么微调的?\n2.Function call怎么构建数据集格式输入模型?\n3.Function call怎么把下游的一些工具，插件变成模型可以理解的方式，提供给llm作为tool?\n4.MCP与Function Call的区别与关系?\n5.MCP与A2A的关系?\n#大模型[话题]# #ai[话题]# #模型[话题]# #算法[话题]# #人工智能[话题]# #面经[话题]# #春招[话题]# #秋招[话题]# #大模型[话题]# #模型[话题]# #llm[话题]# #深度学习[话题]# #AIGC[话题]# #转码[话题]# #编程[话题]#",
+  "tags": [
+    "大模型",
+    "ai",
+    "模型",
+    "算法",
+    "人工智能",
+    "面经",
+    "春招",
+    "秋招",
+    "llm",
+    "深度学习",
+    "AIGC",
+    "转码",
+    "编程"
+  ],
+  "author": "Panda师兄的AI笔记",
+  "authorId": "5d0debf0000000001202c733",
+  "time": 1746077449000,
+  "ipLocation": "",
+  "likes": "330",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091349/7c6bd0210033677d0e9fd322ba597de9/1040g2sg31gvb3lkc3ckg5n8dtfo4lhpjl3etdeg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091349/91ec01ed1e260b4f8ddc7909d0b3b798/1040g2sg31gufp443jak05n8dtfo4lhpjl13k800!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091349/38fcc72c8913e2a0239f7f9ed29362aa/1040g2sg31gufp443jai05n8dtfo4lhpjf7s0c8o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091349/1dc92f403b2a6dc24ea2961e440c42cc/1040g2sg31gufp443jaeg5n8dtfo4lhpjlvvsmq0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091349/944b25f454e416af86c1ce0a5f926596/1040g2sg31gufp443jag05n8dtfo4lhpjgo75qg0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091349/e981fd8137103b970e715abf284f9179/1040g2sg31gufp443jagg5n8dtfo4lhpj3t88ci0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091349/0d62d40594a778f501a9015633523eee/1040g2sg31gufp443jah05n8dtfo4lhpjabdtap0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091349/31bddddccea25b546d2caa06bf531b69/1040g00831guqs3jgj86g5n8dtfo4lhpjvvkk1b8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68130709000000002300d074?xsec_token=ABB6QJveNbVGNa2c539nCBukEnzRNKIsJYpc7E-NlMrv4=&xsec_source=pc_collect"
+}

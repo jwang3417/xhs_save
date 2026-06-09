@@ -1,0 +1,10 @@
+Bun 创始人现场让 Claude 替自己写代码
+
+5 月初 Anthropic Code with Claude 大会，Boris Cherny（Claude Code 负责人）和 Bun 创始人 Jarred Sumner 32 分钟现场编程：RoboBun 自动复现 issue 自动开 PR、CodeRabbit 跟 RoboBun 互相 review、CLAUDE.md 是 compound engineering 的基础设施、4.7 让 hill climbing 真正能用、每晚一队 agent 让一条 prompt 自跑 30 分钟。原声保留，中文字幕已加。
+最反共识的不是「自动 PR」，是「PR 变成 suggestions」——同事 PR 不 merge 你会愧疚，Claude 的 PR 你不会，反而把整个仓库的 merge 标准抬高了。
+瓶颈一直在搬家：写代码不再是瓶颈、CI 验证也快不是了、4.7 出来后 hill climbing 真能用了。Jarred 的下一个判断是 planning——什么该做、什么不该做、谁来按 merge 那一下。
+	
+#Claude[话题]# #Anthropic[话题]# #ClaudeCode[话题]# #Bun[话题]# #Jarred[话题]# #BorisCherny[话题]# #LiveCoding[话题]# #AI编程[话题]# #开发者工作流[话题]# #克劳得Everything[话题]#
+
+
+标签: #Claude #Anthropic #ClaudeCode #Bun #Jarred #BorisCherny #LiveCoding #AI编程 #开发者工作流 #克劳得Everything

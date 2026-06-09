@@ -1,0 +1,37 @@
+{
+  "id": "69ba36a500000000230054c1",
+  "type": "normal",
+  "title": "GTC杨植麟k2.5演讲现场live（录音豆实测",
+  "desc": "今天去现场听了k2.5的分享，有一种梦回组会的烧脑感，几篇论文大串讲十分intense，感受到了kimi在模型技术上的品味追求，优雅。\n\t\n整个演讲将scaling工作分为三个部分：token efficiency、long context、agent swarm，并介绍了一下最近kimi在视觉、架构上的新探索。横跨了pretrain、post train（尤其是rl for agents）各个领域，串讲了kimi长期的技术品味和方向，内容非常扎实，定位依然先锋。\n\t\n作为做数据方向的人，我一如既往欣赏token efficiency的工作。这里推荐一下k2的论文，有详细阐述data efficiency的议题和解决方案，尤其是data recipe的部分，把合成和筛选做得优雅清爽到极致。\n\t\n最惊艳我的部分是视觉-文本的联动，文本理解可以促进视觉任务的zero shot，同时视觉能力又可以增强文本（这里打算去读一下k2.5的论文）\n\t\n除此之外在应用方面的探索，即agent swarm的实操也很干货，直接去截图了slides留存了优雅的高清版架构图。也可以看出kimi做应用是为了做模型服务的，dream big，模型是第一位。用视觉能力画网页是一个不错的场景，但更像是视觉能力的一个官方practice，期待后续有更多场景，释放他们在预训练中加入视觉的更多潜力。\n\t\n让我感觉神奇的是long context那部分竟然直接从lstm和tranformer的对比讲起，并提出了自己的attention residual方法（这里开始大讲公式了，没有预习过论文于是脑子没跟上）\n\t\nending也是十分高追求，可以看出kimi在模型架构探索上的野心。我对这种目标高远的纯粹技术追求很respect，做agi的公司确实不一样，支持aim high。\n\t\n再来锐评一下录音豆这个产品：\n1. 效果上，对于听现场演讲，确实能大大解放注意力。之前掏电脑记录，执行类工作本身也会占用我听内容的带宽。所以能有行车记录仪，再加上很便携，好用不必多说。\n2. 功能上，Summary比逐字稿的效果好不少，其实详细去看转录文本，还是能看到很多错误，尤其专业名词识别不准。不能做到在完全没听现场/视频的情况下完全依赖妙记。工具再多，脑子也抄不了近道。\n#kimi[话题]##gtc[话题]##飞书录音豆[话题]#",
+  "tags": [
+    "kimi",
+    "gtc",
+    "飞书录音豆"
+  ],
+  "author": "yusisi",
+  "authorId": "624b1ff1000000002102222e",
+  "time": 1773811365000,
+  "ipLocation": "",
+  "likes": "103",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090928/cf34da74dd351005978a754529c7a9aa/1040g00831trfkegsmu005oib3vooc8he4606v50!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090928/bded80b8937dc2d087a87777788d6f1e/notes_uhdr/1040g3qo31trhcmr272005oib3vooc8heu700s30!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090928/78342f48c1bddc5fd912df8c0a5ec992/notes_uhdr/1040g3qo31trhcmr2720g5oib3vooc8hettcpflo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090928/3cfda3724e67136e269156b85ca4ad40/1040g00831trfkegsmu0g5oib3vooc8helbpqlio!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090928/3dacc5a80ad9397b9eef9c11519fab30/notes_uhdr/1040g3qo31trhcmr272105oib3vooc8hem3r0hh8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090928/e45bcbfd08717a3a4ccc6975aab4cf02/notes_uhdr/1040g3qo31trhcmr2721g5oib3vooc8he4cdrtg0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090928/9faf529e7a6d5c6100c5240e23909f36/notes_uhdr/1040g3qo31trhcmr272205oib3vooc8he5rcj588!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090928/e28bb276c388ba7ead34b8ae6da5cf0e/1040g00831trfkegsmu105oib3vooc8hed525v00!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090928/b743b4ec146762358640e2e41a4be7de/1040g00831trfkegsmu1g5oib3vooc8hed6986jg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090928/f07027f223c00f4c7bcc195e40229e92/1040g00831trfkegsmu205oib3vooc8heabpalt0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090928/735f0cc1f0f19cbb093afff728aa8a20/notes_uhdr/1040g3qo31trhcmr2722g5oib3vooc8hel46qva0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090928/2fcae6947af5da1c8d090dc7958b5463/notes_uhdr/1040g3qo31trhcmr272305oib3vooc8heka7ia48!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090928/c9e17ec23b0de3a21a1b971a76bf6192/notes_uhdr/1040g3qo31trhcmr2723g5oib3vooc8he6i4ofh8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090928/80b2bd3308bc714a852f12308b77af71/notes_uhdr/1040g3qo31trhcmr272405oib3vooc8hetgdh0ag!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090928/dc16dd4330b4827bee58fe93672d2877/notes_uhdr/1040g3qo31trhcmr2724g5oib3vooc8heoa5odi0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090928/ef994230eface3c5a2b7f4b9cdf30408/notes_uhdr/1040g3qo31trhcmr272505oib3vooc8heuempuso!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090928/82e1de7c7fe077f355bf2304105e8c58/notes_uhdr/1040g3qo31trhcmr2725g5oib3vooc8he2i1koto!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69ba36a500000000230054c1?xsec_token=ABB_38EiihQLHVEmJaX68ddjwukxZb8Au4A0Z0CU3B73A=&xsec_source=pc_collect"
+}

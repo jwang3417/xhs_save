@@ -1,0 +1,41 @@
+{
+  "id": "6a05180d0000000013020401",
+  "type": "normal",
+  "title": "Anthropic RAG 架构: Contextual Retrieval",
+  "desc": "Anthropic 的工程博客介绍了他们的 RAG 系统架构，核心基于：\n\t\nHybrid Retrieval + Contextual Retrieval 优化 + Reranker\n\t\n其中最关键的思想是：\n不只是把文档切成 chunk 后直接做 embedding，而是先给每个 chunk 补上一小段“上下文说明”，再用于检索。\n\t\n这是一个精彩的AI RAG 系统架构和优化。\n\t\n#ai[话题]# #AI编程[话题]# #mle[话题]# #ai学习[话题]# #aicoding[话题]# #aiagent[话题]# #人工智能[话题]# #llm[话题]# #rag[话题]# #面试[话题]#",
+  "tags": [
+    "ai",
+    "AI编程",
+    "mle",
+    "ai学习",
+    "aicoding",
+    "aiagent",
+    "人工智能",
+    "llm",
+    "rag",
+    "面试"
+  ],
+  "author": "SleepingBear",
+  "authorId": "61d67d89000000001000c76b",
+  "time": 1778718733000,
+  "ipLocation": "美国",
+  "likes": "450",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090714/6baf2b3affb4ca80beb061f8cdcacd28/oss-sg/notes_pre_post/1040g3mo3204l5nf07k005oemfm4k1hrb7ven88o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/d227a46e4a1fafceccc4e76e779032d3/oss-sg/notes_pre_post/1040g3mo3204l5pde7i005oemfm4k1hrb2vjd4o8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/a7ec5b021e60faf100fdec86f734fb34/oss-sg/notes_pre_post/1040g3mo3204l5p8m7k005oemfm4k1hrbdkjldrg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/b339b87aed7e4393aa863d32d0abe2a2/oss-sg/notes_pre_post/1040g3mo3204l5nj17c005oemfm4k1hrbfm1vgn8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/9097404cc3dce994a1bddc8d01a5f735/oss-sg/notes_pre_post/1040g3mo3204l5p3qng005oemfm4k1hrbolg8p6g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/5bc2119d761a4a03b7166603a497c9a0/oss-sg/notes_pre_post/1040g3mo3204l5ouq7g005oemfm4k1hrbte1f21o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/ae39403292198df3f63c8ce919a97d1a/oss-sg/notes_pre_post/1040g3mo3204l5oq57e005oemfm4k1hrbntndhjg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/6879e8a29b2d7f591b103ebebf59a8da/oss-sg/notes_pre_post/1040g3mo3204l5ojjnc005oemfm4k1hrbem3oobo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/14c1782500b9d6161666eaee203c7ff6/oss-sg/notes_pre_post/1040g3mo3204l5oer7g005oemfm4k1hrb3ekefeo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/7c80a07b3605c9eca2c0c85d0709707c/oss-sg/notes_pre_post/1040g3mo3204l5o9f7c005oemfm4k1hrbdnrv870!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/e5ecd8c1beac69787c6ef69f3b0f681e/oss-sg/notes_pre_post/1040g3mo3204l5o4e7i005oemfm4k1hrbvhiqsn0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/f709acd143af91f187f55ef9794f1913/oss-sg/notes_pre_post/1040g3mo3204l5o0d7i005oemfm4k1hrbkp64v68!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/80be7f558eaae1bae41bf2ebf8bb477c/oss-sg/notes_pre_post/1040g3mo3204l5nr0nc005oemfm4k1hrbabsqjuo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090714/144a1fda0a966173e42bc6bbdb673cc0/oss-sg/notes_pre_post/1040g3mo3204l5nn2ne005oemfm4k1hrbn7sss2g!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a05180d0000000013020401?xsec_token=ABV9CTEV_FqNS7QppXkQYWj3_FPSbryTRAKDd_kqtUkj8=&xsec_source=pc_collect"
+}

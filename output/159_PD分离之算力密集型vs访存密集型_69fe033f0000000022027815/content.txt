@@ -1,0 +1,6 @@
+PD分离之算力密集型vs访存密集型
+
+用Claude画了个推理阶段，Prefill和Decode的动画，便于理解访存密集和算力密集，欢迎指正 #vllm[话题]# #deepseek[话题]# #pd分离[话题]#
+
+
+标签: #vllm #deepseek #pd分离

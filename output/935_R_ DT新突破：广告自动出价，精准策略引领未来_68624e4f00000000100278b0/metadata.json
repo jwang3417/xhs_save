@@ -1,0 +1,24 @@
+{
+  "id": "68624e4f00000000100278b0",
+  "type": "normal",
+  "title": "R* DT新突破：广告自动出价，精准策略引领未来",
+  "desc": "📜 翰林侍读在此！给陛下奉上今日AI领域的论文速报！\n📅 右滑查看士子奏报和论文重要图表——\n👨‍🎓 关注微臣，每天批阅更多奏章！\n📚 论文标题：Optimal Return-to-Go Guided Decision Transformer for Auto-Bidding in  Advertisement\n🔗 Arxiv ID：2506.21956v1\n🔑 关键词：auto-bidding, Decision Transformer, generative models, RTG value, R* DT\n📖 太长不看版：引入R*决策转换器优化在线广告自动出价，有效处理混合质量轨迹，提升出价策略的优化效果。\n📝 摘要翻译：在在线广告领域，广告商通过广告拍卖来获取广告位，通常利用需求方平台提供的自动出价工具。为了提高这些出价系统的自动化程度，我们采用生成模型，即决策转换器（DT），来解决自动出价中固有的困难。将决策转换器应用于自动出价任务，实现了一种统一的方法来处理序列建模，通过捕捉过去出价行为和用户行为之间的长期依赖关系，有效地克服了短视行为。然而，传统的DT存在一些缺点：（1）DT在生成动作之前需要预设的返回到状态（RTG）值，而这个值并非自然产生；（2）DT学习到的策略受限于其训练数据，这些数据包括混合质量的轨迹。为了解决这些挑战，我们引入了R*决策转换器（R* DT），其开发过程分为三个步骤：（1）R DT：类似于传统的DT，R DT根据状态和RTG值存储动作，并使用训练集记住给定状态的RTG；（2）R^ DT：我们预测给定状态的RTG的最高值（在训练集内），基于当前状态和预测的最高RTG值，得出一个次优策略；（3）R* DT：基于R^ DT，我们生成轨迹，并使用模拟器选择那些具有高奖励的轨迹来增强我们的训练数据集。这种数据增强已被证明可以提高训练数据中轨迹的RTG，并逐渐将次优策略引导向最优。在公开的出价数据集上进行的全面测试验证了R* DT的有效性，并突出了它在处理混合质量轨迹时的优越性。\n🔍 本帖由AI整理生成，若有错误欢迎朱批！\n👉🏻 求一个关注，让我更有动力为大家整理更多的AI领域的新文章！\n#LLM[话题]# #NLP[话题]# #AI[话题]# #大模型[话题]# #人工智能[话题]# #论文阅读[话题]#",
+  "tags": [],
+  "author": "LLM 翰林院",
+  "authorId": "6468629c0000000012037726",
+  "time": 1751273039000,
+  "ipLocation": "",
+  "likes": "13",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091336/35f22c054703a16149075ae9c3b7bc2a/spectrum/1040g34o31jbm8sjgiu105p38cae4mtp6k1jpkj0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/150951404a79075088b123b988c819b1/spectrum/1040g0k031jbm8vts30005p38cae4mtp6ehqfbpo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/d37a0c59d86f8c322422b9fe481b8ffc/spectrum/1040g0k031jbm93t5iu005p38cae4mtp65iuepo8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/65d721a69fa7dff71876a909a63f7507/spectrum/1040g34o31jbm96qkj2105p38cae4mtp6o9ofcvo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/4efecbe56cc97739844c9f0d8b307f07/spectrum/1040g34o31jbm99vkj0105p38cae4mtp6htjtbu0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/f85a43baf760b99369727db19de93b82/spectrum/1040g34o31jbm9d0v34105p38cae4mtp6ohtm7mg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/980433c75259abad4198afc39dfe524f/spectrum/1040g0k031jbm9huc34005p38cae4mtp68315ero!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091336/008af00c39fa244041deb7c881873b88/spectrum/1040g34o31jbm9kthio0g5p38cae4mtp65pbst28!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68624e4f00000000100278b0?xsec_token=ABpBiI1HbcRmvvbYmyrO15AhxR4jPZopI9YVT7I5riW88=&xsec_source=pc_collect"
+}

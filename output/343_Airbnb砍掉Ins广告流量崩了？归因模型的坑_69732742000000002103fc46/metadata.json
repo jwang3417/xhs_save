@@ -1,0 +1,37 @@
+{
+  "id": "69732742000000002103fc46",
+  "type": "normal",
+  "title": "Airbnb砍掉Ins广告流量崩了？归因模型的坑",
+  "desc": "1. 核心矛盾：模型错配\nInstagram 在 Airbnb 业务里扮演的是“种草”和“激发”的角色，而 Last Click 模型只奖励离钱最近的“收割”渠道。用收割的标准去考核种草，预算肯定保不住，甚至会因为砍掉源头导致大盘崩盘。\n\t\n2. 破局逻辑：移除效应\n引入马尔可夫链，核心不是秀算法，而是利用移除效应。逻辑很简单：模拟把 Instagram 从所有用户路径中“删掉”，计算整体转化概率会跌多少。跌掉的那部分，就是它被 Last Click 埋没的真实“助攻价值”。\n\t\n3. 量化与落地三板斧\n重算 CPA： 用模型归因后的贡献数重算成本，你会发现 Instagram 其实是很便宜的获客源，性价比极高。\n看助攻系数： 建立指标（模型转化数 / Last Click 转化数），系数远大于 1 就证明它是强助攻型渠道，必须保留。\n终极验证： 建议做 Geo Lift Test（地理隔离实验）。在一个区域停投 Instagram，如果该区域大盘总单量明显下滑，这就是最无可辩驳的实锤。\n\t\n4. 价值升维\n分析师的任务不是死算数，而是还原业务真相。保住预算只是第一步，更深层的是要优化“种草-拔草”的链路效率，减少渠道间的重复付费，把钱花在刀刃上。\n#数据分析实战[话题]#  #知识库[话题]#  #数据集[话题]#  #Airbnb[话题]#  #归因模型[话题]#  #马尔可夫链[话题]#  #LastClick[话题]#  #广告投放[话题]#  #渠道价值[话题]#  #数据决策[话题]#",
+  "tags": [
+    "数据分析实战",
+    "知识库",
+    "数据集",
+    "Airbnb",
+    "归因模型",
+    "马尔可夫链",
+    "LastClick",
+    "广告投放",
+    "渠道价值",
+    "数据决策"
+  ],
+  "author": "数据分析｜Z70",
+  "authorId": "66fe82c4000000001d021ff9",
+  "time": 1769162503000,
+  "ipLocation": "",
+  "likes": "799",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090943/66285bbc3243015bb6d14a23258278b1/spectrum/1040g0k031rm4mk8ji6005pnugb27c7vps485pc0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090943/6d9c186bf0a466d21998a7c59ed07da3/spectrum/1040g0k031rm4mk8ji60g5pnugb27c7vpn0651v0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090943/382dbd59fd696a352fd7c31f975dd465/spectrum/1040g0k031rm4mk8ji6105pnugb27c7vpld7r1uo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090943/561e4d9e80b5eb29881fbf8df6136779/spectrum/1040g0k031rm4mk8ji61g5pnugb27c7vpu9l4tc0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090943/0a2fc16f295a6dbcf1abc02e001c99fb/spectrum/1040g0k031rm4mk8ji6205pnugb27c7vpth7n0bg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090943/b1c3eb92cd7e4bc076e3ceaebeb2f079/spectrum/1040g0k031rm4mk8ji62g5pnugb27c7vp9lg2pmg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090943/a23f696f53aeb5fb9d696dccf432c0ad/spectrum/1040g0k031rm4mk8ji6305pnugb27c7vpt2mch8o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090943/5b92b76b29b6cc29ca0d5ec28abe09be/spectrum/1040g0k031rm4mk8ji63g5pnugb27c7vpt6o0o08!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090943/6453bd6e8ca65ce25f5482208d020de1/spectrum/1040g0k031rm4mk8ji6405pnugb27c7vpi44vqf8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090943/358e8578289693b414649a58631d30c2/spectrum/1040g0k031rm4mk8ji64g5pnugb27c7vpkbajjq8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69732742000000002103fc46?xsec_token=ABpvvBp8oz9uSmbnEAhqoUJVLWlCe2Xg-0lul7sZveYVA=&xsec_source=pc_collect"
+}

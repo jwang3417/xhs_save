@@ -1,0 +1,39 @@
+{
+  "id": "685d19be000000000d027b7a",
+  "type": "normal",
+  "title": "原来DPO这么好懂！",
+  "desc": "提到DPO，虽然从实践上来看它简单明了。但是从原理上究其是如何推导设计出来的，则可能令很多人感到头疼。\n偏偏这一点是真正理解DPO的关键（能帮助我们知道DPO的局限性、了解它和真正意义上属于RL范畴的后训练方法间的差异）。\n本文通过尽可能详实的解读、通俗易懂的公式推导，帮助大家了解DPO的更多细节。\n虽然看起来数学公式会多一些，但本文会对每行推导进行尽可能具像化和通俗的解释，帮助大家无痛阅读。\n\t\n【🌟更好的全文阅读体验，请参见主页置顶】\n\t\n#大模型[话题]# #大模型后训练[话题]# #大模型训练[话题]# #rlhf[话题]# #强化学习[话题]# #dpo[话题]# #ppo[话题]#  #llm[话题]# #rl[话题]# #大模型面试[话题]#",
+  "tags": [
+    "大模型",
+    "大模型后训练",
+    "大模型训练",
+    "rlhf",
+    "强化学习",
+    "dpo",
+    "ppo",
+    "llm",
+    "rl",
+    "大模型面试"
+  ],
+  "author": "猛猿",
+  "authorId": "685a94f3000000001d0091b9",
+  "time": 1750931902000,
+  "ipLocation": "",
+  "likes": "295",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091338/a98b4363a0f98ba2e81a2276a913bdd7/1040g00831j68qajc2oig5q2qijpn94dpb3d1e00!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/1e7b112a9bdb4f9bf25c6b5a618e1b3a/spectrum/1040g34o31j6j5vliiab05q2qijpn94dp858v2q0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/f42dcf6011676b25e6655d380f4c1df1/spectrum/1040g34o31j6j5vliiabg5q2qijpn94dpgnf55fo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/b88c3fd584d8c012fe9224bf94ca2f74/spectrum/1040g34o31j6j5vliiac05q2qijpn94dpcikn6h0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/4fc96e88042f43e0ab200d0dea3e0346/spectrum/1040g34o31j6j5vliiacg5q2qijpn94dpeb0mrjo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/eb47d9f1919482e820144dd35f9493d7/spectrum/1040g34o31j6j5vliiad05q2qijpn94dpj372tvg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/81df84c74dcd0554e82080faeda08b34/spectrum/1040g34o31j6j5vliiadg5q2qijpn94dpnjc8f90!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/36c90c54304deaf1f095c9b43f078262/spectrum/1040g34o31j6j5vliiae05q2qijpn94dpjku8mpg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/5450345adefaaf8564f79c8d2de00938/spectrum/1040g34o31j6j5vliiaeg5q2qijpn94dpeam7u9g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/108bc2f2f8dded70a72aaab622c0a5fc/spectrum/1040g34o31j6j5vliiaf05q2qijpn94dp51aet20!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/3b89d8b2fc69c3f2da8737ae428a5670/spectrum/1040g34o31j6j5vliiafg5q2qijpn94dpu3i1hkg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091338/df55256f43257913dc2227995caf0b4e/spectrum/1040g34o31j6j5vliiag05q2qijpn94dp6u4t05o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/685d19be000000000d027b7a?xsec_token=ABD-999hfViP3YiBl8nEgppi0Kq9nhlNiEZYS-7ZAGaes=&xsec_source=pc_collect"
+}

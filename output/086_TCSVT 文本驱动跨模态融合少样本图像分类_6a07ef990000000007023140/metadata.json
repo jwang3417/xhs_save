@@ -1,0 +1,17 @@
+{
+  "id": "6a07ef990000000007023140",
+  "type": "video",
+  "title": "TCSVT 文本驱动跨模态融合少样本图像分类",
+  "desc": "你是否曾为少样本图像分类中模型容易过拟合、泛化能力差而烦恼？\n今天介绍的TCFF-Adapter，通过创新的跨模态特征融合模块和文本驱动适配器，巧妙结合视觉与文本语义，显著提升模型在未见数据上的泛化性能。\n在八个基准数据集上的实验证明，它超越了现有最先进方法。\n想知道如何实现？点击视频，一探究竟！\n#TCFFAdapter #少样本学习 #跨模态融合 #图像分类 #CLIP模型 #元学习 #适配器调优 #计算机视觉 #人工智能研究 #SCI论文",
+  "tags": [],
+  "author": "硕博成长",
+  "authorId": "668bc0fa000000000f036967",
+  "time": 1779710449000,
+  "ipLocation": "中国香港",
+  "likes": "27",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090710/2938c4e2ba30f6fbb3071b9eb1473bc5/spectrum/1040g0k03207e6hl85e005pkbo3t3uqb7m3kpqu0!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/114/01ea07ef4e188b81010370019e2f04b1e0_114.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a07ef990000000007023140?xsec_token=AB9Utazs_2RNvJPH13cSqMy49pXVLK7X-dr62Su_TOoK4=&xsec_source=pc_collect"
+}

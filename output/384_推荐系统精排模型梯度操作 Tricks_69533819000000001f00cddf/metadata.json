@@ -1,0 +1,28 @@
+{
+  "id": "69533819000000001f00cddf",
+  "type": "normal",
+  "title": "推荐系统精排模型梯度操作 Tricks",
+  "desc": "最近在调精排模型的时候又踩了几个坑，索性把梯度作这块的tricks整理一下，感觉这个话题讨论的人不多但确实挺重要的。\n\t\n先说gradient clipping吧，这个大家都知道但是很多人clip的阈值设置有问题。我之前直接用的默认1.0结果发现收敛特别慢，后来改成5.0或者10.0效果好很多。关键是要看你的损失尺度，如果用了multi-tasks learning那个梯度magnitude天然就大，clip太狠模型根本学不动。\n\t\n还有gradient accumulation，这个在精排场景特别有用因为样本太大了batch size上不去。但注意accumulation steps别设太大，我试过32步发现梯度噪声被平均掉太多反而泛化变差了，一般4到8步比较合适。记得把learning rate按照effective batch size等比例调大，不然等于白做。\n\t\n最近在用的一个比较新的trick是adaptive gradient clipping，就是meta那篇论文nfnets里提到的方法。它不是直接clip梯度的l2 norm而是clip梯度和参数的比值，这样每层的更新幅度会更合理。我在ctr模型上试了下确实比固定阈值稳很多，特别是embedding层和全连接层的更新节奏能对齐。\n\t\n有个容易忽略的点是warm-up的实现。很多人就线性warm-up完事了，但我发现用cosine schedule做warm-up会更丝滑。前几百步梯度不稳的时候慢慢爬升，等稳定了再快速提到目标lr，这样初期不容易炸。\n\t\n对了如果你用了mixed precision training记得开gradient scaling，不然fp16下溢出是常态。pytorch的话直接用gradscaler就行，初始scale factor我一般设成1024或者2048，然后让它自己动态调整。\n\t\n说个debugging技巧，训练的时候可以定期log一下各层梯度的统计信息比如mean和std，如果发现某层梯度一直接近0那肯定是梯度消失了，该加residual connection或者调初始化方式。反过来如果某层梯度特别大就考虑是不是该clip或者降lr了。\n\t\n精排这块梯度操作还是挺微妙的，很多时候模型效果上不去不是架构问题而是训练细节没处理好。这些tricks组合起来用的话一般能稳定提升个零点几个点，虽然不多但在精排场景已经很香了。\n#深度学习[话题]# #算法改进[话题]# #复现[话题]# #推荐系统[话题]##大模型[话题]##算法创新[话题]##模型训练[话题]##python[话题]##扩散模型[话题]##调参[话题]#",
+  "tags": [
+    "深度学习",
+    "算法改进",
+    "复现",
+    "推荐系统",
+    "大模型",
+    "算法创新",
+    "模型训练",
+    "python",
+    "扩散模型",
+    "调参"
+  ],
+  "author": "算法小新",
+  "authorId": "64882d77000000002a035948",
+  "time": 1767061529000,
+  "ipLocation": "",
+  "likes": "198",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090953/0f387afc16f239eb641b1556fab531f9/1040g2sg31qmupeh57ukg5p485lrqmma8g7res9g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69533819000000001f00cddf?xsec_token=ABbQyVWtJa9wbXKAfCNYuZKPwM-aaRpYrrdXjQCkRYD58=&xsec_source=pc_collect"
+}

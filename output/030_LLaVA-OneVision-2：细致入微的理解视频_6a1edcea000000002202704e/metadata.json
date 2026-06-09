@@ -1,0 +1,33 @@
+{
+  "id": "6a1edcea000000002202704e",
+  "type": "normal",
+  "title": "LLaVA-OneVision-2：细致入微的理解视频",
+  "desc": "🎬 给 AI 看一段跳绳视频，问它跳了几下。\n它大概率瞎报一个数。\n\t\n🤔 原因有点意思。\n\t\n现在的视频大模型基本都按固定时间抽帧，每秒拿一张图。\n\t\n可动作不是匀速的——\n跳绳那一下又快又密，正好掉进两张图的缝里，模型直接没看见。\n\t\nLLaVA-OneVision-2 换了个思路：\n不按时间抽，按画面变化抽，哪儿动得猛就多看两眼。\n\t\n同样的预算数跳绳，老办法只对 14 个，它对了 82 个。\n\t\n💬 这套「按信息密度看视频」的思路，你觉得还能用在哪？\n评论区聊聊👇\n\t\n先收藏，这方向我接着更。\n点关注，不迷路 📌\n\t\n#AI前沿[话题]# #论文分享[话题]# #论文阅读[话题]# #带你一起读论文[话题]# #小红书科技AMA[话题]# #多模态大模型[话题]# #前沿论文[话题]# #LLaVA[话题]# #视频理解[话题]# #llavaonevision[话题]#",
+  "tags": [
+    "AI前沿",
+    "论文分享",
+    "论文阅读",
+    "带你一起读论文",
+    "小红书科技AMA",
+    "多模态大模型",
+    "前沿论文",
+    "LLaVA",
+    "视频理解",
+    "llavaonevision"
+  ],
+  "author": "AI解析新纪元",
+  "authorId": "69b042880000000032026606",
+  "time": 1780488063000,
+  "ipLocation": "上海",
+  "likes": "69",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090703/9d1c77617ccd9a3158d6d4fed2f6e25c/spectrum/1040g0k0320tqcdom74005qdg8a4ckpg65nukgh8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090703/9a5229651fa0bb7f63f0115f58f31913/spectrum/1040g0k0320tqcdom740g5qdg8a4ckpg61opu0q8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090703/6ccc4adacbfb0eb82ecc6daac0e3143a/spectrum/1040g0k0320tqcdom74105qdg8a4ckpg6qf6o03g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090703/c9c8e2ba712de7c30edcbf3ef15c832e/spectrum/1040g0k0320tqcdom741g5qdg8a4ckpg63gvkf9o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090703/cab6b75da858129fdceb5f3a623f32fd/spectrum/1040g0k0320tqcdom74205qdg8a4ckpg6sooia70!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090703/90e5eb439683bc778ec32e111a342766/spectrum/1040g0k0320tqcdom742g5qdg8a4ckpg6n9l0c40!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a1edcea000000002202704e?xsec_token=ABm_8QwE5ve-dMKM6ej-TAYHk17dVhKo3R6uHfK6tb0Q0=&xsec_source=pc_collect"
+}

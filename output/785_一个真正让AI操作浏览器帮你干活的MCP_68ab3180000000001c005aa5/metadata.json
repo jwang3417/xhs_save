@@ -1,0 +1,22 @@
+{
+  "id": "68ab3180000000001c005aa5",
+  "type": "video",
+  "title": "一个真正让AI操作浏览器帮你干活的MCP",
+  "desc": "终于让ClaudeCode通过操纵浏览器来给我真正干一点杂活了！\n\t\nChrome MCP是目前最接近理想的浏览器自动化工具，直接操作你现在正在用的浏览器，所有登录状态都能保持。\n\t\n不像PlayWright每次都启动全新浏览器，什么都没有。\n\t\n演示了查看小红书和B站粉丝数，配置虽然步骤多一点，但是非常值得。\n\t\n有了这套机制，你就可以写定时任务让它每天自动跑这些任务，翻译网页、截图、总结网页、生成图表都支持。快去看看吧！\n\t\n﻿#ai编程[话题]#﻿ ﻿#cursor[话题]#﻿ ﻿#claudecode[话题]#﻿ ﻿#chromemcp[话题]#﻿",
+  "tags": [
+    "ai编程",
+    "cursor",
+    "claudecode",
+    "chromemcp"
+  ],
+  "author": "创哥的AI实验室",
+  "authorId": "6524fe6d000000002a019426",
+  "time": 1756049792000,
+  "ipLocation": "",
+  "likes": "584",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091201/8366d1b6a42710fb8bf01168e181b450/spectrum/1040g34o31lirn5fmks0g5p94vpmqj516aamv0j0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/79/110/259/01e8ab3180bbece30103700398dcbb540b_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68ab3180000000001c005aa5?xsec_token=ABeidtU_SyTH5ZIye_7QYvpyN2ybvDIAePqum_p1cW28M=&xsec_source=pc_collect"
+}

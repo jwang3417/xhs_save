@@ -1,0 +1,27 @@
+{
+  "id": "69368769000000001e039f51",
+  "type": "normal",
+  "title": "为什么现代LLM都抛弃 LayerNorm？",
+  "desc": "RMSNorm vs LayerNorm：为什么现代LLM都抛弃 LayerNorm？#大模型[话题]# #强化学习[话题]# #算法[话题]# #机器学习[话题]#",
+  "tags": [
+    "大模型",
+    "强化学习",
+    "算法",
+    "机器学习"
+  ],
+  "author": "AiGC面试宝典",
+  "authorId": "61c2ab5d000000001000bb93",
+  "time": 1765181290000,
+  "ipLocation": "",
+  "likes": "186",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090958/67740614e81545735db60d812abfc7f5/notes_pre_post/1040g3k031pqu89vc4k005oe2ldek1esj03eh8no!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090958/2d60fa0a59be9558db1c123976b423f0/notes_pre_post/1040g3k031pqu89vc4k0g5oe2ldek1esjhlk5qvg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090958/08c442ceda0648c2f1dccd0addc3b9f1/notes_pre_post/1040g3k031pqu89vc4k105oe2ldek1esjsnbadlo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090958/7d533b0b94cdd91d7b13bd1541baccc7/notes_pre_post/1040g3k031pqu89vc4k1g5oe2ldek1esj8ojl3ao!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090958/575cd524b3b69001715758bd9b893639/notes_pre_post/1040g3k031pqu89vc4k205oe2ldek1esjojof400!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090958/20cf6854028808b88b4aff4613a75464/notes_pre_post/1040g3k031pqu89vc4k2g5oe2ldek1esjcb37jhg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69368769000000001e039f51?xsec_token=ABY8jA6ITRkkstIov3DHeCNpeE9LOsad7KfNKXt2vUrsg=&xsec_source=pc_collect"
+}

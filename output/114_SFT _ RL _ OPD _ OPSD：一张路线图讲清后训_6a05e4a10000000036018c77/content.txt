@@ -1,0 +1,22 @@
+SFT / RL / OPD / OPSD：一张路线图讲清后训
+
+1. SFT 适合起步
+固定教师数据便宜、信号密集，适合早期训练；但学生接近教师分布后，边际收益下降，上限大致由教师决定。
+2. RL 适合突破
+RL 用学生 rollout 训练，策略改进会改变后续采样，具备复利效应；上限取决于 verifier，而不是教师。但早期 rollout 差、reward 稀疏，训练成本高。
+3. SFT-RS / RFT 只能抬高曲线
+过滤正确样本优于普通 SFT，但采样分布仍固定，无法解决 compounding 问题。
+4. 同族教师更高效
+tokenizer 和训练 recipe 匹配，使 teacher / student logprob 可逐 token 对齐，训练信号更多用于能力迁移，而不是模仿格式和风格。
+5. OPD 是同族教师下的升级
+学生自己采样，教师逐 token 反馈，兼具 on-policy coverage 和 dense signal，适合 mid-train SFT 后快速逼近教师；但仍受教师上限约束，不等价于 RL。
+6. 没有同族教师时，自蒸馏更有吸引力
+SDFT 让教师看到 expert demonstration，OPSD 让教师看到 ground-truth answer。二者天然匹配 tokenizer / recipe，但 hint 会移动教师分布，OPSD 尤其可能让少数 pivot token 支配梯度。
+7. 梯度几何解释稳定性差异
+RL 稀疏但近似无偏；SFT 稠密但有偏，偏置较分散；OPD 稠密有偏但 KL 通常更 diffuse；OPSD 稠密、有偏且可能高度集中，因此需要 KL clipping。
+8. 最优教师是 Pareto 问题
+目标不是最强教师，而是 reward gain 高、KL distance 低。RL、OPD、SFT、自蒸馏分别处在这条 Pareto 曲线的不同区域；未来方向是自动优化 hint / prompt，让教师信号更局部、更稳定。
+#SFT[话题]# #RL[话题]# #OPD[话题]# #OnPolicyDistillation[话题]# #后训练[话题]# #大模型训练[话题]# #强化学习[话题]# #监督微调[话题]# #模型蒸馏[话题]# #自蒸馏[话题]# #SDFT[话题]# #OPSD[话题]# #GRPO[话题]#
+
+
+标签: #SFT #RL #OPD #OnPolicyDistillation #后训练 #大模型训练 #强化学习 #监督微调 #模型蒸馏 #自蒸馏 #SDFT #OPSD #GRPO

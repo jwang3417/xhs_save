@@ -1,0 +1,26 @@
+{
+  "id": "68e398e00000000007039117",
+  "type": "normal",
+  "title": "Flow Matching 学习笔记（正则化流）",
+  "desc": "从博主@北极甜虾(南半球版） 得到灵感，希望能将每日的学习都进行记录，养成好的习惯，这也是一种复习的好的方式。\n近时间，科研小白打算从Flow Matching进行入手学习，Flow Matching作为跨时代的生成模型，同Stable Diffusion展开了激烈的对拼。\n本次记录的则是Flow Matching的基础Normalising Flows正则化流入手。\n——📖 每天一点点进步，终将积少成多。\n#深度学习[话题]# #机器学习[话题]# #入门[话题]# #每日学习[话题]#",
+  "tags": [
+    "深度学习",
+    "机器学习",
+    "入门",
+    "每日学习"
+  ],
+  "author": "摩乐乐",
+  "authorId": "673b70ae000000001d02e644",
+  "time": 1759746272000,
+  "ipLocation": "",
+  "likes": "230",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091105/ffea2577e816fe214edd5676095d477a/spectrum/1040g34o31n9ueohgl0005ppre2n7dpi4h18tekg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091105/9d6de5abb51c8354af9280ef8641a40f/spectrum/1040g34o31n9ueohgl00g5ppre2n7dpi4kl6tcu0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091105/aa2e1f862bf7389cc498619c64ea921e/spectrum/1040g34o31n9ueohgl0105ppre2n7dpi4ue57qbo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091105/d7d3f96d74693ce2a15d6d9225c3f46c/spectrum/1040g34o31n9ueohgl01g5ppre2n7dpi41ceroio!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091105/78d27a33cd82427594d1afe7d9229466/spectrum/1040g34o31n9ueohgl0205ppre2n7dpi4m45o2a0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68e398e00000000007039117?xsec_token=ABRmqW-j8c3Kxbpmm_YQVm2UcY0bnxpgJfSKXfwivPFME=&xsec_source=pc_collect"
+}

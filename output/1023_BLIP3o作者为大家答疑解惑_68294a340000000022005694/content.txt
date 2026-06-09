@@ -1,0 +1,15 @@
+BLIP3o作者为大家答疑解惑
+
+感谢大家的讨论，虚心接受大家的批评，望大家轻喷。想必大家已经熟悉了AR+diffusion的过程
+Tokens → Autoregressive → Diffusion → 像素，
+该流程将自回归与扩散模型结合。在这个框架里，自回归模型先生成一系列连续的视觉特征，用以逼近真实图像表示，这一类工作很多如Emu2, SeedX, MetaQuery等，有两个关键问题：
+真实图像特征来源：用 VAE 还是 CLIP 将图像编码为连续特征？
+特征对齐方式：用 MSE 损失，还是借助diffusion来对齐预测与真实的图像特征？
+比如CLIP+MSE就有Emu2等, VAE+diffusion就有MetaQuery等, 然后我们发现CLIP+diffusion的训练效率和生成质量在这几种组合里是最好的。
+CLIP+diffusion想法是，autoregressive model生成中间视觉特征, 然后condition on视觉特征, DiT生成CLIP feature, 最后再由一个diffusion从CLIP feature到real image。Inference涉及两次diffusion, 第一次是生成diverse的CLIP feature，第二次是把CLIP feature变到真实图片。我们这样做的原因是首先CLIP这种semantic feature相对于VAE feature，我们发现autoregressive model更容易学，再者在对连续的图像特征进行建模时，diffusion也要比MSE更好，因为diffusion去建模了图像分布，但MSE只是去逼近了分布的均值，所以MSE建模会导致sample图像不diverse。
+除了图像生成问题，如何去训练一个模型同时做图像理解和生成也是个问题，这就涉及到early fusion和late fusion的问题，但最终我们还是采用了late fusion，即冷冻图像理解模型，在此基础上只去训练图像生成。主要原因是如果同时训练，很难达到平衡使得两个任务表现都好，当然在不同数据规模和配比下同时训练会不会让其中某个任务或者两个任务同时变好，这个还有待研究（至少我们没有发现两个任务同时变好）
+	
+我们也在探索阶段，尽量开源所有的东西，包括所有处理好的预训练数据，重新标注的长caption，希望对大家有帮助﻿#多模态[话题]#﻿ ﻿#图像生成[话题]#﻿ ﻿#大模型[话题]#﻿
+
+
+标签: #多模态 #图像生成 #大模型

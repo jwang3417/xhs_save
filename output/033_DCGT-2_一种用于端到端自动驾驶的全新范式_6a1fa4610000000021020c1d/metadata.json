@@ -1,0 +1,21 @@
+{
+  "id": "6a1fa4610000000021020c1d",
+  "type": "video",
+  "title": "DCGT-2:一种用于端到端自动驾驶的全新范式",
+  "desc": "放弃语言或稀疏特征，主张将高保真的密集 3D 几何（像素级对齐的 3D 点云图）作为自动驾驶决策的基础表示。模型直接从视觉输入中提取三维空间和相机位姿，联合输出密集的 3D 几何重建与未来的车辆运动轨迹#大模型[话题]# #自动驾驶技术[话题]# #DVGT[话题]#",
+  "tags": [
+    "大模型",
+    "自动驾驶技术",
+    "DVGT"
+  ],
+  "author": "🍋说的都对",
+  "authorId": "636a8f4f000000001f01b6af",
+  "time": 1780458593000,
+  "ipLocation": "湖北",
+  "likes": "18",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090703/dd567c09996c182a47db3b5768bbe2a0/spectrum/1040g34o320uj0p36mu005oraht7nrdlf5shvs8o!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01ea1fa4203c555b010370039e8b9ab13c_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a1fa4610000000021020c1d?xsec_token=ABTe4gQ23b0l2HejUqPPOG5dPYFWTrgve3WfGwQdlK-28=&xsec_source=pc_collect"
+}

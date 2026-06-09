@@ -1,0 +1,27 @@
+{
+  "id": "69fdabc5000000001a036f98",
+  "type": "video",
+  "title": "5分钟速通大模型专业术语",
+  "desc": "大模型到底是怎么工作的？从训练到部署，几十个专业术语让人头大。\n这期视频按完整流程串联核心概念——\nToken & Embedding：文本怎么变成模型能理解的数字\nAttention & MHA：模型如何处理上下文关系\nDense vs MoE：两种主流架构的区别\n预训练 → SFT → RLHF：一个模型是怎么\"训练\"出来的\n量化 & 蒸馏：大模型如何跑在普通硬件上\nKV Cache & 推理框架：vLLM / SGLang 为什么快\nBenchmark & CoT：怎么评估一个模型的能力\n5分钟，把大模型的全貌看清楚。\n\t\n#大模型[话题]# #AI科普[话题]# #LLM[话题]# #深度学习[话题]# #Token[话题]# #Transformer[话题]# #RLHF[话题]# #人工智能[话题]# #硬核科普[话题]#",
+  "tags": [
+    "大模型",
+    "AI科普",
+    "LLM",
+    "深度学习",
+    "Token",
+    "Transformer",
+    "RLHF",
+    "人工智能",
+    "硬核科普"
+  ],
+  "author": "高老师的分享局",
+  "authorId": "617e3da9000000000201ba05",
+  "time": 1778329503000,
+  "ipLocation": "",
+  "likes": "105",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090707/27211ad12a76107512081a079b8abe92/spectrum/1040g34o31vtdclt0l4105obu7mkgjeg5vkq9euo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01e9fdab21170050010370039e06e7c785_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69fdabc5000000001a036f98?xsec_token=ABCNN5HfZmarSnapWiJ_vAJUEKxhFif0zL2ZHuqwSLGOU=&xsec_source=pc_collect"
+}

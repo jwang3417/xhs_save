@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小红书收藏 · 图文索引</title>
+<style>
+  :root{
+    --bg:#0f1115; --panel:#171a21; --card:#1d2129; --line:#2a2f3a;
+    --txt:#e8eaed; --sub:#9aa3b2; --red:#ff2e51; --chip:#252a34;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+       background:var(--bg);color:var(--txt);}
+  header{position:sticky;top:0;z-index:20;background:rgba(15,17,21,.92);backdrop-filter:blur(8px);
+         border-bottom:1px solid var(--line);padding:14px 20px;}
+  .htop{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .logo{font-weight:800;font-size:20px;color:var(--red);letter-spacing:.5px}
+  .stat{color:var(--sub);font-size:13px}
+  .search{margin-left:auto;flex:1;min-width:220px;max-width:420px}
+  .search input{width:100%;padding:9px 14px;border-radius:10px;border:1px solid var(--line);
+                background:var(--panel);color:var(--txt);font-size:14px;outline:none}
+  .search input:focus{border-color:var(--red)}
+  .themebar{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+  .chip{padding:6px 12px;border-radius:999px;background:var(--chip);color:var(--sub);
+        font-size:13px;border:1px solid transparent;cursor:pointer;user-select:none;white-space:nowrap}
+  .chip:hover{color:var(--txt)}
+  .chip.active{background:var(--red);color:#fff;border-color:var(--red)}
+  .chip b{font-weight:600;opacity:.7;margin-left:4px}
+  main{padding:18px 20px 60px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;
+        cursor:pointer;transition:transform .12s,border-color .12s;display:flex;flex-direction:column}
+  .card:hover{transform:translateY(-3px);border-color:var(--red)}
+  .thumb{position:relative;width:100%;aspect-ratio:3/4;background:#0a0c10;overflow:hidden}
+  .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+  .badge{position:absolute;top:8px;left:8px;background:rgba(0,0,0,.6);color:#fff;font-size:11px;
+         padding:3px 7px;border-radius:6px}
+  .cnt{position:absolute;top:8px;right:8px;background:rgba(0,0,0,.6);color:#fff;font-size:11px;
+       padding:3px 7px;border-radius:6px}
+  .cbody{padding:10px 12px 12px;display:flex;flex-direction:column;gap:6px}
+  .ctitle{font-size:14px;line-height:1.4;font-weight:600;display:-webkit-box;-webkit-line-clamp:2;
+          -webkit-box-orient:vertical;overflow:hidden}
+  .cmeta{display:flex;align-items:center;gap:8px;color:var(--sub);font-size:12px}
+  .cthemes{display:flex;gap:5px;flex-wrap:wrap}
+  .tg{font-size:11px;color:#b9c2d0;background:#222732;padding:2px 7px;border-radius:6px}
+  .empty{color:var(--sub);text-align:center;padding:60px 0}
+  /* lightbox */
+  .lb{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.85);display:none}
+  .lb.open{display:flex}
+  .lbinner{margin:auto;width:min(1100px,95vw);max-height:92vh;background:var(--panel);
+           border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+  .lbhead{display:flex;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line)}
+  .lbhead h2{font-size:17px;margin:0;flex:1;line-height:1.4}
+  .lbclose{cursor:pointer;color:var(--sub);font-size:24px;line-height:1;padding:0 6px}
+  .lbclose:hover{color:#fff}
+  .lbbody{display:flex;gap:0;min-height:0;flex:1}
+  .imgs{flex:1.4;overflow:auto;background:#0a0c10;padding:14px;display:flex;flex-direction:column;gap:10px}
+  .imgs img{width:100%;border-radius:8px;display:block}
+  .side{flex:1;min-width:280px;max-width:380px;padding:16px 18px;overflow:auto;border-left:1px solid var(--line)}
+  .side .desc{white-space:pre-wrap;line-height:1.7;font-size:14px;color:#d7dbe2}
+  .side .tags{margin-top:14px;display:flex;gap:6px;flex-wrap:wrap}
+  .side .row{color:var(--sub);font-size:13px;margin-top:14px;display:flex;gap:10px;flex-wrap:wrap}
+  .side a.src{display:inline-block;margin-top:16px;color:var(--red);text-decoration:none;font-size:14px}
+  .side a.src:hover{text-decoration:underline}
+  @media(max-width:720px){.lbbody{flex-direction:column}.side{max-width:none;border-left:none;border-top:1px solid var(--line)}}
+</style>
+</head>
+<body>
+<header>
+  <div class="htop">
+    <span class="logo">小红书收藏 · 图文索引</span>
+    <span class="stat" id="stat"></span>
+    <div class="search"><input id="q" placeholder="搜索标题 / 正文 / 标签…"></div>
+  </div>
+  <div class="themebar" id="themebar"></div>
+</header>
+<main>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" style="display:none">没有匹配的笔记</div>
+</main>
+
+<div class="lb" id="lb">
+  <div class="lbinner">
+    <div class="lbhead"><h2 id="lbtitle"></h2><span class="lbclose" id="lbclose">×</span></div>
+    <div class="lbbody">
+      <div class="imgs" id="lbimgs"></div>
+      <div class="side" id="lbside"></div>
+    </div>
+  </div>
+</div>
+
+<script src="gallery_data.js"></script>
+<script>
+const D = window.GALLERY_DATA;
+const grid = document.getElementById('grid');
+const empty = document.getElementById('empty');
+const themebar = document.getElementById('themebar');
+document.getElementById('stat').textContent =
+  `共 ${D.total} 篇 · ${D.images_total} 张图片`;
+
+let activeTheme = '全部';
+let query = '';
+
+function imgSrc(folder, file){
+  return 'output/' + encodeURIComponent(folder) + '/' + encodeURIComponent(file);
+}
+
+// 主题筛选条
+const allChip = chip('全部', D.total, true);
+themebar.appendChild(allChip);
+D.themes.forEach(t => themebar.appendChild(chip(t.name, t.count, false)));
+function chip(name, count, active){
+  const el = document.createElement('span');
+  el.className = 'chip' + (active ? ' active' : '');
+  el.innerHTML = name + ' <b>' + count + '</b>';
+  el.onclick = () => {
+    document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
+    el.classList.add('active');
+    activeTheme = name;
+    render();
+  };
+  return el;
+}
+
+document.getElementById('q').addEventListener('input', e=>{
+  query = e.target.value.trim().toLowerCase();
+  render();
+});
+
+function match(n){
+  if(activeTheme !== '全部' && !n.themes.includes(activeTheme)) return false;
+  if(query){
+    const hay = (n.title + ' ' + n.desc + ' ' + n.tags.join(' ')).toLowerCase();
+    if(!hay.includes(query)) return false;
+  }
+  return true;
+}
+
+function render(){
+  const list = D.notes.filter(match);
+  grid.innerHTML = '';
+  empty.style.display = list.length ? 'none' : 'block';
+  const frag = document.createDocumentFragment();
+  list.forEach(n=>{
+    const card = document.createElement('div');
+    card.className = 'card';
+    const cover = imgSrc(n.folder, n.images[0]);
+    card.innerHTML =
+      '<div class="thumb"><img loading="lazy" src="'+cover+'">' +
+      (n.type==='video' ? '<span class="badge">▶ 视频</span>' : '') +
+      '<span class="cnt">'+n.images.length+' 图</span></div>' +
+      '<div class="cbody"><div class="ctitle">'+esc(n.title)+'</div>' +
+      '<div class="cthemes">'+n.themes.slice(0,2).map(t=>'<span class="tg">'+esc(t)+'</span>').join('')+'</div>' +
+      '<div class="cmeta">❤ '+(n.likes||0)+(n.author?(' · '+esc(n.author)):'')+'</div></div>';
+    card.onclick = ()=>openLb(n);
+    frag.appendChild(card);
+  });
+  grid.appendChild(frag);
+}
+
+function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+
+const lb = document.getElementById('lb');
+function openLb(n){
+  document.getElementById('lbtitle').textContent = n.title;
+  document.getElementById('lbimgs').innerHTML =
+    n.images.map(f=>'<img loading="lazy" src="'+imgSrc(n.folder,f)+'">').join('');
+  const dt = n.time ? new Date(n.time).toLocaleDateString('zh-CN') : '';
+  document.getElementById('lbside').innerHTML =
+    '<div class="desc">'+esc(n.desc||n.title)+'</div>' +
+    '<div class="tags">'+n.tags.map(t=>'<span class="tg">#'+esc(t)+'</span>').join('')+'</div>' +
+    '<div class="row"><span>❤ '+(n.likes||0)+'</span>'+(n.author?'<span>作者: '+esc(n.author)+'</span>':'')+(dt?'<span>'+dt+'</span>':'')+'<span>'+(n.type==='video'?'视频':'图文')+'</span></div>' +
+    '<div class="tags" style="margin-top:10px">'+n.themes.map(t=>'<span class="tg">'+esc(t)+'</span>').join('')+'</div>' +
+    (n.url?'<a class="src" href="'+n.url+'" target="_blank">查看原文 ↗</a>':'');
+  document.getElementById('lbimgs').scrollTop = 0;
+  lb.classList.add('open');
+}
+function closeLb(){lb.classList.remove('open');}
+document.getElementById('lbclose').onclick = closeLb;
+lb.onclick = e=>{ if(e.target===lb) closeLb(); };
+document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeLb(); });
+
+render();
+</script>
+</body>
+</html>

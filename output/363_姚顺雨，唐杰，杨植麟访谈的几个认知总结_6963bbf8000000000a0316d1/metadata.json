@@ -1,0 +1,23 @@
+{
+  "id": "6963bbf8000000000a0316d1",
+  "type": "normal",
+  "title": "姚顺雨，唐杰，杨植麟访谈的几个认知总结",
+  "desc": "姚顺雨\n* ChatGPT今年和去年没有太大区别，但Coding已经重塑了计算机行业的做事方式\n* toC来说大部分人不需要这么强的智能（智能溢出）而toB更强的模型带来更多的生产力，会出现赢者通吃\n* 基模能力不会吞噬一切，比如ChatGPT Agent vs Gemini + Manus。toC侧或许成立，toB侧或许相反。\n* 模型即使不再进化，产能效率也有巨大提升空间，根因在于教育人去使用\n* toB的付费意愿和创新意愿是中国大模型发展的两大短板\n* 榜单不是一切，重要的是什么是正确的和体验\n点评：个人觉得是最有收获的一趴，毕竟是Oai出来的\n\t\n唐杰：\n* deepseek出世后chat模型已经到了优化尽头，应转向应用场景（如coding或deepresearch）\n* bench成绩不能代表模型能力，需要体感和人评的优化\n* 下一代优化的主线：1. 多模态 2. 记忆与持续学习 3. 反思与自我认知\n* Scaling的三个方向：1. 数据与模型规模 2. 推理时间 3. 环境；Scaling是一种“偷懒”的优化方式，技术范式的创新才是最重要的\n点评：唐的风格务实，整体干货也不太多，提到专注Code是比较成功的一个转变\n\t\n杨植麟\n* 模型架构的优化关键在于长上下文窗口下的token效率，这也是为什么Transfomer强于LSTM的本质原因\n* 做模型本质是创建世界观\n点评：很干，讲了他们模型架构的很多优化，本质也切合他们小公司在算力和资源有限的情况下需要拼的就是效率。\n\t\n林俊旸\n* 模型即产品（和yao的观点略不同）\n* 智能天然是需要多模态的\n* Qwen今年的能力提升在三方面：1. 总体能力（reasoning）2. 方言的支持 3. long context\n点评：有点老生常谈，大厂里面出来的认知确实不如前面CEO。\n\t\n讨论环境一些内容：\n* API厂商观察到美国的Coding类Token消耗巨大，而中国还很少\n#大模型[话题]# #姚顺雨[话题]# #智谱[话题]# #千问[话题]# #kimi[话题]#",
+  "tags": [
+    "大模型",
+    "姚顺雨",
+    "智谱",
+    "千问",
+    "kimi"
+  ],
+  "author": "Dynamo",
+  "authorId": "60f268e00000000001006155",
+  "time": 1768143864000,
+  "ipLocation": "",
+  "likes": "1,050",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090948/daeff8ca1a141c82826442609fba3e82/notes_pre_post/1040g3k031r72q79qn0005o7id3g08oalimrmu0g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6963bbf8000000000a0316d1?xsec_token=AB9szmyOuQRm6c2sU_xY_FkjeIxze9vQ5bTrJut6OackU=&xsec_source=pc_collect"
+}

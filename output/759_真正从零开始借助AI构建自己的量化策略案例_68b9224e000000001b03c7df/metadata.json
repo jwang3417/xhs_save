@@ -1,0 +1,22 @@
+{
+  "id": "68b9224e000000001b03c7df",
+  "type": "video",
+  "title": "真正从零开始借助AI构建自己的量化策略案例",
+  "desc": "这段短视频展示了一个从构思到交易策略构建的全过程。通过一个朋友提出的交易策略——“一进二”，我使用AI编程工具（Cursor）编写并优化策略代码，经过多次回测与调整，最终在股市波动中取得了不错的效果。视频中不仅分享了策略优化的经验，还展示了如何借助AI技术来快速实现和改进量化交易策略，帮助大家了解如何在没有编程基础的情况下，通过AI工具轻松构建自己的交易系统。#量化[话题]# #编程[话题]# #交易策略[话题]# #回测[话题]#",
+  "tags": [
+    "量化",
+    "编程",
+    "交易策略",
+    "回测"
+  ],
+  "author": "数分魔",
+  "authorId": "5a2e6d2be8ac2b4d5aee4fe3",
+  "time": 1756963406000,
+  "ipLocation": "",
+  "likes": "668",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091159/e132425861f1e0b5271c0880d8435990/spectrum/1040g34o31m0fjtjnkq104a07clmimjv3kf3tcvg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01e8b922320704cc0103700399132f36c1_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68b9224e000000001b03c7df?xsec_token=ABOi99YIVScVGjLszQazLFMRCyTqDSLEUFQNNhkirpduk=&xsec_source=pc_collect"
+}

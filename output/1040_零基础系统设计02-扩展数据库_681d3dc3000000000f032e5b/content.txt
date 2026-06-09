@@ -1,0 +1,11 @@
+零基础系统设计02-扩展数据库
+
+#系统设计[话题]#﻿
+	
+00:00 scaling database
+02:53 data replication
+05:34 data sharding
+07:46 Hotspot
+
+
+标签: #系统设计

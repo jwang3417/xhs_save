@@ -1,0 +1,30 @@
+{
+  "id": "69c7d6a40000000022028b65",
+  "type": "normal",
+  "title": "一口气读完 Flow Matching的生成魔法",
+  "desc": "Flow Matching 是现代扩散模型的基础，其本质是一场关于向量场（Vector Field）的指挥艺术，我们可以从三个方面理解它：\n\t\n✅ 从“孤点”到“全局”的跨越\n我们无法直接描绘复杂的整体数据分布，但我们可以为每一个已知的数据点 $z$ 修建一条“专属公路”（条件向量场）。\n\t\n✅ 边缘化的“魔法”积分\n这是全篇的灵魂。通过连续性方程（Continuity Equation）证明了：只要我们将无数条通往具体地点的“小路”按后验概率进行加权平均，就能在大规模概率海洋中萃取出一条通往高密度数据的“高速公路”。\n\t\n✅ 高斯路径的线性优雅\n附录B中的推导揭示了一个令开发者狂喜的事实：在引入高斯路径后，原本复杂的概率演化被简化成了简单的线性插值。这意味着训练时，我们只需要让神经网络去拟合一个极其简单的线性结构，就能获得极其强大的生成能力。#深度学习[话题]# #大模型[话题]# #科研学习[话题]# #机器学习[话题]# #diffusionmodel[话题]# #openclaw[话题]# #flowmatching[话题]# #FlowMatching[话题]##RED新生代创作大赛[话题]#",
+  "tags": [
+    "深度学习",
+    "大模型",
+    "科研学习",
+    "机器学习",
+    "diffusionmodel",
+    "openclaw",
+    "flowmatching",
+    "FlowMatching",
+    "RED新生代创作大赛"
+  ],
+  "author": "WTY",
+  "authorId": "67c2b3f0000000000e011f45",
+  "time": 1774704292000,
+  "ipLocation": "",
+  "likes": "334",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091313/fd96ec39cfc101d8657e6d4faafbc57f/spectrum/1040g0k031u8qpj2c1m005pu2mfo3i7q5dkdtooo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/933ebd06bd217d4c17f4faddfd591e63/spectrum/1040g0k031u8qpl4mhu705pu2mfo3i7q5m64ng8g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/c43dc5fb89e4c8f4b1d07019bc710abf/spectrum/1040g34o31u8qsg75340g5pu2mfo3i7q5jni1ca0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091313/341c798f8dd25c3becf40188ee1c8694/spectrum/1040g0k031u8qshbfis005pu2mfo3i7q5q4lpj1o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69c7d6a40000000022028b65?xsec_token=ABRtNd-0WoRNyGlofUnqRogYJTThFZPQ38Jy0e8KX3y0k=&xsec_source=pc_collect"
+}

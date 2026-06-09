@@ -1,0 +1,27 @@
+{
+  "id": "67bc6be000000000290083a9",
+  "type": "normal",
+  "title": "DiT：Transformer入驻扩散模型",
+  "desc": "[扯脸H] 属于经典系列，首次将Transformer架构引入扩散模型，替换传统 U-Net 结构，并针对扩散模型的需求进行优化，使其在输入数据格式、条件控制方式、计算效率和训练稳定性方面更适应扩散生成任务。\n\t\n[扯脸H] 内容导航\n图2-8: 全文概述\n图9-11: 核心模块AdaLN-Zero流程图\n\t\n[扯脸H] 文章提出的核心模块是AdaLN-Zero，在四种不同的条件信息注入方式中，取得了最优效果。它在 Adaptive LayerNorm 的基础上采用零初始化策略，确保训练初期稳定，后期逐步适应不同的扩散步长和类别信息，和Controlnet的零卷积思想异曲同工，都是训练初期不影响。\n\t\n[扯脸H] DiT算是扩散模型中比较重要的一个架构篇工作，给Transformer在扩散模型中定了基调，后续的Pixart也是在它的基础上进行改动。",
+  "tags": [],
+  "author": "Lalaeav",
+  "authorId": "5ab4943a4eacab0e8cbbf164",
+  "time": 1740401632000,
+  "ipLocation": "",
+  "likes": "22",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091341/6d8f20ef64bb5a9764367cdc247f9126/1040g00831e9md599gk004a3r6ha3lsb44uipdk8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/cfb90ede474bd5c9ef16d9cbaa503a78/1040g00831e9md599gk0g4a3r6ha3lsb4lhltlpg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/b867b535007221eefede16b29612ffb1/1040g00831e9md599gk104a3r6ha3lsb4fohfvc0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/2142bd20073a2ce7d992168606dc65b3/1040g00831e9md599gk1g4a3r6ha3lsb493iera0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/44cd3595960a6d3a13e1d3ac161abd6e/1040g00831e9md599gk204a3r6ha3lsb45unu758!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/6190dffa615de7ee6a714939861b6962/1040g00831e9md599gk2g4a3r6ha3lsb4ri5vka0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/f0b9ce5fd777f2535804d91dc485271c/1040g00831e9md599gk304a3r6ha3lsb4q4o17f0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/44b98d0e57fbab81aaa57f6ad71b89a2/1040g00831e9md599gk3g4a3r6ha3lsb4su417k0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/89998a070c588e0afced3505d46a966b/1040g00831e9md599gk404a3r6ha3lsb4iplhoqg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/aa8d0aa1951105cc98b797c168a6dae5/1040g00831e9md599gk4g4a3r6ha3lsb4n1hbb6g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/61f9a44388fa2e384c7059a2a7ea7abf/1040g00831e9md599gk504a3r6ha3lsb48pp3300!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/67bc6be000000000290083a9?xsec_token=ABw0RAzZHM84TIJsZLFdJC__9WVXMu7OcbDwjQHH-gfO8=&xsec_source=pc_collect"
+}

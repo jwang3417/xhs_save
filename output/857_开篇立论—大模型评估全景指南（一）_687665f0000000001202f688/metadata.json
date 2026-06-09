@@ -1,0 +1,33 @@
+{
+  "id": "687665f0000000001202f688",
+  "type": "normal",
+  "title": "开篇立论—大模型评估全景指南（一）",
+  "desc": "想象一下你正在面试一家头部互联网公司的AI算法或产品岗位，这家公司刚刚完成了对一个开源大模型（比如Qwen）的微调，旨在打造一个更懂自家业务的智能客服。\n\t\n面试官靠在椅背上，双臂交叉，看似随意地抛出了一个决定性的问题：\n\t\n面试官 👨‍💼： “我们用公司的客服聊天记录，对Qwen进行了微调。现在需要你来主导评估这次微调的效果。你会怎么做？请给出一个具体的、可执行的评估方案。”\n\t\n你 😅： （大脑飞速旋转）“呃... 我会先找一些典型的用户问题，分别问一下微调前后的模型，然后...对比一下它们的回答？”\n\t\n面试官 😑： （眉头微蹙）“‘对比一下’？怎么对比？对比的标准是什么？如果微调后的模型在回答业务问题时更准确了，但在通用聊天能力上却变差了（我们称之为‘灾难性遗忘’），这种情况你怎么衡量和取舍？我们如何向业务部门证明，这次花费了数十万计算资源的微调是‘成功’的？”\n\t\n是不是感觉压力瞬间翻倍了？\n\t\n这个问题不再是简单的“A/B二选一”，它直击了AI项目落地的核心：价值衡量。它考验的不仅是你的技术知识，更是你将技术效果与业务目标相结合的系统性思维能力。\n\t\n一个模糊的答案，可能会让你与这个机会失之交臂。而一个结构清晰、指标明确、考虑周全的评估方案，则会立刻让你成为众多候选人中的佼佼者。\n\t\n这篇文章，就是帮你构建这套思维框架的第一步。它将告诉你，我们为什么必须建立一套科学的评估体系，以及在给大模型，特别是微调后的大模型做“体检”时，会遇到哪些复杂而关键的挑战。\n\t\n所有干货都在图片里了，绝对是入门必看的基础篇！\n\t\n👉 左滑看图，开启你的评估第一课！\n\t\n后续会持续更新自动化评估、RAG/Agent评估等超实用内容，赶紧点个关注，上车不迷路！\n\t\n#大模型[话题]# #人工智能[话题]# #LLM[话题]# #技术干货[话题]# #大模型学习路线[话题]# #大模型评估[话题]# #产品经理[话题]# #算法工程师[话题]# #互联网大厂[话题]#  #大模型工程师[话题]#",
+  "tags": [
+    "大模型",
+    "人工智能",
+    "LLM",
+    "技术干货",
+    "大模型学习路线",
+    "大模型评估",
+    "产品经理",
+    "算法工程师",
+    "互联网大厂",
+    "大模型工程师"
+  ],
+  "author": "AI老编辑",
+  "authorId": "62d235400000000002002dae",
+  "time": 1752670853000,
+  "ipLocation": "",
+  "likes": "247",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091327/501c111494668f3f7b5777528359fd7d/1040g00831jvo7vdbj4kg5omi6l00gbde3tll9m8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091327/ce6c580656ebe87fef4d9ce58a0d1791/notes_pre_post/1040g3k031jva60nv2u405omi6l00gbdehmh4scg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091327/44e3e9897d438baff9258558c641084c/notes_pre_post/1040g3k031jva60nv2u205omi6l00gbdesi59gr8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091327/d8c7d03e47b65cdca552945e97e21bb8/notes_pre_post/1040g3k031jva60nv2u2g5omi6l00gbdev0qt4gg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091327/27374020b05114a8af5d3a1669971973/notes_pre_post/1040g3k031jva60nv2u5g5omi6l00gbdetdhrjtg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091327/abe15e47237004c2dc347d871ca8b2e5/notes_pre_post/1040g3k831jva60o2j4005omi6l00gbde79h44rg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/687665f0000000001202f688?xsec_token=AB6FS6R5ZM-MImigM4By54pOfofU7nq9cHJ8Uxiynl4ss=&xsec_source=pc_collect"
+}

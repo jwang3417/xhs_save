@@ -1,0 +1,30 @@
+{
+  "id": "69a6e5ab000000002203ba07",
+  "type": "normal",
+  "title": "扩散模型中，VAE隐空间正则化有什么作用？",
+  "desc": "🚩在早期的研究设定中往往默认「重建能力决定上限」，但近期如DC-AE和VA-VAE等工作证明这仅为必要非充分条件。盲目追求极致的rFID往往会引发潜在空间扭曲，进而导致gFID崩塌。\n🚩其核心Insight在于，VAE正则化的真正作用是通过平滑潜在分布来降低diffusion model拟合先验的难度。随着rFID指标局限性的暴露，研究重心正全面转向潜在空间的几何结构规整与可扩散性评估。今天就跟大家做一个专题分享，具体内容包括：\n\t\n👉核心Trade-off机制剖析：\n1）极致像素级重建导致的latent space扭曲问题；\n2）平滑分布对diffusion model拟合先验的必要性。\n\t\n👉引入inductive bias规整几何结构：\n1）LightningDiT：基于VA-VAE引入DINO-v2监督信号完成语义层面对齐，剥离高频细节拟合负担；\n2）EQ-VAE：引入equivariance正则化解决CNN架构几何变换不敏感问题，构建可预测的线性变换关系以提升表征效率。\n\t\n👉衡量latent space好坏的新共识（diffusability）：\n1）latent space的均匀性：奇异值分布的拟合度需具备高斯分布般的全空间覆盖特性；\n2）VAE decoder的鲁棒性：以l-DeTok为代表，强调解码器处理带有噪声或mask的latent representations并实现稳定还原的容错能力；\n3）manifold的平滑程度：针对shift与scale等微小几何变换的线性响应与分布平滑性验证。\n\t\n（由于文字篇幅限制，具体细节麻烦大家移步图片～👆）\n\t\n#深度学习[话题]#\n#大模型[话题]#\n#科研[话题]#\n#计算机视觉[话题]#\n#扩散模型[话题]#\n#博士生日常[话题]#\n#多模态人工智能[话题]#\n#diffusion[话题]#\n#vae[话题]#",
+  "tags": [
+    "深度学习",
+    "大模型",
+    "科研",
+    "计算机视觉",
+    "扩散模型",
+    "博士生日常",
+    "多模态人工智能",
+    "diffusion",
+    "vae"
+  ],
+  "author": "叫我Alonzo就好了",
+  "authorId": "632dbaa10000000023026ad9",
+  "time": 1772762424000,
+  "ipLocation": "",
+  "likes": "88",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090933/fb8621cbaa0ca1b0b28ccd6398d95503/spectrum/1040g0k031t8lmksh6e005opdnagosqmp012lv70!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090933/e9f21df0f2e85fe1567d3d9315b2bce7/spectrum/1040g0k031t8lmksh6e0g5opdnagosqmpqrddo8g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090933/3a6d33aa5878cca304eaf2979037175c/spectrum/1040g0k031t8lmksh6e105opdnagosqmplt2u95o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090933/016d49490eef43b85ea7dda68c424174/spectrum/1040g0k031t8lmksh6e1g5opdnagosqmpb8l0lho!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69a6e5ab000000002203ba07?xsec_token=ABIEzJTDkbPq4UF0MDW8GVjgvwSNNVIoYMYY609DNoZos=&xsec_source=pc_collect"
+}

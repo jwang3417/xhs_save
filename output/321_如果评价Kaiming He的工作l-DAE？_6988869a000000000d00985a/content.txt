@@ -1,0 +1,30 @@
+如果评价Kaiming He的工作l-DAE？
+
+🚩 本文源自Kaiming He团队在Meta时期的经典工作，旨在祛魅Diffusion Model在Representation Learning中的真实机理。文章通过系统性拆解，证伪了「高质量生成能力等同于强表征能力」的直觉假设，提出了l-DAE架构。
+🚩 核心洞察在于：Diffusion Model之所以能提取有效表征，并非依赖复杂的Multi-step Sampling或生成式Trick，而是源于Low-dimensional Latent Space下的Denoising Objective迫使模型重构高阶语义结构。具体内容包括：
+	
+👉 生成与表征的解耦：
+1）Ablation Study：移除Class-conditioning与Perceptual Loss后，FID显著下降但Linear Probe Accuracy反而提升；
+2）结论：过度追求Generation Quality的组件往往会损害纯粹的Semantic Representation。
+	
+👉 Tokenizer的极简主义：
+1）从VQGAN回归PCA：证明Deep Tokenizer并非必须，简单的Patch-wise PCA配合低维Latent Space足以实现高效表征；
+2）维度冗余论：High-dimensional Pixel Space引入高频纹理噪声，只有在低维子空间才能强制模型关注Context语义。
+	
+👉 l-DAE架构与范式对比：
+1）回归DAE本源：摒弃多步采样，直接预测Clean Signal，与MAE殊途同归；
+2）性能对标：虽Linear Probe弱于Contrastive Learning（MoCo v3），但在Fine-tuning与Dense Prediction上对齐MAE，且具备良好的Scalability。
+	
+（由于文字篇幅限制，具体细节麻烦大家移步图片～👆）
+	
+#深度学习[话题]#
+#科研[话题]#
+#大模型[话题]#
+#计算机视觉[话题]#
+#扩散模型[话题]#
+#博士生日常[话题]#
+#多模态人工智能[话题]#
+#diffusion[话题]#
+
+
+标签: #深度学习 #科研 #大模型 #计算机视觉 #扩散模型 #博士生日常 #多模态人工智能 #diffusion

@@ -1,0 +1,22 @@
+关于何凯明新作JiT的浅薄见解
+
+[星R]paper地址：https://arxiv.org/pdf/2511.13720
+论文 "Back to Basics: Let Denoising Generative Models Denoise"（让扩散模型回归“去噪”本质）和网络架构还是继承了何恺明大道至简的理念。
+	
+[星R]言归正传。其实早在Stable Diffusion出来之前，本人就有研究 Diffusion 网络架构，不知道大家记不记得当时（2022年初）有一个很火的开源绘画工具Disco-Diffusion，可以算作开源Diffusion架构绘画的鼻祖（github：https://github.com/alembics/disco-diffusion）。这个网络架构使用的是预测原始图像像素的方法，在pixel-level层面做扩散去噪，生成一张图将近 5～30 分钟。在当时的时间节点，无论是耗时还是生图稳定性都差强人意。
+	
+[星R]后面就有了SD，这种LDM的latent层面预测噪声的方式开始普遍被大众接受，无论是后面的SDXL、Flux、Qwen-Image等，先经过VAE编码成为了普遍做法。但是我相信很多人在研究这些架构时都会有这样的疑问：
+[种草R]训练的时候预测噪声（noise-pred）或流速（v-pred），而推理的时候需要多步去噪。训练和推理过程貌似不统一
+[种草R]对于Diffusion，SFT/Lora微调还好，如果上一些强化学习或美学监督，有时候还要VAE-Decoder解码出来去做loss，耗时又很大
+[种草R]经过VAE编解码后的图像都会有损。对于一些图像编辑模型，即使没有任何操作的编辑指令，小字问题也很大。输出后输入图的小字就模糊掉了。
+可以说，图像生成苦Latent久矣，苦噪声预测久矣，苦VAE久矣！
+	
+[星R]这不，何凯明的JIT（Just image Transformers），让模型回归初心，直接预测干净的图像。论文比较好理解，社区都有，可以参考知乎的解读文章：https://zhuanlan.zhihu.com/p/1974130263698216733。
+	
+[星R]抛开效果不说（毕竟很多人也苦FID久矣），这个模型架构本人很喜欢，架构干净纯粹，个人预测潜力很大。等后续学术界和社区的进一步挖掘吧。
+	
+[星R]欢迎大家一起讨论。
+#图像生成[话题]# #何凯明[话题]# #JiT[话题]#
+
+
+标签: #图像生成 #何凯明 #JiT

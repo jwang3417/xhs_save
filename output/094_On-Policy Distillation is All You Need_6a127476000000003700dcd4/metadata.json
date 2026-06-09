@@ -1,0 +1,28 @@
+{
+  "id": "6a127476000000003700dcd4",
+  "type": "normal",
+  "title": "On-Policy Distillation is All You Need",
+  "desc": "OPD应该是近两年里LLM 后训练最火的方法(之一)了吧\n⚠️本质上是对轨迹作SFT+KL散度约束\n适用于以下场景：\n1. 数学推理：中间步骤走偏后如何恢复。\n2. 代码生成：写出屎山如何继续修。\n3. 多轮工具调用：前一步工具结果不理想时如何调整。\n4. 多模态/视频理解：模型前面描述错了，后面如何重新对齐视觉证据。\n5. Agent 任务：长轨迹决策中，出现错误状态后怎么恢复。\n#深度学习[话题]# #强化学习[话题]# #具身智能[话题]#",
+  "tags": [
+    "深度学习",
+    "强化学习",
+    "具身智能"
+  ],
+  "author": "小瑜",
+  "authorId": "649c1a3700000000110002c8",
+  "time": 1779594358000,
+  "ipLocation": "上海",
+  "likes": "277",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090711/b9139d7031e5a1fbee970f5749292a57/spectrum/1040g34o320hm19a15kcg5p4s38rk80m8191p0c8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/8336de6aec15941b16735f050b038bfb/spectrum/1040g34o320hm19a15k905p4s38rk80m88v80gi0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/05e1cc36e10c0cd7ce6ee7ff8fdde557/spectrum/1040g34o320hm19a15k9g5p4s38rk80m828jtlk8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/50433ec570f73a811a2ed6108ad9baaf/spectrum/1040g34o320hm19a15kc05p4s38rk80m8seg6rl8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/a8bc5c4f8147d1979171dc82ba542709/spectrum/1040g34o320hm19a15ka05p4s38rk80m8q7t1sr8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/4d703f23e5be713b9a5e4f7d676b9e6f/spectrum/1040g34o320hm19a15kag5p4s38rk80m839d0v6g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/228f2623f3fe62a018d4e9ec21ed4f3d/spectrum/1040g34o320hm19a15kb05p4s38rk80m8aqa36a8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090711/7fb5b3d879c1186f69e1f8d895f54ed7/spectrum/1040g34o320hm19a15kbg5p4s38rk80m8raf9608!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a127476000000003700dcd4?xsec_token=ABvqjTsVBQG9LYPnz2SzgYfyjLkG4nkTTrHBwFRUnIYKU=&xsec_source=pc_collect"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "67ee3f62000000000b02e5e9",
+  "type": "normal",
+  "title": "机器学习中的Adam算法是怎么优化模型的？",
+  "desc": "这部分主要讲的是如何调整梯度下降的步长（step size）以保证收敛，以及现代优化算法（特别是Adam）的工作原理。让我们逐步拆解：\n1. 为什么要调整步长？\n在标准的 SGD（随机梯度下降）中，步长是固定的，这可能会导致：\n•\t震荡（如果步长太大）\n•\t收敛速度慢（如果步长太小）\n所以，我们希望让步长随着迭代次数变化，从而在训练过程中保持稳定的更新策略。\n\t\nAdam如何调整步长\n现代优化算法（如 Adam）使用自适应步长（adaptive step size），即步长不是手动调整，而是依赖过去的梯度信息。\nAdam 主要有两个核心思想：\n1.\t自适应学习率（Adaptive Learning Rate）：\n•\t步长不再是固定的，而是根据历史梯度的大小自动调整。\n•\t这样可以在梯度大时减少步长，梯度小时增加步长，避免震荡和收敛慢的问题。\n2.\t动量（Momentum）：\n•\t传统 SGD 可能会沿着某个方向来回震荡（比如在峡谷形状的损失函数里）。\n•\tAdam 通过引入动量项（Momentum），让更新方向更稳定，减少无谓的左右摆动，提高收敛速度。\n💡 直观理解：\n•\t过去梯度大的时候，当前步长就小一些，防止震荡。\n•\t过去梯度小的时候，当前步长就大一些，防止收敛太慢。\n4. Adam 的动量项\nAdam 还使用动量Momentum来稳定参数更新方向：\n•\t￼ 控制过去梯度的影响，默认取 0.9（Keras 默认值）。\n•\t这个公式的核心作用是减少梯度下降的“Zig-Zag”（锯齿状震荡），让更新方向更平稳。\n💡 直观理解：\n•\t可以把动量理解成物理中的惯性。\n•\t如果 SGD 没有动量，它可能会在损失函数的“峡谷”里来回摆动，浪费时间。\n•\tAdam 通过动量减少这种摆动，让更新更稳定，方向更明确。\n✅ 记住 Adam 的关键点：\n1.\t自适应学习率（历史梯度平方的影响）\n2.\t动量（减少梯度下降的 Zig-Zag 运动）\n3.\t默认超参数：\n•\t￼（控制动量）\n•\t￼（控制自适应步长）\n•\t这两个超参数在 Keras 里一般不需要改动。\n💡 一句话总结：\nAdam 结合了 SGD 的随机性 + RMSProp 的自适应步长 + Momentum 的稳定性，是目前最流行的优化算法之一。\n#数据分析[话题]#",
+  "tags": [
+    "数据分析"
+  ],
+  "author": "coconu",
+  "authorId": "5b803ae0eb61c6000133340f",
+  "time": 1743667042000,
+  "ipLocation": "",
+  "likes": "311",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091350/c15e851e2d9c0d66bf7fdc0cee5836e1/notes_pre_post/1040g3k031fqbbvel00004ajc8pte0d0fha9duog!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/272f1af398ebb5a57725f1aeded1b4f9/notes_pre_post/1040g3k031fqbbvel000g4ajc8pte0d0f24ku2io!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/3ae48441c4e1566c7194bc6d2de3d294/notes_pre_post/1040g3k031fqbbvel00104ajc8pte0d0fa8fepf0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/be218c01c82ab9ca3dba75f4205e74f9/notes_pre_post/1040g3k031fqbbvel001g4ajc8pte0d0fu7dsk48!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/ec0fd166a990ac8745b1432c402cc6a2/notes_pre_post/1040g3k031fqbbvel00204ajc8pte0d0fhdtaamo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/8f804de126d38f34f6f4ab91f53d52f1/notes_pre_post/1040g3k031fqbbvel002g4ajc8pte0d0fsgeprr0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/616c9f57c339bee07906967a7ec3b49c/notes_pre_post/1040g3k031fqbbvel00304ajc8pte0d0fj95ua78!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/714e3fb6b59b1a9b14a36d99cc9ff02a/notes_pre_post/1040g3k031fqbbvel003g4ajc8pte0d0f29ga700!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/bbaddbb0fed865e27efaeb89ed487fbc/notes_pre_post/1040g3k031fqbbvel00404ajc8pte0d0frq6rkp8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/67ee3f62000000000b02e5e9?xsec_token=ABSAzn3Em90-jSeMTYS9phkBcHIF-DhOyANfHYrqvd8JI=&xsec_source=pc_collect"
+}

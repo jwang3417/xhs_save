@@ -1,0 +1,12 @@
+拆解DeepSeek V4训练：预训练+ OPD后训练
+
+📌 今天来解析 DeepSeek V4训练流程，主要关注预训练阶段与 V3/V3.2 的区别、1M长上下文拓展训练、后训练 On-Policy Distillation 实现。
+	
+📒 详细解析内容➡️滑图查看！
+	
+🎯相关内容已经总结到下方学习笔记中，持续更新！在平台提供大模型一手、原创、深度解析！带给大家更多好玩实践项目。
+	
+#deepseekv4[话题]# #deepseekv4模型架构[话题]# #deepseekv4技术报告[话题]# #onpolicydistillation[话题]# #OnPolicy蒸馏[话题]# #agentrl[话题]# #rlagent[话题]# #大模型[话题]# #算法工程师[话题]# #古希腊掌管代码的神[话题]#
+
+
+标签: #deepseekv4 #deepseekv4模型架构 #deepseekv4技术报告 #onpolicydistillation #OnPolicy蒸馏 #agentrl #rlagent #大模型 #算法工程师 #古希腊掌管代码的神

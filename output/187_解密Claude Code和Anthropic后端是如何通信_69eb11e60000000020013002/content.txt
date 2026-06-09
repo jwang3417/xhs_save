@@ -1,0 +1,14 @@
+解密Claude Code和Anthropic后端是如何通信
+
+你在Claude Code里打一句hello，五个字。但实际发给API的请求里，塞了将近三万个token。
+	
+两万六千字符的系统提示词，十个工具定义，你的hello被包装成六个content block，五个是Claude Code注入的上下文，最后一个才是你的消息。
+	
+返回也不是一整坨JSON。是一串SSE事件流：message_start带token用量，content_block_delta逐块推送文字，message_delta告诉你为什么停下来。
+	
+分析使用的工具claude-trace可以一行命令拦截所有流量，退出后生成HTML文件，浏览器打开就能看。
+	
+#claude[话题]# #命令行[话题]# #AI工具[话题]# #个人开发者[话题]# #张司机[话题]#
+
+
+标签: #claude #命令行 #AI工具 #个人开发者 #张司机

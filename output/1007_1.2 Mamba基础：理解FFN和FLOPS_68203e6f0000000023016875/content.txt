@@ -1,0 +1,34 @@
+1.2 Mamba基础：理解FFN和FLOPS
+
+#LLM[话题]# #mamba[话题]# #注意力机制[话题]# #flops[话题]# #attention[话题]#
+	
+🚀 长文模型“隐形大胃王”：FFN & FLOPs 你真的懂了吗？
+⸻
+1️⃣ FFN 到底是什么？
+•	位置独立小 MLP
+每个 token 自己过两层全连接 + GELU：
+x → W₁ (扩 4×) → GELU → W₂ (压回)
+•	作用：在“不看别人”的前提下，给当前词做一次 高维非线性混合——就像🎨把同一像素的 RGB 调色。
+⸻
+2️⃣ FLOPs 用来量什么？
+•	FLOPs = 浮点乘 / 加 次数
+估算“跑一次前向+反向要多少算力”。
+1 GFLOP = 10⁹ 次运算。
+⸻
+3️⃣ 一层 Transformer 的 FLOPs 小账本
+(以 BERT‑Base：d=768, d_ff=3072, L=512 为例)
+子层	公式	FLOPs
+Self‑Attention	2·L²·d / h	≈ 8 G
+FFN	2·L·d·d_ff	≈ 24 G
+结论：FFN 比 Attention 还贵 3 倍！
+所以光换成“滑窗/稀疏 Attention”远远不够，FFN 才是长序列真正的大头。
+⸻
+4️⃣ 实战 Tips
+•	掐显存？试下 低秩 FFN (LoRA/IA³) 或改成 GLU‑FFN，能省一半乘加。
+•	端侧模型？把 d_ff 缩成 2× 而不是 4×，常能换来 >30 % 速度。
+•	超长文本？考虑 Mamba/Titans 这类线性隐状态块，直接把大 FFN 干掉。
+⸻
+#FFN[话题]# #FLOPs[话题]# #大模型加速[话题]# #长序列秘籍[话题]#
+
+
+标签: #LLM #mamba #注意力机制 #flops #attention #FFN #FLOPs #大模型加速 #长序列秘籍

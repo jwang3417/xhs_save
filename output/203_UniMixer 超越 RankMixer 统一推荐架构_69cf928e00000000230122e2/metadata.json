@@ -1,0 +1,19 @@
+{
+  "id": "69cf928e00000000230122e2",
+  "type": "normal",
+  "title": "UniMixer 超越 RankMixer 统一推荐架构",
+  "desc": "今天给大家带来推荐系统统一缩放架构UniMixer，它打通了业界三大主流模型范式的壁垒，以更高效率实现推荐模型性能缩放。\n\t\n🔑 关键方法\n1️⃣ 对规则化TokenMixer做等价参数化重构，打造可学习的通用特征混合模块，解除头数必须等于token数的硬性限制\n2️⃣ 搭建统一理论框架，将注意力、TokenMixer、FM三大主流缩放范式纳入同一套数学表达\n3️⃣ 推出UniMixing-Lite轻量化模块，通过基矩阵动态生成+低秩分解压缩参数量与计算量\n\t\n💡 核心创新\n1️⃣ 首次实现推荐系统三大主流缩放架构的理论统一，为推荐模型缩放设计提供了统一底层框架\n3️⃣ 引入SiameseNorm解决深层模型训练不稳定问题，突破传统架构深度缩放时的性能退化瓶颈\n\t\n📊 实验效果\n✅ 同参数量级下，UniMixer-Lite的AUC缩放指数远超SOTA的RankMixer，模型扩容带来的性能收益更显著\n✅ 38.2M超小参数量版本，AUC/UAUC全面碾压100M参数级的所有主流架构，\n✅ 快手线上广告多场景A/B测试，用户30天累计活跃天数平均提升超15%\n\t\n论文：UniMixer: A Unified Architecture for Scaling Laws in Recommendation Systems\n\t\n欢迎投稿！欢迎合作！#推荐系统[话题]#",
+  "tags": [
+    "推荐系统"
+  ],
+  "author": "AI PaperDaily",
+  "authorId": "640769b100000000100255a9",
+  "time": 1775211150000,
+  "ipLocation": "",
+  "likes": "115",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091308/47e307bb5290119f476c28e3641564d6/spectrum/1040g0k031ugcqcvjj4505p07d6ok4ld9jg07pq8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69cf928e00000000230122e2?xsec_token=ABf7g6UHVHPGbkCxJEqU91_aXInGwPo2DCJGlSOm6YaPU=&xsec_source=pc_collect"
+}

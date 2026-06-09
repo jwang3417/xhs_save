@@ -1,0 +1,25 @@
+{
+  "id": "68a045df000000001b01e083",
+  "type": "normal",
+  "title": "为什么diffusion推理是逐步去噪？不能一步吗",
+  "desc": "按照一的推理公式，为什么不能从当前输入图像xt直接减去noise predictor预测的噪声，按照公式不就直接得到x0了吗，为什么还要逐步去噪得到xt-1、xt-2…这样呢？小白实在不懂 求解答！！！谢谢大神们！\n#diffusion[话题]# #LLM[话题]# #AIGC[话题]# #人工智能[话题]# #学习[话题]# #吴恩达[话题]# #机器学习[话题]#",
+  "tags": [
+    "diffusion",
+    "LLM",
+    "AIGC",
+    "人工智能",
+    "学习",
+    "吴恩达",
+    "机器学习"
+  ],
+  "author": "paper多多",
+  "authorId": "631aead5000000002303a36d",
+  "time": 1755334111000,
+  "ipLocation": "",
+  "likes": "269",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091318/7287fbd417c19ad1d996611eebc95025/notes_pre_post/1040g3k031l86m2o8l8005ooqtbaov8rdt2id8uo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68a045df000000001b01e083?xsec_token=ABZbm557EwP5pUGQZ74afZcCbCklNQu0ZATkmre7bpKiA=&xsec_source=pc_collect"
+}

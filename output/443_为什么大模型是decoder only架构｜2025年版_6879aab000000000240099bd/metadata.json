@@ -1,0 +1,32 @@
+{
+  "id": "6879aab000000000240099bd",
+  "type": "normal",
+  "title": "为什么大模型是decoder only架构｜2025年版",
+  "desc": "📌 今天来解析一道上古时代的面试题：为什么大模型都是decoder-only的架构？这个问题很古老，但是我们必须找到一个以2025年的大模型发展为视角的回答，用更SOTA的视角更新老版本答案！\n\t\n🌟 其实笔者认为这个问题的本质是decoder-only架构的发展形成了正反馈。即decoder-only在训练数据和模型规模上更容易scaling，从而带来模型能力的提升，从而霸榜更多从前encoder-only、encoder-deocder做得好的下游任务，最终反馈回模型，大家也更愿意花费更多资源去训练更大的decoder-only模型，从而一直正循环♻️。\n\t\n📌不过我从更详细的层面解析了这个问题❓\n\t\n📒 详细解析内容 ➡️ 滑图查看！\n\t\n📌 内容总结：\n🌟 大模型在架构上分为 Encoder-Only、Encoder-Decoder、Decoder-Only\n🌟 Encoder-Only 的模型只适用于NLU任务，但是由于MLM的预训练范式难scaling，导致现在做嵌入表征能力不如Decoder-only模型（参考Qwen3-Embeding，在模型上进行百M的训练就可以问鼎MTEB）\n🌟 Encoder-Decoder 一方面存在低秩问题，限制模型能力上限。另一方面，Decoder-only模型的Prompt直接作用与Decoder参数，In-context learning 能力更强。\n🌟 在Decoder-Only架构中，同样存在着Casual Decoder、Non-Casual Decoder的训练目标之争。Non-Casual Decoder在进行充分PT+SFT之后的模型上限会更高，但是其需要监督数据。\n\t\n🎯 相关内容已经总结到下方学习笔记中，持续更新！在平台提供大模型一手、原创、深度解析！\n\t\n#互联网大厂实习[话题]# #大模型[话题]# #Decoder优势[话题]# #互联网大厂面经[话题]# #llm[话题]# #算法工程师[话题]# #oc[话题]# #秋招[话题]# #多模态大模型[话题]# #transformer模型[话题]# #清华大学[poi_v2]# #遇到过这个面试题吗？[PK]#",
+  "tags": [
+    "互联网大厂实习",
+    "大模型",
+    "Decoder优势",
+    "互联网大厂面经",
+    "llm",
+    "算法工程师",
+    "oc",
+    "秋招",
+    "多模态大模型",
+    "transformer模型",
+    "清华大学",
+    "遇到过这个面试题吗？"
+  ],
+  "author": "古希腊掌管代码的神",
+  "authorId": "6543cd40000000000400953c",
+  "time": 1752804016000,
+  "ipLocation": "",
+  "likes": "484",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091005/097d0b73590b882f60deffe6e7b499af/notes_pre_post/1040g3k031k2g4qgb2o305pa3pl01159sra1r0d0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091005/14b656ed935989bb113914ec366cbde0/notes_pre_post/1040g3k031k2g4qgb2o3g5pa3pl01159s2n2n0e0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091005/52e136da4156e67ab506d3d0ba775832/notes_pre_post/1040g3k031k2g4qgbio005pa3pl01159spdecu80!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6879aab000000000240099bd?xsec_token=ABga3e_3k1CAMBRzO69R5u2F0VQWBiDa97WLvVMr-bScI=&xsec_source=pc_collect"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "6818103a00000000230160f0",
+  "type": "normal",
+  "title": "源码解析qwen3改进过程",
+  "desc": "从transformers qwen3提交的pr解读qwen3的改进过程。千问开源了\n两个MoE模型的权重：Qwen3-235B-A22B、Qwen3-30B-A3B\n六个Dense模型:Qwen3-32B、Qwen3-14B、Qwen3-8B、Qwen3-4B、Qwen3-1.7B 和 Qwen3-0.6B\n核心亮点:\n混合思考模式：支持思考模式(逐步推理)和非思考模式(实施响应)\nAgent能力增强:Qwen3模型的 Agent和代码能力，同时也加强了对 MCP 的支持\n核心解读:\n1.Qwen3相比Qwen2/2.5所做的改进?\n2.Qwen3 Moe和与传统MoE的差异?\n3.稠密模型 vs 稀疏模型(MoE) 核心差异解析\n4.Qwen2、Qwen2 MoE代码改动\n5.Qwen3代码改动\n#大模型[话题]# #人工智能[话题]# #ai[话题]##面经[话题]# #llm[话题]# ##春招[话题]##秋招[话题]# #面试[话题]# #算法[话题]# #AIGC[话题]# #多模态人工智能[话题]# #计算机[话题]# #计算机视觉[话题]#",
+  "tags": [
+    "大模型",
+    "人工智能",
+    "ai",
+    "面经",
+    "llm",
+    "春招",
+    "秋招",
+    "面试",
+    "算法",
+    "AIGC",
+    "多模态人工智能",
+    "计算机",
+    "计算机视觉"
+  ],
+  "author": "Panda师兄的AI笔记",
+  "authorId": "5d0debf0000000001202c733",
+  "time": 1746407482000,
+  "ipLocation": "",
+  "likes": "164",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091348/6930e6ed0d753f3bdf2a66502517a38d/1040g00831h35gni5j8205n8dtfo4lhpjji3oh70!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091348/0f0fd9b04cc2b632d7d7d5f057fec446/1040g00831h35gni5j86g5n8dtfo4lhpjld72oug!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091348/f0980b20d26251dfe8a43908f56a776d/1040g00831h35gni5j8105n8dtfo4lhpjbki9c20!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091348/eae4d121f0b237baf6454ed94a28ba6a/1040g00831h35gni5j85g5n8dtfo4lhpji9vip1o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091348/d6ccc9878526162f5240093612a022b5/1040g00831h35gni5j8305n8dtfo4lhpjsvpa4p0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091348/01d35006519f29e11c0ca3dd8a8f243a/1040g00831h35gni5j81g5n8dtfo4lhpj34qbn5o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091348/deaa3a4fd1c21452f3a660cc7b05b015/1040g00831h35gni5j82g5n8dtfo4lhpjcclle58!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091348/1899d0d86a3cb69bd708f4f59ce6fe65/1040g00831h35gni5j8505n8dtfo4lhpj6m5qm0o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091348/8ccc73c47eda17fded6f5c31b1dd329c/1040g00831h35gni5j8605n8dtfo4lhpjioc25ug!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091348/e93e630b29551d3d412782316d41635a/1040g00831h35gni5j83g5n8dtfo4lhpjae9enco!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091348/7f0c3840bee65bbc54712323887bcbb1/1040g00831h35gni5j8405n8dtfo4lhpj021vnbg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6818103a00000000230160f0?xsec_token=ABSlZ4RYFL08xCjD-oBtow023aK286NoPATpjj2sHMAro=&xsec_source=pc_collect"
+}

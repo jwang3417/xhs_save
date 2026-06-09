@@ -1,0 +1,40 @@
+{
+  "id": "68203e6f0000000023016875",
+  "type": "normal",
+  "title": "1.2 Mamba基础：理解FFN和FLOPS",
+  "desc": "#LLM[话题]# #mamba[话题]# #注意力机制[话题]# #flops[话题]# #attention[话题]#\n\t\n🚀 长文模型“隐形大胃王”：FFN & FLOPs 你真的懂了吗？\n⸻\n1️⃣ FFN 到底是什么？\n•\t位置独立小 MLP\n每个 token 自己过两层全连接 + GELU：\nx → W₁ (扩 4×) → GELU → W₂ (压回)\n•\t作用：在“不看别人”的前提下，给当前词做一次 高维非线性混合——就像🎨把同一像素的 RGB 调色。\n⸻\n2️⃣ FLOPs 用来量什么？\n•\tFLOPs = 浮点乘 / 加 次数\n估算“跑一次前向+反向要多少算力”。\n1 GFLOP = 10⁹ 次运算。\n⸻\n3️⃣ 一层 Transformer 的 FLOPs 小账本\n(以 BERT‑Base：d=768, d_ff=3072, L=512 为例)\n子层\t公式\tFLOPs\nSelf‑Attention\t2·L²·d / h\t≈ 8 G\nFFN\t2·L·d·d_ff\t≈ 24 G\n结论：FFN 比 Attention 还贵 3 倍！\n所以光换成“滑窗/稀疏 Attention”远远不够，FFN 才是长序列真正的大头。\n⸻\n4️⃣ 实战 Tips\n•\t掐显存？试下 低秩 FFN (LoRA/IA³) 或改成 GLU‑FFN，能省一半乘加。\n•\t端侧模型？把 d_ff 缩成 2× 而不是 4×，常能换来 >30 % 速度。\n•\t超长文本？考虑 Mamba/Titans 这类线性隐状态块，直接把大 FFN 干掉。\n⸻\n#FFN[话题]# #FLOPs[话题]# #大模型加速[话题]# #长序列秘籍[话题]#",
+  "tags": [
+    "LLM",
+    "mamba",
+    "注意力机制",
+    "flops",
+    "attention",
+    "FFN",
+    "FLOPs",
+    "大模型加速",
+    "长序列秘籍"
+  ],
+  "author": "Smart View",
+  "authorId": "5bd262490e78cd00010b9632",
+  "time": 1746943599000,
+  "ipLocation": "",
+  "likes": "19",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091344/14e136147ef521648371f783fababd73/notes_pre_post/1040g3k031hb5o0tu3a004bk6rih4j5hi4s5asj8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091344/b8d3eaa841ce3e286095d19b97ec9588/notes_pre_post/1040g3k031hb5o0tu3a0g4bk6rih4j5hinseiitg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091344/e83c027ae0a724cb6e886cbdcb911f23/notes_pre_post/1040g3k031hb5o0tu3a104bk6rih4j5hi0850920!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091344/49b6fa81176d5c82f014314327264c18/notes_pre_post/1040g3k031hb5o0tu3a1g4bk6rih4j5hi0o4sg30!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091344/94bdf5075dc0cedc786331aeb7b47e72/notes_pre_post/1040g3k031hb5o0tu3a204bk6rih4j5hikbu7vl8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091344/a86b958c3ad5a29961996e651f1d0865/notes_pre_post/1040g3k031hb5o0tu3a2g4bk6rih4j5hi4gt1a0g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091344/92ab8e737168f3fcfb25af1af3cc10f9/notes_pre_post/1040g3k031hb5o0tu3a304bk6rih4j5hit9fk6v8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091344/c208ba20b5ccd3b397d20da061924728/notes_pre_post/1040g3k031hb5o0tu3a3g4bk6rih4j5hiplsfle0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091344/700180a726121db81481c18b0365604f/notes_pre_post/1040g3k031hb5o0tu3a404bk6rih4j5hiv23c2a8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091344/a19ddfbc1f3c1723fc17b9c01ed066b7/notes_pre_post/1040g3k031hb5o0tu3a4g4bk6rih4j5hig21sl98!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091344/934ea391eee2fdd37b811428db458bea/notes_pre_post/1040g3k031hb5o0tu3a504bk6rih4j5himn6d1d8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091344/a94bebb1cc626590eb379e28940a5012/notes_pre_post/1040g3k031hb5o0tu3a5g4bk6rih4j5higkmrvhg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091344/d4431df6edf0630893b65fb9e93c6dfb/notes_pre_post/1040g3k031hb5o0tu3a604bk6rih4j5hipfasivg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091344/751e5fd9c986804659a7db0b29fb1260/notes_pre_post/1040g3k031hb5o0tu3a6g4bk6rih4j5hi16k6kq8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68203e6f0000000023016875?xsec_token=ABM4ytjCMZ5_zpXJL6TaQOBXsMznOqA68pbZU5Id9ORJ0=&xsec_source=pc_collect"
+}

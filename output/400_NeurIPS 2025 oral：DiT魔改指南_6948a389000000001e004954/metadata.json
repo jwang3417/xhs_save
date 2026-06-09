@@ -1,0 +1,18 @@
+{
+  "id": "6948a389000000001e004954",
+  "type": "normal",
+  "title": "NeurIPS 2025 oral：DiT魔改指南",
+  "desc": "针对生成模型最头疼的预训练太贵的问题，Stanford 李飞飞团队 和 Liquid AI 的这篇 NeurIPS 2025 oral 提出一个新的思路：能不能像做植物嫁接一样，直接给训练好的模型换模块？\n\t\n这篇论文提出的 Grafting（嫁接）方法，核心就是为了省掉那动辄几万小时的 GPU 算力。他们发现 DiT-XL/2 这种大模型其实是有冗余空间可以魔改的\n简单来说，他们把整个过程分成了两步：\n\t\n1️⃣ 第一步是激活蒸馏，Activation Distillation\n用回归任务让新算子学会老算子的输出，比如用作者提出的Hyena-X/Y（本质是局部门控卷积，计算复杂度随序列长度线性增长）或者mamba-2来替换注意力层，用变宽后的 MLP或者卷积版 MLP替换原始的MLP\n\t\n作者发现不同算子的行为完全不同，比如注意力层激活值波动非常大，深层经常会有极端的outliers，所以用L1训练让收敛效果更好，因为它对这些离群值不敏感；而MLP这种参数量更大的对异常值没那么敏感，则用L2就行了\n\t\n2️⃣ 第二步是轻量化微调\n如果只做第一步，把模型里 28 个层全换掉，模型大概率会罢工，因为每个新算子模仿原始算子时都有点小误差，滚雪球式的误差传播会导致模型完全不好使\n\t\n这时候就需要进行端到端的微调了，但是也不需要拿着全量数据重新练几个月，只需要 10% 的数据就能把误差修正回来\n\t\n实现上他们用自己设计的Hyena-X/Y或者Mamba-2去替换MHA，在 ImageNet 上跑出的 FID 和原版 baseline 差不了多少\n\t\n还有个深度转宽度的 Case Study：他们把两个串行的 Transformer 块改成了并行的，深度减半但效果居然比那些从头训练的同样深度模型都要好，算力成本不到预训练的 2%\n\t\n当然也不是随便替换就行，作者专门做了attention的band-k分析，DiT 在处理图像时表现出极强的局部性，所以Hyena-X/Y 是专门为这种短卷积 + 门控的计算逻辑定制的。如果换成Qwen3可能就不一定好使，得用swa。但这也不影响论文的主要论点，毕竟没有绝对完美的通用算子，但Grafting的思想是广泛通用的",
+  "tags": [],
+  "author": "一只医学图像帕鲁",
+  "authorId": "64b30753000000001001d029",
+  "time": 1766368137000,
+  "ipLocation": "",
+  "likes": "160",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090959/a730f8e418be4eda83d81dc37fede77a/1040g2sg31qck0pt170705p5j0t9k3k19lkak3s8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090959/8e49f19c22c10916ab8401f8ec61a41b/1040g2sg31qck0pt1707g5p5j0t9k3k19efj2mto!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6948a389000000001e004954?xsec_token=ABbDvgvU9NnSmSovkfuZ-IEuERYi3Q3uJvTcBlOIfvj_c=&xsec_source=pc_collect"
+}

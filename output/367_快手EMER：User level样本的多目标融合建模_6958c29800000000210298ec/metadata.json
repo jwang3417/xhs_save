@@ -1,0 +1,36 @@
+{
+  "id": "6958c29800000000210298ec",
+  "type": "normal",
+  "title": "快手EMER：User level样本的多目标融合建模",
+  "desc": "相关工作方面，论文提及：\n短视频推荐中的行为建模：利用深度序列模型（如GRU、Transformer）捕捉用户的历史行为特征，优化兴趣理解和推荐效果。\n多任务学习模型：如MMOE、PLE，这些框架尝试同时优化多个目标，提高多元信号的利用效率。\n兴趣建模与多样性优化：引入多兴趣表示、兴趣向量检索（MIND、ComiRec）等，以增强兴趣捕获和多样性。\n多目标排序与信号融合：在推荐系统中研究如何结合多种信号，平衡各种评价指标，例如利用排序学习（AUC优化）和信号补充来提升排序质量。\n评价体系的挑战：强调 offline 评价指标（如AUC）与实际用户体验之间的差异，以及如何设计更合理的检测指标。\n\t\n#推荐算法[话题]# #算法[话题]# #算法岗[话题]# #推荐系统[话题]# #互联网大厂[话题]# #深度学习[话题]# #文献阅读[话题]# #快手[话题]#",
+  "tags": [
+    "推荐算法",
+    "算法",
+    "算法岗",
+    "推荐系统",
+    "互联网大厂",
+    "深度学习",
+    "文献阅读",
+    "快手"
+  ],
+  "author": "Cici学算法",
+  "authorId": "5c04740600000000050185b2",
+  "time": 1768095931000,
+  "ipLocation": "北京",
+  "likes": "80",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090949/e0bd47bd07adafb7aaff43d99ad97065/spectrum/1040g0k031qsbu8hp6u104bupdsq0d1di6cktpu0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090949/226b5cb0cb2b5321be5885e25829af18/spectrum/1040g0k031qsbu8hp6u1g4bupdsq0d1disdrndhg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090949/fbd43f5971071f4468d3df3653280a5c/spectrum/1040g0k031qsbu8hp6u204bupdsq0d1dihruc1q0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090949/9c2ad271732511e62ce20d76509f7e63/spectrum/1040g0k031qsbu8hp6u2g4bupdsq0d1dijgon76g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090949/c4530b6f740e05fc502efa91ef405191/spectrum/1040g0k031qsbu8hp6u304bupdsq0d1di0fh0o1o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090949/a9b7ae2d469468e5531d4a011c657530/spectrum/1040g0k031qsbu8hp6u3g4bupdsq0d1difiksv98!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090949/0b8b2d4bea3e5e9c03bae3800a13a3b9/spectrum/1040g0k031qsbu8hp6u404bupdsq0d1die5o4if8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090949/34d4466e0e0e6585a0110e1db2b9b74f/spectrum/1040g0k031qsbu8hp6u4g4bupdsq0d1dii082mro!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090949/e538e933cc6b505177e2acbdd0b81967/spectrum/1040g0k031qsbu8hp6u504bupdsq0d1dihharui8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090949/1cd8788832d2719851506cf5c336e818/spectrum/1040g0k031qsbu8hp6u5g4bupdsq0d1di527t6rg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090949/81113bc4a8f25fe5bb6f5e460d64a24c/spectrum/1040g0k031qsbu8hp6u604bupdsq0d1di5fcr8vo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6958c29800000000210298ec?xsec_token=ABpqsKmJLEmtJwipKIcXAW3NuHT9l8voptjEwUQEiNuu0=&xsec_source=pc_collect"
+}

@@ -1,0 +1,21 @@
+vLLM-Omni v0.22.0 Omnimodal World Model
+
+这次 vLLM-Omni v0.22.0 真的不只是“更新了一版”—— 而是一次面向 世界模型 + 生产级多模态 serving 的大升级。
+	
+本次版本亮点：
+Day-0 支持 Nvidia Cosmos 3 世界模型 文本、图像、音频、视频、动作输入/输出全覆盖，vLLM-Omni 正式迈向 omnimodal world-model serving。
+DreamZero + OpenPI 机器人 serving 支持 CFG parallel、OpenPI 在线服务、实时机器人 serving API，多模态生成和 embodied AI 场景更近一步。
+语音与 TTS 更适合生产环境 Qwen3-TTS、Qwen3-Omni、VoxCPM2、Fish Speech S2 Pro、OmniVoice 等全面增强： 高并发、异步音频输入、自定义音色、ref-context cache、流式体验都更稳了。
+图像 / 视频 / Diffusion 加速继续扩展 Wan2.2、HunyuanImage3、HunyuanVideo 1.5、LTX-2.3、BAGEL 等支持更强的并行执行、缓存加速和质量校验。
+量化与硬件覆盖更全面 Blackwell、ROCm、Intel XPU、Ascend NPU 全线增强；FP8 / INT8 / MXFP4 / MXFP8 / W4A16 / ModelOpt mixed FP8-NVFP4 、SageAttention3等能力持续补齐。
+对齐 vLLM 0.22 release line 完成 vLLM 0.22 rebase，补齐依赖兼容、release image、PyPI 上传和 CI/benchmark/文档体系。
+	
+这次版本背后是：
+339 commits  124 contributors  52 位新贡献者
+世界模型、语音、图像、视频、机器人 serving、量化、硬件后端全面升级
+如果你正在关注： World Model、TTS、视频生成、Diffusion serving、机器人模型 serving...这个版本值得重点看。
+	
+#vLLM[话题]# #vLLMOmni[话题]# #多模态大模型[话题]# #WorldModel[话题]# #AIInfra[话题]# #大模型推理[话题]# #TTS[话题]# #Diffusion[话题]# #机器人AI[话题]# #开源项目[话题]#
+
+
+标签: #vLLM #vLLMOmni #多模态大模型 #WorldModel #AIInfra #大模型推理 #TTS #Diffusion #机器人AI #开源项目

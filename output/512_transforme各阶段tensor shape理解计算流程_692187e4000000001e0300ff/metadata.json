@@ -1,0 +1,25 @@
+{
+  "id": "692187e4000000001e0300ff",
+  "type": "video",
+  "title": "transforme各阶段tensor shape理解计算流程",
+  "desc": "第10节课：从transformer各个阶段的tensor shape来理解整个计算流程（前面9节，可以看之前的笔记）\n#人工智能[话题]# #深度学习[话题]# #transformer[话题]# #transformer模型[话题]# #transformer架构[话题]# #tensor_shape[话题]# #大模型训练[话题]#",
+  "tags": [
+    "人工智能",
+    "深度学习",
+    "transformer",
+    "transformer模型",
+    "transformer架构",
+    "tensor_shape",
+    "大模型训练"
+  ],
+  "author": "零界交互科技",
+  "authorId": "61c0380e000000001000d3fc",
+  "time": 1763805156000,
+  "ipLocation": "",
+  "likes": "33",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091021/bf4854617e98784d3c4f5191a880c37c/spectrum/1040g0k031p6e0vhd2a005oe070741kvsvk1bmbg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/1/110/259/01e92187852a9b11010370039aaafc9b64_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/692187e4000000001e0300ff?xsec_token=ABOL_JIRfwwgBlccReshj6PWYeIJ8YU6KREA_sGJuivS0=&xsec_source=pc_collect"
+}

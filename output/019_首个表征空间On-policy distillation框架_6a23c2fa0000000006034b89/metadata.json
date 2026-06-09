@@ -1,0 +1,19 @@
+{
+  "id": "6a23c2fa0000000006034b89",
+  "type": "normal",
+  "title": "首个表征空间On-policy distillation框架",
+  "desc": "🚀 宣传一下我们近期完成的首个表征空间的on-policy蒸馏框架OPRD。众所周知，现在主流的on-policy蒸馏（OPD）有个挺蛋疼的问题：学生自己rollout，老师只在最后输出token上打分。\n说白了，就是只看答案对不对，不管中间怎么想的。\n\t\n我们一直觉得这很浪费：老师明明算了那么多层hidden states，结果只拿最后那点logits来教学生。而且采样方差还大，后期学生怎么都追不上老师。\n\t\n所以我们干了件事：把蒸馏从输出空间搬到隐藏状态空间。让学生的每一层表示，直接对齐老师的对应层。这应该是第一个表征级on-policy蒸馏框架（据我们所知）。\n\t\nPaper详见：Arxiv 2606.06021\n\t\n[气球R]效果怎么样？\n· 数学推理（AIME24/25、AIMO）上，学生几乎追平老师，OPD baseline还差好几个点\n· 训练速度快44%（1.44倍）\n· 显存峰值降54%（不用算那个巨大的[B,T,|V|] logits）\n· 生成响应更短 → 推理更快\n\t\n[火R]为什么能work？\n· 我们的梯度没有采样方差，后期信号不崩\n· 绕过了LM head这个信息瓶颈（输出空间天然会丢掉很多结构信息）\n· 跟现有OPD一起用，加个系数就行，效果只增不减\n· 特别适合多模型合并和自蒸馏（老师=学生自己+特权信息）",
+  "tags": [],
+  "author": "皓波",
+  "authorId": "5abd079811be104d9575406a",
+  "time": 1780728570000,
+  "ipLocation": "浙江",
+  "likes": "264",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090701/3046b574d000356968d20e719b01d059/1040g0083212fjcr87u404a41qs3pgg3a9gn4un8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090701/0140b28bf4000382dd8b91f0fcaef5bb/1040g0083212fjcr87u504a41qs3pgg3apigifc0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090701/3695016f230f6b41d406f9c56236344a/1040g0083212fjcr87u4g4a41qs3pgg3aqmq038g!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a23c2fa0000000006034b89?xsec_token=ABVBV3Ro3yPNwUiSlrFkK_AwabfaPBB0Pio6lf5hX82so=&xsec_source=pc_collect"
+}

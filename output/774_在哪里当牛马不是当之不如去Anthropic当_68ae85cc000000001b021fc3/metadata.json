@@ -1,0 +1,31 @@
+{
+  "id": "68ae85cc000000001b021fc3",
+  "type": "normal",
+  "title": "在哪里当牛马不是当之不如去Anthropic当",
+  "desc": "不愧是最尊重的系统设计+算法的Anthropic，面他家的SWE岗，虽然是entry level，但四轮tech面下来真有点活人微亖了...\n\t\n第[一R]轮让设计一个能支撑十亿文档、百万 QPS 的分布式搜索系统。起初我以为就是老套路：Sharding、Query 路由。但面试官一路追问：热点怎么避免？跨分片的结果怎么高效合并排序？监控指标该怎么埋点？每一问都把我逼到更接近真实生产的细节，几次都差点答不上来。\n\t\n第[二R]轮是Hybrid Search，要把文本检索和语义相似度结合起来。既保精确率，又保召回率，还要考虑延迟。面试官问我怎么做不同 score 的归一化、alpha 超参数该怎么调，实时搜索海量数据时如何兼顾性能，搜索质量又该如何系统评估。每个点都有坑，一不小心就会漏掉。\n\t\n第[三R]轮更狠，直接抛给我一个“事故”场景：系统的 95 分位延迟从 100ms 飙到了 2000ms。我必须快速定位瓶颈，还得排出优化优先级，并设计全链路的监控。更难的是权衡不同策略——是加资源，还是改架构，还是动算法？\n\t\n第[四R]轮是要处理十亿文档的 ingestion 和索引。我必须考虑扩展性、一致性和容错，尤其是当节点突然挂掉时，如何保证数据不丢失、搜索实时性不受影响。这一关完全考察系统设计的全面性，几乎没有任何投机取巧的空间。\n\t\nAnthropic真的很爱把系统设计+算法揉在一起问，还会不断追问真实业务里的极端情况，逼着你想清楚从理论到落地的全链路。虽然过程被虐得不轻，但复盘下来，对分布式和搜索的理解直接到了next level。\n\t\n整理了一些面试高频题→【AS】﻿\n*仅做信息分享，不涉及任何招聘\n﻿#美国留学生[话题]#﻿   ﻿#留学生求职[话题]#﻿   ﻿#美国求职[话题]#﻿   ﻿#sde求职[话题]#﻿   ﻿#swe求职[话题]#﻿   ﻿#Anthropic面试[话题]#﻿   ﻿#Anthropic[话题]#﻿   ﻿#ng找工[话题]#﻿ ﻿#8bit[话题]#﻿ ﻿#8bitcareer[话题]#﻿﻿",
+  "tags": [
+    "美国留学生",
+    "留学生求职",
+    "美国求职",
+    "sde求职",
+    "swe求职",
+    "Anthropic面试",
+    "Anthropic",
+    "ng找工",
+    "8bit",
+    "8bitcareer"
+  ],
+  "author": "湾区Richard",
+  "authorId": "66bb57e6000000001d023133",
+  "time": 1756267980000,
+  "ipLocation": "",
+  "likes": "299",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091200/4c5b771fdc6ea358756aea4736711afe/spectrum/1040g0k031lm3u7fo4s005plravj7cc9j0fhr1tg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091200/a6698911b1d57f8dafc43f1a860b9c3c/spectrum/1040g0k031lm3u7fo4s0g5plravj7cc9jqq0ef7o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091200/f4f69c97bc8176a07141e664ddc831ff/spectrum/1040g0k031lm3u7fo4s105plravj7cc9j1e2f0tg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091200/b90ee2dd399c486b7b44d7a36d31b850/spectrum/1040g0k031lm3u7fo4s1g5plravj7cc9j6f31620!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68ae85cc000000001b021fc3?xsec_token=ABCztYpm-ut2zeHAevaw6IXPftGtbZ8pZz3bqlx4uXNvk=&xsec_source=pc_collect"
+}

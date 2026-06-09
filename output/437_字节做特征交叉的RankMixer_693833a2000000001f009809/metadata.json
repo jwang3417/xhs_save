@@ -1,0 +1,31 @@
+{
+  "id": "693833a2000000001f009809",
+  "type": "normal",
+  "title": "字节做特征交叉的RankMixer",
+  "desc": "🔥做推荐/广告/AI工程的同学看过来👀\n字节在工业级排序模型上搞了个大动作——RankMixer，专治“特征多、延迟高、效果卡脖子”！（文末有PDF笔记哦，欢迎关注和下载呀～）\n💡它干了啥？\n摒弃传统 Transformer 的 Self-Attention（O(N²) 太贵！）\n用 MLP + Token Mixing 实现高效特征交叉，复杂度降到 O(N) ，每个特征 token 都有专属 MoE 专家，长尾信号不再被淹没！ 支持十亿级参数，但推理超快，已落地抖音 Feed 排序✅\n\t\n✨一句话总结：\nHiformer 的轻量化+工业化升级版——用 MLP 混出高性能，又快又准！\n适合场景：视频推荐、CTR预估、多行为预测…\n如果你也在卷“大模型+低延迟”，RankMixer 值得深挖！\n#推荐系统[话题]##字节[话题]# #Rankmixer[话题]# #大模型[话题]##算法[话题]##特征交叉[话题]# #互联网大厂[话题]# #秋招[话题]#",
+  "tags": [
+    "推荐系统",
+    "字节",
+    "Rankmixer",
+    "大模型",
+    "算法",
+    "特征交叉",
+    "互联网大厂",
+    "秋招"
+  ],
+  "author": "吉米爱学习",
+  "authorId": "6836abc4000000001b020f81",
+  "time": 1765290914000,
+  "ipLocation": "",
+  "likes": "68",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091003/8e1cb4734f795882d4758dc194c311ae/1040g00831psi6h9tla305q1mlf26s3s10nrvk50!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091003/5e7b2d4a5e78f01c0e145f0f4f8cf23c/notes_pre_post/1040g3k031psihfrr4k505q1mlf26s3s1kahv0o8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091003/61fedbd0c6d97cec2b984aca3bfddc27/notes_pre_post/1040g3k031psihfrr4k305q1mlf26s3s1cf1k5v8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091003/21a2af98ed7eb2c20046a65d41ddaf9f/notes_pre_post/1040g3k031psihfrr4k4g5q1mlf26s3s1gimi2r8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091003/a05297510af0e8c63e7a91facd56a60e/notes_pre_post/1040g3k031psihfrr4k5g5q1mlf26s3s1aso1s2g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091003/e30fcf83fb2250a6f80f95baf35285cd/notes_pre_post/1040g3k031psihfrr4k605q1mlf26s3s1jafl6so!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/693833a2000000001f009809?xsec_token=ABwtDGzM62MRV0J1PzU2UydKjlBNBTPAAsoNjFkUYgHFU=&xsec_source=pc_collect"
+}

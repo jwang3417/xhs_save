@@ -1,0 +1,6 @@
+TransFuser：sensor fusion for AV
+
+TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving#具身智能[话题]# #AI人工智能[话题]# #世界模型[话题]# #VLA[话题]# #自动驾驶[话题]#
+
+
+标签: #具身智能 #AI人工智能 #世界模型 #VLA #自动驾驶

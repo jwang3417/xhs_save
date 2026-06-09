@@ -1,0 +1,16 @@
+对话SGLang CTO | 放得下，才能拿得更多
+
+今天对话RadixArk/SGLang的CTO 朱邦华
+本科清华年级第一
+伯克利师从Jiantao Jiao， Michael Jordan
+	
+PhD结束后，开启了第一次创业NexusFlow
+开源社区中，最早跑通了PPO训练
+之后很快被英伟达收购
+	
+收购不到半年，就放弃后面的收购归属
+又出来和好朋友盛颖
+以SGLang为基础，创立公司RadixArk
+拿到了1亿美金的融资
+	
+恭喜邦华，今天我们一起深入了解一下，背后的故事

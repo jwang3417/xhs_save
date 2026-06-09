@@ -1,0 +1,23 @@
+微软研究院：零推理成本！Skills自进化神器
+
+大模型研发者们，AI Agent 的 Prompt/ Skills优化终于有「工业级优化器」了！
+	
+在当前的 AI Agent（智能体）开发中，Skills 大多依赖人工手写、单次生成（One-shot），或者通过松散的自我修正（Self-revision）来进化。
+	
+微软研究院刚发布的论文 《SkillOpt: Executive Strategy for Self-Evolving Agent Skills》彻底打破了传统 Agent 越改越糟、推理成本高昂的魔咒。它的核心理念极其硬核：「训练流程与 Skills，而不是训练权重」。
+	
+SkillOpt 将一整套自然语言 Skills文档视为一个冻结的（Frozen）基座 Agent 的「外部可训练状态」。Agent 的模型权重、运行环境都不变，SkillOpt 通过一套系统化的、严谨的文本空间优化器（Text-space Optimizer）去自动化「训练」和迭代这篇 Skills文档。
+	
+🔆核心亮点：
+1.仅输出一个紧凑、可读的 best_skill.md 文件
+2.在 7 个模型、6 个基准、3 种 harness 上全面 SOTA，最高提升近 40 分
+3.跨模型、跨执行框架强迁移，一次优化多次复用
+4.彻底告别手工 prompt 和不稳定进化，走向可控、可审计的 Skills训练范式
+	
+《SkillOpt》这篇论文为 AI Agent 的 Prompt 工程和 Skills演进提供了一种工业级、可复现、严谨的工程化方案。
+强烈推荐所有 Agent 研发者、LLM 应用工程师和 AIEngineering 从业者闭眼入，这可能是当前最实用、最可落地的 Agent Skills进化方案之一。
+	
+#aiagent[话题]#  #LLM研发[话题]#   #微软论文[话题]#  #Prompt工程[话题]#  #人工智能[话题]# #SkillOpt[话题]#
+
+
+标签: #aiagent #LLM研发 #微软论文 #Prompt工程 #人工智能 #SkillOpt

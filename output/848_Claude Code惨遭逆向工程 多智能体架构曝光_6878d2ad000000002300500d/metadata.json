@@ -1,0 +1,28 @@
+{
+  "id": "6878d2ad000000002300500d",
+  "type": "normal",
+  "title": "Claude Code惨遭逆向工程 多智能体架构曝光",
+  "desc": "就在今天，AI圈发生了一件大事！Anthropic 家的明星产品 Claude Code，v1.0.33 版本的代码惨遭安全大佬逆向工程，超过五万行的混淆源码被硬核分析，完整的技术架构和实现机制被扒得一干二净，相关分析资料直接在 GitHub 上开源！\n\t\n💡 核心技术架构全解析\n\t\nshareAI-lab 团队通过逆向工程，揭示了 Claude Code 背后复杂的系统设计。这绝不是一个简单的套壳产品，其内部机制堪称精妙。\n\t\n🤖 分层多智能体架构 (Layered Multi-Agent Architecture)\n\t\nClaude Code的大脑复杂如同一个团队，它内置了一个主智能体（Main Agent）负责核心调度，多个子智能体（Sub-agent）负责隔离执行任务，还有专门的任务智能体（Task-specific Agent）来处理并发请求。\n\t\n每个智能体都有独立的权限和资源，像一个分工明确的高效项目组。\n\t\n💡 实时转向与响应机制 (Real-time Steering)\n\t\n打字就有响应的丝滑体验是怎么做到的？答案是基于 h2A（双缓冲异步消息队列）的实时转向机制。这个设计实现了零延迟的消息传递和高吞吐，让系统在处理复杂任务时也能做到非阻塞的实时流式响应，用户体验直接拉满。\n\t\n🌱 智能上下文管理 (Intelligent Context Management)\n\t\n上下文太长怎么办？Claude Code 内置了一套智能压缩算法。当 Token 消耗达到阈值时，系统会自动触发压缩器，保留关键信息，并利用一个名为 CLAUDE.md 的文件进行长期记忆存储。\n\t\n💸 固若金汤的安全保障 (Reinforced Security)\n\t\n安全是生命线！Claude Code 设计了从 UI 到工具执行的整整六层权限验证系统。\n\t\n不仅如此，它还为工具执行配备了沙盒环境，并设置了多级过滤器来防止恶意输入。这套组合拳下来，安全性直接碾压一众对手。\n\t\n你怎么看这次 Claude Code 源码被分析事件？\n评论区聊聊！\n﻿#独立开发者[话题]#﻿ ﻿#大语言模型[话题]#﻿ ﻿#个人开发者[话题]#﻿ ﻿#vibecoding[话题]#﻿ ﻿#VibeCoding[话题]#﻿ ﻿#claudecode[话题]#﻿",
+  "tags": [
+    "独立开发者",
+    "大语言模型",
+    "个人开发者",
+    "vibecoding",
+    "VibeCoding",
+    "claudecode"
+  ],
+  "author": "江昪",
+  "authorId": "5d0114c7000000001103e613",
+  "time": 1752748717000,
+  "ipLocation": "",
+  "likes": "637",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091326/42a2fe4fa7c554bad7933c37f6ae2c43/spectrum/1040g0k031k1lt19mia005n812j3kfpgjjbk60ag!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091326/e9c506a5f54f033c9e895f34aa435678/spectrum/1040g0k031k1lt19mia0g5n812j3kfpgj9obvggo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091326/656ca75064a599c3578b1d3f84f62b0e/spectrum/1040g0k031k1lt19mia105n812j3kfpgjbqg9r98!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091326/e8388ab628c59e27284a547bb6764192/spectrum/1040g0k031k1lt19mia1g5n812j3kfpgj6mgo7h0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091326/3457dfc64c191081120cde1f4c123b64/spectrum/1040g0k031k1lt19mia205n812j3kfpgjsdu2e98!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6878d2ad000000002300500d?xsec_token=ABOw9tYQ3MbxIe8v17Sd35oTC6C-BGl8rKPKKSPAowv-k=&xsec_source=pc_collect"
+}

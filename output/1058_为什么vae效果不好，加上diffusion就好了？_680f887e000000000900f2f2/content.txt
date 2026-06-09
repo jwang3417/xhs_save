@@ -1,0 +1,10 @@
+为什么vae效果不好，加上diffusion就好了？
+
+[一R]VQ-VAE跟VAE完全是两个概念。题目中所谓的“VAE + Diffusion效果好”指的应该是“VAE/VQ-VAE（VQ-GAN） + Diffusion效果好”。
+[向右R]VAE的流程：encoder将图片编码为均值和方差，同时随机采样出一个服从正态分布的ε，通过ε × std + mean的方式重采样得到latent feature，最后latent feature送入decoder重建得到RGB图片。
+[向右R]VQ-VAE的流程：encoder将图片编码，同时通过最邻近搜索将编码得到的特征对codebook进行映射，得到离散的latent feature，最后latent feature送入decoder重建得到RGB图片。VQ-VAE相当于维护了一个codebook，而并非直接对连续的latent feature做重构。
+[二R]综上，可以理解为VQ-VAE或者是VQ-GAN都提供了一个有效的图片表征方法，即通过一个压缩后的latent feature就能够在RGB空间上对应一张图。扩散模型中，DDPM已经证明了通过大量的算力资源训练一个diffusion model能够在RGB空间把图像分布拟合好，Stable Diffusion的思路则是“既然通过一个压缩后的latent feature能够表征好一张图，那就索性在latent feature的隐空间上做扩散”，因此Stable Diffusion本质上是一个latent diffusion model。
+[三R]回到题目：“VAE + Diffusion”之所以效果这么好，主要还是因为diffusion model强大。强大到用diffusion model去拟合的隐空间分布，能够逼近VAE或者VQ-VAE用encoder编码RGB图片得到的latent feature分布。#深度学习[话题]# #扩散模型[话题]# #ai[话题]# #大模型[话题]# #vae[话题]# #计算机视觉[话题]# #生成式AI[话题]#
+
+
+标签: #深度学习 #扩散模型 #ai #大模型 #vae #计算机视觉 #生成式AI

@@ -1,0 +1,18 @@
+盘点一周AI大事5月10日｜Claude内心戏太足
+
+OpenAI升级ChatGPT默认模型 GPT-5.5 Instant
+Codex上线浏览器控制
+OpenAI发布三款实时语音模型
+Anthropic官宣AI读心术 NLAs
+Google升级 Gemma 4
+科学家开源AI科学家 LabOS
+工程师开源一人公司系统 OneManCompany
+工程师开源AI写PPT Open Slide
+HiDream发布最强开源图像模型HiDream-O1 Image
+Unity上线官方Agent
+Genesis发布首个跟人类能力相当的机器人大脑和灵巧手
+	
+#AIChannel[话题]# #AI[话题]# #AIGC[话题]# #大模型[话题]# #Agent[话题]# #机器人[话题]#
+
+
+标签: #AIChannel #AI #AIGC #大模型 #Agent #机器人

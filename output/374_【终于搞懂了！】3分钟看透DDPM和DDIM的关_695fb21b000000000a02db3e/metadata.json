@@ -1,0 +1,32 @@
+{
+  "id": "695fb21b000000000a02db3e",
+  "type": "normal",
+  "title": "【终于搞懂了！】3分钟看透DDPM和DDIM的关",
+  "desc": "DDPM和DDIM是扩散模型的两种采样方法，DDPM按步走慢但保证边际分布不变，DDIM跳步快且保持边际分布一致。两者训练目标相同，但路径不同，无需重新训练。\n\t\n#AI绘画[话题]# #DiffusionModel[话题]# #DDPM[话题]# #DDIM[话题]# #深度学习[话题]# #人工智能[话题]# #程序员[话题]# #学习笔记[话题]# #AIGC[话题]# # StableDiffusion #机器学习[话题]#",
+  "tags": [
+    "AI绘画",
+    "DiffusionModel",
+    "DDPM",
+    "DDIM",
+    "深度学习",
+    "人工智能",
+    "程序员",
+    "学习笔记",
+    "AIGC",
+    "机器学习"
+  ],
+  "author": "ITBeyond",
+  "authorId": "662b0a1400000000030301bd",
+  "time": 1767879195000,
+  "ipLocation": "",
+  "likes": "23",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090951/272f867c2dc2f1e30952536b87d141c4/notes_pre_post/1040g3k031r2kd1jnn2005phb18a0u0dtb85cc38!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090951/e1867b2c797ab07c3fab1c354c95476e/notes_pre_post/1040g3k031r2kd1jnn21g5phb18a0u0dtacokdv0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090951/6b7c17e90982da1d1ecb65aab2918c9c/notes_pre_post/1040g3k031r2kd1jnn2205phb18a0u0dttdoadt0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090951/12bdba454aaad7517ed14a17ac5ee3ee/notes_pre_post/1040g3k031r2kd1jnn22g5phb18a0u0dt42to9b8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090951/d4265812723de6a8d50fc97bb599b2ea/notes_pre_post/1040g3k031r2kd1jnn2305phb18a0u0dtpl1827o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/695fb21b000000000a02db3e?xsec_token=AB4oEDIrquLY19u8a5-_nTttPuwawhmLJF5sD3dXi3fjE=&xsec_source=pc_collect"
+}

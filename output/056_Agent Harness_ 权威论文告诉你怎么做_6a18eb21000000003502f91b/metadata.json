@@ -1,0 +1,22 @@
+{
+  "id": "6a18eb21000000003502f91b",
+  "type": "video",
+  "title": "Agent Harness: 权威论文告诉你怎么做",
+  "desc": "CMU、Yale、JHU 等联合综述 Agent Harness Engineering 解读：为什么长任务 Agent 失败常因「外壳」而非模型不够聪明？Prompt → Context → Harness 三阶段、ETCLOVG 七层、trace-native 评估与 Framework 走向 Platform。双人对话中视频，基于 Datawhale 整理稿。\n\t\n#AgentHarness[话题]#  #ETCLOVG[话题]#   #ContextEngineering[话题]#  #AI工程[话题]#  #大厂吾师兄",
+  "tags": [
+    "AgentHarness",
+    "ETCLOVG",
+    "ContextEngineering",
+    "AI工程"
+  ],
+  "author": "大厂吾师兄（AI篇）",
+  "authorId": "633bed72000000001802c0a2",
+  "time": 1780017953000,
+  "ipLocation": "浙江",
+  "likes": "59",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090706/7138bbd878813ea84ce85c1661ee8e6d/spectrum/1040g0k0320o5hohumq005oprtlp65g52jb389g8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01ea18eb06137b06010370039e7157e19b_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a18eb21000000003502f91b?xsec_token=ABZcxXIHjc7uemkBuh9-sjA4cpL_kzskXN7eXIDD6nWXg=&xsec_source=pc_collect"
+}

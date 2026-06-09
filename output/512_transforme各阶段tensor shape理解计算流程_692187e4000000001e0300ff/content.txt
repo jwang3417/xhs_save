@@ -1,0 +1,7 @@
+transforme各阶段tensor shape理解计算流程
+
+第10节课：从transformer各个阶段的tensor shape来理解整个计算流程（前面9节，可以看之前的笔记）
+#人工智能[话题]# #深度学习[话题]# #transformer[话题]# #transformer模型[话题]# #transformer架构[话题]# #tensor_shape[话题]# #大模型训练[话题]#
+
+
+标签: #人工智能 #深度学习 #transformer #transformer模型 #transformer架构 #tensor_shape #大模型训练

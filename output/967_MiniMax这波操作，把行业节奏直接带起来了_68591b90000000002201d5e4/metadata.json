@@ -1,0 +1,32 @@
+{
+  "id": "68591b90000000002201d5e4",
+  "type": "normal",
+  "title": "MiniMax这波操作，把行业节奏直接带起来了..",
+  "desc": "过去一周MiniMax这波操作确实有点猛，连发五款模型产品，这种密集输出产品节奏在国内AI厂商里是头一回见，现在AI圈竞争都是真刀真枪拳拳到肉了。\n\t\n先说说M1，据说也是第一个开源的混合注意力推理模型，也是目前推理模型里上下文最长的（图2），意味着能更好发挥推理模型在复杂case上优势，不容易断片。实际用了下，响应时间稍长，但它的算力消耗控制得不错，成本只有同类30%，这个优化程度确实厉害\n\t\n印象最深的还是Hailuo 02视频生成，不仅是benchmark上世界第二（图4），实际测试中打斗场景，也完成得很好，物理原理的遵循这块确实有两把刷子。曲奇作为内容创作者也很关心价格，性价比真的到位了，和豆包、可灵比起来，每秒价格是最低的。Veo3效果确实顶级，但贵到离谱，普通创作者根本用不起，个人认为实际大规模生产真的推不动。。落地还是要看性价比\n\t\n语音这块更新的Voice Design也挺有意思，用自然语言就能生成音色，想要侠客、说书的、甚至自己全新创作一个声音都没问题。配合第一的Speech-02模型（图7），语言、情绪、口音、音色都能打通。他家多模态能力确实没得说\n\t\n另外是两款agent产品，分通用和视频创作，产品思路很明确，降低AI使用门槛。通用Agent不多说了，刷到不少测评帖子，实际体验下来追平甚至超过目前一些热门产品。视频创作Agent更有意思，用户上传个图片打几个字就能出视频，这个功能对新手极其友好，傻瓜式操作我玩了一个下午哈哈哈。但缺点也很明显：生成的内容容易同质化，不太能精细调整。不过对于快速出片的需求，绝对是神器，适合短视频和自媒体\n\t\n战略角度看，这波操作挺聪明：技术创新+性价比+全栈创作。面对美国的技术封锁和芯片限制，国内企业被逼出了不少创新力。优化和架构创新这块，Minimax确实有自己的思路，不盲目堆参数，而是优化性价比和易用性，让产品更接地气\n\t\n当然，MiniMax和顶级模型比仍有差距，但也确实找到了优势，国内外大模型竞争虽然相当激烈，但能持续更新，以至最终留在牌桌上的公司，一定会有MiniMax一席之地。毕竟这场竞赛不是百米冲刺，而是马拉松，现在才刚跑了个开头\n\t\n#MiniMax[话题]# #通用Agent[话题]# #视频生成[话题]# #AI[话题]# #科技[话题]# #大模型[话题]# #互联网大厂[话题]# #行业洞察[话题]#",
+  "tags": [
+    "MiniMax",
+    "通用Agent",
+    "视频生成",
+    "AI",
+    "科技",
+    "大模型",
+    "互联网大厂",
+    "行业洞察"
+  ],
+  "author": "电波曲奇",
+  "authorId": "66272f5000000000030335c8",
+  "time": 1750670224000,
+  "ipLocation": "",
+  "likes": "123",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091341/d175be44c3923e8f061f4cda48783431/notes_pre_post/1040g3k831j2mrdauhae05ph75t80ude8i7ilneg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/c2f88152637960e43071e1b8633a8de7/notes_pre_post/1040g3k831j2mrdauhaeg5ph75t80ude8e6p73b0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/b99f6048fcf525f5e165d1412ee71f5f/notes_pre_post/1040g3k831j2mrdauhaf05ph75t80ude85a06aio!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/2efe73e3674b14035aa3c29b3a5203fa/notes_pre_post/1040g3k831j2mrdauhafg5ph75t80ude8oi1dgr8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/2fd2dea1d6986c43f8c5e4a0f75437b0/notes_pre_post/1040g3k831j2mrdauhag05ph75t80ude8sqnq8j0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/17c4517cd43637216627653a4801b679/notes_pre_post/1040g3k831j2mrdauhagg5ph75t80ude8brb6up0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/4ed4c585b3bd9ace92c4cbaf0764307e/notes_pre_post/1040g3k831j2mrdauhah05ph75t80ude80cpuo3g!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68591b90000000002201d5e4?xsec_token=ABftzoTDWhPRhNZZ6_LW6c2cQfxVRT2UfxWc6NNud04So=&xsec_source=pc_collect"
+}

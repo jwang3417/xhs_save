@@ -1,0 +1,27 @@
+{
+  "id": "68c7ce6a000000001b031804",
+  "type": "normal",
+  "title": "推荐模型中的Semantic feature",
+  "desc": "刚开始接触推荐的时候，觉得最奇怪的事情就是居然没有什么多模态的表征，应该是非常符合直觉的一个特征。问了同事才知道加了没有收益，简单地将高维语义特征引入推荐模型，通常很难带来性能提升，有时甚至会起反作用。\n正好最近在关注semantic ID系列的工作，记录一下自己的理解，内容如图。\n#推荐算法[话题]# #算法[话题]# #快手[话题]# #抖音[话题]# #生成式推荐[话题]# #多模态[话题]#",
+  "tags": [
+    "推荐算法",
+    "算法",
+    "快手",
+    "抖音",
+    "生成式推荐",
+    "多模态"
+  ],
+  "author": "Esho",
+  "authorId": "5e981b200000000001002d4a",
+  "time": 1757924970000,
+  "ipLocation": "",
+  "likes": "205",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091155/0db0dce63c6f3fdcb574ba4f6dbc83c9/1040g2sg31meocmrem8l05nko3cg08baaa5lsp7g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091155/8c7cb06d3764ef36e7e0c2876e08acf1/1040g2sg31meocmrem8mg5nko3cg08baa9ek761o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091155/804140748a5acb281d6722e9fc3bd065/1040g2sg31meocmrem8m05nko3cg08baaj2kks30!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091155/feae5e87c459a8b6ae954056ca24591d/1040g2sg31meocmrem8lg5nko3cg08baak76qo6g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68c7ce6a000000001b031804?xsec_token=ABjY4N6wZEGSgHCCksyqlv9GCZ9LtoP69giDYwkSxJBuo=&xsec_source=pc_collect"
+}

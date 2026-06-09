@@ -1,0 +1,27 @@
+{
+  "id": "69a7fa2c000000001a029ac1",
+  "type": "normal",
+  "title": "Meta 今年AI Enable coding更难了....",
+  "desc": "春招想冲Meta的留学生可以注意一下今年面试的变化。 Meta在技术面推出了一轮新的 AI-enabled coding，直接取代了传统的现场编码轮次，候选人可以在AI辅助下35分钟内完成两道LeetCode风格题目。\n\t\n我把我上次面试遇到的AI-enabled coding汇总了一下，想冲meta的留学生可以参考：\n\t\n面试用的是 Python，题目背景是 Friend Recommendation。整体节奏是面试官主导推进的，中间会穿插问 Big O，也会要求现场 run 一下代码。可以使用 AI，我用的是 Claude Opus。\n\t\n👉 第一问是修复一个 valid_recommend function，让它通过 test case。\n面试官明确说这题不建议用 AI，其实逻辑很简单。我大概扫了一下 test case 和函数定义，发现 input 是一个 user 和一个 user list，但函数没有判断 list 里是否包含自己。补了两行判断逻辑就顺利通过。\n\t\n👉 第二问开始允许使用 AI\n需要实现一个 random_recommend function。一开始直接让 AI 生成代码，粘贴运行发现不 work。后来和 AI 反复迭代了几轮，调整逻辑后再贴进去运行，终于可以正常通过。\n\t\n👉 第三问偏开放。面试官问：如何衡量一个好友推荐算法的效果？\n我先让 AI 生成几个 evaluation 方向，再筛选可行项。随后面试官提醒要结合 User class 的属性来看——这个 class 只有 id 和 currentFriends，没有性别、生日、group 等字段。所以真正可落地的指标其实只有 mutual friends 等基于现有数据的维度。\n\t\n篇幅有限，我把面试真题和练习题库整理好了，大家可以在面试前提前练练\n需要的留学生可以戳【ENE】share\n\t\n#8bitcareer[话题]# #8bit[话题]# #美国留学生[话题]# #留学生求职[话题]# #留学生实习[话题]# #留学生找工作[话题]# #meta[话题]#",
+  "tags": [
+    "8bitcareer",
+    "8bit",
+    "美国留学生",
+    "留学生求职",
+    "留学生实习",
+    "留学生找工作",
+    "meta"
+  ],
+  "author": "8Bit MIT",
+  "authorId": "66cefa7b000000001d0319ce",
+  "time": 1772616236000,
+  "ipLocation": "",
+  "likes": "88",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090929/7129b6cee02f7dec79c634a0b4fc4b37/spectrum/1040g34o31t9ncbo95asg5pmev9tne6eeg4g5f8g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090929/8e65a25f253e334b8ec54122b682ff9d/spectrum/1040g34o31t9ncbo95at05pmev9tne6eevk85mk8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090929/df19aa0ba3be2f9bf196a30ee92494ff/spectrum/1040g34o31t9ncbo95atg5pmev9tne6eerd78jkg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69a7fa2c000000001a029ac1?xsec_token=ABBsXaDgk6FRXFxy-YnLThHwiszIg8iI03xFHa0Gy4m1Y=&xsec_source=pc_collect"
+}

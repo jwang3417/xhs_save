@@ -1,0 +1,21 @@
+{
+  "id": "68484eac000000000f0384a5",
+  "type": "video",
+  "title": "LIMA、LIMO、LIMR原作讲论文-智源大会精选-3",
+  "desc": "1.\t生成式AI第二幕——认知工程\n回顾团队对OpenAI  O1早期复现的探索，提出生成式AI第二幕，借助Inference/Test-Time Scaling，让大模型深度思考。\n\t\n2.\tLIMA：极致数据高效性\n2022年团队工作LIMA（Less Is More for Alignment）在非推理场景，仅用1000条高质量指令样本即可使大模型达成优秀的instruction-following能力。\n\t\n3.\t最近比较火的LIMO：Less is more For Reasoning\nLIMO用极小样本思想扩展到高难度数学推理，仅用817条精挑细选的SFT数据，就把AMC题目刷到业内领先水平。\n\t\n4.\tLIMR：Less is more For RL Scaling\n强化学习阶段同样遵循数据高效性——将常规8000 条RL轨迹缩减到1000条，甚至个别错误标签也能收敛，并取得更佳表现。\n\t\n5.\tPC Agent-E：Efficient Training\ncompute use训练的数据高效性\n\t\n6.\t问答环节\n•时间分配与推理调度\n•幻觉 & 认知失调风险\n\t\n#大模型[话题]# #强化学习[话题]# #智源大会[话题]#",
+  "tags": [
+    "大模型",
+    "强化学习",
+    "智源大会"
+  ],
+  "author": "一蛙",
+  "authorId": "607c6b9f0000000001000330",
+  "time": 1749569196000,
+  "ipLocation": "",
+  "likes": "428",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091334/4351bef922d35db50b86cccfb254d6ea/1040g00831ii9r3rp0c005o3sdefg80pgo3at4ho!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/1/110/259/01e8484c971343b801037003975a77ef05_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68484eac000000000f0384a5?xsec_token=ABsWwdZSGYwAZrMj-7B_Fjp8XOjdvMRSnFOuSwnPpOyMc=&xsec_source=pc_collect"
+}

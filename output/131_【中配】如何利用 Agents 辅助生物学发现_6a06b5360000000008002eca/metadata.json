@@ -1,0 +1,26 @@
+{
+  "id": "6a06b5360000000008002eca",
+  "type": "video",
+  "title": "【中配】如何利用 Agents 辅助生物学发现",
+  "desc": "译者：\n大家喜闻乐见的虚拟实验室概念。\n或许应该把Agents for science 和 AI for Science 概念做个分离，提到 AI for Science 更多会想到cellpose、模型训练。而 Agents for Science 更多的是降低实验室运行成本、提高数据分析能力做科研平权的，不过这方面的公司应该还不多。\n————————————————————————————————————————————\nJames Zou | Fun Experiments with AI Scientist for Biomedical Discoveries | CGSI 2025\n如何利用 AI 科学家代理（AI Scientist Agents） 来辅助生物医学发现\n————————————————————————————————————————————\n关键术语：\nAI Scientist Agent (AI 科学家代理)\n能够自主设定目标、使用工具（如搜索、运行代码）并与其他 AI 协作完成科研任务的智能体\nVirtual Lab School (虚拟实验室学校)\n一个自动化的训练机制。AI 代理在这里阅读 PubMed 论文、通过模拟考试来增强特定领域（如蛋白质工程）的专业知识\nNanobodies (纳米抗体)\n一种比普通抗体更小、更稳定的抗体类型。AI 在视频中选择纳米抗体是因为它们在计算建模上比普通抗体更容易处理\nESM (Evolutionary Scale Model)\n蛋白质语言模型。AI 用它来预测氨基酸序列形成稳定蛋白质的可能性，作为筛选候选抗体的第一步\nTranscriptional Entropy (转录熵)\n用于衡量细胞内基因表达的混乱程度。AI 发现转录熵与大脑细胞的生物年龄之间存在强相关性\n——————————————————————————————————————————\n#科研学习[话题]# #生物信息学[话题]# #数据科学[话题]# #机器学习[话题]# #科研[话题]# #生物学[话题]# #生物医学科研[话题]# #生信分析[话题]#",
+  "tags": [
+    "科研学习",
+    "生物信息学",
+    "数据科学",
+    "机器学习",
+    "科研",
+    "生物学",
+    "生物医学科研",
+    "生信分析"
+  ],
+  "author": "油炸带鱼",
+  "authorId": "62f74d29000000001f006c65",
+  "time": 1778824502000,
+  "ipLocation": "浙江",
+  "likes": "406",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090732/02dfe6d0778d7b4a24244e81108ad587/spectrum/1040g34o32067k5cf5c105onn9kknor35kakbnn8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/79/110/259/01ea06b3ed22bc98010370039e2a376048_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a06b5360000000008002eca?xsec_token=ABWgiMEUF10V5PkGb8YvXGu7KdRZiH5ZhuahR6ZTmjKGk=&xsec_source=pc_collect"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "6a05dd130000000008024298",
+  "type": "normal",
+  "title": "KDD'26 小红书相关性模型",
+  "desc": "核心就是提出了SAM（Stepwise Advantage Masking），也就是在CoT每一步都给出相关性分数，然后基于这一相关性分数对各个步骤判断是否正确。\n\t\n#大模型[话题]# #LLM[话题]# #强化学习[话题]# #相关性[话题]#",
+  "tags": [
+    "大模型",
+    "LLM",
+    "强化学习",
+    "相关性"
+  ],
+  "author": "余缺",
+  "authorId": "64734e26000000002a035fe1",
+  "time": 1778769171000,
+  "ipLocation": "广东",
+  "likes": "81",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090712/9d338bfaba12d913189fc148a57e36c9/1040g00832053oo1via0g5p3j9ojamnv131cjo3g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090712/84308f2bf774a180eca6ab0405214e79/1040g00832053oo1via105p3j9ojamnv11f47l6g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090712/ae2581eadb7fc88a44662f921a866bad/1040g00832053oo1via1g5p3j9ojamnv11o59m7o!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a05dd130000000008024298?xsec_token=ABV9CTEV_FqNS7QppXkQYWj6Kn8eepu3j54lSb6AKCJ_E=&xsec_source=pc_collect"
+}

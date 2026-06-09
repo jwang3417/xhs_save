@@ -1,0 +1,28 @@
+{
+  "id": "6a26c32c000000001702f625",
+  "type": "video",
+  "title": "vLLM-Omni v0.22.0 Omnimodal World Model",
+  "desc": "这次 vLLM-Omni v0.22.0 真的不只是“更新了一版”—— 而是一次面向 世界模型 + 生产级多模态 serving 的大升级。\n\t\n本次版本亮点：\nDay-0 支持 Nvidia Cosmos 3 世界模型 文本、图像、音频、视频、动作输入/输出全覆盖，vLLM-Omni 正式迈向 omnimodal world-model serving。\nDreamZero + OpenPI 机器人 serving 支持 CFG parallel、OpenPI 在线服务、实时机器人 serving API，多模态生成和 embodied AI 场景更近一步。\n语音与 TTS 更适合生产环境 Qwen3-TTS、Qwen3-Omni、VoxCPM2、Fish Speech S2 Pro、OmniVoice 等全面增强： 高并发、异步音频输入、自定义音色、ref-context cache、流式体验都更稳了。\n图像 / 视频 / Diffusion 加速继续扩展 Wan2.2、HunyuanImage3、HunyuanVideo 1.5、LTX-2.3、BAGEL 等支持更强的并行执行、缓存加速和质量校验。\n量化与硬件覆盖更全面 Blackwell、ROCm、Intel XPU、Ascend NPU 全线增强；FP8 / INT8 / MXFP4 / MXFP8 / W4A16 / ModelOpt mixed FP8-NVFP4 、SageAttention3等能力持续补齐。\n对齐 vLLM 0.22 release line 完成 vLLM 0.22 rebase，补齐依赖兼容、release image、PyPI 上传和 CI/benchmark/文档体系。\n\t\n这次版本背后是：\n339 commits  124 contributors  52 位新贡献者\n世界模型、语音、图像、视频、机器人 serving、量化、硬件后端全面升级\n如果你正在关注： World Model、TTS、视频生成、Diffusion serving、机器人模型 serving...这个版本值得重点看。\n\t\n#vLLM[话题]# #vLLMOmni[话题]# #多模态大模型[话题]# #WorldModel[话题]# #AIInfra[话题]# #大模型推理[话题]# #TTS[话题]# #Diffusion[话题]# #机器人AI[话题]# #开源项目[话题]#",
+  "tags": [
+    "vLLM",
+    "vLLMOmni",
+    "多模态大模型",
+    "WorldModel",
+    "AIInfra",
+    "大模型推理",
+    "TTS",
+    "Diffusion",
+    "机器人AI",
+    "开源项目"
+  ],
+  "author": "vLLM",
+  "authorId": "66bfd87f000000001d0227ad",
+  "time": 1780925228000,
+  "ipLocation": "上海",
+  "likes": "55",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090700/a42556b85043a5099e98aacc353b8ec8/spectrum/1040g34o3215hafqfn0105plvr1vnc9td11ddl6g!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/79/110/259/01ea26c06a4d5bae010370039ea76bd0eb_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a26c32c000000001702f625?xsec_token=ABiJkRZYRmqDkq6HVtT49K0HqMWc5QPPLUPdMaxSulgYA=&xsec_source=pc_collect"
+}

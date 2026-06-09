@@ -1,0 +1,30 @@
+{
+  "id": "6881c5a7000000001d00cdde",
+  "type": "normal",
+  "title": "Claude code 核心架构全景图来了",
+  "desc": "有开发者对Claude Code v1.0.33 进行了完整逆向工程分析，深度解析了其Agent系统的核心架构、实现机制和运行逻辑。\n\t\n作者同时还分享了逆向所使用的方法论和提示词，可以复现！\n\t\n通过分析15个chunks文件约50,000行混淆代码，还原了Claude Code作为AI编程助手的完整技术实现，验证准确率达85%以上。\n\t\n核心发现：\n\t\n实时Steering机制：基于async message queue的h2A类实现\n分层多Agent架构：支持SubAgent并发执行和隔离\n智能上下文管理：92%阈值自动压缩算法\n强化安全防护：6层权限验证和沙箱隔离",
+  "tags": [],
+  "author": "云中江树",
+  "authorId": "64b34884000000001403c569",
+  "time": 1753335207000,
+  "ipLocation": "",
+  "likes": "808",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091324/78c3e5b850fc53e55be5516e3bbe595a/1040g00831kadkruh30e05p5j92257hb9tof5gc0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091324/002a6f17aff712e84a4b29882321f22a/1040g00831kadjrisj4305p5j92257hb9ib8sob0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091324/0ae89f79fd170e88da76bf1a63a89b8e/1040g00831kadksauiu005p5j92257hb9p3eh9m0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091324/68370af16e592568739cd024366f291e/1040g00831kadjrisj4505p5j92257hb9bgghpv8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091324/26350b43e31f3437c7bdbeef20be998d/1040g00831kadjrisj46g5p5j92257hb9huuq8fo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091324/c87a451161decf4dc0c565b42fea1575/1040g00831kadjrisj43g5p5j92257hb9kf150s0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091324/05679473612cd17dc3af2d57f0f65d71/1040g00831kadh615io205p5j92257hb9fpuu3b8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091324/6b40e3c68401a02bab25b43c932df9d4/1040g00831kadktjoiu005p5j92257hb9josr1mo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091324/b38f4d10eab6f0f2e7bec3129b232cad/1040g00831kadkspn2u005p5j92257hb9h9hlmv8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091324/9d7512d87a0ac3037d145816a18cde46/1040g00831kadh615io2g5p5j92257hb9v01hp1o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091324/5415793deba484d80e2053f36ce97820/1040g00831kadh615io305p5j92257hb9rra04u0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091324/6cfa39970b2b1c9dd14fcfc3a1b32ae9/1040g00831kadh615io3g5p5j92257hb9fvk0nfg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091324/f924922c817056ccb6c86e770f011d25/1040g00831kadh615io005p5j92257hb9tp9bo78!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091324/05450b7c71324330dfe5eed425bedfb7/1040g00831kadh615io6g5p5j92257hb90m2cgko!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6881c5a7000000001d00cdde?xsec_token=AB7Rq0b9I1fx_ld5A4E2w5j1pmqihfOuPSOLs2NXIOcxc=&xsec_source=pc_collect"
+}

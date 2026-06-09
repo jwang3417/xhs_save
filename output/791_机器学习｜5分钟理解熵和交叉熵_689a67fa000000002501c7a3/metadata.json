@@ -1,0 +1,34 @@
+{
+  "id": "689a67fa000000002501c7a3",
+  "type": "normal",
+  "title": "机器学习｜5分钟理解熵和交叉熵",
+  "desc": "熵、交叉熵、KL 散度傻傻分不清？上一篇我们说了KL散度，今天我们从信息论的视角出发，带你理解这些抽象名词背后的本质逻辑和数学含义\n✅ 什么是“信息量”？\n✅ 熵Entropy 如何量化不确定性？\n✅ 为什么交叉熵 Cross Entropy能评估预测效果？\n✅ 它和 KL 散度又有什么联系？\n@校园薯\n#机器学习[话题]# #统计学[话题]# #深度学习[话题]# #算法[话题]# #数据科学[话题]# #我的学习进化论[话题]# #大模型[话题]# #深度学习与神经网络[话题]##全科课代表在此[话题]#",
+  "tags": [
+    "机器学习",
+    "统计学",
+    "深度学习",
+    "算法",
+    "数据科学",
+    "我的学习进化论",
+    "大模型",
+    "深度学习与神经网络",
+    "全科课代表在此"
+  ],
+  "author": "躺平学ML",
+  "authorId": "5ed08a880000000001005456",
+  "time": 1754958623000,
+  "ipLocation": "",
+  "likes": "712",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091202/5b0aa19fad7299fab087d145ec86f44d/notes_pre_post/1040g3k031l2fcq72j6005nmgha408l2mhop4sv8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091202/4fb8434eae44089655016f50125e0460/notes_pre_post/1040g3k031l2fcq72j60g5nmgha408l2mfldrv90!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091202/75b2ac726067fb41f1da4081d031aa78/notes_pre_post/1040g3k031l2fcq72j6105nmgha408l2mfq85940!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091202/0a2a88074c9e8c7b033eeda4ee4c98fd/notes_pre_post/1040g3k031l2fcq72j61g5nmgha408l2ml9ov1s0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091202/597090d1d18557ad18a34fc0f24bb15f/notes_pre_post/1040g3k031l2fcq72j6205nmgha408l2m4khokro!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091202/c8ae4d01ba89e197935b98eecc46a243/notes_pre_post/1040g3k031l2fcq72j62g5nmgha408l2mtst830g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091202/d55ea59530d2e01313dfecf53d17e6ca/notes_pre_post/1040g3k031l2fcq72j6305nmgha408l2mkfi5720!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091202/2d5526613e2247a6ac836c48a6d6d936/notes_pre_post/1040g3k031l2fcq72j63g5nmgha408l2m261shvo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/689a67fa000000002501c7a3?xsec_token=ABHYC5vWn7Y-XBUMKEGe8mGredPwoGOcq_mtAuxOBlIyM=&xsec_source=pc_collect"
+}

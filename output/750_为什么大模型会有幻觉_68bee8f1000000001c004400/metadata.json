@@ -1,0 +1,21 @@
+{
+  "id": "68bee8f1000000001c004400",
+  "type": "video",
+  "title": "为什么大模型会有幻觉",
+  "desc": "openAI刚发了一篇关于人工智能幻觉的文章，揭秘了人工智能幻觉的本质，以及解决的办法，非常值得一读。\n所谓「AI 幻觉」其实不是神秘的 bug，而是基于概率的预训练模式的必然产物。\n首先，我们想一下，一个不会出错的模型是我们想要的么？如果一个模型只会根据存储的信息原封不动回答问题，或者只会说IDK，也就是I don know，那其实永远不会错，但那样显然毫无意义。生成式模型的原理决定了它比判别式模型更难保证正确，判别猫还是狗的传统判别式神经网络，每一层都是可以给出明确的对错判断的。选择题永远比填空题容易。\n#人工智能发展[话题]# #幻觉[话题]# #openai[话题]#",
+  "tags": [
+    "人工智能发展",
+    "幻觉",
+    "openai"
+  ],
+  "author": "未来博士 wepon",
+  "authorId": "5c3ef08f0000000006012525",
+  "time": 1757341937000,
+  "ipLocation": "",
+  "likes": "103",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091158/c394113b2a9ef0e6308d1ff7155fe283/1040g00831m644k2q66d05n1uu27hi995p6f3lno!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01e8bee8b107eb83010370039929bf8d4a_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68bee8f1000000001c004400?xsec_token=ABJNhUbulr7tcn30Gn_Hr3oksV_gsO2GC4dBGh4pPA4XU=&xsec_source=pc_collect"
+}

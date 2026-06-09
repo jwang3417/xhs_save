@@ -1,0 +1,30 @@
+{
+  "id": "697bfde5000000000c0368eb",
+  "type": "video",
+  "title": "刚开始用 Claude Code,这3步真的别着急省略",
+  "desc": "我第一次用 Claude Code 的时候， 其实是有点兴奋，也有点懵的，就觉得：“哇，它好像什么都能写。 后来用久了，其实也踩了很多坑，发现是我一开始没把几件特别基础的事情做好。所以如果你是第一次用 Claude Code， 我真心建议，可以先把这三件事做好， 再开始 vibe coding。\n\t\n【第一件事， Plan Mode】\n我一开始用Claude code的时候，也知道要用plan mode，但就是很简单的让他稍微设计一下，看他说的差不多就可以了。但后来，随着用的越来越多，我也是看claude code的工程负责人Boris的推荐，说是要在Plan mode说的很满意了，再去让他执行。\n所以为了省去未来这些来回周旋的时间，相信我，请至少给与20%的时间在plan mode上面。\n\t\n【第二件事，Version Control】\n第二件事，其实特别简单，但如果不是程序员主业的朋友，可能很少会做。就是Version contorl, 版本管理。\n但摔过了很多跟头之后，我知道了version control对vibe coder来说，就是给自己留退路，尤其是在做设计的时候。哪怕你只是做一个很小的东西，也一定要做 version control。因为一旦claude code换了一个设计，50%的时间，你是真的回不到上一版很满意的设计。你就真的得重新开始。这一步会让你在 vibe coding 的时候，没那么慌。\n\t\n【第三件事，别全靠聊天记录，用 md 文件】\n我以前会觉得：反正聊天记录都在，应该够了吧。但后来发现完全不是一回事。聊天记录是会断的，但 md 文件是“你们的共同记忆”。\n那如何你没有提前写好md file，那很有可能很多重要的设计细节，就会在这次compression（压缩）的过程中丢失。我一般情况下也是直接让claude code总结到一个新的md file里面。\n\t\n#00:23[时刻]# 第一点：用好Plan Mode\n#02:05[时刻]# 第二点：做好Version Control\n#03:56[时刻]# 第三点：写Md 文件\n\t\n#ai[话题]# #个人开发者[话题]# #AI工具[话题]# #大模型[话题]# #人工智能[话题]# #claudecode[话题]# #vibecode[话题]# #vibecoding[话题]# #vibecoding大赏[话题]# @科技薯",
+  "tags": [
+    "00:23",
+    "02:05",
+    "03:56",
+    "ai",
+    "个人开发者",
+    "AI工具",
+    "大模型",
+    "人工智能",
+    "claudecode",
+    "vibecode",
+    "vibecoding",
+    "vibecoding大赏"
+  ],
+  "author": "一只树懒",
+  "authorId": "5bd39d5276204c000195c76b",
+  "time": 1769733605000,
+  "ipLocation": "",
+  "likes": "2,469",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090936/0da7c8c95be280dfb41e1f921a4a77d3/spectrum/1040g34o31ruon6uui40g4bklppel5hrbgegqdrg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e97bfc210fdcbf010370039c0c59a9f8_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/697bfde5000000000c0368eb?xsec_token=ABlpApba6wsHJ6TxThqP7MNPJlZge-Mf5-wX3-RFF8iXA=&xsec_source=pc_collect"
+}

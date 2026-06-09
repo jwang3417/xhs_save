@@ -1,0 +1,24 @@
+{
+  "id": "68761e910000000022032b01",
+  "type": "normal",
+  "title": "今天继续写个大模型分布式训练的极简复现",
+  "desc": "Tiny-FSDP，一个对PyTorch FSDP的简易复现，仅保留核心功能，方便学习和理解\n\t\n之前写了Tiny-Deepspeed，用最少的代码复现一个DeepSpeed。而FSDP和DeepSpeed ZeRO3的区别主要在于分片策略不同（见图2）。FSDP是直接把每个参数等分成M份，均匀得分给M个GPU；而ZeRO3则是在保证参数完整性的前提下把N个参数平均分给M张GPU。\n\t\nGithub repo:\nliangyuwang/Tiny-FSDP\nliangyuwang/Tiny-DeepSpeed\n\t\n#大模型[话题]# #大模型训练[话题]# #llm[话题]# #人工智能[话题]# #科研[话题]#",
+  "tags": [
+    "大模型",
+    "大模型训练",
+    "llm",
+    "人工智能",
+    "科研"
+  ],
+  "author": "lylywinwinwin（读博版）",
+  "authorId": "5b616089e8ac2b3265aa813a",
+  "time": 1752571537000,
+  "ipLocation": "",
+  "likes": "300",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091330/2c152aa71184fc04fa1fb0e97d4a47e7/notes_pre_post/1040g3k831jv12t7b2ud04a7sm0g8j09qnijbt38!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091330/94947472c6a82f8b15fcc281f50d44f8/notes_pre_post/1040g3k831jv12t7b2uc04a7sm0g8j09qgajucgo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68761e910000000022032b01?xsec_token=AB6FS6R5ZM-MImigM4By54pF3xWWWCeRU-ZJpg_5TcfSM=&xsec_source=pc_collect"
+}

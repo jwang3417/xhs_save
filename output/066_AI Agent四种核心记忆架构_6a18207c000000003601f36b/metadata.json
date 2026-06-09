@@ -1,0 +1,23 @@
+{
+  "id": "6a18207c000000003601f36b",
+  "type": "video",
+  "title": "AI Agent四种核心记忆架构",
+  "desc": "视频源于 IBM Technology，深入探讨了提升 AI 智能体 效能的四种核心记忆类型。作者通过类比人类认知，详细解释了作为短期“暂存盘”的工作记忆、存储事实与规则的语义记忆、指导执行任务的程序记忆，以及记录过往经验的情境记忆。文稿指出，虽然简单的机器人可能仅依赖上下文，但复杂的智能体需要整合这些记忆系统来积累经验并避免重复错误。视频强调了有效的记忆管理是区分普通聊天机器人与真正智能代理的关键。这种架构不仅让 AI 具备持久的知识库，还使其能够通过蒸馏历史信息实现类似于人类的持续学习。\n#AIChannel[话题]# #小红书科技AMA[话题]# #aiagent[话题]# #claudecode[话题]# #openclaw[话题]#",
+  "tags": [
+    "AIChannel",
+    "小红书科技AMA",
+    "aiagent",
+    "claudecode",
+    "openclaw"
+  ],
+  "author": "一蛙",
+  "authorId": "607c6b9f0000000001000330",
+  "time": 1779966076000,
+  "ipLocation": "广东",
+  "likes": "76",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090707/84f70b219a87ce72d0506386e1e92a67/1040g2sg320n84120lse05o3sdefg80pgq78b1eo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01ea18205413ca1a010370039e6e410228_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a18207c000000003601f36b?xsec_token=ABZcxXIHjc7uemkBuh9-sjA6rvlI9v3b-v_tydeBYYSm0=&xsec_source=pc_collect"
+}

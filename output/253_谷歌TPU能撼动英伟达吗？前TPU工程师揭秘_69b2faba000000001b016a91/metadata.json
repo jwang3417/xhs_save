@@ -1,0 +1,27 @@
+{
+  "id": "69b2faba000000001b016a91",
+  "type": "video",
+  "title": "谷歌TPU能撼动英伟达吗？前TPU工程师揭秘",
+  "desc": "在AI算力争霸时代，英伟达凭借GPU市值一路狂飙。但如今，它的蛋糕正在被一点点分食——2024年，苹果论文披露Apple Intelligence全部由TPU训练；2025年，Anthropic签下数十亿美元订单，购买TPU训练Claude；近期，Meta与谷歌签署数十亿美元协议，租用TPU跑Llama。\nTPU一直是谷歌低调的“自家武器”，在过去十年里驱动着几乎全部核心产品。直到TPU训练的Gemini 3打了一场漂亮的翻身仗，人们才开始重新审视：这套从搜索推荐系统中长出来的定制芯片，究竟藏着多少秘密？\n本期播客，我们邀请到谷歌前TPU工程师Henry。他在2018年至2024年间深度参与了三代TPU的研发，也见证了大模型时代TPU的关键转型。他将从硬件架构、软件生态、生产供应链三个维度，一层层揭开TPU的神秘面纱。\n我们将深入探讨：TPU与GPU的架构有何根本不同？TPU的产能瓶颈卡在哪里？当谷歌开始向Anthropic、Meta开放TPU，它在软件生态上要迈过哪些坎？如果未来模型的底层范式发生改变，TPU还能押准方向吗？而最关键的问题是：TPU真的有机会撼动英伟达的霸主地位吗？\n\t\n【主播】\n泓君，硅谷101创始人，播客主理人\n【嘉宾】\nHenry Zhu，前Google TPU工程师，参与V6/V7/V8 TPU研发\n\t\n【监制】\n泓君\n【剪辑】\n小师 Jacob\n【运营】\n朱婕\n【BGM】\nVirtuoso Violin - Rafael Krux\nAngular Pulse - Guy Copeland\nTop Flow - This Violin\n\t\n本期节目中嘉宾所表达观点均为其个人看法。\n本期节目不构成任何投资建议，投资有风险，入市需谨慎。\n\t\n#视频播客[话题]# #谷歌TPU[话题]# #英伟达GPU[话题]# #Groq[话题]# #算力芯片[话题]# #Gemini[话题]# #模型训练[话题]# #推理成本[话题]# #Transformer[话题]#",
+  "tags": [
+    "视频播客",
+    "谷歌TPU",
+    "英伟达GPU",
+    "Groq",
+    "算力芯片",
+    "Gemini",
+    "模型训练",
+    "推理成本",
+    "Transformer"
+  ],
+  "author": "硅谷101",
+  "authorId": "5f3d230f000000000100acf8",
+  "time": 1773360054000,
+  "ipLocation": "",
+  "likes": "1,061",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090929/b8c3bc9a5be96a7d5baac11a6bb27a71/spectrum/1040g34o31tkf3nikmi105npt4c7g9b7o7is130o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e9b2f8e62c1626010370039ce3363142_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69b2faba000000001b016a91?xsec_token=ABJPavCDsLOSniiRO6AeWDemVJYKPVa32fhUcAd4DWxEY=&xsec_source=pc_collect"
+}

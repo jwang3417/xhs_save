@@ -1,0 +1,24 @@
+{
+  "id": "67fc63e5000000001c02f8f4",
+  "type": "video",
+  "title": "多模态大模型解题新思路：mPLUG-Owl3",
+  "desc": "论文介绍了一种新型的多模态大模型架构——mPLUG-Owl3，该模型显著提升了单图像、多图像以及视频处理任务的性能。通过引入创新的hyper-attention，mPLUG-Owl3能够有效地整合视觉和语言信息，支持对长图像序列的理解。与现有的多模态大模型相比，mPLUG-Owl3不仅具有更高效的推理速度和内存使用率，而且在各种基准测试中展现出优越的性能。特别是，在处理包含多个图像的复杂场景时，mPLUG-Owl3显示出强大的泛化能力和抗干扰能力。此外，文中还详细介绍了mPLUG-Owl3的架构设计、训练方法及其在不同任务上的应用表现，并通过实验验证了其各组成部分的有效性。总体而言，mPLUG-Owl3代表了在构建高效且强大的多模态大模型方面的重要进展，为未来的相关研究提供了新的方向。\n﻿#通义[话题]#﻿ ﻿#通义实验室[话题]#﻿ ﻿#大模型[话题]#﻿ ﻿#论文[话题]#﻿ ﻿#多模态[话题]#﻿ ﻿#图像处理[话题]#﻿ ﻿@科技薯﻿",
+  "tags": [
+    "通义",
+    "通义实验室",
+    "大模型",
+    "论文",
+    "多模态",
+    "图像处理"
+  ],
+  "author": "通义实验室",
+  "authorId": "6565b2dc000000003c00cff8",
+  "time": 1744593893000,
+  "ipLocation": "",
+  "likes": "1,944",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091351/ac6492a86d22376cc097df4dcbbd784e/spectrum/1040g34o31g85e09qh67g5pb5mbef1jvobqg334g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/79/110/259/01e7fc63940b1115010370039631e68c53_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/67fc63e5000000001c02f8f4?xsec_token=ABgAyj1rxKt2H-cZ2R6zHno60B5t3SULzQm_1d6k85YTo=&xsec_source=pc_collect"
+}

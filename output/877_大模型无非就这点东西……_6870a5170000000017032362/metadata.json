@@ -1,0 +1,30 @@
+{
+  "id": "6870a5170000000017032362",
+  "type": "normal",
+  "title": "大模型无非就这点东西……",
+  "desc": "LLM基础知识分成了十个部分：\n1️⃣ Transformer结构\n2️⃣ 主流大模型\n3️⃣ 预训练Pre-train过程\n4️⃣ 后训练Post-train过程\n5️⃣ 模型压缩与量化\n6️⃣ 专家模型MoE\n7️⃣ RAG&Agent\n8️⃣ 部署&分布式训练&推理加速\n9️⃣ 模型评估\n🔟 其他结构\n建议大家在学习基础知识的同时，配合相关paper和源码一起，进一步加深理解 LLM更新迭代非常快，平时可以多关注一些新的动态，闲着没事多刷刷三大会（机器之心，量子位，新智元） 关于学习路线有任何问题欢迎大家在评论区讨论或私戳我，有错误一定及时修改～～\n#大模型[话题]# #深度学习[话题]# #算法[话题]# #大模型应用[话题]# #大模型面试[话题]# #大模型学习[话题]# #AI[话题]# #互联网大厂[话题]#",
+  "tags": [
+    "大模型",
+    "深度学习",
+    "算法",
+    "大模型应用",
+    "大模型面试",
+    "大模型学习",
+    "AI",
+    "互联网大厂"
+  ],
+  "author": "小红薯68616043",
+  "authorId": "6860d015000000001e00a543",
+  "time": 1752212759000,
+  "ipLocation": "",
+  "likes": "1,235",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091329/df034e2384fa4dcb114bf234cc0e5c39/1040g00831jpmbtg52u4g5q30q0anh9a3sb8tuho!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/9bc540ad24e301e12df7a77e842db1db/1040g00831jpmbtg52u605q30q0anh9a3e8166io!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/e94eda5a940b21e3db890b0401bee76f/1040g00831jpmbtg52u205q30q0anh9a3qbkb8jg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/c27b9ab72b9c997a56a021995b9d34c2/1040g00831jpmbtg52u3g5q30q0anh9a3sb4gcsg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/d02dbfade834c5596036d59659bd33a7/1040g00831jpmbtg52u2g5q30q0anh9a3hbmt0ng!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6870a5170000000017032362?xsec_token=ABEhn3xSGb7_tSEgCCSPeRwaVQtrpP2cyVsXYAuse5k1Q=&xsec_source=pc_collect"
+}

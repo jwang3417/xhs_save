@@ -1,0 +1,18 @@
+SDE转MLE之OpenAI大神写的nanochat part1
+
+Nanochat 是Andrej Karpathy，Open AI 联合创始人最新的项目。用查不到100刀训练了GPT，其中包括准备数据，搭建datapipline，手撸selfattention模型，预训练，mid-train，SFT，RL，evaluation，还有如何运行一个模型和做inference。
+	
+代码真的写的很好，读了两天了收益良多，这还是我是懂非懂的读下来跳了很多步骤去读的情况也觉得学到了很多大概了解了很多训练的基础概念和实现的方法。
+食用顺序：
+背景：我个人是先看过王树森老师和李沐老师的attention相关视频。
+	
+首先，推荐看一遍Deep Dive into LLMs like ChatGPT，也是Andrej Karpathy，他讲了很多工程上的实践，数学推导不多，SDE友好。推荐配合notebook LM来看
+	
+然后就是用deepwiki+claude来读代码：（Deepwiki非常好用！）
+	
+这两天我囫囵吞枣的看了GPT部分，tokeization，inference，和training pipeline的base preparing，midtraining，SFT。接下来会着重看RL和evaluation。
+另外真的花了100刀训练了一个gpt chat出来，虽然就是跑了一个script但是因为花钱了学的特别认真，练出来就马上关掉了GPU。训练模型的目的还是主要还是去魅吧
+#转码[话题]# #大模型[话题]# #人工智能就业[话题]# #深度学习与神经网络[话题]# #深度学习[话题]#
+
+
+标签: #转码 #大模型 #人工智能就业 #深度学习与神经网络 #深度学习

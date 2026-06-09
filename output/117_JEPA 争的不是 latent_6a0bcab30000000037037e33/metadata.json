@@ -1,0 +1,31 @@
+{
+  "id": "6a0bcab30000000037037e33",
+  "type": "normal",
+  "title": "JEPA 争的不是 latent",
+  "desc": "我今天也有一点思考。\n\t\n感觉 JEPA 不是在“发明 latent”，而是在找一种更合理的表示空间：先把世界压成模型能操作的 representation，再在这个空间里预测、规划、做下游任务。\n\t\n但这就有意思了：embedding 本身不也是 latent 吗？Stable Diffusion 不也是在 latent 空间做生成吗？\n\t\n所以我现在更倾向于这样理解：LeCun 争的不是“谁有资格叫 latent”，而是“哪种 latent 才适合做世界模型”。\n\t\nSD 的 latent 是为了高效生成图像，embedding 是为了表达和检索语义，而 JEPA 想要的是能预测世界变化、过滤掉无关细节、最后服务于规划的表示空间。\n\t\n这只是我目前的理解，欢迎技术区反驳我。尤其是：你觉得 embedding 和 latent 应该严格区分吗？\n\t\n#JEPA[话题]#  #世界模型[话题]#  #人工智能[话题]#  #StableDiffusion[话题]#  #Embedding[话题]#  #AI学习[话题]#",
+  "tags": [
+    "JEPA",
+    "世界模型",
+    "人工智能",
+    "StableDiffusion",
+    "Embedding",
+    "AI学习"
+  ],
+  "author": "猫猫造世界",
+  "authorId": "69faf0e80000000002002802",
+  "time": 1779157683000,
+  "ipLocation": "浙江",
+  "likes": "268",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090730/1927ec72ea89995edcad17d8430152cd/spectrum/1040g34o320b6mdgele805qfqu3k0ga02uo1g35o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090730/003d6258097cf45c9db35ac1dce4a145/spectrum/1040g34o320b6mdgele8g5qfqu3k0ga02e1edmv0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090730/b46abf25703ad324c97c30fabbfac3d4/spectrum/1040g34o320b6mdgele905qfqu3k0ga02au3p18o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090730/4a1f545b0a4b6bafa35f45c0b200bf1a/spectrum/1040g34o320b6mdgele9g5qfqu3k0ga027vfsil8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090730/eff62961ca7ae6007f74adfc8f610222/spectrum/1040g34o320b6mdgelea05qfqu3k0ga02ppbirpg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090730/627b112b2b5b375d44662823c5bc6558/spectrum/1040g34o320b6mdgeleag5qfqu3k0ga029fd7n0g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090730/b1ad2e8980a151b07160f04ef2fb8386/spectrum/1040g34o320b6mdgeleb05qfqu3k0ga02gisab4g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090730/a1a5fe416f49c268109a7461b9aae351/spectrum/1040g34o320b6mdgelebg5qfqu3k0ga02nm0dddo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a0bcab30000000037037e33?xsec_token=ABFRCnWip_EQvtr2lr4kq-Cv6sQAjg5akCGwEW2F64bUY=&xsec_source=pc_collect"
+}

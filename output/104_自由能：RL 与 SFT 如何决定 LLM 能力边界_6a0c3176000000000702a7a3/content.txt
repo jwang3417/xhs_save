@@ -1,0 +1,17 @@
+自由能：RL 与 SFT 如何决定 LLM 能力边界
+
+TL;DR: 从自由能的角度来看，RL 和 SFT 能统一形式，真正的区别是不同的 training signal。模型的 behaviors 可以分为四类，对应着不同的 landscape。我们在这里刻画了四种形态 landscape 的演化过程：从 basin 到 tail, 再到 barrier 和 singularity。
+	
+从形式上来看，RL 和 SFT 的目标函数，都可以通过最小化自由能，收敛到一个加权玻尔兹曼分布形式的最优解。因此要判断 post-training 的能力边界（比如是创造了新的能力，还是只是激发了模型已有的能力），不能只关心 RL & SFT 的形式，而是应该关注训练 training signal 是否带来了额外的信息。
+	
+我们将模型的 behaviors 对应的 landscapes 分为四种形态：basin、tail、barrier 和 singularity。前两种状态对于模型来说是直接可达的，只是概率高和低的区别，这些对应着把 base model 中已经存在的能力进行放大和引导。而 barrier 必须依靠引入额外的信息才能翻越，对应着产生真正的新能力。还有一些情况，目标分布中存在着 base model 从未见过和包含的 behaviors，此时 landscape 中的能量是发散的（singularity），无法用自由能框架来解释。
+	
+Huge thanks to @刘圣超
+	
+Paper: https://tinyurl.com/skaxhh4y
+Webpage: https://tinyurl.com/my8kdt5c
+	
+#AI[话题]# #LLM[话题]# #physics[话题]# #Physics[话题]# #physics4AI[话题]# #自由能[话题]# #RL[话题]# #SFT[话题]#
+
+
+标签: #AI #LLM #physics #Physics #physics4AI #自由能 #RL #SFT

@@ -1,0 +1,28 @@
+{
+  "id": "68dcbae80000000005033b39",
+  "type": "video",
+  "title": "Transformer这个模型里面有几种mask机制？",
+  "desc": "《大模型面试知识拆解》\n视频中的回答，我们从“是什么”和“为什么”两个角度，点出了Transformer中最核心的两种Mask机制。\n现在我们来深入拆解一下其中的技术要点和实现逻辑。\n\t\n1、Padding Mask：处理变长序列的艺术。它的核心应用场景是批处理。在GPU上进行并行计算时，要求输入的Tensor形状是规整的。这就意味着，一个batch里长短不一的句子必须被填充到相同的长度。Padding Mask的本质是一个布尔矩阵，标记了哪些位置是真实的token，哪些是padding token。在Attention模块中，这个Mask会在计算出Attention Score矩阵之后介入。具体操作是，将Mask中为False的位置，在Attention Score矩阵中对应的位置替换成一个极大的负值（如-1e9）。这一步至关重要，因为紧随其后的Softmax函数对输入值非常敏感，一个极大的负数在经过指数运算后会变得无限接近于0，从而确保了padding-token不会对其他任何token的输出产生贡献。\n\t\n2、Sequence Mask：保证自回归的“时空隧道”。这个Mask是Decoder能够并行训练的关键。在训练阶段，我们拥有完整的“标准答案”，可以一次性输入给Decoder。但为了模拟推理时一个词一个词生成的“自回归”过程，必须防止信息穿越。Sequence Mask，或称Causal Mask，就是这个“时空隧道”的守护者。它是一个下三角矩阵，意味着对于序列中的第i个位置，它只能关注到从第1到第i个位置的信息，而无法“看到”i+1及其之后的信息。它的实现方式与Padding Mask完全相同，都是在Softmax前将无效位置的Attention Score置为极大负数。在Decoder的自注意力层，通常会将Padding Mask和Sequence Mask结合起来使用。\n\t\n﻿#大模型面试[话题]#﻿ ﻿#transformer[话题]#﻿ ﻿#ai面试[话题]#﻿ ﻿#机器学习[话题]#﻿ ﻿#NLP[话题]#﻿ ﻿#面经[话题]#﻿ ﻿#技术面试[话题]#﻿ ﻿#模型原理[话题]#﻿ ﻿#互联网大厂面试[话题]#﻿ ﻿#模拟面试[话题]#﻿",
+  "tags": [
+    "大模型面试",
+    "transformer",
+    "ai面试",
+    "机器学习",
+    "NLP",
+    "面经",
+    "技术面试",
+    "模型原理",
+    "互联网大厂面试",
+    "模拟面试"
+  ],
+  "author": "阿卡西猎人",
+  "authorId": "68898124000000002802949e",
+  "time": 1759319821000,
+  "ipLocation": "",
+  "likes": "1,311",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091145/787bf604f5aa84d91d998ad72df17a19/spectrum/1040g0k031n37tr54ku005q49g4ia554uj9u8dqg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e8dcb9bd7ffaf201037003999e3aaf04_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68dcbae80000000005033b39?xsec_token=ABFPmkwwJC8BiJ42uMImpaBwmUUnEumTZuJ2WHRU_ZG6Y=&xsec_source=pc_collect"
+}

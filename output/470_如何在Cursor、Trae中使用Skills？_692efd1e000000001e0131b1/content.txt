@@ -1,0 +1,6 @@
+如何在Cursor、Trae中使用Skills？
+
+我在之前分享了用Claude Skills解决AI老出紫色渐变UI的视频，后来我就收到大家的一些留言和私信，基本都是在问Cursor、Trae能不能用Claude Skills的，所以这条视频做个集中解答。#claudecode[话题]# #AI编程[话题]# #claudeskills[话题]# #cursor[话题]# #trae[话题]#
+
+
+标签: #claudecode #AI编程 #claudeskills #cursor #trae

@@ -1,0 +1,15 @@
+一口气学会DeepResearch系统设计AI全栈开源
+
+这期视频我打算开源自制的 AI深度研究系统设计 和 全栈代码库。视频里演示了 Kimi K2 0905、Claude-4、GPT-5 这三大模型在这个系统里的表现，AI在深度研究后还可以直接把研究结果导到 Google Docs。不搞概念, 硬核全栈全面上线, 供大家评测和讨论.
+	
+系统基于 LangChain的Open Deep Research，我做了以下改进：
+- 支持流式输出，研究过程可以实时显示在前端
+- 后端是 FastAPI Python，前端是 NextJS，部署在 Google Cloud
+- 代码完全开源，大家都能用
+	
+代码地址：
+Backend: https://github.com/ShenSeanChen/yt-DeepResearch-Backend
+Frontend: https://github.com/ShenSeanChen/yt-DeepResearch-Frontend
+Kimi-Claude: https://github.com/ShenSeanChen/yt-kimi-k2-claude
+	
+You can build anything. You can learn anything. 💪

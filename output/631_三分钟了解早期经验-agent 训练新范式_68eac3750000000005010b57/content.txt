@@ -1,0 +1,8 @@
+三分钟了解早期经验-agent 训练新范式
+
+meta 新论文《Agent Learning via Early Experience》
+早期经验，没有奖励机制，也能提升 agent 能力
+#AI[话题]# #LLM[话题]# #agent[话题]# #人工智能[话题]# #大模型[话题]# #强化学习[话题]#
+
+
+标签: #AI #LLM #agent #人工智能 #大模型 #强化学习

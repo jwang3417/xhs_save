@@ -1,0 +1,36 @@
+{
+  "id": "6a01dca80000000006034519",
+  "type": "normal",
+  "title": "AI搜索变天了！扔掉向量database？直接greg",
+  "desc": "一、文章概述\n本文提出直接语料库交互（DCI）作为智能体搜索的新型检索范式，通过通用终端工具（如grep、bash命令）直接操作原始语料库，无需嵌入模型或向量索引。DCI在IR基准、多跳问答和端到端智能体搜索任务中显著优于传统稀疏、密集检索和重排序基线，为智能体搜索的接口设计提供了新方向。\n二、研究背景\n现代检索系统依赖固定的相似度接口，将语料库访问压缩为单次top-k检索，这在智能体搜索中成为瓶颈：难以实现精确词汇约束、稀疏线索组合、局部上下文检查和多步假设优化，且早期过滤的证据无法通过下游推理恢复。\n三、研究思路\n提出问题：传统检索接口是否限制智能体搜索性能？直接语料库交互能否通过细粒度工具操作提升检索质量？构建框架：对比传统检索与DCI两种范式，提出“检索接口分辨率”概念。\n选择方法：设计DCI-Agent-Lite和DCI-Agent-CC，在BrowseComp-Plus、多跳QA和IR排序数据集上评估性能。\n分析数据：通过覆盖率和定位度等轨迹级指标，结合工具使用模式分析DCI优势来源。\n四、研究结果\nDCI在BrowseComp-Plus上准确率达80.0%，较Qwen3-Embedding-8B检索工具提升11.0%，成本降低29.4%。在多跳QA任务中，DCI-Agent-CC平均准确率83.0%#数据分析[话题]#\n五、研究结论、不足与展望\n研究结论：直接语料库交互通过通用终端工具实现高分辨率语料库访问，在智能体搜索中显著优于传统检索方法。其优势是通过细粒度证据定位、组合工具操作和迭代验证提升推理质量，表明检索接口分辨率是智能体系统性能的关键因素。\n创新性：首次将终端工具作为检索接口，提出“检索接口分辨率”概念；证明无需预训练索引和嵌入模型，DCI超越传统检索方法；为智能体检索接口设计提供新范式。\n研究的不足之处：DCI在大规模语料库中性能显著下降，工具调用成本和延迟随语料库规模急剧增加；依赖智能体的工具使用能力，上下文管理策略复杂，需平衡证据保留与推理效率。等\n研究展望：探索DCI与传统检索的混合范式，结合高分辨率接口与大规模语料库的可扩展性；开发针对DCI的优化工具集，探索多模态语料的直接交互方法，扩展DCI应用范围。\n研究意义：突破传统检索依赖相似度接口的局限，提出智能体检索的接口设计新视角；#大模型[话题]# #算法[话题]# #数据科学[话题]# #人工智能[话题]# #机器学习[话题]# #计算机视觉[话题]# #多模态人工智能[话题]#",
+  "tags": [
+    "数据分析",
+    "大模型",
+    "算法",
+    "数据科学",
+    "人工智能",
+    "机器学习",
+    "计算机视觉",
+    "多模态人工智能"
+  ],
+  "author": "AI Security",
+  "authorId": "54846fe4d6e4a97e840aa222",
+  "time": 1778506920000,
+  "ipLocation": "中国香港",
+  "likes": "154",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090732/f8fc978d5c560fe9a0c46a840da659e6/spectrum/1040g0k03201f99e3l600400qmcnu98h2akjg5c0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/d425c421bf6c9d95253ee74c1a65f3ee/spectrum/1040g0k03201f99e3l60g400qmcnu98h22a48ae0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/f928da76e6d17dd6e6d4ee99ba295c2d/spectrum/1040g0k03201f99e3l610400qmcnu98h22tejdj8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/8c1ee26de1e4e13f9db679568d6148f9/spectrum/1040g0k03201f99e3l61g400qmcnu98h2tj986jg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/47b8db4b8e7896f6308c94c923a06de1/spectrum/1040g0k03201f99e3l620400qmcnu98h2o53f8co!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/e9dccba66ac7c58e6ebfeb9f129c7d1d/spectrum/1040g0k03201f99e3l62g400qmcnu98h24d7a7g8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/0c2862803ee7f303efaf471b625640e7/spectrum/1040g0k03201f99e3l630400qmcnu98h25m919io!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/54b5815887a4f2c457917c1841b503c6/spectrum/1040g0k03201f99e3l63g400qmcnu98h2vmma2cg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/ab4a81c6bbcebe601635654b1e57ef83/spectrum/1040g0k03201f99e3l640400qmcnu98h2km52aco!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/7d9ff413da518a8309c57a3a70df9d96/spectrum/1040g0k03201f99e3l64g400qmcnu98h26c3k1u0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/ceaee2a681d43e435aa7f7441fa1cd91/spectrum/1040g0k03201f99e3l650400qmcnu98h2csbl8qg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a01dca80000000006034519?xsec_token=ABVhT1XkCsD462r5ECldfI3zUDdTlyL0jwHYfwMCCx2BQ=&xsec_source=pc_collect"
+}

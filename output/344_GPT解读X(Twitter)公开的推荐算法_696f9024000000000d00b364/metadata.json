@@ -1,0 +1,31 @@
+{
+  "id": "696f9024000000000d00b364",
+  "type": "normal",
+  "title": "GPT解读X(Twitter)公开的推荐算法",
+  "desc": "X(Twitter)公开了自己的推荐算法\nhttps://github.com/xai-org/x-algorithm\n\t\nGPT的总结是——\n\t\n你可以把这套 X（xai-org/x-algorithm） 的推荐理解成：传统推荐的外壳（召回→过滤→排序→多样性→再过滤）没变，但‘相关性/排序’这颗心脏，尽量从‘特征工程+规则+一堆小模型’换成了‘一个 Grok 架构的 Transformer 直接吃用户行为序列来学相关性’。\n\t\n详情见图片。\n\t\n#Twitter[话题]# #Musk[话题]# #ChatGPT[话题]# #推荐算法[话题]# #LLM[话题]#",
+  "tags": [
+    "Twitter",
+    "Musk",
+    "ChatGPT",
+    "推荐算法",
+    "LLM"
+  ],
+  "author": "可厉儿",
+  "authorId": "5657da25a40e186d7b6f00f9",
+  "time": 1768919077000,
+  "ipLocation": "",
+  "likes": "118",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090944/7837ca02afd7dd9f6c39f9cd5629c245/1040g00831rikeqefis3g4386fmd2a07penepsr0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090944/0bbef5e23f7fff67393798c962cbae3f/1040g00831rikeqefis004386fmd2a07pkbv31t0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090944/94f2ea3bb9262d2e5118b3a3f26b354e/1040g00831rikeqefis1g4386fmd2a07plm62jbo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090944/018d23e18432b690178570de04b60d91/1040g00831rikeqefis204386fmd2a07pvaq58no!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090944/1f235ee8133bc60053b0dcece0ad776b/1040g00831rikeqefis104386fmd2a07pkl1sth0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090944/b0e82d2376967a03dbd100557224f627/1040g00831rikeqefis2g4386fmd2a07padjkls8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090944/1e5c2b7d35046ebd2b2259e3995d182f/1040g00831rikeqefis0g4386fmd2a07pthfsne8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090944/de669665eb56debfb879de3217eea6fa/1040g00831rikeqefis404386fmd2a07pu63avh0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090944/5f60b1f125e135367cd9ff8e7edf7a22/1040g00831rikeqefis304386fmd2a07pidt73io!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/696f9024000000000d00b364?xsec_token=ABKYRXoApRUN5KFPgLB_sbCkyVUowkMOXkXhyDFA6_RX8=&xsec_source=pc_collect"
+}

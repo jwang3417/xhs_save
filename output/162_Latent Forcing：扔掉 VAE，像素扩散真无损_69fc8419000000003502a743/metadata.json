@@ -1,0 +1,34 @@
+{
+  "id": "69fc8419000000003502a743",
+  "type": "normal",
+  "title": "Latent Forcing：扔掉 VAE，像素扩散真无损",
+  "desc": "🔍 图像生成有个隐藏的原罪。\n\t\nSD、DiT这些主流模型，生图之前都要\n先把图像塞进VAE压缩一遍——\n\t\n为了换效率，\n高频细节在编码那一刻就已经碎了。\n这个损耗，后期再怎么拼都补不回来。\n\t\nLatent Forcing干脆不玩这套：\n不压缩，直接在像素上生成。\n\t\n但它改了个关键逻辑——\n先生成语义骨架，再往上填像素细节。\n两件事排队做，不同时抢。\n\t\n同等训练量下，FID从18跌到9.76，\n而且PSNR是无穷大，真的无损。\n\t\n先收藏，这个方向后续持续更新～\n点关注，不迷路 📌\n\t\n#AI前沿[话题]# #论文分享[话题]# #论文解读[话题]# #小红书科技AMA[话题]# #带你一起读论文[话题]# #aigc[话题]# #VAE[话题]# #李飞飞[话题]# #图像生成[话题]# #扩散模型[话题]#",
+  "tags": [
+    "AI前沿",
+    "论文分享",
+    "论文解读",
+    "小红书科技AMA",
+    "带你一起读论文",
+    "aigc",
+    "VAE",
+    "李飞飞",
+    "图像生成",
+    "扩散模型"
+  ],
+  "author": "AI解析新纪元",
+  "authorId": "69b042880000000032026606",
+  "time": 1778156569000,
+  "ipLocation": "",
+  "likes": "215",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090735/9130b65648d74e45fef644be7092d122/1040g2sg31vs9borq56e05qdg8a4ckpg6qass0l8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/99beaca9b7f66d4ae074ce69a1cce62e/1040g2sg31vs9borq56eg5qdg8a4ckpg6jk3iftg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/6f1a7c1064a384bf6da347bcf8235324/1040g2sg31vs9borq56f05qdg8a4ckpg6vcfijp0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/ecf9d47d6e7ac352c8ddafd5f9c50707/1040g2sg31vs9borq56fg5qdg8a4ckpg6i75herg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/2067cfe9d4c97854fa54c15d57025a66/1040g2sg31vs9borq56g05qdg8a4ckpg6e0gcar8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/997ecfa430fef50903e4d24b9a24c867/1040g2sg31vs9borq56gg5qdg8a4ckpg6pepdla0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090735/a50f996d7a2937da7cbb7e9f21cde882/1040g2sg31vs9borq56h05qdg8a4ckpg67us4cfo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69fc8419000000003502a743?xsec_token=ABY28bMpArhQ1BDWTL2EVJnquRD8ezrxSIk9Xy1qZNZog=&xsec_source=pc_collect"
+}

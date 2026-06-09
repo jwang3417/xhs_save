@@ -1,0 +1,35 @@
+{
+  "id": "6911978b000000000301d90c",
+  "type": "normal",
+  "title": "字节：离散自回归逆袭扩散模型！",
+  "desc": "字节跳动团队发布了InfinityStar，首个能统一图像与视频生成的时空自回归框架。它不仅解决了以往自回归模型画质低、生成慢的难题，还在速度与质量上同时超越扩散模型，堪称视觉生成的新基准。\n核心亮点：\n统一时空建模：创新提出“时空金字塔”结构，将图像金字塔与多层视频片段金字塔融合，一次性支持文本生成图像（T2I）、文本生成视频（T2V）、图像生成视频（I2V）及视频续写。\n离散自回归架构：完全抛弃扩散式反复降噪，直接预测离散token，推理速度提升10倍。\n连续知识继承：首创“从连续视频VAE继承离散tokenizer”策略，使训练速度大幅加快，视频重建精度提升至PSNR 22.6。\n语义尺度重复（SSR）机制：多次重复早期语义层预测，显著增强结构稳定性与复杂运动表现。\n时空稀疏注意力（SSA）：仅关注前一片段的关键尺度，GPU显存节省40%，生成速度1.5×提升。\n长交互视频生成（InfinityStar-Interact）：支持多轮用户输入与动态视频扩展，能在交互中持续生成连贯内容。\n工业级720p生成能力：在不牺牲画质的情况下，5秒720p视频生成仅需58秒，比14B参数的扩散模型快32倍。\n应用场景 / 用户反馈 / 实验结果：\n适用人群：多模态研究者、视频生成开发者、影视与广告创作者。\n实验结果：\nVBench总分83.74，超越所有自回归模型，并击败HunyuanVideo（83.24）。\nGenEval图像生成测试中总体得分0.79，超过Infinity 6%。\n生成结果在人类偏好评估中全面胜过13B的HunyuanVideo。\n推理性能：单GPU上生成720p视频速度提升32×，显著降低成本门槛。\n\t\n🔗 项目/论文\nGitHub仓库路径\nFoundationVision/InfinityStar\narXiv：2511.04675\n#AI视频生成[话题]#  #自回归模型[话题]#  #扩散模型[话题]#  #高效生成[话题]#  #字节跳动[话题]#  #视频AI[话题]#  #视觉大模型[话题]#  #科研突破[话题]#  #开源项目[话题]#  #AI创作[话题]#",
+  "tags": [
+    "AI视频生成",
+    "自回归模型",
+    "扩散模型",
+    "高效生成",
+    "字节跳动",
+    "视频AI",
+    "视觉大模型",
+    "科研突破",
+    "开源项目",
+    "AI创作"
+  ],
+  "author": "每日ComputerScience",
+  "authorId": "677419a40000000015005599",
+  "time": 1763179440000,
+  "ipLocation": "",
+  "likes": "88",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091049/9c3839059c291da56bb053702eb2834c/spectrum/1040g0k031omruc4l50405prk36i58lcpj92d7cg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091049/956f3125323fc8fdf48ea72d5e9cc531/spectrum/1040g0k031omruc4l503g5prk36i58lcpnqd4m48!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091049/2077eb94c1dc833e09fc67c1c3902b28/spectrum/1040g0k031omruc4l50305prk36i58lcp4fpgqf0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091049/72fc691255256755881dd1ffa6a0419a/spectrum/1040g0k031omruc4l501g5prk36i58lcpr6s0am0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091049/477b92f0ec4221a7b3e466d5d7c1b464/spectrum/1040g0k031omruc4l50205prk36i58lcpfreo23o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091049/6ffe7adcd205e5fa0610942964a4e93f/spectrum/1040g0k031omruc4l502g5prk36i58lcp91kh33g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091049/e23b2739448d67c19928c92e28825840/spectrum/1040g0k031omruc4l50105prk36i58lcpmb20jh8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091049/0e5cf22e20035bdf1273e50ce94d95ce/spectrum/1040g0k031omruc4l500g5prk36i58lcpna3fh18!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6911978b000000000301d90c?xsec_token=ABprBSfxCll-80ivRF91WopoOcAI9jV7GQs9ylo1ia41U=&xsec_source=pc_collect"
+}

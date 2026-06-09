@@ -1,0 +1,33 @@
+{
+  "id": "68692b8d000000002001975d",
+  "type": "normal",
+  "title": "聊聊大模型RL中的熵坍缩与缓解策略",
+  "desc": "推荐一篇转载自知乎大佬白强伟的一篇文章，详解分析了大模型RL中的熵坍缩与缓解策略\n\t\n也欢迎关注gzh：青稞AI ，每天都有干货文章，也有线上Talk和线下Meetup的预告！\n\t\n有需要宣传成果的朋友也欢迎联系～\n\t\n﻿#青稞社区[话题]#﻿ ﻿#我朋友圈的大佬们[话题]#﻿ ﻿#ai[话题]#﻿ ﻿#大模型[话题]#﻿ ﻿#强化学习[话题]#﻿ ﻿#博士[话题]#﻿ ﻿#论文[话题]#﻿",
+  "tags": [
+    "青稞社区",
+    "我朋友圈的大佬们",
+    "ai",
+    "大模型",
+    "强化学习",
+    "博士",
+    "论文"
+  ],
+  "author": "王過",
+  "authorId": "65a513af0000000003023abe",
+  "time": 1751722893000,
+  "ipLocation": "",
+  "likes": "124",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091332/218ce4f56fa7356f10f6b23c7243cbbb/spectrum/1040g0k031jicllb736005pd52engselubftmdc0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091332/ddc7d94e9899b235190c18a7708225c9/spectrum/1040g0k031jicllb7360g5pd52engseluehp91ag!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091332/8ab3064b0092f2cb979e405cb4e1d27c/spectrum/1040g0k031jicllb736105pd52engselun9uoo7g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091332/cf5d782b02dc50cef8948fc508c79519/spectrum/1040g0k031jicllb7361g5pd52engselusjlsgmg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091332/8b7e07670039878c540aa22234dfc9e4/spectrum/1040g0k031jicllb736205pd52engselu92871go!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091332/160544626f7553a2a8b7fc7d85ed9ab2/spectrum/1040g0k031jicllb7362g5pd52engselupkmote8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091332/c3d52b12cbbaae21a6cd984bcfcdf1fe/spectrum/1040g0k031jicllb736305pd52engselumr9osg0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091332/1062b3e1debed61289c36f0d3a172e07/spectrum/1040g0k031jicllb7363g5pd52engselunbu0ro8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091332/67b442886e60602e27dae85e84f06379/spectrum/1040g0k031jicllb736405pd52engselu7p11ji8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68692b8d000000002001975d?xsec_token=ABG1f-nLPv65tw7tIX_bhGSesoJyFnmgIflgMMNhfqTic=&xsec_source=pc_collect"
+}

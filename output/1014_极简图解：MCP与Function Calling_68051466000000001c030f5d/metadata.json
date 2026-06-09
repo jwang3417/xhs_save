@@ -1,0 +1,28 @@
+{
+  "id": "68051466000000001c030f5d",
+  "type": "normal",
+  "title": "极简图解：MCP与Function Calling",
+  "desc": "简短结论：\n它们 不是竞争标准，而是互补关系！\n\t\n📌 Function Calling 解决的是：\n让大模型知道 何时 该调用外部工具\n构造调用工具所需的参数结构\n主要作用在 单一应用内部\n实际怎么跑工具、工具在哪里，得你自己搞定\n\t\n📌 而 MCP 做的是：\n标准化工具的暴露方式（方便 AI 找到工具）\n提供统一的协议去 托管和调用工具\n支持在整个生态中 跨应用共享工具\n实现工具的“开发”和“使用”解耦\n\t\n❗️关键区别：\n1. Function Calling：告诉 AI “用什么工具”、“什么时候用”\n2. MCP：告诉 AI “这些工具放哪了”、“怎么稳定找到并用上”\n\t\n🧠 更直观的理解：\nFunction Calling 就像 AI 说：“我现在需要搜索”\nMCP 就是：“搜索工具在哪？怎么统一接入给我用？”\n\t\n🚨 为什么这很重要？\nMCP 正在成为 AI 工具世界的“REST 接口”，\n为整个生态提供一致的接入规范，\n让开发者专注于造好工具，而不是反复造轮子。\n\t\n🧾 建议：\n到头来，我们最终都是在通过 MCP 给 LLM 提供工具\n越复杂的 AI 系统，越需要标准协议来互通\n真正的未来不是选边站，而是“组合使用”\n谁先用好两者，谁就能更快构建出强大系统\n\t\n#MCP协议[话题]# #模型上下文协议[话题]# #MCP[话题]# #大模型[话题]# #functioncalling[话题]# #mcp[话题]# #mcp工具[话题]# #mcpserver[话题]#",
+  "tags": [
+    "MCP协议",
+    "模型上下文协议",
+    "MCP",
+    "大模型",
+    "functioncalling",
+    "mcp",
+    "mcp工具",
+    "mcpserver"
+  ],
+  "author": "MCP星球",
+  "authorId": "675460e1000000001c01931a",
+  "time": 1745163366000,
+  "ipLocation": "",
+  "likes": "60",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091345/75d806dd5606982fddfc86cbe417acd0/notes_pre_post/1040g3k031ggktse8j81g5pqkc3gn34oqi4fob10!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091345/d027b98553dfacbe42f6d4733b333029/notes_pre_post/1040g3k031ggktse8j8205pqkc3gn34oqpf90l9g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091345/6516d66a6653616316ad94fea75a09ee/notes_pre_post/1040g3k031ggktse8j82g5pqkc3gn34oqt4mvpd8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68051466000000001c030f5d?xsec_token=ABYIQnHMTlsiv4G8197PrDr4eO3hdE7P7hKpBzhJYmCmc=&xsec_source=pc_collect"
+}

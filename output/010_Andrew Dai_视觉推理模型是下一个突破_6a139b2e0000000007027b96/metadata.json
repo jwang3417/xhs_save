@@ -1,0 +1,21 @@
+{
+  "id": "6a139b2e0000000007027b96",
+  "type": "video",
+  "title": "Andrew Dai:视觉推理模型是下一个突破",
+  "desc": "Andrew Dai 在 Google Brain 和 DeepMind 工作了近14年。\n\t\n他和 Quoc Le 合写了最早的预训练与微调论文，亲历了 Sequence-to-Sequence、Transformer 等奠基性工作诞生的年代，后来联合主导了 PaLM 2 的预训练与架构。\n\t\n去年，他出来创立了 Elorian，押注视觉推理。\n\t\n我们坐下来聊了聊。\n—\n\t\n🔺 世界模型，现在还在哪里？\nAndrew 说，世界模型今天的阶段，就像语言模型在20年前的状态——\n大方向有了，但没有人知道细节在哪里，最终会走到哪里。\n那时候语言模型只能做语音识别解码，他和 Quoc Le 说「这是下一代 AI」，没有人相信。\nJEPA 现在还在单 GPU 上跑。\n「不是说它是错的，是它还有10到20年的路要走。正确的方式，是把新思路整合进现有基础模型，而不是推倒重来。」\n\t\n—\n\t\n🔺 那 LLM 的问题在哪？\n不是某个零件坏了，是整体哲学出了问题。\n所有推理都在文字空间里完成——但人类在发展语言之前，早就会推理了。\n捕食者要判断猎物的轨迹、重力、风向。没有一个词。\n「视觉，才是推理真正的底层基质。文字推理是建在它上面的。」\\\n现在的多模态模型能生成六根手指的手，却不知道自己画错了。让它生成一个装10个球的盒子，再问它里面有几个球——答案是错的。\n生成能力有了，理解和推理还差得远。\n—\n\t\n🔺 为什么不是「大一统模型」？\n多模态能力和代码能力之间，存在根本性的张力。\n加入越多视觉数据，代码能力就越容易受损，反之亦然。\n「想用一个模型同时把两件事做到极致，非常非常难。未来是专精化前沿模型的时代。」\nElorian 正在做的，就是一个从数据、架构到强化学习全部专门为视觉推理设计的模型。\n\t\n—\n📍 这期节目叫 Present（在场）。\n\t\n和真正活在这个时代里的人，聊他们真正相信的事。\nAndrew 是我的第一位嘉宾。#大模型[话题]# #多模态人工智能[话题]# #google[话题]#",
+  "tags": [
+    "大模型",
+    "多模态人工智能",
+    "google"
+  ],
+  "author": "大青青",
+  "authorId": "61cf40ca000000001000903c",
+  "time": 1779669806000,
+  "ipLocation": "美国",
+  "likes": "84",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090701/40f67b1409d469b2ed5027bef7a8d4e4/spectrum/1040g0k0320ipsrjvle005oef8354141sv65iepo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/79/110/259/01ea18a0361451c8010370039e706bdea9_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a139b2e0000000007027b96?xsec_token=ABDGCdx6varyOcCr9UaIA_1t866ig8vnr1IjrIObTLpjA=&xsec_source=pc_collect"
+}

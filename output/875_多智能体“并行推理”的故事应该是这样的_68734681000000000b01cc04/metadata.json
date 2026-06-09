@@ -1,0 +1,27 @@
+{
+  "id": "68734681000000000b01cc04",
+  "type": "normal",
+  "title": "多智能体“并行推理”的故事应该是这样的",
+  "desc": "o1-pro,  o3-pro 应该就是Muti agents 的 Parallel Thinking， 因为它们在价格上是 o1, o3 的十倍， 与 Grok 4 Heavy 是 Grok 4 的十倍的计算量相对应。\n\t\n所以，早在2024，12， OpenAI 就已经做出了 Parallel Thinking。 OpenAI 的推出后，那些做大模型的公司应该都能猜到这里面的原理。 然后，才有 2025，05 谷歌展示的 gemini deep think， 接着，才是xAI 疯狂加班赶出来的 Grok 4 Heavy。\n\t\n与模型训练数据，参数规模一样，推理时的计算量也模型的另外一个 scaling law 有效的维度。 十倍计算量正好对应幂律增长的一个有效量级， Grok 4 Heavy 的 4 并发差不多就是 10 倍计算量。\n\t\n#ai[话题]# #llm[话题]# #AGI[话题]# #ASI[话题]# #大模型研究[话题]#",
+  "tags": [
+    "ai",
+    "llm",
+    "AGI",
+    "ASI",
+    "大模型研究"
+  ],
+  "author": "镜语研究",
+  "authorId": "5cdb6d64000000001103b323",
+  "time": 1752385153000,
+  "ipLocation": "",
+  "likes": "21",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091329/432224522d5443657f8525a4557b648a/1040g2sg31js80hafiae05n6rdli4fcp3ifti6jo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/a94721b520ff4b7fb69ebb1f740b092a/1040g2sg31js80hafiaeg5n6rdli4fcp3hcdvhe8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/9822f703b4212d01926eb644ceef84c6/1040g2sg31js80hafiaf05n6rdli4fcp3uld4dj8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/4f6c412abc4c5684510c816a3dc30f48/1040g2sg31js80hafiafg5n6rdli4fcp30t32fb0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091329/0b6bd7e4c62103ed81eec0258f14eab4/1040g2sg31js80hafiag05n6rdli4fcp3fiq4u28!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68734681000000000b01cc04?xsec_token=ABKjMtzbhYwtfTRuHDV4NjVmVSEcEzwqvQwntS61JvFmA=&xsec_source=pc_collect"
+}

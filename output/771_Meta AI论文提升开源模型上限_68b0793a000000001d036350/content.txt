@@ -1,0 +1,6 @@
+Meta AI论文提升开源模型上限
+
+看到Meta AI最新发布的论文《Deep Think with Confidence》，介绍了DeepConf算法，看到像是在做梦一样，既能突破模型智力上限-在AIME2025达到99.9%准确率，又能极大降低Token消耗-降低85%，关键还是在开源模型上开箱即用，极其简洁优雅，真是太精彩了。#MetaAI[话题]# #DeepConf[话题]# #开源模型[话题]# #AI[话题]# #AIME2025[话题]#
+
+
+标签: #MetaAI #DeepConf #开源模型 #AI #AIME2025

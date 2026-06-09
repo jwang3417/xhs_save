@@ -1,0 +1,27 @@
+{
+  "id": "69b3da4d000000002302495a",
+  "type": "video",
+  "title": "LLM 推理加速与显存优化策略",
+  "desc": "面试官问：如果多轮对话导致 KV Cache 显存爆了，你会采用什么策略？\n#大模型[话题]# #ai大模型[话题]# #LLM[话题]# #大模型面试[话题]# #大模型学习[话题]# #人工智能[话题]# #程序员[话题]# #大模型应用[话题]# #编程[话题]#",
+  "tags": [
+    "大模型",
+    "ai大模型",
+    "LLM",
+    "大模型面试",
+    "大模型学习",
+    "人工智能",
+    "程序员",
+    "大模型应用",
+    "编程"
+  ],
+  "author": "AI大模型开发",
+  "authorId": "68be6b2e000000000803b983",
+  "time": 1773394509000,
+  "ipLocation": "",
+  "likes": "508",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090930/adc0ea28d9a5edca88c4f229db770343/spectrum/1040g0k031tlairvo6i005q5udcn27ec3m9l2f90!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e9b3da4d48c9e4010370039ce68de994_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69b3da4d000000002302495a?xsec_token=ABiiKUuEQIYuJ1lKtoYzB8pclJ0HG8Qa51ayvOP3cEq4M=&xsec_source=pc_collect"
+}

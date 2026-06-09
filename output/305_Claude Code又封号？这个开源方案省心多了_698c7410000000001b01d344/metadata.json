@@ -1,0 +1,22 @@
+{
+  "id": "698c7410000000001b01d344",
+  "type": "video",
+  "title": "Claude Code又封号？这个开源方案省心多了",
+  "desc": "被封号折腾够了之后，我找到了一个省心的替代方案\nOpenCode + Oh My OpenCode + 接口AI。\n功能差不多，但不用翻墙、不用担心封号、模型随便切。\n\t\n⏱️ 时间戳：\n00:00 被封号后的新选择\n00:28 OpenCode是什么\n00:32 OpenCode的独特优势\n00:52 oh-my-opencode多Agent插件\n01:12 OpenCode整体架构解析\n01:50 多Agent多模型协作机制\n02:21 为什么需要多个代理\n03:25 安装OpenCode和插件\n04:56 配置多模型和Agent\n06:20 用接口AI解决封号问题\n07:30 配置文件详解\n08:46 实战演示多Agent协作\n13:04 总结与推荐\n\t\n#opencode[话题]# #claudecode[话题]# #ohmyopencode[话题]# #接口AI[话题]#",
+  "tags": [
+    "opencode",
+    "claudecode",
+    "ohmyopencode",
+    "接口AI"
+  ],
+  "author": "程序员阿江-Relakkes",
+  "authorId": "5f58bd990000000001003753",
+  "time": 1770812432000,
+  "ipLocation": "",
+  "likes": "395",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090934/c1188edb3963e8c75aa9828f41bb641b/spectrum/1040g34o31seqp6kg5e105nqonmcg8dqj2glkuv8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e98c6ffe48c104010370039c4ca96b1f_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/698c7410000000001b01d344?xsec_token=ABCyE2HYGpoNE0CDmxu39eSzOrr3CHO52MNpTJOiO1oi8=&xsec_source=pc_collect"
+}

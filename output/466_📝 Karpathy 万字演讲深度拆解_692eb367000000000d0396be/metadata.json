@@ -1,0 +1,22 @@
+{
+  "id": "692eb367000000000d0396be",
+  "type": "video",
+  "title": "📝 Karpathy 万字演讲深度拆解",
+  "desc": "作为OpenAI的创始成员和前Tesla AI总监，Karpathy这次没有画饼，而是用15个“黑话”把AI行业扒了个底朝天。以下是本次演讲的5大核心精华：\n\t\n1️⃣ Agent（智能体）祛魅：现在只是“各种翻车”\n现状：别信市面上喊的“2024 Agent元年”。现在的Agent就像一个“还没学会走就想跑”的实习生。\n痛点：缺乏对世界的底层认知（大模型内功），单纯给它挂上联网和执行的手脚（外挂），一遇到复杂任务就容易死循环或瞎操作。\n预判：要实现真正独立工作的Agent，不是一两年的事，而是“十年之约”。\n\t\n2️⃣ AI的本质：不是生物，是“数字幽灵” 👻\n颠覆认知：不要用生物进化的逻辑去看AI。\n动物：几亿年进化，生存本能刻在DNA里（硬件级智能）。\nAI：在人类互联网废墟（文本数据）上训练出来的模仿者。它没有肉体，只有对人类文字概率的预测。这是一种“由果导因”的蹩脚进化（Crappy Evolution）。\n\t\n3️⃣ 怎么用好AI？区分“模糊回忆”与“工作记忆”\nKarpathy打了一个极佳的比方：\n模型参数（Weights） = 模糊回忆：就像你一年前读过一本书，现在只记得大概情节。\n上下文窗口（Context Window） = 工作记忆：就像考试时放在桌子上的“小抄”，清晰、直接。\n👉实操建议：想让AI干活靠谱，别指望它的大脑（参数），要尽量把关键信息喂到它的嘴边（Context）。\n\t\n4️⃣ 残酷真相：强化学习效率极低 & AI编程是把双刃剑\n吸管效应：现在的强化学习（RL）就像“用吸管吸取经验”。AI写了一天代码，最后只得到一个“报错/通过”的反馈，根本不知道哪一步做对了。\n编程真相：\n写样板代码（Boilerplate）：AI是神，比你快100倍。\n搞创新架构：AI是猪队友。它不懂设计美学，只会堆砌它见过的旧代码，导致项目臃肿。\n\t\n5️⃣ 终局思考：拒绝《WALL-E》式的未来 🧘‍♂️\n最大恐惧：人类把脑力劳动全丢给AI，自己退化成电影《WALL-E》里躺在椅子上的巨婴。\n教育的意义：Karpathy转身做教育（LLM101n），是为了让人类练出“智力六块腹肌”。\n新指标：Eurekas per second（每秒顿悟率）。未来的学习不是为了谋生（AI会代劳），而是为了享受那种“啊！我懂了！”的纯粹智力快感。\n\t\n#Karpathy[话题]#  #OpenAI[话题]#   #LLM[话题]#   #AI智能体[话题]#",
+  "tags": [
+    "Karpathy",
+    "OpenAI",
+    "LLM",
+    "AI智能体"
+  ],
+  "author": "碳硅同传🤖",
+  "authorId": "66d70d97000000001e00f79c",
+  "time": 1764668263000,
+  "ipLocation": "",
+  "likes": "3",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091013/1cecc0f97c1b79a553b2560c84561886/spectrum/1040g34o31pj96o2d40705pmn1mbnhtssj764fdg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e92eb046277cc3010370039ade6f69ec_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/692eb367000000000d0396be?xsec_token=ABUSitcMVixoEq15jX1puO99DpHKhuoOMvh0ULpbPMXYM=&xsec_source=pc_collect"
+}

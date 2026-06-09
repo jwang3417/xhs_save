@@ -1,0 +1,27 @@
+{
+  "id": "68b43df0000000001c00b5e1",
+  "type": "video",
+  "title": "GPT、Qwen3、DeepSeek：开源模型架构对比",
+  "desc": "该视频深入探讨了 OpenAI 的 GPT OSS、阿里巴巴的通义千问3 和 Deepseek V3 这三个最先进的开源大型语言模型的架构、训练方法和独特功能。视频比较了它们在参数规模、专家混合模型的使用、注意力机制的创新（如分组查询注意力、MLA）以及上下文长度扩展技术（如 YARN）上的不同。此外，它还强调了这些模型在数据工程、后训练阶段的强化学习应用以及整体设计思路上的差异，尽管它们在基准测试中表现相似，但实现方式却各不相同。#人工智能发展[话题]# #大模型[话题]# #未来科技趋势[话题]# #多模态人工智能[话题]# #AI人工智能[话题]# #AI工具[话题]# #算法[话题]# #人工智能未来[话题]# #科技前沿与未来[话题]#",
+  "tags": [
+    "人工智能发展",
+    "大模型",
+    "未来科技趋势",
+    "多模态人工智能",
+    "AI人工智能",
+    "AI工具",
+    "算法",
+    "人工智能未来",
+    "科技前沿与未来"
+  ],
+  "author": "还在研究ing",
+  "authorId": "569e0e2c50c4b4202fe9b42a",
+  "time": 1756642800000,
+  "ipLocation": "",
+  "likes": "33",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091159/a1a550b12ac6c400a62f7ddd8a4dcac9/1040g2sg31lrmop2ulik0457fji72pd1autdfjp8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/79/110/259/01e8b43db0bd524401037003990012948d_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68b43df0000000001c00b5e1?xsec_token=ABO021UE8vRtRe9b32fUsZHY8TehtqpHSRbnDwY_S07qc=&xsec_source=pc_collect"
+}

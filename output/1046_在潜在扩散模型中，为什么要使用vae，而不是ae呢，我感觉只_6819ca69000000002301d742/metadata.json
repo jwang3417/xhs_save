@@ -1,0 +1,20 @@
+{
+  "id": "6819ca69000000002301d742",
+  "type": "normal",
+  "title": "",
+  "desc": "在潜在扩散模型中，为什么要使用vae，而不是ae呢，我感觉只需要学习恒等变换，然后再通过条件控制生成，应该也能生成非常高质量的图像，求告知，各位佬 #深度学习[话题]# #扩散模型[话题]#",
+  "tags": [
+    "深度学习",
+    "扩散模型"
+  ],
+  "author": "🍁",
+  "authorId": "6630ff0b0000000003030d30",
+  "time": 1746520681000,
+  "ipLocation": "",
+  "likes": "102",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091348/354e5ef06a30b6db9f946ae4b7579c48/1040g00831h4s6fsfj85g5phgvs5gu39goc36du8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6819ca69000000002301d742?xsec_token=ABh9i_DrPEig4ng1Xc27U4D8qqKObgq5-Lan4IKiqw1bs=&xsec_source=pc_collect"
+}

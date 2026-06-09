@@ -1,0 +1,21 @@
+{
+  "id": "686635e7000000002201d170",
+  "type": "normal",
+  "title": "我们组的算法被用于快手和天工的模型训练啦",
+  "desc": "最近发现我们组提出的MPO算法被快手和天工等大厂用于他们的模型训练，非常感谢两家大厂的认可[萌萌哒R]也借这个机会再次宣传一下我们的MPO算法[害羞R]\n\t\n[星R]什么是MPO？\n简单来说，MPO可以看成一种DPO-like的离线强化学习算法，其训练数据由（问题，正样本，负样本）组成。其中，DPO要求模型生成正样本的概率高于负样本的概率。然而，这会导致“挤压”现象，即虽然正样本生成概率确实高于负样本，但正负样本生成的绝对概率是同步下降的。\n\t\n为了解决这一问题，我们尝试在DPO算法中引入LM Loss来保证正样本的生成概率不再下降，但这又会导致反向“挤压”，即正负样本的生成概率同步上升。所以我们又进一步引入了BCO Loss，其训练目标是要求正负样本生成概率分别趋近于1和0，从而保证正负样本的生成概率能有一个正确的趋势。\n\t\n[向右R]直觉上来说，我们的算法要求模型学习不同样本间相对质量的同时，学会每个样本的绝对质量，以及其中正样本的生成方式。\n\t\n[星R]MPO的效果如何？\n我们在InternVL的技术报告中提供了ablation对比（见p4/5）。其中，对于InternVL3-78B模型，其推理性能的提升平均达到个4.1个点。并且，MPO的数据query完全来源于SFT数据，没有引入新的数据源，所以这部分性能的收益完全来源于算法本身，而不是新的in-domain数据。\n\t\n[向右R]总的来说，我们的MPO算法可以显著提升模型的综合能力，并且这种收益来源于算法本身，而不是数据。\n\t\n[星R]MPO和近期大火的GRPO-like算法的关系？\nMPO和GRPO-like算法本质上都是通过引入负梯度来提升模型能力。核心区别在于，MPO预先采集好响应，然后一口气训练，而GRPO采一部分响应就更新一次参数。\n\t\nMPO的优势是不同模型用同一批响应训练，模型推理算力可以复用，降低整体成本。同时，可以通过控制构建正负样本的规则来定向调节模型能力。例如，用不同格式要求A/B分别采样的方式构建正负样本，从而提升模型的指令跟随能力。此外，MPO训练数据的正负样本分布是均匀的，所以几乎不会出现模型训崩的情况。\n\t\nGRPO的优势是在线更新模型参数，负梯度总是指向模型生成的响应，有更好的训练效果和性能上限。但是坏处就是容易训崩，尤其是一些问题始终没有正样本的情况下，模型会直接崩掉。\n\t\n[向右R]总的来说，MPO的均摊成本更低，训练更稳定，而GRPO上限更高。",
+  "tags": [],
+  "author": "Yun",
+  "authorId": "6167d8e4000000000202295e",
+  "time": 1751528935000,
+  "ipLocation": "",
+  "likes": "755",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091335/9e3b770369e8fc561a0261b90136c94d/1040g00831jfdk40nio005ob7r3i0kaaukksn94o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/22f9b81d830fff5b5e00e1966413c0f1/1040g00831jfdk40nio0g5ob7r3i0kaaui3qhs2g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/3f914bfd8345f7e0614db360d679e25c/1040g00831jfdk40nio105ob7r3i0kaaumusak0g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/5087bfa21d72cf395a86a3fe52772a42/1040g00831jfdk40nio1g5ob7r3i0kaauhg7s6u8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/5cd671f107a8c74a5059f9bdd7ef94d2/1040g00831jfdk40nio205ob7r3i0kaaufssatoo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/686635e7000000002201d170?xsec_token=AB-BjhXj-hvJ8iQy8Q5T39bQ9-erVdsQR1NJrwG7UhFD0=&xsec_source=pc_collect"
+}

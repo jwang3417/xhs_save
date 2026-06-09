@@ -1,0 +1,28 @@
+{
+  "id": "68d6d1e00000000014008595",
+  "type": "video",
+  "title": "面试官:为什么大模型要用Token而不是UTF-8",
+  "desc": "大模型面试题\n1.为啥大模型要用Token而不是UTF8?\n2.如果绕开Tokenization,直接将UTF-8编码的字节 流喂给Transformer, 模型在学习语言结构时会遇到 什么根本性的计算难题?\n3.从模型“涌现能力”的角度看,为什么基于Subword 的Tokenization被认为是催生大模型复杂推理能力的 关键基石之一?\n4.Tokenization生成的词表大小(Vocabulary Size) 对大模型最终的性能和训练成本有何深远影响?你如 何量化评估一个词表的好坏?\n5.在处理代码生成任务时,一个专门为自然语言设计 的Tokenizer会遇到哪些问题?你会如何设计一个对代 码更友好的Tokenizer?\n6.“Token”本身是离散的整数ID,它在输入到模型 前,是如何通过Embedding层映射成一个能表达丰富 语义的连续向量的?\n7.对于中文这种不存在明显空格分隔的语言,BPE (字节对编码)算法是如何在无监督的情况下,自动 学习出“词”这个概念的?\n8.在多模态大模型中,文本的Tokenization和图像的 Patch-based“Tokenization”在设计哲学上有何共通 之处与核心差异?\n9.为什么说Transformer的自注意力机制(Self- Attention)的计算复杂度,直接受益于将长文本压缩 为较短的Token序列这一步骤?\n10.特殊Tokens(如[CLS], [SEP], <|endoftext|>)在 模型训练和推理过程中分别扮演了什么不可或缺的角色?\n11.当你为一个特定垂直领域(如医疗、法律)微调大 模型时,是应该延用基础模型的原版Tokenizer,还是 重新训练一个领域专用的Tokenizer?请阐述你的决策 依据与场景权衡。\n\t\n﻿#大模型面试[话题]#﻿ ﻿#AI[话题]#﻿ ﻿#大模型[话题]#﻿ ﻿#面试[话题]#﻿ ﻿#面经[话题]#﻿ ﻿#AI面试[话题]#﻿ ﻿#面试技巧[话题]#﻿ ﻿#互联网大厂面试[话题]#﻿﻿#2026校招季[话题]# #校招提效赛博宝典[话题]#",
+  "tags": [
+    "大模型面试",
+    "AI",
+    "大模型",
+    "面试",
+    "面经",
+    "AI面试",
+    "面试技巧",
+    "互联网大厂面试",
+    "2026校招季",
+    "校招提效赛博宝典"
+  ],
+  "author": "阿卡西猎人",
+  "authorId": "68898124000000002802949e",
+  "time": 1759059182000,
+  "ipLocation": "",
+  "likes": "428",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091147/91cee09d6cf3130b548598375f0d3de1/spectrum/1040g34o31mtf56gl521g5q49g4ia554ul8h577o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e8d6ce5d0ee5d5010370039987247248_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68d6d1e00000000014008595?xsec_token=ABHFtXs-GIMdIvThLiAxcDd-1XVBfCS1G4ZH6NfjlQT4A=&xsec_source=pc_collect"
+}

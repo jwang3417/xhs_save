@@ -1,0 +1,30 @@
+{
+  "id": "6801d5cd000000001d002714",
+  "type": "normal",
+  "title": "算法工程师视角看GPT-o3，视觉推理未来已来",
+  "desc": "GPT-o3爆火，让我想到之前看过的一篇叫做CogCom的工作，也实现了类似o3的带有操作能力的视觉推理。今天赶紧来和大家分享一下！\n\t\nGPT-o3和CogCoM代表了视觉推理的两种技术路径：前者通过强化学习和动态工具调用实现“隐性智能”，后者通过显式操作链和可解释性满足“透明需求”。\n\t\n看了下作者，发现这篇居然是智谱一年前发的，模型当时就开源了，看来智谱的技术积淀确实是很深厚。最近他们还开源了新的基模GLM-4-Air和推理模型GLM-Z1-Air，期待他们后续的表现。\n\t\n关于o3和CogCom欢迎大家在评论区讨论呀！\n#openai[话题]##智谱[话题]# #GLM[话题]# #开源[话题]# #算法工程师[话题]# #多模态大模型[话题]#",
+  "tags": [
+    "openai",
+    "智谱",
+    "GLM",
+    "开源",
+    "算法工程师",
+    "多模态大模型"
+  ],
+  "author": "居丽叶",
+  "authorId": "56b1aae7b8c8b423d372da85",
+  "time": 1744958116000,
+  "ipLocation": "",
+  "likes": "188",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091351/7d29a9d464f60311cbd77436055ee651/notes_pre_post/1040g3k031gdfivdlj85045ff0elefmk5pdaipgg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091351/764a9da54a1b0ce400cc21990daf432d/notes_pre_post/1040g3k031gdfivdlj81045ff0elefmk5c7bpdqg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091351/3b6c463da5cf1911d2b2c74a58d5014f/notes_pre_post/1040g3k031gdfivdlj83g45ff0elefmk525o2efo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091351/90ed1c28d96c592d90830e8900464e18/notes_pre_post/1040g3k031gdfivdlj84g45ff0elefmk59thfdi8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091351/c60b4cfaa9e6cc316c720f5495dfd53d/notes_pre_post/1040g3k031gdfivdlj84045ff0elefmk5u6ds6n0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091351/365af1cff4008c640556498ab898deb3/notes_pre_post/1040g3k031gdfivdlj82g45ff0elefmk5nbjrdjo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091351/f28386d8c233f5991b2a07817516b5c7/notes_pre_post/1040g3k031gdfivdlj83045ff0elefmk5akes4p8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6801d5cd000000001d002714?xsec_token=ABbbLtm-Ksb2kipy5t9CZXO43NsYcA6mfws69Eam7M3W8=&xsec_source=pc_collect"
+}

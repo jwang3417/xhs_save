@@ -1,0 +1,22 @@
+{
+  "id": "6a0a96b7000000003701c672",
+  "type": "normal",
+  "title": "强化生成式推荐的推理能力 KDD2026",
+  "desc": "我们（快手短视频推荐算法团队）在生成式推荐方向上的新进展：我们关注到SID本身具有层级特性，其生成的过程也天然地可以被看作“多步决策”，所以我们判断这是提升生成式推荐模型推理能力的另一个关键点。\n\t\n[种草R] 实现方案也很简洁：在SID的每一步生成前置入Thinking Token，使得模型在生成SID的过程中拥有推理的能力；并利用推荐领域中SID的层级特性，在向量空间给予Thinking Token一些可解释性约束，使得模型推理能够感知推荐任务独有的语义Context。\n\t\n更多方案细节可阅读公开论文（可搜索 Stepwise Semantic-Guided Reasoning in Latent Space for Generative Recommendation），欢迎交流！\n\t\n@快手技术\n#算法[话题]# #推荐算法[话题]# #生成式推荐[话题]#",
+  "tags": [
+    "算法",
+    "推荐算法",
+    "生成式推荐"
+  ],
+  "author": "bebetterxu",
+  "authorId": "6535a9aa000000000301ef0a",
+  "time": 1779078839000,
+  "ipLocation": "北京",
+  "likes": "201",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090732/09fc1d2dbd12a16ded9b34130760902f/spectrum/1040g0k0320a0p8i0li005p9ll6l0rroa15i3oho!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090732/cb85a3a194c5bc61e17311f2d04926d8/spectrum/1040g34o320a12jmdli205p9ll6l0rroacf062fo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a0a96b7000000003701c672?xsec_token=ABh5AjNNZJ0MHtGwHhq0nFd9BS9WicfO80M5UkCJ5vB90=&xsec_source=pc_collect"
+}

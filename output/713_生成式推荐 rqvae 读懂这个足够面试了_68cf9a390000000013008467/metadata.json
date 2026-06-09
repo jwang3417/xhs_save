@@ -1,0 +1,42 @@
+{
+  "id": "68cf9a390000000013008467",
+  "type": "normal",
+  "title": "生成式推荐 rqvae 读懂这个足够面试了",
+  "desc": "生成式推荐 llm4rec\nrqvae一文详细保姆级介绍\n\t\n后续不单单更新面经，开一个llm4rec的专题，介绍一下业界的llm4rec，也会分享一些论文和学习方法，推荐系统链路介绍，leetcode，智力题，八股也在整理中[赞R][赞R][赞R]\n\t\nRQ-VAE 通过引入残差量化 (Residual Quantization) 机制完美地解决了llm4rec的分词器问题。其核心思想是“由粗到精”的逐层逼近：\n先大体讲一下各个模块的工作。\n\t\n[向右R]编码器（Encoder / 语义翻译器）：读取用户历史行为序列，并将其编码为一个紧凑、连续的“语义向量”（即潜在向量），用以概括用户行为背后的抽象模式。\n\t\n[向右R]码本（Codebook / 概念词典）：一个预定义的离散向量集合，其中每个向量代表一个标准化的“概念单元”。该方法的目标是使用该码本中有限的概念向量，以尽可能高的保真度表示上述语义向量。\n\t\n[向右R]解码器（Decoder / 语义重建器）：接收经过码本量化后的概念组合，并基于此重建用户原始的行为历史序列，完成从离散概念回至高维连续语义的逆映射过程。\n\t\n#大模型[话题]# #算法[话题]# #深度学习[话题]# #生成式推荐[话题]# #推荐算法[话题]# #八股[话题]# #面经[话题]# #秋招[话题]# #搜广推[话题]# #知识科普[话题]#",
+  "tags": [
+    "大模型",
+    "算法",
+    "深度学习",
+    "生成式推荐",
+    "推荐算法",
+    "八股",
+    "面经",
+    "秋招",
+    "搜广推",
+    "知识科普"
+  ],
+  "author": "momo",
+  "authorId": "66a083ff000000000b0304d6",
+  "time": 1758435898000,
+  "ipLocation": "",
+  "likes": "478",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091153/a98c1bf8f0d5c72a751cd947bdfed81c/1040g00831mmb1qh94u6g5pl0gfviu16m9i64vb8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/9e833b94805465ef8d089cd6bcd2ad9f/1040g00831mmb1qh94u605pl0gfviu16mfb05av8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/da15e4f229001a4c6c92df9f3293ffa9/1040g2sg31mmdq8pj50dg5pl0gfviu16m5i9c8io!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/913ccefddd2124d87ae56afb38a6ad1b/1040g00831mmb1qh94u0g5pl0gfviu16m63afgso!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/f29527aa4266e28a9256eac263202194/1040g00831mmb1qh94u4g5pl0gfviu16mr2asnq8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/a70fc46481100f5d8880380d3a82dc84/1040g00831mmb1qh94u105pl0gfviu16mc381fqg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/37381230a1594e29a9f1f5de537b318d/1040g00831mmb1qh94u005pl0gfviu16mlo0in88!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/58be5c25ac37a673f13a0dbaff47e99f/1040g00831mmb1qh94u1g5pl0gfviu16mrhfqp08!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/697537e8f158de8ad4e349d1e09e0582/1040g00831mmb1qh94u405pl0gfviu16mlvb6mc0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/b9660ad8381235e0a4685c6f10f948fb/1040g00831mmb1qh94u205pl0gfviu16mq10hdu8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/8f28590f0c15957a89d08ed464fd362f/1040g00831mmb1qh94u2g5pl0gfviu16m3mjavjo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/619c5f0b6f2065b0ab14dde9ebf4ea2f/1040g00831mmb1qh94u305pl0gfviu16m1hsqae0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/6eae70454b683e44fd1ed38e7d782c20/1040g00831mmb1qh94u505pl0gfviu16mfgmg7i0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/3f4c13d331b8cd5fc48ba3eae456dad7/1040g00831mmb1qh94u3g5pl0gfviu16mvlme6mg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091153/1c442b5efb86d6ca0b70e1e2ce1ad02f/1040g00831mmb1qh94u5g5pl0gfviu16mgqam36o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68cf9a390000000013008467?xsec_token=ABsMzNO1KH8VtNqEB8pbhqgmNgIBVjNim7cvvlm3Zaj5M=&xsec_source=pc_collect"
+}

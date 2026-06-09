@@ -1,0 +1,22 @@
+{
+  "id": "686423310000000013010268",
+  "type": "video",
+  "title": "Deepseek-GRM，原作讲奖励模型",
+  "desc": "这个工作是去年年底完成的，前两个月论文放出来。视频长，关注强化学习可看。\n\t\n1. 目标\n介绍研究目标为扩展通用领域生成式奖励模型 (GRM) 的鲁棒性与可扩展性，为大模型后训练提供高质量奖励信号。\n2. 推理时扩展背景\n回顾 OpenAI O1曲线\n3. Constitutional AI现状\n传统RLHF依赖人工反馈；Constitutional AI用人写原则指导对齐，但原则覆盖面与质量仍不足。\n4. Generative Critic进展\nCritic GPT与Monitor证明“模型判模型”可发现reward hacking，提示用生成式评审替代纯环境分数。\n5. 研究目标细化\n追求：①输入形式灵活（单/多回复均可评），②推理阶段可多采样放大评分精度。\n6. 传统RM分类与缺陷\n标量式、Bradley-Terry／Pairwise、半生成式、纯生成式四类方法分别受限于推理扩展、输入兼容或数值离散。\n7. 核心方法——“Principle → Critique”\n先让模型生成原则，再基于原则点评并打离散分，可通过多次采样汇总细化评分。\n8. 训练流程\n(1) Rejective Finetune冷启动；(2) 在线GRPO迭代强化；(3) 训练Meta-RM过滤低质轨迹后再聚合。\n9. 实验结果\n在RewardBench、P3、RMB等基准，27B GRM单采样已优于主流开源RM；32采样+筛选后接近GPT-4o\n10. 消融发现\n去掉原则或无提示样本显著降分；Meta-RM对多采样聚合效果关键；仅训练扩展不如推理扩展高效。\n11. 局限与展望\n生成耗时、深层推理任务表现尚欠，在线集成受算力与算法瓶颈；未来需工程加速、工具调用及与策略模型协同扩展。\n12. 问答和结论\n结构化“原则+评论”框架显著提升RM质量与推理可扩展性，为大模型后训练和评价提供更稳健的奖励方案。\n\t\n#大模型[话题]# #强化学习[话题]# #推理模型[话题]# #奖励模型[话题]#",
+  "tags": [
+    "大模型",
+    "强化学习",
+    "推理模型",
+    "奖励模型"
+  ],
+  "author": "一蛙",
+  "authorId": "607c6b9f0000000001000330",
+  "time": 1751393073000,
+  "ipLocation": "",
+  "likes": "230",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091332/c1b8a14ca07375c3382c7cd671f0f160/1040g00831jdf89h930005o3sdefg80pgkvfo9j0!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/79/110/259/01e86422307d03a60103700397c72e96a5_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/686423310000000013010268?xsec_token=ABrC8Zt0br2NabguSxvzgHoF7hPMfuLPCNWljBtNZC8oQ=&xsec_source=pc_collect"
+}

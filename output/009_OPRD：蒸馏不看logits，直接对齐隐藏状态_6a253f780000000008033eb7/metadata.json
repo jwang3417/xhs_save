@@ -1,0 +1,23 @@
+{
+  "id": "6a253f780000000008033eb7",
+  "type": "video",
+  "title": "OPRD：蒸馏不看logits，直接对齐隐藏状态",
+  "desc": "📄 蒸馏不看logits，直接对齐隐藏状态 | OPRD\n首次将在线蒸馏从输出空间提升到隐藏状态空间，用 normalized MSE 对齐中间层表示，消除采样方差，数学竞赛基准上弥合学生-教师差距。\n\t\n🔥 核心亮点：\n→ 首个 representation-level 在线蒸馏方法，绕过 LM head\n→ 零采样方差：确定性 MSE 损失消除后期信噪比坍塌\n→ 可与任何 output-space OPD 方法加法组合，Pareto dominant\n\t\n📊 关键数据：1.44× 训练加速 | -54% 峰值显存 | +2.7pp AIME24\n\t\n💡 Output-space 蒸馏的天花板被打破——隐藏状态包含教师\"怎么推理\"的全部信息，logits 只是冰山一角。\n\t\n📎 论文：arxiv.org/abs/2606.06021\n\t\n🤖 欢迎点赞、收藏、关注一键三连 👍⭐🔔 欢迎交流技术问题～\n\t\n#大模型[话题]#  #深度学习[话题]# #知识蒸馏[话题]# #LLM训练[话题]# #OpenClaw[话题]#",
+  "tags": [
+    "大模型",
+    "深度学习",
+    "知识蒸馏",
+    "LLM训练",
+    "OpenClaw"
+  ],
+  "author": "小糊涂神",
+  "authorId": "5a1adf9d11be107d54750372",
+  "time": 1780825976000,
+  "ipLocation": "北京",
+  "likes": "105",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090701/efa27f8c5b0c1159ac2bf9bc994b0892/1040g2sg321426egg7org49vtiffpq0rimc0ses0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01ea253f77712598010370039ea180379a_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a253f780000000008033eb7?xsec_token=AB9CSE3ic9cULyytC7ltMX1f7pvVowyq2ajL3OqSNYtVc=&xsec_source=pc_collect"
+}

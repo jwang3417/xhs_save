@@ -1,0 +1,22 @@
+👀学别人怎么做，然后失败了☹️
+
+[一R]论文：《Enhancing Embedding Representation Stability in Recommendation Systems with Semantic ID》
+[向右R]motivation:
+语义 ID 的 ID 空间是先验固定的，并且具有语义含义 - 这意味着它可以解决推荐系统中ID特征漂移的问题，缓解嵌入表示的不稳定性
+[向右R]主要方法-提出SID prefix-ngram：
+[一R] 将语义ID前缀组合（如a₁, a₁a₂, a₁a₂a₃）映射到嵌入表；
+[二R]每一层前缀单独使用一个哈希空间，确保哈希碰撞更少，保留更多粗粒度语义；
+(更早类似的前缀idea应该是google这篇：《Better Generalization with Semantic IDs: A Case Study in Ranking for Recommendations》 （2024年5月，arxiv））
+[向右R]离线训练RQ-VAE，在线服务预计算语义ID特征；
+[向右R]用户历史序列用语义ID替换原始ID，提升注意力模型效果（？？？）；
+[向右R]结果：
+[一R]作为对多模态内容的有损压缩，语义ID也能较好的在冷启位取得收益；
+[二R]AB实验实现0.15%在线核心指标提升
+——————
+Btw，就冲着原文里的“当语义ID被纳入用户商品交互历史的情境化模型中时，会带来巨大的收益”一句话！
+博主努力了三周，尝试在ranking model里面加入SID，然而没有取得任何收益，很急！[失望R][捂脸R]
+	
+#每天都有值得记录的瞬间[话题]# #生成式推荐[话题]#  #算法[话题]# #高校[话题]# #大厂[话题]# #日常分享[话题]# #计算机[话题]# #高薪[话题]# #科研[话题]# #互联网大厂[话题]#
+
+
+标签: #每天都有值得记录的瞬间 #生成式推荐 #算法 #高校 #大厂 #日常分享 #计算机 #高薪 #科研 #互联网大厂

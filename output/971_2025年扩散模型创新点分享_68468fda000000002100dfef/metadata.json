@@ -1,0 +1,33 @@
+{
+  "id": "68468fda000000002100dfef",
+  "type": "normal",
+  "title": "2025年扩散模型创新点分享",
+  "desc": "我最近在网上刷到了一些扩散模型的相关话题，突然想起我以前也做过一些相关的内容。今天给大家分享一下2025年扩散模型的一些创新点，都是比较新的做法。\n[一R]Rectified Flow\n最大的突破之一就是Rectified Flow技术的成熟应用。这个技术让扩散模型从传统的弯曲路径变成了直线路径，大幅提升了生成效率。Stable Diffusion 3和FLUX.1都采用了这个技术，能够在保持高质量的同时显著减少采样步数。像InstaFlow甚至能做到单步生成，这在以前是不可想象的。这个技术的核心思想是让噪声到数据的转换过程更加直接和高效。\n\t\n[二R]Transformer架构在扩散模型中的全面应用\n传统的UNet架构正在被Transformer逐步取代。FLUX.1采用了12亿参数的Rectified Flow Transformer，在文本理解和图像生成质量上都有显著提升。DiT架构让模型能够更好地处理长序列和复杂的空间关系，特别是在高分辨率图像生成方面表现突出。\n\t\n[三R]多模态扩散模型的深度融合\n现在的多模态扩散模型不再是简单的文本生成图像，而是真正的跨模态理解和生成。结合CLIP等视觉语言预训练模型，新一代扩散模型能够理解更复杂的语义关系，生成更精准的图像内容。比如你可以说一只穿着红色毛衣的金毛犬在雪地里奔跑，模型不仅能理解每个物体，还能准确把握它们之间的空间关系和动作状态。\n\t\n[四R]潜在空间优化与高效训练\n结合VAE的潜在扩散模型已经成为主流。通过在低维潜在空间中进行扩散过程，不仅大幅降低了计算成本，还提升了训练稳定性。现在的做法是使用更高效的编码器，比如Stable Diffusion 3采用的改进版VAE，能够在保持细节的同时大幅压缩数据维度，让训练和推理都更加高效。\n\t\n[五R]实时生成与边缘部署\n扩散模型的实时化是很重要的进展。通过知识蒸馏、模型压缩等技术，现在能够在移动设备上运行轻量级的扩散模型。LCM和SDXL-Turbo等模型能够在几步内生成高质量图像，让实时应用成为可能。这为移动App、游戏引擎等场景提供了新的可能性。\n\t\n[六R]视频生成与时序建模\n通过在时间维度上扩展扩散过程，现在能够生成连贯、高质量的视频内容。Stable Video Diffusion、AnimateDiff等模型展示了扩散模型在动态内容生成方面的巨大潜力。\n另外，🈶深度学习方面的问题可一对一指导\n#深度学习[话题]# #python[话题]##一对一指导[话题]##论文辅导[话题]##算法改进[话题]##代码定制[话题]##模型改进[话题]##创新点[话题]##sci[话题]##ccf[话题]##大模型[话题]#",
+  "tags": [
+    "深度学习",
+    "python",
+    "一对一指导",
+    "论文辅导",
+    "算法改进",
+    "代码定制",
+    "模型改进",
+    "创新点",
+    "sci",
+    "ccf",
+    "大模型"
+  ],
+  "author": "算法小新",
+  "authorId": "64882d77000000002a035948",
+  "time": 1749454810000,
+  "ipLocation": "",
+  "likes": "26",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091342/feb1ccd72946a7529f35353958406d9c/notes_pre_post/1040g3k031igj9o3f02605p485lrqmma8spq66ng!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/46777f4bf967787653f919c4284ff5c6/notes_pre_post/1040g3k031igj9o3f025g5p485lrqmma8gmf9a1g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/99931f191ad2cfe1d66dc7bbb7e24814/notes_pre_post/1040g3k031igj9o3f024g5p485lrqmma885gvh58!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/0f2b25134878c88ef33d5e20363c9b49/notes_pre_post/1040g3k031igj9o3f023g5p485lrqmma8g4l6fko!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091342/2428ef229efd98a2244978ec5c51bcd8/notes_pre_post/1040g3k031igj9o3f02505p485lrqmma8sa8dak8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68468fda000000002100dfef?xsec_token=ABE051kf-EEASMQ9eOAlLq074tsvFK3l85dJjvU7qGh8k=&xsec_source=pc_collect"
+}

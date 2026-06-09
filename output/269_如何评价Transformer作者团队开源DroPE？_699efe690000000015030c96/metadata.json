@@ -1,0 +1,33 @@
+{
+  "id": "699efe690000000015030c96",
+  "type": "normal",
+  "title": "如何评价Transformer作者团队开源DroPE？",
+  "desc": "🚩 主流LLM普遍采用RoPE作为标配，但在处理超越训练长度的任务时，旋转位置编码面临相位OOD的崩溃难题。现有的缩放与插值方法（如PI、NTK-aware、YaRN）虽能维持PPL相对稳定，却以牺牲语义完整性为代价。\n🚩 针对「零样本外推」与「语义完整性」的博弈，Sakana AI团队（包含Transformer作者Llion Jones）提出了DroPE训练范式。该研究证明positional encoding仅为训练辅助工具，在推理阶段移除后反而能赋予模型近乎无限的长度外推能力。\n\t\n👉 DroPE的研究动机：\n1）RoPE在早期提供强非均匀梯度以保证收敛速度；\n2）长序列相位OOD导致attention面临崩溃失效；\n3）现有RoPE-scaling方法强制压缩低频分量，导致模型理解与语义匹配能力退化。\n\t\n👉 DroPE的技术细节与方法设计：\n1）特征解耦验证：证实RoPE中高频分量负责位置识别，低频分量负责长程语义匹配；\n2）预训练与校准范式：先用标准RoPE预训练模型，随后移除所有positional embeddings进行recalibration，在原始context length上进行极短的continued pretraining；\n3）无位置编码推断：迫使模型适应无显式位置编码状态，转而依赖causal mask与自身相对语义推断顺序。\n\t\n👉 对比现有方法的优势：\n1）切断相位OOD根源：直接移除RoPE避免推理时绝对坐标的生硬外推；\n2）保留原始特征空间：无需进行复杂的频率工程化操作，完整保留semantic heads的原始能力，在强依赖语义匹配的NIAH等任务上表现出压倒性优势。\n\t\n（由于文字篇幅限制，具体细节麻烦大家移步图片～👆）\n\t\n#深度学习[话题]#\n#大模型[话题]#\n#科研[话题]#\n#计算机视觉[话题]#\n#博士生日常[话题]#\n#llm[话题]#\n#大语言模型[话题]#",
+  "tags": [
+    "深度学习",
+    "大模型",
+    "科研",
+    "计算机视觉",
+    "博士生日常",
+    "llm",
+    "大语言模型"
+  ],
+  "author": "叫我Alonzo就好了",
+  "authorId": "632dbaa10000000023026ad9",
+  "time": 1772157624000,
+  "ipLocation": "",
+  "likes": "47",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090931/cb167a220de83db1984edc0bdd96f5ac/spectrum/1040g0k031t0ukrhdl8005opdnagosqmp81pe6e0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090931/1da97cc162a212196f9a9247c17a1744/spectrum/1040g0k031t0ukrhdl80g5opdnagosqmp708vt48!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090931/1827910806cd3d1719fc34e72e4ca6e9/spectrum/1040g0k031t0ukrhdl8105opdnagosqmphag6gp8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090931/85974eb7a083ffac52163c14b9f24ffa/spectrum/1040g0k031t0ukrhdl81g5opdnagosqmpub1sul0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090931/02e0af455ed01a6459cdfb1adf674f68/spectrum/1040g0k031t0ukrhdl8205opdnagosqmp8l7vo80!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090931/fb15a23b3cdd4dfc3c5516064e7a22ee/spectrum/1040g0k031t0ukrhdl82g5opdnagosqmp5qafh00!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090931/8e0a09a75f7c3a276ea15f7e58985ae2/spectrum/1040g0k031t0ukrhdl8305opdnagosqmpl6updl0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090931/0d872e8b5e4f9bd9ffcd1801c4e784a0/spectrum/1040g0k031t0ukrhdl83g5opdnagosqmpag95cvg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090931/69e9944f58be4e922e9bbb17996bce01/spectrum/1040g0k031t0ukrhdl8405opdnagosqmpm6kepm8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/699efe690000000015030c96?xsec_token=ABr3R-He6RhE9kbm21NzqXqDNtx-NyBDAZrs_UnIGxGMM=&xsec_source=pc_collect"
+}

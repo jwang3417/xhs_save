@@ -1,0 +1,31 @@
+{
+  "id": "686099d800000000200191df",
+  "type": "normal",
+  "title": "远超过MoE的CoE，内存占用少，性能还强！",
+  "desc": "专家链（CoE）——一种新型的模型架构。\n它建立在混合专家（MoE）的理念之上，即模型可以在每一轮选择不同的专家。\n➡️作为一项新规定，专家们按顺序工作，一个接一个\n在某一层内。\nCoE 保持活跃专家的数量与以前相同，但是：\n- 内存占用减少高达 42%\n- 解锁超过 800 倍更有效的专家组合\n- 提高性能\n\t\n1. 在 CoE 中：\n- 该模型挑选了一小群专家。\n- 每个专家都会转换一个令牌的当前隐藏状态。\n- 使用门控权重来组合输出。\n- 残余连接有助于保持信息稳定。\n因此，最终结果是经过 C 轮专家处理后的令牌，每一轮都会从上一轮中学习。\n\t\n2.自适应路由：\n每次迭代都有自己的路由器，因此模型可以随着学习的深入而“改变主意”，决定使用哪个专家。例如：\n- 第一步，它可能会将代币发送给一般专家。\n- 在后续步骤中，它可以路由到更专业的步骤，具体取决于令牌的演变方式。\n\t\n3. CoE 的性能提升：\n- 使用相同数量的 FLOP，CoE 的性能与 MoE 相当甚至更佳。\n- 在数学任务上，与 MoE 相比，其验证损失从 1.20 提高到 1.12。\n- 比简单地添加更多层（深度）或选择更多专家（宽度）具有更好的扩展性。\n- 显示出在迭代过程中更强大的逐步专家专业化。\nCoE 增加了隐式深度：每个标记都经过多遍细化，无需添加更多层即可提供深度推理能力。\n\t\nPaper: arxiv.org/abs/2506.18945\n#ai[话题]# #人工智能[话题]# #大模型[话题]# #算法[话题]# #计算机[话题]# #深度学习[话题]# #科技[话题]# #留学生[话题]# #论文辅导[话题]# #北京大学[话题]#",
+  "tags": [
+    "ai",
+    "人工智能",
+    "大模型",
+    "算法",
+    "计算机",
+    "深度学习",
+    "科技",
+    "留学生",
+    "论文辅导",
+    "北京大学"
+  ],
+  "author": "硅基人的星辰大海",
+  "authorId": "68202a62000000000d0091a0",
+  "time": 1751356833000,
+  "ipLocation": "",
+  "likes": "88",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091335/8ba88c0b688d40b88d7e509525be48e2/notes_pre_post/1040g3k031ja0tf5530e05q1059h394d0qq5886o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/a932fa00a0072f11ff0d6736eb0ae29c/notes_pre_post/1040g3k031ja0tf5530fg5q1059h394d0l6hhq9o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/5c02b398e465206caf49b20d80dd581b/notes_pre_post/1040g3k031ja0tf5530gg5q1059h394d0aq046h8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091335/e0060f4e575d0f9ae6f0c47272433ae5/notes_pre_post/1040g3k031ja0tf5530hg5q1059h394d0bppv270!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/686099d800000000200191df?xsec_token=ABd1y3rjDjbbkYKx21J3lgpbLqjMQ2hxfM8EdBgp_kPGo=&xsec_source=pc_collect"
+}

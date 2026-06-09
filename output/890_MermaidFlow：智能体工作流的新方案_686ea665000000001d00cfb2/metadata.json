@@ -1,0 +1,26 @@
+{
+  "id": "686ea665000000001d00cfb2",
+  "type": "video",
+  "title": "MermaidFlow：智能体工作流的新方案",
+  "desc": "当大语言模型（LLMs）化身多智能体协作解决复杂任务时，如何确保它们的工作流既可靠又高效？现有方法常因工作流与代码实现纠缠、缺乏结构性验证，导致计划脆弱易失效。\nMermaidFlow 框架应运而生 —— 它将智能体工作流编码为基于 Mermaid 语言的静态类型图，通过节点类型约束、语义标注和编译器级验证，实现工作流的 “先天正确性”。结合安全约束的进化编程（如交叉、突变、节点增删等算子），MermaidFlow 在保证语义正确的同时，高效探索高质量工作流空间。\n实验表明，相比现有代码生成方法，它在数学推理（GSM8K、MATH）和代码生成（HumanEval、MBPP）基准测试中，成功率平均提升 2%-5%，且更快收敛到可执行计划。这一框架为构建稳健、可解释的多智能体系统提供了模块化基础，让智能体协作从 “脆弱的 prompt 链” 迈向 “结构化的可靠工作流”。\n详情请查看原文章：https://arxiv.org/pdf/2505.22967；\n《MermaidFlow: Redefining Agentic Workflow Generation via Safety-Constrained Evolutionary Programming》\n﻿#MermaidFlow[话题]#﻿ ﻿#agentic_workflow[话题]#﻿ ﻿#agentic[话题]#﻿ ﻿#人工智能[话题]#﻿ ﻿#智能体工作流[话题]#﻿ ﻿#播客[话题]#﻿ ﻿#科普[话题]#﻿ ﻿#科技[话题]#﻿",
+  "tags": [
+    "MermaidFlow",
+    "agentic_workflow",
+    "agentic",
+    "人工智能",
+    "智能体工作流",
+    "播客",
+    "科普",
+    "科技"
+  ],
+  "author": "DeepFlow",
+  "authorId": "65594d5900000000020378d5",
+  "time": 1752082021000,
+  "ipLocation": "",
+  "likes": "433",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091331/37cd8e3119c4b1b4bd93c820604ab628/spectrum/1040g34o31jno0ldoig105pap9lcgmu6lb2h2j9o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/1/110/259/01e86ea5e417a27e0103700397f03b7ec7_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/686ea665000000001d00cfb2?xsec_token=AB-L0S4hA-SY2HgJ-UdaDY0bZGcnaYMhWSCTu5-FCtScI=&xsec_source=pc_collect"
+}

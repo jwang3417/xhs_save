@@ -1,0 +1,23 @@
+{
+  "id": "68e67cac0000000004020b4c",
+  "type": "video",
+  "title": "Typical workflow of a RAG application",
+  "desc": "RAG: Store additional information as vectors, match the incoming query to those vectors, and feed the most similar info to the LLM along with the query.\n\t\n#大模型[话题]# #RAG[话题]# #AI[话题]# #vector[话题]# #AI人工智能[话题]#",
+  "tags": [
+    "大模型",
+    "RAG",
+    "AI",
+    "vector",
+    "AI人工智能"
+  ],
+  "author": "AI数智探索局",
+  "authorId": "67bb3ff7000000000403ac60",
+  "time": 1759935660000,
+  "ipLocation": "",
+  "likes": "2",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091119/f040c71732996dafd3e55800404db66d/spectrum/1040g34o31ncos7k450005ptr7vrh7b30i9sbkmg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/1/110/259/01e8e67c00e7c98c0103700399c457109f_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68e67cac0000000004020b4c?xsec_token=ABChk7qaq31bDzUuF6xTCYtbC6FHzCueNRvqa173z5zNs=&xsec_source=pc_collect"
+}

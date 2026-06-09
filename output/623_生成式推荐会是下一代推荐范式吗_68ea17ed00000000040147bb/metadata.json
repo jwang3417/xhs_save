@@ -1,0 +1,21 @@
+{
+  "id": "68ea17ed00000000040147bb",
+  "type": "normal",
+  "title": "生成式推荐会是下一代推荐范式吗",
+  "desc": "总是刷到各种生成式推荐相关的帖子和论文，但是其中存在很大的误区，这篇帖子来谈一谈现在大火的生成式推荐。\n总结一下，谷歌的tiger和meta的hstu都可以称为生成式推荐，但是这两篇论文其中的核心贡献点都不在于生成式，前者在于不一样的召回方式，后者在于序列的组织形式。生成式重排中 相比之前的判别式方式而言，生成式可以解决重排中的组合优化问题，这在重排场景确实可以说得上是一种新的范式。#生成式推荐[话题]#\n最后打个广告，我当前在做相关的事情，预期是设计下一代的推荐系统架构。有校招/社招/实习的岗位，有意向的同学欢迎私戳我投递简历。",
+  "tags": [
+    "生成式推荐"
+  ],
+  "author": "twinkle",
+  "authorId": "5f02af3d0000000001002c4a",
+  "time": 1760172013000,
+  "ipLocation": "",
+  "likes": "121",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091112/86e4ddfbb13466dbb7ff6e7feaa8d1a4/notes_pre_post/1040g3k831ng8pra25m905no2lsug8b2ae8d12j8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091112/233193bd97e12a13af9bdfff38c4e57f/notes_pre_post/1040g3k831ng8pra25m9g5no2lsug8b2aap169oo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091112/347c885067b8d36e97f7d401a0cced52/notes_pre_post/1040g3k831ng8pra25ma05no2lsug8b2a9ojtcjg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68ea17ed00000000040147bb?xsec_token=ABI-2EdSrnHmIRccebWRTGIV6obGDXiqlbcDdwK55hFu4=&xsec_source=pc_collect"
+}

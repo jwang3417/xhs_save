@@ -1,0 +1,24 @@
+{
+  "id": "69fe6d700000000010001c02",
+  "type": "normal",
+  "title": "近期面试ML的一些经验和技巧",
+  "desc": "Blind上大牛的个人总结，这里分享给大家作为参考：\n1. 手写 Transformer / MHA 已经是基本功了\n现在基本都会让你从零实现 multi-head attention。\n不能用 torch.nn.MultiheadAttention 这种现成 API。\n有些公司（尤其 Anthropic）甚至会要求你在一小时内顺手把 KV cache 和 GQA 也实现了。\n\t\n2. 手推反向传播，直接筛掉 80% 的人\n听起来很基础，但我真见过不少 senior candidate 在白板上 chain rule（链式法则）都推不顺。\n如果你不能很干净地推导：\n•\tsoftmax\n•\tcross-entropy gradient（交叉熵梯度）\n基本就凉了。\n\t\n3. 做 infra 岗的话，不懂分布式训练基本没戏\nMegatron-LM（TP / PP / SP）、ZeRO、FlashAttention 这些，\n现在要求已经不是“知道概念”了，得能深入到 source code 级别。\n只读 paper 已经完全不够用了。\n尤其是 inference / training infra 岗位，不会这些就别硬投。\n\t\n4. Softmax 数值稳定性是个隐藏筛选题\n有个 quant 面试官让我手写 softmax，\n还要求解释 log-sum-exp trick。\n看起来很简单，真写的时候其实一点都不简单。\n\t\n5. Quant ML 面试 和 AI Lab ML 面试 完全是两种东西\n它们关注点差别特别大。\nQuant 更关心：\n•\tlatency（延迟）\n•\tdeterminism（确定性）\n•\tstatistical rigor（统计严谨性）\nAI Lab 更关心：\n•\tscaling（扩展能力）\n•\tdistributed systems（分布式系统）\n•\tmodel behavior（模型行为）\n所以千万别用同一套材料准备。\n\t\n有人对练习题目感兴趣的话可以在下面留言。\n\t\n#machinelearning[话题]# #转码[话题]# #北美找工[话题]# #newgrad求职[话题]# #西雅图[话题]# #数据科学岗位[话题]#",
+  "tags": [
+    "machinelearning",
+    "转码",
+    "北美找工",
+    "newgrad求职",
+    "西雅图",
+    "数据科学岗位"
+  ],
+  "author": "一只momo",
+  "authorId": "59df82806eea885f0a1ff33f",
+  "time": 1778281840000,
+  "ipLocation": "",
+  "likes": "746",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090735/94ed4031d4d88cf373713412f8fb76f7/oss-sg/notes_pre_post/1040g3mo31vu4uu187e0049t23g181spvku8e60o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69fe6d700000000010001c02?xsec_token=ABNKrHqznXBDtR2zGneNsVt6e-xjV6h_5VWfeMwgJ1XlI=&xsec_source=pc_collect"
+}

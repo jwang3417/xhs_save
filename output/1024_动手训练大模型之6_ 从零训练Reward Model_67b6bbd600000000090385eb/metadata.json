@@ -1,0 +1,36 @@
+{
+  "id": "67b6bbd600000000090385eb",
+  "type": "normal",
+  "title": "动手训练大模型之6: 从零训练Reward Model",
+  "desc": "📌这是我们从零开始训练大模型的第六期，基于Qwen2.5生成模型训练Reward Model，用于下期进行PPO训练！\n\t\n📌之前已经说明了如何进行Qwen的预训练、Instruct微调。这期主要是基于之前DIY的生成模型，训练一个序列二分类模型用于RM，并且从零教会大家写RM的Trainer和损失函数！\n\t\n📒右滑查看完整内容➡️\n\t\n📌本期总结：\n🌟RM训练数据只需要（question、chosen、reject）的偏好对即可训练，其中chosen是比reject更好的回答，和DPO是一致的！\n🌟Qwen、GPT2等语音模型在modeling中已写好分类头，只需要用peft进行参数冻结就可以开始训练。\n🌟RM的Trainer要配合数据格式进行loss重写。\n\t\n🎯项目实践已添加到下方笔记📒中，持续更新！\n\t\n#deepseek[话题]# #强化学习[话题]# #字节跳动[话题]#  #笔记[话题]#  #秋招[话题]#   #面经[话题]#   #实习[话题]#   #大模型[话题]#  #成长快乐节[话题]#   #不费妈学习神器[话题]#",
+  "tags": [
+    "deepseek",
+    "强化学习",
+    "字节跳动",
+    "笔记",
+    "秋招",
+    "面经",
+    "实习",
+    "大模型",
+    "成长快乐节",
+    "不费妈学习神器"
+  ],
+  "author": "古希腊掌管代码的神",
+  "authorId": "6543cd40000000000400953c",
+  "time": 1740035703000,
+  "ipLocation": "",
+  "likes": "454",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091346/ce82524455422a4789ae73d2b32c6beb/1040g00831e44lgs3gm005pa3pl01159ssh20oig!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/017512e0c7c1b0e66a9a823644d59e50/1040g00831e44lgs3gm0g5pa3pl01159s5tedd40!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/8db283cf1b4c929a2bca7d9b03da21a4/1040g00831e44lgs3gm105pa3pl01159s84r9f3o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/80dc72849f89339203ff16006624ea4a/1040g00831e44lgs3gm1g5pa3pl01159sl4hsofo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/124a0a813c1bf820188e69b8b6300b28/1040g00831e44lgs3gm205pa3pl01159sts6agr8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/16db71eb69c30418279edf08734f3ed3/1040g00831e44lgs3gm2g5pa3pl01159sc718u00!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/2747c7be64ac6eabb77dad37ba8d510b/1040g00831e44lgs3gm305pa3pl01159s3e8j3t0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/79a44e8d1761215bcde0bbf102aab839/1040g00831e44lgs3gm3g5pa3pl01159s4j291t8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/7c1c1ec1edf611dbde77f76b06a9fe56/1040g00831e44lgs3gm405pa3pl01159s55qob18!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/67b6bbd600000000090385eb?xsec_token=ABZDKaEwbGTSC--mTmu-6wEcSqa3Qh2BXJsHMUUIBoSrs=&xsec_source=pc_collect"
+}

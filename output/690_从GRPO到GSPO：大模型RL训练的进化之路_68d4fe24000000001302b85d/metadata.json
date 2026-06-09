@@ -1,0 +1,32 @@
+{
+  "id": "68d4fe24000000001302b85d",
+  "type": "normal",
+  "title": "从GRPO到GSPO：大模型RL训练的进化之路",
+  "desc": "本文（From GRPO to DAPO and GSPO: What, Why, and How）系统性地回顾并改进了用于LLM强化学习训练的 GRPO（DeepSeek） 算法以及其相关优化DAPO(字节seed）和GSPO（阿里Qwen）。\n\t\n1. GRPO\nGRPO 是 PPO 的变种，无需价值函数（value model），直接基于多个响应（responses）的相对排序计算优势（advantage）。其采用 clipping 机制 控制策略更新幅度，但存在两个问题：\n（1）好 token 被过早裁剪（尤其当旧策略概率很低时）；\n（2）长响应中梯度被稀释（每个 token 权重随长度下降）。\n\t\n2. DAPO：GRPO 的精细化改进\nDAPO 在 GRPO 框架内引入四项优化：\n（1）Clip-Higher ：防止“旧策略偶然采样出优质 token 却因裁剪无法提升其概率”的问题。\n（2）Dynamic Sampling（动态采样） ：防止因优势全为 0 导致梯度失效，提升样本效率\n（3）Token-Level Gradient Loss（Token 级梯度损失） ：使长/短响应中的每个 token 贡献平等，避免长响应梯度被稀释\n（4）Overlong Reward Shaping（超长响应惩罚） ：对超过阈值长度的响应施加软性惩罚，防止模型通过冗长输出“刷分”\n\t\n3. GSPO：面向 MoE 架构的根本性改进\nGSPO 的核心思想：从 token-level 转向 sequence-level 优化，所有 token 共享一个统一的重要性比率，整序列统一缩放，大幅降低方差。\n\t\n#大模型[话题]# #LLM[话题]# #强化学习[话题]# #GRPO[话题]# #DAPO[话题]# #GSPO[话题]# #deepseek[话题]# #阿里巴巴[话题]# #字节跳动[话题]# #qwen[话题]#",
+  "tags": [
+    "大模型",
+    "LLM",
+    "强化学习",
+    "GRPO",
+    "DAPO",
+    "GSPO",
+    "deepseek",
+    "阿里巴巴",
+    "字节跳动",
+    "qwen"
+  ],
+  "author": "Lancer",
+  "authorId": "6147ece20000000002021127",
+  "time": 1758789156000,
+  "ipLocation": "",
+  "likes": "117",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091149/8d417328defa753cac1c9002518d8f41/spectrum/1040g0k031mrlrdpf52005oa7tjh0k4976pgg230!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091149/3042538cb4e6d4504f0548d36bfc3d55/spectrum/1040g0k031mrlrli04u005oa7tjh0k4977105188!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091149/4263a5bea213bd9010733bce1ceb2a67/spectrum/1040g0k031mrlrli04u0g5oa7tjh0k4970pp9v1o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091149/8f2fae735f6e14107fdf5d2b557420a4/spectrum/1040g0k031mrlrli04u105oa7tjh0k49779hej7o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091149/0a46862166192bf1fb7ea0adc664df23/spectrum/1040g0k031mrlrli04u1g5oa7tjh0k497v4dkue8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68d4fe24000000001302b85d?xsec_token=ABsisNZb-WQbQ03M6M1uQWJNwLm238Ne-EZcyDPBJ5AIQ=&xsec_source=pc_collect"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "6842b60e000000000303a6d0",
+  "type": "normal",
+  "title": "终于把PPO & GRPO原理弄清楚了",
+  "desc": "1.Critic 的意义:它为每个状态或阶段提供“合理预期”，大幅降低了训练方差;\n2.Clip&min 机制:约束策略更新幅度，避免一次考试“爆发”带来的巨幅震荡;\n3.Reference Model:限制“作弊”或极端行为，让策略不要过度偏离最初合规范围;\nGRPO 的优点:在大型语言模型中，省掉了价值网络，减少内存和计算负担，还与“对比式Reward Model”天然契合。\nGRPO让我们不用再额外维护一个庞大的 Critic，也能获得类似的相对奖励信号。\n从结果看，这既保持了 PPO 原有的稳定性和合规性，又让训练更直接和高效。\n\t\n﻿#大模型[话题]#﻿ ﻿#GRPO[话题]#﻿ ﻿#PPO[话题]#﻿ ﻿#ai[话题]#﻿ ﻿#人工智能[话题]#﻿ ﻿#强化学习[话题]#﻿ ﻿#大语言模型[话题]#﻿ ﻿#agi[话题]#﻿ ﻿#LLM[话题]#﻿ ﻿#AI大模型[话题]#﻿",
+  "tags": [
+    "大模型",
+    "GRPO",
+    "PPO",
+    "ai",
+    "人工智能",
+    "强化学习",
+    "大语言模型",
+    "agi",
+    "LLM",
+    "AI大模型"
+  ],
+  "author": "camellia",
+  "authorId": "680b4a18000000000d00acb7",
+  "time": 1749202446000,
+  "ipLocation": "",
+  "likes": "139",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091341/087dc4dcd15699266cc28c64b123a8f4/spectrum/1040g34o31icqj0mb7i905q0b98c39b5n8s6jkfg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/31b86c6c9f2e6c58cb2c1de300bdcce1/spectrum/1040g34o31icqj0mb7i9g5q0b98c39b5ns514ed0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/9d9e2feff1600b287ea3a4f12f32cbd0/spectrum/1040g34o31icqj0mb7ia05q0b98c39b5n0c8bbao!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/df52d323d925d58891720a62522206d9/spectrum/1040g34o31icqj0mb7iag5q0b98c39b5n3vtl8pg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/ff8081b51a21fd9d2f250e37a63160cf/spectrum/1040g34o31icqj0mb7ib05q0b98c39b5n86pn6bg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/53d29cc2aff66e6b034f9eb8b0611ac2/spectrum/1040g34o31icqj0mb7ibg5q0b98c39b5nvpu3720!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/7102938cf4a232edfa39f8bc45d30ef2/spectrum/1040g34o31icqj0mb7ic05q0b98c39b5noct5cjo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/d71b893347ddc397abd3ec4ad877cb69/spectrum/1040g34o31icqj0mb7icg5q0b98c39b5nbhtjnu8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091341/42d53a24b7d8e51ded8818630498f1b2/spectrum/1040g34o31icqj0mb7id05q0b98c39b5nd7qeat0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6842b60e000000000303a6d0?xsec_token=ABL3fNWVvGwZQ0vncSmJ_CBLGq3vNBRZx5ezQ76MPnbso=&xsec_source=pc_collect"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "681b5e7200000000120030c8",
+  "type": "normal",
+  "title": "",
+  "desc": "CLIP或者SigLIP的数据训练方法感觉有点问题：如果一个batch中有2个<🐈image, \"a cat\">A和B，这时候按照CLIP或者SigLIP的loss，textA 与imageB 或者textB与imageA的embedding会被拉远，这显然是不对的，尤其是当batch size比较大的时候，这种相同元素的text-image对出现的概率会增大。从CLIP的dataset、dataloader或者loss中没有看到对这个问题的特殊处理。\n#CLIP[话题]# #SigLIP[话题]# #多模态[话题]# #算法优化[话题]#",
+  "tags": [
+    "CLIP",
+    "SigLIP",
+    "多模态",
+    "算法优化"
+  ],
+  "author": "秋水黑刀",
+  "authorId": "6438e1d60000000008019899",
+  "time": 1746624114000,
+  "ipLocation": "",
+  "likes": "168",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091347/f2c71322d73c2b0d27c2a7429bf589d1/notes_pre_post/1040g3k031h6dgoha3sc05p1os7b2364p0fl70ug!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091347/06a19de22f4ddfcdfd0d0671b39770b3/notes_pre_post/1040g3k831h6dgoj83okg5p1os7b2364p2gukfog!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091347/415f7e2efc2fedd5831b81bb8d84f7a2/notes_pre_post/1040g3k831h6dgoj83ok05p1os7b2364ptei7rmo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091347/8158244a572858f43822bec1b10521ac/notes_pre_post/1040g3k031h6dgoha3sbg5p1os7b2364p1mes588!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/681b5e7200000000120030c8?xsec_token=ABVGFihyO2XxX5it8TemZ0ppzLOboToirwcbxYNWcv6BQ=&xsec_source=pc_collect"
+}

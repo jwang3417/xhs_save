@@ -1,0 +1,16 @@
+手撕代码：BN / LN / RMSNorm
+
+深度学习里最常用的三种归一化，公式其实一模一样。区别只在一件事：对哪几个维度求均值方差。
+	
+BatchNorm 竖着切。同一 channel 跨 batch 和空间位置算统计量。训练时用当前 batch，推理时用 running_mean。问题是小 batch 不稳定，这也是为啥 Transformer 不用它。
+	
+LayerNorm 横着切。同一样本所有特征算统计量。不依赖 batch size，训练推理行为一致。Transformer 标配就是这个原因。
+	
+RMSNorm 是 LayerNorm 的极简版。不做均值减除，不加 β 偏置。只除以 RMS 再乘 γ。数学上比 LN 少一次减法和一次加法，实测快 15%，LLaMA 和 Qwen 都在用。
+	
+配图里放了三条公式和对应的 PyTorch 代码，逐行有注释。看完你就能手写这三种归一化。
+	
+#LLM[话题]# #大模型[话题]# #归一化[话题]# #算法[话题]# #手撕代码[话题]# #八股[话题]# #Transformer[话题]# #深度学习[话题]# #面试[话题]#
+
+
+标签: #LLM #大模型 #归一化 #算法 #手撕代码 #八股 #Transformer #深度学习 #面试

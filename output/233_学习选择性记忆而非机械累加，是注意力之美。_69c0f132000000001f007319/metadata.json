@@ -1,0 +1,22 @@
+{
+  "id": "69c0f132000000001f007319",
+  "type": "video",
+  "title": "学习选择性记忆而非机械累加，是注意力之美。",
+  "desc": "相信大家有读过Attention is all you need(Transformer)这篇论文，它发表于2017年，将“类人脑”的注意力带进了模型的视野。模型不再机械的阅读，而是在字里行间产生了“孰轻孰重”的注意力，选择去记住更重要的信息。\n\t\n最近Kimi将这种应用于时间维度（temporal dimension）中的注意力，旋转了90度，来到了模型的深度维度之中。这让模型在传输信息的过程当中，同样拥有了注意力，从而对信息拥有更智能的理解。\n#kimi[话题]# #ai[话题]# #注意力残差[话题]#\n#一起学习[话题]#",
+  "tags": [
+    "kimi",
+    "ai",
+    "注意力残差",
+    "一起学习"
+  ],
+  "author": "Kimi智能助手",
+  "authorId": "657fb438000000001902dbcf",
+  "time": 1774252338000,
+  "ipLocation": "",
+  "likes": "1,480",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091313/e2021782e7f2814a08f66a62fe6c8088/1040g00831u2309pj6u005pbvmgs6dmufp2pf0pg!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/79/110/259/01e9c0f0e6570d2b010370039d19affab4_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69c0f132000000001f007319?xsec_token=AB1jGBysAaYtDGCY8VtDkLClF_axC6NtAUZQ6bsp1-S7U=&xsec_source=pc_collect"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "691c6682000000001d03b231",
+  "type": "video",
+  "title": "智能基础模型：通往AGI的新路径",
+  "desc": "智能基础模型（IFM）,旨在通过学习多样化的智能行为来逼近通用人工智能（AGI）。与现有专注于特定领域（如语言或视觉）的基础模型不同，IFM通过模仿生物神经元动态过程来捕获智能的底层通用机制。该模型由状态神经网络（模拟神经元的时间动态和可塑性）和神经元输出预测（作为统一的学习目标）两大核心组件构成。论文认为，通过学习从神经元输入到输出的序列转换，IFM能够克服现有基础模型在推理和学习等方面的核心局限性，为实现生物学基础且计算可扩展的AGI提供了一条有前景的途径。#AGI[话题]# #人工智能[话题]# #过程智能[话题]#\n声明：内容由NotebookLM自动生成，资料来源：Intelligence Foundation Model: A New Perspective to Approach Artificial General Intelligence（https://arxiv.org/pdf/2511.10119）",
+  "tags": [
+    "AGI",
+    "人工智能",
+    "过程智能"
+  ],
+  "author": "概率海",
+  "authorId": "6375f28a000000001f015b87",
+  "time": 1763468930000,
+  "ipLocation": "",
+  "likes": "5",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091025/d19a3ff83eeb4888bcf5a88b9175261a/spectrum/1040g0k031p1do6flic005orlua57qms79jiea8o!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/1/110/259/01e91c66582a955b010370039a96f1538b_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/691c6682000000001d03b231?xsec_token=AB85mzcwx1tsGWZFSvn6O0o2LqTfueKV8EO-HZzL-UYrM=&xsec_source=pc_collect"
+}

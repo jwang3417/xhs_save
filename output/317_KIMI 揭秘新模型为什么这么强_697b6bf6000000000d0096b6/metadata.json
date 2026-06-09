@@ -1,0 +1,22 @@
+{
+  "id": "697b6bf6000000000d0096b6",
+  "type": "video",
+  "title": "KIMI 揭秘新模型为什么这么强",
+  "desc": "昨天聊了 KIMIK2.5，相信大家都很好奇为什么这个模型这么强。今天凌晨，月之暗面三位联合创始人搞了一场三小时的有问必答AMA，让我了解了很多模型训练的细节。 我为什么觉得这件事值得单独说？因为这是大模型企业非常罕见的一次\"暴露脆弱\"。 你看大厂发布会，讲的都是成功经验：我们多牛、跑分多高、超越了谁。但月之暗面这次不一样，他们真的在讲试错的过程——什么方向走不通、什么架构规模化失败了、什么时候该放弃。 这才是DeepSeek和Kimi真正不同于其他大厂的地方：不是复刻成熟经验，而是用一套方法论去验证和试错。       #人工智能[话题]#  #月之暗面[话题]#  #杨植麟[话题]#  #KIMI[话题]#",
+  "tags": [
+    "人工智能",
+    "月之暗面",
+    "杨植麟",
+    "KIMI"
+  ],
+  "author": "未来博士 wepon",
+  "authorId": "5c3ef08f0000000006012525",
+  "time": 1769696246000,
+  "ipLocation": "",
+  "likes": "212",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090936/83111f975cf2f0d601c97d283fbe5a65/spectrum/1040g0k031ru72s70i0005n1uu27hi9955rhqk3o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e97b6b9c9d4480010370039c0a200bf1_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/697b6bf6000000000d0096b6?xsec_token=ABlpApba6wsHJ6TxThqP7MNC5SEeO4aRl3s_d_GDYBzHU=&xsec_source=pc_collect"
+}

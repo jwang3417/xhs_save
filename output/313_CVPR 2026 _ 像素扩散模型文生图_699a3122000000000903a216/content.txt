@@ -1,0 +1,11 @@
+CVPR 2026 | 像素扩散模型文生图
+
+感谢阅读，下面是我们的论文：
+项目主页：https://pixeldit.github.io/
+论文链接：https://arxiv.org/abs/2511.20645
+github：https://github.com/NVlabs/PixelDiT
+	
+#CVPR[话题]# #计算机视觉[话题]# #论文[话题]# #AIGC[话题]# #图像生成[话题]# #多模态人工智能[话题]#
+
+
+标签: #CVPR #计算机视觉 #论文 #AIGC #图像生成 #多模态人工智能

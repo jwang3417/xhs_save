@@ -1,0 +1,17 @@
+{
+  "id": "6868bd7e000000001d00d8dd",
+  "type": "video",
+  "title": "构建 Agent 的 12 条原则",
+  "desc": "当前构建AI Agent的主流框架虽然能快速上手，但往往是一个“黑箱”，在达到70-80%的质量后便会遇到瓶颈。为了构建生产级别的、可靠的AI应用，开发者需要回归软件工程的第一性原理，拥有对流程、状态和提示词的完全控制权。HumanLayer 创始人Dex Horthy 借鉴了经典的“12-Factor App”理念，提出了一套“12-Factor Agents”的原则，旨在为构建可靠的LLM应用提供一套方法论。\n\t\n这些原则的核心思想是：将Agent视为软件，将LLM视为一个可以调用的纯函数（输入Tokens，输出Tokens），而开发者应该掌控一切。\n\t\n原则 1 & 4：将“工具使用”看作结构化输出\n- Agent的核心魔法不是神秘的“工具使用（Tool Use）”，而是将自然语言转化为结构化的JSON（即工具/函数调用）。\n- 演讲者提出一个激进的观点：“工具使用”这个抽象是有害的，因为它掩盖了本质。\n- 本质过程是：LLM输出JSON -> 你的确定性代码解析并执行这个JSON。\n\t\n2. 原则 8：掌控你自己的控制流\n- Agent的核心循环和分支判断应该由你自己的代码来控制，而不是完全交给LLM。\n- LLM只负责在每一步决定“下一步做什么”，但整个流程的执行、中断、重试、暂停等都应该是开发者编写的、可控的软件逻辑。\n\t\n3. 原则 2 & 3：掌控你自己的提示词和上下文构建\n- 不要使用黑箱式的Prompt抽象。为了极致的性能和可靠性，你需要完全控制输入给LLM的每一个Token。\n- 一切都是“上下文工程”。这包括如何管理历史记录、如何压缩信息、如何注入RAG结果、如何格式化工具调用的历史等。拥有对上下文的控制权，就能极大地提升Agent的可靠性。\n\t\n4. 原则 5 & 6：统一执行状态和业务状态，并提供简单的API\n- 将Agent的运行状态（如当前步骤、重试次数）和业务状态（如对话历史）显式地、统一地管理，并存储在数据库中。\n- 这使得Agent可以像普通软件一样，通过简单的API实现启动、暂停、恢复，尤其适用于长流程任务。\n\t\n5. 原则 10：使用小型、专注的Agent\n\t\n6. 原则 7：用工具与人交互",
+  "tags": [],
+  "author": "陆三金",
+  "authorId": "5622619644760843e5e665f5",
+  "time": 1751694718000,
+  "ipLocation": "",
+  "likes": "716",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091333/529e0b891e33caad82c4156033fba546/spectrum/1040g0k031jhv6ecpia0041kv5tgpcpflrp0aht0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/1/110/259/01e868b95b1718c40103700397d925f1ea_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6868bd7e000000001d00d8dd?xsec_token=ABk3CO1rLde1zV8wA5ghut0rgnvwbSPTGURr24YNEZvRo=&xsec_source=pc_collect"
+}

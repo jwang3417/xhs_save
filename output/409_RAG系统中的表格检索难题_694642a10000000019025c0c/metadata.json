@@ -1,0 +1,22 @@
+{
+  "id": "694642a10000000019025c0c",
+  "type": "video",
+  "title": "RAG系统中的表格检索难题",
+  "desc": "今天来唠唠AI界的破案神器——TableRAG！\n咱都知道，现在的大数据就跟一片汪洋大海似的，AI在里面找信息，那叫一个难。但TableRAG一出，直接把AI从“迷路小白”变成了“智能侦探”！ 我们来看下Google与Huawei两个团队的方案\nGoogle TableRAG 如何解决传统表格理解方法在大规模表格上的核心痛点？\n答案：针对传统方法的上下文长度限制、计算成本高、信息丢失三大痛点，TableRAG 通过三重设计突破：① 采用 “模式检索 + 单元格检索” 分离策略，无需编码全表 / 全行列，编码复杂度降至 O (min (D,B))，推理复杂度 O (K)，与表格规模解耦；② 单元格检索仅处理 distinct 高频值，结合预算控制，避免超大规模编码；③ 表格查询扩展生成专用检索查询，提升信息提取精准度，减少 “Lost-in-the-Middle” 影响，同时保留关键模式和单元格信息，平衡效率与精度。\n\t\nHuawei-TableRAG 通过 “结构保留设计” 和 “全局推理机制” 双维度解决：\n解决 “结构信息丢失”：\n离线阶段构建表格 schema 数据库，为每个表格生成含列名、类型、示例的标准化描述，并建立 “表格分块→schema” 的映射，确保分块始终锚定原始表格结构，避免线性化导致的结构断裂；\n在线阶段用SQL 作为表格交互接口，将表格查询视为不可分割的推理单元，直接操作 MySQL 中的结构化数据，而非将表格转为文本分块，完整保留行 / 列 interdependency。\n解决 “缺乏全局视角”：\n在线四步推理中，“SQL 编程与执行” 模块直接查询完整表格数据，支持聚合、跨列计算等全局操作（如计算 “所有 Activision 2008 年游戏存活率” 需遍历完整表格）；\n迭代推理机制可整合多轮子查询结果，处理多跳全局任务（如 “先筛选特定条件表格→再统计聚合”），而非依赖局部分块。\n总之，TableRAG就是AI界的破案神器，让AI和数据的互动变得更简单、更高效。#大模型[话题]# #多模态人工智能[话题]# #RAG[话题]# #表格处理[话题]#",
+  "tags": [
+    "大模型",
+    "多模态人工智能",
+    "RAG",
+    "表格处理"
+  ],
+  "author": "源之巅AI工作坊",
+  "authorId": "675536af00000000110096d2",
+  "time": 1766212257000,
+  "ipLocation": "",
+  "likes": "85",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091000/18f66da77ddc3681c77fab10323545ad/spectrum/1040g0k031qa9rtr770005pql6qnk95minapik58!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e946402a223489010370039b3a770a38_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/694642a10000000019025c0c?xsec_token=ABWjO0hKLH-NVpxJyfa88ohroCLdk4l8rHqYy5kSQULTA=&xsec_source=pc_collect"
+}

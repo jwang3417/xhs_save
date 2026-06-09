@@ -1,0 +1,3 @@
+Test-Time Scaling
+
+别再一味堆参数了，试试Test-Time Scaling， LLM也能“考试超常发挥”

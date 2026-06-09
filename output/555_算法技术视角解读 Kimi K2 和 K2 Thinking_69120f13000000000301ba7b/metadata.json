@@ -1,0 +1,29 @@
+{
+  "id": "69120f13000000000301ba7b",
+  "type": "video",
+  "title": "算法技术视角解读 Kimi K2 和 K2 Thinking",
+  "desc": "从预训练优化到 Agentic 能力训练的完整流程（含MuonClip优化、Agentic 数据合成等）\n\t\n深度解读 Kimi K2 和 K2 Thinking 技术细节：MuonClip 优化方案、大规模 Agentic 数据合成 pipeline、通用强化学习的 Self-Judging 机制，以及 200-300 步工具调用的 Test-Time Scaling。从预训练到后训练，揭秘月之暗面如何打造 SOTA 开源 Thinking 模型。#大模型[话题]# #agentic[话题]# #kimi[话题]# #kimik2thinking[话题]# #agent[话题]# #预训练[话题]# #合成数据[话题]# #LLM[话题]# #人工智能[话题]# #chaofa用代码打点酱油[话题]#",
+  "tags": [
+    "大模型",
+    "agentic",
+    "kimi",
+    "kimik2thinking",
+    "agent",
+    "预训练",
+    "合成数据",
+    "LLM",
+    "人工智能",
+    "chaofa用代码打点酱油",
+    "了解 kimiK2 原理吗"
+  ],
+  "author": "袁朝发",
+  "authorId": "622186a5000000002102bea8",
+  "time": 1762855506000,
+  "ipLocation": "",
+  "likes": "264",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091316/a9165c0e301944ff8b6d6edf432cc9aa/spectrum/1040g0k031ouhbo0e10005oh1gqiodfl81gjh9a8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/1/110/259/01e9120e0834572b010370039a6e91108c_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69120f13000000000301ba7b?xsec_token=ABVM_kBK-QH6E13336RWhIC5-lRrxm4TMXYhaX0kdHzl0=&xsec_source=pc_collect"
+}

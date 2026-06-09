@@ -1,0 +1,24 @@
+{
+  "id": "6886149f000000001d00fe43",
+  "type": "normal",
+  "title": "2025-推荐算法必看",
+  "desc": "抖音最新推荐算法：rankmixer，近一年最大收益！\n序列建模卷不动，开始卷mfu了！\n🔍 一句话总结\nRankMixer 是字节跳动提出的一种新型大规模推荐排序模型框架，它用多头 token 混合 + 每 token 独立 FFN（+ MoE），替代传统的低 MFU 的特征交叉方式，在保持低推理延迟的同时，将模型参数量扩展了 100 倍，模型效果显著提升，并已在抖音全量上线。",
+  "tags": [],
+  "author": "muon",
+  "authorId": "65c2b43e000000000d03da2e",
+  "time": 1753617567000,
+  "ipLocation": "",
+  "likes": "74",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091120/c393183a9fa7754f98163701b8545f79/1040g2sg31kek6qgdj4rg5pe2mgv3fmhej7220do!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091120/6b86c0e04b152b036368f94ca49e22c1/1040g2sg31kek6qgdj4lg5pe2mgv3fmhe5elmn88!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091120/30fdced1daf104f9a65bebdaa10c39f8/1040g2sg31kek6qgdj4q05pe2mgv3fmhe8rpogp0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091120/458359e70847ab75c93a54b42c2a658a/1040g2sg31kek6qgdj4n05pe2mgv3fmhed6s115g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091120/c266fcadca63fb373b91527eb5892616/1040g2sg31kek6qgdj4ng5pe2mgv3fmhebbimqh0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091120/ab61702f56ce73303af978aa20d988b6/1040g2sg31kek6qgdj4o05pe2mgv3fmhe1ot9fng!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091120/edce320b255742b78d44bf0ec4fb7430/1040g2sg31kek6qgdj4r05pe2mgv3fmhep1n18h8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091120/dcd26d104d1b104b8705bfd0d40f3786/1040g2sg31kek6qgdj4p05pe2mgv3fmhe9kv7s48!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6886149f000000001d00fe43?xsec_token=ABcdJEuU3IkytT_QUx1HuVtsNL1zP_r7A0N41zFsXWrCc=&xsec_source=pc_collect"
+}

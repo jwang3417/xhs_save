@@ -1,0 +1,29 @@
+{
+  "id": "68294761000000002100b8ce",
+  "type": "normal",
+  "title": "xhs怎么做推荐？🍠GenRank生成式排序",
+  "desc": "🔥从Meta的HSTU到最近快手的OneRec，生成式推荐无疑是搜推广领域最大的热点之一\n\t\n[偷笑R]有没有同学好奇天天刷的小红书本书怎么推荐？最近挖到一篇小红书自家技术团队的好文《Towards Large-scale Generative Ranking》，提出了超实用的生成式精排模型GenRank，相比Meta的HSTU实现计算效率和预估性能的双提升 可谓是又快又好 值得学习✅\n\t\n📚论文：Towards Large-scale Generative Ranking （看着像投稿NeurIPS ）\n\t\n✌️细读前点个免费的关注和收藏，北大小哥Sam每天带你读LLM和推荐广告前沿论文，侃算法岗面经&成长经验\n\t\n✨ GenRank 的技术创新亮点，敲黑板！ ✨\n\t\n1️⃣ “动作导向”架构 (Action-Oriented Organization)：这是我觉得最妙的创新点！👍\n\t\n👋告别传统：以前的模型（比如HSTU）可能会把“物品”（比如一篇笔记）和“动作”（比如点赞、收藏）等同视之，序列长，计算量大。\n✅ GenRank 新玩法：把“物品”看作是上下文的位置信息，模型的核心任务是去预测用户在这些“位置”上会产生什么“动作”。 （见p1和p3）\n🚀 效果：这么一搞，注意力机制处理的序列长度直接减半！论文里提到，注意力计算成本降低了75%，线性投射成本降低了50%！\n\t\n2️⃣ 高效处理时空偏置 (Position & Time Biases)：为了让模型更懂用户，时间和位置信息肯定不能少。\nGenRank 设计了三种新的嵌入方式，只需要线性I/O操作，开销小：\n1️⃣Position Embeddings: 记录物品在用户序列中的位置。 * 2️⃣Request Index Embeddings: 处理用户在一次请求中互动多个物品的情况。\n3️⃣ Pre-Request Time Embeddings: 捕捉物品与上一次请求的时间差，反映用户活跃度。 具体使用 ALiBi (Attention with Linear Biases) 机制。这是一个无参数的偏置方法，能根据query和key的距离调整注意力分数，距离越远，惩罚越大。\n\t\n💻实验效果：\n🎈离线：相比HSTU涨6个万分点\n✅线上AB：\n🧷用户平均停留时长 (Time Spent): +0.3345%\n🧷阅读量 (Reads): +0.6325%\n🧷互动量 (Engagements): +1.2474% ❤️\n🧷7日用户价值 (LT7): +0.1481%\n🔥特别值得一提的是，GenRank 对 冷启动用户 的推荐效果提升尤为显著，证实了生成式推荐的泛化性🤗\n\t\n#算法岗[话题]# #大模型[话题]# #大厂[话题]# #推荐算法[话题]# #互联网大厂[话题]# #深度学习[话题]# #程序员[话题]#",
+  "tags": [
+    "算法岗",
+    "大模型",
+    "大厂",
+    "推荐算法",
+    "互联网大厂",
+    "深度学习",
+    "程序员"
+  ],
+  "author": "Sam聊算法",
+  "authorId": "5b40a80311be103d7c8cfa08",
+  "time": 1747535713000,
+  "ipLocation": "",
+  "likes": "278",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091346/9c88b1374a66dc4a80078e410565585b/notes_pre_post/1040g3k831hk06gtkjqdg4a6u5uk07ug83dnutq0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/af64b0e4a95042eb1eeeb184e79b2e2f/notes_pre_post/1040g3k831hk06gtkjik04a6u5uk07ug8e9bknng!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/f63a64dfb6c591c3278a0150b8fcc3d9/notes_pre_post/1040g3k031hk06h23js6g4a6u5uk07ug8hdglakg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/304cb6caf8ccb4b8d64a3264a5fd0ef1/notes_pre_post/1040g3k031hk06gvsjs6g4a6u5uk07ug8s1fb6qo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091346/46f6bcaf4c67c7f1e507b15786f997e4/notes_pre_post/1040g3k031hk06gtm3sd04a6u5uk07ug86h4gbt8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68294761000000002100b8ce?xsec_token=ABR5bfKOp8zl4hWbafuRSjIocaB7GkBfDruK62_VdjHS0=&xsec_source=pc_collect"
+}

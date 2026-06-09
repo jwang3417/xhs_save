@@ -1,0 +1,34 @@
+{
+  "id": "6a05436d000000003502d5ae",
+  "type": "normal",
+  "title": "CVPR Oral满分论文｜21倍加速！FID 1.35封神",
+  "desc": "🔥CVPR 高维重建骗了所有人！21倍加速登顶ImageNet【扩散模型必看】\n\t\nStable Diffusion 3.5 画得超精细，但当你给它“未见过”的输入，它可能瞬间翻车——看似照片，细看像隔层玻璃。\n\t\nCVPR Oral满分论文《Reconstruction vs. Generation》揭开真相：增加VQ特征维度虽提升重建，却严重损害生成性能，需要远超预期的容量和迭代才能恢复。\n\t\n华中科技大学提出VA-VAE，一举解决这个优化困境。\n\t\n🎯核心创新：把视觉基础模型“正畸”latent空间\n用两个损失函数对齐预训练模型的结构化语义：\n① 边际余弦相似性损失（全局语义对齐）\n② 边际距离矩阵相似性损失（局部结构保留）\n让latent空间从“勉强记忆”变成“流畅生成”的理想形态。\n\t\n📊碾压级效果：\n指标 原始DiT VA-VAE+LightningDiT\n达到FID 2.11所需Epoch ≈1400 64（21倍加速）\nImageNet 256最终FID 2.27 1.35（SOTA）\n训练效率提升21倍，FID砍掉40%，无任何保真度损失。\n\t\n💡 思考：高维latent并非越精细越好。重新设计空间结构，比堆算力更接近“真正理解视觉”。\n\t\n#CVPR[话题]# #LatentDiffusion[话题]# #扩散模型[话题]# #VAE[话题]# #论文[话题]# #学术[话题]##科研[话题]##科研学习[话题]# #科研[话题]#",
+  "tags": [
+    "CVPR",
+    "LatentDiffusion",
+    "扩散模型",
+    "VAE",
+    "论文",
+    "学术",
+    "科研",
+    "科研学习"
+  ],
+  "author": "Theo",
+  "authorId": "69e1b53b00000000320349bc",
+  "time": 1778729837000,
+  "ipLocation": "上海",
+  "likes": "250",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090733/b46734d9b18dc605af24e0a6a34fefaa/notes_pre_post/1040g3k83204qmod7k86g5qf1mktsmidsj8tmvqo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090733/c2ca95bf99dedae1d5365dfca97c9294/notes_pre_post/1040g3k83204qmod7k8705qf1mktsmids6ndvm0g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090733/94127b4dd78454e2f92b93bdb5abed2e/notes_pre_post/1040g3k83204qmod7k87g5qf1mktsmidseqq8h7o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090733/be8cc12ae22ee7dc61df6966c952bd5f/notes_pre_post/1040g3k83204qmod7k8805qf1mktsmidsn1dvfro!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090733/abfe399c7cd9acf485fec3350b7f1f91/notes_pre_post/1040g3k83204qmod7k88g5qf1mktsmids7ar4dfo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090733/b6363dcb7c0dbfd55653ab8182ee9d58/notes_pre_post/1040g3k83204qmod7k8905qf1mktsmidsknfoaio!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090733/8fb277356980f3f7b44d4914fd1d8520/notes_pre_post/1040g3k83204qmod7k89g5qf1mktsmidsbelek0o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090733/14c22cc30e76662a1d5cade4bb19165a/notes_pre_post/1040g3k83204qmod7k8a05qf1mktsmids8n3eu1g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090733/dc945879b2286c228e8d8356e715e5ec/notes_pre_post/1040g3k83204qmod7k8ag5qf1mktsmidshk9c7ko!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a05436d000000003502d5ae?xsec_token=ABV9CTEV_FqNS7QppXkQYWj71ufnpYZCDJqv5_aaXXjsA=&xsec_source=pc_collect"
+}

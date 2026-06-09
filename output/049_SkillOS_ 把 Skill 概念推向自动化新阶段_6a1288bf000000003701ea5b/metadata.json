@@ -1,0 +1,31 @@
+{
+  "id": "6a1288bf000000003701ea5b",
+  "type": "normal",
+  "title": "SkillOS: 把 Skill 概念推向自动化新阶段",
+  "desc": "最近 UIUC 和 Google 出了一篇很有意思的论文 SkillOS,主题是:怎么让 LLM 智能体不再每次任务都从零开始,而是真正从经验中学习并积累可复用的技能?\n\t\n💭 痛点拆解\n现在的 LLM 智能体几乎都是\"一次性问题求解器\"——做完一个任务,所有教训就消散了。学界已经知道 procedural memory是自进化的关键, Anthropic 也推出了 SKILL.md 格式作为事实标准。但谁来管理这些 skill?\n\t\n•人工维护:不scale\n•prompting / 启发式规则:没有性能反馈\n•已有 RL 方法:只教 agent \"用\" skill,管不了 update 和 delete, 特别是 insert 容易,update 和 delete 难——后者需要从长期、延迟、间接的反馈中学习。\n\t\n🔧 核心方法\nSkillOS 把系统拆成两个独立 agent:\n1️⃣ 冻结的 Executor:用 BM25 从 SkillRepo 检索相关技能,执行任务\n2️⃣ 可训练的 Curator:看到执行轨迹后,通过 insert_skill / update_skill / delete_skill 三种 function call 来维护仓库\n\t\n训练用 GRPO,有两个核心 trick:\n•分组任务流:把相关任务打包成 group,前面任务沉淀的技能要被后面任务的成败检验——把延迟反馈变成可学习信号\n\t\n•复合奖励:任务成功率 + 函数调用有效性 + 内容质量(Qwen3-32B 当评委) + 压缩度\n\t\n类比一下:就像给电脑装了一个\"经验文件系统\",而 curator 是那个学过怎么整理文件的管理员——不只是往里扔,还会定期重构、删冗余、合并相似项。\n\t\n🎯 意义\n这篇文章的核心贡献,不是又造了一种记忆机制,而是把\"经验如何被组织\"这件事变成了一个可独立训练、可迁移、可观测的策略。\n\t\n未来 LLM Agent 的下半场,大概率不再是\"模型变大\",而是\"经验沉淀机制变完善\"——SkillOS 给出了一个非常 clean 的范式参考。\n\t\n#AI论文解读[话题]#  #大模型[话题]#  #智能体[话题]#  #强化学习[话题]#  #agent[话题]#  #自进化[话题]#  #知识管理[话题]# #google[话题]#",
+  "tags": [
+    "AI论文解读",
+    "大模型",
+    "智能体",
+    "强化学习",
+    "agent",
+    "自进化",
+    "知识管理",
+    "google"
+  ],
+  "author": "晓辉算法笔记",
+  "authorId": "5f65be2400000000010011fc",
+  "time": 1779599551000,
+  "ipLocation": "浙江",
+  "likes": "205",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090705/c30a8d4ceab83bd10bcc9f3bb179e27e/spectrum/1040g0k0320hp8k7jlk2g5nr5noi084fsjm281po!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090705/fb34e52f6f41f1ced60e82ee19ed9e95/spectrum/1040g0k0320hp8k7jlk005nr5noi084fsvavptt8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090705/4d4b65c289f49ebed1b64bd6abfc1756/spectrum/1040g0k0320hp8k7jlk0g5nr5noi084fsk94di8o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090705/b6169482de296932428cbdb2c87f7449/spectrum/1040g0k0320hp8k7jlk105nr5noi084fs4dc7jfg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090705/2c4a5d90776c6fe534a16112de208573/spectrum/1040g0k0320hp8k7jlk1g5nr5noi084fs6s5lln8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090705/785ccb712d307cb344f0d6df9b18c692/spectrum/1040g0k0320hp8k7jlk205nr5noi084fsclo1ks8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a1288bf000000003701ea5b?xsec_token=ABvqjTsVBQG9LYPnz2SzgYf8VdNqKE_AZo2LKJZSLuBPU=&xsec_source=pc_collect"
+}

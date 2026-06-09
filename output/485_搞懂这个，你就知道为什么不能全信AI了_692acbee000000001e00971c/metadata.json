@@ -1,0 +1,28 @@
+{
+  "id": "692acbee000000001e00971c",
+  "type": "video",
+  "title": "搞懂这个，你就知道为什么不能全信AI了",
+  "desc": "我们不仅要会用AI，更要懂它的底层逻辑！ 整理了一张关于LLM（大语言模型）能力与局限的思维导图，搞懂这两个点，不仅能更好地写Prompt，还能避坑！👇\n1️⃣ 推理机制（Inference）： AI不是搬运工，它是“创作家”。它在根据概率预测下一个字，所以会出现“幻觉”。就像你考试时瞎编答案一样，虽然通顺，但不一定对！\n2️⃣ 不可解释性（Black Box）： 虽然它很强，但它的思考过程对人类来说是个迷。\n🌟 总结： AI是辅助工具，不是真理百科。用它生成灵感✅，用它查确切数据❌（一定要人工核对）！\n——————\n欢迎来到 Snow 的 AI 学习笔记小基地！\n如果你也和我一样，对AI 充满好奇与热情那就一起加入#learninpublic[话题]# 的行列吧！\n每天进步一点点，用公开学习见证成长\n@知识薯 @科技薯 @校园薯\n#andrejkarpathy[话题]# #科技[话题]# #AI[话题]##大模型[话题]# #学习笔记[话题]# #自我提升[话题]#  #AI产品经理[话题]# #学习分享[话题]# #人工智障与人工智能[话题]#",
+  "tags": [
+    "learninpublic",
+    "andrejkarpathy",
+    "科技",
+    "AI",
+    "大模型",
+    "学习笔记",
+    "自我提升",
+    "AI产品经理",
+    "学习分享",
+    "人工智障与人工智能"
+  ],
+  "author": "Snow学AI",
+  "authorId": "682ab3bf000000000d008a19",
+  "time": 1764412398000,
+  "ipLocation": "",
+  "likes": "11",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091017/0fe63b13bfd938036985fc5096b3c7f9/1040g00831pffe9q9jk005q1amevj92gpg5k6n4g!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/79/110/259/01e92acac064837c010370039acf2d44f7_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/692acbee000000001e00971c?xsec_token=ABbcKBKA5qvLW6fXWg0EyHZ_xkNoJ1ydiGgh5zmiqVzD4=&xsec_source=pc_collect"
+}

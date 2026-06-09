@@ -1,0 +1,25 @@
+{
+  "id": "6890c744000000002501c390",
+  "type": "normal",
+  "title": "Meta的相关短视频推荐的相关性提升了12%",
+  "desc": "双塔召回的时候，通过增加一个辅助任务，增加candidate item与trigger item的内容相关性。实际上，trigger item和candidate item用的是孪生网络（就是共用一个encoding网络）。\n[星R]如想给简历增加更有质量的项目经历，增加面试官认可度，以及提升算法岗面试能力，从而在横向对比中脱颖而出。有上述需要，欢迎后台T。#互联网大厂[话题]# #计算机[话题]# #求职辅导[话题]# #算法[话题]#",
+  "tags": [
+    "互联网大厂",
+    "计算机",
+    "求职辅导",
+    "算法"
+  ],
+  "author": "大厂算法offer",
+  "authorId": "6670f722000000001e0052f3",
+  "time": 1754318660000,
+  "ipLocation": "",
+  "likes": "56",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091320/05ca1cf084d59d4bbf2194287db421a0/notes_pre_post/1040g3k031kp2hmq248605pjgush7gknj7ti4u98!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091320/04c7ee087909709046b9e5df5c1683c5/notes_pre_post/1040g3k031kp2hmq2485g5pjgush7gknjbfut2b8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091320/2a1b89a25c8d7857c8b7e71b7e001896/notes_pre_post/1040g3k031kp2hmq2483g5pjgush7gknjf6v67r8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091320/d740ea675d90c4c31539a482c06d443a/notes_pre_post/1040g3k831kp2hmud3q005pjgush7gknjnlak6q0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6890c744000000002501c390?xsec_token=AB3-jn0Lwi_dNTyshi8OmvVKKe_146Wrb9nR07kag2n_g=&xsec_source=pc_collect"
+}

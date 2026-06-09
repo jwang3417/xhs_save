@@ -1,0 +1,21 @@
+{
+  "id": "6867cf7f000000001c034652",
+  "type": "normal",
+  "title": "俄罗斯套娃特征学习👀",
+  "desc": "因为ICML oral的文章 Beyond Matryoshka: Revsiiting Sparse coding for adaptive representation, 认识了套娃特征学习[扯脸H]\n\t\nIdea很简单，一次学 features with different dimensionality. 比如 classification tasks, 从倒数第二层layer出来的feature 是2048，再多加几个mlp heads得到不同的features. 最后的loss就是所有的cross-entropy losses取平均。\n#NeurIPS22[话题]# #ICML2025[话题]#",
+  "tags": [
+    "NeurIPS22",
+    "ICML2025"
+  ],
+  "author": "Someone",
+  "authorId": "5b54dfbfe8ac2b3ef21258a0",
+  "time": 1751633791000,
+  "ipLocation": "",
+  "likes": "266",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091332/06b9114fddbcb87207186df203c2d6c4/notes_pre_post/1040g3k031jh20c02iu004a7di0frum50ck7aqfo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091332/008e527dd1312fff59c72bd478c3d84d/notes_pre_post/1040g3k031jh20c02iu0g4a7di0frum50huji0q8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6867cf7f000000001c034652?xsec_token=ABDwCmabPUZIHgL5xG_muDas98OMPFXYeVsOmR11iuKJE=&xsec_source=pc_collect"
+}

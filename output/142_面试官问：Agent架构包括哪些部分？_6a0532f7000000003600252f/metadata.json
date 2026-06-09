@@ -1,0 +1,28 @@
+{
+  "id": "6a0532f7000000003600252f",
+  "type": "video",
+  "title": "面试官问：Agent架构包括哪些部分？",
+  "desc": "AI 面试高频题：一个完整的 Agent 架构，到底包括哪些部分？\n❌ 教科书答案（感知-记忆-规划-工具-反思...7 大组件）已经过时。\n✅ 所有生产级 Agent 本质上都是同一个 Loop。\n这期从教科书到生产实战，一次性讲清：\n① 7 大组件答案为什么不够\n② 实锤：生产级 Agent 都是同一个 Loop\n③ Anthropic 简单优先原则 / 工具设计五大原则\n④ 工具数量的悬崖式崩塌（性能天花板）\n⑤ Context Rot：上下文越多越差\n⑥ Claude Code 的分层压缩 / Manus 的 Logit Masking\n⑦ Agent 三个正交维度（Anthropic 三层分类）\n⑧ 面试答题五层递进\n答到第五层就是 senior 级。\n#AI面试[话题]# #Agent[话题]# #智能体[话题]# #Anthropic[话题]# #ClaudeCode[话题]# #大模型[话题]# #LLM[话题]# #系统设计[话题]# #人工智能[话题]# #AI求职[话题]#",
+  "tags": [
+    "AI面试",
+    "Agent",
+    "智能体",
+    "Anthropic",
+    "ClaudeCode",
+    "大模型",
+    "LLM",
+    "系统设计",
+    "人工智能",
+    "AI求职"
+  ],
+  "author": "AI深度幻觉",
+  "authorId": "67f58f0b000000000e010734",
+  "time": 1778725624000,
+  "ipLocation": "美国",
+  "likes": "188",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090733/fb094f99b038c88b93657fa17d0acdac/1040g0083204oe2v3l41g5pvlhs5ji1pk91eh5no!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/79/110/259/01ea0532d4187de8010370039e244f71ad_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a0532f7000000003600252f?xsec_token=ABV9CTEV_FqNS7QppXkQYWjz1nbI2bDQcis2q1Opcwkrw=&xsec_source=pc_collect"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "68242433000000002300c26a",
+  "type": "video",
+  "title": "斯坦福CS336第六课：手写高性能算子",
+  "desc": "GPU基础知识回顾\n\t\n性能测试与性能分析\n\t\n编写高性能算子，Cuda C++实现，Triton实现\n\t\n手把手教学：Softmax的Triton实现\n\t\n﻿#大模型[话题]#﻿ ﻿#人工智能[话题]#﻿ ﻿#小红书热点观察团[话题]#﻿ ﻿#LLM[话题]#﻿ ﻿#cuda[话题]#﻿ ﻿#科技作者强化学习营[话题]#  ﻿#AI[话题]#﻿ ﻿#大模型学习[话题]#﻿ ﻿#AI学习[话题]#﻿ ﻿#CS336[话题]#﻿",
+  "tags": [
+    "大模型",
+    "人工智能",
+    "小红书热点观察团",
+    "LLM",
+    "cuda",
+    "科技作者强化学习营",
+    "AI",
+    "大模型学习",
+    "AI学习",
+    "CS336"
+  ],
+  "author": "一只小茄墩",
+  "authorId": "597818875e87e73490fd8b3b",
+  "time": 1747199027000,
+  "ipLocation": "",
+  "likes": "1,484",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091347/fc0021b326eabc654da5f21f228664c3/spectrum/1040g34o31hevi8u1j80g49mqjkc8f2pr5e0ia5o!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v11.rednotecdn.com/stream/79/110/259/01e82423d466ef470103700396cd3c8573_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68242433000000002300c26a?xsec_token=ABmq_17Y7bOwmAyP7xBQQVBUQLTOS-3k3Lw0TcxqXV6mc=&xsec_source=pc_collect"
+}

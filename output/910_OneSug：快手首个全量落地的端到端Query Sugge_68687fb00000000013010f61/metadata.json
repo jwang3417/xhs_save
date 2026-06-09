@@ -1,0 +1,21 @@
+{
+  "id": "68687fb00000000013010f61",
+  "type": "normal",
+  "title": "",
+  "desc": "OneSug：快手首个全量落地的端到端Query Suggestion生成式模型\n论文链接：https://arxiv.org/pdf/2506.06913v1\n\t\n快手OneSug是面向电商搜索场景的端到端生成式查询建议（Query Suggestion）模型，旨在解决传统多阶段级联架构（Multi-stage Cascading Architecture，MCA）中因优化目标不一致导致的效率低下和性能次优问题。",
+  "tags": [],
+  "author": "大厂AI算法漫记",
+  "authorId": "6194fcda000000001000e14b",
+  "time": 1751678896000,
+  "ipLocation": "",
+  "likes": "54",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091333/e93bb6cdc51c8856861935ba519161b6/1040g2sg31jhnoglsioe05ockvjd41oabm68v66o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091333/b1d19fcf1618b572a40060d01f4e1018/1040g2sg31jhnoglsioeg5ockvjd41oabs0oitg8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091333/dd2ab08d842902c367d6d678e7de9751/1040g2sg31jhnoglsiof05ockvjd41oabhpjule0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091333/960f7415cc205c2a1d04c5a7d28011a8/1040g2sg31jhnoglsiofg5ockvjd41oab57uqnt0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091333/0ee834de0abcb0e71379f3af45bb59db/1040g2sg31jhnoglsiog05ockvjd41oabl3k5t08!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68687fb00000000013010f61?xsec_token=ABk3CO1rLde1zV8wA5ghut0nu4NYVxrV82J1-SyysR66Y=&xsec_source=pc_collect"
+}

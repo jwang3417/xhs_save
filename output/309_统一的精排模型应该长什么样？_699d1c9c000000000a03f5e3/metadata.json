@@ -1,0 +1,29 @@
+{
+  "id": "699d1c9c000000000a03f5e3",
+  "type": "normal",
+  "title": "统一的精排模型应该长什么样？",
+  "desc": "当前“序列压缩，再与其他特征交叉”的两阶段方案存在以下三个问题：\n1.交互发生在序列压缩之后，导致序列压缩无法利用丰富的上下文信息\n2.Query Token表达能力弱：序列编码时通常仅用Target Item作为 Query，忽略了其他特征的作用\n3.Scaling 效率低：增加模型深度或参数主要是在优化独立的组件，无法通过联合优化带来更显著的性能增长\n\t\n为了解决上面问题，HyFormer 引入了Global Tokens的概念，并在层级堆叠中交替执行Query Decoding和Query Boosting两个步骤，HyFormer Block 由两部分交替组成：\n1.Query Decoding (基于 Cross-Att):利用Global Tokens（由非序列特征生成）作为 Query。对长行为序列的 K/V进行 Cross-Att\n2.Query Boosting (基于 Token-Mixer):将 Decode 出来的序列信息与非序列特征进行mix（参考 RankMixer）\n\t\nHyFormer关键技术\n1.Global Tokens: 不仅仅是一个 Target Item Embedding，而是将所有非序列特征（用户、上下文、交叉特征）映射为一组语义 Query\n2.高效长序列编码： 为了平衡效率，KV 侧通常比较轻量，重头戏在 Query 侧的交互\n3.多序列独立建模: 实验发现简单的序列合并会导致性能下降，因此 HyFormer对每个序列维持独立的 Global Tokens 进行交互，保留了序列间的差异性\n\t\n总结：\n1.架构统一是趋势：就像 NLP 领域从分离的组件走向统一的 Transformer 一样，推荐系统也在从“特征工程+独立模块”走向“统一骨干网络”。HyFormer/RankMixer是这一趋势在工业界落地的典型代表。\n2.Query 的重新定义：传统 Cross Att中往往只由 Target Item决定。HyFormer可以理解为：“我想从历史行为里找什么，不仅取决于我想看什么视频（Target），还取决于我是谁（User）以及我现在处于什么环境（Context）” 通过层级交互不断修正这个 Q，实现了更精准的兴趣提取\n线上：A/B test时长约+0.3%\n#字节跳动[话题]# #推荐算法[话题]#",
+  "tags": [
+    "字节跳动",
+    "推荐算法"
+  ],
+  "author": "猫咪行者",
+  "authorId": "5f56d10c0000000001004be4",
+  "time": 1771904156000,
+  "ipLocation": "",
+  "likes": "139",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090935/07f814d97ce988c4ed8e821f7d1a5cb1/1040g00831sv3ll42le4g5nqmq4608iv4tbu4mag!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/c1d496e248c692675b421132d7f4cbc9/1040g00831sv3ll42le005nqmq4608iv420sjblg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/97fd0468e0c02dc5740fd40118bddcb4/1040g00831sv3ll42le0g5nqmq4608iv4bse2khg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/aa02278fdf5dab3c3dd1aab982769a7b/1040g00831sv3ll42le105nqmq4608iv4fchfm8o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/bccd985c57b4f815bbe4dafb2fffbc22/1040g00831sv3ll42le405nqmq4608iv41p4ktpg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/52f6bf03adbe7a0dc38b3a9453734356/1040g00831sv3ll42le1g5nqmq4608iv4rnkgojo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/cd49a61f7d32c2bcc4a82aa61d8c8ac3/1040g00831sv3ll42le3g5nqmq4608iv4m06o9l0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/83b7c095cf11d5701be351b875a88d6f/1040g00831sv3ll42le205nqmq4608iv4duh33uo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/6b994a54ef2a5a8740e73bede75d4ba9/1040g00831sv3ll42le305nqmq4608iv4l5mgh1g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090935/6e7131ce459398ed915d4e23c9484a0e/1040g00831sv3ll42le2g5nqmq4608iv4mrj20lg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/699d1c9c000000000a03f5e3?xsec_token=ABeefoQHHCCY10W6jHOnhfd57bWAW2Jv9JeyW1CEY_Om0=&xsec_source=pc_collect"
+}

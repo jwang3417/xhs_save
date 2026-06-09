@@ -1,0 +1,26 @@
+{
+  "id": "69450a69000000001e025b06",
+  "type": "normal",
+  "title": "宣传下我们VAE Diffusability的新工作SSVAE",
+  "desc": "Delving into Latent Spectral Biasing of Video VAEs for Superior Diffusability\n\t\n这篇文章主要的motivation是解决视频VAE的Diffusability的问题，即重构指标（如MSE、LPIPS）更优的VAE，并不一定能带来更好的生成效果，有时甚至会导致扩散模型的训练收敛更慢。我们根据之前工作的总结以及自己的实验锁定了Video VAE隐空间中两个至关重要的谱特性：\n时空频域谱（Spatio-Temporal Frequency Spectrum）： 需要向低频偏置（Low-Frequency Bias）。\n通道特征谱（Channel Eigenspectrum）： 需要由少数主模态主导（Few-Mode Bias）。\n\t\n最终通过局部相关性正则化（Local Correlation Regularization, LCR）和隐空间掩码重构（Latent Masked Reconstruction, LMR）对Latent进行了“整形”，相比于之前的SOTA Wan2.2VAE在100k步的diffusion训练上能达到3倍的加速比[种草R]\n\t\n欢迎大家试用&&star！\narxiv: https://www.arxiv.org/abs/2512.05394\ngithub: https://github.com/zai-org/SSVAE\n\t\n#视频生成[话题]# #VAE[话题]# #vae[话题]# #diffusion[话题]# #科研论文[话题]# #开源[话题]##视频生成[话题]# #Video_generation[话题]#",
+  "tags": [
+    "视频生成",
+    "VAE",
+    "vae",
+    "diffusion",
+    "科研论文",
+    "开源",
+    "Video_generation"
+  ],
+  "author": "SD_le",
+  "authorId": "5e6128290000000001009d3d",
+  "time": 1766132329000,
+  "ipLocation": "",
+  "likes": "151",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091000/89bbe955d451b437e12cd88b180072fb/1040g2sg31q98qv5n7g705nj150kg979tjkg64g8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091000/0acba7e4a7ce7d43ae77579b0bdaed78/spectrum/1040g0k031q937r1c6u005nj150kg979tacl61f0!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69450a69000000001e025b06?xsec_token=ABrIN0e-qiUDiIi07BvWvTYsKguMcGj_kzBIjxR3OP77k=&xsec_source=pc_collect"
+}

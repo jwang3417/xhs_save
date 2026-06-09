@@ -1,0 +1,31 @@
+{
+  "id": "6889526e0000000004001ad8",
+  "type": "normal",
+  "title": "DPO直接偏好优化重读",
+  "desc": "直接偏好优化DPO在实现上很简单，但是原理比较难理解，导致大家对它实际工作方式理解有偏差。\n\t\n当前大模型的训练一般是四个阶段：\n•Pretraining\n•SFT\n•RLHF\n•RLVR\n\t\n对于DPO主要用在RLHF阶段，这个阶段用主要3步和人类偏好对齐（DPO是一种替代的对齐方法）：\n1.收集人类偏好数据集；\n2.在此数据集上训练一个独立的奖励模型（RM）；\n3.使用RL，一般是PPO，对模型进行微调，并将RM作为奖励信号。\n\t\n第三步通常是在线的：在训练过程中，策略（policy）生成输出，然后RM评分。RLHF目的是最大化模型的奖励，同时尽量减少与参考模型的偏差，偏差一般用KL散度来衡量。\n\t\nRLHF碰到的问题：尽管RLHF效果不错，但是基于PPO算法的RLHF实现成本很高。它除了是一个在线强化学习算法，训练时候还要四个模型副本（策略模型、参考策略模型、奖励模型、价值函数），GPU算力要求高。而且很多实现细节要仔细调优。\n\t\nDPO的定位：DPO是一种替代性的对齐方法。DPO其实不用RL和单独的奖励模型，而是直接通过基础的梯度上升优化RLHF的目标函数，不显式使用RL或奖励建模。所以DPO比用PPO的RLHF稳定、省资源，降低对齐的门槛。\n\t\nDPO的工作原理：常见的误解是认为DPO完全跳过了奖励建模。实际上DPO的奖励建模是一种隐式的奖励。DPO对奖励进行重新参数化，直接从策略自身而不是单独的模型中推导出奖励。我们训练模型，在离线偏好数据集上优化这个隐式奖励，类似于训练一个奖励模型。最终的RLHF最优策略间接地从训练这个隐式奖励模型中推导出来。\n\t\nDPO怎么来的：要理解DPO怎么和RLHF奖励模型关联，可以通过下面步骤从头推出训练损失：\n1.从RLHF的目标函数出发，找到闭合形式的最优解；\n2.重新组织这个结果，来表达隐式奖励；\n3.把奖励代入Bradley-Terry偏好模型；\n4.训练LLM，让它符合这个隐式的偏好模型。\n\t\nDPO通过训练一个隐式的奖励模型，并以闭合形式恢复出RLHF最优策略，这也是DPO论文标题为“Your language model is secretly a reward model”的原因。\n\t\nFrm:cameron\n\t\n#大模型[话题]# #DPO[话题]# #强化学习[话题]# #我的学习进化论[话题]#",
+  "tags": [
+    "大模型",
+    "DPO",
+    "强化学习",
+    "我的学习进化论"
+  ],
+  "author": "一蛙",
+  "authorId": "607c6b9f0000000001000330",
+  "time": 1753829998000,
+  "ipLocation": "",
+  "likes": "14",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091325/abbf33c3353db0f4a6544e7f0746fd32/notes_pre_post/1040g3k831kho0k4g307g5o3sdefg80pgbjf2u68!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091325/e59366a43e3e72ac51dd792eb2ba55ba/notes_pre_post/1040g3k831kho0k4g30805o3sdefg80pg5ou2sco!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091325/1d3ca5029e9e9b1ae00d037f6f68c401/notes_pre_post/1040g3k831kho0k4g308g5o3sdefg80pg35lpr58!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091325/35fd795e79a8c1ff00c7129ef985709f/notes_pre_post/1040g3k831kho0k4g30905o3sdefg80pg1qhu518!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091325/ea48f88e6a7e694dcca271ebd073e933/notes_pre_post/1040g3k831kho0k4g309g5o3sdefg80pgi7ib388!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091325/966d9ced224204b9fda28b7f2ac35673/notes_pre_post/1040g3k831kho0k4g30a05o3sdefg80pg7ei6l80!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091325/6f1aa80e724e3ebe342f71324394594b/notes_pre_post/1040g3k831kho0k4g30ag5o3sdefg80pg2qh98a0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091325/e0dc55edf7eb8cddf18f214e3547b79e/notes_pre_post/1040g3k831kho0k4g30b05o3sdefg80pgt1sjuso!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091325/80f526f2d88bb59739140349ffc6d106/notes_pre_post/1040g3k831kho0k4g30bg5o3sdefg80pgtqj7n10!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091325/f68d1dc1319bd28ef666e2db70d7da95/notes_pre_post/1040g3k831kho0k4g30c05o3sdefg80pg4p9usho!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6889526e0000000004001ad8?xsec_token=ABhhBCQxXrzdrEAO93-dffkTPlwy7bL28daXaMAW-hycc=&xsec_source=pc_collect"
+}

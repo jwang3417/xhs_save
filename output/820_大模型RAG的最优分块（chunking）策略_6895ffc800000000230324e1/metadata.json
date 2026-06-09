@@ -1,0 +1,31 @@
+{
+  "id": "6895ffc800000000230324e1",
+  "type": "normal",
+  "title": "大模型RAG的最优分块（chunking）策略",
+  "desc": "大模型RAG的最优分块（chunking）策略\n\t\n#大模型[话题]# #RAG[话题]# #检索增强生成[话题]# #多模态人工智能[话题]#",
+  "tags": [
+    "大模型",
+    "RAG",
+    "检索增强生成",
+    "多模态人工智能"
+  ],
+  "author": "AI观察者",
+  "authorId": "67991b2d000000000e013a1b",
+  "time": 1754660808000,
+  "ipLocation": "",
+  "likes": "192",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091321/d9810b76e0211d302b46ae984efc7a2a/1040g2sg31ku5lqv1iuk05psp3cmjiegrmd82408!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/a2b1d2b8ddf52e2ed7c3cd7a491518ee/1040g2sg31ku5lqv1iuj05psp3cmjiegrcrc9hm8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/19dc284756800914e376f4ac779c2778/1040g2sg31ku5lqv1iug05psp3cmjiegre884ne0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/a0116227528ade3035dd2f6d20a9d329/1040g2sg31ku5lqv1iugg5psp3cmjiegr701fl2o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/9a490808a3ed1f3dd6a0118242f338ba/1040g2sg31ku5lqv1iuh05psp3cmjiegr53u1v28!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/7eac42f9ff4914165c9e57db994d668a/1040g2sg31ku5lqv1iui05psp3cmjiegro4rm6r0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/22e6d9fb94b5b534d8e5e7575b2cab80/1040g2sg31ku5lqv1iukg5psp3cmjiegr7pbrop0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/3df1763ebafa720af2182eb53fe9e2e3/1040g2sg31ku5lqv1iuhg5psp3cmjiegrifffr6o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/8ad864ecc1c3dd5c3e808b4a52565cc2/1040g2sg31ku5lqv1iue05psp3cmjiegrhn234p8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091321/0c6089f0d9b3fac0dedd32f7e3c9f7ba/1040g2sg31ku5lqv1iuig5psp3cmjiegr4ls0doo!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6895ffc800000000230324e1?xsec_token=ABsBhnrlJlUo5J10-Af4rc1MxdMU28e1UJyrfXCshD2aY=&xsec_source=pc_collect"
+}

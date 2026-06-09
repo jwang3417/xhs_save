@@ -1,0 +1,31 @@
+{
+  "id": "681e385c000000000f032f63",
+  "type": "normal",
+  "title": "KL散度必问八股系列之一",
+  "desc": "[种草R] 来自网易的一道有趣的面经: P是双峰分布，Q是正态分布，KL(P,Q)和KL(Q,P)有什么区别\n\t\n✅ 先说结论: 一般而言， KL(P || Q) 通常大于  KL(Q || P)。在双峰分布和单峰正态分布的情况下，这个规律特别明显，因为单峰分布无法很好的捕捉双峰分布的复杂性。\nKL(P || Q) 更强调用简单模型拟合复杂模型时的信息损失，而  KL(Q || P) 则是用复杂模型在简单模型的描述下剩余的信息损失。\n\t\n🎯 具体的分析过程请滑动图片查看\n\t\n✅ 更加详细地面经已经更新至大模型笔记中\n大模型笔记马上将迎来大更新，会丰富第六章大模型应用相关内容，将RAG与Agent的工业级方法和经验分享给大家，敬请关注٩(๑•̀ω•́๑)۶\n#互联网大厂[话题]# #大模型[话题]# #面经[话题]# #网易[话题]# #仅个人见解及分享[话题]# #llm大模型[话题]# #不同角度看问题[话题]# #找实习[话题]# #秋招[话题]# #kl散度[话题]#",
+  "tags": [
+    "互联网大厂",
+    "大模型",
+    "面经",
+    "网易",
+    "仅个人见解及分享",
+    "llm大模型",
+    "不同角度看问题",
+    "找实习",
+    "秋招",
+    "kl散度"
+  ],
+  "author": "开始摆烂的momo",
+  "authorId": "5eb02e37000000000100253f",
+  "time": 1746840616000,
+  "ipLocation": "",
+  "likes": "521",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091348/5a34a617259c1c672bf1462ae3dd56c3/1040g00831h96bjak3u605nlg5org899v3a8k7f8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091348/6d664bd3f957496396808cf61b8a1862/1040g00831h96bjak3u1g5nlg5org899vl0938jg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091348/0872cb1a4bfe36131e56abcf7e8bdb0c/1040g00831h96bjak3u3g5nlg5org899vgsvgeko!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091348/47a43ca5451581538729aedf3f739c94/1040g00831h96bjak3u4g5nlg5org899vfvsh5g8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/681e385c000000000f032f63?xsec_token=ABWAGqTvrLYot5_4RFvcbseah5X6L_40DwLYTmD3DhiYk=&xsec_source=pc_collect"
+}

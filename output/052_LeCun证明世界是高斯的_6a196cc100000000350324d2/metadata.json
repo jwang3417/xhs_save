@@ -1,0 +1,24 @@
+{
+  "id": "6a196cc100000000350324d2",
+  "type": "video",
+  "title": "LeCun证明世界是高斯的",
+  "desc": "LeCun最新论文证明：当世界底层变量服从高斯分布时，LeJEPA能真正还原真实结构！通过SIGReg约束嵌入为高斯分布，模型在机器人控制任务中实现与理想状态无差异的规划效果。这不仅为JEPA路线提供坚实理论支撑，也揭示了数据采样策略对世界模型构建的关键作用。\n#AI[话题]# #机器学习[话题]# #LeCun[话题]# #世界模型[话题]# #高斯分布[话题]# #深度学习[话题]#",
+  "tags": [
+    "AI",
+    "机器学习",
+    "LeCun",
+    "世界模型",
+    "高斯分布",
+    "深度学习"
+  ],
+  "author": "AI 主航道",
+  "authorId": "69db5c71000000003202d646",
+  "time": 1780051137000,
+  "ipLocation": "北京",
+  "likes": "445",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090706/3feb98986e39b338297fde8075e58acd/spectrum/1040g0k0320ogok7jli005qerbhoslli68gkv8o0!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v28.rednotecdn.com/stream/1/110/259/01ea196cbe1460b4010370039e7350ebbb_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a196cc100000000350324d2?xsec_token=ABAXnnN-omZQUnF4Jn0bYdtXb-GnSpXxyrynip89Jo1oo=&xsec_source=pc_collect"
+}

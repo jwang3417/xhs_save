@@ -1,0 +1,36 @@
+{
+  "id": "6988869a000000000d00985a",
+  "type": "normal",
+  "title": "如果评价Kaiming He的工作l-DAE？",
+  "desc": "🚩 本文源自Kaiming He团队在Meta时期的经典工作，旨在祛魅Diffusion Model在Representation Learning中的真实机理。文章通过系统性拆解，证伪了「高质量生成能力等同于强表征能力」的直觉假设，提出了l-DAE架构。\n🚩 核心洞察在于：Diffusion Model之所以能提取有效表征，并非依赖复杂的Multi-step Sampling或生成式Trick，而是源于Low-dimensional Latent Space下的Denoising Objective迫使模型重构高阶语义结构。具体内容包括：\n\t\n👉 生成与表征的解耦：\n1）Ablation Study：移除Class-conditioning与Perceptual Loss后，FID显著下降但Linear Probe Accuracy反而提升；\n2）结论：过度追求Generation Quality的组件往往会损害纯粹的Semantic Representation。\n\t\n👉 Tokenizer的极简主义：\n1）从VQGAN回归PCA：证明Deep Tokenizer并非必须，简单的Patch-wise PCA配合低维Latent Space足以实现高效表征；\n2）维度冗余论：High-dimensional Pixel Space引入高频纹理噪声，只有在低维子空间才能强制模型关注Context语义。\n\t\n👉 l-DAE架构与范式对比：\n1）回归DAE本源：摒弃多步采样，直接预测Clean Signal，与MAE殊途同归；\n2）性能对标：虽Linear Probe弱于Contrastive Learning（MoCo v3），但在Fine-tuning与Dense Prediction上对齐MAE，且具备良好的Scalability。\n\t\n（由于文字篇幅限制，具体细节麻烦大家移步图片～👆）\n\t\n#深度学习[话题]#\n#科研[话题]#\n#大模型[话题]#\n#计算机视觉[话题]#\n#扩散模型[话题]#\n#博士生日常[话题]#\n#多模态人工智能[话题]#\n#diffusion[话题]#",
+  "tags": [
+    "深度学习",
+    "科研",
+    "大模型",
+    "计算机视觉",
+    "扩散模型",
+    "博士生日常",
+    "多模态人工智能",
+    "diffusion"
+  ],
+  "author": "叫我Alonzo就好了",
+  "authorId": "632dbaa10000000023026ad9",
+  "time": 1771552832000,
+  "ipLocation": "",
+  "likes": "74",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090936/97d06e23d48e040294453c46119ed8be/spectrum/1040g34o31sb0ko0d585g5opdnagosqmpcputrmo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/a3a2147dcd4291c942ded1a1a5e4d761/spectrum/1040g34o31sb0ko0d58605opdnagosqmpp7jrlqg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/288251c757878b0eb99612ac1c4cd432/spectrum/1040g34o31sb0ko0d586g5opdnagosqmpurv9a0o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/809f1c1ddc5a922cf0cb8855d8db6857/spectrum/1040g34o31sb0ko0d58705opdnagosqmptlvhvk0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/10d08dcb2f6fbafa04ba526e53af90dd/spectrum/1040g34o31sb0ko0d587g5opdnagosqmpe5l8vs8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/6db426de669bc72ff87d688ea0581ab1/spectrum/1040g34o31sb0ko0d58805opdnagosqmp3bc8jm8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/e5f156cb7443172304402151dfd0f457/spectrum/1040g34o31sb0ko0d588g5opdnagosqmp0sqq2r8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/2a65f7fe103006ac569c4fafc28d524d/spectrum/1040g34o31sb0ko0d58905opdnagosqmpvluj39o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/10f8cba0ccbfdbacb64f5b8f29e1488e/spectrum/1040g34o31sb0ko0d589g5opdnagosqmpi13auvg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/fa5594726bca17fd59540c3b92034f05/spectrum/1040g34o31sb0ko0d58a05opdnagosqmpo8ashu8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090936/8302c6826d684a3650dc18b587d50668/spectrum/1040g34o31sb0ko0d58ag5opdnagosqmpsflu6s8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6988869a000000000d00985a?xsec_token=ABKXRp0izcoKwXnF_318wG3xPaBzgQQfTuN5WmY6hNvWE=&xsec_source=pc_collect"
+}

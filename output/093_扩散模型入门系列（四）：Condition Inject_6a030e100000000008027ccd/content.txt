@@ -1,0 +1,8 @@
+扩散模型入门系列（四）：Condition Inject
+
+扩散模型通过condition injection将文本编码注入网络，控制生成内容。CFG通过比较有条件和无条件denoising的差异，放大文本导向信号，显著提升生成质量，且几乎零成本。
+	
+#扩散模型入门[话题]# #ConditionInjection[话题]# #CFG[话题]# #ClassifierFreeGuidance[话题]# #计算机视觉[话题]# #AI入门[话题]##RED新生代创作大赛[话题]#
+
+
+标签: #扩散模型入门 #ConditionInjection #CFG #ClassifierFreeGuidance #计算机视觉 #AI入门 #RED新生代创作大赛

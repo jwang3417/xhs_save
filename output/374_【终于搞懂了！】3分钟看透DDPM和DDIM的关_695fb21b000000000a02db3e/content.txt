@@ -1,0 +1,8 @@
+【终于搞懂了！】3分钟看透DDPM和DDIM的关
+
+DDPM和DDIM是扩散模型的两种采样方法，DDPM按步走慢但保证边际分布不变，DDIM跳步快且保持边际分布一致。两者训练目标相同，但路径不同，无需重新训练。
+	
+#AI绘画[话题]# #DiffusionModel[话题]# #DDPM[话题]# #DDIM[话题]# #深度学习[话题]# #人工智能[话题]# #程序员[话题]# #学习笔记[话题]# #AIGC[话题]# # StableDiffusion #机器学习[话题]#
+
+
+标签: #AI绘画 #DiffusionModel #DDPM #DDIM #深度学习 #人工智能 #程序员 #学习笔记 #AIGC #机器学习

@@ -1,0 +1,8 @@
+OpenAI 灵魂人物Ilya 推荐的机器学习论文
+
+Sutskever 曾向 John Carmack （OpenAI 现总裁）提供一份约 30 篇左右的深度学习／AI 研究论文清单，并说：“If you really learn all of these, you’ll know 90% of what matters today.”
+更多 AI 学习干货，持续更新[微笑R]
+#ChatGPT[话题]# #AI学习[话题]# #大模型[话题]# #AI工具[话题]# #AI创业[话题]# #个人成长[话题]# #算法[话题]# #深度学习[话题]# #产品经理[话题]# #机器学习[话题]#
+
+
+标签: #ChatGPT #AI学习 #大模型 #AI工具 #AI创业 #个人成长 #算法 #深度学习 #产品经理 #机器学习

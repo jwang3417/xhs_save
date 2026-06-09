@@ -1,0 +1,28 @@
+{
+  "id": "68a091ca000000001d037f52",
+  "type": "normal",
+  "title": "没想到啊：DINOv3 横扫自监督 SOTA 🦖",
+  "desc": "说起计算机视觉，就绕不开李飞飞老师推动的 ImageNet 和大规模标注数据。那个时代，我们相信「数据为王」——只要有足够多的标注样本，就能训练出强大的视觉模型。然而，随着数据激增和场景扩展，标注成本和可获取性成为制约通用性的最大瓶颈。医学影像、遥感图像等领域，往往要依赖成千上万张人工标注，这比训练本身更耗时、更昂贵。\n🌟 DINOv3 的震撼\nMeta 最新开源的 DINOv3 让我感到震撼：它在 17 亿张无标注图像上，用自监督学习训练出 70 亿参数模型，专注于高质量、高分辨率的视觉特征。更关键的是，DINOv3 首次实现了单一冻结视觉骨干网络 (Single Frozen Backbone) 在分割、检测、深度估计、3D 对应等 密集预测任务中全面超越弱监督方案。\n🔄 范式转变：从专门网络到通用 backbone\n以前做 CV：\n分类要用 ResNet\n分割要用 U-Net\n检测要用 Faster R-CNN\n👉 每个任务都要单独设计网络\n现在有了 DINOv3：\n一个 backbone 通吃\n换个轻量 head 即可跑不同任务\n在多个 benchmark 上甚至超越专门网络\n这不仅是技术突破，更是工程效率的革命。\n💡 技术亮点\nGram Anchoring：解决长时间训练时密集特征退化问题，让 patch-level 特征保持一致性，避免“特征崩塌”。\nRoPE-box Jittering + 高分辨率适应：增强对分辨率与长宽比的鲁棒性，能在大图输入下依旧稳定，生成平滑连贯的特征。\n🎓 科研感受\n换成 DINOv3，我只需 几十张标注样本 + 一个轻量 head，就能得到接近甚至超越大规模监督的效果。\n🩺 医学影像：减少医生标注负担\n🚗 自动驾驶：在缺少标注时也能精准理解场景\n🌍 社区反馈\n开发者在 Reddit、Hacker News 上说（图 3）\n这让我觉得，DINOv3 并不仅是一次开源，而是科研与工业之间新秩序的信号。从 ImageNet 监督时代，到自监督视觉模型时代，我们正在见证一次范式转向：没有标签，模型依然能自我构建认知。用了 DINOv3，我才发现科研里最费力的环节——标注——正在被彻底改变。#DINOv3[话题]# #MetaAI[话题]# #自监督学习[话题]# #计算机视觉[话题]# #科研工具[话题]# #AI开源[话题]#",
+  "tags": [
+    "DINOv3",
+    "MetaAI",
+    "自监督学习",
+    "计算机视觉",
+    "科研工具",
+    "AI开源"
+  ],
+  "author": "从天而降的三块石",
+  "authorId": "600eeda4000000000101f1da",
+  "time": 1755353546000,
+  "ipLocation": "",
+  "likes": "83",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090937/3679292f37804a47aa5ca22533645322/notes_pre_post/1040g3k031l8fgfkk5o705o0etmi0bseqol5env0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090937/dad27e83560aca25f959516ebf06f65a/notes_pre_post/1040g3k031l8fgfkk5o7g5o0etmi0bseqhlgi1qo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090937/0ef56a12cab16baefe684e341c2de822/notes_pre_post/1040g3k031l8fgfkk5o805o0etmi0bseqa9qbq60!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090937/2808d51daeaee71c349c6e0c3b0f3c7b/notes_pre_post/1040g3k031l8fgfkk5o8g5o0etmi0bseqrna6rho!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090937/dad5686d7229a786be86af8e2c88abe3/notes_pre_post/1040g3k031l8fgfkk5o905o0etmi0bseqd8ifmk8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68a091ca000000001d037f52?xsec_token=ABZbm557EwP5pUGQZ74afZcFsW-9aY4bL9FBg1Hoambvc=&xsec_source=pc_collect"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "6a020fcb000000000800327b",
+  "type": "normal",
+  "title": "Google 用 LLM Agent 让推荐系统自己进化？",
+  "desc": "工业推荐系统中的迭代线路一直是改模型结构、重新定义奖励函数、设计新的优化算法，并把这些改动安全地推到线上 A/B 实验。然而，传统流程高度依赖 MLE 的人工假设、代码实现、训练验证和指标复盘，迭代速度天然受限。\n\t\n所以，Google 在这篇论文提出 Self-Evolving Recommendation System，把 LLM agents 作为自动化 MLE 来驱动端到端模型优化，把做“推荐大模型”变成做“优化系统的 agent”。\n\t\n系统分成两个闭环：Offline Agent 是快内环，负责读取历史实验、生成假设、写代码或配置 diff，并用离线 proxy metric 筛选候选；Online Agent 是慢外环，负责安全校验、训练导出、线上流量实验、监控 north-star metrics，并把线上结果写回 Experiment Journal。\n\t\n对于这些agents ，不只是做超参搜索，论文展示它们能发现优化器切换、训练效率改进、Gated Path 架构、激活函数 refinement，以及多目标 reward synthesis。\n\t\n最终实验结果在 YouTube 生产环境中，带来了多项 YouTube-level 和 surface-level 指标提升；实验吞吐也从人工流程的约 1-10 个/周提升到 agent workflow 的约 100 个/周。\n\t\n如果未来推荐系统可实现论文所构想的自演化能力，让模型主动参与业务逻辑与优化目标的自主定义，这一范式将远比一味扩充模型体量、重度依赖人工规则约束的推荐方案更具研究价值与落地意义。\n#推荐系统[话题]# #LLM[话题]# #大模型[话题]# #agent[话题]# #论文解读[话题]# #多智能体[话题]# #人工智能发展[话题]# #RED新生代创作大赛[话题]# #maker[话题]#",
+  "tags": [
+    "推荐系统",
+    "LLM",
+    "大模型",
+    "agent",
+    "论文解读",
+    "多智能体",
+    "人工智能发展",
+    "RED新生代创作大赛",
+    "maker"
+  ],
+  "author": "卡卡螺丝",
+  "authorId": "642d107f00000000110222ca",
+  "time": 1778520011000,
+  "ipLocation": "浙江",
+  "likes": "282",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090734/b24eab1f96acd837b0e942f722692a30/spectrum/1040g0k03201m6dbrl4005p1d21vkc8mar27c8io!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090734/fcdbe8ba936a92f9f775589e06836bef/spectrum/1040g34o3201m6gjsl6a05p1d21vkc8maab7s24o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090734/619de6afa7441385804341d209f29217/spectrum/1040g34o3201m6gjsl6ag5p1d21vkc8maplvl6so!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090734/2762f1302cc67de0f8fdeacb7a7a7e58/spectrum/1040g34o3201m6gjsl6b05p1d21vkc8masmml2rg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090734/08d843a56d54138dcfd21f6543ebb181/spectrum/1040g34o3201m6gjsl6bg5p1d21vkc8mac16v79g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090734/3fe55971c174c990f29016f613ce3d50/spectrum/1040g34o3201m6gjsl6c05p1d21vkc8mak5brvu0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090734/58cf14f3976c58729586caa036245e16/spectrum/1040g34o3201m6gjsl6cg5p1d21vkc8ma9ea7bs0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090734/0c1d312b5d787d1b55cd4d50bec289ab/spectrum/1040g34o3201m6gjsl6d05p1d21vkc8mam2oh9l0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090734/1fc90f17ea3c5af2ac58ad7b63f1e405/spectrum/1040g34o3201m6gjsl6dg5p1d21vkc8ma4vf7oj8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090734/f880d77c95c64f8c0457deb8a6be457e/spectrum/1040g34o3201m6gjsl6e05p1d21vkc8ma9ei70lo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090734/c4fa4a9c4f88bc72aea6ef47720b5b4d/spectrum/1040g34o3201m6gjsl6eg5p1d21vkc8martkqvgo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a020fcb000000000800327b?xsec_token=ABuoXWAIWWp4G_onKc_w7tu3eq22VeMY2jgDin4iCvyDU=&xsec_source=pc_collect"
+}

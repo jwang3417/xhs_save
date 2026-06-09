@@ -1,0 +1,43 @@
+{
+  "id": "6805f96b000000001c000ac3",
+  "type": "normal",
+  "title": "大厂面经16 | 字节seed大模型实习",
+  "desc": "🌈【字节seed大模型实习面经】💯\n👉🏻八股\n1. Llama的Decoder结构、位置编码有什么改进？\n2. 三角函数位置编码和ROPE的区别？\n他们是怎么实现不同的功能？\n3. 介绍一下RLHF流程，包括哪几步\n4. llm有哪些评估指标？如何评估模型？\n5. lora原理细节，为什么可以加速？什么是秩？\n6. 介绍下Reward model\n7. dpo训练的损失函数和训练目标\n8. 不做DPO，只做SFT可以吗？\n9. Deepseek中SFT冷启动了解吗？\n👉🏻手撕\n10. 给定长度为 n+1 的数组 nums，其中元素取值范围为 [1, n]，\n求唯一的重复数（力扣287）。\n11. 手写多头注意力MHA。\n#算法[话题]# #大厂[话题]# #面经[话题]# #大模型面试[话题]# #大厂算法[话题]# #秋招[话题]# #互联网大厂[话题]# #字节跳动[话题]# #算法实习[话题]# #大模型学习[话题]#",
+  "tags": [
+    "算法",
+    "大厂",
+    "面经",
+    "大模型面试",
+    "大厂算法",
+    "秋招",
+    "互联网大厂",
+    "字节跳动",
+    "算法实习",
+    "大模型学习"
+  ],
+  "author": "草莓师姐",
+  "authorId": "64966a4f0000000010034a32",
+  "time": 1745221995000,
+  "ipLocation": "",
+  "likes": "405",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091350/d81502cfcb7adb677679a468676ad94d/notes_pre_post/1040g3k031ghgob8pjo605p4md97k6ihic1ciam8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/711c5ef471d45b95c0e39e5308bdcb6d/notes_pre_post/1040g3k831ghgrb0djsag5p4md97k6ihigbl1qh8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/857dc32fef4dd4b5cec03f5243fa136f/notes_pre_post/1040g3k831ghgrb0djscg5p4md97k6ihiklfnj50!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/b516fee34d4964dc32442a687e68821b/notes_pre_post/1040g3k031ghgob8pjo505p4md97k6ihi74vh4ao!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/07e6ca71b7e849d3993ee5831d27ccee/notes_pre_post/1040g3k031ghgob8pjo005p4md97k6ihijg565ko!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/bbef66fd748f350b733df2cf4827acd2/notes_pre_post/1040g3k031ghgob8pjo6g5p4md97k6ihihic698o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/8cfbd9582df5dbda80744414ed64a2b9/notes_pre_post/1040g3k031ghgob8pjo1g5p4md97k6ihid6qlo38!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/3099568264aa7441456e4a7160e8b70e/notes_pre_post/1040g3k031ghgob8pjo405p4md97k6ihi8iobs08!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/661cdb8f502d9199e1385816453be3df/notes_pre_post/1040g3k031ghgob8pjo0g5p4md97k6ihib1tj7t8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/d5401bd77e9e1a16d2cc5301dcd55979/notes_pre_post/1040g3k031ghgob8pjo5g5p4md97k6ihit14mj40!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/9cd4b30d008cc1e8b72be46a76e19b53/notes_pre_post/1040g3k031ghgob8pjo105p4md97k6ihiqemdbu0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/1d8b6f7580dc36bc9acd73605f6c6a06/notes_pre_post/1040g3k031ghgob8pjo205p4md97k6ihi8lar81o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/b36d0e632ddd36cbb379ff8b5eec340a/notes_pre_post/1040g3k031ghgob8pjo2g5p4md97k6ihi35d1gpo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/642a7c17c8e643c73df486312cd523ee/notes_pre_post/1040g3k031ghgob8pjo3g5p4md97k6ihio5gqa68!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/ce68adafed9d861880f3f58f85a025f0/notes_pre_post/1040g3k031ghgob8pjo305p4md97k6ihi1dru5ho!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091350/41d45e0f4fd7d001b87f3ca56a4037ef/notes_pre_post/1040g3k031ghgob8pjo4g5p4md97k6ihi8fbe3m8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6805f96b000000001c000ac3?xsec_token=ABYIQnHMTlsiv4G8197PrDr4MZN6f4fKpPlJkLjHtUsvw=&xsec_source=pc_collect"
+}

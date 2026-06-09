@@ -1,0 +1,28 @@
+{
+  "id": "681dd4c50000000021000480",
+  "type": "normal",
+  "title": "GRPO原理/损失函数",
+  "desc": "如果看懂PPO，GRPO相对要简单很多，PPO理解难点主要是优势函数GAE的计算与状态价值模型的训练。\nGRPO：\n1.无需额外的价状态价值模型、减少计算量。\n2.KL惩罚放在损失函数中，直接使用RM计算优势值，简化优势函数。\n﻿#强化学习[话题]#﻿   ﻿#DeepSeek[话题]#﻿  ﻿#LLM[话题]#﻿   ﻿#大模型面试[话题]#﻿   ﻿#算法[话题]#﻿   ﻿#大模型面经[话题]#﻿   ﻿#AI[话题]#﻿   ﻿#ChatGPT[话题]#﻿   ﻿#深度强化学习[话题]#﻿ ﻿#GRPO[话题]#﻿﻿",
+  "tags": [
+    "强化学习",
+    "DeepSeek",
+    "LLM",
+    "大模型面试",
+    "算法",
+    "大模型面经",
+    "AI",
+    "ChatGPT",
+    "深度强化学习",
+    "GRPO"
+  ],
+  "author": "蓝泽",
+  "authorId": "5ff33bb7000000000100a53f",
+  "time": 1746785477000,
+  "ipLocation": "",
+  "likes": "49",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091345/c4d05c7c88990b78f7421015193fbe4b/spectrum/1040g0k031h8q99h2k2005nvj7erg999v4tqgclo!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/681dd4c50000000021000480?xsec_token=ABl2r8DTwuDh09R1jdJ35oPitGiNaKbU56sHZzcZ_imgA=&xsec_source=pc_collect"
+}

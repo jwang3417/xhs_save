@@ -1,0 +1,29 @@
+{
+  "id": "69583792000000001d03dd8b",
+  "type": "normal",
+  "title": "2025年12月必读多模态论文（个人向）",
+  "desc": "站在月为单位，AI的发展比我们想象的都快。以下是个人比较喜欢的12月份有趣的工作，不得不说聪明的研究者在这个领域实在是太多了。\n\t\n1️⃣ 视觉界的“GPT时刻”来了？🖼️\n📜 Paper: Next-Embedding Prediction Makes Strong Vision Learners 💡亮点： 就像GPT预测下一个字一样，视觉模型只要学会预测下一个Image Patch，就能强得离谱！\n❌ 不要负样本 ❌ 不要Tokenizer\n✅ ImageNet Top-1 飙到 85.3%！\n锐评： 以后视觉预训练可能真的要统一成Autoregressive了。\n\t\n2️⃣ （Kaiming组）一步生成，无须蒸馏\n📜 Paper: Improved Mean Flows 💡 亮点： 生成模型的新SOTA预定！\n以前做一步生成都要靠蒸馏，现在不用了！\n直接从头训练，一步就能生成高质量图片，FID低至1.72！\n锐评： 这简直是端侧部署的福音，速度快到飞起，质量还硬刚扩散模型！🚀\n\t\n3️⃣ 视频生成加速200倍？！🤯\n📜 Paper: TurboDiffusion 💡 亮点： 显卡救星！视频生成终于不用等通宵了！\n通过注意力机制优化 + 量化 + 步数蒸馏，把视频生成速度提升了 100-200倍！\n在 RTX 5090 上，生成视频只需要 1.9秒！😱\n锐评： 这个codebase全开源，是个学习diffusion加速的最佳资料。\n\t\n4️⃣ AI学会像导师一样给自己打分？🎓\n📜 Paper: Training AI Co-Scientists Using Rubric Rewards 💡 亮点： AI不再只是模仿写八股文，而是真的在搞科研！\n引入了评分标准，让AI学会自己评估实验方案逻辑。\n利用强化学习让模型在提出科研假设时更严谨、更像科学家。\n锐评： 探索在更困难，更长期，openworld的任务上如何设计reward是接下来ai发展的重点。\n\t\n5️⃣ 抛弃VAE！直接在语义空间作画 🎨\n📜 Paper: SVG-T2I 💡 亮点： 既然DINO这类视觉大模型理解能力那么强，为什么还要用VAE压缩？\n这篇直接把VAE扔了！👋让Diffusion直接在基模的特征空间里生成图像。\n锐评： 把VAE摘掉会是未来生成理解一体化的scaling law很重要的一步。\n\t\n#北美生活[话题]# #北美phd[话题]# #计算机视觉[话题]# #带你一起读论文[话题]# #多元化思维模型[话题]# #论文打卡[话题]#",
+  "tags": [
+    "北美生活",
+    "北美phd",
+    "计算机视觉",
+    "带你一起读论文",
+    "多元化思维模型",
+    "论文打卡"
+  ],
+  "author": "不要以为消耗100B tokens就能实现AGI",
+  "authorId": "5e0589090000000001003afc",
+  "time": 1767389074000,
+  "ipLocation": "",
+  "likes": "397",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090952/6deed9d8f18d9a48326bca62a673fafa/notes_pre_post/1040g3k831qrqj01ln08g5ng5h44g8ens3v4fml0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090952/d79ca105a8cbde84b526916529a8bb68/notes_pre_post/1040g3k831qrqj01ln0905ng5h44g8ens2vv06q8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090952/b849aad7f06e4937a31472dcb8754e74/notes_pre_post/1040g3k831qrqj01ln09g5ng5h44g8ensqomsnso!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090952/bc27add29fcdb43fe9c42770ee0c5d51/notes_pre_post/1040g3k831qrqj01ln0a05ng5h44g8ensoibr1j8!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090952/7b66da2fe12e8c9200ed38a5a0f798b5/notes_pre_post/1040g3k831qrqj01ln0ag5ng5h44g8ens82snijo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090952/ca085d51d6c814a2946a1e3d48baf241/notes_pre_post/1040g3k831qrqj01ln0b05ng5h44g8enslinv3pg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69583792000000001d03dd8b?xsec_token=ABpqsKmJLEmtJwipKIcXAW3LFEsPHw4wM2GtnRUIN6WH4=&xsec_source=pc_collect"
+}

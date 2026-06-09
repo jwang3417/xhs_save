@@ -1,0 +1,38 @@
+{
+  "id": "6a21a02c000000003502f8ac",
+  "type": "normal",
+  "title": "视频生成 Wan2.1 VAE Encoder Decoder",
+  "desc": "最近对生成很感兴趣，LLM上在看CS336总体感觉是算法很简单（哪怕是RL仔细推导也很容易）。另一块就是VAE/Diffusion/GAN/DiT，最前沿是video generation，由于spatial order和temporal causality的困难，我感觉现在还处在imitation这样的阶段（GPT3），架构更是繁琐复杂上天，因为压根找不到网课讲视频生成，所以博主自己把Wan2.1下下来并读论文[1]尝试入门，个人观感是论文写的很宏观又有点琐碎，直接结合code来学architecture就行，我和codex聊了3h差不多搞明白了，先梳理VAE Encoder和Decoder架构，明天再写一写DiT/Prompt Encoder/Training/Inference，主播之前对这领域一窍不通[哭惹R]也欢迎大家带带我。\n\t\n因为博主已经快把卷积是什么都给忘了，所以学习顺序是 CNN是什么 > convolution (conv) 怎么算，输入和输出维度的对应关系 > causal 3d conv 是什么。我觉得学习VAE Encoder 和 Decoder 的一个好的出发点是，\n1. 你自己想一想你有什么需求（channel mixing, temporal/weight/height 整合，特征提取，up/down sampling...)？\n2. 所以你要怎么设计卷积（causal 3d, 2d, temproal/spatial up/down sampling)？\n3. 有了这些卷积你应该分别怎么用 （对应到residual里，shortcut，降/升维分别用什么）\n\t\n有了这样一个想法，然后把整个encoder、decoder框架给仔细梳理一遍（包括norm、每层、activation等，完整细致的），并且对和自己直觉不同的再提问（比如upsampling里为什么spatial和temporal处理不同，但是downsampling其实可以认为是差不多的？cache chunk只是听起来比较fancy）结合架构图我感觉1-2h就可以从0把VAE细节给搞清楚。\n\t\n[1]. Wan: Open and Advanced Large-Scale Video Generative Models\n#视频生成[话题]# #Wan[话题]# ##深度学习[话题]# #生成模型[话题]# #多模态人工智能[话题]#",
+  "tags": [
+    "视频生成",
+    "Wan",
+    "深度学习",
+    "生成模型",
+    "多模态人工智能"
+  ],
+  "author": "你的大野牛来了！",
+  "authorId": "69abd8960000000032024e99",
+  "time": 1780588588000,
+  "ipLocation": "安徽",
+  "likes": "71",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090702/933d5d8e8f1f361272a31a75421bbee9/spectrum/1040g34o3210gumig74e05qdbr2bckjkpgjqa7d8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/18999a7391481ac939300a3c5ff387fe/spectrum/1040g34o3210gumig74eg5qdbr2bckjkp63hc0og!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/793a36dc9d30c428e3a7b9566eccfab8/spectrum/1040g34o3210gumig74f05qdbr2bckjkpj317fu8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/dae51f70c61fcdb28f89fd8f92f5194d/spectrum/1040g34o3210gumig74fg5qdbr2bckjkpvpi9dlg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/564c0cce24c9edbda86d4db5c85abfe8/spectrum/1040g34o3210gumig74g05qdbr2bckjkpran3oh0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/b91e252e55c4ee2ee7d7034c20151ae4/spectrum/1040g34o3210gumig74gg5qdbr2bckjkp7qbdsqg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/78c112574f974467d3fa0cd14f291a66/spectrum/1040g34o3210gumig74h05qdbr2bckjkpbkr7f20!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/7e5f3af1bcc77bdf4c5fd58c7acfbf82/spectrum/1040g34o3210gumig74hg5qdbr2bckjkp40isooo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/0df9422c960c75b0757ca3c87bd981a8/spectrum/1040g34o3210gumig74i05qdbr2bckjkpqolj818!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/9a772a89821be20b6f583506645cc972/spectrum/1040g34o3210gumig74ig5qdbr2bckjkphi2q1o8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/ef77aa00b6ac1f91f32c775682e33ae5/spectrum/1040g34o3210gumig74j05qdbr2bckjkp2cmjm7g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/0d00ba9c571a1f8b14694cf11a7fa143/spectrum/1040g34o3210gumig74jg5qdbr2bckjkp2qeqtt8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/890396ca9e690e1b1b971a2b498a9d8c/spectrum/1040g34o3210gumig74k05qdbr2bckjkp3pi7aa8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/0dc1e63ac7edef23bf9d9a8465441f47/spectrum/1040g34o3210gumig74kg5qdbr2bckjkp9g4tuh0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/b0ca31c65f675e9b1db9a0ad3cb69bd2/spectrum/1040g0k03210gumke74005qdbr2bckjkpdanha6o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090702/c9f4d501e5fe01dca53c52a65b4eb69c/spectrum/1040g0k03210gumke740g5qdbr2bckjkp2jd4mb8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a21a02c000000003502f8ac?xsec_token=ABwqZKtR87lK1xijUdQ9zui5IlSueGSWyqiEgdvqSzyE0=&xsec_source=pc_collect"
+}

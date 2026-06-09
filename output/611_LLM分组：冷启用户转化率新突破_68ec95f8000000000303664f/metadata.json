@@ -1,0 +1,26 @@
+{
+  "id": "68ec95f8000000000303664f",
+  "type": "normal",
+  "title": "LLM分组：冷启用户转化率新突破",
+  "desc": "📊arXiv 13-Oct-2025 LLM相关论文(20/97)\n🏠更多论文见主页/合集\n🌐arXiv ID: arXiv:2510.09393\n📚论文标题: ChoirRec: Semantic User Grouping via LLMs for Conversion Rate Prediction of Low-Activity Users\n🔍 问题背景：在大型电商推荐系统中，准确预测低活跃用户的转化率（CVR）是一大难题。这类用户的行为数据稀疏，传统方法难以捕捉其真实偏好，导致模型预测效果不佳，形成显著的业务鸿沟。\n💡 研究动机：现有方法面临三大局限：依赖噪声信号、用户信息不足、训练偏向高活跃用户。为解决这些问题，研究团队希望利用大语言模型（LLM）的语义理解能力，构建高质量的用户群体，为低活跃用户提供可靠的知识源。\n🚀 方法简介：本文提出的ChoirRec框架，通过LLM生成语义画像并构建跨活跃度的用户群组。框架包含三个模块：语义群组生成、群组感知分层表示和群组感知多粒度建模，共同实现从群组到个体的知识迁移。\n📊 实验设计：在淘宝平台进行了大规模离线与在线实验。离线评估中，ChoirRec在低活跃用户上的GAUC提升了1.16%；在线A/B测试则带来了7.24%的订单量增长，证明了其在真实场景中的巨大价值。\nChoirRec的核心创新在于系统性地利用LLM构建语义用户群组。首先，通过LLM分析用户的静态属性与行为数据，生成富含语义的画像，有效过滤噪声。随后，采用残差量化K均值（RQ-KMeans）算法对画像进行分层聚类，形成稳定且跨活跃度的语义群组，为知识迁移奠定基础。\n为解决低活跃用户信息不足的问题，ChoirRec设计了群组感知的分层表示系统。该系统从群组ID、属性统计和行为序列三个维度，生成丰富的群组先验知识，用以丰富稀疏的个体用户表示，有效弥补了数据缺失的短板。\n在模型训练阶段，为确保群组信号不被高活跃用户的强信号淹没，ChoirRec创新性地采用双通道架构。个体通道与群组通道独立学习，并通过非对称信息注入与门控知识蒸馏机制，实现高效且可控的知识迁移。最终，模型通过自适应融合，根据用户活跃度动态调整权重，精准赋能低活跃用户。\n实验结果充分验证了ChoirRec的有效性。离线评估显示，模型在低活跃用户上GAUC提升1.16%，且在用",
+  "tags": [],
+  "author": "🎃量子智心",
+  "authorId": "64d8bdc1000000000100f445",
+  "time": 1760335352000,
+  "ipLocation": "",
+  "likes": "72",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091106/ed82ee91ac89f0b03c612d330b2eec59/spectrum/1040g0k031ninha6b50005p6onn0g9t25qbsglto!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091106/480cd6cc1a695f6030243acd1b0c1e8f/spectrum/1040g0k031ninha6b500g5p6onn0g9t25cpsvt08!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091106/2444b4b4517ecde37ef5f6c5bebe0670/spectrum/1040g0k031ninha6b50105p6onn0g9t25hqs60no!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091106/7b9c2379522936154ce7c37bde65c8e5/spectrum/1040g0k031ninha6b501g5p6onn0g9t25csrjhqg!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091106/60ff6dcbee84134bf84bb5c6c56a2ebe/spectrum/1040g0k031ninha6b50205p6onn0g9t25m8huo6g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091106/53b423ceb4450a1f077e889b316bebc3/spectrum/1040g0k031ninha6b502g5p6onn0g9t252i40m0g!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091106/c7420cb1af9a72c35297a17ef3b8c393/spectrum/1040g0k031ninha6b50305p6onn0g9t25q5f0gn0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091106/38b779f9036abbcee24405e89f53d31e/spectrum/1040g0k031ninha6b503g5p6onn0g9t2503a1rag!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091106/3b54b5089c8135839e50b984cdc0c354/spectrum/1040g0k031ninha6b50405p6onn0g9t25s95dg30!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091106/66f1621aabde70cc391c58b031cf365a/spectrum/1040g0k031ninha6b504g5p6onn0g9t25f9a4kmg!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68ec95f8000000000303664f?xsec_token=AB7ZbwDRoGZ4PXfaA64FqhzyyjM0tzn9fx0HHkQxFrb-U=&xsec_source=pc_collect"
+}

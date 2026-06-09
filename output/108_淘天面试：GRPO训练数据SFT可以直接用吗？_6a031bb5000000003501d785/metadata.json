@@ -1,0 +1,39 @@
+{
+  "id": "6a031bb5000000003501d785",
+  "type": "normal",
+  "title": "淘天面试：GRPO训练数据SFT可以直接用吗？",
+  "desc": "和我过得比较好的一个朋友去淘天面试，被问到GRPO和SFT能否用同一份训练数据。他回答技术上可以，把SFT的Prompt抽出来配上奖励函数就能跑GRPO。面试官追问：假如SFT阶段喂的是LeetCode题解，直接拿这些题跑GRPO，有什么问题？他卡住了。\n\t\n问题在于LeetCode难度分布太散。简单题模型一次就做对，组内优势趋近于零；难题怎么采都错，一样没学习信号。更关键的是GRPO依赖可验证的奖励函数，比如代码能不能编译，而不是SFT那种比对参考答案。数据可以同源，但用法必须不同。SFT是装起跑线，GRPO是告诉它往哪跑。\n\t\n核心结论：技术上没问题，但实践中不建议直接复用。\nSFT是下一词元预测，模型拟合给定的输出分布，稳定但上限被数据锁死。GRPO让模型采样多个输出，通过奖励评分计算组内相对优势来更新策略。\n\t\nGRPO对数据有三重约束。第一，可验证性，数学和代码这类有天然二元逻辑的任务才适合，开放式写作没有客观标准，奖励信号噪声大。第二，难度分布，太简单或太难都会让组内优势归零，最有价值的是中等难度题。第三，数据格式，SFT需要完整配对，GRPO只需要Prompt，Completion由模型自己生成。\n\t\n同源数据在进入GRPO之前必须重新筛选处理，只保留可验证的任务，剔除难度两极化的样本，专门设计奖励函数。数据可以同源，但用法必须不同，两者需要的赛道本来就不一样。\n#大模型[话题]# #算法[话题]# #深度学习[话题]# #面经[话题]# #数据分析[话题]# #面试题[话题]# #产品经理[话题]# #java[话题]# #数据科学[话题]#",
+  "tags": [
+    "大模型",
+    "算法",
+    "深度学习",
+    "面经",
+    "数据分析",
+    "面试题",
+    "产品经理",
+    "java",
+    "数据科学"
+  ],
+  "author": "算法狗",
+  "authorId": "64db5d340000000001011d99",
+  "time": 1778588597000,
+  "ipLocation": "浙江",
+  "likes": "319",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090713/fe2e1d5f70c68ae7522513b1fc6f445e/spectrum/1040g34o3202nailuk8j05p6rbkq0a7cpsbjv4so!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090713/b76ab8ac92458a87a7664f8e2a9c002d/spectrum/1040g34o3202nailuk8d05p6rbkq0a7cpvqaee0o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090713/122d004866304512b42d482dfaa6e7ae/spectrum/1040g34o3202nailuk8dg5p6rbkq0a7cpnmgfdno!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090713/0370a16d2bec7f74995c131e9cb1ee06/spectrum/1040g34o3202nailuk8e05p6rbkq0a7cpss3al00!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090713/5b13c597b9eadeab0fe519683249a243/spectrum/1040g34o3202nailuk8eg5p6rbkq0a7cp9u5s5a0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090713/e583fbcb1a1695b461df00ebba9d6211/spectrum/1040g34o3202nailuk8f05p6rbkq0a7cpm4orse0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090713/34296ad9260b333c87d2ae1dc6d82044/spectrum/1040g34o3202nailuk8fg5p6rbkq0a7cprn5avj8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090713/3c980c1f6c20e9a51d902a9cc55e12fb/spectrum/1040g34o3202nailuk8g05p6rbkq0a7cps10fqdo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090713/341fe9f6e2e05d983b29d87d1994ba7d/spectrum/1040g34o3202nailuk8gg5p6rbkq0a7cpssuooq0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090713/4f12706050b5d85af29e37b866685d52/spectrum/1040g34o3202nailuk8h05p6rbkq0a7cpt8thgp0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090713/0896ca17333663013745c3222374de52/spectrum/1040g34o3202nailuk8hg5p6rbkq0a7cpt3tq3g8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090713/11311bd864f016ca1e9ac8a592393988/spectrum/1040g34o3202nailuk8i05p6rbkq0a7cp6b54fu8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090713/0280b384b18c193bb457ae4d20e20264/spectrum/1040g34o3202nailuk8ig5p6rbkq0a7cpv61ato8!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/6a031bb5000000003501d785?xsec_token=AB6v-Ms6NdWLc302pI1IT5hsKBGu723NQoj0FdBdNJ2jw=&xsec_source=pc_collect"
+}

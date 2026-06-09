@@ -1,0 +1,38 @@
+{
+  "id": "69eebce00000000022028af6",
+  "type": "normal",
+  "title": "ICLR 2026 大量LLMs相关Insights总结（二）",
+  "desc": "去ICLR会场转了一天，拍了许多个感兴趣的poster，抽时间把每篇的核心Insight都总结了一下。\n\t\n继续接上一篇的总结（进度20/40）\n主要是LLMs VLMs 后训练 推理 Agent 可解释性 具身智能 safety相关的\n\t\n更新：本系列共三期，目前已更新完结（共42个Insights），另外两期在其他笔记。\n感谢大家支持！\n#ICLR26[话题]# #ICLR[话题]# #iclr26[话题]# #论文总结[话题]# #科研分享[话题]# #论文分享[话题]# #故事汇[话题]# #大模型[话题]# #Agent[话题]#",
+  "tags": [
+    "ICLR26",
+    "ICLR",
+    "iclr26",
+    "论文总结",
+    "科研分享",
+    "论文分享",
+    "故事汇",
+    "大模型",
+    "Agent"
+  ],
+  "author": "幸运降临中",
+  "authorId": "5f96bb470000000001009db4",
+  "time": 1777253601000,
+  "ipLocation": "",
+  "likes": "677",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606090737/68fb68522163e8dcd1f650725a3aa9a3/notes_pre_post/1040g3k031verre4a2q205nsmnd3g97dkjmg7a9g!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/ee23ffe06fc005b9f6056535ff0b06c6/notes_pre_post/1040g3k031verre4a2q505nsmnd3g97dk72u8f3o!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/28d1ad189dab0fbec628cc3d66ac56ac/notes_pre_post/1040g3k031verre4a2q5g5nsmnd3g97dklonjh98!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/14502f7081e6b1fa50bc3a721c37cabd/notes_pre_post/1040g3k031verre4a2q605nsmnd3g97dk0k8k1vo!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/2b8220bd7bd2c0c8b1f8d0d04d9d757d/notes_pre_post/1040g3k031verre4a2q6g5nsmnd3g97dkiu82220!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/2812457a05db79ac242daeb0038c4f20/notes_pre_post/1040g3k831versrodjq705nsmnd3g97dk0pjurpg!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/1b909a02159049b0d49e5e258dc44bb9/notes_pre_post/1040g3k831versrodjq7g5nsmnd3g97dkv3ggf70!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/9bbea1e62e5ea1c68f10a0f641d110e8/notes_pre_post/1040g3k831versrodjq805nsmnd3g97dkk3qd118!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/b09f8910502f9b960e7221fffc8672bf/notes_pre_post/1040g3k831versrodjq8g5nsmnd3g97dklbokjl8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/e7d149b858a3064b63f7dba0df537d7b/notes_pre_post/1040g3k831versrodjq905nsmnd3g97dkcj2j6ig!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/70ba618b17ba6644c2139c99f6bf254b/notes_pre_post/1040g3k831versrodjq9g5nsmnd3g97dku5e1fn0!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606090737/452e646260e0e2a1e7de65c248abf715/notes_pre_post/1040g3k831versrodjqa05nsmnd3g97dkrf5kk50!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/69eebce00000000022028af6?xsec_token=ABKhRMiurey9lPra-y7zgF4tk6lRAVL8phRASN3r4pLIo=&xsec_source=pc_collect"
+}

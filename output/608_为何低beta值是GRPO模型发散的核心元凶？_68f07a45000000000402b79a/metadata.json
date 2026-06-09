@@ -1,0 +1,34 @@
+{
+  "id": "68f07a45000000000402b79a",
+  "type": "normal",
+  "title": "为何低beta值是GRPO模型发散的核心元凶？",
+  "desc": "GRPO生成内容驴唇不对马嘴，奖励模型被耍得团团转，KL 散度直接飙成 NaN，模型彻底 不受控，最后 100% 样本拒绝率让训练完全停摆，这些坑真的只是 beta 或学习率的问题吗？\n其实很多时候，找错了问题根源！这份资料从 “奖励 Hacking” 的底层逻辑，到 “KL 散度失衡” 的核心矛盾，帮你看透模型 “学坏” 的本质，不再被表面参数迷惑。\n不管是输出重复无意义、答案保守缺创意，还是模型完全不学习，都能对应找到场景化解决方案，精准 “对症下药”。\n遇到 100% 样本拒绝率时更不用慌，资料里的优先级调试清单，从数据、奖励模型到超参数，用一张图理清排查顺序，帮你快速定位问题。\n更有长期战略指导：什么时候该放弃 GRPO、果断切换到 DPO？帮你建立清晰决策思路，避免在错误方向上浪费时间！\n大模型面试题_大模型面试_面经_AI大模型\n\t\n﻿#大模型面试[话题]#﻿ ﻿#大模型[话题]#﻿ ﻿#面经[话题]#﻿ ﻿#GRPO[话题]#﻿ ﻿#DPO[话题]#﻿ ﻿#算法工程师[话题]#﻿ ﻿#AI工程师[话题]#﻿ ﻿#KL散度[话题]#﻿ ﻿#大模型学习[话题]#﻿ ﻿#技术干货[话题]#﻿",
+  "tags": [
+    "大模型面试",
+    "大模型",
+    "面经",
+    "GRPO",
+    "DPO",
+    "算法工程师",
+    "AI工程师",
+    "KL散度",
+    "大模型学习",
+    "技术干货"
+  ],
+  "author": "阿卡西猎人",
+  "authorId": "68898124000000002802949e",
+  "time": 1760615220000,
+  "ipLocation": "",
+  "likes": "7",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091105/07144d4d77d3790a36dedf8cea10db41/spectrum/1040g0k031nmgvq8el2005q49g4ia554unm199s8!nd_dft_wlteh_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091105/ed53225f60cfe425713dcba1266e6e31/spectrum/1040g0k031nmg3lbmku005q49g4ia554uf8v2k4o!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091105/6efdefe6a6f01336ba28f6406604130e/spectrum/1040g0k031nmg3lbmku0g5q49g4ia554u5janupo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091105/b92c97019e269551f3ec7f12c252d0c4/spectrum/1040g0k031nmg3lbmku105q49g4ia554ubmf98ro!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091105/0757ede68835551bb3170ac492636ff1/spectrum/1040g0k031nmg3lbmku1g5q49g4ia554upsct4eo!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091105/cfbeb48b375ccfd29bc769733feac3ad/spectrum/1040g34o31nmg8621ks2g5q49g4ia554uuageff0!nd_dft_wgth_webp_3?src=A",
+    "http://sns-web-i10.rednotecdn.com/202606091105/a7e8a45d8585b7eb16e41e5da9650e2e/spectrum/1040g34o31nmg8621ks305q49g4ia554u2aggpq8!nd_dft_wgth_webp_3?src=A"
+  ],
+  "video": null,
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68f07a45000000000402b79a?xsec_token=ABPlONAhZSc54MpCKC2bWGPsy004-31vyRPKJLbTB__ac=&xsec_source=pc_collect"
+}

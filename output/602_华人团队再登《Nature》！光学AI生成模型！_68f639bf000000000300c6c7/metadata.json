@@ -1,0 +1,27 @@
+{
+  "id": "68f639bf000000000300c6c7",
+  "type": "video",
+  "title": "华人团队再登《Nature》！光学AI生成模型！",
+  "desc": "当大模型为合成一张高清图像消耗大量算力时，一束光却能在纳秒级时间内完成复杂的信息传递。\n今天要精读的论文，不久前发表于《Nature》正刊，它跳出传统神经网络框架，打造出全新“光学生成模型”，彻底解决了传统AI生成的三大核心痛点：\n一、推理过程的高能耗与低速度\n二、模型规模扩大带来的扩展瓶颈\n三、生成任务与硬件架构的强绑定限制\n更关键的是，它能在可见光波段直接进行图像合成，几乎不消耗计算资源\n云组会，论文精读系列，图像生成新范式——《Optical generative models》#人工智能[话题]# #大模型[话题]# #深度学习[话题]# #论文[话题]# #Nature[话题]# #图像生成[话题]# #算力[话题]# #华人[话题]# #transformer[话题]#",
+  "tags": [
+    "人工智能",
+    "大模型",
+    "深度学习",
+    "论文",
+    "Nature",
+    "图像生成",
+    "算力",
+    "华人",
+    "transformer"
+  ],
+  "author": "Lau博士的云组会",
+  "authorId": "657690f4000000003d02a1ef",
+  "time": 1760967103000,
+  "ipLocation": "",
+  "likes": "1,570",
+  "images": [
+    "http://sns-web-i10.rednotecdn.com/202606091104/2f031f7458e8a91badb0785c5464569c/spectrum/1040g34o31ns4mlg34s0g5pbmi3qfd8ff1qvmf50!nd_dft_wlteh_webp_3?src=A"
+  ],
+  "video": "http://sns-v8.rednotecdn.com/stream/1/110/259/01e8f639af22e865010370039a01e133f3_259.mp4",
+  "source_url": "https://www.rednote.com/user/profile/6181a3eb000000001000da07/68f639bf000000000300c6c7?xsec_token=ABQJjhAZgBksBoC6b7dmVqIAG0ljI3xTU5WRsJtKmErI8=&xsec_source=pc_collect"
+}
